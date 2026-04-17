@@ -74,7 +74,7 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Exploration.md`가 최근 직접 갱신된 흔적은 없어 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행으로 공개 저장소 동기화를 진행했다.
 
-## 2026-04-17 | Fundamental 노드 점진 심화
+## 2026-04-17 | Communication · Fundamental 노드 점진 심화
 
 ### Data_Structure 단일 노드 갱신
 - 갱신 범위: [[mapped/Fundamental/Data_Structure]] 1개 페이지만 전면 재구성했다.
@@ -98,6 +98,14 @@
 - 정리: 영어 초안형 틀을 한국어 기준의 구조화된 페이지로 바꾸고, `Infra`, `Container`, `Devops`, `Web`와의 관계를 연결해 이후 원본이 채워질 때 점진 심화가 가능하도록 기반을 만들었다.
 - 선호 신호: 저자는 클라우드 주제를 아직 독립 서술로 확정하지 않았거나 다른 노트에 분산해 둔 상태로 보이며, 이런 경우 빈 칸을 억지로 메우기보다 경계와 질문을 남겨두는 편이 현재 선호에 더 가깝다.
 - 드리프트 점검: 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 여전히 비어 있고 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았으므로 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
+### Document 단일 노드 갱신
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 전면 재구성했다.
+- 탐구: 문서를 단순 기록이 아니라 팀의 질문, 판단, 온보딩, 트러블슈팅, 제품 설명을 연결하는 재사용 가능한 작업 기억 시스템으로 읽히도록 정리했다.
+- 정리: 초안형 발췌를 핵심 논지, 문서 유형, 판단 축, 반복 패턴, 히스토리 문서의 의미, 인접 노드 링크 중심의 한국어 페이지로 바꿨다.
+- 선호 신호: 저자는 문서를 보기 좋은 산출물보다 실제 재진입 비용을 줄이는 운영 장치로 보며, 자동 문서화와 경험 기반 수동 문서화를 함께 유지하려는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ## Current To-Dos / Follow-Up Directions
