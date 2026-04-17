@@ -124,6 +124,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Container 단일 노드 갱신
+- 갱신 범위: [[mapped/Deep Knowledge/Container]] 1개 페이지만 전면 재구성했다.
+- 탐구: 컨테이너를 Docker 기능 목록이 아니라 격리 원리, 이미지와 볼륨의 역할 분리, Dockerfile 신뢰성, 쿠버네티스 운영 복잡성, 핫픽스·롤백 체계까지 이어지는 운영 판단 노드로 읽히도록 정리했다.
+- 정리: 초안형 대응 문서를 한국어 기준의 구조화된 페이지로 바꾸고, 산발적인 메모를 `격리 원리 → 개발/배포 분리 → Dockerfile 기준 → 쿠버네티스 운영 → 반복 긴장` 흐름으로 재배열했다.
+- 선호 신호: 저자는 컨테이너를 단순 배포 도구보다 재현 가능한 운영 시스템의 핵심 부품으로 보며, 실서버 편의보다 이미지 버전 관리, 재빌드, 롤백, 관측 가능성을 더 중시하는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
