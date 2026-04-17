@@ -172,6 +172,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Coding.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Architecture 단일 노드 갱신
+- 갱신 범위: [[mapped/Fundamental/Architecture]] 1개 페이지만 강하게 재구성했다.
+- 탐구: `Architecture`를 아키텍처 패턴 목록이 아니라 변경 용이성, 일관성, 피드백 루프, 자동화의 신중한 도입, 팀이 감당할 수 있는 복잡도 관리의 기준 노드로 다시 읽히도록 정리했다.
+- 정리: 초안형 대응 문서를 한국어 기준의 구조화된 페이지로 바꾸고, 체크포인트·마이크로서비스·보안·자동화 메모를 하나의 판단 축 아래 재배열했다.
+- 선호 신호: 저자는 특정 방법론 이름보다 "무엇을 늦게 결정할 수 있는가", "어떻게 한 부분만 바꾸게 만들 것인가", "운영 현실에서 감당 가능한가"를 더 중요한 설계 질문으로 두는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Architecture.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
