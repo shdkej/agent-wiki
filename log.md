@@ -156,6 +156,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Music 단일 노드 갱신
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 전면 재구성했다.
+- 탐구: 음악을 감상 일반론이 아니라 베이스 입문, 타브 해석, 지판 감각, 손 역할 분해를 중심으로 한 학습 진입 노드로 다시 읽히도록 정리했다.
+- 정리: 매우 얇은 초안형 대응 문서를 핵심 논지, 원문 질문, 학습 축, 숨은 패턴, 인접 노드 링크 중심의 한국어 페이지로 바꿨다.
+- 선호 신호: 저자는 새로운 영역을 배울 때 거대한 이론 체계보다 바로 손을 움직일 수 있는 최소 질문, 기존 경험의 전이, 역할 분해형 학습을 선호하는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
