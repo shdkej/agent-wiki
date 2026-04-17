@@ -132,6 +132,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Feedback 단일 노드 갱신
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 전면 재구성했다.
+- 탐구: 피드백을 평가 코멘트가 아니라 사람, 시스템, 탐구, 회고를 다시 조정하는 응답 회로로 읽히도록 정리했다.
+- 정리: 초안형 대응 문서를 핵심 논지, 판단 축, 반복 패턴, 인접 노드 링크 중심의 한국어 페이지로 바꾸고 `Document`, `Talk`, `Routine`, `Decision`, `Monitoring`, `Exploration`과의 연결을 보강했다.
+- 선호 신호: 저자는 빠른 피드백을 선호하지만 인터럽트 비용과 노이즈를 함께 경계하며, 많은 정보보다 관측 가능하고 수정 가능한 구조를 더 중시하는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
