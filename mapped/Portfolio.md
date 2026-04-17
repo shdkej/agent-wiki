@@ -1,107 +1,135 @@
 # Portfolio
 
 - 원본: `source/shdkej-content/Portfolio.md`
-- Status: deepened mapped note
-- 역할: 원본 만다라트 노드와 1:1 대응하는 관리 노트
+- 상태: 점진 심화
+- 역할: 원본 만다라트 노드와 1:1 대응하는 루트 카테고리 페이지
 
-## 핵심 주장
-This note is not just a resume. It presents a professional identity: use minimalist thinking, automation, and infrastructure judgment to remove friction so other people can build faster and more safely. The repeated value is not raw complexity, but deliberate simplification that still scales.
+## 핵심 논지
+이 노드는 단순한 이력서가 아니다. 저자는 인프라와 운영을 "복잡한 것을 더 쌓는 일"보다 "불필요한 마찰을 줄여 다른 사람이 더 빨리, 더 안전하게 일하게 만드는 일"로 이해한다. 반복해서 드러나는 가치는 자동화 자체가 아니라, 자동화를 통해 배포 가능성, 안정성, 처리량, 비용, 운영 명료성을 함께 끌어올리는 판단력이다.
 
-## Why this node matters
-- It is a root-level category node for how technical work, execution style, and impact are framed.
-- It shows which outcomes the author counts as meaningful: throughput, stability, deployability, cost control, and operator clarity.
-- It reveals a durable preference for systems that reduce recurring human burden rather than heroic one-off fixes.
+## 왜 이 노드가 중요한가
+- 루트 레벨에서 기술적 정체성과 실행 스타일을 가장 직접적으로 드러내는 카테고리 노드다.
+- 무엇을 성과로 보는지, 즉 속도보다 재현성, 기능보다 운영 가능성, 단발성 해결보다 반복 가능한 구조를 중시한다는 점을 보여준다.
+- 이후 `Infra`, `Cloud`, `Devops`, `Document`, `Teamwork` 같은 주변 노드를 읽을 때 기준점이 되는 자기 소개형 지도 역할을 한다.
 
-## Durable capabilities surfaced by the source
+## 원본에서 드러나는 지속 패턴
 
-### 1. Infrastructure is treated as an enabler of developer focus
-The opening frame is consistent across projects: good operations work disappears into a stable, automated environment where developers can stay close to product work.
+### 1. 인프라는 개발자의 집중 시간을 지키기 위한 장치다
+서두의 미니멀리즘 문장은 단순한 취향 소개가 아니라 전체 프로젝트를 관통하는 기준이다.
+- 개발자가 개발 외 잡음에 덜 묶이도록 만든다.
+- 배포와 운영의 반복 부담을 줄인다.
+- 시스템을 더 많이 붙이는 대신, 꼭 필요한 구조만 남기려 한다.
 
-### 2. Scale problems are solved by redesigning flow, not only tuning parts
-The strongest examples are about rethinking architecture boundaries:
-- splitting work across Lambda invocations instead of forcing one function to do too much
-- choosing Kinesis after comparing queue characteristics
-- redesigning deployment and environment workflows instead of accepting manual branching pain
+즉 이 포트폴리오에서 인프라는 주인공이 아니라, 다른 일이 잘 일어나게 만드는 배경 시스템이다.
 
-### 3. Operational safety matters as much as speed
-Several projects optimize velocity, but always with safeguards:
-- deployment only after batch interruption checks
-- staged cluster migration rather than brittle in-place upgrade assumptions
-- automatic night shutdown with explicit restart structure
-- observability improvements to shorten failure diagnosis
+### 2. 병목은 튜닝보다 흐름 재설계로 푼다
+가장 강한 사례는 메시지 발송 시스템이다.
+- 단일 Lambda 내부 비동기 호출 한계를 억지로 밀어붙이지 않았다.
+- Lambda가 Lambda를 다시 호출하는 파이프라인 구조로 실행 모양 자체를 바꿨다.
+- SQS FIFO와 Kinesis를 비교 검증한 뒤, 처리량과 순서 보장의 균형에서 더 적합한 쪽을 택했다.
 
-### 4. Reusable systems beat repeated manual effort
-The note keeps converting repeated chores into repeatable mechanisms:
-- GitOps deployment flows
-- Slack deployment automation
-- Helm-based site rollout patterns
-- Cron-based cost scheduling
-- tracing dashboards and standardized troubleshooting views
+이 패턴은 "현재 구조를 더 열심히 최적화"하는 태도보다, "문제에 맞는 실행 형태를 다시 설계"하는 태도에 가깝다.
 
-## Project pattern map
+### 3. 속도는 항상 운영 안전장치와 함께 간다
+이 노드의 자동화는 빠르기만 한 자동화가 아니다.
+- 배치 서버 배포에서는 작업 중단 여부를 먼저 확인한다.
+- EKS 업그레이드는 위험한 제자리 업그레이드보다 신규 환경 생성과 마이그레이션으로 접근한다.
+- 야간 파드 스케줄러는 비용 절감이 목적이지만, 재시작 구조까지 함께 설계한다.
+- 로그 추적 시스템은 장애를 없애는 것이 아니라, 장애가 났을 때 더 빨리 이해하게 만든다.
 
-### High-throughput messaging architecture
-This project highlights a recurring strength: identify the real bottleneck, then redesign execution shape.
-- bottleneck: socket and throughput limits in a single execution path
-- move: pipeline-style Lambda fan-out and Kinesis-based flow design
-- durable lesson: scale often comes from matching workload shape to platform behavior, not from pushing harder on the same path
+즉 저자가 원하는 속도는 "실수해도 버티는 속도"에 가깝다.
 
-### EKS upgrade and platform migration
-This section is less about version numbers than about platform stewardship.
-- the author accepts migration as a multi-constraint coordination task
-- compatibility, networking, certificates, namespace behavior, and policy drift are all treated as part of one operational surface
-- durable lesson: infrastructure modernization is successful when hidden integration edges are anticipated, not when the main upgrade step alone succeeds
+### 4. 반복 업무는 사람의 숙련이 아니라 시스템의 기본 기능이 되어야 한다
+여러 프로젝트가 서로 다른 예시처럼 보이지만 공통된 방향이 있다.
+- Slack 배포 봇은 배포 절차를 공용 인터페이스로 바꾼다.
+- 버티컬 사이트 관리 시스템은 신규 사이트 추가를 표준 프로세스로 만든다.
+- CronJob 기반 야간 스케줄러는 운영자의 기억에 의존하던 작업을 구조로 옮긴다.
+- TraceID 로그 시스템은 트러블슈팅 감각을 검색 가능한 형태로 바꾼다.
 
-### Slack deployment automation and vertical-site rollout
-These two cases belong together because both turn deployment from specialist work into shared team capability.
-- one reduces environment friction for developers
-- the other standardizes expansion to new sites
-- durable lesson: platform work has leverage when it makes organizational repetition cheaper and safer
+반복되는 수작업을 줄이는 것이야말로 이 포트폴리오의 가장 일관된 레버리지다.
 
-### Cost and observability work
-The scheduler and logging sections show another recurring orientation: optimize what continues to hurt over time.
-- night shutdown converts predictable idle time into savings
-- traceable logs convert debugging chaos into guided inspection
-- durable lesson: mature infra work improves both money flow and attention flow
+## 프로젝트군별 해석
 
-## 숨은 패턴s across the note
+### 대용량 메시지 아키텍처
+이 사례는 처리량 숫자보다 "병목 감지와 구조 전환" 능력을 보여준다.
+- 외부 API 한도, 소켓 부족, 누락 위험을 하나의 흐름 문제로 읽는다.
+- Kinesis 압축, Lambda 병렬화, 트리거 튜닝을 따로 놀지 않게 연결한다.
+- 결과적으로 성능 향상뿐 아니라 안정적 호출과 누락 방지까지 함께 달성한다.
 
-### Minimalism as systems design
-The stated minimalist philosophy is not aesthetic only. In practice it means:
-- remove avoidable steps
-- reduce manual branching and coordination burden
-- keep only the infrastructure complexity that earns its keep
-- favor mechanisms that developers can actually operate
+이 프로젝트는 저자가 대규모 처리 문제를 성능 튜닝 문제가 아니라 시스템 모양의 문제로 보는 사람임을 잘 보여준다.
 
-### Platform thinking over ticket-by-ticket execution
-Even when examples are project-specific, the note keeps pushing toward shared internal platforms, standard flows, and reusable deployment shapes.
+### EKS 업그레이드와 플랫폼 마이그레이션
+이 사례의 핵심은 쿠버네티스 버전 숫자가 아니다.
+- 네트워크, 인증서, 정책, 네임스페이스, ArgoCD 호환성처럼 경계면 곳곳을 함께 다룬다.
+- 단순 업그레이드 작업이 아니라 운영 플랫폼 전환으로 이해한다.
+- 해결 과정 문서화까지 성과로 포함한다.
 
-### Evidence-minded decision making
-Multiple sections mention comparison, validation, testing, cost analysis, or documentation. The pattern is to justify infrastructure choices through tradeoff reading rather than tool fashion.
+즉 현대화 작업을 "새 버전 적용"이 아니라 "숨은 통합면을 다시 맞추는 운영 설계"로 읽고 있다.
 
-## Tensions worth preserving
-- simplification vs oversimplification
-- speed vs rollback safety
-- flexibility for developers vs centralized platform control
-- cloud convenience vs cost discipline
-- automation leverage vs hidden operational coupling
+### Slack 배포 자동화와 버티컬 사이트 관리
+이 두 사례는 묶어 읽는 편이 더 선명하다.
+- 하나는 개발자의 테스트 배포 진입 비용을 줄인다.
+- 다른 하나는 서비스 확장을 위한 인프라 추가 작업을 표준화한다.
+- 둘 다 특정 운영자만 아는 절차를 팀이 사용할 수 있는 플랫폼 기능으로 바꾼다.
 
-These tensions matter because the source note does not argue for blind automation. It argues for controlled simplification.
+이 포트폴리오에서 좋은 플랫폼 작업은 내부 전문성을 과시하는 일이 아니라, 다른 사람이 스스로 움직일 수 있게 만드는 일이다.
 
-## Cleaning decisions in this mapped page
-- Reframed the source from a long achievement list into a clearer capability map while preserving the original topic.
-- Grouped related projects by durable operating pattern so the note is easier to scan and reuse.
-- Reduced repetition across automation, deployment, and optimization examples without erasing concrete achievements.
-- Kept the page inside the Portfolio boundary: this remains a professional profile node, not a generic DevOps handbook.
+### 비용 최적화와 관찰성 개선
+야간 파드 스케줄러, CloudFront 비용 분석, TraceID 로그 구축은 모두 "계속 아픈 지점"을 줄이는 작업이다.
+- 유휴 시간은 비용 낭비로 읽고 스케줄링 구조로 바꾼다.
+- 새로운 기능 제안은 가능성만 보지 않고 트래픽과 요금으로 계산한다.
+- 로그는 쌓는 것보다 추적 가능하게 설계하는 것이 중요하다고 본다.
 
-## Future-relevant links
-- [[../Fundamental/Architecture]]
-- [[../Deep Knowledge/Infra]]
-- [[../Deep Knowledge/Cloud]]
-- [[../Communication/Teamwork]]
-- [[../Meta/Developer]]
+여기서 드러나는 것은 기술 선호보다 운영 감각이다. 돈과 시간과 주의력을 모두 인프라 자원으로 취급한다.
 
-## Follow-up questions
-- Which projects best show the author's design taste, not just delivery record?
-- Where does minimalism create real leverage, and where might it hide maintenance risk?
-- Which portfolio stories could be turned into separate synthesis notes about platform leverage, safe automation, or cost-aware systems design?
+## 숨은 선호와 작업 스타일
+
+### 미니멀리즘은 미학이 아니라 운영 철학이다
+원본의 미니멀리즘은 "적게 만든다"보다 아래에 가깝다.
+- 빼도 되는 수동 단계는 뺀다.
+- 남겨야 하는 복잡성만 남긴다.
+- 팀이 실제로 사용할 수 있는 구조를 우선한다.
+- 자동화가 오히려 숨은 결합도를 키우는지 계속 경계한다.
+
+### 플랫폼화 성향이 강하다
+개별 프로젝트를 설명하지만 결과는 늘 공용 시스템으로 수렴한다.
+- 배포 자동화
+- GitOps 운영
+- Helm 차트 표준화
+- 운영 체크와 대시보드 정리
+
+즉 티켓 단위 해결보다 "다음에도 다시 쓰일 구조"를 선호한다.
+
+### 판단 근거를 남기는 편이다
+여러 사례에서 비교, 검증, 비용 계산, 문서화가 등장한다.
+- 도구를 유행으로 선택하기보다 비교 후 선택한다.
+- 성과를 속도만이 아니라 안정화와 재현성으로 설명한다.
+- 작업 결과를 문서화해 이후 시간을 절약하려 한다.
+
+## 보존해야 할 긴장
+- 단순화와 과도한 추상화 사이의 긴장
+- 배포 속도와 롤백 안전성 사이의 긴장
+- 개발자 자율성과 플랫폼 통제 사이의 긴장
+- 클라우드 편의성과 비용 규율 사이의 긴장
+- 자동화의 레버리지와 숨은 운영 결합도 사이의 긴장
+
+이 긴장을 남겨두는 것이 중요하다. 원본은 무조건 더 자동화하자는 문서가 아니라, 통제된 단순화를 통해 운영 품질을 높이려는 문서이기 때문이다.
+
+## 이번 심화에서 강화한 점
+- 기존 영어 중심 초안을 한국어 기본 문서로 정리해 다른 mapped 노트와 언어 규칙을 맞췄다.
+- 프로젝트 나열을 유지하되, 각 사례가 어떤 운영 판단을 드러내는지 보이도록 묶음을 재구성했다.
+- `포트폴리오 = 성과 목록`이 아니라 `포트폴리오 = 시스템 설계 성향이 드러나는 루트 노드`라는 해석을 더 분명히 했다.
+- 기술 스택 열거를 줄이고, 병목 감지, 안전장치, 플랫폼화, 비용 감각 같은 재사용 가능한 패턴을 앞으로 가져왔다.
+
+## 인접 노드 연결
+- [[Deep Knowledge/Infra]]
+- [[Deep Knowledge/Cloud]]
+- [[Deep Knowledge/Devops]]
+- [[Communication/Document]]
+- [[Communication/Teamwork]]
+- [[Meta/About_Development]]
+
+## 다음에 더 볼 질문
+- 이 포트폴리오에서 가장 "저자다운" 사례는 규모가 큰 프로젝트인가, 아니면 반복 업무를 구조로 바꾼 작은 자동화 사례인가?
+- 비용 최적화, 관찰성, 배포 자동화는 하나의 운영 철학으로 묶일 수 있는가?
+- 이 노드에서 따로 분리 가능한 상위 synthesis 주제는 무엇인가. 예를 들면 `안전한 자동화`, `플랫폼 레버리지`, `비용 감각 있는 인프라` 같은 축이다.

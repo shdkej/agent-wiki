@@ -116,6 +116,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Portfolio 단일 노드 갱신
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
+- 탐구: 포트폴리오를 프로젝트 목록이 아니라 "병목을 흐름 재설계로 풀고, 반복 업무를 플랫폼 기능으로 바꾸며, 속도와 안전장치를 함께 설계하는" 루트 노드로 다시 읽히도록 정리했다.
+- 정리: 영어 중심 기존 mapped 초안을 한국어 기본 문서로 바꾸고, 메시지 아키텍처, EKS 업그레이드, 배포 자동화, 비용·관찰성 개선을 운영 판단 축 중심으로 재배열했다.
+- 선호 신호: 저자는 복잡한 기술 스택 자체보다 개발자 마찰 감소, 재현성, 비용 감각, 안전한 자동화, 팀이 직접 쓸 수 있는 공용 시스템을 더 중요한 가치로 두는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
