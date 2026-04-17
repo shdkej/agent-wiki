@@ -142,6 +142,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Portfolio 단일 노드 재심화
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 추가 심화했다.
+- 탐구: 프로젝트 나열을 다시 읽어, 개별 성과보다 `흐름 재설계`, `공용 자동화`, `비용 감각`, `재진입 가능한 운영 구조`라는 반복 역량이 드러나도록 정리했다.
+- 정리: 기존 baseline은 유지한 채 `프로젝트별 역량 매핑`, `원본 서술 습관에서 읽히는 신호`, `[[CHANGELOG]]와의 스케일 비교`를 보강해 루트 노드로서의 해석력과 연결성을 높였다.
+- 선호 신호: 저자는 포트폴리오에서도 기술 이름보다 문제 정의, 판단 근거, 수치로 검증된 운영 개선, 문서화된 재사용성을 더 중요한 성과 언어로 쓰는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Feedback 단일 노드 갱신
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 전면 재구성했다.
 - 탐구: 피드백을 평가 코멘트가 아니라 사람, 시스템, 탐구, 회고를 다시 조정하는 응답 회로로 읽히도록 정리했다.
