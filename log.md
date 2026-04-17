@@ -181,6 +181,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Architecture.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Blogging 단일 노드 갱신
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 전면 재구성했다.
+- 탐구: 블로깅을 글쓰기 팁 모음이 아니라 파편화된 메모를 만다라트 구조 안에서 축적하고, 충분히 숙성된 내용을 독자용 산출물로 꺼내는 지식 발행 시스템으로 읽히도록 정리했다.
+- 정리: 41줄짜리 초안형 대응 문서를 한국어 기준의 구조화된 페이지로 바꾸고, 위키와 블로그의 역할 차이, 주제 제한의 의미, 경험 기반 글쓰기 선호, AI·번역·영상까지 이어지는 편집 감각을 한 축으로 묶었다.
+- 선호 신호: 저자는 새 글을 무한히 늘리기보다 제한된 주제를 반복 개선하는 방식을 선호하며, AI나 템플릿을 보조 도구로 쓰더라도 최종 글의 목소리와 선택 이유는 반드시 자기 경험과 자기 언어에 남겨 두려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Blogging.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
