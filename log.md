@@ -164,6 +164,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Coding 단일 노드 갱신
+- 갱신 범위: [[mapped/Fundamental/Coding]] 1개 페이지만 강하게 재구성했다.
+- 탐구: `Coding`을 문법 목록이 아니라 변경 용이성, 테스트 가능성, 실패 처리, 언어 철학 비교가 겹쳐 있는 기반 카테고리 노드로 읽히도록 다시 묶었다.
+- 정리: 41줄짜리 초안형 대응 문서를 핵심 논지, 설계 원칙, 테스트, 에러 처리, 컨벤션, 언어별 메모의 공통 축, 실천 체크리스트 중심의 한국어 페이지로 전면 재작성했다.
+- 선호 신호: 저자는 코딩을 취향이나 문체보다 변경 반경 축소, 경계 조건 대응, 호출자 책임, 명시적 구조, 언어 철학 존중의 문제로 다루는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Coding.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
