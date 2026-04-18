@@ -18,6 +18,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/My_space.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### About_Architecture 단일 노드 갱신
+- 갱신 범위: [[mapped/Meta/About_Architecture]] 1개 페이지만 기준선 수준으로 전면 재구성했다.
+- 탐구: 아키텍처 메모를 패턴 요약이 아니라 확장성, 부분 교체, 기술 종속성 통제, 모듈화의 적정선, 공통 입출력 구조를 함께 다루는 `변화 대응형 운영 설계` 메타 노드로 읽히도록 정리했다.
+- 정리: 1차 대응 초안을 한국어 기준의 구조화된 페이지로 바꾸고, 확장성, portability, 모듈, 분산, 라이브러리 분리, 레고식 input-logic-output 구조를 하나의 판단 축 아래 재배열했다.
+- 선호 신호: 저자는 아키텍처를 화려한 스타일 선택보다 교체 가능성, 복구 가능성, 관리 가능한 의존성, 사람이 길을 잃지 않는 공통 문법의 문제로 다루는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-14 | Initial setup
 
 ### Workspace bootstrap
