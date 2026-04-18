@@ -280,6 +280,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Portfolio 단일 노드 갱신
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
+- 탐구: 포트폴리오를 기술 스택 소개보다, 서로 다른 운영 인터페이스가 충돌하는 지점을 어떻게 다시 설계하는지 보여주는 루트 노드로 더 선명하게 읽히도록 다듬었다.
+- 정리: 기존 baseline은 유지한 채 `포트폴리오의 문장 문법에서 더 읽히는 것`을 추가하고, 성과 숫자보다 인터페이스 마찰과 재설계 전후의 흐름 차이가 핵심이라는 점을 보강했다.
+- 선호 신호: 저자는 포트폴리오에서도 화려한 결과 수치 자체보다, 개발자 경험·배포 통제·비용·처리량·운영 안정성의 경계면을 조정한 판단 과정을 더 중요한 성과 언어로 쓰는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
