@@ -256,6 +256,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### blog/My_space 단일 노드 갱신
+- 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 기준선 수준으로 전면 재구성했다.
+- 탐구: 개인 서버 메모를 단순 호스팅 비교가 아니라 비용 제약 안에서 배포, 관측, 복구를 모두 감당하려는 `개인 플랫폼 운영 설계` 노드로 읽히도록 정리했다.
+- 정리: 초안형 대응 문서를 한국어 기준의 구조화된 페이지로 바꾸고, 비용 탐색, 쿠버네티스 실험 과제, DigitalOcean 시행착오, 최소 인프라 정의, 재구축 가능성의 의미를 한 흐름으로 재배열했다.
+- 선호 신호: 저자는 개인 인프라에서도 화려한 확장보다 재구축 가능성, 배포 책임 분리, 상태 관측, 작은 비용 안에서의 지속 가능성을 더 중요한 기준으로 두는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/My_space.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
