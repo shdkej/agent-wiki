@@ -43,6 +43,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Product 단일 노드 갱신
+- 갱신 범위: [[mapped/Deep Knowledge/Product]] 1개 페이지만 기준선 수준으로 전면 재구성했다.
+- 탐구: 제품 메모를 기능 아이디어 목록이 아니라 `편집 역량`, `고객 저항`, `빠른 검증`, `지표 기반 반복`, `인간 심리와 패키징`이 겹쳐 있는 상위 카테고리 노드로 읽히도록 정리했다.
+- 정리: 얇은 1차 대응 문서를 한국어 기준의 구조화된 페이지로 바꾸고, 비전·전략·로드맵·측정·A/B 테스트·자동화·심리 메모를 하나의 제품 판단 흐름으로 재배열했다.
+- 선호 신호: 저자는 제품을 기능 집합보다 사람들이 실제로 써보고 결제하고 남게 만드는 경험 설계 문제로 다루며, 기술 우월성 자체보다 래핑, 설명, 진입 저항 감소, 실험 가능한 운영 구조를 더 중시하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-14 | Initial setup
 
 ### Workspace bootstrap
