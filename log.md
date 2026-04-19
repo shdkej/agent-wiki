@@ -70,6 +70,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Web.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### AI 단일 노드 재심화
+- 갱신 범위: [[mapped/Deep Knowledge/AI]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽어, `AI`가 모델 요약보다 `개념 지도 + AI 작업 시스템 + 서비스 운영 체크리스트`가 겹쳐 있는 상위 카테고리 노드라는 점을 더 선명하게 정리했다.
+- 정리: 기존 baseline은 유지한 채 `카테고리 노드로 읽는 기준`, `에이전트 설계 판단 축`, `문서가 곧 AI의 기억이라는 관점`, `AI 친화적 개발과 운영 루프`, `AI 제품 체크리스트`, `ML/MLOps 메모의 위치`를 보강했다.
+- 선호 신호: 저자는 AI를 신기한 모델보다 문서 기반 작업 체계의 일부로 보며, 프롬프트 요령보다 기준 문서, 역할 분리, 로그 확인, 검증, 복원 가능 상태를 더 중시하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-18 | Meta 노드 점진 심화
 
 ### Portfolio 단일 노드 재심화
