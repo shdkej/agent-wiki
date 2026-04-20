@@ -1,41 +1,210 @@
 # EKS_with_terraform
 
 - 원본: `source/shdkej-content/blog/EKS_with_terraform.md`
-- 상태: 1차 대응 노트
+- 상태: 기준선 재구성 완료
 - 역할: 원본 만다라트 노드와 1:1 대응하는 관리 노트
 
-## 주제 보존
-이 페이지는 **EKS_with_terraform**의 원래 주제를 보존하며, 주제 드리프트가 아니라 탐구와 정리를 통해 개선되어야 한다.
+## 핵심 요약
+이 노드는 EKS를 이론적으로 설명하려는 문서가 아니라, **Terraform으로 EKS를 직접 올려 보면서 쿠버네티스 관리형 서비스가 실제로 무엇을 대신해 주고 무엇은 여전히 사용자가 챙겨야 하는지 확인하는 실험 기록**이다. 핵심은 `managed Kubernetes`라는 말에 기대기보다, 클러스터, VPC, 서브넷, IAM, 노드 그룹, kubeconfig, HPA, Cluster Autoscaler까지 하나씩 손으로 만져 보며 경계를 확인하는 데 있다.
 
-## 1차 읽기
-쿠버네티스 관리를 클라우드에 맡기고 쿠버네티스의 기능만 쓰게 해주는 EKS를 알아봅시다. Terraform으로 EKS를 올리면서 구성요소는 어떤 것이 있는지 확인해보려고 해요. 모듈을 사용하는 것보다 하나씩 리소스를 선언해보는게 기본 구조를 파악하기 위해 좋을 것 같아요. 수 있습니다. 첫번째 예제(terraform-provider)를 참조해서 알아보도록 하겠습니다. ``` git clone https://github.com/terraform-providers/terraform-provider-aws.git
+## 이 노드가 실제로 답하려는 질문
+- Terraform으로 EKS를 만들 때 최소 뼈대는 무엇인가?
+- EKS는 관리형이지만 어떤 리소스는 여전히 직접 구성해야 하는가?
+- 클러스터가 떠도 왜 바로 쓸 수 없는가?
+- HPA와 Cluster Autoscaler는 어떤 식으로 다르고, 실제 테스트에서는 어디서 막히는가?
+- 클라우드 관리형 쿠버네티스가 운영 부담을 얼마나 줄여 주는지, 또 무엇은 남겨 두는지 어떻게 판단할 수 있는가?
 
-## 원문에서 보이는 구조
-- Terraform 을 이용해서 EKS 익히기
-- 미리 셋팅 돼야하는 것들
-- EKS의 기본 리소스
-- 클러스터 생성
-- providers.tf
-- eks-cluster.tf
-- eks-cluster.tf
-- vpc.tf
+## 핵심 논지
+1. **이 글의 출발점은 모듈 사용보다 구조 이해다.**
+   - 작성자는 EKS를 빨리 띄우는 것보다, `aws_eks_cluster`, VPC, subnet, IAM, node group이 어떻게 맞물리는지 직접 보고 싶어 한다.
+   - 그래서 Terraform 모듈보다 provider 예제를 따라가며 뼈대를 확인한다.
+2. **EKS는 관리형이지만 클러스터만 선언한다고 끝나지 않는다.**
+   - control plane은 AWS가 관리해 주지만, 네트워크와 권한, 노드 그룹, 로컬 접속 구성은 여전히 사용자가 맞춰야 한다.
+   - 이 점이 원문 전체에서 반복해서 드러난다.
+3. **실전 이해는 문서보다 시행착오에서 더 많이 나온다.**
+   - 문서만 보면 worker node를 따로 만들어야 한다는 감각이 약했는데, 예제와 실제 생성 과정을 보며 그 필요를 체감한다.
+   - `Ec2SubnetInvalidConfiguration`, `aws-iam-authenticator not found` 같은 오류가 오히려 구조를 더 선명하게 드러낸다.
+4. **이 노드는 완결된 구축 가이드보다 탐색 로그에 가깝다.**
+   - HPA는 간단히 확인되지만 Cluster Autoscaler는 끝까지 매끈하게 정리되지 않는다.
+   - 그래서 이 페이지는 성공 사례 요약보다, 어디까지 확인했고 어디서 미해결이 남았는지를 보존하는 편이 더 정확하다.
 
-## 초기 추출
-- aws 계정과 credential (~/.aws/credentials)
-- terraform 설치
+## 구조 재정리
+
+### 1. 왜 Terraform으로 EKS를 익히려 했는가
+원문은 EKS 소개로 시작하지만, 실제 관심은 쿠버네티스 개념 설명보다 **구성 요소의 실제 연결 구조**에 있다.
+
+- AWS 계정과 credential
+- Terraform
 - kubectl
-- eks-cluster
-- eks-worker-nodes
-- vpc
-- iam
-- [terraform-provider](https://github.com/hashicorp/terraform-provider-aws/tree/main/examples/eks-getting-started) 에서는 테라폼이 제공해주는 소스로, 모듈 없이 뼈대를 알아볼
-- [terraform-aws-modules](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/basic) 에서는 모듈로 eks를 제공해주고 있습니다.
-- [terraform 공식 가이드](https://learn.hashicorp.com/tutorials/terraform/eks)
+- EKS cluster
+- worker node
+- VPC
+- IAM
 
-## 탐구 / 정리 방향
-- 탐구: 원문 표현을 넘어 이 노트를 오래 가치 있게 만드는 생각, 질문, 연결점을 찾는다.
-- 정리: 중복을 줄이고, 문장을 다듬고, 구조를 보존하면서 훑어보기와 재사용이 쉬워지게 만든다.
-- 제약: 관리 노트는 500줄 이하를 유지하고, 다른 주제로 바꾸지 않는다.
+즉, 이 노드는 "EKS란 무엇인가"보다 "EKS를 띄우려면 어떤 경계들을 같이 건드려야 하는가"를 익히는 입문 실험이다.
 
-## 관련 문서
-- [[../../sources/blog]]
+### 2. 모듈보다 뼈대를 먼저 보는 이유
+작성자는 일부러 모듈을 바로 쓰지 않는다. 이유는 분명하다.
+
+- 모듈은 빠르지만 내부 구조를 감춘다.
+- 기본 리소스를 하나씩 선언하면 필수 의존관계가 보인다.
+- `aws_eks_cluster`가 `role_arn`, `vpc_config.subnet_ids`를 요구하는 순간, IAM과 네트워크가 EKS의 바깥이 아니라 핵심 전제라는 점이 드러난다.
+
+이 선택은 작성자의 전형적인 학습 문법과도 맞닿아 있다. 먼저 추상화를 소비하기보다, **뼈대를 손으로 확인한 뒤에 추상화를 받아들이는 방식**이다.
+
+### 3. 원문에서 확인한 최소 뼈대
+원문에서 실질적으로 확인한 최소 구성은 다음과 같다.
+
+| 구성 요소 | 역할 | 원문에서 드러난 포인트 |
+|---|---|---|
+| `aws_eks_cluster` | 클러스터 control plane 정의 | 이름, IAM role, VPC subnet이 핵심 입력 |
+| IAM role | EKS가 AWS 리소스를 다루기 위한 권한 | 클러스터와 노드 모두 별도 role이 필요 |
+| VPC / subnet | 클러스터 네트워크 기반 | subnet 설정이 노드 그룹 생성 성공 여부에 직접 영향 |
+| `aws_eks_node_group` | 실제 워크로드를 올릴 노드 | 클러스터만으로는 실제 일이 안 돌아감 |
+| kubeconfig output | 로컬 `kubectl` 접속 연결 | 생성 후 바로 운영 테스트로 이어지게 해 줌 |
+
+여기서 중요한 것은, 원문이 "EKS 기본 리소스"를 짧게 적어 놓고도 실제 본문에서는 점점 더 많은 주변 요소가 필요해짐을 보여 준다는 점이다. 즉, 최소 뼈대는 존재하지만 실제 사용 직전에는 계속 살이 붙는다.
+
+## 실행 흐름으로 다시 읽기
+
+### 1. 클러스터 생성 전 확인
+- Terraform provider 설정
+- EKS cluster resource 선언
+- cluster role 생성
+- VPC와 subnet 생성
+- node group 추가
+- kubeconfig output 추가
+
+이 순서는 단순 코드 나열이 아니라, **클러스터를 만든다 → 접속한다 → 실제 워크로드를 올려 본다**라는 실험 순서를 준비하는 단계다.
+
+### 2. 생성 중에 배운 것
+원문에서 가장 중요한 학습은 에러를 통해 드러난다.
+
+#### 서브넷의 public IP 자동 할당 문제
+노드 그룹 생성 중 `Ec2SubnetInvalidConfiguration` 에러가 난다.
+
+- 원인: subnet에서 public IP 자동 할당이 꺼져 있었다.
+- 수정: `map_public_ip_on_launch` 설정.
+- 의미: 관리형 EKS라도 **노드가 실제로 네트워크에 어떻게 붙는지**를 사용자가 이해해야 한다.
+
+이 부분은 특히 중요하다. 작성자는 문서보다 실제 오류를 통해 "네트워크를 대충 두면 노드가 안 뜬다"는 사실을 더 강하게 배운다.
+
+#### kubeconfig는 있어도 인증 도구가 필요함
+`kubectl get node` 단계에서 `aws-iam-authenticator not found` 오류가 난다.
+
+- 클러스터를 만들었다고 로컬 접속이 자동으로 완성되지는 않는다.
+- kubeconfig, 인증 도구, 환경변수까지 맞아야 실제 운영 명령이 가능하다.
+
+즉, EKS의 추상화는 control plane 관리에 강하지만, **사용자 로컬의 운영 진입 경로**까지 다 해결해 주지는 않는다.
+
+### 3. 확인 가능한 것과 아직 미완인 것
+#### 확인된 것
+- Terraform으로 EKS 기본 뼈대 생성 가능
+- node group 추가 필요 확인
+- kubeconfig output 활용 가능
+- HPA 테스트 기본 동작 확인
+
+#### 아직 미완인 것
+- Cluster Autoscaler 동작 해석
+- autoscaler discovery가 왜 바로 안 올라오는지
+- ELB/NLB 연결 등 실제 서비스 운영 요소
+- 추가 리소스가 정확히 어디까지 필요한지
+
+이 미완성은 약점이 아니라, 원문의 성격을 보여 주는 중요한 신호다. 작성자는 결과를 매끈하게 포장하기보다 **중간 확인 상태와 미해결 질문을 남겨 두는 쪽**을 택한다.
+
+## HPA와 Cluster Autoscaler를 읽는 방식
+원문 후반은 단순 설치 절차보다, 두 종류의 스케일링을 구분하려는 시도로 읽힌다.
+
+### HPA
+- metrics-server 설치
+- deployment 생성
+- CPU 기준 autoscale 설정
+- 부하 발생
+- 결과 확인
+
+여기서는 비교적 간단한 성공 경험이 나온다. 즉, 애플리케이션 레벨의 확장은 테스트가 가능했다.
+
+### Cluster Autoscaler
+- node group의 scaling config 조정
+- 파드 수를 크게 늘려 노드 확장을 기대
+- 일부 변화는 보였지만 자동 동작 해석은 불완전
+- `autoscaler discover` 관련 미해결이 남음
+
+여기서 드러나는 차이는 명확하다.
+
+- HPA는 파드 수를 늘리는 문제다.
+- Cluster Autoscaler는 노드 자체를 늘리는 문제다.
+- 후자는 클러스터 외곽의 인프라와 더 강하게 결합되어 있어, 한 번에 매끈하게 파악하기 어렵다.
+
+원문은 이 차이를 이론 정의로 길게 설명하지 않지만, 실험 난이도의 차이 자체가 그 경계를 보여 준다.
+
+## 이 노드가 드러내는 운영 감각
+
+### 1. 관리형 서비스에 대한 현실적 시선
+EKS는 쿠버네티스 관리 부담을 줄여 주지만, 다음은 여전히 남는다.
+
+- 네트워크 이해
+- IAM 권한 설계
+- 노드 그룹 구성
+- 로컬 인증 도구
+- 오토스케일링 검증
+- 비용 확인
+
+즉, "쿠버네티스를 클라우드에 맡긴다"는 말은 **운영이 사라진다**가 아니라 **운영 책임의 위치가 바뀐다**에 가깝다.
+
+### 2. 콘솔과 Terraform의 차이를 비교하는 습관
+작성자는 콘솔에서 생성 UI를 보며 Terraform에서 빠진 설정을 확인한다.
+
+- CNI
+- CoreDNS
+- kube-proxy 버전
+- endpoint 설정
+
+이 비교는 중요하다. 인프라를 코드로 다룰 때도, 실제 관리 콘솔이 어떤 숨은 기본값을 갖고 있는지 확인해야 한다는 뜻이기 때문이다. 즉, 이 노드는 IaC 찬양보다 **코드와 관리형 기본값 사이의 차이 탐색**에 가깝다.
+
+### 3. 비용 감각을 잃지 않음
+원문 초반에 시간당 비용을 체크하고, 1시간 안에 끝내려는 태도가 나온다.
+
+이 짧은 메모는 사소해 보이지만 중요하다.
+- 실험은 공짜가 아니다.
+- 클라우드 학습도 비용 제약 안에서 돌아간다.
+- 그래서 구조 이해 실험은 가능한 짧고 명확해야 한다.
+
+이 점은 [[../../mapped/Deep Knowledge/Container]]의 운영 재현성 감각, [[../../mapped/Deep Knowledge/Cloud]]의 추상화와 통제력 균형과도 자연스럽게 이어진다.
+
+## 반복되는 긴장 관계
+
+### 추상화 vs 실체 확인
+- EKS는 관리형이지만 내부 전제가 보이지 않으면 막힌다.
+- 그래서 모듈보다 리소스 뼈대를 먼저 본다.
+
+### 빠른 성공 vs 구조 이해
+- 모듈과 콘솔은 빠르다.
+- 하지만 무엇이 왜 필요한지 직접 선언할 때 더 오래 남는다.
+
+### 성공 사례 vs 탐색 로그
+- HPA는 비교적 확인되었다.
+- CA는 진행 중이다.
+- 원문은 이 비대칭을 숨기지 않는다.
+
+### 클라우드 편의 vs 운영 책임 잔존
+- control plane은 맡길 수 있다.
+- 네트워크, 권한, 접속, 검증, 비용은 여전히 신경 써야 한다.
+
+## 인접 노드와의 연결
+- [[../../mapped/Deep Knowledge/Container]]: EKS는 결국 컨테이너 워크로드를 어디서 어떻게 운영할지의 문제와 맞닿아 있다.
+- [[../../mapped/Deep Knowledge/Cloud]]: 관리형 서비스가 통제력과 편의 사이에서 어떤 절충을 만드는지 보여 주는 실습 사례다.
+- [[../../mapped/Deep Knowledge/Infra]]: VPC, subnet, IAM, load balancer처럼 인프라 경계가 실제로 어디서 드러나는지 확인하게 해 준다.
+- [[../../mapped/Deep Knowledge/Monitoring]]: HPA와 CA를 제대로 운영하려면 결국 메트릭, 상태 확인, 이상 징후 관측이 필요하다.
+
+## 이후 심화 포인트
+- EKS control plane과 node group 책임 경계를 더 짧고 선명한 표로 압축할 수 있다.
+- HPA, Cluster Autoscaler, AWS 오토스케일링의 차이를 별도 비교축으로 더 정리할 수 있다.
+- 원문의 참고 링크들이 어떤 학습 경로를 보여 주는지 후속 정리가 가능하다.
+- 이후 사용자가 EKS 관련 원문을 더 채우면, 성공/실패 사례와 운영 규칙을 더 직접적으로 연결할 수 있다.
+
+## 이번 갱신 메모
+- 매우 얇은 1차 대응 초안을 한국어 기준의 구조화된 페이지로 전면 재구성했다.
+- 원문 전체를 다시 읽고, 내용을 `최소 뼈대 → 생성 중 학습 → 접속과 인증 → 스케일링 실험 → 관리형의 경계` 흐름으로 재배열했다.
+- 이 노드를 완성형 구축 가이드가 아니라, Terraform으로 EKS를 이해해 가는 탐색형 카테고리 노드로 읽히게 정리했다.
+- `Container`, `Cloud`, `Infra`, `Monitoring`과의 연결을 보강해 만다라트 내 인접 기술 노드와의 관계를 분명히 했다.
