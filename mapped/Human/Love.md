@@ -2,62 +2,82 @@
 
 - 원본: `source/shdkej-content/Human/Love.md`
 - 역할: 원본 만다라트 노드와 1:1 대응하는 관리 노트
-- 상태: 심화 정리 2026-04-14
+- 상태: 점진 심화 2026-04-21
 
-## 핵심 주장
-이 노트에서 사랑은 첫 끌림의 강도가 아니라, 익숙함과 어긋남, 지루함, 상실이 관계 안으로 들어온 뒤에도 상대를 계속 소중히 여기는 행위에 가깝다.
+## 핵심 논지
+이 노트에서 사랑은 처음 보고 싶어지는 감정의 강도보다, 익숙함과 어긋남과 권태가 들어온 뒤에도 상대를 계속 소중히 여길 수 있는 상태에 더 가깝다. 즉 사랑은 순간적인 끌림이라기보다, 시간이 지난 뒤에도 관심과 귀함을 잃지 않는 태도로 정의된다.
 
-## 원문에서 유지한 구조
+## 원문 구조
 - Love wins all
 - 당연한 사랑은 없다
 - 사람 사이에 사랑이 있으면 티끌을 감싸준다
 - 감정공유
 
-## 오래 남길 아이디어
-- Love is tested less by excitement than by what remains after excitement settles.
-- Love is not justified only by a list of reasons. Reasons may describe affection, but they do not fully explain it.
-- Familiarity is not the enemy of love. It can become the place where love becomes real.
-- There is no such thing as guaranteed or automatic love, so gratitude and remembrance matter.
-- Love softens minor flaws. It does not erase reality, but it changes how reality is held.
-- Even major heartbreak does not stop life itself, which means love belongs inside life, not above it.
-- Emotional rhythm, emotional sharing, and similar values make sustained togetherness easier.
+## 원문에서 바로 뽑히는 축
+### 1. 사랑은 설렘 이후에 드러난다
+원문은 "처음 보고 싶을 때의 감정만이 사랑이 아니"라고 선을 긋는다. 처음의 끌림은 시작일 수 있지만, 사랑을 더 정확하게 드러내는 순간은 익숙해지고 안 맞는 부분이 보이고 권태가 생길 때다. 그때도 상대를 소중히 여길 수 있는지가 이 노드의 첫 기준이다.
+
+### 2. 사랑은 이유의 목록으로 환원되지 않는다
+좋아하는 이유를 백 가지 말할 수 있어도, 그 이유들 때문에 좋아하는 것은 아니라는 문장이 중요하다. 이 노트는 사랑을 설명 가능한 호감의 집합으로 축소하지 않는다. 이유는 사랑을 둘러싼 표면 신호일 수 있지만, 사랑 자체를 다 설명하지는 못한다.
+
+### 3. 익숙함은 사랑의 적이 아니라 시험대다
+원문은 설렘이 사라진 자리를 곧바로 사랑의 소멸로 읽지 않는다. 오히려 익숙함을 소중히 할 수 있는지가 사랑의 깊이를 가르는 분기점처럼 놓인다. 낯섦의 자극이 줄어든 뒤에도 귀함을 보존하는 힘이 중요하다.
+
+### 4. 사랑은 당연하지 않다
+"당연한 사랑은 없다"는 짧은 문장은 이 노트 전체의 윤리다. 관계가 지속된다고 해서 사랑이 자동으로 유지되는 것은 아니다. 그래서 이 노드는 사랑을 감정의 자연 발생보다, 잊지 않고 소중함을 다시 확인하는 실천에 가깝게 둔다.
+
+### 5. 사랑은 결함을 없애지 않고 감싸 안는다
+"사람 사이에 사랑이 있으면 티끌을 감싸준다"는 표현은 사랑이 현실을 지우는 환상이라는 뜻이 아니다. 작은 흠과 불편을 보는 방식이 달라진다는 뜻에 가깝다. 사랑은 완벽한 상대를 발견하는 일이 아니라, 불완전함을 다루는 태도를 바꾸는 일로 읽힌다.
+
+### 6. 사랑의 상실은 크지만 삶 전체를 멈추게 하지는 않는다
+사랑하는 사람이 떠나가면 죽고 싶을 정도로 힘들 수 있다는 문장과, 그래도 삶은 계속된다는 문장이 함께 놓여 있다. 이 노트는 사랑의 고통을 가볍게 만들지 않으면서도, 사랑을 삶 전체의 유일한 기반으로 절대화하지도 않는다.
+
+### 7. 함께하기 좋은 사람의 조건은 정서적 호흡이다
+마지막 메모는 감정을 느끼는 방식, 감정선, 가치관이 비슷한 사람을 말한다. 사랑을 단지 의지나 낭만으로만 보지 않고, 정서적 리듬과 가치의 호환성까지 함께 본다는 점이 드러난다.
+
+## 이 노드가 실제로 붙잡는 질문
+### 사랑은 언제 진짜가 되는가
+처음의 강렬함이 아니라, 반복과 일상과 마찰 속에서도 계속 귀하게 여겨질 때다.
+
+### 사랑은 왜 설명만으로 충분하지 않은가
+설명은 관계를 해석해 주지만, 사랑에는 설명보다 먼저 작동하는 소중함의 감각이 남아 있기 때문이다.
+
+### 사랑은 현실을 어떻게 바꾸는가
+현실을 지우지는 않지만, 티끌과 흠을 다루는 시선을 바꾼다. 그래서 같은 결함도 사랑이 있을 때와 없을 때 다르게 견뎌진다.
 
 ## 숨은 패턴
-이 노트는 사랑을 관심의 방향으로 다룬다.
+이 노트는 사랑을 사실상 `관심이 오래 지속되는 방식`으로 다룬다. 첫 감정의 폭발보다, 시간이 지난 뒤에도 상대를 다시 보고 소중함을 잊지 않으려는 주의력이 더 중요하다. 그래서 사랑은 감정, 돌봄, 기억, 감사가 겹쳐 있는 인간 관계의 유지 기술처럼 읽힌다.
 
-중요한 것은 단순한 욕망만이 아니라, 오래 지속되는 관심과 계속되는 호기심, 그리고 상대를 당연하게 여기지 않으려는 태도다. 그런 의미에서 사랑은 흥미, 돌봄, 평범한 존재를 귀하게 여기는 감각과 가깝다.
-
-## 보존할 긴장관계
+## 보존해야 할 긴장
 ### 설렘 vs 지속성
-The note resists defining love by the first urge to see someone. Early feeling matters, but mature love is whether care survives repetition and imperfection.
+이 노트는 설렘을 부정하지 않지만, 사랑의 중심을 설렘에 두지 않는다. 시작보다 지속이 더 중요하다.
 
 ### 이유 vs 환원 불가능성
-The author can name many reasons for liking someone, but the note insists love is not reducible to a checklist. Explanation helps, but does not exhaust meaning.
+좋아하는 이유는 많지만, 사랑은 그 이유들의 총합으로만 설명되지 않는다. 설명 가능성과 설명 불가능성이 동시에 남아 있다.
 
-### 고통 vs 지속되는 삶
-Separation can feel devastating, but life continues. The note does not trivialize loss. It frames love as powerful without making it the sole foundation of existence.
+### 상실의 고통 vs 계속되는 삶
+사랑은 삶을 흔들 만큼 크지만, 삶 전체를 대체하지는 않는다. 이 균형 덕분에 노트가 감상에만 머물지 않는다.
 
 ### 유사성 vs 수용
-Shared emotional lines and values matter, yet the note also values holding someone through mismatch and friction. Compatibility is important, but not perfection.
+감정선과 가치관의 유사성은 중요하지만, 동시에 익숙함과 안 맞는 부분을 견디는 수용도 중요하다. 잘 맞는 사람을 찾는 것과, 맞지 않는 부분을 다루는 능력이 함께 놓여 있다.
 
-## 이 노드가 Human 묶음에서 중요한 이유
-이 페이지는 작성자가 환상보다 현실 위에서 인간 관계를 어떻게 보는지 드러낸다. 사랑은 감상적인 추상이 아니라, 실제로 누군가를 소중히 여기는 실천으로 다뤄진다.
+## Human 묶음 안에서의 위치
+[[Reality]]가 이상이 현실과 부딪히는 장면을 다룬다면, `Love`는 관계가 현실과 부딪힐 때 무엇이 남아야 하는지를 보여준다. [[Balance]]와는 자기 소실 없이 관계를 유지하는 문제로 이어지고, [[Principle]]과는 사람을 대하는 태도가 일회성 감정보다 선택된 방식에 가깝다는 점에서 연결된다.
 
-## 이 노트를 실천적으로 읽으면
-삶의 가이드라인으로 바꾸면 이 노트는 이렇게 읽힌다:
-- 새로움을 깊이로 착각하지 말 것
-- 익숙함 때문에 소중함을 지워버리지 말 것
-- 갈등과 지루함이 돌봄을 어떻게 바꾸는지 볼 것
-- 정서적 호환성과 공유 가치관을 중요하게 볼 것
-- 사랑이 깊게 아플 수 있어도 삶 전체의 의미가 되지는 않는다는 점을 받아들일 것
+## 인접 노드 연결
+- [[Reality]]: 사랑도 이상이 아니라 현실 속 반복과 마찰을 통과해야 유지된다.
+- [[Balance]]: 사랑이 깊을수록 자기 보존과 관계 유지의 균형이 중요해진다.
+- [[Principle]]: 사랑은 충동이라기보다 사람을 어떤 방식으로 대할 것인가의 원칙과 맞닿아 있다.
+- [[Future]]: 오래 가는 관계는 미래를 약속하는 말보다 시간을 견디는 태도에서 드러난다.
 
-## 관련 노드
-- [[Future]] , love has to survive time rather than only promise it.
-- [[Reality]] , love is tested by friction, mismatch, and what ordinary life does to ideals.
-- [[Balance]] , healthy love involves valuing without total self-loss.
-- [[Principle]] , love here behaves less like impulse and more like a chosen way of treating people.
+## 추출 메모
+- 사랑은 처음의 강한 감정보다, 익숙해진 뒤에도 소중히 여길 수 있는가로 판별된다.
+- 사랑은 이유를 말할 수 있어도 그 이유들로 완전히 환원되지는 않는다.
+- 사랑이 있으면 작은 흠을 다루는 방식이 달라진다.
+- 사랑의 상실은 매우 크지만 삶 전체를 멈추게 하지는 않는다.
+- 감정선과 가치관의 호환성은 함께 살아가는 현실 조건으로 중요하다.
 
-## 정리 메모
-- 원래 흩어져 있던 조각들을 사랑의 안정적인 정의로 정리했다.
-- 익숙함, 소중함, 상실의 아픔, 정서적 핏에 대한 강조는 유지했다.
-- 일반적인 관계론으로 넓히지 않고, 원래 주제 범위를 좁고 선명하게 유지했다.
+## 이번 심화에서 강화한 점
+- 기존 문서에 남아 있던 영어식 요약을 줄이고, 원문 문장 흐름을 한국어 논지로 다시 정리했다.
+- `익숙함`, `이유의 비환원성`, `상실 이후의 삶`, `정서적 호흡`을 분리해 이 노드의 판단 축을 더 선명하게 만들었다.
+- [[Reality]], [[Balance]], [[Principle]], [[Future]]와의 연결 이유를 관계의 현실성 관점에서 다시 묶었다.

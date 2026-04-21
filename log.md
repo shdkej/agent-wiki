@@ -755,6 +755,16 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+## 2026-04-21 | Human 노드 점진 심화
+
+### Love 단일 노드 재심화
+- 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
+- 탐구: `Love`를 막연한 낭만 감정이 아니라, 익숙함과 어긋남이 들어온 뒤에도 소중함을 유지하는 관계 카테고리 노드로 더 선명하게 정리했다.
+- 정리: 기존 baseline은 유지한 채 원문 전체를 다시 읽고 `설렘 이후`, `이유의 비환원성`, `익숙함의 의미`, `상실 이후에도 계속되는 삶`, `감정선과 가치관의 호환성` 축으로 한국어 구조를 보강했다.
+- 선호 신호: 저자는 사랑을 첫 감정의 강도보다 반복 속에서도 귀함을 잊지 않는 태도로 이해하는 경향이 강하며, 감정의 진폭만이 아니라 정서적 호흡과 가치관의 맞음까지 현실 조건으로 함께 보는 편이 더 잘 맞는다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
