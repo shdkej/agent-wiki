@@ -1,94 +1,111 @@
 # Balance
 
 - 원본: `source/shdkej-content/Human/Balance.md`
-- Status: deepened mapped note
-- 역할: 원본 만다라트 노드와 1:1 대응하는 관리 노트
+- 상태: 점진 심화
+- 역할: 원본 만다라트 노드와 1:1 대응하는 Human 카테고리 관리 노트
 
 ## 핵심 주장
-This note treats balance not as a fixed midpoint but as an active way of staying free, perceptive, and adjustable between competing values. The recurring question is not "which side is correct forever" but "what stance keeps judgment alive without getting trapped by pride, possession, habit, or false simplicity?"
+이 노드는 중간만 지키자는 도덕론이 아니다. 잃을까 봐 움츠러들지 않으면서도, 한쪽 가치에 사로잡혀 판단력이 굳지 않도록 자기 위치를 계속 조정하는 삶의 균형 감각을 다룬다. 중요한 것은 영원히 맞는 한 극을 고르는 일이 아니라, 상황마다 무엇이 나를 더 자유롭고 맑게 만드는지 분별하는 힘이다.
 
-## Why this node matters
-- It is a decision lens for many other Human-category notes, not just a list of opinions.
-- It preserves the author's instinct to resist one-sided doctrines.
-- It turns dilemmas into a reusable practice of calibration.
+## 이 노드가 실제로 다루는 것
+원문에는 매우 많은 대비쌍이 길게 쌓여 있지만, 그 밑에는 몇 가지 반복 질문이 있다.
 
-## 오래 남길 아이디어
+- 무엇을 너무 세게 쥐면 오히려 자유를 잃는가
+- 언제는 원칙이 필요하고, 언제는 예외 허용이 더 현명한가
+- 설계와 점진 개선은 어디서 갈리는가
+- 단순함은 언제 유용하고, 언제 현실을 못 보게 만드는가
+- 사람과 사회를 다룰 때 통제와 자율 중 무엇을 더 믿어야 하는가
 
-### 1. Freedom shrinks when identity hardens
-- Worrying about loss narrows what one can do.
-- Authority, face, ownership, and attachment can all reduce flexibility.
-- The preferred posture is not total renunciation but "having only what does not bind me too tightly."
+즉 `Balance`는 의견 모음이 아니라, 충돌하는 가치들 사이에서 판단 문법을 만들려는 카테고리 노드다.
 
-### 2. Balance requires admitting uncertainty
-- "Not knowing" is treated as a growth condition, not only a deficiency.
-- Pretending to know in order to protect status is framed as a trap.
-- Courage here means being able to say "I don't know" without collapsing into evasion or irresponsibility.
+## 오래 남길 축
 
-### 3. Many good decisions are dilemmas, not formulas
-The note repeatedly stages pairs such as:
-- start now vs sketch first
-- strict rule vs one-time exception
-- expansion vs improvement
-- control vs guidance
-- adaptation vs efficiency
-- simplification vs necessary complexity
-- specialization vs integration
+### 1. 균형은 자유를 지키기 위한 기술이다
+원문 첫머리의 핵심은 체면, 권위, 소유, 고집이 커질수록 움직일 수 있는 범위가 줄어든다는 데 있다.
 
-The pattern suggests that judgment matures by collecting cases, not by forcing a universal rule too early.
+- 잃을 것을 지나치게 지키려 하면 선택지가 줄어든다.
+- 권위를 지키려 하면 모른다고 말하지 못한다.
+- 너무 많이 소유하면 유지와 방어가 삶을 묶는다.
+- 그렇다고 무소유 자체가 답은 아니고, 나를 옭아매지 않을 정도의 소유가 더 현실적이다.
 
-### 4. Healthy balance is dynamic, not neutral
-This is not a plea for bland moderation. The note values movement between:
-- overview and detail
-- planning and iteration
-- discipline and flexibility
-- stability and experimentation
-- tradition and revision
+여기서 균형은 착한 중용이 아니라, 나를 묶지 않는 상태를 유지하려는 실천 감각에 가깝다.
 
-The better image is tuning or steering, not standing still.
+### 2. 모름을 인정해야 더 넓게 볼 수 있다
+이 노드는 균형을 지식의 태도와도 연결한다.
 
-## 숨은 패턴s across the note
+- 많이 알수록 내가 몰랐던 범위가 더 보인다.
+- 모르는 것을 숨기면 생각의 폭이 줄어든다.
+- 다만 "모른다"는 말은 책임 회피가 아니라 함께 알아갈 수 있는 정직함이어야 한다.
 
-### Anti-capture
-Many examples are different versions of the same fear: being captured by one value until it becomes distortion.
-- ownership becomes possessiveness
-- standards become rigidity
-- praise becomes complacency or pressure
-- rules become surveillance
-- openness becomes naivety
-- agility becomes sloppiness
+즉 균형은 확신과 무책임 사이의 얇은 선을 다루는 문제다.
 
-### Case-based wisdom
-The note prefers pattern recognition from accumulated examples over abstract certainty. It is trying to become better at judgment by keeping oppositions visible.
+### 3. 좋은 판단은 정답 암기보다 사례 축적에서 나온다
+원문은 `시작 vs 밑그림`, `통제 vs 유도`, `확장 vs 개선`, `적응 vs 능률`, `전문화 vs 융합`처럼 수많은 대비쌍을 쌓는다. 이는 하나의 정답을 빨리 선언하기보다, 케이스를 모으며 판단력을 키우려는 방식으로 읽는 편이 맞다.
 
-### Reversible living
-A recurring ideal is staying light enough to change course, detach, revise, and re-enter situations without being frozen by sunk cost or ego.
+이 노드의 지향은 다음과 같다.
+- 보편 공식을 성급히 만들지 않는다.
+- 반복되는 대립쌍을 오래 보존한다.
+- 실제 사례가 쌓일수록 더 정교한 감각을 얻는다.
 
-## Productive tensions to preserve
+### 4. 균형은 정지 상태가 아니라 조정 행위다
+원문은 애자일과 주먹구구, 단순함과 복잡함, 분류와 유연성, 훈련과 혹사, 표준과 관성의 차이를 계속 묻는다. 이는 가운데 멈춰 서겠다는 뜻이 아니라, 어느 순간에는 설계가 필요하고 어느 순간에는 덧칠이 필요하다는 동적 판단을 뜻한다.
 
-### Minimal possession vs practical support
-The note rejects both pure asceticism and pure accumulation. The practical principle is to own enough to think and act freely, but not so much that maintenance or fear dominates life.
+그래서 이 노드의 균형은 평균값이 아니라 `조율`에 가깝다.
 
-### Careful design vs progressive refinement
-A key tension runs through architecture, agile work, creative practice, and daily action. The note seems to argue that good iteration is not the same as improvisational mess. The real contrast is:
-- thoughtful incrementalism
-- versus unmanaged drift
+## 반복되는 판단 패턴
 
-### Human guidance vs hard control
-In parenting, law, teamwork, and culture, the note is skeptical that stronger enforcement alone creates better behavior. It leans toward internalization, culture, and judgment, while still recognizing that pure freedom can also fail.
+### 붙잡힘을 경계한다
+여러 문단은 사실 같은 위험을 다른 사례로 말한다.
 
-## Cleaning decisions in this mapped page
-- Compressed a very long dilemma list into reusable decision patterns.
-- Preserved the original note's wide scope without flattening it into a single moral rule.
-- Reduced duplication around agile vs slapdash, simplicity vs emptiness, and ownership vs freedom.
-- Kept the page inside the Human category boundary: this remains a note about life stance and judgment, not a generic systems essay.
+- 소유는 소유욕으로 변질될 수 있다.
+- 기준은 경직성으로 굳을 수 있다.
+- 칭찬은 동기부여가 되기도 하고 자만이나 압박이 되기도 한다.
+- 통제는 안전을 만들기도 하지만 감시와 위축을 낳기도 한다.
+- 공개는 더 나은 결과를 낳기도 하지만, 때로는 성급한 노출이 되기도 한다.
 
-## Future-relevant links
+즉 한 가치가 무조건 좋은 것이 아니라, 그 가치가 과도해질 때 생기는 왜곡이 더 중요하다.
+
+### 설계와 점진 개선을 섞고 싶어 한다
+건축과 애자일, 밑그림과 시작, 단계 이동 시점, 주먹구구와 점진적 개선을 묻는 대목이 특히 중요하다. 원문은 무작정 시작도 싫어하고, 지나치게 오래 준비하다 멈추는 것도 경계한다.
+
+따라서 이 노드는 `잘 설계된 점진성`을 찾는 노드로 읽을 수 있다.
+
+### 복잡성을 없애기보다 감당 가능한 형태로 만들고 싶어 한다
+간단함을 좋아하지만, 현실이 본래 복잡하다는 사실도 함께 붙잡는다.
+
+- 자주 쓰는 것은 접근 단계를 줄여야 한다.
+- 하지만 깊은 구조와 복잡한 맥락을 아예 지워서는 안 된다.
+- 초보자의 단순함과 전문가의 단순함은 다르다.
+
+이 감각은 `[[../../mapped/Human/Readability]]`와도 닿지만, 여기서는 읽기 쉬움보다 삶과 판단 구조 전반의 운영 감각으로 확장된다.
+
+## 특히 보존해야 할 긴장
+
+### 무소유 vs 충분한 소유
+원문은 욕심을 경계하지만, 현실적으로는 어느 정도의 돈과 자원이 있어야 생각의 자유가 생긴다고 본다. 따라서 이 노드의 핵심은 소유 자체를 부정하는 것이 아니라, 자유를 침식하지 않을 만큼만 책임 있게 가지는 것이다.
+
+### 통제 vs 자율
+아이의 휴대폰, 법과 처벌, 사회 규범, 조직 운영 사례를 보면 원문은 강한 통제가 낳는 부작용을 잘 본다. 동시에 너무 풀어두면 실제 피해가 생긴다는 것도 안다. 이 노드는 자율 예찬보다 `내면화가 가능한 환경 설계`를 더 선호하는 쪽에 가깝다.
+
+### 표준화 vs 개별 판단
+모두가 쓰는 것이 표준일 수도 있고 진부함일 수도 있다. 형식을 안 지키는 것이 독창성일 수도 있고 기본 부재일 수도 있다. 이 노드는 표준을 무시하지 않지만, 표준을 판단 중지의 핑계로 쓰는 것도 원치 않는다.
+
+### 전문화 vs 통합
+세상이 복잡해질수록 분리와 세분화가 필요하지만, 결국 다시 연결과 융합이 온다는 감각도 강하다. 그래서 이 노드는 깊이와 넓이 중 하나를 버리기보다, 어느 시점에 무엇을 우선할지를 계속 다시 묻는다.
+
+## 이번 심화에서 더 선명해진 점
+- 길게 나열된 대비쌍을 `자유`, `모름`, `사례 축적`, `동적 조정`이라는 몇 개의 큰 축으로 다시 묶었다.
+- `중용`을 도덕적 미덕이 아니라 붙잡힘을 줄이는 운영 감각으로 읽는 기준을 분명히 했다.
+- 애자일, 통제, 단순함, 소유 같은 반복 주제를 서로 따로 떨어진 메모가 아니라 같은 판단 문법의 변주로 연결했다.
+- 기존 mapped가 영어 중심 초안이던 부분을 한국어 기본 문서로 정리했다.
+
+## 연결 노드
 - [[../../mapped/Human/Principle]]
-- [[../../mapped/Human/Future]]
 - [[../../mapped/Human/Reality]]
+- [[../../mapped/Human/Future]]
 - [[../../mapped/Human/Readability]]
 
-## Follow-up questions
-- Which dilemmas in this node are repeated most often across other source notes?
-- Where does the author prefer a hard line, and where do they prefer flexible calibration?
-- Can the repeated contrasts be turned into a small reusable decision framework without losing nuance?
+## 남겨둘 질문
+- 이 노드에서 저자가 실제로 강한 원칙을 두는 영역은 어디이고, 끝까지 유동적으로 남겨두는 영역은 어디인가?
+- `잘 설계된 점진성`과 `주먹구구식 임기응변`을 가르는 개인 기준은 무엇인가?
+- 자유를 지키기 위해 줄여야 하는 소유와, 오히려 자유를 위해 확보해야 하는 자원은 어떻게 구분할 수 있는가?
