@@ -689,6 +689,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/100k_concurrent_server.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Deploy_ERP_server_story 단일 노드 기준선 재구성
+- 갱신 범위: [[mapped/blog/Deploy_ERP_server_story]] 1개 페이지만 기준선 수준으로 전면 재구성했다.
+- 탐구: `Deploy_ERP_server_story`를 단순 Odoo 설치기가 아니라, 내부 업무 시스템을 빠르게 띄운 뒤 컨테이너 내부 수정의 한계, 이미지·볼륨 분리, 데이터 이관, 모니터링과 SSL 확장까지 배우는 초기 운영 설계 카테고리 노드로 읽히도록 정리했다.
+- 정리: 매우 얇은 1차 대응 초안을 한국어 기준의 구조화된 페이지로 바꾸고, 원문 전체를 `빠른 ERP 구축`, `Compose 기반 최소 실행`, `컨테이너 내부 수정과 휘발성`, `Dockerfile 도입`, `볼륨 이관`, `Nagios/SSL 확장`, `다음 운영 과제`의 흐름으로 재배열했다.
+- 선호 신호: 저자는 새 시스템 구축에서도 최신 기술 자체보다 빨리 띄우기, 수정이 남는 구조 만들기, 다른 환경으로 옮길 수 있는 상태, 최소 관측 가능성을 더 중요한 기준으로 두는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## Current To-Dos / Follow-Up Directions
 - [ ] Deepen mapped pages category by category
 - [ ] Compare user-updated notes against mapped pages via `human-reviews/`
