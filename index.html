@@ -11,8 +11,6 @@
         position: fixed;
         top: 14px;
         left: 14px;
-        right: auto;
-        bottom: auto;
         width: 52px;
         height: 52px;
         padding: 11px;
@@ -39,60 +37,28 @@
         padding-top: 72px;
       }
     }
-    #mobile-overlay {
-      display: none !important;
-      pointer-events: none !important;
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.42);
-      z-index: 25;
-    }
-    body.close .sidebar {
-      transform: translateX(-300px);
-    }
-    @media screen and (min-width: 769px) {
-      #mobile-overlay {
-        display: none !important;
-      }
-    }
   </style>
 </head>
 <body>
   <div id="app"></div>
-  <div id="mobile-overlay"></div>
   <script>
     window.$docsify = {
       name: 'agent-wiki',
       repo: 'shdkej/agent-wiki',
       homepage: 'README.md',
-      loadSidebar: '_sidebar.md',
+      loadSidebar: true,
       loadNavbar: false,
       subMaxLevel: 3,
       auto2top: true,
       relativePath: false,
-      routerMode: 'hash',
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md',
-        '/.*/README.md': '/README.md',
-        '/.*/index.md': '/index.md',
-        '/.*/log.md': '/log.md',
-        '/.*/(.*)': '/$1'
+        '/.*/_sidebar.md': '/_sidebar.md'
       },
       search: {
         placeholder: '검색...',
         noData: '결과 없음',
         depth: 3
-      },
-      plugins: [
-        function(hook) {
-          hook.doneEach(function() {
-            if (window.innerWidth > 768) return;
-            document.querySelectorAll('.sidebar-nav a').forEach(function(link) {
-              link.classList.add('close');
-            });
-          });
-        }
-      ]
+      }
     };
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
