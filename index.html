@@ -64,15 +64,19 @@
     window.$docsify = {
       name: 'agent-wiki',
       repo: 'shdkej/agent-wiki',
-      homepage: 'index.md',
-      loadSidebar: true,
+      homepage: 'README.md',
+      loadSidebar: '_sidebar.md',
       loadNavbar: false,
       subMaxLevel: 3,
       auto2top: true,
       relativePath: true,
       routerMode: 'hash',
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/README.md': '/README.md',
+        '/.*/index.md': '/index.md',
+        '/.*/log.md': '/log.md',
+        '/.*/(.*)': '/$1'
       },
       search: {
         placeholder: '검색...',
