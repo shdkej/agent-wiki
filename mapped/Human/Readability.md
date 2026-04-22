@@ -2,89 +2,81 @@
 
 - 원본: `source/shdkej-content/Human/Readability.md`
 - 역할: 원본 만다라트 노드와 1:1 대응하는 관리 노트
-- 상태: 심화 정리 2026-04-14
+- 상태: 점진 심화 2026-04-22
 
-## 핵심 주장
-Readability is a relative quality between text and reader, but that does not make it meaningless. The practical task is to improve access, clarity, and transmission without flattening meaning, taste, rigor, or difficulty that properly belongs to the subject.
+## 핵심 논지
+가독성은 절대적 미덕이 아니라 **독자, 맥락, 목적에 따라 달라지는 상대적 성질**이다. 그렇다고 아무 말이나 상대적이라고 흩어지는 것은 아니다. 이 노드의 핵심 관심은 **의미 전달의 문턱은 낮추되, 원문이 가진 깊이·정확성·맛·난도를 함부로 납작하게 만들지 않는 방법**을 찾는 데 있다.
 
-## 원문에서 유지한 구조
-- Navigator
-- 가독성
-- 가독성은 독자에 따른 상대적 개념
-- word, language
-- 단어의 의미
-- 단어를 쉽게 풀어내는 것, 기존의 단어를 사용하는 것
-- 쉬운 문장은 무엇인가
-- 쉽게 풀어 쓰는 것과 아이가 말하는 듯한 단순한 말의 차이
-- 쉽게 익히기의 오해
-- 사람의 재해석의 한계
-- 쉽게 풀어 쓴 글
-- 어려운 문제를 쉽게 만들 수 있을까
-- 쉬운 글
+## 원문에서 먼저 보이는 구조
+- 가독성 일반론
+- 독자에 따른 상대성
+- 단어와 언어의 문제
+- 쉬운 문장과 쉬운 설명의 조건
+- 단순함과 얄팍함의 차이
+- 쉽게 익힌다는 것의 오해
+- 재해석과 요약의 한계
+- 어려운 문제를 쉽게 다루는 법
 
-## 오래 남길 아이디어
-- Readability depends on the reader's vocabulary, context, goals, and training.
-- Some texts are difficult because reality is difficult, not because the writing failed.
-- Accessibility is valuable, but readability is not the only value a text can have.
-- Specialized language helps precision inside a field, yet becomes a barrier outside it.
-- Easy explanation can help entry, but it can also distort, oversimplify, or silently remove important content.
-- Simple writing and shallow writing are not the same thing.
-- A sentence can be easy to parse but still poor at carrying nuance, taste, or memory.
-- Learning through easier paths is good, but preferring only easy things becomes a trap.
+## 이 노드를 읽는 기준
+이 메모는 글쓰기 팁 모음이 아니다. 저자는 `읽기 쉬움`을 문장 기술만의 문제가 아니라,
 
-## 숨은 패턴
-This note is not just about style. It is about the ethics of mediation.
+- 무엇을 누구에게 어떻게 전달할 것인가,
+- 입문용 설명이 어디까지 허용되는가,
+- 쉬운 길과 쉬운 일은 어떻게 다른가,
+- 설명자가 원문을 얼마나 훼손할 수 있는가,
 
-The recurring concern is how to pass meaning from one mind to another without losing too much truth, texture, or discipline. Readability is therefore tied to education, translation, code communication, domain language, and even self-deception about what counts as real understanding.
+를 함께 묻는 **전달 윤리의 노드**로 다루고 있다.
 
-## Key distinctions
-### Relative readability vs absolute judgment
-The note rejects the idea that one universal standard can classify all writing as readable or unreadable. Philosophy, poetry, textbooks, and code serve different reading conditions.
+## 반복되는 핵심 축
 
-### Simple expression vs thin expression
-A sentence can use simple words and still carry force. The danger is not simplicity itself, but reducing the language until precision, flavor, or emotional grip disappear.
+### 1. 가독성은 독자 의존적이지만 아무렇게나 정의되지는 않는다
+철학서, 전공서, 시, 코드, 교양서는 같은 기준으로 읽히지 않는다. 어려운 글이 곧 나쁜 글은 아니며, 어떤 글은 대상 자체가 어렵기 때문에 난도가 높다. 따라서 가독성은 `무조건 쉽다`가 아니라 **해당 독자가 목적을 이루기 쉬운 상태인가**로 읽어야 한다.
 
-### Entry path vs final mastery
-Beginner-friendly explanations, youth editions, summaries, and lectures help people enter a field. But they should be treated as bridges, not replacements for primary material.
+### 2. 쉬운 설명은 입구가 될 수 있지만 원본을 대체하지는 못한다
+청소년용 고전, 쉬운 해설 영상, 대중 강연은 입문에 도움이 된다. 하지만 쉽게 풀어 쓰는 과정에서 설명자의 해석이 덧붙고, 원래 문장의 결이나 정보 밀도가 사라질 수 있다. 이 노드는 쉬운 설명을 부정하지 않지만, **다리와 목적지를 혼동하지 말라**는 쪽에 가깝다.
 
-### Easy path vs easy task
-One of the strongest ideas in the note is that people should seek easier paths through hard problems, not reshape life into only doing easy problems.
+### 3. 단순한 문장과 빈약한 문장은 다르다
+짧은 문장, 자주 쓰는 어휘, 그림이 그려지는 단어는 읽기 쉽게 만든다. 그러나 너무 단순해지면 문장의 맛, 정서, 정밀함, 오래 남는 감각이 빠질 수 있다. 저자가 경계하는 것은 단순함 자체보다 **쉽게 보이기 위해 의미를 비워 버리는 글**이다.
 
-## 보존할 긴장관계
-### Clarity vs fidelity
-Making ideas easier to read can improve access, but every rewrite risks adding the explainer's bias or removing the original structure of thought.
+### 4. 쉬운 길을 찾는 것과 쉬운 것만 하려는 것은 다르다
+가독성을 추구하다 보면 학습 태도 전체도 쉬운 쪽으로 기울 수 있다. 저자는 여기서 중요한 오해를 짚는다. 어려운 내용을 잘게 나누어 더 나은 진입 경로를 만드는 것은 좋지만, 삶 자체를 쉬운 문제만 고르는 방향으로 바꾸면 성장이 멈춘다. 즉, **어려운 문제를 다룰 더 좋은 경로**가 필요하지, 어려움 자체를 삭제할 수는 없다.
 
-### Universality vs audience fit
-A highly portable style reaches more readers, yet the best wording for one audience may be suboptimal for another.
+### 5. 전문 용어는 장벽이면서 동시에 정밀한 도구다
+새로운 단어는 특정 분야 안에서 정확성을 높여 주지만, 바깥 사람에게는 진입 장벽이 된다. 그렇다고 전문 용어를 모두 버리면 정밀도가 무너진다. 이 노드는 `쉬운 말만 쓰기`보다 **일상어와 전문어를 어디서 어떻게 연결할지**를 고민하는 메모에 가깝다.
 
-### Enjoyment vs instruction
-Educational material can become clear but joyless. The note wants writing that teaches without losing liveliness.
+## 보존해야 할 긴장관계
 
-### Explanation vs competence
-Hearing a good explanation can lower the threshold to learning, but explanation alone is not the same as solving hard problems.
+### 명료함 vs 충실성
+쉽게 설명할수록 접근성은 좋아지지만, 원문의 구조와 결은 손실될 위험이 있다.
 
-## 이 노드가 Human 묶음에서 중요한 이유
-This page extends beyond writing technique. It expresses a broader philosophy of how people should handle complexity: translate when helpful, preserve depth when necessary, and stay alert to the difference between true understanding and merely comfortable intake.
+### 대중성 vs 전문성
+대중적으로 잘 전달하는 사람은 입문 장벽을 낮추지만, 전문가에게는 과감한 생략과 왜곡으로 보일 수 있다.
 
-## Reusable heuristics
-- Define readability in relation to a specific reader and task.
-- Prefer familiar words when precision is not lost.
-- Introduce specialized terms when they earn their keep.
-- Break hard material into better paths, not false simplicity.
-- Use entry-level explanations as staging grounds for deeper sources.
-- Preserve the original taste and structure when simplifying literature or technical ideas.
-- Check whether a text became easier to consume but less true.
+### 단순함 vs 문장의 맛
+쉬운 문장이 늘 더 좋은 문장은 아니다. 이해는 빨라질 수 있어도 기억성과 정서적 밀도는 떨어질 수 있다.
 
-## Useful cross-links from the source navigator
-- [[Balance]] , especially the tension between simple and neat.
-- [[Reality]] , because hard problems do not disappear when language improves.
-- [[../Fundamental/Coding]] , readability as shared maintenance and communication.
-- [[../Meta/About_Development]] , modularity and explanation boundaries.
+### 입문용 자료 vs 원전/공식 문서
+입문 자료는 유용하지만, 어떤 대상은 결국 원전·공식 문서·히스토리를 직접 봐야 제대로 안다.
 
-## Preference signal
-The author appears to prefer communication that is generous and portable, but not fake-simple. They value explanations that lower entry cost while still respecting difficulty, domain history, and the reader's eventual need to face original complexity.
+## 원문이 남기는 실전 판단
+- 가독성은 항상 `누가 읽는가`와 함께 정의한다.
+- 쉬운 단어를 쓰되, 정확성이 무너지면 전문 용어를 남긴다.
+- 입문용 설명은 진입용으로 쓰고 원본 대면을 미루는 핑계로 쓰지 않는다.
+- 문장을 짧게 만드는 것만으로 좋은 글이 되지는 않는다고 본다.
+- 어려운 내용을 더 잘게 나누고 비유해도, 핵심 난도 자체는 숨기지 않는다.
+- 설명자가 된 뒤에는 원문 손실과 자기 해석 과잉을 계속 경계한다.
+
+## 인접 노드와의 연결
+- [[Balance]]: `simple vs neat`, 접근성 vs 공허함의 긴장이 직접 이어진다.
+- [[Reality]]: 언어가 좋아져도 현실의 어려움이 사라지지 않는다는 문제의식이 맞닿아 있다.
+- [[Decision]]: 쉬운 것을 고르는 판단과 쉬운 길을 설계하는 판단을 구분해야 한다.
+- [[../Fundamental/Coding]]: 코드는 함께 읽고 수정해야 하므로 가독성이 곧 협업 비용과 연결된다.
+- [[../Meta/About_Development]]: 설명 가능성, 모듈, 문서화, 읽히는 구조라는 개발 메타 감각과 이어진다.
+
+## 선호 신호
+저자는 `친절하지만 가짜로 단순하지 않은 설명`을 선호한다. 누구나 읽을 수 있게 문턱을 낮추고 싶어 하지만, 어려운 대상을 억지로 말랑하게 만들어 진실성을 잃는 것도 강하게 경계한다. 그래서 이 노드의 가독성은 미려한 문장 기술보다 **독자를 배려하면서도 대상의 난도와 질감을 존중하는 태도**에 가깝다.
 
 ## 정리 메모
-- Removed repeated passages while preserving the note's recurring concern about easy explanations.
-- Grouped the material into distinctions, tensions, and heuristics for faster reuse.
-- Kept the page centered on readability as a human and learning problem, not merely a writing tip list.
+- 기존 영어 중심 요약을 한국어 기준 구조로 다시 묶었다.
+- `상대성`, `입문과 원전의 거리`, `쉬운 길 vs 쉬운 일`, `단순함 vs 빈약함`을 핵심 축으로 선명하게 재정리했다.
+- 원문의 반복을 삭제하기보다, 왜 같은 고민이 여러 번 돌아오는지 드러나도록 압축했다.
