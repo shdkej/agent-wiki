@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-22 | Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/Cloud 단일 노드 재점검
+- 갱신 범위: [[mapped/Deep Knowledge/Cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 확인해 공란 상태를 재검증하고, 이 노드를 임의의 클라우드 상식 문서가 아니라 8x8 만다라트 안의 빈 카테고리 노드로 읽어야 한다는 점을 더 선명하게 정리했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 안에서의 위치 의미`, `지금 이 노드에서 보존해야 할 최소 구조`, `원본 갱신 시 우선 볼 델타`를 추가해 이후 사용자가 직접 내용을 채웠을 때 어떤 층위 변화가 생겼는지 더 잘 흡수할 수 있게 다듬었다.
+- 선호 신호: 저자는 아직 비어 있는 노드도 억지로 메우기보다 주제 경계와 인접 노드 관계를 먼저 보존하는 쪽이 더 잘 맞는다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 이번 실행에서도 비어 있었고 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았으므로 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-22 | Human · Fundamental · Integration 노드 점진 심화
 
 ### Human/Balance 단일 노드 재심화
