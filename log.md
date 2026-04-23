@@ -58,6 +58,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### CHANGELOG 단일 노드 재심화
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드가 여전히 기능 연혁보다 `개인 발행 공간을 작은 제품 표면처럼 운영한 기록`이며, 특히 `add`보다 `update`가 더 많이 남는다는 점에서 확장보다 재조정의 리듬이 더 본질적이라는 해석을 보강했다.
+- 정리: 기존 baseline은 유지한 채 `standard-version` 문법을 왜 개인 웹 운영에 빌려왔는지, 그리고 이 파일을 왜 기능 카탈로그보다 `운영 맥박 기록`으로 읽어야 하는지를 더 짧고 선명하게 다듬었다.
+- 선호 신호: 저자는 개인 웹도 즉흥적 창작 공간으로만 두기보다 버전, diff, 배포 흔적이 남는 운영 표면처럼 다루는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Human/Readability 단일 노드 재심화
 - 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
 - 탐구: 원문 전체를 다시 읽고, 이 노드가 쉬운 문장 기술보다 `읽기 가능성과 의미 도달의 차이`, `가독성을 만드는 인터페이스`, `입문 설명의 역할`을 함께 다루는 전달 윤리 카테고리라는 점을 더 선명하게 정리했다.
