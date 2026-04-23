@@ -2,106 +2,144 @@
 
 - 원본: `source/shdkej-content/Human/Reality.md`
 - Source note updated: `2025-07-23`
-- Status: deepened mapped note
-- 역할: 원본 만다라트 노드와 1:1 대응하는 관리 노트
+- 상태: 점진 심화
+- 역할: 원본 만다라트 노드와 1:1 대응하는 Human 카테고리 관리 노트
 
-## 주제 보존
-This node preserves the original concern with reality as the place where ideals, reason, emotion, abstraction, and execution are tested. It is not just about realism in a narrow sense. It is about what survives contact with lived conditions.
+## 핵심 논지
+이 노드는 현실주의를 권하는 메모가 아니다. 오히려 **이상, 이성, 감성, 추상, 계획**이 실제 삶의 마찰과 만나면 무엇이 살아남고 무엇이 무너지는지 계속 시험하는 카테고리 노드다. 저자에게 현실은 이상의 반대편이 아니라, 이상이 장식인지 작동하는 방향인지 판별하는 검증장에 가깝다.
 
-## Node thesis
-The page argues that a beautiful idea is incomplete until it can survive time limits, complexity, friction, emotion, embodiment, and actual human use. Reality is not the enemy of ideals. It is the proving ground that reveals whether the ideal is alive or decorative.
+## 이 노드가 실제로 다루는 질문
+원문은 집안일, 자취, 출근, 임신·출산, 예술사, 추상화, 소프트웨어 설계까지 폭이 넓다. 하지만 밑바닥 질문은 비교적 일관된다.
 
-## Core tensions
+- 머리로는 맞는 말이 왜 삶에서는 잘 안 되는가
+- 이상은 언제 사람을 이끌고, 언제 현실 감각을 잃게 만드는가
+- 이성과 감성은 대립하는가, 아니면 서로의 한계를 드러내는가
+- 추상화는 언제 본질을 드러내고, 언제 실제를 가리는가
+- 설계자는 의도를 세우지만 사용자는 왜 늘 다른 방식으로 움직이는가
 
-### 1. Ideal vs workable reality
-- Ideals give direction.
-- Reality exposes cost, friction, and side effects.
-- An ideal that cannot engage real constraints becomes powerless.
+즉 `Reality`는 현실 적응 팁이 아니라, **관념이 생활과 시스템 속에서 어떻게 시험되는가**를 다루는 노드다.
 
-### 2. Reason vs emotion
-- Rational systems built modern confidence.
-- History also shows rationality can be weaponized or overestimated.
-- As machines absorb more formal reasoning, human judgment may depend more on emotion, relation, and situated sensitivity.
+## 반복해서 드러나는 핵심 축
 
-### 3. Thought vs execution
-- Knowing what should be done is easier than doing it.
-- The note repeatedly tests the gap between mental clarity and physical, social, or emotional difficulty.
-- "I know" is treated as very different from "I can actually live this out."
+### 1. 이상은 방향이지만 현실 검증을 통과해야 한다
+원문은 이상을 무시하지 않는다. 오히려 이상이 있어야 방향이 생긴다고 본다. 다만 현실적인 문제를 해결하지 못하는 이상은 너무도 무력하다고 적는다.
 
-### 4. Abstraction vs concrete use
-- Abstraction is necessary for thought, design, and software.
-- Abstraction fails when it hides execution details that still matter.
-- Good abstraction reduces burden without severing contact with reality.
+- 자취를 하면 잘 꾸미고 잘 먹을 것 같지만 실제로는 귀찮음과 동선이 더 크게 작동한다.
+- 출산 후 커리어를 계속 이어가겠다는 계획도 실제 삶의 조건을 만나면 전혀 다른 모양이 될 수 있다.
+- 개발에서도 설계는 중요하지만 구현 단계에서 계획은 계속 현실과 충돌한다.
 
-## 오래 남길 아이디어 worth preserving
-- Do not confuse laziness, inconvenience, and real structural constraint.
-- Theory and practice diverge in everyday life, not only in grand philosophy.
-- Real users almost always exceed the designer's intended path.
-- A concept becomes valuable when it can meet lived conditions without collapsing.
-- Reality includes emotions, habits, embodiment, timing, and social context, not only logic.
-- Abstraction should clarify the essential shape of a thing, not become a hiding place for vagueness.
-- Systems need enough openness to handle actual use, but sometimes hard constraints are also protective.
+여기서 현실은 이상을 부정하는 힘이 아니라, **어떤 이상이 실제 조건 속에서도 계속 방향 역할을 할 수 있는지 가려내는 장치**다.
 
-## Reality as friction map
-The note keeps surfacing recurring forms of friction:
-- time pressure
-- complexity overload
-- inconvenience and maintenance burden
-- mismatch between imagined self and actual self
-- mismatch between designer intention and user behavior
-- the difficulty of preserving ideals through life transitions such as living alone, marriage, childbirth, or work
+### 2. 앎과 실행은 전혀 다른 층위다
+이 노드는 `알고 있음`과 `실제로 함`의 간극을 매우 집요하게 본다.
 
-This friction map is one of the note's most reusable contributions.
+- 의지박약 해결법을 설명하는 것은 쉽지만 실제로 의지를 유지하는 것은 어렵다.
+- 일찍 일어나면 된다는 것을 아는 것과 일찍 일어나는 것은 다르다.
+- 마음먹는 것과 직접 하는 것은 다르다.
 
-## 이게 중요한 이유 beyond philosophy
+즉 현실은 지식 부족보다 **실행 저항의 지도**를 드러낸다. 이 지점 때문에 이 노드는 자기계발적 낙관으로 흐르지 않는다.
 
-### Everyday life
-The examples about cooking, tidiness, waking early, and self-discipline show that lived reality is full of low-level resistance. The page refuses to romanticize intention.
+### 3. 현실의 마찰은 단순한 의지 부족으로 환원되지 않는다
+원문은 현실적 문제를 구체적으로 묻는다.
 
-### Art and aesthetics
-The ideal/real debate reappears through Plato and Aristotle, Renaissance and Baroque, natural imitation and inner expression. The note uses art history as a long-running case study in how humans negotiate essence and appearance.
+- 시간적 제한
+- 복잡도에서 오는 혼란
+- 귀찮음과 유지 비용
+- 몸 상태와 감정 상태
+- 생애주기 변화와 역할 변화
 
-### Software and architecture
-This is also a software note in disguise:
-- abstractions can empower or mislead
-- interfaces should hide burden, but not erase necessary understanding
-- workflows become dangerous when they conceal what is actually happening
-- systems should account for how people really behave, not only how designers wish they behaved
+특히 중요한 것은 저자가 `귀찮아서 못하는 것`과 `구조적으로 어려운 것`을 헷갈리면 안 되겠다고 적는 부분이다. 이는 현실을 핑계로 다 풀어버리지도 않고, 반대로 모든 실패를 나약함으로 몰지도 않으려는 태도다.
 
-## 숨은 패턴 across the page
-Several sections are manifestations of the same concern:
+### 4. 현실은 논리만이 아니라 감정·몸·관계의 장이다
+원문은 이성과 감성의 문제를 역사와 현재를 함께 엮어 다룬다.
 
-> How can a principle stay true without becoming detached from actual life?
+- 모더니즘은 이성과 질서에 대한 신뢰를 극대화했다.
+- 그러나 이성 역시 폭력적으로 사용될 수 있었고, 그 한계가 드러났다.
+- AI가 형식적 이성의 일부를 더 잘하게 될수록 인간에게는 정서, 관계, 맥락 감각이 더 중요해질 수 있다.
 
-That concern links household habits, philosophy, parenting fears, art theory, software abstraction, and human decision-making.
+즉 현실은 논리적 정답이 적용되는 빈 공간이 아니라, **몸과 감정과 역사적 맥락이 섞여 있는 장**이다.
 
-## Productive distinctions the note makes
+### 5. 추상화는 필요하지만 실제를 지우면 무너진다
+후반부의 추상 메모는 개발 이야기로만 읽으면 납작해진다. 저자는 추상화를 좋아하지만, 추상이 곧 막연함이 되는 순간을 경계한다.
 
-### Constraint vs excuse
-The note is careful not to flatten everything into "reality." Some failures come from genuine constraint, others from avoidance. That distinction matters.
+- 추상은 본질을 남겨 여러 경우를 다루게 해 준다.
+- 하지만 너무 높은 추상은 실제 조건을 만나면 무너질 수 있다.
+- 사용자는 내부를 다 몰라도 되지만, 중요한 결과를 좌우하는 구조는 완전히 감춰져서도 안 된다.
+- 좋은 추상은 작업을 쉽게 만들지만, 재난 상황에서는 다시 바닥층에 접근할 수 있어야 한다.
 
-### Abstraction vs vagueness
-Abstraction is not the absence of detail. It is the preservation of essential structure across cases.
+이 축은 생활과 예술, 소프트웨어를 함께 관통한다.
 
-### Flexibility vs loss of intent
-Allowing real-world use variation is good, but total looseness can erase purpose. The node suggests design should bend without becoming meaningless.
+## 이 노드를 다시 읽게 만드는 반복 패턴
 
-## Useful links inside the Human and adjacent clusters
-- [[./Future]] for planning that stays adaptive after contact with reality.
-- [[./Balance]] for non-binary judgment between competing values.
-- [[../Idea/Information]] where some ideal/reality references already point.
-- [[../Integration/Exploration]] if the exploration node later becomes the place for experimental adaptation.
-- [[../Fundamental/Architecture]] for the technical version of designing around change and real constraints.
+### 현실은 이상의 적이 아니라 시험기다
+원문 곳곳에는 `현실 때문에 안 된다`는 체념보다, **현실을 통해 이상을 어떻게 다시 조정할 것인가**라는 질문이 더 강하게 깔려 있다. 이상이 아예 없으면 방향이 사라지고, 이상만 있으면 현재를 못 넘긴다. 저자는 둘 중 하나를 버리기보다 괴리를 줄이는 방식을 묻는다.
 
-## 정리 메모 applied here
-- Removed empty first-pass bullets and turned them into reusable distinctions.
-- Brought philosophical, domestic, and software examples into one coherent frame.
-- Preserved the original breadth instead of narrowing the page to only abstract theory or only self-help.
+### 생활의 사소한 장면이 철학 논쟁과 연결된다
+자취의 로망, 수납, 출근, 식욕 같은 생활 예시는 단순 일상 메모가 아니다. 플라톤과 아리스토텔레스, 르네상스와 바로크, 이성과 감성, 자연 모방과 내면 표현 같은 큰 논의와 같은 질문을 공유한다.
 
-## Follow-up questions
-- Which repeated failures in life are true constraints, and which are poor interface design around the self?
-- Where should abstraction stop so users still understand consequences?
-- Which ideal in this note has already survived real-world testing and should be elevated into a stronger principle?
+> 보이지 않는 이상을 더 믿을 것인가, 눈앞의 현실 속에서 이상을 발견할 것인가?
 
-## 관련 문서
-- [[../../sources/Human]]
+그래서 이 노드는 일상과 예술사를 따로 두지 않고, **같은 긴장을 다른 스케일에서 반복 관찰하는 기록**으로 읽는 편이 맞다.
+
+### 사용자와 현실은 설계자의 의도를 항상 넘는다
+프로그래밍과 제품 메모도 중요한 축이다.
+
+- 프로그램의 의도와 유저의 실제 사용 방식은 다르다.
+- 유저의 진행 방식은 너무 다양해서 항상 예측을 벗어난다.
+- 의도대로 실행하게 강제하는 것보다 더 나은 사용법이 무엇인지 되묻는다.
+
+이는 저자가 현실을 단순히 받아들이는 것이 아니라, **설계 자체를 현실 친화적으로 다시 짜야 한다**고 본다는 뜻이다.
+
+### 추상은 강력하지만 완전하지 않다
+러셀·화이트헤드, 괴델, 유닉스 입출력 추상화, Go의 duck typing까지 이어지는 메모는, 추상화가 불가능하다는 말이 아니라 **완전무결한 최종 추상은 없다**는 감각을 보여 준다.
+
+- 어떤 추상은 매우 강력하게 재사용된다.
+- 그래도 모든 층위를 완전히 덮을 수는 없다.
+- 따라서 추상은 해방이면서 동시에 책임의 이동이다.
+
+## 특히 보존해야 할 긴장
+
+### 이상 vs 현실
+이 노드의 가장 중심 축이다. 이상은 필요하지만 현실을 경유하지 않으면 공허하다. 반대로 현실만 보면 방향이 사라진다.
+
+### 이성 vs 감성
+이성은 질서와 설명을 주지만 충분하지 않다. 감성은 단순한 비합리가 아니라, 인간이 실제로 반응하고 관계 맺고 판단하는 층위를 드러낸다.
+
+### 계획 vs 실행
+계획은 명료하지만 실제는 시간, 체력, 감정, 관계, 우연 때문에 계속 수정된다. 이 노드는 실패한 계획을 부끄러움보다 학습 자료로 읽게 만든다.
+
+### 추상 vs 구체
+추상은 필수지만, 지나치면 결과와 비용을 가리는 베일이 된다. 특히 운영·복구·예외 상황에서는 구체 층위로 다시 내려올 수 있어야 한다.
+
+### 의도 vs 사용
+설계자는 길을 만들지만, 현실의 사용자는 다른 동선으로 움직인다. 이 차이를 오류로만 보지 않고 설계 재검토의 신호로 읽는 것이 이 노드의 중요한 실천 감각이다.
+
+## 현실을 읽는 실전 프레임
+원문 전반을 다시 꺼내 쓸 수 있게 압축하면 다음과 같다.
+
+1. 먼저 내가 세운 이상이나 개념이 무엇인지 본다.
+2. 그다음 실제로 부딪히는 마찰이 무엇인지 구체적으로 적는다.
+3. 그 마찰이 구조적 제약인지, 귀찮음·회피인지 구분한다.
+4. 이상을 버릴지, 구현 방식을 바꿀지, 환경을 바꿀지 판단한다.
+5. 마지막으로 현실을 핑계로 방향을 잃지 않았는지 다시 점검한다.
+
+이 프레임 덕분에 `Reality`는 냉소적 현실주의가 아니라, **이상이 살아남는 조건을 찾는 조정 노드**로 읽힌다.
+
+## 인접 노드와의 연결
+- [[../../mapped/Human/Future]]: 미래 설계가 현실의 변수와 만나며 수정되는 지점.
+- [[../../mapped/Human/Balance]]: 대립쌍 사이의 조정 감각. `Reality`는 그 조정이 실제 마찰 속에서 어떻게 시험되는지 더 강하게 본다.
+- [[../../mapped/Human/Readability]]: 추상과 전달의 관계. 쉬운 설명이 실제 이해를 보장하지 않는다는 점에서 이어진다.
+- [[../../mapped/Fundamental/Architecture]]: 추상화와 구현, 본질과 실제 구성요소의 긴장.
+- [[../../mapped/Integration/Exploration]]: 현실을 만나 무너진 가설을 다시 탐구 질문으로 바꾸는 방식.
+
+## 이번 심화에서 더 선명해진 점
+- 기존 영어 중심 초안을 한국어 기준의 구조로 다시 묶어, 이 노드가 단순 `이상 vs 현실` 메모가 아니라 `이성·감성·추상·실행·사용자 현실`을 함께 다루는 상위 판단 노드라는 점을 더 분명히 했다.
+- 생활 예시와 예술사, 소프트웨어 추상화 메모가 흩어진 잡록이 아니라 같은 질문의 다른 스케일이라는 점을 드러내도록 구조를 재정리했다.
+- `현실적 문제`를 시간·복잡도·귀찮음·생애 변화 같은 구체 마찰 축으로 분리해, 원문의 실행 감각을 더 빨리 읽히게 만들었다.
+- 설계 의도와 실제 사용의 간극을 별도 축으로 끌어올려, 이 페이지가 개인 삶 메모를 넘어서 제품/시스템 판단 노드로도 기능하도록 보강했다.
+
+## 남겨둘 질문
+- 어떤 이상은 끝까지 지켜야 하고, 어떤 이상은 현실을 만나면 구현 방식부터 바꿔야 하는가?
+- `귀찮음`과 `구조적 제약`을 실제 생활에서 어떻게 더 정확히 구분할 수 있는가?
+- 사용자의 실제 행동을 존중하면서도 방향성을 잃지 않는 설계는 어떤 모습이어야 하는가?
+- 추상화가 도움이 되다가도 위험해지는 경계는 어디서 생기는가?
