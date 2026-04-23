@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-23 | Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/Cloud 단일 노드 재심화
+- 갱신 범위: [[mapped/Deep Knowledge/Cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 확인해 공란 상태를 재검증하고, 관련 source인 `Deep Knowledge/Infra`를 참고해 이 노드가 벤더 기능 요약보다 `추상화 수용 범위`, `책임 분배`, `숨은 비용`, `회귀 가능성`을 담는 상위 카테고리일 가능성을 더 선명하게 읽었다.
+- 정리: 기존 baseline은 유지한 채 `Cloud`를 `Infra`의 복사본이나 일반론 문서로 키우지 않기 위한 금지선까지 명시해, 이후 직접 원문이 들어왔을 때 드리프트 없이 흡수할 수 있는 분류축을 보강했다.
+- 선호 신호: 저자는 빈 카테고리 노드도 성급히 채우기보다, 무엇을 담아야 하고 무엇을 아직 담지 말아야 하는지의 경계를 먼저 또렷하게 잡아 두는 편이 더 잘 맞는다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 이번 실행에서도 비어 있었고 파일 수정 시각 기준으로 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았으므로 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-23 | Communication 노드 점진 심화
 
 ### Communication/Document 단일 노드 재심화
