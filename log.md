@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-23 | Fundamental 노드 점진 심화
+
+### Fundamental/Data_Structure 단일 노드 재심화
+- 갱신 범위: [[mapped/Fundamental/Data_Structure]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드의 핵심이 자료구조 정의 요약보다 `문제를 보고 어떤 구조를 떠올려야 하는가`를 훈련하는 선택 감각에 있다는 점을 더 선명하게 정리했다.
+- 정리: 기존 baseline은 유지한 채 `배열/해시/그래프/큐 계열을 떠올리는 신호`, `trie·DB 인덱스·검색 엔진을 탐색 최적화 묶음으로 읽는 축`을 보강했다.
+- 선호 신호: 저자는 자료구조를 이름 암기보다 입력 특성, 연산 패턴, 검색 방식의 선택 문제로 이해하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Data_Structure.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-23 | Human 노드 점진 심화
 
 ### Human/Reality 단일 노드 재심화
