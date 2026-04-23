@@ -10,6 +10,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Human/Readability 단일 노드 재심화
+- 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드가 쉬운 문장 기술보다 `읽기 가능성과 의미 도달의 차이`, `가독성을 만드는 인터페이스`, `입문 설명의 역할`을 함께 다루는 전달 윤리 카테고리라는 점을 더 선명하게 정리했다.
+- 정리: 기존 baseline은 유지한 채 `해독 가능성 vs 의미 도달`, `읽기 쉬움은 문체가 아니라 인터페이스`, [[Balance]]와의 연결을 보강해 `쉽게 풀되 비우지는 않기`라는 판단 축이 더 빨리 드러나게 다듬었다.
+- 선호 신호: 저자는 읽기 쉬움을 무조건적인 단순화보다 독자가 의미에 도달하도록 돕는 설계로 보며, 쉬운 설명도 원전으로 넘어가는 사다리일 때 더 높게 평가하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Readability.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-22 | Human 노드 점진 심화
 
 ### Human/Readability 단일 노드 재심화
