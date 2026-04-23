@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-23 | blog 노드 점진 심화
+
+### blog/Digital_Content 단일 노드 재심화
+- 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드가 백업 팁 메모보다 `디지털 소유`, `플랫폼 접근권`, `DRM`, `회사 폐업`, `구독 vs 소장`, `개인 아카이브 재접속`을 함께 다루는 생활형 판단 카테고리라는 점을 더 선명하게 정리했다.
+- 정리: 기존 baseline은 유지한 채 `파일 보존 vs 접근 지속성`, `실물 소장이 주는 통제감`, `구독의 효율과 애장품 감각의 비대칭`을 전면화하고, [[mapped/blog/Note_Management]]·[[mapped/Communication/Blogging]]·[[mapped/Meta/My_space]] 연결 이유를 더 분명히 적어 구조를 보강했다.
+- 선호 신호: 저자는 디지털 콘텐츠를 단순 소비재보다 기억과 취향이 묻어 있는 개인 자산으로 느끼며, 결제했는데도 플랫폼과 계정에 묶여 장기 소유가 불안정한 상태에 강한 위화감을 느끼는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Digital_Content.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-23 | Fundamental · Human · Meta · Health 노드 점진 심화
 
 ### Fundamental/Coding 단일 노드 재심화
