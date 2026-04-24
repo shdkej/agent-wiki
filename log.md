@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-24 | Integration 노드 점진 심화
+
+### Integration/Exploration 단일 노드 재심화
+- 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드가 조사 절차 메모에 그치지 않고 `발견 가능성`, `정리된 시작점의 효용`, `메인스트림 밖 정보의 취약성`, `증상보다 긴 인과 사슬을 보는 질문법`까지 함께 다루는 탐구 운영 카테고리라는 점을 더 선명하게 확인했다.
+- 정리: 기존 baseline은 유지한 채 `좋은 탐구는 발견 가능성까지 함께 설계한다`, `잘 정리된 시작점과 직접 탐색 사이를 오간다` 축을 추가하고, [[mapped/Idea/Information]]·[[mapped/Meta/Troubleshooting]] 연결 이유를 더 구체화해 탐구를 검색법보다 정보 유통·질문 설계·원인 추적의 루프로 더 또렷하게 묶었다.
+- 선호 신호: 저자는 탐구를 단지 정보를 많이 찾는 능력보다, 가치 있는 자료가 어떤 표면에서 드러나는지 읽고 정리된 입문 구조를 발판 삼되 판단은 다시 자기 손으로 회수하는 운영 감각으로 다루는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Exploration.md`는 frontmatter상 최근 갱신 이력이 있으나 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-24 | Root · Communication 노드 점진 심화
 
 ### CHANGELOG 단일 노드 재심화
