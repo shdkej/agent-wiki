@@ -48,6 +48,16 @@
 - 운영 교훈: 블로깅형 source 노트는 글쓰기 팁 모음으로 줄이지 말고, 내부 위키와 외부 발행을 가르는 편집 운영 시스템으로 읽는 편이 품질이 높다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+## 2026-04-24 | blog 노드 점진 심화
+
+### blog/Note_Management 단일 노드 재심화
+- 갱신 범위: [[mapped/blog/Note_Management]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드가 노트앱 비교 글보다 `다시 떠올릴 수 있는 좌표계`, `빠른 입력 vs 장기 재접속`, `만다라트와 제텔카스텐 사이의 전환 고민`, `기록을 아웃풋으로 다시 꺼내는 흐름`을 함께 다루는 지식 운영 카테고리라는 점을 더 선명하게 확인했다.
+- 정리: 기존 baseline은 유지한 채 만다라트를 단순 분류표보다 기억용 좌표계로 읽는 축과, 후반부 프로그램 비교 메모를 앱 후기 대신 운영 요구사항 목록으로 읽는 기준을 보강하고 [[mapped/Idea/Journal]]·[[mapped/Communication/Blogging]]·[[mapped/blog/Digital_Content]] 연결을 더 또렷하게 적었다.
+- 선호 신호: 저자는 노트 관리를 정리 습관보다 `나중에 다시 발견하고 다시 쓰는 구조`의 문제로 읽는 경향이 강하고, 도구 선택도 입력 속도와 장기 재접속성을 함께 보려는 편이 더 잘 맞는다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Note_Management.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-24 | Health 노드 점진 심화
 
 ### Health/Curiosity 단일 노드 재심화
