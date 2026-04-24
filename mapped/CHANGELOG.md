@@ -4,7 +4,7 @@ tags: [mapped, changelog, portfolio, publishing, maintenance]
 source_file: "[[source/shdkej-content/CHANGELOG.md]]"
 source_name: CHANGELOG
 created: 2026-04-14
-updated: 2026-04-23 13:17 UTC
+updated: 2026-04-24 09:17 UTC
 status: evolving
 language: ko
 ---
@@ -274,25 +274,23 @@ Adsense, Kakao adfit, 스크립트 삽입 관련 변경은 이 질문 아래 읽
 
 ## 원본에서 직접 보이는 증거 묶음
 
-| 원문에 반복되는 표현 | 이 페이지에서의 해석 |
+간단히 빈도를 세어 보면 이 페이지의 해석이 왜 `신기능 목록`보다 `운영 압력 지도`에 가까운지 더 분명해진다.
+- `update`: 233회
+- `add`: 32회
+- `remove` + `delete`: 9회
+- `gatsby monorepo`: 96회
+- `sitemap`: 4회, `google custom search`: 4회
+- `adsense`: 3회, `adfit`: 3회
+
+| 반복 표현 | 이 페이지에서의 해석 |
 | --- | --- |
-| `add sitemap`, `google custom search`, `seo component` | 발행은 게시만이 아니라 검색 진입면 설계까지 포함된다고 본다. |
+| `update`가 `add`보다 압도적으로 많다 | 이 changelog의 기본 리듬은 확장보다 재조정·유지에 가깝다. |
+| `gatsby monorepo`가 매우 자주 나온다 | 개인 웹도 upstream 변화 비용을 지속적으로 떠안는다는 사실이 전면에 드러난다. |
+| `sitemap`, `google custom search`, `seo component` | 발행은 게시만이 아니라 검색 진입면 설계까지 포함된다고 본다. |
 | `adsense`, `adfit`, `script` | 공개 공간에 수익 실험을 붙이되, 운영과 사용자 경험의 균형을 계속 조정한다. |
-| `gatsby monorepo`, `starter`, `plugin`, `dependency` 업데이트 | 개인 웹도 upstream 변화 비용을 지속적으로 떠안는다는 사실이 핵심 운영 압력으로 드러난다. |
-| `update`, `fix`, `remove`, `delete`의 짧은 반복 | 큰 기능 발표보다 작은 마찰 제거와 상시 유지보수가 실제 작업 리듬에 더 가깝다. |
+| `remove`, `delete`, 각종 `fix` | 큰 기능 발표보다 작은 마찰 제거와 상시 유지보수가 실제 작업 리듬에 더 가깝다. |
 
 이 표는 세부 사실을 완전히 복원하려는 것이 아니라, 긴 목록 전체에서 무엇이 가장 자주 되돌아오는지 빠르게 붙잡기 위한 압축 지도다.
-
-## 원본 커밋 문장의 결에서도 보이는 것
-
-### 설명이 짧아도 우선순위는 선명하다
-원문 커밋 메시지는 대체로 짧고 거칠다. 하지만 반복되는 명사와 동사를 보면 실제 우선순위는 꽤 분명하다.
-- `add sitemap`, `google custom search`, `seo component`는 발견 가능성과 검색 진입면 관리에 대한 관심을 보여준다.
-- `adsense`, `adfit`, `script`류 항목은 공개 공간에 수익 실험을 붙여 보는 현실 감각을 보여준다.
-- `gatsby`, `starter`, `plugin`, `dependency` 업데이트는 사이트의 핵심 노동이 콘텐츠 작성만이 아니었다는 사실을 보여준다.
-- `remove`, `fix`, `update`의 짧은 반복은 큰 선언보다 작은 마찰 제거를 우선하는 운영 습관을 드러낸다.
-
-즉 이 파일은 서술이 성긴 대신, 무엇을 자주 만졌는지의 빈도로 운영 우선순위를 말해 준다.
 
 ### 형식적 분류보다 실제 압력의 묶음이 더 중요하다
 원문은 `Features`와 `Bug Fixes`로 나뉘지만, 실제 내용은 그보다 훨씬 운영 혼합적이다.

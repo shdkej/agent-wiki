@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-24 | Root · Deep Knowledge 노드 점진 심화
+
+### CHANGELOG 단일 노드 재심화
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드의 핵심이 여전히 changelog 형식 자체보다 `반복 빈도가 보여주는 운영 압력 분포`에 있다는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `update`·`add`·`gatsby monorepo`·검색/광고 계열 표현의 반복 빈도를 짧게 계수해, 왜 이 페이지를 기능 목록이 아니라 유지 리듬 지도처럼 읽어야 하는지 더 빠르게 드러나게 다듬었다.
+- 선호 신호: 저자는 changelog를 개별 사건 설명보다 어떤 작업이 얼마나 자주 되돌아왔는지에서 운영 감각을 읽는 편이 더 잘 맞는다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-24 | Deep Knowledge 노드 점진 심화
 
 ### Deep Knowledge/Data 단일 노드 재심화
