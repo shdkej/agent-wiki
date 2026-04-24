@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-24 | Communication 노드 점진 심화
+
+### Communication/Open_Source 단일 노드 재심화
+- 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드가 오픈소스 일반론보다 `낯선 코드베이스 진입법`, `라이선스와 공개 범위 판단`, `버저닝 약속`, `발표와 레퍼런스를 통한 공개 온보딩`을 함께 다루는 협업 진입 카테고리라는 점을 더 선명하게 확인했다.
+- 정리: 기존 baseline은 유지한 채 레퍼런스 묶음을 단순 부록이 아니라 기여 진입 발판으로 읽는 축, 메인테이너 시간과 기존 질서를 존중하는 기여 태도, [[mapped/Integration/Business]]·[[mapped/CHANGELOG]] 연결 이유를 보강했다.
+- 선호 신호: 저자는 오픈소스를 유명 프로젝트 참여 욕망보다 구조 읽기, 공개 전략 판단, 사용자/메인테이너 배려, 설명 가능한 릴리즈 운영을 배우는 실전 협업 훈련장으로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-24 | Integration 노드 점진 심화
 
 ### Integration/Marketing 단일 노드 재심화
