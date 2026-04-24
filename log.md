@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-24 | Root · Communication 노드 점진 심화
+
+### CHANGELOG 단일 노드 재심화
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드에서 `릴리스 형식`과 `생활형 update 메모`의 충돌뿐 아니라 `직접 설계한 변화`와 `Gatsby 기반이 끌고 온 상속 로그`가 같은 버전 껍데기 안에서 평평해진다는 점을 더 선명하게 확인했다.
+- 정리: 기존 baseline은 유지한 채 릴리스 형식 관련 단락을 다듬어, 왜 이 changelog가 개인 운영 회고이면서 동시에 기반 비용 장부처럼 읽혀야 하는지 더 빠르게 드러나게 했다.
+- 선호 신호: 저자는 changelog를 기능 리스트보다 `내 선택`과 `기반이 요구한 유지 노동`이 한 문서에 겹치는 운영 흔적으로 읽는 편이 더 잘 맞는다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-24 | Communication 노드 점진 심화
 
 ### Communication/Blogging 단일 노드 재심화
