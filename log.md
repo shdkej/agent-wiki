@@ -66,6 +66,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Digital_Content.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Communication/Talk 단일 노드 재심화
+- 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체를 다시 읽고, 이 노드가 여전히 말하기 스킬 팁보다 `수신 상태 조정`, `리액션`, `관계 지속`, `자기방어`, `나와의 소통`을 함께 다루는 관계 운영 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `원문 발췌 구조`를 추가하고, 첫 대화 이후 관계를 이어 가는 문제와 `내 진심이 뭔지 모른다`는 자기 진단을 전면화해 대화를 단발성 화술보다 관계 지속과 자기 정렬의 문제로 더 선명하게 다듬었다.
+- 선호 신호: 저자는 대화를 설득력 경쟁보다 상대의 흐름에 호응하고 천천히 앎의 상태를 맞춰 가는 과정으로 이해하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Talk.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-24 | Meta 노드 점진 심화
 
 ### Meta/About_Development 단일 노드 재심화
