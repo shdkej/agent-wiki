@@ -10,6 +10,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 frontmatter상 최근 갱신 이력이 있으나 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### CHANGELOG 단일 노드 재심화
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 파일이 여전히 기능 연혁보다 `개인 웹 운영`이라는 루트 카테고리의 압축 표면이라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `사람이 들어오는 면 / 사람이 만지는 면 / 바닥을 유지하는 면 / 생활형 운영 박동`의 4면 구조를 추가해, 왜 이 changelog를 8x8 만다라트의 루트 노드로 읽어야 하는지 더 빠르게 잡히게 다듬었다.
+- 선호 신호: 저자는 CHANGELOG에서도 개별 커밋 사실 나열보다, 한 파일이 어떤 운영면들을 함께 붙들고 있는지 드러나는 읽기 프레임을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-27 | Root · Human · Idea · Fundamental 노드 점진 심화
 
 ### Portfolio 단일 노드 재심화
