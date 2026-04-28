@@ -2,6 +2,14 @@
 
 ## 2026-04-28 | Root · Integration · Health · Meta 노드 점진 심화
 
+### Deep Knowledge/Product 단일 노드 재심화
+- 갱신 범위: [[mapped/Deep Knowledge/Product]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 기능 목록이 아니라 `편집 역량`, `고객 저항 읽기`, `검증 가능한 전달 표면`, `반복 마찰의 자동화`를 함께 붙드는 제품 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `원문 발췌 구조`와 `제품 판단 루프`를 추가해, 제품·마케팅·측정·브랜딩 메모가 `문제 포착 → 래핑 → 써보게 만들기 → 지표로 수정 → 반복 업무 자동화`의 한 운영 구조로 읽히게 다듬었다.
+- 선호 신호: 저자는 Product 노트에서도 기능 정의보다, 사람들이 실제로 써보고 남게 되는 경험 구조와 그 뒤의 검증 루프를 더 중요하게 다루는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Deep Knowledge/Cloud 단일 노드 재심화
 - 갱신 범위: [[mapped/Deep Knowledge/Cloud]] 1개 페이지만 점진 심화했다.
 - 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 비어 있는 상태라는 사실 자체보다 `Cloud`를 별도 카테고리로 떼어 둔 이유가 `Infra` 실행 메모 위의 선택 기준을 받기 위해서일 가능성이 크다는 점을 재확인했다.
