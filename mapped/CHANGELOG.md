@@ -4,7 +4,7 @@ tags: [mapped, changelog, portfolio, publishing, maintenance]
 source_file: "[[source/shdkej-content/CHANGELOG.md]]"
 source_name: CHANGELOG
 created: 2026-04-14
-updated: 2026-04-28 19:18 UTC
+updated: 2026-04-28 23:17 UTC
 status: evolving
 language: ko
 ---
@@ -351,6 +351,12 @@ Adsense, Kakao adfit, 스크립트 삽입 관련 변경은 이 질문 아래 읽
 - 초반에는 sitemap, google custom search, adsense, adfit, SEO component처럼 `발견 가능성·수익화·표면 정리`가 한 묶음으로 자주 나온다.
 - 중간으로 갈수록 `gatsby monorepo`, starter, plugin, dependency 계열이 길게 이어지며, 공개 표면 확장보다 기반 유지가 더 큰 시간을 먹는다는 사실이 전면으로 올라온다.
 - 후반 `0.1.2`는 `update 21-04-20`, `🎸 update 21-04-23`처럼 짧은 메모형 반영으로 닫혀, 거대한 전환보다 이미 운영 중인 표면을 계속 다시 만지는 리듬을 남긴다.
+
+| 시간대 압력 | 대표 흔적 | 읽기 포인트 |
+| --- | --- | --- |
+| 초반 | `sitemap`, `google custom search`, `SEO component`, 광고 스크립트 | 먼저 `보이게 만들기`와 `붙여 보기`가 앞선다. |
+| 중반 | `gatsby monorepo`, starter/plugin/dependency 갱신 다수 | 선택한 기반이 스스로 유지 일정을 만들어 낸다. |
+| 후반 | 날짜형 `update`, 이모지 섞인 짧은 커밋 | 운영이 제품 출시보다 생활 리듬에 더 가까워진다. |
 
 즉 이 문서는 단발성 성과 기록보다 `발행면 확장 → 기반 유지의 장기화 → 생활형 손질의 지속`이라는 운영 시간축을 보여주는 지도이기도 하다.
 
