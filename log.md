@@ -2,6 +2,14 @@
 
 ## 2026-04-28 | Root · Integration · Health · Meta 노드 점진 심화
 
+### Deep Knowledge/Cloud 단일 노드 재심화
+- 갱신 범위: [[mapped/Deep Knowledge/Cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 비어 있는 상태라는 사실 자체보다 `Cloud`를 별도 카테고리로 떼어 둔 이유가 `Infra` 실행 메모 위의 선택 기준을 받기 위해서일 가능성이 크다는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `Infra`와 `Devops` source의 실제 문장을 다시 읽어, `편의와 통제의 교환`, `서버리스의 경계`, `배포 속도와 복구 가능성`이 이 노드가 장차 받을 상위 질문임을 표 형태로 압축했다.
+- 선호 신호: 저자는 Cloud 노트도 벤더 기능 백과사전으로 채우기보다, 이미 흩어진 실행 메모를 한 단계 위의 선택 기준으로 묶는 상위 경계 노드로 두는 편이 더 잘 맞는다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 이번 런에서도 비어 있었고 file mtime 기준으로 mapped 노트보다 오래되어 직접 사용자 수정본으로 보이지 않았으므로 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Meta/AGENTS 단일 노드 재심화
 - 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 점진 심화했다.
 - 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 에이전트 설정 목록이 아니라 `역할 배치`, `공통 문서군`, `고객 반응을 받는 발행 표면`, `stateless handoff`를 함께 붙드는 메타 운영 카테고리라는 점을 재확인했다.
