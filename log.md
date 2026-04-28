@@ -136,7 +136,7 @@
 - 정리: 기존 baseline은 유지한 채 4층 압축 표를 `운영자/방문자/검색 유입자/도구 체인` 기준으로 다시 세분했고, [[Portfolio]]·[[Communication/Blogging]]·[[Meta/My_space]]·[[Communication/Document]]와의 경계 표를 추가해 루트 인접 노드 사이의 역할 분담이 더 빨리 보이게 다듬었다.
 - 선호 신호: 저자는 CHANGELOG에서도 개별 커밋 해설보다, 어떤 표면을 누가 체감했고 어떤 운영 비용이 어디서 발생했는지가 한눈에 보이는 재진입형 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-04-27 | Root · Human · Idea · Fundamental · Deep Knowledge 노드 점진 심화
 

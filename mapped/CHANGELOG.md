@@ -4,7 +4,7 @@ tags: [mapped, changelog, portfolio, publishing, maintenance]
 source_file: "[[source/shdkej-content/CHANGELOG.md]]"
 source_name: CHANGELOG
 created: 2026-04-14
-updated: 2026-04-28 13:17 UTC
+updated: 2026-04-28 19:18 UTC
 status: evolving
 language: ko
 ---
