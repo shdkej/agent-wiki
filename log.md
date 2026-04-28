@@ -79,6 +79,15 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Idea/Information 단일 노드 재심화
+- 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 잡학 스크랩장이 아니라 `정보 수집`, `발견 가능성`, `전달 형식`, `멘탈 모델`, `공적 영향력`을 함께 붙드는 정보 운영 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `원문 발췌 구조`와 `사례군을 읽는 네 개의 묶음`을 추가해, 앞쪽 2025년 메모를 현재의 렌즈로 세우고 뒤의 법·플랫폼·기술·역사 스크랩을 그 렌즈를 검증하는 재료층으로 다시 묶었다.
+- 선호 신호: 저자는 Information 노트에서도 정보 조각 나열보다, 무엇이 발견되고 신뢰되고 전달되며 판단으로 엮이는지를 보여주는 운영형 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Information.md`는 frontmatter상 최근 갱신 이력이 있으나 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 교훈: 정보형 source 노트에 최신 연도 메모와 장기 스크랩이 함께 있으면, 앞쪽 최신 메모를 현재의 렌즈로 세우고 뒤쪽 사례군은 그 렌즈를 검증하는 재료층으로 읽는 편이 드리프트를 줄인다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-27 | Root · Human · Idea · Fundamental · Deep Knowledge 노드 점진 심화
 
 ### Portfolio 단일 노드 재심화
