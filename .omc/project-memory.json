@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777433386774,
+  "projectRoot": "/Users/seongho-noh/workspace/agent-wiki",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "concepts": {
+      "path": "concepts",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1777433386723,
+      "keyFiles": [
+        "Context over inventory.md",
+        "Human-Agent Fit.md",
+        "Structure before scale.md"
+      ]
+    },
+    "diary": {
+      "path": "diary",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1777433386723,
+      "keyFiles": [
+        "2026-04-22.md",
+        "2026-04-23.md",
+        "2026-04-24.md",
+        "2026-04-25.md",
+        "2026-04-26.md"
+      ]
+    },
+    "maintenance": {
+      "path": "maintenance",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1777433386724,
+      "keyFiles": [
+        "Initial Import Plan.md",
+        "Source Mapping.md"
+      ]
+    },
+    "mapped": {
+      "path": "mapped",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1777433386724,
+      "keyFiles": [
+        "CHANGELOG.md",
+        "Portfolio.md"
+      ]
+    },
+    "sources": {
+      "path": "sources",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1777433386724,
+      "keyFiles": [
+        "Communication.md",
+        "Fundamental.md",
+        "Human.md",
+        "Idea.md",
+        "Integration.md"
+      ]
+    },
+    "syntheses": {
+      "path": "syntheses",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1777433386724,
+      "keyFiles": [
+        "Knowledge Lab Operating Thesis.md",
+        "Source Category Map.md"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
