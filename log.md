@@ -43,6 +43,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/About_Development.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### blog/My_space 단일 노드 재심화
+- 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 개인 서버 구축 메모가 아니라 `비용 감각`, `운영 검증 과제`, `실제 삽질 기록`, `최소 플랫폼 상상`이 한 덩어리로 붙어 있는 블로그형 운영 실험 노드라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `원문 발췌 구조`를 추가해 비용 탐색 → 운영 실험 → 실제 막힘 → 최소 인프라 상의 배열을 더 빠르게 읽히게 다듬었고, [[mapped/Meta/My_space]]와 달리 이 blog 노드가 장기 제어 구조 명세보다 시행착오와 예산 감각을 외부화한 서사형 기록이라는 차이를 짧게 보강했다.
+- 선호 신호: 저자는 My_space 같은 운영 노트에서도 기술 스택 나열보다 왜 그 공간을 원했는지, 어디서 막혔는지, 무엇이 개인 운영의 현실적 기준이 되었는지가 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/My_space.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-28 | Root · Integration · Health · Meta 노드 점진 심화
 
 ### CHANGELOG 단일 노드 재점검
