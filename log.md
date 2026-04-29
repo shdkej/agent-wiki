@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-29 | Meta 노드 점진 심화
+
+### Meta/About_Development 단일 노드 재심화
+- 갱신 범위: [[mapped/Meta/About_Development]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 개발 팁 모음이 아니라 `기본 기준`, `구현 루프`, `글쓰기/전달`, `Legacy 재사용`을 함께 붙드는 메타 개발 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `기본/개발/글쓰기/Legacy` 배열을 `기준 설정 → 구현 루프 → 전달 인터페이스 → 장기 축적`의 4층 사다리로 다시 묶었고, 후반의 회사 선택 메모도 취업 잡담이 아니라 어떤 환경이 어떤 개발 습관을 키우는가를 가늠하는 커리어 운영 축으로 보강했다.
+- 선호 신호: 저자는 About_Development 노트에서도 언어·프레임워크 지식보다, 다시 들어갈 수 있고 남에게 넘길 수 있는 개발 상태를 만드는 기준과 협업 윤리를 더 중요하게 다루는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/About_Development.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-28 | Root · Integration · Health · Meta 노드 점진 심화
 
 ### CHANGELOG 단일 노드 재점검
