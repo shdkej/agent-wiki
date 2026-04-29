@@ -1,6 +1,15 @@
 # 지식 랩 로그
 
-## 2026-04-29 | Communication · Meta 노드 점진 심화
+## 2026-04-29 | Root · Communication · Meta 노드 점진 심화
+
+### Portfolio 단일 노드 재심화
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 포트폴리오가 여전히 기술 사례 나열보다 `팀의 집중력 보호`, `공용 배포 제어면`, `장애 재진입 시간 단축`을 함께 설명하는 운영 자기소개 문서라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 도입부의 `개발자들이 개발에만 집중할 수 있는 환경` 선언을 뒤쪽 사례들과 다시 묶어, 배포 자동화·표준화·TraceID·문서화가 모두 `개발자의 흐름을 잃지 않게 만드는 장치`라는 축을 더 전면화했다.
+- 선호 신호: 저자는 포트폴리오에서도 인프라 안정화 사실 자체보다, 팀이 덜 기다리고 덜 헤매게 되는 작업면 변화를 드러내는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 
 ### Communication/Document 단일 노드 재심화
 - 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 점진 심화했다.
