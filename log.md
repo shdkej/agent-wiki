@@ -129,6 +129,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Communication/Logical_Thinking 단일 노드 재심화
+- 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 논증 기법 요약집이 아니라 `추론 도구`, `세계관 비교`, `감정·언어·무의식까지 포함한 인간 인식 한계`를 함께 붙드는 판단 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `이 노드를 읽는 3개 층위`와 `원문 발췌 구조`를 추가해, 연역·귀납·귀류·변증법·오류론·MECE와 후반 철학/꿈 메모가 왜 한 파일 안에 같이 있어야 하는지 더 빠르게 읽히게 다듬었다.
+- 선호 신호: 저자는 Logical_Thinking 노트에서도 차가운 정답 기계보다, 질문을 세우고 반례를 검토하고 감정적 수용 조건까지 포함해 판단을 다루는 넓은 논리 감각을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-28 | Root · Integration · Health · Meta 노드 점진 심화
 
 ### CHANGELOG 단일 노드 재점검
