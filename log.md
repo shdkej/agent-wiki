@@ -2,6 +2,14 @@
 
 ## 2026-04-29 | Root · Communication · Meta 노드 점진 심화
 
+### Communication/Foreign_language 단일 노드 재심화
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 외국어 이론 정리보다 `막힌 문장 복구`, `자주 쓰는 동사 호출`, `상황 재진입 문장`, `사회적 타이밍 감각`을 함께 붙드는 실전 언어 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 문법 질문을 `시험형 규칙`이 아니라 `실제로 말하다 걸린 문장 복구 메모`로 끌어올렸고, `mores: social convention`·`communication vs conversation`·업무/여행 표현을 다시 묶어 이 노드가 단어와 문법뿐 아니라 장면 적절성과 사회적 사용감까지 저장하는 언어 운영 노드라는 점을 더 선명하게 다듬었다. 추가로 [[mapped/Communication/Talk]]과의 연결을 보강해, Talk가 대화 흐름을 다룬다면 Foreign_language는 그 흐름 안에서 실제로 꺼낼 발화 단위를 저장하는 보완 노드라는 차이도 짧게 적었다.
+- 선호 신호: 저자는 외국어 노트에서도 문법 체계의 완결성보다, 틀리게 말해 본 문장을 어떻게 다시 세울지와 어떤 장면에서 어떤 표현이 자연스러운지를 빠르게 호출할 수 있는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### CHANGELOG 단일 노드 재심화
 - 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
 - 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 루트 노드가 여전히 기능 연혁보다 `발행 운영자 / 기반 관리자 / 생활형 유지자` 역할이 한 파일 안에서 교차하는 운영 기록이라는 점을 재확인했다.
