@@ -1,5 +1,15 @@
 # 지식 랩 로그
 
+## 2026-04-30 | Health 노드 점진 심화
+
+### Health/Music 단일 노드 재심화
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 음악 취향 메모가 아니라 `타브 해독`, `지판 위치 감각`, `손 역할 분리`, `기타 경험 전이`를 통해 베이스 입문 진입면을 붙드는 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `Music`이 `Health` 묶음 안에 놓인 구조적 의미를 따로 세워, 이 노드를 감상 취미보다 `몸을 다시 쓰는 생활 기술`로 읽는 기준을 보강했다. 추가로 [[mapped/Health/Physical]]·[[mapped/Health/Routine]]와의 연결을 더 선명하게 적어, 악기 연습이 신체 감각과 반복 가능한 생활 루프 위에 놓인다는 점을 드러냈다.
+- 선호 신호: 저자는 Music 노트에서도 장르 취향이나 장비 정보보다, 손을 어떻게 붙이고 어떤 최소 반복 루프로 다시 들어갈지를 먼저 정리하는 쪽을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-30 | Root 노드 점진 심화
 
 ### CHANGELOG 단일 노드 재심화
@@ -7,7 +17,7 @@
 - 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 루트 노드에서 upstream성 changelog 항목이 단순 잡음이 아니라 `기반 선택이 만든 실제 유지비`의 증거라는 점을 다시 확인했다.
 - 정리: 기존 baseline은 유지한 채 [[Meta/My_space]] 대비 문장을 보강해, CHANGELOG를 `개인 웹 표면을 계속 살려 두는 생활형 운영 박동`이자 이후 자기 소유 제어면 감각의 전사로 더 선명하게 압축했다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-04-30 | Fundamental · Human · Idea 노드 점진 심화
 
