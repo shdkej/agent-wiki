@@ -4,7 +4,7 @@ tags: [mapped, changelog, portfolio, publishing, maintenance]
 source_file: "[[source/shdkej-content/CHANGELOG.md]]"
 source_name: CHANGELOG
 created: 2026-04-14
-updated: 2026-04-29 06:17 UTC
+updated: 2026-04-30 05:17 UTC
 status: evolving
 language: ko
 ---
@@ -241,6 +241,7 @@ Adsense, Kakao adfit, 스크립트 삽입 관련 변경은 이 질문 아래 읽
 가장 큰 비중을 차지하는 Gatsby monorepo, starter, plugin, dependency 업데이트는 모두 이 질문으로 수렴한다.
 - 원본에서 반복적으로 되돌아오는 진짜 압력은 새 기능보다 호환성 유지다.
 - 개인 웹이더라도 프레임워크 위에 올라가면 upstream 변화가 곧 운영 일정이 된다.
+- 그래서 이 루트 노드에서 `upstream 잡음`은 삭제 대상이 아니라, 기반 선택이 만든 실제 유지비의 증거로 남겨 읽어야 한다.
 - 따라서 이 노드의 핵심은 기능 추가 내역보다 `지속 운영을 위해 감당한 외부 변화`를 추적하는 데 있다.
 
 ### 4. 자잘한 불편과 깨짐을 얼마나 자주 손보는가
@@ -365,7 +366,7 @@ Adsense, Kakao adfit, 스크립트 삽입 관련 변경은 이 질문 아래 읽
 
 | 인접 노드 | 그 노드가 주로 붙드는 것 | CHANGELOG와의 경계 |
 | --- | --- | --- |
-| [[Portfolio]] | 팀·플랫폼 규모의 문제 해결, 자동화, 구조 변경의 설명 가능성 | `Portfolio`가 성과와 역할 자기소개라면, CHANGELOG는 개인 웹에서 그 감각이 얼마나 잦은 유지 노동으로 나타났는지 보여준다. |
+| [[Portfolio]] | 팀·플랫폼 규모의 문제 해결, 자동화, 구조 변경의 설명 가능성 | `Portfolio`가 팀 차원의 운영 설계 자기소개라면, CHANGELOG는 그 감각이 개인 웹 루트 노드에서 얼마나 잦은 유지 노동으로 나타났는지 보여준다. |
 | [[Communication/Blogging]] | 왜 쓰는가, 무엇을 발행할 것인가, 내부 메모를 외부 글로 바꾸는 편집 문법 | CHANGELOG는 그 발행 판단이 실제 웹 표면 유지 작업으로 얼마나 자주 되돌아왔는지 보여준다. |
 | [[Meta/My_space]] | 자기 소유 운영 환경, 배포·관측·복구를 한 제어면에서 다루는 감각 | CHANGELOG는 그 큰 운영 욕구가 개인 웹 단위에서 이미 어떤 반복 정비 습관으로 나타났는지 보여준다. |
 | [[Communication/Document]] | 재진입 가능한 설명면과 독자별 문서 표면 | CHANGELOG는 설명 문서가 아니라 실제 운영 diff의 축적물이라는 점에서 다르다. |
