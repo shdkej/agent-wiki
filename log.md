@@ -2,6 +2,14 @@
 
 ## 2026-04-30 | Fundamental · Human 노드 점진 심화
 
+### Deep Knowledge/AI 단일 노드 재심화
+- 갱신 범위: [[mapped/Deep Knowledge/AI]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 AI 용어 요약집이 아니라 `모델 개념`, `작업 위임`, `서비스 운영`, `학습·제품화`가 겹치는 상위 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `이 노드를 읽는 4개 층위`를 추가해 넓은 범위를 다시 고정했고, `문서가 곧 AI의 기억` 아래에 실제 공통 문서군을 복원해 rules·plan·spec·memory·skills가 왜 한 덩어리로 묶이는지 더 선명하게 보강했다. 추가로 RAG·개인용 AI·AI Stack·기초 ML 메모의 위치를 다시 정리해, 원문의 넓은 메모가 신기술 수집이 아니라 `AI를 작업자이자 서비스 컴포넌트로 다루는 운영 설계`라는 점이 더 빨리 읽히게 다듬었다.
+- 선호 신호: 저자는 AI 노트에서도 모델 성능 비교보다, 문서 기반 외부 기억·역할 분리·검증 루프·복원 가능 상태를 먼저 세우는 운영형 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Fundamental/Computer_Architecture 단일 노드 재심화
 - 갱신 범위: [[mapped/Fundamental/Computer_Architecture]] 1개 페이지만 점진 심화했다.
 - 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 컴퓨터 부품 백과가 아니라 `실행 경로`, `메모리 배치`, `동시성 조정`, `운영 접점`을 함께 붙드는 기초 카테고리라는 점을 재확인했다.
