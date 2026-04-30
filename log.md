@@ -1529,7 +1529,7 @@
 - 정리: 기존 baseline은 유지한 채 `프로젝트별 역량 매핑`, `원본 서술 습관에서 읽히는 신호`, `[[CHANGELOG]]와의 스케일 비교`를 보강했고, 이번 런에서는 후반의 `동료에게 암묵적으로 약속하는 것` 구간을 `네 가지 운영 약속`으로 바로잡아 협업 기대치를 더 명시적으로 읽히게 다듬었다.
 - 선호 신호: 저자는 포트폴리오에서도 기술 이름보다 문제 정의, 판단 근거, 수치로 검증된 운영 개선, 문서화된 재사용성을 더 중요한 성과 언어로 쓰는 경향이 있다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 mapped 노트보다 오래되어 최근 직접 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Feedback 단일 노드 갱신
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 전면 재구성했다.
