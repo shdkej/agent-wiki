@@ -10,6 +10,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Physical.md`는 frontmatter상 과거 갱신 이력은 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Health/Routine 단일 노드 재심화
+- 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 모닝루틴 체크리스트보다 `하루 호출 순서`, `쾌락 접근 전후 기록`, `작은 산출로 닫히는 생활 운영`을 함께 다루는 `Health > Routine` 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 만다라트 위치 해석과 `루틴 운영 루프`를 보강해, 전날 준비 → 아침 기동 → 방향 고정 → 쾌락 관리 → 작은 산출의 흐름이 한 번에 보이게 다듬었다. 또한 유튜브·검색·식사 중 시청 메모가 왜 Routine 노드 안에 있어야 하는지도 `하루가 어디서 풀리는가`를 읽는 축으로 더 선명하게 묶었다.
+- 선호 신호: 저자는 Routine 노트에서도 강한 통제표보다, 몸을 깨우는 최소 동작과 기록 기반 복구 장치가 함께 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Routine.md`는 frontmatter상 `updated: 2025-09-17` 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-30 | Root 노드 점진 심화
 
 ### CHANGELOG 단일 노드 재심화
