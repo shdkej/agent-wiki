@@ -1,5 +1,16 @@
 # 지식 랩 로그
 
+## 2026-04-30 | Communication 노드 점진 심화
+
+### Communication/Open_Source 단일 노드 재심화
+- 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 오픈소스 찬양론이 아니라 `기여 진입법`, `라이선스와 공개 경계`, `버전 약속`, `발표/문서화`가 함께 묶이는 공개 협업 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 발표 메모를 `릴리즈 → 설명 → 공감`의 온보딩 표면으로 다시 끌어올렸고, 버저닝과 발표를 따로 보지 않고 `처음 보는 사람이 어디까지 믿고 들어와도 되는가`를 조절하는 같은 신뢰 사슬로 재정리했다. 또한 이 노드를 `공개된 팀워크`로 읽는 문장을 보강해 [[mapped/Communication/Teamwork]]·[[mapped/Communication/Document]]와의 연결을 더 선명하게 다듬었다.
+- 선호 신호: 저자는 Open_Source 노트에서도 라이선스 지식 자체보다, 낯선 코드베이스에 들어가는 태도와 공개 협업 비용을 줄이는 설명·릴리즈 책임이 함께 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 교훈: 오픈소스형 source 노트는 라이선스 지식만 요약하지 말고, 기여 진입법 · 공개 경계 · 릴리즈/설명 책임이 맞물린 공개 협업 노드로 읽는 편이 드리프트를 줄인다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-30 | Fundamental 노드 점진 심화
 
 ### Fundamental/Network 단일 노드 재심화
