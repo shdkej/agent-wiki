@@ -1,5 +1,16 @@
 # 지식 랩 로그
 
+## 2026-04-30 | Fundamental · Human · Idea 노드 점진 심화
+
+### Idea/Travel 단일 노드 재심화
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 여행지 추천 모음이 아니라 `여행 의미화`, `도시를 프로덕트로 읽는 시선`, `현장 감각`, `동선 운영`, `장기 후보 아카이브`가 한데 겹치는 상위 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `원문 발췌 구조`를 추가하고, 홋카이도 사례를 중심으로 `풍경에 머무는 취향`과 `준비 부족을 다음 규칙으로 바꾸는 운영 학습`이 함께 보이도록 재압축했다. 또한 숙소·교통·준비물 메모를 주변부 체크리스트가 아니라 여행 경험의 질을 좌우하는 생활 인터페이스로 다시 세우고, [[mapped/Idea/Reading]]·[[mapped/Health/Decision]]·[[mapped/Communication/Foreign_language]]·[[mapped/Meta/My_space]]와의 연결도 보강했다.
+- 선호 신호: 저자는 Travel 노트에서도 관광지 소비보다, 장소의 특색과 생활 리듬을 읽고 그 감각을 자기 삶으로 번역하며 동시에 실제 동선 실패를 운영 규칙으로 회수하는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 교훈: 여행형 source 노트는 여행지 추천 목록으로 납작하게 요약하지 말고, 감각 기록·도시 해석·동선 운영·장기 후보 아카이브가 겹치는 시선 이동 노드로 읽는 편이 드리프트를 줄인다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-04-30 | Fundamental · Human 노드 점진 심화
 
 ### Deep Knowledge/AI 단일 노드 재심화
