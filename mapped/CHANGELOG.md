@@ -4,7 +4,7 @@ tags: [mapped, changelog, portfolio, publishing, maintenance]
 source_file: "[[source/shdkej-content/CHANGELOG.md]]"
 source_name: CHANGELOG
 created: 2026-04-14
-updated: 2026-04-30 05:17 UTC
+updated: 2026-04-30 08:17 UTC
 status: evolving
 language: ko
 ---
@@ -368,10 +368,10 @@ Adsense, Kakao adfit, 스크립트 삽입 관련 변경은 이 질문 아래 읽
 | --- | --- | --- |
 | [[Portfolio]] | 팀·플랫폼 규모의 문제 해결, 자동화, 구조 변경의 설명 가능성 | `Portfolio`가 팀 차원의 운영 설계 자기소개라면, CHANGELOG는 그 감각이 개인 웹 루트 노드에서 얼마나 잦은 유지 노동으로 나타났는지 보여준다. |
 | [[Communication/Blogging]] | 왜 쓰는가, 무엇을 발행할 것인가, 내부 메모를 외부 글로 바꾸는 편집 문법 | CHANGELOG는 그 발행 판단이 실제 웹 표면 유지 작업으로 얼마나 자주 되돌아왔는지 보여준다. |
-| [[Meta/My_space]] | 자기 소유 운영 환경, 배포·관측·복구를 한 제어면에서 다루는 감각 | CHANGELOG는 그 큰 운영 욕구가 개인 웹 단위에서 이미 어떤 반복 정비 습관으로 나타났는지 보여준다. |
+| [[Meta/My_space]] | 자기 소유 운영 환경, 배포·관측·복구를 한 제어면에서 다루는 감각 | CHANGELOG는 그 욕구의 더 이른, 더 생활형 버전이다. 즉 `개인 웹 표면을 계속 살려 두는 습관`이 나중의 `작은 플랫폼 제어면` 감각으로 이어지는 전사(前史)로 읽힌다. |
 | [[Communication/Document]] | 재진입 가능한 설명면과 독자별 문서 표면 | CHANGELOG는 설명 문서가 아니라 실제 운영 diff의 축적물이라는 점에서 다르다. |
 
-그래서 이 노드는 `무엇을 말할 것인가`보다 `그 말을 싣는 웹 표면을 어떻게 계속 살려 두었는가`를 붙드는 루트 카테고리 노드로 남는다.
+그래서 이 노드는 `무엇을 말할 것인가`보다 `그 말을 싣는 웹 표면을 어떻게 계속 살려 두었는가`를 붙드는 루트 카테고리 노드로 남는다. 동시에 [[Portfolio]]가 조직 스케일의 운영 설계를, [[Meta/My_space]]가 자기 소유 제어면을 보여준다면, CHANGELOG는 그 사이에서 가장 생활에 가까운 운영 박동을 남기는 루트 기록이다.
 
 ## 이 기록을 덜 평평하게 읽기 위한 3층 분해
 원문은 전부 같은 `change`처럼 보이지만, 실제로는 서로 다른 성격의 일이 한 파일에 겹쳐 있다.

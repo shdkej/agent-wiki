@@ -5,7 +5,7 @@
 ### CHANGELOG 단일 노드 재심화
 - 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
 - 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 루트 노드에서 upstream성 changelog 항목이 단순 잡음이 아니라 `기반 선택이 만든 실제 유지비`의 증거라는 점을 다시 확인했다.
-- 정리: 기존 baseline은 유지한 채 도구 체인 단락과 [[Portfolio]] 대비 문장을 조금 더 다듬어, CHANGELOG를 `개인 웹 루트 노드에서 반복 유지 노동이 남는 자리`로 더 선명하게 압축했다.
+- 정리: 기존 baseline은 유지한 채 [[Meta/My_space]] 대비 문장을 보강해, CHANGELOG를 `개인 웹 표면을 계속 살려 두는 생활형 운영 박동`이자 이후 자기 소유 제어면 감각의 전사로 더 선명하게 압축했다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
