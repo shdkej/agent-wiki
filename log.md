@@ -2,6 +2,15 @@
 
 ## 2026-05-01 | Integration · blog · Communication · Root · Deep Knowledge 노드 점진 심화
 
+### Deep Knowledge/Data 단일 노드 재심화
+- 갱신 범위: [[mapped/Deep Knowledge/Data]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 DB 제품 메모 모음이 아니라 `저장`, `조회`, `검색`, `분석계 분리`, `기억과 정보 과잉`을 함께 붙드는 `Deep Knowledge` 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 해석`, `원문 발췌 구조`, `데이터 판단을 묶는 운영 사다리`를 추가해, 초반 저장소 메모와 후반 기억·웹서핑·인박스 메모가 같은 운영 질문의 다른 스케일이라는 점이 더 빨리 읽히게 다듬었다. 또한 Elasticsearch를 저장 부속 기능보다 별도 검색 설계 계층으로, ClickHouse·Athena·CDC를 도구 목록보다 운영계/분석계 분리 판단으로 더 선명하게 묶었다.
+- 선호 신호: 저자는 Data 노트에서도 DB 종류 비교보다, 쌓인 것을 작은 단위로 다시 꺼내고 잘 찾고 목적별로 분리하며 결국 사람이 감당할 수 있게 만드는 운영형 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md`는 frontmatter상 과거 갱신 이력은 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 교훈: 데이터형 source 노트는 DB 제품 비교표로 요약하지 말고, 저장 → 조회 → 검색 → 분석 분리 → 기억/정보 과잉까지 이어지는 운영 사다리로 읽는다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Deep Knowledge/Container 단일 노드 재심화
 - 갱신 범위: [[mapped/Deep Knowledge/Container]] 1개 페이지만 점진 심화했다.
 - 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 컨테이너 소개문보다 `격리된 실행 단위`를 실제 배포·복구 체계로 키우는 `Deep Knowledge` 카테고리라는 점을 재확인했다.
