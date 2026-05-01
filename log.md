@@ -2,6 +2,14 @@
 
 ## 2026-05-01 | Integration · blog · Communication · Root · Deep Knowledge · Idea 노드 점진 심화
 
+### Portfolio 단일 노드 재심화
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 포트폴리오가 여전히 루트 만다라트에서 주변 기술·협업 노드를 읽는 기준점 역할을 한다는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 루트 자리에서 읽을 때 더 중요해지는 점`을 앞쪽에 보강하고, 반복 질문 목록에 `한 번 푼 문제를 팀의 공용 인터페이스로 남길 수 있는가` 축을 추가해, 이 페이지가 기술 경력표보다 주변 노드의 해석 기준을 정하는 중심축이라는 점을 더 빠르게 읽히게 다듬었다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
+
 ### Idea/Journal 단일 노드 재심화
 - 갱신 범위: [[mapped/Idea/Journal]] 1개 페이지만 점진 심화했다.
 - 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 연도별 일기 인덱스가 아니라 `기록을 남기고 다시 찾고 주제 노드로 번역하는 방식`을 설계하는 `Idea` 카테고리라는 점을 재확인했다.

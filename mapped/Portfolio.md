@@ -4,7 +4,7 @@ tags: [mapped, portfolio, devops, infrastructure]
 source_file: "[[source/shdkej-content/Portfolio.md]]"
 source_name: Portfolio
 created: 2026-04-16
-updated: 2026-05-01 03:17 UTC
+updated: 2026-05-01 17:17 UTC
 status: evolving
 language: ko
 ---
@@ -26,6 +26,12 @@ language: ko
 - 성과 기준이 속도만이 아니라 재현성, 운영 가능성, 안전장치, 문서화에 있음을 보여준다.
 - 이후 `Infra`, `Cloud`, `Devops`, `Document`, `Teamwork` 같은 주변 노드를 읽을 때 해석 기준이 되는 자기 소개형 지도 역할을 한다.
 
+## 만다라트 루트 자리에서 읽을 때 더 중요해지는 점
+이 페이지는 경력 기술서이지만, 이 위키 안에서는 단순 이력서가 아니라 루트 카테고리의 중심축 역할을 한다. 즉 `무엇을 해봤는가`보다 다른 노드들을 어떤 관점으로 읽어야 하는지 먼저 정해 준다.
+- [[Deep Knowledge/Infra]]·[[Deep Knowledge/Cloud]]·[[Deep Knowledge/Devops]]는 개별 기술 지식 노드라면, `Portfolio`는 그 기술들이 실제로 어떤 운영 책임으로 묶이는지 보여 주는 상위 해석면이다.
+- [[Communication/Document]]·[[Communication/Teamwork]]는 협업 표면 노드라면, `Portfolio`는 왜 그런 표면 설계가 저자에게 중요한지 직무 장면에서 증명하는 근거 노드다.
+- 그래서 이 페이지를 읽고 나면 주변 노드들도 `도구를 얼마나 아는가`보다 `팀이 덜 막히게 만드는 구조를 어떻게 고르는가`라는 질문으로 다시 읽히게 된다.
+
 ## 원본에서 먼저 잡히는 구조
 
 ### 1. 미니멀리즘을 운영 철학으로 선언한다
@@ -42,6 +48,7 @@ language: ko
 - 수작업은 어디까지 구조로 옮길 수 있는가?
 - 속도를 높여도 안전장치를 유지할 수 있는가?
 - 운영 비용과 인지 비용을 함께 줄일 수 있는가?
+- 한 번 푼 문제를 팀의 공용 인터페이스로 남길 수 있는가?
 
 이 반복 질문이 이 노드를 단순 경력 정리가 아니라 운영 철학 노드로 만든다.
 
