@@ -1,6 +1,15 @@
 # 지식 랩 로그
 
-## 2026-05-01 | blog · Communication · Root · Deep Knowledge 노드 점진 심화
+## 2026-05-01 | Integration · blog · Communication · Root · Deep Knowledge 노드 점진 심화
+
+### Integration/Tool 단일 노드 재심화
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 툴 추천 모음이 아니라 만다라트 `Integration` 축에서 여러 도구층을 하나의 작업면으로 묶는 통합 노드라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 [[mapped/Fundamental/Tool]]·[[mapped/Meta/AGENTS]]·[[mapped/Integration/Work]]와의 역할 차이를 앞쪽에 명시했고, 원문 전체를 `손과 화면 → 검색과 기록 → 협업 표면 → 원격 복구 → 시스템 증설`의 도구 편입 사다리로 다시 묶어 넓은 범위의 이유가 더 빨리 읽히게 다듬었다.
+- 선호 신호: 저자는 Tool 노트에서도 새 기능을 빨리 써보는 것보다 기존 노트·서버·협업 흐름에 무리 없이 편입되고 다시 이어 붙일 수 있는 도구 구성을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 
 ### CHANGELOG 단일 노드 재심화
 - 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
