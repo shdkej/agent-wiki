@@ -1,6 +1,15 @@
 # 지식 랩 로그
 
-## 2026-05-01 | blog · Communication · Root 노드 점진 심화
+## 2026-05-01 | blog · Communication · Root · Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/Web 단일 노드 재심화
+- 갱신 범위: [[mapped/Deep Knowledge/Web]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 프론트엔드 팁 모음이 아니라 `웹이라는 실제 표면이 어디서 잘 작동하고 어디서 자주 깨지는가`를 묻는 `Deep Knowledge` 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽기`, `원문 발췌 구조`, `웹을 읽는 4개 층위`, `웹 판단 루프`를 보강해 웹 역사·런타임·접근성·앱 경계·상태 보존 메모가 하나의 판단 구조로 더 빨리 읽히게 다듬었다. 특히 뒤로가기, 새로고침, 스크롤 위치, 모바일 폭 메모를 `상태 보존`이라는 공통 UX 축으로 끌어올렸다.
+- 선호 신호: 저자는 Web 노트에서도 최신 스택 정답보다, 브라우저 기본 기대를 덜 깨고 실제 사용 흐름을 더 오래 보존하는 웹 경험 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Web.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 
 ### Communication/Talk 단일 노드 재심화
 - 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
