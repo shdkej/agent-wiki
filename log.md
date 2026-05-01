@@ -2,6 +2,14 @@
 
 ## 2026-05-01 | Integration · blog · Communication · Root · Deep Knowledge · Idea · Fundamental · Human · Health 노드 점진 심화
 
+### Fundamental/Network 단일 노드 재심화
+- 갱신 범위: [[mapped/Fundamental/Network]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 프로토콜 용어집이 아니라 `요청이 길을 찾고 전달되고 경계에서 조절되는 방식`을 붙드는 `Fundamental > Network` 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 프록시·로드밸런서·CDN의 차이를 한 번에 구분하는 최소 지도를 추가했고, DNS·NAT·VLAN·서브넷·기본 경로 메모를 `이름 풀기 → 안과 밖 나누기 → 내부 반경 자르기`의 3단계로 재묶어 후반 ETC 구간이 실제 경계 설계 손잡이로 더 빨리 읽히게 다듬었다.
+- 선호 신호: 저자는 Network 노트에서도 개념 암기보다, 서버 앞단 장치와 주소/경계 설계를 어디서 어떻게 나눠 맡길지 보이는 운영형 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Network.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Health/Food 단일 노드 재심화
 - 갱신 범위: [[mapped/Health/Food]] 1개 페이지만 점진 심화했다.
 - 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 음식 추천 모음이 아니라 `Health > Food` 위치에서 몸과 생활 리듬을 지탱하는 식사 운영 카테고리라는 점을 재확인했다.
