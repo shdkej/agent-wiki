@@ -1,6 +1,14 @@
 # 지식 랩 로그
 
-## 2026-05-01 | Integration · blog · Communication · Root · Deep Knowledge · Idea · Fundamental · Human 노드 점진 심화
+## 2026-05-01 | Integration · blog · Communication · Root · Deep Knowledge · Idea · Fundamental · Human · Health 노드 점진 심화
+
+### Health/Food 단일 노드 재심화
+- 갱신 범위: [[mapped/Health/Food]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 음식 추천 모음이 아니라 `Health > Food` 위치에서 몸과 생활 리듬을 지탱하는 식사 운영 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 만다라트 위치 해석을 앞쪽에 보강하고, 제철 목록·반복 재고·주간 비용 계산·편의점/간편식 후보가 각각 어떤 역할을 맡는지 더 촘촘히 풀었다. 또한 `제철 · 재고 · 응급의 3층 식사 맵`을 추가해 계절성 상상력, 실제 상비 재료, 끼니 공백을 막는 안전장치가 한 식사 시스템 안에서 어떻게 다른 층을 맡는지 더 빨리 보이게 다듬었다.
+- 선호 신호: 저자는 Food 노트에서도 영양학 정답표보다, 장보기·상비·외부 조달·몸 반응 점검이 이어지는 현실 식사 복원력 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ### CHANGELOG 단일 노드 재심화
 - 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
