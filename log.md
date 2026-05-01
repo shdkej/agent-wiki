@@ -1,6 +1,16 @@
 # 지식 랩 로그
 
-## 2026-05-01 | Integration · blog · Communication · Root · Deep Knowledge · Idea · Fundamental 노드 점진 심화
+## 2026-05-01 | Integration · blog · Communication · Root · Deep Knowledge · Idea · Fundamental · Human 노드 점진 심화
+
+### Human/Future 단일 노드 재심화
+- 갱신 범위: [[mapped/Human/Future]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 목표 관리표보다 `현재를 잃지 않는 미래 준비`, `노년의 살아 있음`, `다음 세대 설계`를 함께 다루는 `Human` 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽기`를 추가하고, 부모·아이·독서환경 메모를 부가 주제가 아니라 개인 미래와 다음 세대 설계를 함께 묻는 축으로 재배치했다. 또한 100세, 죽음, 생산 수단, 은퇴 이후 메모를 묶어 이 노드의 핵심이 `오래 살기`보다 `계속 살아 있게 만들기`에 있다는 점을 더 선명하게 다듬었다.
+- 선호 신호: 저자는 Future 노트에서도 생산성 계획표보다, 현재의 재미를 잃지 않으면서 노년·일·가족·다음 세대까지 이어지는 장기 생활 운영 감각이 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Future.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 교훈: Future형 source 노트는 목표표나 생산성 다짐으로 줄이지 말고, 현재 보존·노년 상상·작은 실행 단위·다음 세대 설계를 함께 다루는 장기 생활 운영 노드로 읽는다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 
 ### Fundamental/Tool 단일 노드 재심화
 - 갱신 범위: [[mapped/Fundamental/Tool]] 1개 페이지만 점진 심화했다.
