@@ -11,6 +11,8 @@
         position: fixed;
         top: 14px;
         left: 14px;
+        right: auto;
+        bottom: auto;
         width: 52px;
         height: 52px;
         padding: 11px;
@@ -38,14 +40,20 @@
       }
     }
     #mobile-overlay {
-      display: none;
+      display: none !important;
+      pointer-events: none !important;
       position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0,0,0,0.45);
-      z-index: 20;
+      inset: 0;
+      background: rgba(0,0,0,0.42);
+      z-index: 25;
+    }
+    body.close .sidebar {
+      transform: translateX(-300px);
+    }
+    @media screen and (min-width: 769px) {
+      #mobile-overlay {
+        display: none !important;
+      }
     }
   </style>
 </head>
@@ -57,13 +65,18 @@
       name: 'agent-wiki',
       repo: 'shdkej/agent-wiki',
       homepage: 'README.md',
-      loadSidebar: true,
+      loadSidebar: '_sidebar.md',
       loadNavbar: false,
       subMaxLevel: 3,
       auto2top: true,
       relativePath: false,
+      routerMode: 'hash',
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/README.md': '/README.md',
+        '/.*/index.md': '/index.md',
+        '/.*/log.md': '/log.md',
+        '/.*/(.*)': '/$1'
       },
       search: {
         placeholder: '검색...',
@@ -74,29 +87,8 @@
         function(hook) {
           hook.doneEach(function() {
             if (window.innerWidth > 768) return;
-            var overlay = document.getElementById('mobile-overlay');
-            if (!overlay) return;
-
-            if (window.__agentWikiMobileObserver) {
-              window.__agentWikiMobileObserver.disconnect();
-            }
-
-            var syncOverlay = function() {
-              overlay.style.display = document.body.classList.contains('close') ? 'none' : 'block';
-            };
-
-            window.__agentWikiMobileObserver = new MutationObserver(syncOverlay);
-            window.__agentWikiMobileObserver.observe(document.body, { attributes: true, attributeFilter: ['class'] });
-            syncOverlay();
-
-            overlay.onclick = function() {
-              document.body.classList.add('close');
-            };
-
             document.querySelectorAll('.sidebar-nav a').forEach(function(link) {
-              link.onclick = function() {
-                document.body.classList.add('close');
-              };
+              link.classList.add('close');
             });
           });
         }
