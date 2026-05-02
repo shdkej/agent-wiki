@@ -9,7 +9,7 @@
 - 선호 신호: 저자는 Data Structure 노트에서도 정의 암기보다, 문제 문장에서 필요한 연산을 감지하고 그 연산을 빠르게 만들 구조를 고르는 판단 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Data_Structure.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 교훈: 자료구조형 source 노트는 구조 이름 목록보다 `어떤 연산을 빠르게 만들고 싶은가`와 `찾기 위해 무엇을 미리 조직하는가`의 두 축으로 먼저 읽는다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-01 | Integration · blog · Communication · Root · Deep Knowledge · Idea · Fundamental · Human · Health 노드 점진 심화
 
