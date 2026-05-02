@@ -1,6 +1,14 @@
 # 지식 랩 로그
 
-## 2026-05-02 | Fundamental 노드 점진 심화
+## 2026-05-02 | Communication · Fundamental 노드 점진 심화
+
+### Communication/Blogging 단일 노드 재심화
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 점진 심화했다.
+- 탐구: 원문 전체와 기존 mapped 노트를 다시 읽고, 이 노드가 여전히 블로그 팁 모음이 아니라 `만다라트 내부 축적`, `독자용 재배열`, `검색 유입 첫 화면`, `큐레이션된 디지털 자산`을 함께 붙드는 Communication 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `내부 보관 가치 vs 외부 노출 가치` 축을 추가해 보관과 발행이 왜 같은 노트 안에서 충돌하는지 더 선명하게 적었고, 제목·서론·사진·자막 메모를 `첫 화면 품질` 패턴으로 다시 묶었다. 또한 `발행 전환 루프`를 보강해 만다라트 내부 축적 → 숙성된 주제 선별 → 독자용 흐름 재배열 → 다시 위키로 환류하는 경로가 한 번에 보이게 다듬었다.
+- 선호 신호: 저자는 Blogging 노트에서도 발행 빈도보다, 내부 자산을 어떤 단위로 잘라 독자가 바로 읽히게 만들지까지 포함한 편집 운영 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Blogging.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ### Fundamental/Data_Structure 단일 노드 재심화
 - 갱신 범위: [[mapped/Fundamental/Data_Structure]] 1개 페이지만 점진 심화했다.
