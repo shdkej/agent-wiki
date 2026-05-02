@@ -4,6 +4,16 @@ title: "지식 랩 로그"
 
 # 지식 랩 로그
 
+## 2026-05-02 | Meta 노드 점진 심화
+
+### Meta/About_Architecture 단일 노드 재심화
+- 갱신 범위: [[mapped/Meta/About_Architecture]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 여전히 패턴 사전이 아니라 `Meta` 만다라트 안에서 설계 판단을 만드는 판단법 자체를 붙드는 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽기`를 추가해 [[mapped/Meta/Collection]]과의 역할 차이를 더 직접적으로 세웠고, 원문 전반을 `작게 시작 → 경계 드러내기 → 교체 반경 줄이기 → 실패 견디기 → 재진입 가능 상태 남기기`의 운영 사다리로 재묶었다. 또한 input-logic-output, 공통 API, gRPC, CRUD 일반화 메모를 `예쁜 추상화`보다 `재진입 비용 절감` 문제로 더 선명하게 다듬었다.
+- 선호 신호: 저자는 About_Architecture 노트에서도 기술 이름 요약보다, 시스템을 오래 다시 만질 수 있게 만드는 경계 설계·교체 반경·복구 가능성이 보이는 운영형 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-02 | Idea 노드 점진 심화
 
 ### Idea/History 단일 노드 재심화
