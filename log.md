@@ -1,3 +1,12 @@
+## 2026-05-03 | Root·Meta·Communication·Human·Health 노드 점진 심화
+
+### CHANGELOG 단일 노드 점진 심화
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/CHANGELOG.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Portfolio]]만 참고해 이 루트 노드가 단순 커밋 목록이 아니라 `개인 웹 운영 박동`을 붙드는 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 upstream 층 내부를 다시 잘라 `**starters:**`·`gatsby monorepo`·`blog/www/docs` 접두가 각각 다른 유지 표면을 만든다는 점을 보강했다. 이를 통해 상속 로그를 막연한 잡음이 아니라 `코어 추적 / starter 상속 / 공개 표면 동반 업데이트`의 구조로 더 선명하게 읽히도록 다듬었다.
+- 선호 신호: 저자는 changelog형 노트에서도 사건 나열보다, 어떤 기록 문법이 생활형 수정과 상속된 변경 시간을 한 그릇에 담아 내는지까지 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-03 | Meta·Communication·Human·Health 노드 점진 심화
 
 ### Meta/Collection 단일 노드 점진 심화
