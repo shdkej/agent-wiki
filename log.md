@@ -1,5 +1,13 @@
 ## 2026-05-03 | Human·Health 노드 점진 심화
 
+### Health/Curiosity 단일 노드 재심화
+- 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Decision]], [[mapped/Integration/Exploration]]만 참고해 이 노드가 `Health` 안에서 생활 운영을 움직이는 질문 저장소라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 만다라트 위치 해석을 앞쪽에 세우고, 2026/2025/그 이전 메모를 `질문 밀도 / 탐색 진행 / 재진입 좌표`의 시간층으로 다시 분리했다. 또 기술·삶·기록 질문을 관통하는 `반복 질문 문법`과 짧은 `원문 발췌 구조`를 추가해 재진입성을 높였다.
+- 선호 신호: 저자는 호기심 노트를 주제별 색인으로 납작하게 정리하기보다, 미해결 질문을 오래 보존하면서도 실제 작업과 삶의 방향으로 수렴하는 질문 문법이 보이게 정리하는 쪽을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
+
 ### Health/Routine 단일 노드 재심화
 - 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Routine.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 `Health` 안에서 습관 목록이 아니라 하루의 주도권을 복원하는 생활 경계 인터페이스라는 점을 재확인했다.
