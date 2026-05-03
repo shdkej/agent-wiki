@@ -90,6 +90,13 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Human/Love 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]]만 참고해 이 노드가 감상적 사랑론이 아니라 `관심의 지속`, `익숙함 이후의 재선택`, `정서적 호환성`을 함께 붙드는 Human 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `시작 → 지속 → 마찰 → 판별`의 시간축을 새로 세워, 원문의 짧은 문장들이 관계의 어느 단계에 대응하는지 더 빠르게 재진입할 수 있게 다듬었다. 특히 안 맞음과 권태를 실패 낙인보다 `어떻게 다시 읽고 다룰 것인가`의 갈림길로 보강했다.
+- 선호 신호: 저자는 사랑 노트에서도 감정의 강도 요약보다, 시간이 흐른 뒤에도 질문이 남는지와 함께 살아갈 박자가 맞는지를 구분해 읽는 정리를 더 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Communication/Blogging 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 `source/shdkej-content/blog/Note_Management.md`만 참고해 블로깅 노드가 단순 글쓰기 팁 묶음이 아니라 내부 위키와 외부 발행 사이의 운영 표면인지 재확인했다.
