@@ -1,3 +1,12 @@
+## 2026-05-03 | Communication 노드 점진 심화
+
+### Communication/Document 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 `source/shdkej-content/Communication/Blogging.md`만 참고해 이 노드가 글쓰기 팁 모음이 아니라 `질문·맥락·재진입`을 설계하는 문서 운영 노드라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `정의 → 필요성 → 사용법`의 이해 순서를 별도 축으로 세웠고, 용어 사전·유의어 사전·연도별 묶음·인덱스를 메타 보조층으로 재해석했다. 또 국제화·UTM·시각화 메모를 문서 본문 바깥의 잡다한 부록이 아니라 `배포 후 이해 운영`의 일부로 다시 묶었다.
+- 선호 신호: 저자는 문서 노트에서도 템플릿 종류를 나열하는 요약보다, 누가 어디서 들어와 무엇부터 이해하고 막히면 어디로 복구하는지가 보이는 문서군 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-03 | Root 노드 점진 심화
 
 ### Portfolio 단일 노드 재심화
