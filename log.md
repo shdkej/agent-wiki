@@ -1,3 +1,12 @@
+## 2026-05-03 | Communication 노드 점진 심화
+
+### Communication/Foreign_language 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 `source/shdkej-content/Communication/Talk.md`만 참고해 이 노드가 언어 지식 목록이 아니라 실제 발화 재료를 관리하는 `Communication` 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 만다라트 위치 해석을 앞쪽에 세우고, 영어/일본어 메모를 `같은 사용 루프의 다른 막힘 지점`으로 다시 묶었다. 또 업무·여행 표현을 난이도표가 아닌 `장면별 재진입 버튼`, 문법 질문과 헷갈리는 표현 메모를 `멈춘 순간 복구 인터페이스`로 읽는 축을 보강했다.
+- 선호 신호: 저자는 외국어 노트를 언어별 교재 요약으로 정리하기보다, 자주 멈추는 장면과 반응 속도를 살리는 최소 표현 조각을 오래 재사용할 수 있게 보존하는 쪽을 더 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-03 | Human·Health 노드 점진 심화
 
 ### Health/Curiosity 단일 노드 재심화
