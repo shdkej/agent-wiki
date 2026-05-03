@@ -1,3 +1,12 @@
+## 2026-05-03 | Communication 노드 점진 심화
+
+### Communication/Logical_Thinking 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]]만 참고해 이 노드가 철학 요약장이 아니라 `Communication` 안에서 질문·전제·반례·수용 조건을 함께 붙드는 사고 인터페이스라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `질문 설정 → 전제 분리 → 반대 실험 → 구조화 → 수용 조건 점검`의 실전 사용 루프를 추가했고, 감정·설득·언어 한계 메모를 `논리와 커뮤니케이션을 같은 작업으로 보는 패턴`으로 다시 묶어 이 노드의 위치를 더 선명하게 다듬었다.
+- 선호 신호: 저자는 논리 노트에서도 추론 기법 자체보다, 무엇이 타당한지와 그것이 실제로 어떻게 들릴지를 한 화면에서 함께 점검할 수 있는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-03 | Fundamental·Deep Knowledge·Root·Meta·Communication·Human·Health 노드 점진 심화
 
 ### Fundamental/Coding 단일 노드 점진 심화
