@@ -1,3 +1,13 @@
+## 2026-05-03 | Root 노드 점진 심화
+
+### Portfolio 단일 노드 재심화
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Portfolio.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Developer]] 일부만 참고해 이 루트 노드가 기술 경험 목록보다 `사람별 운영 마찰을 줄이는 설계 문서`라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `개발자 / 운영자 / 의사결정자`의 3층 사용자 구도를 추가해, 배포 자동화·관찰성·비용 계산·문서화가 각각 누구의 마찰을 줄이는지 더 빠르게 읽히도록 다듬었다.
+- 선호 신호: 저자는 포트폴리오형 노트에서도 기술 스택 자체보다, 어떤 사람이 덜 기다리고 덜 불안해지고 더 빨리 판단할 수 있게 되었는지가 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행으로 공개 저장소 동기화를 진행했다.
+
 ## 2026-05-03 | Communication 노드 점진 심화
 
 ### Communication/Foreign_language 단일 노드 점진 심화
