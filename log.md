@@ -1,3 +1,12 @@
+## 2026-05-03 | Meta·Communication 노드 점진 심화
+
+### Meta/Fail_experience 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Meta/Fail_experience]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Troubleshooting]], [[mapped/Meta/About_Development]]만 참고해 이 노드가 실패담 모음이 아니라 `재발 방지 운영 노드`라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문 전반을 `시작 전 / 변경 중 / 변경 후 / 사고 후`의 4단 운영 루프로 압축했고, 후반 2025 메모도 잡다한 부록이 아니라 `측정·작게 자르기·자동 검증·상태 가시화`로 이어지는 실패 예방 시스템의 확장판으로 다시 묶었다.
+- 선호 신호: 저자는 실패 노트에서도 자책 감정보다, 같은 실수를 덜 크게 만들기 위한 확인·원복·자동화 규칙이 한 화면에 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-03 | Communication 노드 점진 심화
 
 ### Communication/Logical_Thinking 단일 노드 점진 심화
