@@ -1,3 +1,12 @@
+## 2026-05-03 | Communication 노드 점진 심화
+
+### Communication/Talk 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Talk.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Feedback]]만 참고해 이 노드가 화술 팁 모음이 아니라 `수신 상태 조정`, `감정과 사실의 동시 전달`, `반복 정렬`을 함께 다루는 관계 현장 인터페이스라는 점을 다시 고정했다.
+- 정리: 기존 baseline은 유지한 채 `수신 안정 → 현재 몰입 → 감정/사실 동시 전달 → 다른 말의 순서 설계 → 반복 정렬`의 대화 운영 루프를 추가했다. 또 발표·여행·사람 만남의 준비법 차이와 `의례 vs 진심`의 긴장을 보강해, 이 노드가 솔직함 자체보다 관계가 닫히지 않는 전달 조건을 다룬다는 점을 더 선명하게 다듬었다.
+- 선호 신호: 저자는 말하기 노트에서도 표현 기술 자체보다, 상대의 수신 상태를 읽고 감정선을 다치지 않게 하면서도 진심을 반복적으로 맞춰 가는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Talk.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-03 | Meta·Communication 노드 점진 심화
 
 ### Meta/Fail_experience 단일 노드 점진 심화
