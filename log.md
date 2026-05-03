@@ -51,6 +51,13 @@
 - 선호 신호: 저자는 오픈소스 노트에서도 라이선스 지식이나 기여 팁을 따로 떼어 요약하기보다, 낯선 사람이 프로젝트를 읽고·믿고·다시 들어올 수 있게 만드는 공개 표면 전체를 함께 정리하는 쪽을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
+### Communication/Feedback 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]]만 참고해 이 노드가 리뷰 기법 메모가 아니라 `사람·시스템·탐구·생활`에 걸친 응답 회로 설계 노드라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문 속 알림 채널 고민, 검색 메모, 마지막 트리거 메모를 `수집 → 분배 → 해석 → 재호출`의 신호 수명주기로 다시 묶었다. 덕분에 피드백이 단순 평가가 아니라 흩어진 반응을 모으고, 맥락 맞는 표면으로 보내고, 해석 가능하게 정리한 뒤, 다음 행동을 다시 부르는 회로라는 점이 더 선명해졌다.
+- 선호 신호: 저자는 Feedback 노트에서도 방법론 명사보다, 어떤 신호를 어디서 모으고 어느 채널로 흘려보내야 실제 수정과 재진입이 일어나는지가 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-03 | Root 노드 점진 심화
 
 ### Portfolio 단일 노드 재심화
