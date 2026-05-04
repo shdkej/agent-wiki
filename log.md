@@ -1,3 +1,13 @@
+## 2026-05-04 | blog 노드 점진 심화
+
+### blog/picasso 단일 노드 점진 심화
+- 갱신 범위: [[mapped/blog/picasso]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/picasso.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/History]]만 참고해 이 노드가 예술사 요약이 아니라 `전시 경험을 AI 시대 직업 질문으로 번역하는 blog 카테고리 노드`라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽기`와 `블로그 글로서의 전환 방식`을 추가해, 큐비즘 계보 사례가 개인 경험·무지의 공개·해설을 통한 재해석·미완성 결론 보존을 거쳐 발행형 사고 실험으로 바뀌는 과정을 더 선명하게 했다.
+- 선호 신호: 저자는 picasso 글에서도 예술사 지식이나 AI 전망을 닫힌 결론으로 제시하기보다, 현장에서 열린 이해를 자기 일의 질문으로 번역하고 아직 모르는 부분을 후속 탐구로 남기는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/picasso.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Communication 노드 점진 심화
 
 ### Communication/Logical_Thinking 단일 노드 재심화
