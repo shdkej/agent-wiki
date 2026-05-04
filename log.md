@@ -56,6 +56,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Fundamental/Tool 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Tool]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Infra]], [[mapped/Deep Knowledge/Devops]]만 참고해 이 노드가 여전히 명령어 잡학 메모가 아니라 `로컬 조작면부터 서비스 조합 책임선까지 이어지는 하부 운영 감각`이라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `로컬 튜닝 → 셸 조작 → 서버 유지 → Git 복원 → 시스템 조합`의 5단 확장 사다리를 새로 세워, 긴 원문 분량이 하나의 상승 구조로 보이게 다듬었다. 또 후반 `Terraform vs Serverless`, `Vault`, `API gateway`, `gRPC` 메모를 기술 이름 부록이 아니라 `어느 책임을 어느 레이어에 둘 것인가`를 연습하는 비교축으로 재정리했다.
+- 선호 신호: 저자는 Tool 노트에서도 최신 도구 소개보다, 하부 표면을 직접 제어한 뒤 그 위에 어떤 책임선을 얹을지 판단할 수 있는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Tool.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Health 노드 점진 심화
 
 ### Health/Food 단일 노드 점진 심화
