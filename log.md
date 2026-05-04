@@ -1,3 +1,13 @@
+## 2026-05-04 | Root 노드 점진 심화
+
+### CHANGELOG 단일 노드 점진 심화
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/CHANGELOG.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 루트 노드가 여전히 단순 커밋 목록이 아니라 `개인 웹 운영 박동 + Gatsby 상속 유지비`를 함께 담는 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `update`를 한 덩어리로 읽지 않고 `날짜형 생활 메모 133회`와 `upstream 추적형 update 96회`로 다시 갈라 적었다. 덕분에 같은 단어가 `직접 다시 만진 시간`과 `기반을 따라간 시간`을 동시에 담고 있다는 점이 더 선명해졌다.
+- 선호 신호: 저자는 changelog형 노트에서도 단순 빈도표보다, 같은 기록 문법 안에 서로 다른 책임 출처와 시간층이 어떻게 눌려 있는지가 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Integration 노드 점진 심화
 
 ### Integration/Marketing 단일 노드 점진 심화

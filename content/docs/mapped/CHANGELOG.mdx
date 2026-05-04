@@ -5,7 +5,7 @@ tags: [mapped, changelog, portfolio, publishing, maintenance]
 source_file: "[[source/shdkej-content/CHANGELOG.md]]"
 source_name: CHANGELOG
 created: 2026-04-14
-updated: 2026-05-03 14:17 UTC
+updated: 2026-05-04 13:17 UTC
 status: evolving
 language: ko
 ---
@@ -63,12 +63,22 @@ language: ko
 | 반복 표현 | 읽기 포인트 |
 | --- | --- |
 | `Bug Fixes`가 `Features`보다 훨씬 많다 | 이 changelog는 확장 기록보다 유지·보수·흡수 기록에 더 가깝다. |
-| `update`가 압도적으로 많다 | 기능명보다 `다시 열어 손본 날짜 리듬`이 기록의 중심이다. |
+| `update`가 압도적으로 많다 | 기능명보다 `다시 열어 손본 날짜 리듬`과 upstream 추적 메모가 함께 기록의 중심이다. |
 | `gatsby monorepo`가 매우 많다 | 개인 웹도 upstream 변화 비용을 계속 떠안는다. |
-| `update` 133회 vs 전체 항목 296개 | 거의 절반이 생활형 재방문 메모라는 뜻이다. |
+| 날짜형 `update` 133회 vs 전체 `update` 229회 | 생활형 재방문 메모와 상속 로그의 `update` 문법이 한 단어 안에 겹쳐 있다. |
 | 검색/SEO 항목이 초기에 반복된다 | 발행은 게시만이 아니라 유입 설계까지 포함된다. |
 | 광고 항목이 별도로 보인다 | 개인 웹을 현실적 실험 공간으로도 본다. |
 | remove/delete/fix가 꾸준하다 | 작은 마찰 제거가 중요한 일상 작업이다. |
+
+### `update`는 한 종류가 아니다
+이번에 원문 전체를 다시 세어 보니 `update`라는 단어는 총 229번 나오지만, 그중 저자가 직접 날짜를 박아 남긴 생활형 `update 20-10-26`류는 133회다. 나머지는 `update gatsby monorepo`, `update dependency ...`, `update starters ...`처럼 upstream 변화 흡수 쪽에 더 가깝다.
+
+| `update` 층 | 횟수 | 의미 |
+| --- | ---: | --- |
+| 날짜형 생활 메모 | 133회 | 오늘 다시 열어 손본 개인 웹 운영 박동 |
+| 상속/생태계 추적 메모 | 96회 | Gatsby 기반이 밀어 넣는 유지 일정 |
+
+이 구분이 중요하다. 겉보기에는 모두 같은 `update`지만, 실제로는 **직접 다시 만진 시간**과 **기반을 따라가느라 생긴 시간**이 겹쳐 적혀 있다. 그래서 이 노드는 `업데이트가 많다`로 끝내기보다, `어떤 업데이트가 내 판단에서 나왔고 어떤 업데이트가 기반 선택에서 따라왔는가`를 함께 읽어야 한다.
 
 ### `Features` / `Bug Fixes` 이름보다 더 중요한 역전
 형식상으로는 기능과 버그 수정을 나누지만, 실제 분포는 거의 반대로 읽힌다.
