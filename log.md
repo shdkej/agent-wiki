@@ -1,3 +1,13 @@
+## 2026-05-04 | Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/AI 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/AI]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/AGENTS]], [[mapped/Deep Knowledge/Data]]만 참고해 이 노드가 여전히 생성형 AI 팁 모음이 아니라 `모델 이해 + 위임 구조 + 서비스 운영`을 겹쳐 읽는 `Deep Knowledge` 상위 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 해석`을 앞쪽에 추가해 AI가 Data·Devops·AGENTS를 가로지르는 운영 번역층이라는 점을 더 선명하게 세웠다. 또 `개념 → 위임 구조 → 기준 문서 → 검증 실행 → 서비스 운영`의 운영 사다리를 새로 뽑아, 원문의 넓은 메모가 프롬프트 팁이나 ML 부록으로 흩어지지 않고 하나의 운영 구조로 다시 읽히게 다듬었다.
+- 선호 신호: 저자는 AI 노트에서도 모델 기능 소개보다, 어디까지 맡기고 무엇을 문서로 고정하며 어떤 검증과 복원 장치를 붙일지가 한 화면에서 이어지는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Meta 노드 점진 심화
 
 ### Meta/Developer 단일 노드 점진 심화
