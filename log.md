@@ -1,3 +1,13 @@
+## 2026-05-04 | Integration 노드 점진 심화
+
+### Integration/Marketing 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Business]]만 참고해 이 노드가 여전히 채널 운영 메모가 아니라 `표현 · 반응 추적 · 제품 조정`을 함께 다루는 Integration 카테고리의 접점 설계 허브라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `각 매체별 글은 다 달라야 한다`는 원문 메모를 `같은 제품 제안을 표면 문법에 맞게 번역하는 문제`로 끌어올렸고, 유입 경로 분리·고객 플래그·무료/유료 마찰 설계를 한 흐름으로 다시 묶었다. 덕분에 SNS, UX 라이팅, CRM, 제품 메모가 흩어진 부록이 아니라 하나의 사용자 이동 경로를 조정하는 층이라는 점이 더 선명해졌다.
+- 선호 신호: 저자는 Marketing 노트에서도 광고 채널 팁보다, 어떤 말로 사람을 들어오게 하고 그 반응을 어떻게 추적해 제품과 전환 구조를 다시 손볼지까지 한 화면에서 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Fundamental 노드 점진 심화
 
 ### Fundamental/Math 단일 노드 점진 심화
