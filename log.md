@@ -1,3 +1,14 @@
+## 2026-05-04 | Human 노드 점진 심화
+
+### Human/Love 단일 노드 재심화
+- 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Reality]], [[mapped/Human/Balance]], [[mapped/Human/Principle]]을 참고해 이 노드가 낭만 감상문이 아니라 `관심의 지속과 현실 마찰 이후의 관계 판단`을 다루는 Human 카테고리 노드라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `사랑을 판별할 때 헷갈리기 쉬운 것`을 추가해, 익숙함과 무관심, 안 맞음과 끝남, 이유 목록과 사랑의 근거를 분리했다.
+- 선호 신호: 저자는 Love 노트에서도 설렘이나 이유 목록보다, 시간이 지난 뒤에도 계속 궁금해하고 소중히 여기며 감정선·가치관의 호환성을 확인하는 관계 운영 문법을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 관계형 Human 노트는 감정의 크기보다 시간 경과 뒤의 관심 지속, 마찰 해석, 정서적 호환성의 판별축으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | blog 노드 점진 심화
 
 ### blog/picasso 단일 노드 점진 심화
