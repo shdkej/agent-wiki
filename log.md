@@ -8,6 +8,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Idea/Travel 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Reading]], [[mapped/Health/Decision]]만 참고해 이 노드가 여전히 여행지 추천 모음이 아니라 `시선 이동을 통해 판단 기준을 업데이트하는 Idea 카테고리 노드`라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `Idea` 축 안의 만다라트 위치를 앞쪽에 세우고, 원문을 `여행 전 후보 축적 / 여행 중 감각과 변수 / 여행 후 운영 규칙`의 시간층으로 다시 묶었다. 덕분에 현장 리뷰, 미래 후보, 체류·안전 메모가 한 문서에 함께 있는 이유가 산만함이 아니라 같은 여행 운영 시스템의 다른 시간면이라는 점이 더 선명해졌다.
+- 선호 신호: 저자는 Travel 노트에서도 관광 정보 요약보다, 장소가 시선과 생활 판단을 어떻게 바꾸는지, 그리고 그 경험이 다음 이동 규칙으로 어떻게 환원되는지가 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Health·blog·Idea·Meta 노드 점진 심화
 
 ### Meta/AGENTS 단일 노드 점진 심화
