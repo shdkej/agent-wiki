@@ -1,3 +1,13 @@
+## 2026-05-04 | Communication 노드 점진 심화
+
+### Communication/Logical_Thinking 단일 노드 재심화
+- 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]]만 참고해 이 노드가 철학 요약장이 아니라 `질문·전제·반례·분류·수용 조건`을 함께 다루는 Communication 카테고리의 판단 인터페이스라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 논리 도구를 Communication으로 옮기는 번역표를 추가해, 연역·귀납·귀류·오류론·MECE·철학 렌즈가 각각 대화와 문서에서 어떤 점검 질문으로 작동하는지 한눈에 보이게 했다.
+- 선호 신호: 저자는 Logical_Thinking 노트에서도 논증법 이름 자체보다, 질문을 고르고 전제를 공유하며 반대편을 통과한 뒤 상대가 들을 수 있는 구조로 옮기는 실전 판단 루프를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Deep Knowledge 노드 점진 심화
 
 ### Deep Knowledge/Cloud 단일 노드 점진 심화
