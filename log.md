@@ -1,3 +1,13 @@
+## 2026-05-04 | Health 노드 점진 심화
+
+### Health/Music 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]]을 참고해 이 노드가 여전히 음악 취향이나 이론 노트가 아니라 `Health > Music` 아래의 베이스 입문 신체 인터페이스라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `연습 단위를 고르는 기준`을 추가해, 원문의 `타브 보는 법 / 지판 연습 / 왼손·오른손 역할` 질문을 곡 전체 도전이 아니라 `짧은 표기 → 위치 이동 → 손별 실패 분리`의 작은 피드백 단위로 바꿔 읽었다.
+- 선호 신호: 저자는 Music 노트에서도 장르·장비·이론 확장보다, 보이는 표기를 손 위치와 반복 가능한 몸동작으로 바꾸는 재진입 단위가 보이는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Deep Knowledge 노드 점진 심화
 
 ### Deep Knowledge/AI 단일 노드 점진 심화
