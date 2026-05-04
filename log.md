@@ -1,5 +1,13 @@
 ## 2026-05-04 | Deep Knowledge 노드 점진 심화
 
+### Deep Knowledge/Cloud 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/Cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 공란임을 확인하고, 기존 mapped 노트 전체와 필요 최소 맥락으로 [[mapped/Deep Knowledge/Infra]], [[mapped/Deep Knowledge/Container]]를 다시 읽었다.
+- 정리: baseline은 유지한 채 `공란 노드에서 특히 조심할 드리프트`를 추가해, 확실한 사실과 주변 노트 기반 가설을 분리하고 빈 `Cloud` 노트가 외부 클라우드 일반론이나 `Infra` 실행 메모 복사본으로 부풀어 오르지 않게 흡수 필터를 보강했다.
+- 선호 신호: 빈 source 노트일수록 내용을 대신 채우기보다 만다라트 위치, 인접 노드와의 경계, 향후 원문 갱신 시 분류 기준을 선명하게 남기는 편이 더 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Deep Knowledge/Monitoring 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Deep Knowledge/Monitoring]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Monitoring.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Devops]], [[mapped/Deep Knowledge/Product]]만 참고해 이 노드가 도구 스택 목록이 아니라 `Deep Knowledge` 안에서 배포·제품 판단 사이의 실제 상태를 확인하는 관측 피드백 칸이라는 점을 재확인했다.
