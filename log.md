@@ -16,6 +16,17 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+## 2026-05-04 | Human 노드 점진 심화
+
+### Human/Balance 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Balance.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]], [[mapped/Health/Decision]]만 참고해 이 노드가 여전히 중용 도덕론이 아니라 `대립쌍을 오래 축적해 판단 감각을 조정하는 Human 카테고리`라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문이 일부러 나열식을 택한 이유를 `사례가 쌓일수록 판단이 정교해지는 저장 형식`으로 전면화했고, `조잡함 vs 조화로움`, `simple vs neat`, `다양성` 구간을 묶어 이 노드의 균형이 평균값이 아니라 `의도된 다양성을 버티는 구성 감각`이라는 점을 보강했다. 또 긴 대립쌍을 `결론 모음`보다 `비교축 저장소`로 다시 읽는 단락을 추가해 이후 사례를 붙일 구조를 더 선명하게 만들었다.
+- 선호 신호: 저자는 Balance 노트에서도 정답표나 중간론보다, 서로 충돌하는 가치쌍을 장기적으로 축적하고 새 사례를 끼워 넣으며 판단 근육을 키우는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 대립쌍 축적형 source 노트는 항목별 결론을 성급히 통합하지 말고, 이후 사례를 계속 끼워 넣을 수 있는 비교축 저장소로 먼저 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Health·blog·Idea·Meta 노드 점진 심화
 
 ### Meta/AGENTS 단일 노드 점진 심화
