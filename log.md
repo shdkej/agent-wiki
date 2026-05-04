@@ -1,5 +1,14 @@
 ## 2026-05-04 | Health·blog 노드 점진 심화
 
+### Health/Physical 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Physical]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Physical.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Music]]만 참고해 이 노드가 여전히 운동 루틴 묶음이 아니라 `몸을 오래 다시 쓸 수 있게 읽고 세팅하는 Health 카테고리`라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문 첫머리 `health_house` 이미지가 암시하는 `한 몸의 여러 방` 비유를 더 앞에 세웠고, 축구 메모도 전술 부록이 아니라 `성공률·안정성·간격 유지`를 중시하는 효율적 몸 사용 장면으로 다시 묶었다. 덕분에 테니스·축구·발성이 함께 있는 이유가 취미 분산이 아니라 `힘과 감각을 덜 새게 쓰는 법`을 찾는 공통 질문이라는 점이 더 선명해졌다.
+- 선호 신호: 저자는 신체 노트에서도 운동 종류를 늘어놓는 요약보다, 몸의 여러 사용 장면을 한 운영 인터페이스로 다시 읽어 주는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Physical.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 신체형 source 노트에 스포츠 전술 메모가 섞여 있으면 경기지식 부록으로 밀지 말고, 효율·안정성·힘 전달을 시험하는 몸 사용 장면으로 읽어야 한다는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Health/Decision 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Decision_Monitor_Size]]만 참고해 이 노드가 여전히 구매 팁 모음이 아니라 `신경 써야 할 것을 줄이면서도 후폭풍을 관리하는 생활형 판단 시스템`이라는 점을 재확인했다.
