@@ -7,7 +7,7 @@
 - 선호 신호: 저자는 Love 노트에서도 설렘이나 이유 목록보다, 시간이 지난 뒤에도 계속 궁금해하고 소중히 여기며 감정선·가치관의 호환성을 확인하는 관계 운영 문법을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 관계형 Human 노트는 감정의 크기보다 시간 경과 뒤의 관심 지속, 마찰 해석, 정서적 호환성의 판별축으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | blog 노드 점진 심화
 
