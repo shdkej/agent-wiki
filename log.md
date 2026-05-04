@@ -1,3 +1,13 @@
+## 2026-05-04 | Health·blog·Idea 노드 점진 심화
+
+### Idea/History 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Idea/History]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/History.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/picasso]]만 참고해 이 노드가 여전히 역사 상식 모음이 아니라 `기원·전환·비유`를 통해 현재 판단을 깊게 만드는 Idea 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `manual / convention / protocol` 메모를 부록으로 넘기지 않고 `발명 뒤에 따라오는 호환과 설명 형식의 역사` 축으로 끌어올렸다. 덕분에 이 노드가 기술·예술의 사건사뿐 아니라 `여러 사람과 시스템이 함께 쓰기 위해 형식을 만드는 과정`까지 읽는 운영사 노드라는 점이 더 선명해졌다.
+- 선호 신호: 저자는 History 노트에서도 연표나 인물 이름 자체보다, 어떤 발명이 공유 가능한 형식과 표준으로 굳어 가는지까지 함께 보이는 정리를 더 선호하는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/History.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Health·blog 노드 점진 심화
 
 ### Health/Physical 단일 노드 점진 심화
