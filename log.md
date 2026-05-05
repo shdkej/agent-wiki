@@ -83,7 +83,7 @@
 - 선호 신호: 저자는 Decision 노트에서도 현재 최적 후보보다, 시간이 지나도 다시 쓸 수 있는 조건 축과 최악 회피 기준을 남기는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 선택·구매형 source 노트의 오래된 후보명은 최신 추천으로 덮기보다 당시 제약과 우선순위를 보여 주는 결정 히스토리로 보존하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Music 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
