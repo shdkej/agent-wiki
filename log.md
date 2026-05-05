@@ -1,3 +1,13 @@
+## 2026-05-05 | Fundamental 노드 점진 심화
+
+### Fundamental/Math 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Network]], [[mapped/Fundamental/Computer_Architecture]]의 구조 표제만 참고해 이 노드가 여전히 `관계식 → 신호 → 집적 → 신뢰 → 제어`로 올라가는 Fundamental 번역층임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `응용 주제가 섞일 때의 경계 유지법`을 추가했다. 블록체인·드론·무선통신·반도체 연표를 각각 산업사나 제작기로 부풀리지 않고, 암호화/합의, 센서/제어, 주파수/감쇠, 증폭/집적처럼 어떤 기초 축을 다시 호출하는지 판별하는 흡수 기준을 세웠다.
+- 선호 신호: 저자는 Math 노트에서도 응용 사례 자체를 최신 정보로 확장하기보다, 사례가 어떤 보이지 않는 관계를 설계 판단으로 바꾸는지 남기는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | blog 노드 점진 심화
 
 ### blog/Digital_Content 단일 노드 점진 심화
