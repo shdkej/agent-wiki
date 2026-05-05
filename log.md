@@ -7,7 +7,7 @@
 - 선호 신호: 저자는 Work 노트에서도 더 오래 일하기보다, 업무 목표를 해석하고 예외를 검증하며 상태를 보이게 만들어 다음 사람이 믿고 이어받을 수 있는 실행 문법을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Work.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: Work형 Integration source 노트는 생산성 팁으로 줄이지 말고 목표 해석, 요구사항 구체화, 검토/예외, 보고, 회고가 이어지는 신뢰 가능한 실행 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-05 | Fundamental 노드 점진 심화
 
