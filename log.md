@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 해석`과 `상태 전달 경로로 보면`을 추가했다. 덕분에 2026 Oracle/ArgoCD 메모가 단순 클러스터 세팅이 아니라 `프로젝트 레포 → space 레포 → 클러스터`로 이어지는 운영 상태 전달 구조로 더 선명해졌다.
 - 선호 신호: 저자는 My_space 노트에서도 서버 스펙이나 도구명보다, 다시 들어왔을 때 상태를 이해하고 재구축·동기화·복구할 수 있는 공용 제어면을 더 중요하게 여기는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/My_space.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-05 | Integration 노드 점진 심화
 
