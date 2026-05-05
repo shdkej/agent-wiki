@@ -1,3 +1,13 @@
+## 2026-05-05 | Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/Web 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/Web]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Web.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Design]], [[mapped/Deep Knowledge/Product]]를 참고해 이 노드가 웹 기술 사전이 아니라 브라우저 표면에서 사용 흐름이 어디서 깨지는지 검증하는 Deep Knowledge 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `브라우저 기본 계약을 깨뜨릴 때 비용이 생긴다` 섹션을 추가했다. 팝업/뒤로가기/새로고침/스크롤 복원/중간 폭 레이아웃을 기능 목록이 아니라 사용자가 계속 믿고 이어서 행동할 수 있게 하는 UX 신뢰 축으로 보강했다.
+- 선호 신호: 저자는 Web 노트에서도 프레임워크나 최신 기능보다, 브라우저가 오래 제공해 온 기본 기대를 깨뜨리지 않고 접근성·상태 보존·제품 전환을 함께 맞추는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Web.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | blog 노드 점진 심화
 
 ### blog/My_space 단일 노드 점진 심화
