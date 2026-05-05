@@ -1,3 +1,14 @@
+## 2026-05-05 | Human 노드 점진 심화
+
+### Human/Principle 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Human/Principle]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Principle.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 추상적 가치 선언이 아니라 `판단하는 사람의 상태와 하루 실행 단위`를 조정하는 Human 카테고리의 자기 운영 헌장임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `원칙을 하루 실행 단위로 내리는 네 가지 질문`을 추가했다. 꿈꾸는 영역, 시작점/끝점, 출력 형태, 감당 가능한 범위를 점검 질문으로 바꿔 원칙이 명언 수집이 아니라 매일 다시 호출되는 실행 인터페이스로 읽히게 했다.
+- 선호 신호: 저자는 Principle 노트에서도 추상적 인생 원칙보다, 호기심·여유·생산자 감각을 하루 안의 작은 완료와 피드백 루프로 내리는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Principle.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 원칙형 Human source 노트는 가치어 목록으로 평탄화하지 말고, 상태 선언이 하루 실행 질문으로 어떻게 내려가는지 함께 보존하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | Fundamental 노드 점진 심화
 
 ### Fundamental/Infra 단일 노드 점진 심화
