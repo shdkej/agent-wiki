@@ -1,3 +1,13 @@
+## 2026-05-05 | blog 노드 점진 심화
+
+### blog/My_space 단일 노드 점진 심화
+- 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/My_space]], [[mapped/Deep Knowledge/Container]]를 참고해 이 노드가 개인 인프라 설계 명세보다 `작은 플랫폼을 감당 가능한 비용과 리소스 안에서 실험한 블로그형 시행착오 기록`임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `블로그 글로 읽을 때의 독자 가치`와 `운영 흡수 비용으로 다시 보기`를 추가했다. 관리형 Kubernetes 비용, k3s 메모리, Terraform 상태 오염, SSH/Ansible 전제, ingress/DNS 문제를 완성형 튜토리얼의 실패 부록이 아니라 개인 운영면을 감당 가능한 크기로 줄이는 판단 질문으로 압축했다.
+- 선호 신호: 저자는 My_space blog 노트에서도 도구 채택 성공담보다, 작은 개인 플랫폼을 만들 때 어떤 숨은 운영 비용을 먼저 계산해야 하는지 남기는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/My_space.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | Integration 노드 점진 심화
 
 ### Integration/Work 단일 노드 점진 심화
