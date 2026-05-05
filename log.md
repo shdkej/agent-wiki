@@ -46,6 +46,16 @@
 - 운영 학습: 경제형 Integration source 노트는 경제 상식 백과사전으로 부풀리지 말고, 제도·시장 문법을 개인 선택권 보존 규칙으로 번역하는 통합 규칙층으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+## 2026-05-05 | Idea 노드 점진 심화
+
+### Idea/Information 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Information.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Article]], [[mapped/Idea/Journal]], [[mapped/Integration/Exploration]]을 참고해 이 노드가 잡학 스크랩장이 아니라 정보의 생애주기를 다루는 Idea 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 정보 생애주기`와 인접 Idea 노드와의 역할 구분을 추가했다. 덕분에 `Information`이 북마크·일기·탐구법으로 좁아지지 않고, 발견 → 필터링 → 형식화 → 해석 → 유통 → 책임의 상위 운영 노드로 더 선명해졌다.
+- 선호 신호: 저자는 Information 노트에서도 많은 사실을 매끈하게 요약하기보다, 정보가 어떤 표면에서 발견되고 어떤 형식·제도·윤리 조건을 거쳐 판단 자산이 되는지 추적하는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Information.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | Health 노드 점진 심화
 
 ### Health/Music 단일 노드 점진 심화
