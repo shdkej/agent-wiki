@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `재진입 포맷으로 다시 읽기`를 추가했다. 파일 경로, 권한/인증, 실행 명령, 실패 증상, 원복 방법이 함께 남을 때 Linux·백업·Git·IaC·gRPC 메모가 산만한 치트시트가 아니라 다시 손을 움직이게 하는 운영 기억으로 읽히도록 보강했다.
 - 선호 신호: 저자는 Tool 노트에서도 최신 도구 이름보다, 어떤 환경에서 무엇을 만졌고 실패하면 어디로 되돌아올 수 있는지를 남기는 재현·복구형 기록을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Tool.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-05 | Deep Knowledge 노드 점진 심화
 
