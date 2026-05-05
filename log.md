@@ -1,3 +1,13 @@
+## 2026-05-05 | Root 노드 점진 심화
+
+### CHANGELOG 단일 노드 계수 정정
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/CHANGELOG.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Portfolio]]를 참고해 이 노드가 개인 웹의 기능 목록이 아니라 `생활형 운영 박동`과 `Gatsby 기반 상속 유지비`가 겹친 루트 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `update` 계수를 다시 검증해 `update` 포함 불릿 229개, 날짜형 생활 `update` 50개로 정정했다. 덕분에 직접 다시 만진 생활 시간과 dependency·starter·monorepo를 따라간 상속 시간을 더 정확히 분리해 읽을 수 있게 됐다.
+- 선호 신호: 저자는 changelog형 노트에서도 인상적인 빈도감만 보존하기보다, 반복 표현이 어떤 책임 출처와 시간 문법을 섞어 담는지 수치와 구조를 함께 검증하는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | Deep Knowledge 노드 점진 심화
 
 ### Deep Knowledge/Product 단일 노드 점진 심화
