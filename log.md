@@ -76,6 +76,15 @@
 
 ## 2026-05-05 | Health 노드 점진 심화
 
+### Health/Decision 단일 노드 재심화
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Food]], [[mapped/Integration/Tool]]을 참고해 이 노드가 구매 후보 목록이 아니라 `선택 비용을 줄이면서 조건의 시간 변화를 보존하는 Health 카테고리의 판단 시스템`임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `결정 기록은 그때 왜 그 조건이 중요했는지 보존한다`를 추가했다. 덕분에 오래된 노트북·폰·가방·집 후보가 최신 추천 목록이 아니라, 당시 제약·우선순위·포기 기준이 어떻게 배열됐는지 보여 주는 결정 히스토리로 더 선명해졌다.
+- 선호 신호: 저자는 Decision 노트에서도 현재 최적 후보보다, 시간이 지나도 다시 쓸 수 있는 조건 축과 최악 회피 기준을 남기는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 선택·구매형 source 노트의 오래된 후보명은 최신 추천으로 덮기보다 당시 제약과 우선순위를 보여 주는 결정 히스토리로 보존하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Health/Music 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/Health/Routine]]의 구조 표제만 참고해 이 노드가 `Health > Music` 아래의 베이스 입문 신체 인터페이스라는 점을 재확인했다.
