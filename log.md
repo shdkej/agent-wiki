@@ -1,3 +1,14 @@
+## 2026-05-05 | Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/Product 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/Product]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Marketing]], [[mapped/Deep Knowledge/Data]]를 참고해 이 노드가 제품 기능 목록이 아니라 `편집 역량 · 확인 경험 · 측정 가능한 반복 루프`를 다루는 Deep Knowledge 카테고리라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `확인만 해보게 만들기`를 첫 번째 제품 문턱으로 세우고, `래핑`을 속임수나 겉포장이 아니라 가치가 이해되는 인터페이스로 재해석했다. 덕분에 제목, 설명, 데모, CTA, 활용법, 측정 지표가 따로 노는 마케팅 부속물이 아니라 제품 가설을 시장과 접촉시키는 작은 표면으로 더 선명해졌다.
+- 선호 신호: 저자는 Product 노트에서도 기술적 우월성이나 기능 수보다, 사용자가 위험 없이 가치를 확인하고 다음 행동으로 넘어갈 수 있는 포장·설명·측정 가능한 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Product형 source 노트는 기능/마케팅/지표를 따로 나누기보다, 사용자가 가치를 확인하는 첫 표면과 그 반응을 측정해 다음 제품 결정을 여는 루프로 함께 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-04 | Human 노드 점진 심화
 
 ### Human/Love 단일 노드 재심화
