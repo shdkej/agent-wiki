@@ -7,7 +7,7 @@
 - 선호 신호: 저자는 Infra 노트에서도 최신 클라우드 스택보다, 서비스 성격과 운영 부담에 맞춰 어느 층을 추가할지 판단하고 장애 때 되돌아올 경계 지도를 남기는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 같은 제목의 source 노트가 서로 다른 만다라트 폴더에 있을 때는 내용을 합치지 말고, 폴더 위치가 암시하는 역할 차이를 먼저 세우는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Fundamental/Tool 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Fundamental/Tool]] 1개 페이지만 점진 심화했다.
