@@ -1,5 +1,14 @@
 ## 2026-05-05 | Fundamental 노드 점진 심화
 
+### Fundamental/Infra 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Architecture]], [[mapped/Deep Knowledge/Infra]] 앞부분을 참고해 이 노드가 AWS 제품 백과가 아니라 `인프라 선택의 기본 판단 문법`을 다루는 Fundamental 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽기`, `실습 메모는 제품 공부가 아니라 경계 실험이다`, `기본 지식 vs 운영 실행`을 추가했다. 덕분에 서버리스, VPC/IAM, EKS, Beanstalk, Terraform, OS 패치, Kinesis local test가 산만한 기술 메모가 아니라 `얇게 시작하기 → 상태 발생 지점 찾기 → 경계 비용 확인 → 복구 가능한 운영면 만들기`의 사다리로 더 선명해졌다.
+- 선호 신호: 저자는 Infra 노트에서도 최신 클라우드 스택보다, 서비스 성격과 운영 부담에 맞춰 어느 층을 추가할지 판단하고 장애 때 되돌아올 경계 지도를 남기는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 같은 제목의 source 노트가 서로 다른 만다라트 폴더에 있을 때는 내용을 합치지 말고, 폴더 위치가 암시하는 역할 차이를 먼저 세우는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Fundamental/Tool 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Fundamental/Tool]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Software]], [[mapped/Integration/Tool]]의 앞부분을 참고해 이 노드가 앱 추천이나 명령어 백과가 아니라 `하부 조작면을 복구 가능한 재진입 포맷으로 남기는 Fundamental 카테고리`임을 재확인했다.
