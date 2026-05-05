@@ -8,6 +8,15 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Creator.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Integration/Economics 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Economics.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Business]], [[mapped/Health/Investment]]를 참고해 이 노드가 투자 일지나 경제 상식 백과사전이 아니라 `제도·시장 문법을 개인 선택권 보존 규칙으로 번역하는 Integration 카테고리`임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 보면 Economics는 돈을 벌기 전의 규칙 해독 칸이다`와 `Economics와 Investment의 역할 차이`를 추가했다. 덕분에 경기 사이클, 세금, 청약, 공시, 주식 지표, 집 구매 고민이 흩어진 금융 상식이 아니라 실제 생활 장부를 해석하기 전의 규칙 해독층으로 더 선명해졌다.
+- 선호 신호: 저자는 Economics 노트에서도 시장 전망이나 종목 추천보다, 세금·공제·청약·공시·세후 실현처럼 선택 결과를 바꾸는 제도 문법을 이해해 덜 불리한 선택을 만드는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Economics.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 경제형 Integration source 노트는 경제 상식 백과사전으로 부풀리지 말고, 제도·시장 문법을 개인 선택권 보존 규칙으로 번역하는 통합 규칙층으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | Health 노드 점진 심화
 
 ### Health/Music 단일 노드 점진 심화
