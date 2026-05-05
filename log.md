@@ -1,3 +1,13 @@
+## 2026-05-05 | Communication 노드 점진 심화
+
+### Communication/Talk 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Talk.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 화술 테크닉이 아니라 `수신 안정 · 현재 몰입 · 감정/사실 동시 전달 · 자기방어 완화`를 다루는 Communication 카테고리의 미시 접점임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `말하기를 막는 세 가지 오해`를 추가했다. 의미 있는 말만 해야 한다는 부담, 사람 만남을 과도하게 계획하려는 습관, 조용함을 소극성과 동일시하는 오해를 분리해 원문의 의례·순간 몰입·최강록 메모가 더 잘 연결되게 했다.
+- 선호 신호: 저자는 Talk 노트에서도 말을 많이 하는 기술보다, 덜 방어적인 존재감과 작은 호응으로 관계의 수신 상태를 안정시키는 대화 운영 문법을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Talk.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | Meta 노드 점진 심화
 
 ### Meta/My_space 단일 노드 점진 심화
