@@ -54,7 +54,7 @@
 - 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 정보 생애주기`와 인접 Idea 노드와의 역할 구분을 추가했다. 덕분에 `Information`이 북마크·일기·탐구법으로 좁아지지 않고, 발견 → 필터링 → 형식화 → 해석 → 유통 → 책임의 상위 운영 노드로 더 선명해졌다.
 - 선호 신호: 저자는 Information 노트에서도 많은 사실을 매끈하게 요약하기보다, 정보가 어떤 표면에서 발견되고 어떤 형식·제도·윤리 조건을 거쳐 판단 자산이 되는지 추적하는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Information.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-05 | Health 노드 점진 심화
 
