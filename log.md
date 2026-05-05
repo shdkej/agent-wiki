@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `소장을 판단할 때 분리해야 할 세 가지 권리`를 추가해 원본 보관권, 다른 환경으로 옮길 권리, 나중에 다시 꺼내 쓸 권리를 분리했다. 덕분에 외장하드·DRM·플랫폼 폐업·구독 논의가 하나의 불만 목록이 아니라 미래 접근권을 어디까지 확보할 수 있는가의 판단 구조로 더 선명해졌다.
 - 선호 신호: 저자는 Digital_Content 노트에서도 파일 소유 자체보다, 애착 있는 대상을 시간이 지나도 찾고 열고 다시 정리해 발행 재료로 쓸 수 있는 장기 재접속권을 더 중요하게 여기는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Digital_Content.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-05 | Communication 노드 점진 심화
 
