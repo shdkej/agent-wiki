@@ -1,3 +1,13 @@
+## 2026-05-05 | Integration 노드 점진 심화
+
+### Integration/Creator 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Creator.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Marketing]]을 참고해 이 노드가 창작 직군 목록이 아니라 `창작 구조·편집·표현 표면·재진입 가능한 제작 표식`을 다루는 Integration 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 해석`과 `창작의 현장 표식은 나중의 재진입 가능성을 만든다`를 추가했다. 덕분에 슬레이트, NG 뒤 박수, 싱크 지점이 단순 촬영 팁이 아니라 문서·코드 리뷰·영상 편집·앨범 제작에 공통으로 필요한 재진입 인터페이스로 더 선명해졌다.
+- 선호 신호: 저자는 Creator 노트에서도 창작자의 재능 묘사보다, 감각적 판단을 역할 구조·편집 기준·공통 표식·피드백 언어로 바꾸는 운영형 창작 문법을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Creator.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | Health 노드 점진 심화
 
 ### Health/Music 단일 노드 점진 심화
