@@ -7,7 +7,7 @@
 - 선호 신호: 저자는 Principle 노트에서도 추상적 인생 원칙보다, 호기심·여유·생산자 감각을 하루 안의 작은 완료와 피드백 루프로 내리는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Principle.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 원칙형 Human source 노트는 가치어 목록으로 평탄화하지 말고, 상태 선언이 하루 실행 질문으로 어떻게 내려가는지 함께 보존하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-05 | Fundamental 노드 점진 심화
 
