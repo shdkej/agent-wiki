@@ -15,7 +15,7 @@
 - 선호 신호: 저자는 Economics 노트에서도 시장 전망이나 종목 추천보다, 세금·공제·청약·공시·세후 실현처럼 선택 결과를 바꾸는 제도 문법을 이해해 덜 불리한 선택을 만드는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Economics.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 경제형 Integration source 노트는 경제 상식 백과사전으로 부풀리지 말고, 제도·시장 문법을 개인 선택권 보존 규칙으로 번역하는 통합 규칙층으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-05 | Health 노드 점진 심화
 
