@@ -1,3 +1,14 @@
+## 2026-05-05 | Integration 노드 점진 심화
+
+### Integration/Work 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Work]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Work.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/일]], [[mapped/Communication/Teamwork]], [[mapped/Deep Knowledge/Product]]의 구조 표제를 참고해 이 노드가 생산성 팁 모음이 아니라 `목표·요구·시간·기록을 하나의 실행 단위로 통합하는 Integration 카테고리`임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 해석`과 `목표 해석 → 실행 → 신뢰 회수` 루프를 추가했다. 덕분에 KPI, 요구사항 확인, 검토/예외, 보고, 업무일지가 따로 노는 조언이 아니라 신뢰 가능한 실행을 만들고 닫는 하나의 업무 운영 구조로 더 선명해졌다.
+- 선호 신호: 저자는 Work 노트에서도 더 오래 일하기보다, 업무 목표를 해석하고 예외를 검증하며 상태를 보이게 만들어 다음 사람이 믿고 이어받을 수 있는 실행 문법을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Work.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Work형 Integration source 노트는 생산성 팁으로 줄이지 말고 목표 해석, 요구사항 구체화, 검토/예외, 보고, 회고가 이어지는 신뢰 가능한 실행 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | Fundamental 노드 점진 심화
 
 ### Fundamental/Math 단일 노드 점진 심화
