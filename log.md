@@ -1,3 +1,13 @@
+## 2026-05-05 | Health 노드 점진 심화
+
+### Health/Music 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/Health/Routine]]의 구조 표제만 참고해 이 노드가 `Health > Music` 아래의 베이스 입문 신체 인터페이스라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `연습 로그로 남기면 좋은 관찰 단위`를 추가해, 후속 메모를 읽기 지연·위치 지연·소리 지연·비교 지연처럼 작은 실패/보정 단위로 흡수할 수 있게 했다.
+- 선호 신호: 저자는 Music 노트에서도 음악 이론 확장보다, 타브와 지판 정보를 실제 손동작으로 바꾸는 과정에서 어디가 늦어지는지 기록 가능한 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-05 | Root 노드 점진 심화
 
 ### CHANGELOG 단일 노드 계수 정정
