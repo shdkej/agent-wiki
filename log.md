@@ -1,5 +1,14 @@
 ## 2026-05-05 | Communication 노드 점진 심화
 
+
+### Communication/Foreign_language 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 외국어 지식창고가 아니라 `규칙 이해 · 장면별 호출문 · 소리/발음 지연 감소 · 협업 표현`을 함께 다루는 Communication 카테고리의 발화 재료 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `규칙 → 장면 → 복구 문장`의 학습 단위 전환, 발음 메모의 대화 지연 감소 기능, 업무 영어 묶음의 협업 프로토콜 성격을 추가했다. 덕분에 영어·일본어·발음·여행/업무 문장이 산만한 목록이 아니라 실제 대화에서 멈춘 순간을 다시 여는 재진입 인터페이스로 더 선명해졌다.
+- 선호 신호: 저자는 Foreign_language 노트에서도 문법 완성도나 어휘량보다, 함께 일하고 이동하고 말하는 장면에서 바로 꺼낼 수 있는 최소 표현과 피드백 가능한 오류 복구 단위를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Communication/Talk 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Talk.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 화술 테크닉이 아니라 `수신 안정 · 현재 몰입 · 감정/사실 동시 전달 · 자기방어 완화`를 다루는 Communication 카테고리의 미시 접점임을 재확인했다.
