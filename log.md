@@ -7,7 +7,7 @@
 - 선호 신호: 저자는 Product 노트에서도 기술적 우월성이나 기능 수보다, 사용자가 위험 없이 가치를 확인하고 다음 행동으로 넘어갈 수 있는 포장·설명·측정 가능한 구조를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: Product형 source 노트는 기능/마케팅/지표를 따로 나누기보다, 사용자가 가치를 확인하는 첫 표면과 그 반응을 측정해 다음 제품 결정을 여는 루프로 함께 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Human 노드 점진 심화
 
