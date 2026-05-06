@@ -1,5 +1,13 @@
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
+### Health/Curiosity 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Integration/Exploration]] 앞부분을 참고해 이 노드가 산만한 관심사 목록이 아니라 생활과 작업을 다시 움직이는 질문 저장소임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `질문 큐는 세 가지 상태로 나눠 본다`를 추가했다. 완료·중간·미완료 항목을 단순 진행률이 아니라 보관 질문, 통과 질문, 프로젝트화 후보로 나눠 읽어 긴 목록이 미래 실행 단위를 고르는 대기열처럼 보이게 했다.
+- 선호 신호: 저자는 Curiosity 노트에서도 모든 질문을 즉시 해결하거나 지우기보다, 질문을 오래 보관하면서 어느 순간 생활 루틴·탐구 루프·제품 실험으로 승격할지 판별하는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Communication/Foreign_language 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Teamwork]], [[mapped/Communication/Feedback]] 앞부분을 참고해 이 노드가 언어별 교재 정리가 아니라 `상황을 통과하게 하는 표현 버튼`을 축적하는 Communication 노드임을 재확인했다.
