@@ -1,5 +1,13 @@
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
+### Communication/Document 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Blogging]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 문서 형식 목록이 아니라 질문·에러·요구사항이 들어오고 다시 처리되는 커뮤니케이션 접수 인터페이스임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `트러블슈팅 문서는 에러명을 적는 것보다 접수 구조가 먼저다`와 `좋은 문서는 질문이 들어오는 순간의 모양까지 설계한다`를 추가했다. 에러 출처, 증상, 가설/원인, 처리/재검증을 분리해 문서만 보고 같은 문제를 다시 처리할 수 있게 하는 구조를 보강했다.
+- 선호 신호: 저자는 Document 노트에서도 보기 좋은 문서 템플릿보다, 질문·에러·회의 맥락이 처음 들어오는 순간부터 다음 사람이 재진입 가능한 형태로 남게 만드는 운영형 문서화를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Human/Love 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 낭만적 감정 예찬이 아니라 `관심의 지속·익숙함 이후의 소중함·정서적 호환성`을 함께 보는 관계 운영 노드임을 재확인했다.
