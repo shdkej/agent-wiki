@@ -1,5 +1,13 @@
 ## 2026-05-06 | Human·Deep Knowledge 노드 점진 심화
 
+### Deep Knowledge/Data 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/Data]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/Deep Knowledge/Monitoring]]의 앞부분을 참고해 이 노드가 DB 제품 목록이 아니라 `쓰기 원천 → 빠른 조회 → 검색 번역 → 분석 복제 → 장기 보존`의 책임 분리 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `데이터를 계층으로 나누는 실전 기준`을 추가했다. RDB/ACID는 신뢰 가능한 쓰기 원천, Redis는 수명과 위험을 따로 정해야 하는 빠른 조회층, Elasticsearch는 사용자 언어를 흡수하는 검색 번역층, ClickHouse/Athena는 서비스 처리와 분리된 분석층으로 읽히게 보강했다.
+- 선호 신호: 저자는 Data 노트에서도 저장소 이름을 많이 아는 것보다, 같은 데이터를 목적별 읽기 표면으로 나누고 각 계층의 실패 방식과 회복 기준을 설명할 수 있는 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Human/Readability 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 글쓰기 팁이 아니라 독자 적합성·정확성·문장의 맛·입문과 원전의 거리를 함께 조정하는 Human 카테고리의 전달 윤리 노드임을 재확인했다.
