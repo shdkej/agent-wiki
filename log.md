@@ -1,5 +1,13 @@
 ## 2026-05-06 | Human·Deep Knowledge 노드 점진 심화
 
+### Human/Readability 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 글쓰기 팁이 아니라 독자 적합성·정확성·문장의 맛·입문과 원전의 거리를 함께 조정하는 Human 카테고리의 전달 윤리 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `어려움을 보존한 채 읽기 쉽게 만드는 순서`를 추가했다. 표면 문턱 낮추기, 원래 용어와 구조로 재연결하기, 실제 어려움과 다시 만나게 하기를 나눠 쉬운 설명이 회피가 아니라 재진입 발판이어야 한다는 원문 긴장을 보강했다.
+- 선호 신호: 저자는 Readability 노트에서도 문장을 무조건 단순하게 만드는 것보다, 불필요한 해독 장벽은 낮추되 대상 자체의 필요한 난도와 원전의 질감은 보존하는 설명을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Readability.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Communication/Logical_Thinking 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 철학 요약장이 아니라 Communication 범주 안에서 `질문·전제·반례·분류·수용 조건`을 함께 점검하는 판단 출구 노드임을 재확인했다.
