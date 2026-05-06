@@ -1,5 +1,13 @@
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
+### Health/Routine 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Routine.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Life_Tracking]], [[mapped/Health/Food]], [[mapped/Health/Physical]] 앞부분을 참고해 이 노드가 이상적인 모닝루틴 표가 아니라 하루가 무너진 뒤 다시 이어 붙는 복구 가능한 생활 루틴임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `복구 가능한 루틴의 판별 기준`을 추가했다. 시작 비용, 전환 비용, 이탈 비용, 마감 비용으로 원문의 기상·장소 전환·디지털 소비·밤 마감 메모를 다시 묶어, 성공한 하루의 총량보다 실패 후 복귀 비용을 보는 축을 보강했다.
+- 선호 신호: 저자는 Routine 노트에서도 자기통제의 강도보다, 작게 시작하고 중간에 이탈해도 기록과 마감 의식으로 다시 돌아오는 운영형 루틴을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Routine.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Communication/Document 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Blogging]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 문서 형식 목록이 아니라 질문·에러·요구사항이 들어오고 다시 처리되는 커뮤니케이션 접수 인터페이스임을 재확인했다.
