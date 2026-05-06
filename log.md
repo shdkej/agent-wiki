@@ -1,5 +1,13 @@
 ## 2026-05-06 | Human·Deep Knowledge 노드 점진 심화
 
+### Integration/Tool 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Tool]], [[mapped/Integration/Work]] 앞부분을 참고해 이 노드가 앱 추천 목록이 아니라 `로컬 즉시성·외부 협업성·복원 가능성`을 배치하는 통합 도구 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `도구 의존을 관리하는 세 가지 소유 위치`를 추가했다. 로컬 앱/CLI, 외부 SaaS, 문서·스크립트가 각각 어떤 상태를 맡고 어떤 비용을 만드는지 분리해, 원문의 서비스 목록·Tailscale/OpenClaw·Linux/Git 운영 메모가 하나의 상태 전달 경로로 읽히게 했다.
+- 선호 신호: 저자는 Tool 노트에서도 최신 도구 이름보다, 도구를 어디에 맡기고 어떻게 다시 되찾을 수 있는지까지 남기는 소유 위치와 복원 가능성의 판단을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Meta/일 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Meta/일]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/일.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 단순 업무 태도 노트가 아니라 `좋은 사람 찾기 → 성장 가능한 환경 만들기 → 문제를 공개하고 연결하기 → 실행 과정을 기록해 재사용하기`로 이어지는 메타 업무 노드임을 재확인했다.
