@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `전달 전 논리 점검 순서`를 추가했다. 질문 재확인, 전제 표시, 반례 통과, 분류 기준 공개, 수용 조건 조정을 순서화해 논리 도구가 글·대화·피드백으로 나가기 전에 어떤 검토 표면을 가져야 하는지 더 선명하게 했다.
 - 선호 신호: 저자는 Logical_Thinking 노트에서도 정답 산출이나 오류 지적보다, 상대가 다시 검토할 수 있도록 결론의 경로와 기준을 열어 두는 전달 가능한 논리 구조를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Human/Balance 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 점진 심화했다.
