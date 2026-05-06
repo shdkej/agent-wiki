@@ -1,4 +1,4 @@
-## 2026-05-06 | Human·Deep Knowledge 노드 점진 심화
+## 2026-05-06 | Human·Deep Knowledge·Health 노드 점진 심화
 
 ### Deep Knowledge/Infra 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Deep Knowledge/Infra]] 1개 페이지만 점진 심화했다.
@@ -80,6 +80,15 @@
 - 선호 신호: 빈 노드라도 내용을 임의로 채우기보다, 주변 메모를 흡수할 기준과 주제 경계를 먼저 고정하는 편이 이 랩의 만다라트 운영 방식에 더 잘 맞는다.
 - 드리프트 점검: 대응 원본은 mapped 노트보다 오래된 0줄 파일이라 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+
+### Health/Physical 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Physical]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Physical.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Music]] 앞부분을 참고해 이 노드가 운동 종목 목록이 아니라 같은 몸을 오래 다시 쓰기 위한 감각·정렬·출력 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `작은 실험 단위로 다시 접속하기`를 추가했다. 하체·등·러닝·테니스·발성·위생/접촉면 메모를 새 운동법이나 건강 상식 목록으로 늘리지 않고, 한 세션에 하나의 감각 신호를 검증하는 몸 상태 디버깅 루프로 읽히게 보강했다.
+- 선호 신호: 저자는 Physical 노트에서도 기록 경쟁이나 운동 처방보다, 고관절·견갑·심박·압력·손목/피부 마찰처럼 몸이 보내는 작은 신호를 읽어 다음 조정을 정하는 운영형 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Physical.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ## 2026-05-05 | Human 노드 점진 심화
 
