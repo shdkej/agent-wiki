@@ -1,4 +1,13 @@
-## 2026-05-06 | Human·Deep Knowledge·Health 노드 점진 심화
+## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
+
+### Communication/Foreign_language 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Teamwork]], [[mapped/Communication/Feedback]] 앞부분을 참고해 이 노드가 언어별 교재 정리가 아니라 `상황을 통과하게 하는 표현 버튼`을 축적하는 Communication 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `표현 선택은 단어 문제가 아니라 사회적 타이밍 문제다`와 `교재 단원 vs 사회적 재진입 버튼`을 추가했다. 업무 표현, 여행 문장, `mores: social convention`, `communication vs conversation`을 함께 읽어 외국어 표현이 상대 부담을 줄이고 다음 행동을 여는 짧은 합의 신호로 보이게 했다.
+- 선호 신호: 저자는 Foreign_language 노트에서도 문법·어휘 단원표보다, 부탁·상태 공유·일정 조정·주문처럼 실제 장면에서 덜 멈추고 덜 얼어붙게 만드는 재사용 표현을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 외국어형 Communication 노트는 문법·어휘 단원표보다 사회적 장면을 다시 여는 표현 버튼으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Deep Knowledge/Infra 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Deep Knowledge/Infra]] 1개 페이지만 점진 심화했다.
