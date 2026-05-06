@@ -1,3 +1,13 @@
+## 2026-05-06 | Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/Cloud 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/Cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 0줄 공란임을 확인하고, 기존 mapped 노트 전체를 다시 읽어 이 노드가 클라우드 일반론이 아니라 `추상화 수용 범위·책임 위임·회귀 가능성`을 받을 Deep Knowledge 카테고리 경계임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `공란이 유지될 때의 점검 질문`을 추가했다. 새 클라우드 관련 메모가 들어올 때 선택 기준·책임 경계·숨은 비용·회귀 가능성을 다루면 `Cloud`로 받고, 실행 설정이나 절차라면 `Infra`·`Container`·`Devops`에 남기도록 판별 표면을 보강했다.
+- 선호 신호: 빈 노드라도 내용을 임의로 채우기보다, 주변 메모를 흡수할 기준과 주제 경계를 먼저 고정하는 편이 이 랩의 만다라트 운영 방식에 더 잘 맞는다.
+- 드리프트 점검: 대응 원본은 mapped 노트보다 오래된 0줄 파일이라 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-05 | Human 노드 점진 심화
 
 ### Human/Principle 단일 노드 점진 심화
