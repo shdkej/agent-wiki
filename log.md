@@ -1,5 +1,13 @@
 ## 2026-05-06 | Human·Deep Knowledge 노드 점진 심화
 
+### Meta/일 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Meta/일]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/일.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 단순 업무 태도 노트가 아니라 `좋은 사람 찾기 → 성장 가능한 환경 만들기 → 문제를 공개하고 연결하기 → 실행 과정을 기록해 재사용하기`로 이어지는 메타 업무 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `사람 판단이 실행 시스템으로 내려오는 순서`를 추가했다. 좋은 사람의 기준을 학습 가능한 상태로 해석하고, 신입·선임·조직 사례를 사람 판정 전에 환경을 점검하는 장치로 묶었으며, 주 4일 회고·팀 선택·문제은행·업무일지를 문제-사람-경험 매칭 비용을 낮추는 운영 표면으로 보강했다.
+- 선호 신호: 저자는 일 노트에서도 개인의 성실성이나 채용 기준만 보지 않고, 사람이 성장하고 신뢰 가능한 산출물을 남길 수 있는 환경·문제 공개·기록 재사용 조건을 함께 보는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/일.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Human/Evolve 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Evolve]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Evolve.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Future]], [[mapped/Human/Reality]] 앞부분을 참고해 이 노드가 성장 낙관론이 아니라 `점진 개선을 기본 엔진으로 쓰되, 구조 전환 신호도 감지하는 변화 운영 노드`임을 재확인했다.
