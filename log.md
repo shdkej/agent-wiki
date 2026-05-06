@@ -1,5 +1,13 @@
 ## 2026-05-06 | Human·Deep Knowledge 노드 점진 심화
 
+### Fundamental/Computer_Architecture 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Computer_Architecture]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Coding]], [[mapped/Fundamental/Software]] 앞부분을 참고해 이 노드가 부품 사전이 아니라 `저장 → 적재 → 실행 → 대기 → 조정 → 종료`로 이어지는 실행 경로 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `실행 경로를 문제 해결 체크리스트로 바꾸기`를 추가했다. 디스크/디렉터리, 프로세스 적재, CPU·I/O 대기, 동시성 조정, 표준 스트림·IPC·시그널, 정상 종료/강제 종료를 한 순서로 묶어 원문의 CPU·메모리·OS·리눅스 운영 메모가 장애 원인 좁히기 지도처럼 읽히게 했다.
+- 선호 신호: 저자는 Computer_Architecture 노트에서도 하드웨어 부품명을 외우는 것보다, 문제가 생겼을 때 어떤 실행 층을 차례로 확인해야 하는지 남기는 복구 가능한 구조 이해를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Integration/Tool 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Tool]], [[mapped/Integration/Work]] 앞부분을 참고해 이 노드가 앱 추천 목록이 아니라 `로컬 즉시성·외부 협업성·복원 가능성`을 배치하는 통합 도구 노드임을 재확인했다.
