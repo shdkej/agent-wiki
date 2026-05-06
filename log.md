@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `미래 대응은 관측보다 사후 정리까지 포함한다`를 추가했다. 원문의 `예측은 늘 빗나간다`, `측정하고 조치해야 한다`, `관찰가능성보다 포스트모템에 힘을 쓴다`를 함께 읽어, 미래 준비가 큰 예측보다 작게 시도하고 실패 조건을 정리한 뒤 다음 실행 단위를 바꾸는 포스트모템형 루프에 가깝다는 점을 보강했다.
 - 선호 신호: 저자는 Future 노트에서도 완벽한 인생 계획이나 촘촘한 지표 관리보다, 추상적 비전이 현실에서 막혔을 때 실패를 기록하고 다음 시도를 더 작고 덜 막히게 만드는 복구 가능한 계획 문법을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Future.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Open_Source 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
