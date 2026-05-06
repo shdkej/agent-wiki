@@ -1,5 +1,13 @@
 ## 2026-05-06 | Human·Deep Knowledge 노드 점진 심화
 
+### Deep Knowledge/Infra 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/Infra]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Devops]], [[mapped/Deep Knowledge/Container]], [[mapped/Fundamental/Infra]] 앞부분을 참고해 이 노드가 인프라 선택 일반론보다 운영 중인 리소스의 소유자·수정 지점·재검증 경로를 다루는 실행면임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `실무 메모를 상태 소유자별로 읽기`를 추가했다. AWS 콘솔/관리형 서비스, Terraform, Kubernetes controller, GitOps/ArgoCD, 사람의 운영 절차를 나눠 EKS·LB·CNI·DNS·패치 메모가 산만한 사건 목록이 아니라 상태 소유권 충돌을 좁히는 운영 기록으로 읽히게 했다.
+- 선호 신호: 저자는 Deep Knowledge/Infra 노트에서도 서비스 카탈로그보다, 실제 상태를 누가 소유하고 어디에서 고쳐야 하며 어떤 검증으로 닫아야 하는지를 남기는 복구 가능한 운영 문법을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Fundamental/Computer_Architecture 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Fundamental/Computer_Architecture]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Coding]], [[mapped/Fundamental/Software]] 앞부분을 참고해 이 노드가 부품 사전이 아니라 `저장 → 적재 → 실행 → 대기 → 조정 → 종료`로 이어지는 실행 경로 노드임을 재확인했다.
