@@ -1,5 +1,13 @@
 ## 2026-05-06 | Human·Deep Knowledge 노드 점진 심화
 
+### Human/Evolve 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Human/Evolve]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Evolve.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Future]], [[mapped/Human/Reality]] 앞부분을 참고해 이 노드가 성장 낙관론이 아니라 `점진 개선을 기본 엔진으로 쓰되, 구조 전환 신호도 감지하는 변화 운영 노드`임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `점진 개선이 멈춰야 하는 신호도 함께 본다`를 추가했다. 같은 수정이 반복되는데 경험이 좋아지지 않는 경우, 지표는 좋아지지만 초기 인상의 얼룩이 남는 경우, 피드백 루프가 닫히는 경우, 환원주의가 전체 상호작용을 가리는 경우를 전환 신호로 분리했다.
+- 선호 신호: 저자는 Evolve 노트에서도 꾸준함 자체보다, 작은 개선이 언제 유효하고 언제 틀 자체를 다시 봐야 하는지 판별하는 유연한 변화 운영 문법을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Evolve.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Deep Knowledge/Data 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Deep Knowledge/Data]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/Deep Knowledge/Monitoring]]의 앞부분을 참고해 이 노드가 DB 제품 목록이 아니라 `쓰기 원천 → 빠른 조회 → 검색 번역 → 분석 복제 → 장기 보존`의 책임 분리 노드임을 재확인했다.
