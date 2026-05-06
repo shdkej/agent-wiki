@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `판단 비용을 세 종류로 나누면 균형이 덜 흐려진다`를 추가했다. 되돌리기 비용, 학습 지연 비용, 관계·신뢰 비용을 분리해 `시작 vs 밑그림`, `통제 vs 자율`, `모른다고 말하기`, `판례와 개별 사안` 같은 대비쌍을 막연한 중간값이 아니라 비용 판별 문제로 다시 읽게 했다.
 - 선호 신호: 저자는 Balance 노트에서도 양쪽을 적당히 섞는 중간론보다, 지금 장면에서 어떤 비용이 가장 비싸고 어떤 비용은 작은 실험으로 감당할 수 있는지 가르는 판단 인터페이스를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 ### Deep Knowledge/Cloud 단일 노드 점진 심화
