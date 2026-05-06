@@ -1,5 +1,13 @@
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
+### Human/Love 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 낭만적 감정 예찬이 아니라 `관심의 지속·익숙함 이후의 소중함·정서적 호환성`을 함께 보는 관계 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `감정선의 유사성은 갈등 없음이 아니라 회복 속도에 가깝다`를 추가했다. `감정공유`, `감정선`, `가치관` 메모를 단순 취향 일치가 아니라 마찰 후 다시 같은 장면으로 돌아오는 비용과 속도의 문제로 풀어, 사랑이 수용과 호환성 사이에서 작동한다는 점을 보강했다.
+- 선호 신호: 저자는 Love 노트에서도 감정의 강도나 이상적 합치보다, 익숙함·불일치·권태를 통과한 뒤에도 상대를 계속 새로 읽고 회복 가능한 관계 리듬을 만드는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Health/Curiosity 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Integration/Exploration]] 앞부분을 참고해 이 노드가 산만한 관심사 목록이 아니라 생활과 작업을 다시 움직이는 질문 저장소임을 재확인했다.
