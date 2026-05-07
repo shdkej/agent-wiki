@@ -74,7 +74,7 @@
 - 정리: 기존 baseline은 유지한 채 `사랑의 기준은 감정량보다 재방문 비용에 가깝다`를 추가했다. 흔들린 뒤에도 다시 질문하고, 소중함을 표현하고, 회복 대화로 돌아오는 비용이 사랑의 지속성을 더 잘 보여 준다는 축을 보강했다.
 - 선호 신호: 저자는 Love 노트에서도 강한 감정의 보유량보다, 익숙해진 사람에게 다시 주의를 돌리고 관계를 자동 상태로 방치하지 않는 작은 복구 루프를 더 중요하게 보는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 기존 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 완료 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
