@@ -1,5 +1,13 @@
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
+### Fundamental/Software 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Software]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Software.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Coding]], [[mapped/Deep Knowledge/Data]] 앞부분을 참고해 이 노드가 코드 기술 목록이 아니라 사람 중심 매체·변경 가능성·복구 가능성·운영 확장·가치 교환을 잇는 Fundamental 루트 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `목록과 필터는 재진입 표면이다`를 추가했다. 정렬, 필터, 전체 개수, 시간 범위, 대용량 조회 제한 메모를 UI 세부가 아니라 사용자가 많은 정보 속에서 다시 현재 위치와 다음 행동을 잡게 해 주는 소프트웨어 표면 설계로 보강했다.
+- 선호 신호: 저자는 Software 노트에서도 데이터를 많이 보여 주는 것보다, 스토리 없는 나열을 줄이고 검색·필터·정렬·범위 제한으로 사용자의 재진입성과 시스템 부담을 함께 관리하는 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Software.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### blog/Decision_Monitor_Size 단일 노드 점진 심화
 - 갱신 범위: [[mapped/blog/Decision_Monitor_Size]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Decision_Monitor_Size.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Readability]], [[mapped/blog/My_space]], [[mapped/blog/Note_Management]] 앞부분을 참고해 이 노드가 모니터 추천표가 아니라 이동·가독성·자세·작업 단위 수를 함께 재는 물리적 작업환경 판단 노드임을 재확인했다.
