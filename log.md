@@ -1,3 +1,13 @@
+## 2026-05-07 | blog 노드 점진 심화
+
+### blog/EKS_with_terraform 단일 노드 점진 심화
+- 갱신 범위: [[mapped/blog/EKS_with_terraform]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/EKS_with_terraform.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Infra]], [[mapped/Deep Knowledge/Container]] 앞부분을 참고해 이 노드가 EKS 생성 가이드가 아니라 Terraform 실습을 통해 상태 소유권과 관리형 경계를 확인하는 blog 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `Terraform 실습을 상태 소유권 지도로 읽기`를 추가했다. 클러스터, subnet, IAM, kubeconfig, HPA, Cluster Autoscaler, 자동 생성 리소스를 누가 소유하고 어디에서 정리되는지 나눠, 원문의 시행착오가 이후 운영 디버깅 지도로 재사용되게 보강했다.
+- 선호 신호: 저자는 EKS 실습에서도 빠른 성공보다 선언한 리소스와 자동 생성 리소스, 로컬 접속 경로, controller가 만드는 상태를 분리해 관리형 서비스의 편의와 남는 책임을 함께 보는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/EKS_with_terraform.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
 ### Human/Future 단일 노드 점진 심화
