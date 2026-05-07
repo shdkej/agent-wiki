@@ -1,4 +1,13 @@
-## 2026-05-07 | Communication·blog·Fundamental·Idea·Human·Integration 노드 점진 심화
+## 2026-05-07 | Communication·blog·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
+
+### Meta/Troubleshooting 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Meta/Troubleshooting]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Deep Knowledge/Monitoring]], [[mapped/Fundamental/Computer_Architecture]] 앞부분을 참고해 이 노드가 잡다한 에러 목록이 아니라 다음 장애 때 재진입 가능한 복구 기록 표면임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `사례 기록은 네 칸만 있어도 다음 디버깅이 빨라진다`를 추가했다. 증상, 확인한 상태, 바꾼 것, 닫힌 조건으로 원문의 짧은 명령어·해결 메모를 다시 읽어, Ctrl+F용 에러 사전과 관측 기반 복구 루프가 함께 작동한다는 점을 보강했다.
+- 선호 신호: 저자는 Troubleshooting 노트에서도 완성된 정답집보다, 에러 표면을 빠르게 찾고 확인한 상태와 실제 개입을 따라가며 다음 복구 판단을 좁히는 기록 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md`는 file mtime 기준으로 기존 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 
 
 ### Integration/Creator 단일 노드 점진 심화

@@ -5,7 +5,7 @@ tags: [mapped, meta, troubleshooting, debugging, operations]
 source_file: "[[source/shdkej-content/Meta/Troubleshooting.md]]"
 source_name: Troubleshooting
 created: 2026-04-14
-updated: 2026-04-22
+updated: 2026-05-07
 status: evolving
 language: ko
 ---
@@ -160,6 +160,16 @@ Terraform, Ansible, Jenkins, AWS API Gateway, Grafana/Prometheus, Kubernetes, k3
 
 이 노트는 결국 도구별 팁보다 `어느 축이 문제인지 먼저 가르는 습관`을 훈련시킨다.
 
+### 8. 사례 기록은 네 칸만 있어도 다음 디버깅이 빨라진다
+원문은 오래된 메모와 짧은 명령어가 많이 섞여 있지만, 실제로 재사용되는 순간에는 다음 네 칸이 가장 중요하다.
+
+- **증상**: 사용자가 본 문장, 에러 코드, `NotReady`, `connection refused`, `pending`처럼 검색 가능한 표면
+- **확인한 상태**: 로그, 버전, 설정 파일, 자원 사용량, 네트워크 경로, 권한처럼 추측을 줄이는 관측값
+- **바꾼 것**: 재설치, reset, DNS 수정, selector 보정, `swapoff`, 권한 변경처럼 실제 개입한 지점
+- **닫힌 조건**: 다시 접속됨, 빌드 성공, 노드 회복, 임시 장애였음, 아직 TODO처럼 다음 판단을 멈추거나 이어 가게 하는 결과
+
+이 네 칸으로 읽으면 [[mapped/Communication/Document]]의 문서화 원칙과도 이어진다. 트러블슈팅 문서는 에러명을 저장하는 곳이 아니라, 다음 사람이 같은 증상을 만났을 때 관측과 개입 순서를 되짚게 하는 재진입 표면이다.
+
 ## 반복되는 판단 축
 
 ### 추측 vs 관측
@@ -215,6 +225,7 @@ Terraform, Ansible, Jenkins, AWS API Gateway, Grafana/Prometheus, Kubernetes, k3
 - 긴 사례 목록을 도구별 요약으로 납작하게 만들지 않고, `반복 증상 축`으로 다시 읽어 재사용성을 높였다.
 - Kubernetes 비중이 큰 이유를 단순 분량이 아니라 운영 철학이 가장 선명하게 드러나는 구간으로 해석했다.
 - 개발환경 메모와 시스템 복구 메모가 함께 있는 이유를 `작업 환경 전체의 복구 문서`라는 관점으로 묶었다.
+- 2026-05-07 패스에서는 원문의 짧은 해결 메모를 `증상 / 확인한 상태 / 바꾼 것 / 닫힌 조건` 네 칸으로 다시 읽어, 트러블슈팅 노트가 다음 디버깅을 여는 최소 기록 템플릿이라는 점을 보강했다.
 
 ## 다음에 더 볼 질문
 - 이 노트의 사례들을 `권한`, `경로`, `버전`, `네트워크`, `자원` 태그로 더 얇게 분류한 부록이 필요할까?
