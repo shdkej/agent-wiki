@@ -1,5 +1,13 @@
 ## 2026-05-07 | blog·Fundamental 노드 점진 심화
 
+### Human/Standard 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Human/Standard]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Standard.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]], [[mapped/Human/Balance]] 앞부분을 참고해 이 노드가 표준화 찬반론이 아니라 사람이 기준을 만들고, 쓰고, 의심하고, 다시 깨는 형식 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `기준의 생애주기로 다시 읽기`를 추가했다. 표준을 발생·전파·비대화·검증·분해/재조립의 흐름으로 묶어, 메뉴얼·템플릿·전자정부프레임워크·디자인 패턴·매너리즘 메모가 하나의 살아 있는 기준 운영 루프로 읽히게 보강했다.
+- 선호 신호: 저자는 Standard 노트에서도 좋은 규칙의 내용 자체보다, 그 규칙이 현장에서 자랐는지, 다음 사람의 재진입을 돕는지, 비대해질 때 다시 분해·갱신할 수 있는지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Standard.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### blog/EKS_with_terraform 단일 노드 점진 심화
 - 갱신 범위: [[mapped/blog/EKS_with_terraform]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/EKS_with_terraform.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Infra]], [[mapped/Deep Knowledge/Container]] 앞부분을 참고해 이 노드가 EKS 생성 가이드가 아니라 Terraform 실습을 통해 상태 소유권과 관리형 경계를 확인하는 blog 노드임을 재확인했다.
