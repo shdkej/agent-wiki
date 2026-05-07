@@ -1,5 +1,13 @@
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
+### blog/Decision_Monitor_Size 단일 노드 점진 심화
+- 갱신 범위: [[mapped/blog/Decision_Monitor_Size]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Decision_Monitor_Size.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Readability]], [[mapped/blog/My_space]], [[mapped/blog/Note_Management]] 앞부분을 참고해 이 노드가 모니터 추천표가 아니라 이동·가독성·자세·작업 단위 수를 함께 재는 물리적 작업환경 판단 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `화면 판단은 크기보다 작업 단위가 몇 개 보이는가로 읽어야 한다`를 추가했다. 코드 줄 수, 화면 두 개, 크기-거리 관계, 화면비, 눈동자/고개 이동 메모를 묶어 인치 비교가 아니라 읽는 표면·작업을 나누는 표면·몸이 버티는 표면을 따로 측정하는 구조로 보강했다.
+- 선호 신호: 저자는 장비 선택에서도 최신 스펙이나 추천 모델보다, 실제 작업 장면에서 맥락 전환이 줄고 몸의 후불 비용이 덜 생기며 이동 후에도 다시 세팅 가능한 표면 구성을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Decision_Monitor_Size.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Deep Knowledge/Cloud 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Deep Knowledge/Cloud]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 0줄 공란임을 확인하고, 기존 mapped 노트 전체를 다시 읽었다. 필요 최소 맥락으로 `Infra`, `Devops`, `Container` source의 클라우드 관련 줄만 확인해 이 노드가 실행 세부를 대신 담는 곳이 아니라 클라우드 선택 질문을 받을 경계 노드임을 재확인했다.
