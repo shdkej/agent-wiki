@@ -1,5 +1,13 @@
 ## 2026-05-07 | Communication·blog·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
+### Idea/Movie 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Idea/Movie]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Movie.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Reading]], [[mapped/Human/Love]], [[mapped/Integration/Creator]] 앞부분을 참고해 이 노드가 영화 목록이나 평론집이 아니라 장면·문장·감정의 찌름을 자기 질문으로 번역하는 Idea 입력 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `감상 루프를 두 번 나누어 읽기`와 `말하지 못함을 보존하는 편집 기준`을 추가했다. 프리뷰·감상·리뷰·비하인드를 정답 확인 순서가 아니라 자기 반응을 먼저 세우고 외부 해석으로 비교·보강하는 루프로 읽게 했고, 설명되지 않은 장면·감정·불편함을 삭제하지 않는 압축 기준을 세웠다.
+- 선호 신호: 저자는 Movie 노트에서도 작품별 결론이나 줄거리 요약보다, 어디서 멈췄는지와 왜 아직 말로 다 못 옮기는지를 보존한 뒤 나중에 형식 언어와 생활 질문으로 다시 돌아오는 감상 운영 방식을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Movie.md`는 file mtime 기준으로 기존 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Meta/Troubleshooting 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Meta/Troubleshooting]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Deep Knowledge/Monitoring]], [[mapped/Fundamental/Computer_Architecture]] 앞부분을 참고해 이 노드가 잡다한 에러 목록이 아니라 다음 장애 때 재진입 가능한 복구 기록 표면임을 재확인했다.
