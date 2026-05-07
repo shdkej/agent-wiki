@@ -1,4 +1,4 @@
-## 2026-05-07 | blog 노드 점진 심화
+## 2026-05-07 | blog·Fundamental 노드 점진 심화
 
 ### blog/EKS_with_terraform 단일 노드 점진 심화
 - 갱신 범위: [[mapped/blog/EKS_with_terraform]] 1개 페이지만 점진 심화했다.
@@ -7,6 +7,14 @@
 - 선호 신호: 저자는 EKS 실습에서도 빠른 성공보다 선언한 리소스와 자동 생성 리소스, 로컬 접속 경로, controller가 만드는 상태를 분리해 관리형 서비스의 편의와 남는 책임을 함께 보는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/EKS_with_terraform.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+### Fundamental/Math 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Network]], [[mapped/Fundamental/Computer_Architecture]], [[mapped/Deep Knowledge/Data]] 앞부분을 참고해 이 노드가 여전히 기초 개념을 공식집이 아니라 실험 가능한 관계 해석으로 바꾸는 Fundamental 번역층임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `관계식을 실험 단위로 바꾸는 방법`을 추가했다. 변수 분리, 관계가 바뀌는 경계, 확인 가능한 조작의 세 단계로 원문의 로그·전자기파·반도체·블록체인·드론 메모가 한 번에 읽히게 보강했다.
+- 선호 신호: 저자는 Math 노트에서도 수식과 개념을 많이 모으는 것보다, 헷갈린 변수를 분리하고 비용이 바뀌는 경계를 찾은 뒤 측정·조정 가능한 작은 실험으로 닫는 학습 방식을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
