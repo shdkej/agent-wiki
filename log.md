@@ -1,4 +1,13 @@
-## 2026-05-07 | blog·Fundamental 노드 점진 심화
+## 2026-05-07 | Communication·blog·Fundamental 노드 점진 심화
+
+
+### Communication/Teamwork 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Integration/Work]] 앞부분을 참고해 이 노드가 친화력 메모가 아니라 맥락 전달·판단 경계·재진입 가능한 기록을 설계하는 협업 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `업무 할당은 작은 맥락 패키지를 만드는 일이다`를 추가했다. 목적, 판단 경계, 확인 표면, 공유 형식을 한 단위로 묶어 리더의 업무 할당이 티켓 전달이 아니라 다음 사람이 스스로 판단하고 질문하고 기록으로 닫을 수 있게 만드는 handoff 설계임을 보강했다.
+- 선호 신호: 저자는 Teamwork 노트에서도 분위기 관리나 역할명보다, 맥락이 끊기지 않게 전달되고 일이 끝난 뒤 팀의 기억으로 남는 실행 단위 설계를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Human/Standard 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Standard]] 1개 페이지만 점진 심화했다.
