@@ -42,6 +42,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+### blog/Life_Tracking 단일 노드 점진 심화
+- 갱신 범위: [[mapped/blog/Life_Tracking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Physical]] 앞부분을 참고해 이 노드가 생활 데이터를 많이 모으는 취미가 아니라 하루 입력을 수집·압축·다음날 적용으로 돌리는 생활 운영 파이프라인임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `자동 생성 데이터 vs 반자동 입력 vs 해석 기록`을 추가했다. 수면·걸음·장소처럼 자동으로 생기는 흔적, 음식 사진·작업 타이머처럼 한 동작으로 캡처할 입력, 결정·전환 비용·배운 것처럼 사람이 압축해야 하는 해석 기록을 분리해 관리 포인트를 줄이는 기준을 보강했다.
+- 선호 신호: 저자는 Life_Tracking 노트에서도 더 많은 항목을 직접 쓰는 것보다, 자동 수집은 손대지 않고 받고 반자동 입력은 마찰을 줄이며 사람의 에너지는 하루 판단과 다음날 적용에 쓰는 운영형 기록 시스템을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
 ### Human/Future 단일 노드 점진 심화
