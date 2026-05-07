@@ -135,6 +135,15 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 기존 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+
+### Health/Food 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Food]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Food.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Physical]] 앞부분을 참고해 이 노드가 음식 추천 목록이 아니라 식사 공백을 막는 생활 공급망 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `한 끼 실패를 막는 의사결정 사다리`를 추가했다. 기본 재고, 비조리 보충, 외부조달을 순서화해 원문의 장보기 후보·아침 후보·편의점/도시락 메모가 죄책감 있는 예외가 아니라 끼니 단절을 막고 기본식으로 복귀시키는 분기표로 읽히게 보강했다.
+- 선호 신호: 저자는 Food 노트에서도 이상적인 건강식 고정표보다, 현재 에너지·장소·시간에 따라 조리/비조리/외부조달을 전환하고 다음 끼니를 다시 안정시키는 복원형 식사 운영을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`는 file mtime 기준으로 기존 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
 ### Human/Future 단일 노드 점진 심화
