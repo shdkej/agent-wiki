@@ -1,5 +1,13 @@
 ## 2026-05-07 | Communication·blog·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
+### Human/Balance 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Balance.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]], [[mapped/Human/Reality]] 앞부분을 참고해 이 노드가 중간값 권고가 아니라 충돌하는 가치쌍을 장기적으로 재평가하는 Human 판단 조정 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `되돌아옴은 실패가 아니라 비교축의 재검증일 수 있다`를 추가했다. `a to b to a again`, 온고지신/꼰대, 익숙함/지겨움, 표준/진부함 같은 원문 메모를 선택 실패가 아니라 이동 전후 비용을 기억하는 피드백 주기로 읽게 보강했다.
+- 선호 신호: 저자는 Balance 노트에서도 한 번의 정답 위치를 고정하기보다, 왜 이동했고 왜 돌아왔는지의 비용 차이를 남겨 다음 선택을 더 정확하게 만드는 비교축 저장 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`는 file mtime 기준으로 기존 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### blog/Deploy_ERP_server_story 단일 노드 점진 심화
 - 갱신 범위: [[mapped/blog/Deploy_ERP_server_story]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Container]], [[mapped/Deep Knowledge/Infra]], [[mapped/Deep Knowledge/Monitoring]] 앞부분을 참고해 이 노드가 Odoo 설치기가 아니라 초기 업무 시스템의 상태 소유권을 나누는 운영 실습 노드임을 재확인했다.
