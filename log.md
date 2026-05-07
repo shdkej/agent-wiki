@@ -1,4 +1,12 @@
-## 2026-05-07 | Communication·blog·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
+## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
+
+### Deep Knowledge/Cloud 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/Cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 0줄 공란임을 확인하고, 기존 mapped 노트 전체를 다시 읽었다. 필요 최소 맥락으로 `Infra`, `Devops`, `Container` source의 클라우드 관련 줄만 확인해 이 노드가 실행 세부를 대신 담는 곳이 아니라 클라우드 선택 질문을 받을 경계 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `결정 층과 실행 층을 섞지 않는 읽기`를 추가했다. Lambda, Fargate, NAT gateway, VPC Endpoint, CloudWatch, ArgoCD 같은 주변 실행 메모를 그대로 이식하지 않고, 각각이 관리 포인트·숨은 비용·관측/격리·배포/롤백 기본값 중 어떤 상위 선택 질문을 여는지만 받도록 분리했다.
+- 선호 신호: 저자는 빈 Cloud 노드에서도 클라우드 일반론을 채우기보다, 인접 운영 메모가 어떤 결정 기준을 암시하는지와 그 실행 세부가 어느 노드에 머물러야 하는지를 구분하는 경계 보존 방식을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 file mtime 기준으로 mapped 노트보다 오래되었고 본문도 공란이라 이번 런의 직접 사용자 수정본으로 보이지 않았으며, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Human/Balance 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 점진 심화했다.
