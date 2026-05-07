@@ -1,4 +1,13 @@
-## 2026-05-07 | Communication·blog·Fundamental·Idea·Human 노드 점진 심화
+## 2026-05-07 | Communication·blog·Fundamental·Idea·Human·Integration 노드 점진 심화
+
+
+### Integration/Design 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Design.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Product]], [[mapped/Deep Knowledge/Web]] 앞부분을 참고해 이 노드가 취향 보드가 아니라 감각·구조·접근성·웹 구현을 하나의 제품 언어로 통합하는 Integration 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `디자인 시스템을 제품 언어로 내리는 순서`를 추가했다. 인상 토큰, 위계 토큰, 접근성 가드, 구현 표면의 네 단계로 원문의 로고·톤·키컬러·깊이감·접근성·TOC/anchor/font-size 메모가 한 흐름으로 읽히게 보강했다.
+- 선호 신호: 저자는 Design 노트에서도 컴포넌트 라이브러리나 색상표부터 고정하기보다, 어떤 인상과 태도를 반복할지 정한 뒤 위계·접근성·웹 구현으로 내려오는 제품 언어형 디자인 시스템을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Design.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 ### Health/Investment 단일 노드 점진 심화
