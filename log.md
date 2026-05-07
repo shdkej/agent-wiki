@@ -1,6 +1,15 @@
 ## 2026-05-07 | Communication·blog·Fundamental·Idea 노드 점진 심화
 
 
+### Health/Investment 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Investment]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Investment.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Decision]], [[mapped/Integration/Economics]] 앞부분을 참고해 이 노드가 투자 상품 요약이 아니라 세금·주거·가족 이벤트·노후를 한 장부에서 시간층별로 운영하는 Health 자산 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `재무 판단은 시간층별 버킷을 나누어야 덜 흔들린다`를 추가했다. 카드/연말정산의 단기 방어, 양도세·ISA·연금저축의 연간 세후 운영, 결혼·주거·출산의 중기 목돈, 자녀 증여·노후의 장기 기반을 분리해 원문의 반복 계산이 산만함이 아니라 시간층별 선택권 보존 장치로 읽히게 보강했다.
+- 선호 신호: 저자는 Investment 노트에서도 단일 수익률 최적화보다, 올해 새는 돈·몇 년 안의 큰 지출·수십 년 뒤의 기반을 다른 버킷으로 나누고 각 층의 최악을 버티는 장부 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`는 file mtime 기준으로 기존 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+
 
 ### Idea/Article 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Idea/Article]] 1개 페이지만 점진 심화했다.
