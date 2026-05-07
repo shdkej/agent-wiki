@@ -14,7 +14,7 @@
 - 정리: 기존 baseline은 유지한 채 `관계식을 실험 단위로 바꾸는 방법`을 추가했다. 변수 분리, 관계가 바뀌는 경계, 확인 가능한 조작의 세 단계로 원문의 로그·전자기파·반도체·블록체인·드론 메모가 한 번에 읽히게 보강했다.
 - 선호 신호: 저자는 Math 노트에서도 수식과 개념을 많이 모으는 것보다, 헷갈린 변수를 분리하고 비용이 바뀌는 경계를 찾은 뒤 측정·조정 가능한 작은 실험으로 닫는 학습 방식을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
