@@ -89,7 +89,7 @@
 ### Idea/Article 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Idea/Article]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Article.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/Communication/Blogging]], [[mapped/Meta/Collection]] 앞부분을 참고해 이 노드가 기사 요약장이 아니라 웹 입력을 포착·후처리·재호출·출력 후보화하는 Idea 입력 운영 노드임을 재확인했다.
-- 정리: 기존 baseline은 유지한 채 `북마크 상태 전이를 더 실용적으로 읽기`를 추가했다. `inbox / read / remind / archive` 표로 원문의 3x3 메모와 북마크 고민을 재구성해, 저장 도구 선택보다 각 링크의 재진입 조건과 다음 행동을 관리하는 것이 핵심임을 보강했다.
+- 정리: 기존 baseline은 유지한 채 `북마크 상태 전이를 더 실용적으로 읽기`를 추가했다. `inbox / read / remind / archive` 표로 원문의 3x3 메모와 북마크 고민을 재구성해, 저장 도구 선택보다 각 링크의 재진입 조건과 다음 행동을 관리하는 것이 핵심임을 보강했다. 23시 실행에서는 같은 노트 안에 `입력 매체별로 남기는 신호`를 보강해, 유튜브·디자인 사례·노트법·역사 사례·북마크 도구가 각각 포맷 신호, 판단 신호, 보존 신호, 출력 후보 중 무엇을 남기는지 더 분명히 했다.
 - 선호 신호: 저자는 Article 노트에서도 좋은 링크를 많이 모으는 것보다, 읽은 뒤 이해·미해결·다시 보기·출처 보존 상태를 나누고 나중에 글감이나 판단 재료로 다시 움직일 수 있게 만드는 운영형 북마크 문법을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Article.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
