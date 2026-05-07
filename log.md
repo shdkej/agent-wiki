@@ -50,6 +50,15 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+
+### Deep Knowledge/Devops 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/Devops]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Devops.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Container]], [[mapped/Deep Knowledge/Monitoring]], [[mapped/Deep Knowledge/Infra]] 앞부분을 참고해 이 노드가 배포 자동화 도구 목록이 아니라 개발·배포·운영 상태의 소유권을 나누는 전달 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `배포 흐름을 세 개의 소유권으로 나누기`를 추가했다. 애플리케이션 레포, 배포/GitOps 레포, 인프라 레포를 나눠 원문의 ArgoCD·레포 분리·핫픽스·롤백 고민이 자동화 여부보다 어떤 선언을 어디에서 바꿔야 하는지의 문제로 읽히게 보강했다.
+- 선호 신호: 저자는 Devops 노트에서도 빠른 배포 버튼 자체보다, 코드 산출물·배포 선언·인프라 상태가 서로 어긋나지 않고 문제가 났을 때 어느 층을 되돌릴지 확인 가능한 운영 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Devops.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-06 | Communication·Human·Deep Knowledge·Health 노드 점진 심화
 
 ### Human/Future 단일 노드 점진 심화
