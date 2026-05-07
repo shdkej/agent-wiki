@@ -1,5 +1,13 @@
 ## 2026-05-07 | Communication·blog·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
+### blog/Deploy_ERP_server_story 단일 노드 점진 심화
+- 갱신 범위: [[mapped/blog/Deploy_ERP_server_story]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Container]], [[mapped/Deep Knowledge/Infra]], [[mapped/Deep Knowledge/Monitoring]] 앞부분을 참고해 이 노드가 Odoo 설치기가 아니라 초기 업무 시스템의 상태 소유권을 나누는 운영 실습 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `상태 소유권 지도로 다시 읽기`를 추가했다. Compose, Dockerfile, addons, ERP volume, DB volume을 각각 선언·빌드·업무 변경·애플리케이션 상태·업무 데이터 보존면으로 나누어 원문의 다섯 파일/폴더 결론이 운영 경계 설계로 읽히게 보강했다.
+- 선호 신호: 저자는 ERP 구축 사례에서도 빠르게 띄우는 성공보다, 수정이 어디에 남고 데이터가 어디서 보존되며 다른 환경으로 어떻게 옮겨지는지 설명 가능한 상태 지도를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Idea/Movie 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Idea/Movie]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Movie.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Reading]], [[mapped/Human/Love]], [[mapped/Integration/Creator]] 앞부분을 참고해 이 노드가 영화 목록이나 평론집이 아니라 장면·문장·감정의 찌름을 자기 질문으로 번역하는 Idea 입력 노드임을 재확인했다.
