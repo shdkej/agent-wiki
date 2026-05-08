@@ -57,7 +57,7 @@
 - 선호 신호: 저자는 Decision 노트에서도 무제한 선택지보다, 나중에 교체·이동·복구할 수 있는 자유도를 남기면서 지금의 후보를 좁히는 필터형 판단을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 선택·구매형 노트의 `제약 없음`과 `조건 늘리기`를 구분해 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Routine 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
