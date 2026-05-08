@@ -7,7 +7,7 @@
 - 정리: 기존 baseline은 유지한 채 `의존성은 없애는 대상이 아니라 위치를 정하는 대상이다`를 추가했다. 외부 프로그램 최소화, Gatsby/Hasura, 라이브러리 분리, gRPC·Kubernetes 도입 메모를 자산을 가두는 의존성 / 교체면을 만드는 의존성 / 운영 능력을 빌려오는 의존성으로 나누어, 도구 도입 기준이 설치 수보다 복구 가능 상태의 설명성에 있다는 점을 보강했다.
 - 선호 신호: 저자는 About_Architecture 노트에서도 특정 도구 찬반보다, 도구가 들어온 뒤에도 원본 자산·호출 경계·상태 전이·A/S 피드백이 따로 남아 나중에 다시 만질 수 있는 구조를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Integration/Business 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 점진 심화했다.
