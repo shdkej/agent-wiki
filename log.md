@@ -14,7 +14,7 @@
 - 정리: 기존 baseline은 유지한 채 `회귀 가능성을 계약면으로 읽기`를 추가했다. 서버리스·관리형 서비스·컨테이너·Terraform/GitOps·스냅샷/롤백 메모를 도구 목록으로 옮기지 않고, 장애·비용·이전 상황에서 다시 잡을 수 있는 손잡이가 남는지 묻는 상위 판단 축으로 보강했다.
 - 선호 신호: 저자는 Cloud 노트에서도 특정 서비스 추천보다, 편의성을 얻은 뒤에도 관측·상태 원천·롤백·데이터 복구의 계약면이 남아 있는지 확인하는 복구 가능한 클라우드 선택 문법을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 file mtime 기준으로 mapped 노트보다 오래되었고 본문도 공란이라 이번 런의 직접 사용자 수정본으로 보이지 않았으며, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Foreign_language 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
