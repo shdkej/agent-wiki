@@ -1,4 +1,13 @@
-## 2026-05-08 | Health·Integration·Meta 노드 점진 심화
+## 2026-05-08 | Communication·Health·Integration·Meta 노드 점진 심화
+
+
+### Communication/Logical_Thinking 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Communication/Talk]], [[mapped/Integration/Exploration]] 앞부분을 참고해 이 노드가 논증법 암기장이 아니라 검토 가능한 판단 경로를 공유하는 Communication 인터페이스임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `검토 가능한 경로로 말하기`를 추가했다. 논리 도구를 상대 제압용 무기가 아니라 질문·전제·반례·분류 기준·수용 조건을 공개해 다른 사람이 다시 검토할 수 있게 만드는 설명 구조로 보강했다.
+- 선호 신호: 저자는 Logical_Thinking 노트에서도 맞는 결론을 빠르게 밀어붙이기보다, 결론이 생긴 경로와 취약점을 함께 드러내고 상대의 수신 조건까지 고려하는 판단 공유 방식을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 
 ### Health/Curiosity 단일 노드 점진 심화
