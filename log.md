@@ -109,6 +109,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Journal.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+### Meta/Fail_experience 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Meta/Fail_experience]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Troubleshooting]] 앞부분을 참고해 이 노드가 자책 기록이 아니라 실패 조건을 다음 실행의 검증 표면으로 바꾸는 Meta 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `실패 기록을 다음 실행으로 바꾸는 최소 필드`를 추가했다. 실패 경험을 `빠진 전제 / 실패가 커진 경로 / 되돌릴 손잡이 / 다음 실행의 자동 장치`로 다시 꺼내, 복붙·무확인·백업 부재·문서/자동화 메모가 같은 재발 방지 구조로 읽히도록 보강했다.
+- 선호 신호: 저자는 Fail_experience 노트에서도 반성의 강도보다, 같은 손실이 다시 커지지 않도록 확인·원복·자동 검증 표면을 남기는 운영형 회고를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
 ### Fundamental/Software 단일 노드 점진 심화
