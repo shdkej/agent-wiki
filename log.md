@@ -1,3 +1,13 @@
+## 2026-05-08 | Integration 노드 점진 심화
+
+### Integration/Business 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Business.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Marketing]], [[mapped/Deep Knowledge/Product]] 앞부분을 참고해 이 노드가 경영 이론 요약이 아니라 사람·조직·제품 마찰을 함께 거르는 사업 판단 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `문제 수집과 제품 검증은 같은 퍼널의 다른 장면이다`를 추가했다. startup 검증, GS 문제은행, 제품 불편 사례를 `문제 후보 수집 → 반응/해결 가능성 확인 → 운영 검증` 흐름으로 연결했다.
+- 선호 신호: 저자는 Business 노트에서도 아이디어 확신이나 혁신 구호보다, 사람과 현업 문제와 고객 마찰을 많이 발견한 뒤 실제 반응·해결 가능성·운영 안정성을 통과시키는 퍼널형 사업 판단을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Business.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
 ### Fundamental/Software 단일 노드 점진 심화
