@@ -1,6 +1,15 @@
 ## 2026-05-08 | Integration 노드 점진 심화
 
 
+### Integration/Exploration 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Exploration.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Article]], [[mapped/Communication/Blogging]] 앞부분을 참고해 이 노드가 검색 팁 모음이 아니라 낯선 영역으로 들어갈 때 조사 강도와 검증 수준을 조절하는 Integration 탐구 인터페이스임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `조사 강도는 질문의 위험도에 맞춰 조절한다`를 추가했다. `awesome/101` 같은 가벼운 진입 키워드, 커뮤니티·정리글 활용, 문제 사례·반대 의견 조사, 문헌연구·체계적 문헌고찰·protocol 메모를 하나의 중요도별 검증 사다리로 묶었다.
+- 선호 신호: 저자는 Exploration 노트에서도 모든 질문을 같은 무게로 조사하기보다, 틀렸을 때의 비용에 따라 입문 검색·비교 조사·연구적 검증 사이를 오르내기며 탐구 지속성과 판단 신뢰도를 함께 관리하는 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Exploration.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+
 ### Meta/About_Architecture 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Meta/About_Architecture]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Architecture]] 앞부분을 참고해 이 노드가 아키텍처 패턴 요약이 아니라 의존성·교체면·복구 절차를 설계하는 Meta 판단 노드임을 재확인했다.
