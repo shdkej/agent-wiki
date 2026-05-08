@@ -1,5 +1,13 @@
 ## 2026-05-08 | Communication·Deep Knowledge·Health·Integration·Meta 노드 점진 심화
 
+### Communication/Blogging 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/blog/Note_Management]], [[mapped/Human/Readability]] 앞부분을 참고해 이 노드가 내부 위키를 독자용 발행 표면으로 전환하는 Communication 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `진입 경로별 문턱 vs 내부 맥락 보존`을 추가했다. 검색해서 들어온 독자에게는 빠른 결론·선택 이유가 필요하고, 처음 접하는 독자에게는 배경 맥락이 필요하다는 원문 긴장을 첫 화면·서론·요약 설계 문제로 보강했다.
+- 선호 신호: 저자는 Blogging 노트에서도 긴 서론을 무조건 줄이거나 내부 맥락을 통째로 공개하기보다, 독자의 진입 경로에 따라 요약·맥락·경험 배경·관련 링크를 나누어 배치하는 편집 인터페이스를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Blogging.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Deep Knowledge/AI 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Deep Knowledge/AI]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/AGENTS]], [[mapped/Deep Knowledge/Data]], [[mapped/Deep Knowledge/Product]] 앞부분을 참고해 이 노드가 모델 개념·위임 구조·제품 운영을 함께 다루는 Deep Knowledge AI 운영 노드임을 재확인했다.
