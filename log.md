@@ -49,6 +49,16 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+
+### Health/Decision 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이번 런에서는 관련 노트 편집 없이 원문 내부의 선택·구매·공간·집 구하기 메모를 재대조했다.
+- 정리: 기존 baseline은 유지한 채 `제약은 없애야 할 것과 일부러 세워야 할 것으로 나뉜다`를 추가했다. `제약은 없을수록 좋다`와 `조건을 늘려서 고르기`를 모순으로 합치지 않고, 미래 선택권을 닫는 제약과 현재 판단을 선명하게 만드는 필터로 분리했다.
+- 선호 신호: 저자는 Decision 노트에서도 무제한 선택지보다, 나중에 교체·이동·복구할 수 있는 자유도를 남기면서 지금의 후보를 좁히는 필터형 판단을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 선택·구매형 노트의 `제약 없음`과 `조건 늘리기`를 구분해 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Health/Routine 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Routine.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/blog/Life_Tracking]] 앞부분을 참고해 이 노드가 체크리스트가 아니라 하루 기동과 주간 재조정을 함께 다루는 Health 루틴 운영 노드임을 재확인했다.
