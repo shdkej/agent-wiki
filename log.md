@@ -1,5 +1,12 @@
 ## 2026-05-08 | Communication·Health·Integration·Meta 노드 점진 심화
 
+### Communication/Foreign_language 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Teamwork]], [[mapped/Communication/Feedback]] 앞부분을 참고해 이 노드가 외국어 표현을 장면 통과와 협업 handoff의 표면으로 다루는 Communication 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `외국어 표현은 혼자 외운 문장이 아니라 상대가 응답할 수 있는 표면이다`와 `품사별 정리 vs 응답 가능성별 정리`를 추가했다. 업무 영어 표현을 구동사 목록이 아니라 상태 공유, 일정 조정, 자료 준비, 중단 후 재개, 부탁/확인을 가능하게 하는 최소 협업 문장 묶음으로 보강했다.
+- 선호 신호: 저자는 Foreign_language 노트에서도 표현 지식의 양보다, 상대가 다음 행동을 이해하고 응답할 수 있게 만드는 작은 인터페이스형 문장을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Logical_Thinking 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
