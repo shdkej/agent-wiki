@@ -1,4 +1,4 @@
-## 2026-05-08 | Communication·Deep Knowledge·Health·Idea·Integration·Meta 노드 점진 심화
+## 2026-05-08 | Communication·Deep Knowledge·Fundamental·Health·Idea·Integration·Meta 노드 점진 심화
 
 ### Meta/Collection 수집 상태 축 점진 심화
 - 갱신 범위: [[mapped/Meta/Collection]] 1개 페이지만 점진 심화했다.
@@ -142,6 +142,16 @@
 - 선호 신호: 저자는 Food 노트에서도 이상적인 식단표보다, 준비 마찰이 낮고 손이 빨리 닿으며 몸이 실제로 소화·지속할 수 있는 입력층을 만들어 루틴과 신체 사용을 함께 안정시키는 방식을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+
+### Fundamental/Math 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 수학 공식집이 아니라 관계식·신호·집적·신뢰·제어를 잇는 Fundamental 번역층임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `응용 사례를 기초 축으로 되돌리는 읽기`를 추가했다. 블록체인, 드론, 무선통신 메모를 최신 사례 확장이 아니라 검증 가능한 관계, feedback, 신호 전달 조건으로 되돌려 읽도록 보강했다.
+- 선호 신호: 저자는 Math 노트에서도 공식 정확성만 분리해 암기하기보다, 보이지 않는 현상을 변수와 검증 절차로 바꾸고 그것이 실제 장치·제도·제어 루프에서 어떻게 안정되는지 확인하는 학습 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
