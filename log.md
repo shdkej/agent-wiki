@@ -117,6 +117,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
+### Health/Food 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Food]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Food.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Physical]], [[mapped/blog/Life_Tracking]] 앞부분을 참고해 이 노드가 식품 목록이 아니라 하루 기동·몸 입력량·식사 복원력을 잇는 Health 식사 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `식사는 루틴을 켜는 가장 작은 트리거다`를 추가했다. 아침 후보, 물, 우유, 계란, 시리얼, 견과류를 단순 건강식이 아니라 낮은 에너지 상태에서 하루를 시작하게 하는 호출 표면으로 보강했고, 칼로리·벌크업·액상식·채소 음료·물 타이밍 질문을 몸 반응 검증과 연결했다.
+- 선호 신호: 저자는 Food 노트에서도 이상적인 식단표보다, 준비 마찰이 낮고 손이 빨리 닿으며 몸이 실제로 소화·지속할 수 있는 입력층을 만들어 루틴과 신체 사용을 함께 안정시키는 방식을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
 ### Fundamental/Software 단일 노드 점진 심화
