@@ -150,7 +150,7 @@
 - 정리: 기존 baseline은 유지한 채 `응용 사례를 기초 축으로 되돌리는 읽기`를 추가했다. 블록체인, 드론, 무선통신 메모를 최신 사례 확장이 아니라 검증 가능한 관계, feedback, 신호 전달 조건으로 되돌려 읽도록 보강했다.
 - 선호 신호: 저자는 Math 노트에서도 공식 정확성만 분리해 암기하기보다, 보이지 않는 현상을 변수와 검증 절차로 바꾸고 그것이 실제 장치·제도·제어 루프에서 어떻게 안정되는지 확인하는 학습 방식을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
