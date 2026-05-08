@@ -101,6 +101,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+### Idea/Journal 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Idea/Journal]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Journal.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Reading]], [[mapped/blog/Note_Management]], [[mapped/Communication/Blogging]] 앞부분을 참고해 이 노드가 일기장이 아니라 시간축 기록을 주제 지식과 출력물로 다시 번역하는 Idea 기록 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `기록의 수명은 보존, 갱신, 폐기로 나뉜다`를 추가했다. 원문의 최신 관리·참조 갱신·긴 노트 압축·망설임 없는 삭제 메모를 묶어, 모든 기록을 오래 보관하는 것이 아니라 과거 흔적은 보존하고 현재 판단용 기록은 갱신하며 임시 표식은 압축하는 운영 기준으로 보강했다.
+- 선호 신호: 저자는 Journal 노트에서도 기록량 자체보다, 기록이 시간이 지나며 보존본·현재 기준·압축 대상 중 무엇으로 남아야 하는지 판별해 전체 지도가 다시 보이게 만드는 기록 수명 관리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Journal.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
 ### Fundamental/Software 단일 노드 점진 심화
