@@ -93,6 +93,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/History.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+### Idea/Travel 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Article]], [[mapped/Human/Reality]] 앞부분을 참고해 이 노드가 여행지 추천표가 아니라 시선 이동과 감각 회수, 최소 운영 준비가 맞물리는 Idea 입력 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만족도는 이동량보다 감각을 회수할 수 있는가에 달려 있다`를 추가했다. 홋카이도 설경·기차 풍경·숙소 체류 욕구와 니조시장·비에이·아사히다케의 준비 실패 메모를 연결해, 최소 시나리오가 여행을 통제하기보다 좋은 감각을 흩어지지 않게 지키는 운영 장치라는 점을 보강했다.
+- 선호 신호: 저자는 Travel 노트에서도 많이 보는 여행보다 한 장면이 마음과 판단 기준을 실제로 바꾸는 여행을 선호하며, 그 감각을 보존하기 위해 교통·숙소·시간표 같은 최소 운영 조건을 미리 확보하는 편을 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
 ### Fundamental/Software 단일 노드 점진 심화
