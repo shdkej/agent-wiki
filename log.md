@@ -1,4 +1,13 @@
-## 2026-05-08 | Integration 노드 점진 심화
+## 2026-05-08 | Health·Integration·Meta 노드 점진 심화
+
+
+### Health/Curiosity 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Decision]], [[mapped/Integration/Exploration]] 앞부분을 참고해 이 노드가 산만한 관심사 목록이 아니라 생활 운영을 움직이는 질문 저장소임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `질문은 결국 문제 정의 능력으로 압축된다`를 추가했다. FDE, 알파팀, CEO 업무, 좋은 프로덕트 질문을 직무 호기심이 아니라 낯선 도메인에서 실제 마찰·권한·사용 장면을 파악해 제품·문서·자동화 후보로 좁히는 문제 정의 압력으로 보강했다.
+- 선호 신호: 저자는 Curiosity 노트에서도 새 지식 수집보다, 질문을 오래 보관한 뒤 도메인 가까이 들어가 누가 겪는 어떤 문제를 어떻게 덜 고장나게 만들지로 압축하는 탐구 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Routine 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
