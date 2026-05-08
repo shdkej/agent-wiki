@@ -1,4 +1,12 @@
-## 2026-05-08 | Communication·Health·Integration·Meta 노드 점진 심화
+## 2026-05-08 | Communication·Deep Knowledge·Health·Integration·Meta 노드 점진 심화
+
+### Deep Knowledge/AI 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/AI]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/AGENTS]], [[mapped/Deep Knowledge/Data]], [[mapped/Deep Knowledge/Product]] 앞부분을 참고해 이 노드가 모델 개념·위임 구조·제품 운영을 함께 다루는 Deep Knowledge AI 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `자연어 인터페이스는 도구 호출 이전에 신뢰 표면이다`를 추가했다. 자연어 요청을 기존 도구에 연결할 때 요청 표면, 확인 표면, 복구 표면을 함께 남겨야 사용자가 이해·승인·재시작할 수 있다는 점을 보강했다.
+- 선호 신호: 저자는 AI 제품에서도 매끈한 자동 실행 자체보다, 시스템이 이해한 내용과 실행할 도구, 비용·시간·위험, 실패 후 복구 상태를 사용자가 확인할 수 있는 계약면을 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Foreign_language 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
