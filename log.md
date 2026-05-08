@@ -91,7 +91,7 @@
 - 정리: 기존 baseline은 유지한 채 `논리에서 인터페이스까지 이어지는 기술사 사다리`를 추가했다. 불 대수, 섀넌, 튜링, CPU, OS, 언어, ARPANET, WWW, Xerox PARC 메모를 이름 나열이 아니라 `논리 → 정보 → 실행 → 운영 → 연결 → 인터페이스`로 내려오는 사용 가능성의 계보로 보강했다.
 - 선호 신호: 저자는 History 노트에서도 최초 발명과 연도를 외우기보다, 한 층의 추상화가 다음 층의 도구·공유 형식·사용자 인터페이스를 어떻게 가능하게 했는지 보는 계보형 이해를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/History.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-07 | Communication·blog·Deep Knowledge·Fundamental·Idea·Human·Integration·Meta 노드 점진 심화
 
