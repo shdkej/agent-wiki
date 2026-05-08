@@ -1,5 +1,13 @@
 ## 2026-05-08 | Communication·Deep Knowledge·Health·Idea·Integration·Meta 노드 점진 심화
 
+### Meta/Collection 수집 상태 축 점진 심화
+- 갱신 범위: [[mapped/Meta/Collection]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Collection.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 Meta 카테고리 안에서 분화 전 재료·표현 훈련·추적 채널·대립축을 함께 보존하는 수집면임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `수집물은 보관 상태가 아니라 다음 행동 상태로 나뉜다`를 추가했다. 좋은 대사·스니펫·토론 문장 같은 즉시 재사용 재료, 리뷰 커뮤니티·알림 봇 같은 추적 대상, VS 섹션의 판단 유예 축을 분리해 원문의 산만함이 다음 행동 상태를 함께 저장하는 구조임을 보강했다.
+- 선호 신호: 저자는 Collection 노트에서도 자료를 주제별로만 깔끔하게 분류하기보다, 어떤 것은 바로 호출하고 어떤 것은 계속 추적하며 어떤 것은 결론을 늦추는 비교 슬롯으로 보존하는 수집 운영 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Collection.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Communication/Blogging 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/blog/Note_Management]], [[mapped/Human/Readability]] 앞부분을 참고해 이 노드가 내부 위키를 독자용 발행 표면으로 전환하는 Communication 노드임을 재확인했다.
