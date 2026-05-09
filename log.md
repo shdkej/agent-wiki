@@ -1,5 +1,13 @@
 ## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Human 노드 점진 심화
 
+### Health/Music 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/Health/Routine]] 앞부분을 참고해 이 노드가 음악 취향이 아니라 베이스 입문을 몸에 붙이는 Health 세부 인터페이스임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `타브를 연습 기록으로 바꾸는 작은 표`를 추가했다. 타브 해독, 지판 위치, 오른손 소리, 기타 경험 전이를 각각 확인 단위로 나누어 후속 연습 메모가 곡 완주 여부보다 어디서 지연이 생겼는지 남기도록 보강했다.
+- 선호 신호: 저자는 Music 노트에서도 음악 이론이나 장비 지식 확장보다, 표기·위치·손 역할·기존 악기 감각을 작게 분해해 다음 연습으로 돌아올 수 있는 몸기술 기록을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Portfolio 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Portfolio.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Infra]], [[mapped/Deep Knowledge/Devops]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 기술 성과 목록이 아니라 협업 상대별 운영 마찰을 줄이는 루트 포트폴리오 노드임을 재확인했다.
