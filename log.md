@@ -7,7 +7,7 @@
 - 선호 신호: 저자는 Tool 노트에서도 새 도구 이름을 많이 모으기보다, 어떤 마찰을 줄이고 어떤 상태를 보존하며 어떤 경계나 책임을 옮기는지 남겨 다음 운영 상황에서 다시 손을 댈 수 있게 만드는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Tool.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 도구형 노트를 입력면 수정·상태 보존·경계 제어·책임 이동으로 먼저 분류하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-08 | Communication·Deep Knowledge·Fundamental·Health·Idea·Integration·Meta 노드 점진 심화
 
