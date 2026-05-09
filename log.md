@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `쉬운 설명이 실패하는 신호`를 추가했다. 쉬운 말이 원래 용어로 돌아갈 길을 끊는 경우, 재미있는 비유가 검증 가능성을 흐리는 경우, 입문 자료가 행동 회피로 바뀌는 경우, 독자 배려가 대상 왜곡이 되는 경우를 분리했다.
 - 선호 신호: 저자는 Readability 노트에서도 더 쉽게 쓰는 것 자체보다, 독자가 덜 튕겨 나가면서도 원전·공식 문서·실제 어려움으로 다시 들어갈 수 있는 설명 사다리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Readability.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Feedback 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
