@@ -1,4 +1,4 @@
-## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Human 노드 점진 심화
+## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human 노드 점진 심화
 
 ### Health/Music 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
