@@ -1,5 +1,13 @@
 ## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human·Integration 노드 점진 심화
 
+### Human/Principle 실행 손잡이 보강
+- 갱신 범위: [[mapped/Human/Principle]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Principle.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Health/Routine]] 앞부분을 참고해 이 노드가 추상 가치어 목록이 아니라 상태 선언을 하루 실행 손잡이로 내리는 Human 원칙 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `효과적인 도구는 성격을 대신하는 장치가 아니라 원칙을 실행시키는 손잡이다`를 추가했다. 맥락·선택과 집중·분할정복·피드백·변증법·질문·워크플로우를 마음가짐을 실제 출력과 피드백 루프로 내리는 도구층으로 보강했다.
+- 선호 신호: 저자는 Principle 노트에서도 좋은 성품을 추상 선언으로만 두기보다, 맥락 확인·범위 조정·작게 쪼개기·상대 있는 출력·피드백 루프처럼 하루 안에서 다시 호출할 수 있는 실행 장치와 붙여 두는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Principle.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Health/Physical 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Physical]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Physical.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Music]], [[mapped/Health/Routine]] 앞부분을 참고해 이 노드가 운동 종목 목록이 아니라 같은 몸을 오래 다시 쓰기 위한 Health 신체 운영 노드임을 재확인했다.
