@@ -1,5 +1,13 @@
 ## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Human 노드 점진 심화
 
+### Portfolio 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Portfolio.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Infra]], [[mapped/Deep Knowledge/Devops]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 기술 성과 목록이 아니라 협업 상대별 운영 마찰을 줄이는 루트 포트폴리오 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `협업 상대별로 다시 말할 때의 압축`을 추가했다. 개발자·운영자·의사결정자에게 각각 어떤 마찰을 줄였는지 보이게 하여, 프로젝트 나열을 대상별 가치 설명으로 재사용할 수 있게 했다.
+- 선호 신호: 저자는 Portfolio 노트에서도 기술 스택 자체보다 누가 덜 기다리고, 덜 흔들리고, 더 쉽게 판단하게 되었는지를 드러내는 설명 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Deep Knowledge/Infra 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Deep Knowledge/Infra]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Cloud]], [[mapped/Deep Knowledge/Devops]] 앞부분을 참고해 이 노드가 AWS 서비스 목록이 아니라 상태 소유권과 변경 복구 절차를 다루는 Deep Knowledge 인프라 운영 노드임을 재확인했다.
