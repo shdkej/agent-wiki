@@ -1,5 +1,13 @@
 ## 2026-05-09 | Communication·Fundamental·Human 노드 점진 심화
 
+### Integration/Creator 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Creator.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Business]], [[mapped/Integration/Marketing]] 앞부분을 참고해 이 노드가 창작자 직업 목록이 아니라 감각·전문성·역할 구조를 작품으로 변환하는 Integration 창작 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `전문성은 순수함을 지우는 것이 아니라 보존 가능한 형태로 바꾸는 힘이다`를 추가했다. 장범준 앨범 제작 메모를 바탕으로, 전문가 개입을 원래 감정을 덮는 세련화가 아니라 편곡·녹음·믹싱·디자인을 통해 감각이 다른 사람에게 도착하게 만드는 보존 장치로 보강했다.
+- 선호 신호: 저자는 Creator 노트에서도 순수한 감각과 전문 기술을 대립시키기보다, 처음 붙잡은 감정이 협업 가능한 매체 구조 안에서 더 오래 살아남도록 만드는 성장·피드백 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Creator.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Human/Readability 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Fundamental/Coding]], [[mapped/Communication/Document]] 앞부분을 참고해 이 노드가 문장 기술이 아니라 독자 배려와 원문 충실성 사이를 조정하는 Human 전달 윤리 노드임을 재확인했다.
