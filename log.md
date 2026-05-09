@@ -1,4 +1,12 @@
-## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human 노드 점진 심화
+## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human·Integration 노드 점진 심화
+
+### Integration/Marketing 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 광고 채널 운영론이 아니라 유입·활성화·전환·유지·이탈 방지를 한 장의 사용자 질문 지도로 묶는 Integration 접점 설계 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `퍼널 질문을 채널 문장으로 옮기는 작은 지도`를 추가했다. SNS·작업물 공유, 무료 활성화, 무료/유료 전환, CRM, 제품 이탈 방지 메모를 단계별 사용자 질문과 필요한 표면으로 나누어 채널별 글쓰기가 단순 포맷 차이가 아니라 같은 제안의 질문 단계별 번역임을 보강했다.
+- 선호 신호: 저자는 Marketing 노트에서도 마케팅을 노출 기법이나 프레임워크 암기가 아니라, 사용자가 각 단계에서 묻는 질문을 읽고 말투·채널·제품 마찰·후속 CRM을 함께 조정하는 운영형 접점 설계로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Music 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
