@@ -1,4 +1,12 @@
-## 2026-05-09 | Communication·Fundamental·Human 노드 점진 심화
+## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Human 노드 점진 심화
+
+### Deep Knowledge/Infra 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Deep Knowledge/Infra]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Cloud]], [[mapped/Deep Knowledge/Devops]] 앞부분을 참고해 이 노드가 AWS 서비스 목록이 아니라 상태 소유권과 변경 복구 절차를 다루는 Deep Knowledge 인프라 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `운영 변경을 안전하게 다루는 순서`를 추가했다. EC2 OS 패치, Terraform import, RDS/EKS/CNI, DNS·인증서·캐시 메모를 변경 전 기준점 확보, 영향면 축소, 적용, 재검증, 다음 기준 갱신의 루프로 묶어 실무 메모의 재진입성을 높였다.
+- 선호 신호: 저자는 Infra 노트에서도 인프라 팁을 서비스별 백과로 늘리기보다, 어떤 상태가 누구에게 소유되고 변경 전후에 무엇을 확인해야 되돌릴 수 있는지 남기는 운영 복원력 중심 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ### Idea/Information 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
