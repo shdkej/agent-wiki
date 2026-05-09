@@ -1,5 +1,13 @@
 ## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human·Integration 노드 점진 심화
 
+### Idea/Travel 도시 프로덕트 관점 보강
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 여행지 추천표가 아니라 감각 회수·최소 준비·도시 해석·미래 후보 아카이브가 왕복하는 Idea 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `도시를 프로덕트로 읽을 때의 최소 순서`를 추가했다. USP, 타깃, 제약·비용·의도 추론, PM식 개선 질문을 한 루프로 묶어, 여행 중 불편을 단순 불만이 아니라 도시 설계와 사용자 접점을 읽는 재료로 남기게 했다.
+- 선호 신호: 저자는 Travel 노트에서도 여행지를 평가하거나 추천 목록으로 소비하기보다, 도시가 누구에게 어떤 표면을 제공하고 어떤 제약 때문에 그렇게 작동하는지 관찰한 뒤 자기 삶과 제품 감각으로 번역하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Human/Principle 실행 손잡이 보강
 - 갱신 범위: [[mapped/Human/Principle]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Principle.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Health/Routine]] 앞부분을 참고해 이 노드가 추상 가치어 목록이 아니라 상태 선언을 하루 실행 손잡이로 내리는 Human 원칙 노드임을 재확인했다.
