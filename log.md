@@ -6,7 +6,8 @@
 - 정리: 기존 baseline은 유지한 채 `운영 변경을 안전하게 다루는 순서`를 추가했다. EC2 OS 패치, Terraform import, RDS/EKS/CNI, DNS·인증서·캐시 메모를 변경 전 기준점 확보, 영향면 축소, 적용, 재검증, 다음 기준 갱신의 루프로 묶어 실무 메모의 재진입성을 높였다.
 - 선호 신호: 저자는 Infra 노트에서도 인프라 팁을 서비스별 백과로 늘리기보다, 어떤 상태가 누구에게 소유되고 변경 전후에 무엇을 확인해야 되돌릴 수 있는지 남기는 운영 복원력 중심 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+- 운영 학습: 인프라 변경형 노트를 기준점·영향면·재검증·되돌릴 손잡이의 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
 ### Idea/Information 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
