@@ -7,6 +7,14 @@ title: "지식 랩 로그"
 
 ## 2026-05-09 | Fundamental 노드 점진 심화
 
+### Fundamental/Coding 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Coding]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Coding.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락은 기존 연결된 [[mapped/Fundamental/Architecture]]·[[mapped/Fundamental/Software]]·[[mapped/Deep Knowledge/Monitoring]] 축 안에서만 유지해 이 노드가 여전히 언어별 문법 목록이 아니라 변경 가능성과 복구 가능성을 다루는 Fundamental 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 타입·상태·성능 메모를 `실수를 언제 발견할 것인가`, `상태 변경을 어디까지 열어 둘 것인가`, `추상화 비용이 실제 병목인지 어떻게 확인할 것인가`의 축으로 보강했다. 제네릭, Typescript, delegate/LINQ, Kotlin `final`, 포인터·함수 호출 속도 메모를 언어 우열 비교가 아니라 책임 배분과 관측 가능한 병목 확인의 문제로 다시 묶었다.
+- 선호 신호: 저자는 Coding 노트에서도 특정 언어의 정답 문법보다, 타입·상태·에러·성능 비용을 어디서 드러내고 언제 확인할지 결정하는 재진입 가능한 코딩 판단을 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Coding.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Fundamental/Network 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Fundamental/Network]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Network.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Infra]]·[[mapped/Deep Knowledge/Monitoring]]을 참고해 이 노드가 여전히 프로토콜 사전이 아니라 요청 경로의 책임 경계와 병목을 좁히는 Fundamental 카테고리임을 재확인했다.
