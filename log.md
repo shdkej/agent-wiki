@@ -1,5 +1,14 @@
 ## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human·Integration 노드 점진 심화
 
+### blog/My_space 비용 상한선 보강
+- 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/My_space]], [[mapped/Deep Knowledge/Container]], [[mapped/Deep Knowledge/Infra]] 앞부분을 참고해 이 노드가 완성형 홈랩 튜토리얼이 아니라 개인 플랫폼의 비용·리소스·실패 조건을 공개적으로 검증하는 blog 실험기임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `실패한 비용 계산도 설계 산출물이다`를 추가했다. 관리형 Kubernetes 비용, k3s 메모리, Terraform 상태 오염, DNS·ingress 확인을 각각 개인이 감당 가능한 플랫폼 상한선을 재는 검증 기록으로 묶었다.
+- 선호 신호: 저자는 개인 인프라 실험에서도 성공한 최종 아키텍처만 남기기보다, 어떤 비용·리소스·상태 전제가 실험을 중단시키는지 보존해 다음 설계의 착각을 줄이는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/My_space.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+- 운영 학습: 개인 인프라·홈랩형 blog 노트에서는 실패한 비용·리소스 계산을 삭제하지 말고 다음 설계의 상한선 근거로 보존하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Integration/Marketing 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 광고 채널 운영론이 아니라 유입·활성화·전환·유지·이탈 방지를 한 장의 사용자 질문 지도로 묶는 Integration 접점 설계 노드임을 재확인했다.
