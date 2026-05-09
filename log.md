@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `전문성은 순수함을 지우는 것이 아니라 보존 가능한 형태로 바꾸는 힘이다`를 추가했다. 장범준 앨범 제작 메모를 바탕으로, 전문가 개입을 원래 감정을 덮는 세련화가 아니라 편곡·녹음·믹싱·디자인을 통해 감각이 다른 사람에게 도착하게 만드는 보존 장치로 보강했다.
 - 선호 신호: 저자는 Creator 노트에서도 순수한 감각과 전문 기술을 대립시키기보다, 처음 붙잡은 감정이 협업 가능한 매체 구조 안에서 더 오래 살아남도록 만드는 성장·피드백 구조를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Creator.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Human/Readability 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
