@@ -68,6 +68,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+### Fundamental/Math 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Network]], [[mapped/Fundamental/Computer_Architecture]] 앞부분을 참고해 이 노드가 수학 공식집이 아니라 관계식이 신호·장치·검증 단위로 내려가는 Fundamental 학습 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `기초 원리를 다시 잡는 네 가지 질문`을 추가했다. 변수 분리, 체감 품질을 바꾸는 관계, 그 관계를 붙잡는 장치, 다시 검증하는 절차를 세워 무선통신·반도체·블록체인·드론 사례가 흩어진 잡학이 아니라 같은 기초 공학 학습법으로 읽히게 보강했다.
+- 선호 신호: 저자는 Math 노트에서도 공식을 많이 모으기보다, 보이지 않는 현상을 어떤 변수로 나누고 어떤 장치·측정 절차로 다시 확인할 수 있는지 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-08 | Communication·Deep Knowledge·Fundamental·Health·Idea·Integration·Meta 노드 점진 심화
 
 ### Meta/Collection 수집 상태 축 점진 심화
