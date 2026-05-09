@@ -1,5 +1,13 @@
 ## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human·Integration 노드 점진 심화
 
+### Health/Physical 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Physical]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Physical.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Music]], [[mapped/Health/Routine]] 앞부분을 참고해 이 노드가 운동 종목 목록이 아니라 같은 몸을 오래 다시 쓰기 위한 Health 신체 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `회복 가능한 강도를 고르는 기준`을 추가했다. 3대·체중·심박수·10km 목표 같은 성과 수치를 다음날 통증, 피로, 손목·목·고관절 사용 가능 상태와 함께 읽도록 보강했다.
+- 선호 신호: 저자는 Physical 노트에서도 더 센 운동법을 많이 모으기보다, 운동·스포츠·발성·작업 입력 뒤 몸이 다시 쓸 수 있는 상태로 돌아오는지 확인하는 운영형 기록을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Physical.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### blog/My_space 비용 상한선 보강
 - 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/My_space]], [[mapped/Deep Knowledge/Container]], [[mapped/Deep Knowledge/Infra]] 앞부분을 참고해 이 노드가 완성형 홈랩 튜토리얼이 아니라 개인 플랫폼의 비용·리소스·실패 조건을 공개적으로 검증하는 blog 실험기임을 재확인했다.
