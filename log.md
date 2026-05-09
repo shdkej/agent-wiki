@@ -60,6 +60,14 @@
 - 운영 학습: 도구형 노트를 입력면 수정·상태 보존·경계 제어·책임 이동으로 먼저 분류하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+### Communication/Open_Source 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Open_Source.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Communication/Document]] 앞부분을 참고해 이 노드가 코드 공개 철학보다 공개 협업 진입면을 설계하는 Communication 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `발표 시간은 초 단위 통제가 아니라 공감 리듬의 배치다`를 추가했다. 40분 발표, 10분 단위 흥미 포인트, 계몽주의식 일방 강의 회피, conference에서는 초보다 분 단위가 중요하다는 메모를 README·릴리즈 노트와 같은 공개 재진입 표면으로 보강했다.
+- 선호 신호: 저자는 Open_Source 노트에서도 발표를 완벽한 대본 통제가 아니라, 낯선 사람이 프로젝트의 목적·위험·사용 장면을 자기 언어로 다시 잡게 해 주는 공감 구조로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-08 | Communication·Deep Knowledge·Fundamental·Health·Idea·Integration·Meta 노드 점진 심화
 
 ### Meta/Collection 수집 상태 축 점진 심화
