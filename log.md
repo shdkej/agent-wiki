@@ -1,5 +1,13 @@
 ## 2026-05-09 | Communication·Fundamental·Human 노드 점진 심화
 
+### Human/Readability 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Fundamental/Coding]], [[mapped/Communication/Document]] 앞부분을 참고해 이 노드가 문장 기술이 아니라 독자 배려와 원문 충실성 사이를 조정하는 Human 전달 윤리 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `쉬운 설명이 실패하는 신호`를 추가했다. 쉬운 말이 원래 용어로 돌아갈 길을 끊는 경우, 재미있는 비유가 검증 가능성을 흐리는 경우, 입문 자료가 행동 회피로 바뀌는 경우, 독자 배려가 대상 왜곡이 되는 경우를 분리했다.
+- 선호 신호: 저자는 Readability 노트에서도 더 쉽게 쓰는 것 자체보다, 독자가 덜 튕겨 나가면서도 원전·공식 문서·실제 어려움으로 다시 들어갈 수 있는 설명 사다리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Readability.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Communication/Feedback 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 리뷰 기술이 아니라 사람·시스템·탐구·생활의 신호 주기를 조정하는 Communication 회로 노드임을 재확인했다.
