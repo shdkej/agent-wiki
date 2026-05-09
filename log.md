@@ -1,5 +1,13 @@
 ## 2026-05-09 | Communication·Fundamental·Human 노드 점진 심화
 
+### Idea/Information 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Information.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Article]], [[mapped/Integration/Exploration]] 앞부분을 참고해 이 노드가 잡학 저장소가 아니라 정보의 입력·필터·전달·제도 통과면을 다루는 Idea 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `법·플랫폼·데이터를 한 축으로 다시 읽기`를 추가했다. 저작권, 개인정보보호법, 데이터 3법, 앱스토어, SEO, 공정시장 메모를 `정보가 흘러도 되는 조건을 누가 정하는가`라는 질문으로 묶어 정보 자유와 허가/책임면의 긴장을 보강했다.
+- 선호 신호: 저자는 Information 노트에서도 정보 접근성만 높이는 것보다, 권리·동의·출처·심사 기준·재검증 표면이 함께 남아야 정보가 장기적으로 신뢰 가능한 판단 재료가 된다고 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Information.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Deep Knowledge/Monitoring 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Deep Knowledge/Monitoring]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Monitoring.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Devops]], [[mapped/Deep Knowledge/Infra]] 앞부분을 참고해 이 노드가 단순 모니터링 도구 목록이 아니라 정상 상태를 실측 가능한 대표 신호로 만드는 Deep Knowledge 관측 피드백 노드임을 재확인했다.
