@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `첫날의 뼈대와 이후의 겹칠은 서로 다른 실행 단위다`를 추가했다. `finish at once is impossible` 계열 메모를 완성 강박이 아니라 첫날 최소 뼈대와 재방문 손잡이를 빠르게 만들고, 이후 여러 겹으로 품질을 올리는 미래 계획 문법으로 보강했다.
 - 선호 신호: 저자는 Future 노트에서도 큰 비전만 세우거나 완성품을 하루에 만들려 하기보다, 첫날에 다시 잡을 수 있는 구조를 만들고 이후 포스트모템·보강·정리로 미래 대응력을 높이는 실행 방식을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Future.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Fundamental/Tool 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Fundamental/Tool]] 1개 페이지만 점진 심화했다.
