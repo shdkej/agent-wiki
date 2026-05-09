@@ -1,4 +1,13 @@
-## 2026-05-09 | Fundamental·Human 노드 점진 심화
+## 2026-05-09 | Communication·Fundamental·Human 노드 점진 심화
+
+### Communication/Feedback 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 리뷰 기술이 아니라 사람·시스템·탐구·생활의 신호 주기를 조정하는 Communication 회로 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `검토 빈도 vs 불확실성의 크기`를 추가했다. 빠른 피드백을 고정 원칙으로 밀어붙이지 않고, 문제 모호성·복구 비용·갈등 가능성에 따라 리뷰 주기와 개입 강도를 바꾸는 판단 축으로 보강했다.
+- 선호 신호: 저자는 Feedback 노트에서도 알림과 리뷰를 많이 붙이는 것보다, 지금은 즉시 끼어들어야 하는지·모아서 확인해도 되는지·나중에 다시 행동을 부르는 장치로 남겨야 하는지를 구분하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Feedback형 노트에서 빠른 피드백을 불확실성·복구 비용·인터럽트 비용에 맞춰 조절하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Human/Standard 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Standard]] 1개 페이지만 점진 심화했다.
