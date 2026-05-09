@@ -1,4 +1,4 @@
-## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human·Integration 노드 점진 심화
+## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human·Idea·Integration 노드 점진 심화
 
 ### Idea/Travel 도시 프로덕트 관점 보강
 - 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
