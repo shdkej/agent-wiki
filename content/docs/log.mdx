@@ -5,6 +5,16 @@ title: "지식 랩 로그"
 # 지식 랩 로그
 
 
+## 2026-05-09 | Fundamental 노드 점진 심화
+
+### Fundamental/Network 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Network]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Network.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Infra]]·[[mapped/Deep Knowledge/Monitoring]]을 참고해 이 노드가 여전히 프로토콜 사전이 아니라 요청 경로의 책임 경계와 병목을 좁히는 Fundamental 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `요청 경로를 따라 디버깅하는 최소 지도`를 추가했다. DNS·TCP·TLS·HTTP·프록시·로드밸런서·CDN 메모를 `이름 해석 문제 → 연결 흐름 문제 → 의미/멱등성 문제 → 앞단 정책 문제`의 순서로 접어, 네트워크 지식이 장애 분석 재진입 표면으로 쓰이도록 보강했다.
+- 선호 신호: 저자는 Network 노트에서도 프로토콜 이름 암기보다, 요청이 통과하는 각 경계에서 무엇이 멈췄고 어느 계층이 책임지는지를 좁혀 가는 운영형 이해를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Network.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ## 2026-05-08 | Idea · Meta · blog · Communication · Integration 노드 점진 심화
 
 ### Integration/Marketing 단일 노드 점진 심화
