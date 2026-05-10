@@ -1,4 +1,12 @@
-## 2026-05-10 | blog·Meta·Fundamental 노드 점진 심화
+## 2026-05-10 | blog·Meta·Fundamental·Integration 노드 점진 심화
+
+### Integration/Work 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Integration/Work]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Work.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Human/Principle]] 앞부분을 참고해 이 노드가 생산성 팁이 아니라 목표 해석·실행·검토·기록·신뢰 회수가 이어지는 Integration 업무 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `검토는 마지막 확인이 아니라 상태 전환 게이트다`를 추가했다. 요구사항→계획→구현→검토→반영→회고 전환마다 확인할 질문과 남길 흔적을 나눠, 느리면서도 놓치는 상태를 줄이고 다음 사람이 이어 받을 수 있는 상태 표시로 검토를 재구성했다.
+- 선호 신호: 저자는 Work 노트에서도 더 열심히 한다는 다짐보다, 애매한 요구를 풀고 작은 실행 단위로 나누며 각 전환마다 검증 흔적을 남겨 신뢰 가능한 업무 상태를 만드는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Work.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ### Fundamental/Software 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Fundamental/Software]] 1개 페이지만 점진 심화했다.
