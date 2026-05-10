@@ -1,4 +1,12 @@
-## 2026-05-10 | blog·Meta 노드 점진 심화
+## 2026-05-10 | blog·Meta·Fundamental 노드 점진 심화
+
+### Fundamental/Software 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Fundamental/Software]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Software.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Architecture]], [[mapped/Deep Knowledge/Product]], [[mapped/Integration/Business]] 앞부분을 참고해 이 노드가 코딩보다 큰 기술 노트가 아니라 사람 중심 매체·변경 가능성·복구 가능성·운영 확장·가치 교환을 잇는 Fundamental 루트 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `컴퓨터의 제약까지 포함해서 사람 중심성을 본다`를 추가했다. 컴퓨터가 공간·검색·수정 가능성을 열어 주는 동시에 화면, 호환성, 데이터 이전, 종속성 제약을 새로 만들며, 소프트웨어의 역할은 사람의 판단을 대체하기보다 더 잘 보이게 돕는 매체라는 축을 보강했다.
+- 선호 신호: 저자는 Software 노트에서도 기술 자체의 완결성보다, 도구가 줄이는 제약과 새로 만드는 제약을 함께 보고 사람이 요구사항과 사용 맥락을 더 잘 판단하게 만드는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Software.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### blog/picasso 단일 노드 점진 심화
 - 갱신 범위: [[mapped/blog/picasso]] 1개 페이지만 점진 심화했다.
