@@ -1,3 +1,13 @@
+## 2026-05-10 | blog 노드 점진 심화
+
+### blog/100k_concurrent_server 단일 노드 점진 심화
+- 갱신 범위: [[mapped/blog/100k_concurrent_server]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/100k_concurrent_server.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Network]], [[mapped/Deep Knowledge/Infra]], [[mapped/blog/EKS_with_terraform]] 앞부분을 참고해 이 노드가 최고 동접 숫자 자랑이 아니라 테스트 계약·관측 표면·병목 소유권을 계속 좁히는 blog형 부하테스트 기록임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `실험 계약을 먼저 고정하는 재사용 표면`과 `에러에서 다음 관측으로 넘어가는 최소 루프`를 추가했다. 연결 수명, 성공 판정, 부하 발생 위치, 관측 기준을 먼저 고정해야 같은 10만 동접 실험을 비교할 수 있고, 에러별로 다음 관측과 수정 분기를 붙여야 경험담이 운영 지도처럼 재사용된다는 점을 보강했다.
+- 선호 신호: 저자는 대규모 부하테스트 노트에서도 최대 숫자보다 어떤 실험군에서 어떤 층이 먼저 고갈됐는지, 그리고 다음 실험자가 무엇을 관측해야 같은 혼선을 줄일 수 있는지를 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/100k_concurrent_server.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-09 | Communication·Deep Knowledge·Fundamental·Health·Human·Idea·Integration 노드 점진 심화
 
 ### Idea/Travel 도시 프로덕트 관점 보강
