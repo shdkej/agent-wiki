@@ -1,5 +1,14 @@
 ## 2026-05-10 | blog·Meta 노드 점진 심화
 
+### blog/picasso 단일 노드 점진 심화
+- 갱신 범위: [[mapped/blog/picasso]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/picasso.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/History]], [[mapped/Deep Knowledge/AI]] 앞부분을 참고해 이 노드가 예술사 정리가 아니라 전시 경험을 AI 시대 직업 감각으로 번역하는 blog형 사고 실험임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `비유를 실천으로 번역하는 세 단계`를 추가했다. 피카소 비유를 과장된 창의성 선언으로 가져오지 않고, 대체된 기준 확인, 판단 책임 정의, 실제 사례 속 새 형식 형성의 순서로 개발 실천에 연결했다.
+- 선호 신호: 저자는 AI 시대 인간 역할을 `AI가 못 하는 신비한 영역`으로 선언하기보다, AI가 평범하게 만든 기준을 알아차리고 요구사항·검토·운영·설명 장면에서 새 책임 기준을 세우는 쪽으로 해석하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/picasso.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+
 ### Meta/AGENTS 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/AGENTS.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Deep Knowledge/Product]] 앞부분을 참고해 이 노드가 도구 설정 목록이 아니라 역할별 에이전트와 문서 계약을 함께 설계하는 Meta 운영 노드임을 재확인했다.
