@@ -1,4 +1,12 @@
-## 2026-05-10 | blog·Meta·Fundamental·Integration 노드 점진 심화
+## 2026-05-10 | blog·Meta·Fundamental·Integration·Health 노드 점진 심화
+
+### Health/Decision 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Investment]] 앞부분을 참고해 이 노드가 구매 목록이 아니라 선택 비용·관리 표면·미래 선택권을 다루는 Health 판단 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `보상 구매와 효율 투자는 같은 지갑에서 다른 질문을 한다`를 추가했다. 목표 달성 후 보상 구매, 다음 혁신을 위한 자금 보존, 실제 작업 효율을 높이는 투자를 구분해 소비 판단을 절약/지출 이분법이 아니라 현재 마찰 감소와 미래 선택권 보존의 배분 문제로 보강했다.
+- 선호 신호: 저자는 Decision 노트에서도 갖고 싶은 마음을 완전히 부정하기보다, 반복 불편을 실제로 줄이는지·몸과 작업 흐름을 덜 망가뜨리는지·교체 시 연쇄 비용을 만들지 않는지를 확인한 뒤 돈을 쓰려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Fundamental/Math 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
