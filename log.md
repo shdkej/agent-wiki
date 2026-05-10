@@ -1,4 +1,12 @@
-## 2026-05-10 | blog 노드 점진 심화
+## 2026-05-10 | blog·Meta 노드 점진 심화
+
+### Meta/AGENTS 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/AGENTS.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Deep Knowledge/Product]] 앞부분을 참고해 이 노드가 도구 설정 목록이 아니라 역할별 에이전트와 문서 계약을 함께 설계하는 Meta 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `역할 에이전트 파일 vs 문서 계약` 축을 추가했다. 에이전트 파일의 핵심이 구루 페르소나보다 공통 참조 문서, 주 갱신 산출물, handoff 책임, 고객 반응 기록 위치, 복원 경로를 명시하는 데 있음을 보강했다.
+- 선호 신호: 저자는 AGENTS 노트에서도 에이전트를 말투 좋은 봇으로 늘리기보다, 각 역할이 어떤 기준을 읽고 무엇을 남기며 다음 역할에게 어떤 판단 배경을 넘기는지 고정하는 문서 중심 협업 운영을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/AGENTS.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### blog/100k_concurrent_server 단일 노드 점진 심화
 - 갱신 범위: [[mapped/blog/100k_concurrent_server]] 1개 페이지만 점진 심화했다.
