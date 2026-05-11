@@ -1,4 +1,12 @@
-## 2026-05-11 | Communication 노드 점진 심화
+## 2026-05-11 | Communication·Meta 노드 점진 심화
+
+### Meta/Developer 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Meta/Developer]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Developer.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/About_Development]], [[mapped/Portfolio]], [[mapped/Deep Knowledge/Devops]] 앞부분을 참고해 이 노드가 개발자 일반론이 아니라 자기 증명 문법과 DevOps 정체성을 조정하는 Meta 커리어 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `실제 면접 회고는 말하기 인터페이스의 테스트 로그다`를 추가했다. 회사별 질문과 면접 회고를 암기장으로 평탄화하지 않고, 말문이 막힌 질문·기술 비교 질문·대화 태도 회고가 다음 자기소개·이력서·포트폴리오 문장의 검증 표면으로 작동한다는 점을 보강했다.
+- 선호 신호: 저자는 Developer 노트에서도 경험을 많이 나열하기보다, 반복해서 흔들린 질문을 핵심 경험 5개와 연결해 언제든 다시 꺼낼 수 있는 설명 경로로 바꾸는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Developer.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ### Communication/Open_Source 공개 큐 관점 보강
 - 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
