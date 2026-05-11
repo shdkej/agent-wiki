@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `자기 기준과 타자 기준을 동시에 수집한다`를 추가했다. `자기중심적과 중심이 없는 것` 구간을 성격 조언으로 평탄화하지 않고, 어떤 장면에서는 내가 기준이어야 하고 어떤 장면에서는 상대·맥락이 기준이어야 하는지 가르는 기준 위치 조정 메모로 보강했다.
 - 선호 신호: 저자는 Collection 노트에서도 자료를 많이 모으는 것보다, 수집한 항목이 나중에 자기 기준·상대 기준·판단 유예 중 어디에 놓일지 다시 꺼내 쓸 수 있게 보존하는 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Collection.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Meta/Developer 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Meta/Developer]] 1개 페이지만 점진 심화했다.
