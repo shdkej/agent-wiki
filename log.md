@@ -1,5 +1,13 @@
 ## 2026-05-11 | Communication·Meta 노드 점진 심화
 
+### Communication/Blogging 템플릿과 나다움 균형 보강
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Readability]], [[mapped/Communication/Document]], [[mapped/blog/Note_Management]]를 참고해 이 노드가 내부 위키를 독자용 발행물로 바꾸는 Communication 출력면임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `템플릿은 글의 뼈대지만, 볼맛을 지우면 실패한다`를 추가했다. 네이버 블로그 템플릿, 사진 10개, 3-4줄 주석, 일관성·가독성·나다움 체크포인트를 반복 가능한 발행 구조와 개인 시선 보존의 균형으로 보강했다.
+- 선호 신호: 저자는 블로그 글에서도 템플릿과 체크리스트를 활용해 시작 마찰을 낮추되, 글쓴 사람의 선택·장면·말맛이 사라지는 과도한 표준화는 피하려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Blogging.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### blog/Digital_Content 합법 경로 마찰 관점 보강
 - 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Digital_Content.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 디지털 보관 팁이 아니라 애착 있는 콘텐츠를 정당하게 오래 갖고 싶다는 욕구와 플랫폼형 접근권의 충돌을 다루는 blog 노드임을 재확인했다.
