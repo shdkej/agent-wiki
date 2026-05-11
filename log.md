@@ -1,5 +1,13 @@
 ## 2026-05-11 | Communication·Meta 노드 점진 심화
 
+### Meta/Troubleshooting 미해결 상태 표식 보강
+- 갱신 범위: [[mapped/Meta/Troubleshooting]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Developer]], [[mapped/Deep Knowledge/Devops]] 앞부분을 참고해 이 노드가 오류 팁 모음이 아니라 복구 가능한 운영 기억이라는 기준선을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `미해결·일시 장애도 버리지 않고 상태로 남긴다`를 추가했다. `fail`, `TODO`, `temporarily down`, `확인 필요` 같은 흔적을 정리 과정에서 제거하지 않고, 재현 대기·외부 의존·관측 부족 상태로 읽어 다음 디버깅의 진입점을 남기는 관점을 보강했다.
+- 선호 신호: 저자는 트러블슈팅 노트에서도 해결 완료만 보존하기보다, 왜 멈췄는지와 무엇을 더 봐야 하는지를 남겨 같은 추측을 반복하지 않게 하는 운영형 기록을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Meta/Collection 기준 위치 조정 관점 보강
 - 갱신 범위: [[mapped/Meta/Collection]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Collection.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/Meta/About_Development]] 앞부분을 참고해 이 노드가 분화 전 메타 수집창이라는 기존 기준선을 재확인했다.
