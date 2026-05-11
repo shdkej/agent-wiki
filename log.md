@@ -1,5 +1,13 @@
 ## 2026-05-11 | Communication·Meta·Fundamental 노드 점진 심화
 
+### Deep Knowledge/Product 출력-입력 폐쇄 루프 보강
+- 갱신 범위: [[mapped/Deep Knowledge/Product]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Marketing]], [[mapped/Integration/Business]], [[mapped/Deep Knowledge/Data]] 앞부분을 참고해 이 노드가 제품 기능 목록이 아니라 제품 표면·반응·측정·자동화가 순환하는 Deep Knowledge 제품 판단 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `출력이 다시 입력이 되는 구조를 먼저 생각한다`를 추가했다. 제목·설명·데모·CTA·A/B 테스트·커뮤니티 반응이 단순 산출물이 아니라 다음 기능, 카피, 가격 저항, 온보딩, 자동화 판단으로 되돌아오는 폐쇄 루프라는 점을 보강했다.
+- 선호 신호: 저자는 Product 노트에서도 많이 출시하는 것 자체보다, 출시 결과가 다음 판단의 입력으로 돌아와 제품 언어와 운영 구조를 계속 조정하게 만드는 실험 가능한 제품 시스템을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Human/Love 관심 확인 신호 관점 보강
 - 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Communication/Talk]] 앞부분을 참고해 이 노드가 감정의 크기보다 관심 지속·정서적 호환성·소중함의 재확인을 다루는 Human 관계 운영 노드임을 재확인했다.
