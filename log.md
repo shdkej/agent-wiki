@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `블록체인과 드론을 같은 피드백 문제로 읽기`를 추가했다. 블록체인은 기록·합의·감시 가능성을 통한 신뢰 안정화로, 드론은 센서·필터·PID·ESC를 통한 자세 안정화로 읽어, 서로 멀어 보이는 응용 메모를 `측정·검증·보정으로 불안정한 상태를 안정화하는 구조`로 묶었다.
 - 선호 신호: 저자는 Math 노트에서도 응용 사례를 최신 기술 설명으로 넓히기보다, 어떤 변수를 믿고 어떤 feedback을 받아야 시스템이 안정되는지를 보존하는 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Blogging 템플릿과 나다움 균형 보강
 - 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 점진 심화했다.
