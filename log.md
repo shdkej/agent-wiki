@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `공개 이슈 큐는 질문을 개인 대화에서 협업 자산으로 바꾼다`를 추가했다. 이슈·PR·릴리즈 노트를 낯선 기여자가 다시 들어오는 공개 큐로 묶어, 반복 질문·변경 근거·검증 경로가 다음 사람의 온보딩 자료로 축적되는 구조를 보강했다.
 - 선호 신호: 저자는 오픈소스 노트에서도 열정적 기여 자체보다, 메인테이너의 반복 설명 비용을 줄이고 질문과 변경 근거가 공개 표면에 남아 다음 기여자의 길잡이가 되는 운영형 협업을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-10 | blog·Meta·Fundamental·Integration·Health·Human 노드 점진 심화
 
