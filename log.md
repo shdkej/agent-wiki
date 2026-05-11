@@ -1,5 +1,13 @@
 ## 2026-05-11 | Communication·Meta·Fundamental 노드 점진 심화
 
+### Human/Love 관심 확인 신호 관점 보강
+- 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Communication/Talk]] 앞부분을 참고해 이 노드가 감정의 크기보다 관심 지속·정서적 호환성·소중함의 재확인을 다루는 Human 관계 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `사랑의 언어는 큰 선언보다 작은 확인 신호에 가깝다`를 추가했다. 질문, 리액션, 작은 배려, 불편을 묻는 말이 마음속 감정을 상대가 감지할 수 있는 관계 표면으로 바꾸며, 과잉 확인이 아니라 익숙함 속 재동기화로 작동한다는 점을 보강했다.
+- 선호 신호: 저자는 Love 노트에서도 낭만적 선언보다, 시간이 지나도 상대를 다시 묻고 반응하고 소중함을 작은 행동으로 드러내는 관계 운영 감각을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Fundamental/Math feedback 구조 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Network]], [[mapped/Fundamental/Computer_Architecture]] 앞부분을 참고해 이 노드가 수학 공식집이 아니라 관계식·신호·장치·검증을 응용 시스템으로 번역하는 Fundamental 노드임을 재확인했다.
