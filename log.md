@@ -1,5 +1,13 @@
 ## 2026-05-11 | Communication·Meta 노드 점진 심화
 
+### blog/Digital_Content 합법 경로 마찰 관점 보강
+- 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Digital_Content.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 디지털 보관 팁이 아니라 애착 있는 콘텐츠를 정당하게 오래 갖고 싶다는 욕구와 플랫폼형 접근권의 충돌을 다루는 blog 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `합법적 경로의 마찰이 만드는 이상한 역전`을 추가했다. 영화 다운로드, 자막, 화질, 국가/플랫폼 차이, DRM 제거 법적 문제, 불법 다운로드 언급을 불법 경로 정당화가 아니라 합법 구매 경로가 소장 욕구를 흡수하지 못하는 구조적 신호로 보강했다.
+- 선호 신호: 저자는 디지털 콘텐츠에서도 편리한 접근만으로 충분하다고 보지 않고, 정당하게 돈을 낸 콘텐츠가 장기 보존·이동·재접속 가능한 상태로 남는지를 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Digital_Content.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Meta/Troubleshooting 미해결 상태 표식 보강
 - 갱신 범위: [[mapped/Meta/Troubleshooting]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Developer]], [[mapped/Deep Knowledge/Devops]] 앞부분을 참고해 이 노드가 오류 팁 모음이 아니라 복구 가능한 운영 기억이라는 기준선을 재확인했다.
