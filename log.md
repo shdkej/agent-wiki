@@ -1,4 +1,12 @@
-## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·blog 노드 점진 심화
+## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·blog 노드 점진 심화
+
+### Meta/Fail_experience 질문 기반 검증 게이트 보강
+- 갱신 범위: [[mapped/Meta/Fail_experience]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 자책 기록이 아니라 확인 생략·복구 부재·막연한 낙관을 줄이는 Meta 실패 예방 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `질문을 받는 순간은 작은 검증 게이트다`를 추가했다. 잘 동작하는지 묻는 질문에 감으로 답했던 원문 회고를, 누군가의 질문·찜찜함·불편한 예감이 확인 표면을 다시 여는 신호라는 관점으로 보강했다.
+- 선호 신호: 저자는 Fail_experience 노트에서도 자기비난보다, 질문받은 순간과 작은 이상 신호를 다음 확인·검토·보고 게이트로 바꿔 같은 실패를 덜 크게 만드는 운영형 회고를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Deep Knowledge/Data 연결 경계와 스키마 변경 관점 보강
 - 갱신 범위: [[mapped/Deep Knowledge/Data]] 1개 페이지만 점진 심화했다.
