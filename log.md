@@ -1,5 +1,13 @@
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·blog 노드 점진 심화
 
+### Deep Knowledge/Data 연결 경계와 스키마 변경 관점 보강
+- 갱신 범위: [[mapped/Deep Knowledge/Data]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/AI]], [[mapped/Deep Knowledge/Product]] 앞부분을 참고해 이 노드가 저장소 선택뿐 아니라 데이터 연결·검색·분석·기억 운영까지 다루는 Deep Knowledge 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 GraphQL, 마이크로서비스 연결, 댓글 필드 확장, 하둡/CQRS 메모를 `데이터 연결 경계와 스키마 변경` 구간으로 묶었다. 데이터가 저장소 안에서만 존재하는 것이 아니라 API 경계, 서비스 소유권, 운영 중 migration, 단일 진실 원천 배치에서 계속 책임을 요구한다는 점을 보강했다.
+- 선호 신호: 저자는 Data 노트에서도 제품별 기능 비교보다, 어떤 층이 진실을 기록하고 어떤 층이 읽기·검색·분석·파생 판단을 맡는지 나눠 운영 중 변경과 복구 가능성을 확보하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Health/Routine 장소 기반 상태 전환 관점 보강
 - 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Routine.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 아침 체크리스트뿐 아니라 출근·퇴근·재택·집 밖 전환까지 다루는 Health 루틴 운영 노드임을 재확인했다.
