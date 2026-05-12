@@ -1,4 +1,12 @@
-## 2026-05-12 | Portfolio·Human·Deep Knowledge 노드 점진 심화
+## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge 노드 점진 심화
+
+### Communication/Open_Source 라이선스 판단 표면 보강
+- 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Open_Source.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Meta/About_Development]] 앞부분을 참고해 이 노드가 여전히 공개 협업 인터페이스를 다루는 Communication 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `라이선스 선택은 자유도보다 전달할 의무의 설계다`를 추가했다. MIT·Apache·GPL·LGPL·AGPL 메모를 이름 암기표가 아니라 확산 마찰과 개선분 환류 의무를 조절하는 공개 협업의 계약 표면으로 보강했다.
+- 선호 신호: 저자는 Open_Source 노트에서도 자유/무료 여부보다, 어떤 공개 범위가 사용자 확산·기업 도입·개선분 환류·설명 책임을 어떻게 바꾸는지 판단할 수 있는 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 ### Human/Standard 기준 강도와 변수 통제 관점 보강
