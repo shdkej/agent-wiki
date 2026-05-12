@@ -1,5 +1,13 @@
-## 2026-05-12 | Portfolio·Human 노드 점진 심화
+## 2026-05-12 | Portfolio·Human·Deep Knowledge 노드 점진 심화
 
+
+### Deep Knowledge/Container 상태 소유권 관점 보강
+- 갱신 범위: [[mapped/Deep Knowledge/Container]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Devops]], [[mapped/Deep Knowledge/Infra]], [[mapped/Deep Knowledge/Monitoring]] 앞부분을 참고해 이 노드가 실행 표준화와 복구 가능한 운영 경계를 다루는 Deep Knowledge 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 GlusterFS·StatefulSet/PV/StorageClass·RBAC·kubeconfig·namespace resource limit 메모를 `상태 소유권과 저장소를 함께 보기`로 보강했다. 이미지, 볼륨, Service/DNS, ServiceAccount/RBAC, kubeconfig가 각각 어떤 상태를 맡는지 분리했다.
+- 선호 신호: 저자는 Container 노트에서도 명령어 암기보다, 컨테이너가 사라져도 데이터·이름·권한·접속 경로가 어디에 남고 어디서 복구되는지 보이는 운영형 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 ### Human/Evolve 기준 수명과 감산 리듬 보강
 - 갱신 범위: [[mapped/Human/Evolve]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Evolve.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]], [[mapped/Communication/Feedback]], [[mapped/Health/Decision]] 앞부분을 참고해 이 노드가 기준·피드백·선택을 계속 다시 묶는 Human 변화 운영 노드임을 재확인했다.
