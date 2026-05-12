@@ -67,6 +67,15 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+
+### Integration/Tool 도구 수명 관리 관점 보강
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Tool]], [[mapped/Meta/My_space]] 앞부분을 참고해 이 노드가 도구 추천 목록이 아니라 도구층을 실제 생활·업무 운영면으로 편입하는 Integration 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `편입된 도구는 계속 수명을 관리해야 한다`를 추가했다. Tailscale 키 만료, OpenClaw 모델·스킬 재설정, 글로벌 설치 목록, GitHub SSH, 회원가입 서비스 목록을 설치 이후의 인증·버전·설정·계정 수명 관리 문제로 보강했다.
+- 선호 신호: 저자는 Tool 노트에서도 새 도구의 기능보다 시간이 지나도 같은 작업면을 복원하고, 권한·키·설정·외부 서비스 의존을 다시 이어 붙일 수 있는지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-11 | Communication·Meta·Fundamental 노드 점진 심화
 
 ### Communication/Foreign_language 정중한 판단 표면 보강
