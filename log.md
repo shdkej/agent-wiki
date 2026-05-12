@@ -1,4 +1,12 @@
-## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·blog 노드 점진 심화
+## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·Idea·blog 노드 점진 심화
+
+### Idea/Travel 안전·체류 복구 손잡이 관점 보강
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 여행지 추천 목록이 아니라 감각 회수·도시 해석·동선 운영·후보 아카이브가 왕복하는 Idea 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 복대·여권 사진·대사관 연락처·비상금 분산 보관 같은 안전 메모를 `여행 중 판단권과 감상 시간을 보존하는 복구 손잡이`로 보강했다.
+- 선호 신호: 저자는 Travel 노트에서도 준비를 통제로 보기보다, 낯선 제도와 위험 속에서도 풍경·음식·사람·도시 구조를 계속 관찰할 수 있게 하는 최소 복구 장치를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### blog/My_space 공개 표면과 내부 표면 분리 관점 보강
 - 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 점진 심화했다.
