@@ -1,4 +1,4 @@
-## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental 노드 점진 심화
+## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·blog 노드 점진 심화
 
 ### Fundamental/Infra 상태 소유권 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 점진 심화했다.
@@ -50,6 +50,14 @@
 - 선호 신호: 저자는 Portfolio 노트에서도 만든 기능 자체보다, 다음 사람이 같은 상태로 다시 들어와 배포·분석·확장·판단을 이어갈 수 있는 표면을 남기는 성과 설명을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+### blog/Life_Tracking 회고 출구와 만다라트 위치 보강
+- 갱신 범위: [[mapped/blog/Life_Tracking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Note_Management]], [[mapped/Idea/Journal]], [[mapped/Communication/Feedback]]의 구조 표제만 참고해 이 노드가 숫자 수집보다 하루 증거를 회고·발행 재료로 바꾸는 blog 계열 입력면임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `blog` 폴더와 `Blogging` parent를 반영한 만다라트 위치 해석을 추가했다. 또 `하루 한줄 요약`, `100 -> 10`, `오늘 배운 것만 내일로`를 `상태 / 맥락 / 내일로 넘길 한 가지`의 회고 출구로 압축했다.
+- 선호 신호: 저자는 Life Tracking 노트에서도 완전한 대시보드나 자기감시보다, 적은 입력점으로 하루의 상태와 맥락을 보존한 뒤 다음날 행동 하나로 넘기는 생활 피드백 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ## 2026-05-11 | Communication·Meta·Fundamental 노드 점진 심화
 
