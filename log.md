@@ -1,4 +1,12 @@
-## 2026-05-12 | Portfolio 노드 점진 심화
+## 2026-05-12 | Portfolio·Human 노드 점진 심화
+
+### Human/Evolve 기준 수명과 감산 리듬 보강
+- 갱신 범위: [[mapped/Human/Evolve]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Evolve.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]], [[mapped/Communication/Feedback]], [[mapped/Health/Decision]] 앞부분을 참고해 이 노드가 기준·피드백·선택을 계속 다시 묶는 Human 변화 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `기준을 세운 뒤 기준의 수명도 같이 측정한다`와 `많이 모은 뒤 덜어내는 시간차를 인정한다`를 추가했다. 점진 개선을 기준 준수나 무한 축적으로 보지 않고, 임시 기준을 세운 뒤 피드백으로 흔들고 필요하면 덜어내는 운영 리듬으로 보강했다.
+- 선호 신호: 저자는 Evolve 노트에서도 성장 낙관론보다, 기준·측정·피드백이 실제 결정 비용을 줄이는지 계속 확인하고 낡은 구조를 다시 빼는 변화 운영 감각을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Evolve.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Portfolio 재진입 표면 관점 보강
 - 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
