@@ -1,4 +1,12 @@
-## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·blog 노드 점진 심화
+## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·blog 노드 점진 심화
+
+### Health/Curiosity 시간 예산과 질문 승격 기준 보강
+- 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Exploration]], [[mapped/Meta/Collection]] 앞부분을 참고해 이 노드가 질문 저장소이면서 생활 리듬 안에서 재진입 단위를 조절하는 Health 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `시간 예산은 호기심을 죽이는 장치가 아니라 승격 장치다`를 추가했다. `시간보다 더 절약해서`라는 원문 메모를 단순 생산성 욕심이 아니라, 질문을 30분 확인·작은 관찰·키워드 수집·실험 후보로 쪼개는 실행 승격 기준으로 보강했다.
+- 선호 신호: 저자는 Curiosity 노트에서도 흥미로운 질문을 무한히 쌓기보다, 오래 보관할 질문과 지금 작은 시간 단위로 검증할 질문을 나눠 생활 리듬을 덜 소진시키는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Physical 생활 접촉면 판단 기준 보강
 - 갱신 범위: [[mapped/Health/Physical]] 1개 페이지만 점진 심화했다.
