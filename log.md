@@ -57,7 +57,7 @@
 - 정리: 기존 baseline은 유지한 채 `blog` 폴더와 `Blogging` parent를 반영한 만다라트 위치 해석을 추가했다. 또 `하루 한줄 요약`, `100 -> 10`, `오늘 배운 것만 내일로`를 `상태 / 맥락 / 내일로 넘길 한 가지`의 회고 출구로 압축했다.
 - 선호 신호: 저자는 Life Tracking 노트에서도 완전한 대시보드나 자기감시보다, 적은 입력점으로 하루의 상태와 맥락을 보존한 뒤 다음날 행동 하나로 넘기는 생활 피드백 구조를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-11 | Communication·Meta·Fundamental 노드 점진 심화
 
