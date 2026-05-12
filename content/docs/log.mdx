@@ -5,7 +5,15 @@ title: "지식 랩 로그"
 # 지식 랩 로그
 
 
-## 2026-05-12 | Idea · Integration · Deep Knowledge · Meta · Health 노드 점진 심화
+## 2026-05-12 | Idea · Integration · Deep Knowledge · Meta · Health · Fundamental 노드 점진 심화
+
+### Fundamental/Computer_Architecture 실행 상태 소유권 관점 보강
+- 갱신 범위: [[mapped/Fundamental/Computer_Architecture]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Software]]를 참고해 이 노드가 부품 사전이 아니라 저장·적재·실행·완충·조정·제어가 이어지는 Fundamental 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 실행 상태의 소유권 표를 추가하고, 캐시·페이징·Redis batch·비동기 I/O를 속도 차이 완충 패턴으로 묶었다. 표준 스트림과 `SIGTERM` 메모도 운영 부록이 아니라 안전한 종료와 복구의 제어면으로 보강했다.
+- 선호 신호: 저자는 Computer_Architecture 노트에서도 CPU·메모리·OS 정의보다, 실행 중 상태가 어디에 있고 운영자가 어떤 표면으로 관측·중단·복구할 수 있는지를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ### Health/Food 제철층 운영 번역 관점 보강
 - 갱신 범위: [[mapped/Health/Food]] 1개 페이지만 점진 심화했다.
