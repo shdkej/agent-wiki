@@ -1,4 +1,13 @@
-## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge 노드 점진 심화
+## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental 노드 점진 심화
+
+### Fundamental/Infra 상태 소유권 관점 보강
+- 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 AWS 제품 지식보다 인프라 선택·경계·복구 가능성을 다루는 Fundamental 판단 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 Terraform import, ArgoCD, LB controller, external-dns, stateful 자원 메모를 `현재 상태의 주인`을 확인하는 변경 안전성 축으로 보강했다.
+- 선호 신호: 저자는 Infra 노트에서도 도구별 설정법보다 실제 상태, 선언된 상태, controller가 되살리는 상태, 수동으로 남은 상태를 구분해 안전하게 변경하려는 운영 감각을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 
 ### Communication/Open_Source 라이선스 판단 표면 보강
 - 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.

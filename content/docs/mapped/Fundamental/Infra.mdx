@@ -5,7 +5,7 @@ tags: [mapped, infra, fundamental, cloud, operations]
 source_file: "[[source/shdkej-content/Fundamental/Infra.md]]"
 source_name: Infra
 created: 2026-04-20
-updated: 2026-05-05
+updated: 2026-05-12
 status: evolving
 language: ko
 ---
@@ -137,6 +137,16 @@ language: ko
 
 즉 이 페이지의 학습층은 실행층을 대체하는 것이 아니라, 나중에 장애를 좁힐 때 사용할 **공통 언어와 경계 지도** 역할을 한다.
 
+### 6. 인프라 변경은 “현재 상태의 주인”을 확인하는 일이다
+원문 후반의 Terraform, EKS, ingress, Route53, ALB/NLB, ArgoCD 메모를 다시 보면 반복되는 질문은 `어떤 도구를 쓸 것인가`보다 **현재 상태를 누가 소유하고 있는가**에 가깝다.
+- AWS 콘솔에 이미 만들어진 subnet·route table을 Terraform으로 import할지, 문자열로 직접 참조할지 고민한다.
+- EKS 업데이트 후 ELB가 다시 인스턴스를 수동으로 잡아야 하는 문제를 적는다.
+- ArgoCD에서 namespace를 바꾸면 ingress, service, deployment가 자동으로 지워지지 않는다는 점을 기록한다.
+- NLB가 ALB의 바뀌는 IP를 바라보지 못해 Lambda로 보정하는 구조를 남긴다.
+- DB나 Redis처럼 stateful한 자원은 Terraform 삭제 동작과 묶이면 치명적일 수 있음을 따로 표시한다.
+
+이 흐름은 인프라를 `설정 파일을 최신으로 맞추는 작업`으로만 보지 않게 한다. 안전한 변경은 먼저 **실제 상태, 선언된 상태, 자동 controller가 다시 만드는 상태, 수동으로 남아 있는 상태**를 분리해서 보는 일이다. 이 기준을 세우면 왜 Terraform import, ArgoCD destination, external-dns annotation, LB controller, lifecycle policy 같은 조각들이 한 노트 안에 함께 있는지 더 잘 보인다. 모두 인프라의 최종 모양보다, 다음 변경 때 무엇이 자동으로 복원되고 무엇이 조용히 남거나 삭제되는지를 확인하는 손잡이다.
+
 ## 세부 영역별 해석
 
 ### 서버리스 판단 메모
@@ -219,9 +229,11 @@ IAM 부분은 짧지 않지만 핵심은 명확하다.
 - 비용 메모를 `표면 가격`과 `경계 비용`으로 나눠 다시 묶으면 재사용성이 더 높아지는가?
 - IAM, 네트워크, 배포, 모니터링을 `통제력 회복 장치`라는 공통 축으로 다시 읽을 수 있는가?
 - 실제 장애 메모 중 반복 빈도가 높은 것만 뽑아 `Infra에서 자주 터지는 경계` 목록으로 얇게 정리할 가치가 있는가?
+- Terraform, ArgoCD, Kubernetes controller, AWS 콘솔처럼 상태를 소유하는 층이 여러 개인 경우 변경 전 체크리스트를 따로 뽑을 수 있는가?
 
 ## 정리 메모
 - 2026-04-20: 얇은 1차 대응 노트를 한국어 기준의 구조화된 인프라 카테고리 노드로 전면 재구성했다.
 - 2026-04-20: 원문 전체를 다시 읽고 `규모 증가`, `클라우드 추상화`, `서버리스 선호와 한계`, `AWS 경계 구성`, `운영 장애와 복구`의 흐름으로 묶었다.
 - 2026-05-05: 기존 baseline은 유지한 채 만다라트 위치 해석을 추가해 `Fundamental/Infra`와 `Deep Knowledge/Infra`의 역할 차이를 분리했다.
 - 2026-05-05: Beanstalk, EKS, Terraform, OS 패치, Kinesis local test 같은 실습 메모를 제품 지식이 아니라 `경계 실험`과 `복구 가능한 운영면`의 증거로 다시 읽는 축을 보강했다.
+- 2026-05-12: Terraform import, ArgoCD, LB controller, external-dns, stateful 자원 메모를 `현재 상태의 주인`을 확인하는 변경 안전성 축으로 보강했다.
