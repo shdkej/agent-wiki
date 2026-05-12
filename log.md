@@ -1,5 +1,14 @@
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·Idea·blog 노드 점진 심화
 
+### Fundamental/Math 비용 이동 지도 관점 보강
+- 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 수학 공식집이 아니라 통신·반도체·블록체인·드론으로 이어지는 기초 관계 해석 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `비용이 이동하는 지점을 먼저 찾기`를 추가했다. 고주파 통신, CPU 미세공정, 블록체인, 드론 제어를 각각 좋아지는 축과 새로 생기는 비용, 확인 표면으로 나눠 원문의 넓은 사례가 장점 목록으로 흩어지지 않게 했다.
+- 선호 신호: 저자는 Math 노트에서도 원리의 장점을 단선적으로 외우기보다, 한 변수를 개선할 때 감쇠·열·거버넌스·전력처럼 다른 비용이 어디로 이동하는지 함께 보는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
+
 
 ### Meta/My_space 개발환경 진입 표면 관점 보강
 - 갱신 범위: [[mapped/Meta/My_space]] 1개 페이지만 점진 심화했다.
