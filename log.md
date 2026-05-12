@@ -1,5 +1,14 @@
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·blog 노드 점진 심화
 
+### Idea/Article 보관 두께 판단 관점 보강
+- 갱신 범위: [[mapped/Idea/Article]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Article.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 기사 요약장이 아니라 웹 입력을 포착·후처리·재호출·확장하는 Idea 입력 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `보관 두께를 결정하는 감각`을 추가했다. 북마크, 노트 정리, 원문 저장, 아카이브, 비공개 경계를 자료 성격에 따라 다르게 두는 얇은 편집 데스크 구조로 보강했다.
+- 선호 신호: 저자는 Article 노트에서도 자료를 많이 모으는 것 자체보다, 링크마다 다시 찾을 정도·문서화할 정도·공개할 수 있는 정도를 나눠 장기 재사용 가능성을 확보하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Article.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+
 ### Meta/Fail_experience 질문 기반 검증 게이트 보강
 - 갱신 범위: [[mapped/Meta/Fail_experience]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 자책 기록이 아니라 확인 생략·복구 부재·막연한 낙관을 줄이는 Meta 실패 예방 노드임을 재확인했다.
