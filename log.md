@@ -1,5 +1,13 @@
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·blog 노드 점진 심화
 
+### Health/Routine 장소 기반 상태 전환 관점 보강
+- 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Routine.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 아침 체크리스트뿐 아니라 출근·퇴근·재택·집 밖 전환까지 다루는 Health 루틴 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `루틴은 장소를 바꿔 상태를 빌리는 방식으로도 작동한다`를 추가했다. 회사·카페·도서관·밖에서의 식사·집 메모를 각각 시작, 전환, 마감 상태를 호출하는 장소 인터페이스로 보강했다.
+- 선호 신호: 저자는 Routine 노트에서도 어디서든 의지로 잘하는 사람을 목표로 하기보다, 각 장소가 가진 분위기와 제약을 빌려 시작 비용과 전환 비용을 낮추는 생활 설계를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Routine.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Communication/Teamwork 진행상황 공유 인터페이스 보강
 - 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 친화력보다 맥락 전달·handoff·문서화·비동기 소통을 다루는 Communication 협업 운영 노드임을 재확인했다.
