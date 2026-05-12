@@ -7,7 +7,8 @@
 - 정리: 기존 baseline은 유지한 채 GlusterFS·StatefulSet/PV/StorageClass·RBAC·kubeconfig·namespace resource limit 메모를 `상태 소유권과 저장소를 함께 보기`로 보강했다. 이미지, 볼륨, Service/DNS, ServiceAccount/RBAC, kubeconfig가 각각 어떤 상태를 맡는지 분리했다.
 - 선호 신호: 저자는 Container 노트에서도 명령어 암기보다, 컨테이너가 사라져도 데이터·이름·권한·접속 경로가 어디에 남고 어디서 복구되는지 보이는 운영형 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Human/Evolve 기준 수명과 감산 리듬 보강
 - 갱신 범위: [[mapped/Human/Evolve]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Evolve.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]], [[mapped/Communication/Feedback]], [[mapped/Health/Decision]] 앞부분을 참고해 이 노드가 기준·피드백·선택을 계속 다시 묶는 Human 변화 운영 노드임을 재확인했다.
@@ -115,7 +116,7 @@
 - 정리: 기존 baseline은 유지한 채 `좋은 추상은 아래층으로 내려갈 통로를 남긴다`를 추가했다. 문자열 라이브러리, workflow, 메뉴얼 메모를 묶어 평상시에는 쉽게 쓰게 하되 예외 상황에서는 실제 명령·옵션·실패 조건·복구 경로로 내려갈 수 있어야 한다는 축을 보강했다.
 - 선호 신호: 저자는 Reality 노트에서도 이상을 버리는 현실주의보다, 이상과 추상이 생활·사용자 행동·운영 예외를 만났을 때 어떤 접근 경로를 남겨야 하는지 확인하는 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Reality.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Decision 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 점진 심화했다.
