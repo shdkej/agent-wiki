@@ -1,5 +1,13 @@
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·blog 노드 점진 심화
 
+### blog/My_space 공개 표면과 내부 표면 분리 관점 보강
+- 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/My_space]]를 참고해 이 blog 노드가 개인 인프라 성공담보다 비용·리소스·노출 경계를 맞아 보는 실험기임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `공개 표면과 내부 표면을 나누는 감각`을 추가했다. Grafana·Traefik·hosts·DNS·Telegram API 메모를 모두 공개할 서비스 목록이 아니라, 내부 제어판과 외부 이벤트 접점을 분리하는 작은 플랫폼 경계 설계로 보강했다.
+- 선호 신호: 저자는 My_space 노트에서도 홈랩을 전부 공개된 장난감 서버로 만들기보다, 나만 봐야 하는 관측면과 외부 신호를 받아야 하는 접점을 나눠 오래 운영 가능한 상태로 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/My_space.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Fundamental/Data_Structure 저장 시점 비용 배치 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Data_Structure]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Data_Structure.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Coding]], [[mapped/Deep Knowledge/Data]] 앞부분을 참고해 이 노드가 자료구조 이름 암기가 아니라 문제를 상태와 반복 연산으로 번역하는 Fundamental 카테고리임을 재확인했다.
