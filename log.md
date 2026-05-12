@@ -1,5 +1,13 @@
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·Idea·blog 노드 점진 심화
 
+### Meta/일 문제 공개와 해결자 매칭 관점 보강
+- 갱신 범위: [[mapped/Meta/일]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/일.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 업무 태도 모음이 아니라 사람 판단·문제 공개·검증 가능한 실행을 연결하는 Meta 업무 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 KPI 메모와 GS그룹 문제은행 사례를 `문제를 발견 가능하게 만들고 해결자를 연결하는 구조`로 보강했다. 결과 지표, 문제 후보 수집, 해결자 매칭, 실험/검증, 원래 팀으로의 환류가 사람 판단과 업무일지 구상을 잇는 흐름임을 추가했다.
+- 선호 신호: 저자는 일 노트에서도 사람을 바쁘게 배치하는 조직보다, 좋은 문제가 보이고 적합한 사람이 붙고 지표와 검증으로 닫히는 운영 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/일.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Fundamental/Math 비용 이동 지도 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 수학 공식집이 아니라 통신·반도체·블록체인·드론으로 이어지는 기초 관계 해석 노드임을 재확인했다.
