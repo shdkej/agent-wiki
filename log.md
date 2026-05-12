@@ -1,5 +1,13 @@
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·blog 노드 점진 심화
 
+### Health/Physical 생활 접촉면 판단 기준 보강
+- 갱신 범위: [[mapped/Health/Physical]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Physical.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Music]] 앞부분을 참고해 이 노드가 운동 루틴보다 넓은 신체 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `몸에 닿는 접촉면을 고르는 기준`을 추가했다. 손 소독제·스크린·폴리에스터·바세린·내시경 메모를 잡항목이 아니라 손, 피부, 목, 화면, 옷감처럼 반복해서 몸에 닿는 표면의 효과와 마찰을 같이 고르는 기준으로 보강했다.
+- 선호 신호: 저자는 Physical 노트에서도 운동 성과만이 아니라 몸에 닿는 생활 표면이 실제 사용 가능성과 회복 가능성을 어떻게 바꾸는지 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Physical.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 ### Fundamental/Infra 상태 소유권 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 AWS 제품 지식보다 인프라 선택·경계·복구 가능성을 다루는 Fundamental 판단 노드임을 재확인했다.
