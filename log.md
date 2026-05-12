@@ -1,5 +1,13 @@
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·blog 노드 점진 심화
 
+### Fundamental/Data_Structure 저장 시점 비용 배치 관점 보강
+- 갱신 범위: [[mapped/Fundamental/Data_Structure]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Data_Structure.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Coding]], [[mapped/Deep Knowledge/Data]] 앞부분을 참고해 이 노드가 자료구조 이름 암기가 아니라 문제를 상태와 반복 연산으로 번역하는 Fundamental 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `저장 시점에 비용을 배치하는 감각`을 추가했다. 해시 테이블, B/B+트리 인덱스, trie, 검색 엔진 메모를 빠른 조회의 예시로만 보지 않고 저장·갱신 시점의 구조화 비용과 공간 사용량을 선불로 치르는 설계 판단으로 보강했다.
+- 선호 신호: 저자는 Data_Structure 노트에서도 정답 자료구조 표보다, 찾기·삽입·삭제·정렬·접두어 검색 같은 반복 동사가 어느 시점에 비용을 내는지 드러나는 운영형 학습 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Data_Structure.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Idea/Article 보관 두께 판단 관점 보강
 - 갱신 범위: [[mapped/Idea/Article]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Article.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 기사 요약장이 아니라 웹 입력을 포착·후처리·재호출·확장하는 Idea 입력 운영 노드임을 재확인했다.
