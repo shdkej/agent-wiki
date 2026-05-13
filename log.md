@@ -1,5 +1,14 @@
 ## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental 노드 점진 심화
 
+### CHANGELOG 외부 변경 큐 접속면 관점 보강
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/CHANGELOG.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Blogging]], [[mapped/Deep Knowledge/Web]], [[mapped/Meta/My_space]] 앞부분을 참고해 이 노드가 개인 웹 운영의 루트 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `standard-version`, compare 링크, 이슈 번호, 커밋 해시를 자동 생성 잡음이 아니라 개인 웹이 Gatsby 생태계의 외부 변경 큐와 접속되는 기록면으로 해석하는 절을 추가했다.
+- 선호 신호: 저자는 CHANGELOG에서도 단순 변경 나열보다, 작은 생활형 update와 upstream 압력이 어떤 기록 형식 안에서 추적 가능해지는지를 보존하는 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 루트 changelog형 노트의 compare 링크·이슈 번호·커밋 해시는 자동 생성 잡음이 아니라 외부 변경 큐와 개인 운영 기록의 접속부로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Meta/About_Architecture 대표 인터페이스 관점 보강
 - 갱신 범위: [[mapped/Meta/About_Architecture]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 개별 기술 패턴 목록이 아니라 복잡한 조각 위에 재진입 가능한 설계 판단 표면을 만드는 Meta 아키텍처 노드임을 재확인했다.
