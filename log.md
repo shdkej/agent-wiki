@@ -7,7 +7,7 @@
 - 선호 신호: 저자는 Article 노트에서도 자료량보다, 왜 저장했는지와 언제 다시 써야 하는지가 보이는 가벼운 복원 단위를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Article.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 웹 입력·북마크형 노트에서 제목 없는 URL이 반복되면 링크 목록을 요약하기보다 `제목·한 줄 반응·재호출 조건`을 최소 메타데이터로 세우는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 
