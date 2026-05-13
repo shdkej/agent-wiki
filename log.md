@@ -7,7 +7,7 @@
 - 선호 신호: 저자는 Investment 노트에서도 부동산 전망 결론보다, 외부 규칙이 바뀌었을 때 기존 전제와 최악 시나리오를 다시 열어 생활 선택권을 보존하는 재무 운영 방식을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 투자·주거형 노트의 정책 변화 메모를 예측 실패가 아니라 전제표를 다시 여는 재무 운영 신호로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Fundamental/Math 단위·경계 분리 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
