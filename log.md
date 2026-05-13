@@ -1,6 +1,14 @@
 ## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental·Health 노드 점진 심화
 
 
+### Communication/Talk 현재 흐름을 끊지 않는 수신 신호 보강
+- 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Talk.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Feedback]] 앞부분을 참고해 이 노드가 화술 기술보다 관계 접점의 수신 상태를 다루는 Communication 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `대화를 끊는 순간을 더 세밀하게 보기`를 추가했다. 다음 질문 준비, 걱정이 먼저 나오는 반응, 반박 타이밍 대기, 의례적 호응에 대한 양가감을 현재 흐름을 끊지 않는 수신 신호 문제로 묶었다.
+- 선호 신호: 저자는 Talk 노트에서도 정답 같은 반응이나 즉시 반박보다, 먼저 상대의 현재 감정과 이야기 흐름을 받아 대화가 계속 열려 있게 만드는 순서 감각을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Talk.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Human/Standard 형식과 패턴 인식 관점 보강
 - 갱신 범위: [[mapped/Human/Standard]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Standard.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 표준화 찬반론이 아니라 사람을 돕는 형식과 사람을 질식시키는 형식을 구분하는 Human 판단 노드임을 재확인했다.
