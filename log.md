@@ -1,5 +1,14 @@
 ## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental 노드 점진 심화
 
+### Human/Reality 시작 가능한 난이도 번역 관점 보강
+- 갱신 범위: [[mapped/Human/Reality]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Reality.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]], [[mapped/Idea/History]] 앞부분을 참고해 이 노드가 냉소적 현실주의가 아니라 이상·이성·추상이 생활 조건에서 어떻게 다시 구현되는지 검증하는 Human 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 입맛·출근·자취 메모를 `쉬운 것부터 하는 것은 타협이 아니라 번역이다`로 보강했다. 맞는 말을 곧장 실행하는 대신 현재 몸 상태, 전날 동선, 귀찮음과 구조적 제약을 보고 시작 가능한 난이도로 낮춰 구현하는 관점을 추가했다.
+- 선호 신호: 저자는 Reality 노트에서도 이상을 버리는 현실주의보다, 좋은 방향을 실제 사람이 시작하고 유지할 수 있는 작은 실행 단위로 번역하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Reality.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Reality형 생활 마찰 예시를 의지 부족이나 포기가 아니라 이상을 시작 가능한 난이도로 번역하는 검증 장면으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 
 ### Integration/Marketing 고객 플래그 맥락 압축 관점 보강
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 점진 심화했다.
