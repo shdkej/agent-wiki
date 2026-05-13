@@ -1,5 +1,14 @@
 ## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental 노드 점진 심화
 
+### Meta/About_Architecture 대표 인터페이스 관점 보강
+- 갱신 범위: [[mapped/Meta/About_Architecture]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 개별 기술 패턴 목록이 아니라 복잡한 조각 위에 재진입 가능한 설계 판단 표면을 만드는 Meta 아키텍처 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 간접 민주주의의 대표, API gateway, aggregation API, 공통 CRUD, `같은 방식으로 동작하는 서비스` 메모를 `대표 인터페이스` 관점으로 보강했다. 분산과 모듈화를 유지하되 사람이 매번 모든 하위 조각을 다시 배우지 않도록 하는 현관을 어디에 둘지의 문제로 정리했다.
+- 선호 신호: 저자는 About_Architecture 노트에서도 분산·모듈화를 무조건 많이 하는 것보다, 하위 조각의 차이를 지우지 않으면서도 다시 호출하고 추적할 수 있는 대표 표면을 남기는 설계를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 아키텍처형 노트의 대표·gateway·aggregation 메모를 분산된 조각 위의 대표 인터페이스 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Communication/Document 접수 형식 기반 문서 운영 보강
 - 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Meta/Troubleshooting]] 일부를 참고해 이 노드가 문장 작성법보다 질문·에러·요구사항·히스토리를 다시 쓰게 만드는 문서 운영 인터페이스임을 재확인했다.
