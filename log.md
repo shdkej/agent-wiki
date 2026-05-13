@@ -1,6 +1,16 @@
 ## 2026-05-13 | Human·Communication·Integration·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
 
 
+### Idea/Travel 결과 만족 장소 유형 보강
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 여행지 추천표가 아니라 감각 회수·도시 해석·동선 운영·후보 아카이브가 왕복하는 Idea 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 도서관·박물관·축구장·쇼핑·음식처럼 `결과가 좋은 여행`으로 남는 장소 유형을 보강했다. 특히 세계 도서관 후보와 익사이팅 스포츠 목록을 도시의 지식 표면과 현장 에너지를 몸으로 확인하는 입력면으로 정리했다.
+- 선호 신호: 저자는 Travel 노트에서도 장소를 많이 소비하기보다, 특정 공간이 남기는 지식·감각·생활 리듬·현장 에너지가 자기 시선을 실제로 바꾸는지를 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 여행형 노트의 도서관·박물관·스포츠 목록을 관광 후보가 아니라 `도착했을 때 어떤 결과 만족이 남는가`를 보여 주는 장소 유형으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+
 ### Idea/Movie 창작물의 도달 표면 관점 보강
 - 갱신 범위: [[mapped/Idea/Movie]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Movie.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Reading]], [[mapped/Idea/Article]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 영화 목록이 아니라 장면 감상과 인간 이해, 창작물의 전달 구조를 함께 다루는 Idea 입력 노드임을 재확인했다.
