@@ -1,4 +1,13 @@
-## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
+## 2026-05-13 | Human·Communication·Integration·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
+
+### Integration/Design 실패 복귀와 긴 목록 탐색 리듬 보강
+- 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Design.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Feedback]], [[mapped/Deep Knowledge/Product]] 앞부분을 참고해 이 노드가 정적 화면 취향이 아니라 제품 표면의 회복·탐색·설명력을 함께 다루는 Integration 디자인 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `Should have make fail return button`, 목록 창의 페이징/자동 로딩 메모를 `실패와 긴 목록을 다루는 디자인 안전장치`로 보강했다. 실패 후 돌아갈 버튼, 긴 목록의 탐색 리듬, 실패·대기·재시도 상황의 제품 언어를 디자인 시스템의 일부로 정리했다.
+- 선호 신호: 저자는 Design 노트에서도 예쁜 톤과 컴포넌트 일관성만이 아니라, 사용자가 길을 잃거나 실패하거나 많은 항목 앞에 설 때 다시 시도할 수 있게 하는 회복 가능한 인터페이스를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Design.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 디자인형 노트의 실패 복귀·페이징·자동 로딩 메모를 회복과 탐색 리듬의 안전장치로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Idea/Information 개인화와 다양성 사이의 정보 식단 보강
 - 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
