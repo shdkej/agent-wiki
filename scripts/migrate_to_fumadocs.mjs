@@ -26,6 +26,16 @@ function escapeYaml(s) {
   return s.replace(/"/g, '\\"');
 }
 
+function slugifySegment(s) {
+  return s.replace(/\s+/g, '-').toLowerCase();
+}
+
+function slugifyRelPath(rel) {
+  const ext = path.extname(rel);
+  const noExt = rel.slice(0, rel.length - ext.length);
+  return noExt.split(path.sep).map(slugifySegment).join(path.sep) + ext;
+}
+
 function processFile(srcPath, destPath, fallbackTitle) {
   let content = fs.readFileSync(srcPath, 'utf-8');
   if (!hasFrontmatter(content)) {
@@ -45,7 +55,7 @@ function walk(dir, baseSrc, baseDest) {
       walk(src, baseSrc, baseDest);
     } else if (entry.name.endsWith('.md') && !SKIP_FILES.has(entry.name)) {
       const rel = path.relative(baseSrc, src);
-      const destRel = rel.replace(/\.md$/, '.mdx');
+      const destRel = slugifyRelPath(rel.replace(/\.md$/, '.mdx'));
       const destPath = path.join(baseDest, destRel);
       const fallback = path.basename(entry.name, '.md');
       processFile(src, destPath, fallback);
