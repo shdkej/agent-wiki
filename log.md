@@ -1,3 +1,13 @@
+## 2026-05-13 | Communication 노드 점진 심화
+
+### Communication/Foreign_language 일본어 활용 버튼 관점 보강
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Document]] 앞부분을 참고해 이 노드가 외국어 교재 요약이 아니라 실제 장면에서 말을 다시 열기 위한 Communication 발화 재료 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 일본어 활용 목록을 `문장 끝 변형 버튼`으로 보강했다. `마스`, `나이`, `테형`, `타형`, `오우`, `세루/레루`, `ㅔ바` 같은 메모를 완전 문법표로 부풀리기보다, 행동을 공손·부정/금지·연결·조건·가능·사역/수동 형태로 빠르게 바꾸는 장면별 손잡이로 읽었다.
+- 선호 신호: 저자는 Foreign_language 노트에서도 언어별 백과사전보다, 영어 업무 표현과 일본어 활용형 모두를 낯선 장면에서 덜 멈추고 상대가 응답할 수 있게 만드는 작은 인터페이스로 정리하는 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·Idea·blog 노드 점진 심화
 
 ### Meta/일 문제 공개와 해결자 매칭 관점 보강
