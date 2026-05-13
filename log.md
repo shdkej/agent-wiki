@@ -1,4 +1,4 @@
-## 2026-05-13 | Communication 노드 점진 심화
+## 2026-05-13 | Communication·blog 노드 점진 심화
 
 ### Communication/Foreign_language 일본어 활용 버튼 관점 보강
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
@@ -7,6 +7,14 @@
 - 선호 신호: 저자는 Foreign_language 노트에서도 언어별 백과사전보다, 영어 업무 표현과 일본어 활용형 모두를 낯선 장면에서 덜 멈추고 상대가 응답할 수 있게 만드는 작은 인터페이스로 정리하는 방식을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+### blog/EKS_with_terraform 완료 기준 분리 관점 보강
+- 갱신 범위: [[mapped/blog/EKS_with_terraform]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/EKS_with_terraform.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Cloud]], [[mapped/Deep Knowledge/Container]], [[mapped/Deep Knowledge/Infra]] 앞부분을 참고해 이 노드가 EKS 구축 가이드라기보다 관리형 Kubernetes의 책임 경계를 확인하는 blog형 실습 로그임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `최소 생성과 운영 가능 상태를 구분하기`를 추가했다. 클러스터 생성, subnet 연결, kubeconfig 인증, HPA, Cluster Autoscaler, destroy 확인을 서로 다른 완료 기준으로 분리하고, 참고 링크를 `뼈대 확인 → 공식 필드 확인 → 모듈 비교 → 운영 사례 확인`의 학습 순서로 다시 묶었다.
+- 선호 신호: 저자는 EKS 실습에서도 성공한 최종 Terraform 코드보다, 관리형 서비스가 감춰 주는 부분과 여전히 직접 확인해야 하는 네트워크·권한·로컬 도구·컨트롤 루프의 경계를 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/EKS_with_terraform.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ## 2026-05-12 | Communication·Portfolio·Human·Deep Knowledge·Fundamental·Health·Meta·Idea·blog 노드 점진 심화
 
