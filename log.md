@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `단위와 경계가 헷갈리는 지점을 먼저 분리하기`를 추가했다. 와이파이/LTE/LAN 속도, 전자파 세기, TV와 모바일 안정성, 블록체인 보안성, 드론 호버링 질문을 넓은 표현 그대로 닫지 않고 섞이기 쉬운 단위와 확인 표면으로 나눴다.
 - 선호 신호: 저자는 Math 노트에서도 정답 공식을 늘리기보다, 빠르다·세다·안정적이다 같은 말을 실제 측정 단위와 운영 경계로 쪼개 다음 실험으로 내려갈 수 있게 만드는 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Fundamental/Infra 운영 출입구 경계 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 점진 심화했다.
