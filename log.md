@@ -1,5 +1,14 @@
 ## 2026-05-13 | Human·Communication·Integration·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
 
+### blog/Deploy_ERP_server_story 운영 성숙도 사다리 보강
+- 갱신 범위: [[mapped/blog/Deploy_ERP_server_story]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 Odoo 설치기가 아니라 내부 업무 시스템을 컨테이너 기반 운영 구조로 끌어올리는 blog형 실습 로그임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문 마지막의 CI/CD, Test Code, HAProxy, repository split, docker build, update announcing 메모를 `운영 성숙도 사다리`로 보강했다. 로컬에서 돌아가는 서버가 조직이 믿고 쓰는 업무 시스템이 되려면 배포 반복성, 업무 규칙 검증, 가용성, 환경 재현성, 변경 책임 분리, 사용자 커뮤니케이션이 필요하다는 구조를 추가했다.
+- 선호 신호: 저자는 실습 회고에서도 성공한 최종 구성보다, 아직 모자란 운영 조건을 명시해 다음 검증 표면으로 남기는 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: blog형 실습 노트의 `아쉬운 점` 목록을 운영 성숙도 사다리로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Idea/Article 제목 달린 링크와 최소 메타데이터 보강
 - 갱신 범위: [[mapped/Idea/Article]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Article.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 기사 요약장이 아니라 웹 입력을 생각 자산으로 복원하는 Idea 입력 운영 노드임을 재확인했다.
