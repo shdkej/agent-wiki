@@ -1,4 +1,12 @@
-## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental·Health 노드 점진 심화
+## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
+
+### Idea/Information 개인화와 다양성 사이의 정보 식단 보강
+- 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Information.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 잡학 스크랩장이 아니라 정보의 수집·필터링·전달·해석·윤리를 다루는 Idea 상위 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 TV, YouTube, 개인 관심사, 소셜 네트워크, 컨퍼런스 영상, 인터넷에서 찾을 수 없는 관찰 메모를 `개인화와 다양성 사이의 정보 식단` 관점으로 보강했다. 개인화된 채널의 몰입과 확산력을 인정하되, 공통 의제와 낯선 분야에 일부러 노출되는 다양성 창을 남기는 구조로 정리했다.
+- 선호 신호: 저자는 Information 노트에서도 맞춤형 피드나 정보량 자체보다, 개인 관심을 중심축으로 삼으면서도 세계 변화와 주변 사례를 놓치지 않게 하는 균형 잡힌 입력 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Information.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 ### Communication/Talk 현재 흐름을 끊지 않는 수신 신호 보강
