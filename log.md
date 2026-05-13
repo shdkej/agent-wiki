@@ -1,5 +1,15 @@
 ## 2026-05-13 | Human·Communication·Integration·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
 
+
+### Idea/Movie 창작물의 도달 표면 관점 보강
+- 갱신 범위: [[mapped/Idea/Movie]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Movie.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Reading]], [[mapped/Idea/Article]], [[mapped/Communication/Teamwork]] 앞부분을 참고해 이 노드가 영화 목록이 아니라 장면 감상과 인간 이해, 창작물의 전달 구조를 함께 다루는 Idea 입력 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `중쇄를 찍자` 메모를 `작품이 독자에게 도달하는 협업 표면`으로 보강했다. 콘티를 창작자의 생각을 넘기는 설계도, 편집자 역할 질문을 현장에서 갱신되는 직업 정체성, 영업팀장 비밀노트와 서점 전시를 작품이 발견되는 조건으로 정리했다.
+- 선호 신호: 저자는 Movie 노트에서도 작품 내부의 장면뿐 아니라, 창작자의 의도·편집자·유통자·판매사원·독자가 이어지는 전달 경로를 보며, 좋은 작품이 사람에게 도착하려면 기록과 관계의 표면이 필요하다고 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Movie.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 감상형 노트 안의 제작·유통·편집자 메모를 작품 밖 부록이 아니라 창작물이 독자에게 도달하는 협업 인터페이스로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Integration/Design 실패 복귀와 긴 목록 탐색 리듬 보강
 - 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Design.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Feedback]], [[mapped/Deep Knowledge/Product]] 앞부분을 참고해 이 노드가 정적 화면 취향이 아니라 제품 표면의 회복·탐색·설명력을 함께 다루는 Integration 디자인 노드임을 재확인했다.
