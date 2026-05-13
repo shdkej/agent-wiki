@@ -1,4 +1,14 @@
-## 2026-05-13 | Human·Communication·blog 노드 점진 심화
+## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental 노드 점진 심화
+
+
+### Fundamental/Math 센서 추정과 조건 변화 관점 보강
+- 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Data_Structure]] 앞부분을 참고해 이 노드가 수학 공식집이 아니라 측정 가능한 관계를 만드는 Fundamental 기초 공학 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 스마트 워치 수면 측정과 생명공학 메모를 `생체 센서와 조건 변화` 관점으로 보강했다. 가속계·PPG·심박변이도·정확도 메모를 몸 상태를 직접 아는 기술이 아니라 제한된 센서 신호로 상태를 추정하는 대리 변수 문제로 정리하고, 드론 센서 루프와 연결했다.
+- 선호 신호: 저자는 Math 노트에서도 공식 자체보다, 보이지 않는 상태를 어떤 신호로 측정하고 어디까지 추정할 수 있으며 어떤 조건 변화가 가능성을 바꾸는지 구분하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 기초 과학·공학형 노트의 생체 센서 메모를 건강 팁으로 넓히지 말고 측정·추정·한계의 공학 문제로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Deep Knowledge/Devops 장기 실행 상태 전환 관점 보강
 - 갱신 범위: [[mapped/Deep Knowledge/Devops]] 1개 페이지만 점진 심화했다.
