@@ -1,5 +1,14 @@
 ## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental 노드 점진 심화
 
+### Fundamental/Infra 운영 출입구 경계 관점 보강
+- 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Deep Knowledge/Infra]], [[mapped/Fundamental/Network]] 앞부분을 참고해 이 노드가 AWS 서비스 암기장이 아니라 인프라 선택의 기본 판단 문법임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 public/private subnet, NAT, VPC Endpoint, JumpServer, ALB/NLB, RDS 접근 메모를 `운영 동선의 계약` 관점으로 보강했다. 외부 사용자, 내부 운영자, 자동화 도구, 관리형 서비스가 각각 어떤 출입구로 들어와야 하는지의 문제로 정리했다.
+- 선호 신호: 저자는 Infra 노트에서도 보안 경계를 닫는 선언보다, 접속 가능성·비용·패치·배포·복구 동선까지 함께 확인하는 운영형 경계 설계를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 인프라형 public/private 메모를 운영 출입구 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### CHANGELOG 외부 변경 큐 접속면 관점 보강
 - 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/CHANGELOG.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Blogging]], [[mapped/Deep Knowledge/Web]], [[mapped/Meta/My_space]] 앞부분을 참고해 이 노드가 개인 웹 운영의 루트 카테고리임을 재확인했다.
