@@ -1,5 +1,14 @@
 ## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental 노드 점진 심화
 
+### Communication/Document 접수 형식 기반 문서 운영 보강
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Meta/Troubleshooting]] 일부를 참고해 이 노드가 문장 작성법보다 질문·에러·요구사항·히스토리를 다시 쓰게 만드는 문서 운영 인터페이스임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `문서 운영은 작성 후 정리가 아니라 들어오는 순간의 설계에서 시작한다`를 추가했다. 입력/출력 창구 통일, 에러 접수, 고객 인터뷰·요구사항·회의 기록, TDD 링크 3개, UTM·히스토리 문서를 접수→정리→공유→추적 루프로 묶었다.
+- 선호 신호: 저자는 Document 노트에서도 보기 좋은 정리보다, 정보가 생기는 순간부터 필수 맥락을 붙여 다음 사람이 검색·공유·복구할 수 있게 만드는 문서 운영 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+
 ### Human/Reality 시작 가능한 난이도 번역 관점 보강
 - 갱신 범위: [[mapped/Human/Reality]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Reality.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]], [[mapped/Idea/History]] 앞부분을 참고해 이 노드가 냉소적 현실주의가 아니라 이상·이성·추상이 생활 조건에서 어떻게 다시 구현되는지 검증하는 Human 노드임을 재확인했다.
