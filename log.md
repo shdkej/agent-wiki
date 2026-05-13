@@ -1,4 +1,13 @@
-## 2026-05-13 | Communication·blog 노드 점진 심화
+## 2026-05-13 | Human·Communication·blog 노드 점진 심화
+
+### Human/Future 열린 준비 관점 보강
+- 갱신 범위: [[mapped/Human/Future]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Future.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Human/Principle]], [[mapped/Idea/Journal]] 앞부분을 참고해 이 노드가 장기 계획표가 아니라 현재·노년·다음 세대·기록을 잇는 Human 미래 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 소풍·여행 준비 메모를 `준비는 통제가 아니라 즐거움을 보존하는 장치`라는 관점으로 보강했다. 계획이 그대로 맞아야 성공하는 닫힌 계획과, 빗나가도 다시 선택할 수 있게 하는 열린 준비를 나눠 미래 대응 문법을 더 선명하게 했다.
+- 선호 신호: 저자는 Future 노트에서도 미래를 정확히 예측하거나 현재를 희생해 고정하기보다, 변수가 생긴 뒤에도 몸·기록·관계·기술 상태를 바탕으로 다시 고를 수 있는 준비를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Future.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Future형 노트의 여행·소풍 준비 메모를 열린 준비 감각으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Foreign_language 일본어 활용 버튼 관점 보강
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
