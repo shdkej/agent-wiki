@@ -1,5 +1,13 @@
 ## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental·Health 노드 점진 심화
 
+### Communication/Open_Source 공개 표면과 내부 판단권 경계 보강
+- 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Open_Source.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Integration/Tool]] 앞부분을 참고해 이 노드가 코드 공개가 아니라 외부 협업 진입면을 설계하는 Communication 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 B2B/B2C, 핵심 기술 비공개, API 개방 메모를 `공개 표면과 내부 판단권의 경계 설계`로 보강했다. 공개가 만드는 신뢰와 공개가 약하게 만드는 방어선을 함께 계산하는 축을 추가했다.
+- 선호 신호: 저자는 Open_Source 노트에서도 공개를 선악이나 낭만으로 닫지 않고, 기여자·사용자·고객이 들어올 표면과 사업·운영 판단권을 남길 내부 경계를 함께 설계하려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Health/Investment 정책 변화 후 장부 재진입 관점 보강
 - 갱신 범위: [[mapped/Health/Investment]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Investment.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Decision]], [[mapped/Integration/Economics]] 앞부분을 참고해 이 노드가 투자 수익률표가 아니라 생활 자산 운영 장부임을 재확인했다.
