@@ -1,6 +1,16 @@
 ## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental·Health 노드 점진 심화
 
 
+### Human/Standard 형식과 패턴 인식 관점 보강
+- 갱신 범위: [[mapped/Human/Standard]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Standard.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 표준화 찬반론이 아니라 사람을 돕는 형식과 사람을 질식시키는 형식을 구분하는 Human 판단 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문 말미의 잡음, 음악의 소리와 침묵, 라프 코스터의 재미이론 메모를 `형식은 잡음을 없애는 것이 아니라 패턴을 알아차릴 정도로 줄이는 일`로 보강했다. 메뉴얼·템플릿·출근시간·플래너·분류표를 모두 재진입 가능한 패턴을 만드는 인지 표면으로 다시 연결했다.
+- 선호 신호: 저자는 Standard 노트에서도 무규칙 자유나 강한 통제보다, 사람이 패턴을 발견하고 반복하다가 필요하면 다시 깨뜨릴 수 있는 살아 있는 형식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Standard.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Standard형 노트의 잡음·음악·패턴 인식 메모를 형식의 인지 표면 문제로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
+
 ### Human/Love 질문 기반 재확인 관점 보강
 - 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Human/Principle]], [[mapped/Communication/Talk]] 앞부분을 참고해 이 노드가 감정 예찬이 아니라 익숙함 이후에도 관심을 갱신하는 Human 관계 노드임을 재확인했다.
