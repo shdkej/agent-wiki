@@ -1,5 +1,14 @@
 ## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental·Health 노드 점진 심화
 
+
+### Human/Love 질문 기반 재확인 관점 보강
+- 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Human/Principle]], [[mapped/Communication/Talk]] 앞부분을 참고해 이 노드가 감정 예찬이 아니라 익숙함 이후에도 관심을 갱신하는 Human 관계 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `질문과 궁금증`을 상대를 고정하지 않는 재확인 루프로 보강하고, `감정선이 비슷한 사람`을 같은 감정 강요가 아니라 어긋남 뒤에도 회복 가능한 공통 언어로 정리했다.
+- 선호 신호: 저자는 Love 노트에서도 큰 선언보다 작은 질문·반응·소중함의 재확인을 통해 관계가 자동 배경으로 굳지 않게 만드는 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Communication/Open_Source 공개 표면과 내부 판단권 경계 보강
 - 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Open_Source.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Integration/Tool]] 앞부분을 참고해 이 노드가 코드 공개가 아니라 외부 협업 진입면을 설계하는 Communication 노드임을 재확인했다.
