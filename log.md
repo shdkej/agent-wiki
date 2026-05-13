@@ -1,5 +1,15 @@
 ## 2026-05-13 | Human·Communication·Integration·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
 
+### Idea/Article 제목 달린 링크와 최소 메타데이터 보강
+- 갱신 범위: [[mapped/Idea/Article]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Article.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 기사 요약장이 아니라 웹 입력을 생각 자산으로 복원하는 Idea 입력 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 제목 없는 URL 더미가 시간이 지나면 의미를 잃는 문제를 `제목 + 한 줄 반응 + 입력 신호 + 재호출 조건 + 보존 두께`의 최소 메타데이터 규칙으로 보강했다.
+- 선호 신호: 저자는 Article 노트에서도 자료량보다, 왜 저장했는지와 언제 다시 써야 하는지가 보이는 가벼운 복원 단위를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Article.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 웹 입력·북마크형 노트에서 제목 없는 URL이 반복되면 링크 목록을 요약하기보다 `제목·한 줄 반응·재호출 조건`을 최소 메타데이터로 세우는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
+
 
 ### Idea/Travel 결과 만족 장소 유형 보강
 - 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
