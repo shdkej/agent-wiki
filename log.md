@@ -8,7 +8,7 @@
 - 선호 신호: 저자는 Standard 노트에서도 무규칙 자유나 강한 통제보다, 사람이 패턴을 발견하고 반복하다가 필요하면 다시 깨뜨릴 수 있는 살아 있는 형식을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Standard.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: Standard형 노트의 잡음·음악·패턴 인식 메모를 형식의 인지 표면 문제로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 ### Human/Love 질문 기반 재확인 관점 보강
