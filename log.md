@@ -1,4 +1,13 @@
-## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental 노드 점진 심화
+## 2026-05-13 | Human·Communication·blog·Deep Knowledge·Fundamental·Health 노드 점진 심화
+
+### Health/Investment 정책 변화 후 장부 재진입 관점 보강
+- 갱신 범위: [[mapped/Health/Investment]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Investment.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Decision]], [[mapped/Integration/Economics]] 앞부분을 참고해 이 노드가 투자 수익률표가 아니라 생활 자산 운영 장부임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 주담대 제한, 월세·배당 대체 시나리오, 혼인 신고, 무주택 조건, 신생아대출 메모를 `정책 변화 후 장부를 다시 여는 절차`로 보강했다. 결론을 사자/사지 말자로 닫기보다 안정감·선택권·현금흐름·제도 자격을 다시 펼쳐 보는 구조로 정리했다.
+- 선호 신호: 저자는 Investment 노트에서도 부동산 전망 결론보다, 외부 규칙이 바뀌었을 때 기존 전제와 최악 시나리오를 다시 열어 생활 선택권을 보존하는 재무 운영 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 투자·주거형 노트의 정책 변화 메모를 예측 실패가 아니라 전제표를 다시 여는 재무 운영 신호로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
 
 ### Fundamental/Math 단위·경계 분리 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
