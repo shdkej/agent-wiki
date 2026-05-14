@@ -11,6 +11,16 @@
 
 
 
+
+### Deep Knowledge/Container 배포와 릴리즈 분리 관점 보강
+- 갱신 범위: [[mapped/deep-knowledge/container]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/cloud]], [[mapped/deep-knowledge/devops]] 앞부분을 참고해 이 노드가 컨테이너 명령어 모음이 아니라 복구 가능한 실행·배포 경계임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문의 배포/릴리즈 분리, Istio·NGINX canary, preStop, readiness/liveness, PM2 kill timeout, while curl 테스트 메모를 `새 버전 준비 → 트래픽 전환 → 기존 요청 마무리 → 라우팅 제거 확인`의 상태 전환으로 보강했다.
+- 선호 신호: 저자는 Container 노트에서도 `kubectl apply` 성공보다, 이미지 교체와 실제 사용자 트래픽 전환을 분리해 무중단·롤백 가능성을 검증하는 운영 계약을 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 컨테이너·쿠버네티스형 노트의 무중단 배포 메모를 배포 성공과 릴리즈 성공의 분리로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Deep Knowledge/Cloud 위임 후 재진입 손잡이 보강
 - 갱신 범위: [[mapped/deep-knowledge/cloud]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 원본이 여전히 공란인 상태를 재확인했다.
