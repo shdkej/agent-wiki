@@ -1,5 +1,14 @@
 ## 2026-05-14 | Health·Human·Idea·Communication·Integration·blog·Deep Knowledge·Fundamental 노드 점진 심화
 
+### Integration/Tool 전달 경계와 형식 변환 관점 보강
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Tool]], [[mapped/deep-knowledge/devops]], [[mapped/deep-knowledge/web]] 앞부분을 참고해 이 노드가 도구 목록이 아니라 로컬·SaaS·서버·프로토콜을 하나의 운영 표면으로 엮는 Integration 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 API gateway·Kong·gRPC·protobuf·HTTP body·ffmpeg·HLS·RTSP·WebRTC 메모를 `전달 경계와 형식 변환` 관점으로 보강했다. 도구 이름보다 요청·메시지·영상 신호가 어느 경계에서 어떤 형식으로 바뀌고 무엇을 잃거나 보존하는지가 보이게 했다.
+- 선호 신호: 저자는 통신·스트리밍 도구도 최신 스택 비교보다, 내부 상태가 외부 표면으로 안전하게 넘어가고 다시 관측 가능한 형태로 남는지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 도구형 source 노트의 gateway·프로토콜·스트리밍 메모를 기술 목록이 아니라 경계 통과 시 형식 변환과 보존/손실을 추적하는 전달 설계 메모로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Communication/Foreign_language 표현 경계 감각 보강
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Human/Readability]] 앞부분을 참고해 이 노드가 외국어 지식장이 아니라 실제 장면에서 덜 멈추고 덜 오해하게 만드는 발화 인터페이스임을 재확인했다.
