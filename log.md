@@ -1,4 +1,12 @@
-## 2026-05-14 | Health·Human·Idea·Communication·Integration·blog·Deep Knowledge 노드 점진 심화
+## 2026-05-14 | Health·Human·Idea·Communication·Integration·blog·Deep Knowledge·Fundamental 노드 점진 심화
+
+### Fundamental/Math 공개성과 감시 주체 구분 보강
+- 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 수학 공식집이 아니라 관계식·신호·집적·신뢰·제어를 잇는 Fundamental 기초 공학 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 블록체인 파트의 `공개되어 있으면 안전한가` 질문을 공개 장부, 검증 가능성, 실제 감시, 거버넌스의 층위 차이로 보강했다.
+- 선호 신호: 저자는 블록체인 같은 신뢰 기술도 공개성 자체보다 누가 이상을 감시하고 비용을 내며 기준을 조정하는지까지 확인하려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Deep Knowledge/Cloud 새 메모 승격 필터 보강
 - 갱신 범위: [[mapped/deep-knowledge/cloud]] 1개 페이지만 점진 심화했다.
