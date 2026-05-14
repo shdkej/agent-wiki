@@ -1,4 +1,4 @@
-## 2026-05-14 | Human 노드 점진 심화
+## 2026-05-14 | Human·Idea 노드 점진 심화
 
 ### Human/Readability 만다라트 위치와 검증 경계 보강
 - 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
@@ -7,6 +7,17 @@
 - 선호 신호: 저자는 가독성을 단순한 쉬운 문장보다, 독자의 진입 장벽을 낮추면서도 원문의 난도·정확성·검증 가능성을 보존하는 전달 윤리로 보는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Readability.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
+
+### Idea/History 분산 시스템 전환 관점 보강
+- 갱신 범위: [[mapped/Idea/History]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/History.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 연표형 역사 백과가 아니라 기원·전환·계보를 통해 현재 기술을 더 깊게 읽는 Idea 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문 말미의 `Collection of individual computer`, `concurrently`, `fail independent`, `CAP`, `Map Reduce`, `Messaging`, `distributed system` 키워드를 `연결 이후 여러 독립 컴퓨터를 하나의 안정된 사용 표면처럼 보이게 만드는 전환`으로 보강했다.
+- 선호 신호: 저자는 History 노트에서도 최초 발명과 연도 암기보다, 단일 기계·네트워크·분산 시스템으로 이어지는 사용 가능성의 층위 변화를 통해 현재 인프라 판단의 배경을 복원하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/History.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: History형 노트의 분산 시스템 키워드를 최신 인프라 목록이 아니라 `여러 독립 장치를 하나의 사용 표면으로 보이게 만드는 계보 전환`으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+
 
 ## 2026-05-13 | Human·Communication·Integration·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
 
