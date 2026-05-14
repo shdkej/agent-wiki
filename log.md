@@ -1,5 +1,14 @@
 ## 2026-05-14 | Human·Idea·Communication·blog·Deep Knowledge 노드 점진 심화
 
+### Idea/Article 입력-출력 승격 관점 보강
+- 갱신 범위: [[mapped/Idea/Article]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Article.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Blogging]], [[mapped/Meta/Collection]] 앞부분을 참고해 이 노드가 웹 입력을 보관·재호출·출력 후보로 바꾸는 Idea 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 2025년 영상 메모, 도입 시퀀스, 캡션, 한 주 관심사 아카이브, 제작 과정 공유 메모를 `입력을 출력 후보로 승격하는 순간`으로 보강했다.
+- 선호 신호: 저자는 Article 노트에서도 링크를 많이 저장하는 것보다, 어떤 입력이 다음 블로그·영상·프로젝트 회고의 포맷 샘플이나 판단 문장으로 재사용될 수 있는지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Article.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 웹 입력형 노트의 제작 과정·주간 아카이브 메모를 소비 기록이 아니라 출력 후보로 승격되는 조건으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Meta/Fail_experience 검역 대기열 관점 보강
 - 갱신 범위: [[mapped/Meta/Fail_experience]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]] 앞부분을 참고해 이 노드가 실패 회고를 다음 실행의 검증 표면으로 바꾸는 Meta 카테고리임을 재확인했다.
