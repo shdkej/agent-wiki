@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `새 메모를 받을 때의 승격 순서`를 추가했다. 증상·명령·설정값은 인접 실행 노드에 남기고, 반복 선택 기준과 위임 후 관측·변경·회수 손잡이가 보일 때만 `Cloud`의 상위 판단으로 승격하도록 필터를 보강했다.
 - 선호 신호: 빈 Cloud 노트는 클라우드 일반론으로 채우기보다, 주변 실행 메모가 실제로 상위 선택 기준으로 굳어지는 순간만 받아들이는 경계 노드로 유지하는 편이 더 안전하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 0줄 공란이고 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았으므로 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Integration/Creator 감상 판단 피드백 표면 보강
 - 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 점진 심화했다.
