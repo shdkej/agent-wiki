@@ -1,5 +1,14 @@
 ## 2026-05-14 | Human·Idea·Communication·blog·Deep Knowledge 노드 점진 심화
 
+### Human/Balance 논리·믿음과 공개 경계 보강
+- 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Balance.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]] 앞부분을 참고해 이 노드가 평균값의 중용이 아니라 장면별 전환 타이밍과 비용을 재는 Human 조정 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `논리적으로 일일이 설명하기 vs 믿음을 주기`를 관계 장면과 업무 장면의 신뢰 표면 차이로 보강하고, 공개/비공개 절에 보호되어야 할 맥락과 공동 판단에 필요한 정보의 구분을 덧붙였다.
+- 선호 신호: 저자는 Balance 노트에서도 논리와 신뢰, 투명성과 보호를 반씩 섞기보다, 현재 장면에서 무엇이 관계·책임·검증을 살리는지 먼저 구분하려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 균형형 Human 노트의 논리/믿음 대비를 관계와 업무의 신뢰 표면 차이로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Human/Readability 만다라트 위치와 검증 경계 보강
 - 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]]를 참고해 이 노드가 글쓰기 팁보다 `Human` 카테고리 안의 인간 중심 전달 판단 노드임을 재확인했다.
