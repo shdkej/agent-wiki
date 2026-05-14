@@ -1,4 +1,12 @@
-## 2026-05-14 | Health·Human·Idea·Communication·blog·Deep Knowledge 노드 점진 심화
+## 2026-05-14 | Health·Human·Idea·Communication·Integration·blog·Deep Knowledge 노드 점진 심화
+
+### Integration/Creator 감상 판단 피드백 표면 보강
+- 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Creator.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 창작 직군 목록이 아니라 제작·연출·편집·감상·기술 성장의 통합 판단 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문의 예술 작품 감상법과 appreciation 메모를 `취향 선언`이 아니라 작품이 자기 욕구와 관심을 어떻게 건드렸는지 조심스럽게 판단하고 다음 창작 기준으로 되돌리는 피드백 표면으로 보강했다.
+- 선호 신호: 저자는 Creator 노트에서도 예술 감상을 정답 맞히기나 주관적 취향으로 닫기보다, 형식·배경·개인 반응을 함께 놓고 안목을 높이는 재진입 가능한 판단 루프로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Creator.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Decision 반복 접촉면과 관리 감정 비용 보강
 - 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 점진 심화했다.
