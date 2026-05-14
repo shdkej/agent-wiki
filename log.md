@@ -1,3 +1,13 @@
+## 2026-05-14 | Human 노드 점진 심화
+
+### Human/Readability 만다라트 위치와 검증 경계 보강
+- 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]]를 참고해 이 노드가 글쓰기 팁보다 `Human` 카테고리 안의 인간 중심 전달 판단 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 해석`을 추가하고, 쉬운 설명이 원래 용어·공식 문서·실제 문제로 돌아가는 길을 열어 두는지와 비유·감정 표현이 검증 경계를 흐리지 않는지 묻는 질문을 보강했다.
+- 선호 신호: 저자는 가독성을 단순한 쉬운 문장보다, 독자의 진입 장벽을 낮추면서도 원문의 난도·정확성·검증 가능성을 보존하는 전달 윤리로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Readability.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-13 | Human·Communication·Integration·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
 
 ### blog/Deploy_ERP_server_story 운영 성숙도 사다리 보강
