@@ -1,5 +1,14 @@
 ## 2026-05-14 | Human·Idea·Communication·blog·Deep Knowledge 노드 점진 심화
 
+### Meta/Fail_experience 검역 대기열 관점 보강
+- 갱신 범위: [[mapped/Meta/Fail_experience]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]] 앞부분을 참고해 이 노드가 실패 회고를 다음 실행의 검증 표면으로 바꾸는 Meta 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `Uncategorized` 1년 보관 규칙과 2025년 혼합 메모를, 영구 잡동사니가 아니라 실패 예방 압력이 다른 카테고리로 이동하기 전 머무는 검역 대기열로 보강했다.
+- 선호 신호: 저자는 실패 회고에서도 모든 메모를 한곳에 축적하기보다, 분류 전 압력을 잠시 보존한 뒤 적절한 노드로 옮기거나 지우는 운영형 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 실패 회고형 Meta 노트의 `Uncategorized` 구간은 잡동사니가 아니라 이동·삭제 판단을 기다리는 검역 대기열로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 
 ### Meta/Collection 인식 전환 샘플 보드 보강
 - 갱신 범위: [[mapped/Meta/Collection]] 1개 페이지만 점진 심화했다.
