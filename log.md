@@ -1,5 +1,15 @@
 ## 2026-05-14 | Human·Idea·Communication·blog·Deep Knowledge 노드 점진 심화
 
+
+### Meta/Collection 인식 전환 샘플 보드 보강
+- 갱신 범위: [[mapped/Meta/Collection]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Collection.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/Integration/Exploration]] 앞부분을 참고해 이 노드가 분화 전 메타 수집창이자 판단 기준의 샘플 보드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `사람들의 인식을 확 바꾸게 된 사건`, 최초/독점 사례, 좋은 앱, 시간이 지날수록 멋있어지는 제품, 신우석 감독 인터뷰 메모를 최신 성공 사례 목록이 아니라 사람의 기준선이 바뀌고 대체가 어려워지며 오래 남는 형식이 생기는 조건을 시험하는 사례 슬롯으로 보강했다.
+- 선호 신호: 저자는 Collection 노트에서도 사례를 많이 모으는 것보다, 사례가 어떤 판단 기준을 검증하게 해 주는지와 이후 Product·Business·Information 노드로 어떻게 분화될 수 있는지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Collection.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 메타 수집형 노트의 최초·독점·좋은 앱·인식 전환 사례를 최신 트렌드 목록이 아니라 기준선 변화 샘플 보드로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Fundamental/Software 상태 생애주기 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Software]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Software.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Coding]], [[mapped/deep-knowledge/product]] 앞부분을 참고해 이 노드가 기술 항목 목록이 아니라 사람 중심 매체·변경 가능성·복구 가능성·운영 확장·가치 교환을 잇는 Fundamental 루트 노드임을 재확인했다.
