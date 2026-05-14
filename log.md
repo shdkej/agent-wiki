@@ -16,7 +16,7 @@
 - 정리: 기존 baseline은 유지한 채 원문의 `running well? / how speed? / any problem? / need more?`를 피드백 화면과 회고 양식의 최소 순서로 보강했다. 정상 여부, 체감 속도, 이상 징후, 다음 요구가 이어질 때 신호가 단순 알림이 아니라 다음 행동을 여는 회로가 된다는 점을 추가했다.
 - 선호 신호: 저자는 Feedback 노트에서도 빠른 신호 자체보다, 신호가 사람에게 해석 가능하게 도착하고 다시 행동을 여는 순서와 표면을 더 중요하게 보는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Idea/History 분산 시스템 전환 관점 보강
 - 갱신 범위: [[mapped/Idea/History]] 1개 페이지만 점진 심화했다.
