@@ -7,7 +7,7 @@
 - 선호 신호: 저자는 Software 노트에서도 빠른 수정 능력 자체보다, 바뀐 이유·되돌릴 기준·신뢰 가능한 캐시 경계·종료 안내가 남아 사용자가 다시 진입할 수 있는 운영형 변경을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Software.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: Software형 노트의 삭제·트랜잭션·캐시·버저닝·EOL 메모를 상태 생애주기와 복구 가능한 흔적의 운영 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 완료 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 ### Deep Knowledge/Product 구매 여정 측정 관점 보강
