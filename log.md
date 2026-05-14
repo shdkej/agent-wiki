@@ -16,7 +16,7 @@
 - 선호 신호: 저자는 History 노트에서도 최초 발명과 연도 암기보다, 단일 기계·네트워크·분산 시스템으로 이어지는 사용 가능성의 층위 변화를 통해 현재 인프라 판단의 배경을 복원하는 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/History.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: History형 노트의 분산 시스템 키워드를 최신 인프라 목록이 아니라 `여러 독립 장치를 하나의 사용 표면으로 보이게 만드는 계보 전환`으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 ## 2026-05-13 | Human·Communication·Integration·blog·Deep Knowledge·Fundamental·Health·Idea 노드 점진 심화
