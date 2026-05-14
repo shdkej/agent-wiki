@@ -1,4 +1,4 @@
-## 2026-05-14 | Human·Idea 노드 점진 심화
+## 2026-05-14 | Human·Idea·Communication·blog·Deep Knowledge 노드 점진 심화
 
 ### Human/Readability 만다라트 위치와 검증 경계 보강
 - 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
@@ -9,6 +9,15 @@
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
+
+
+### Deep Knowledge/Cloud 위임 후 재진입 손잡이 보강
+- 갱신 범위: [[mapped/deep-knowledge/cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 원본이 여전히 공란인 상태를 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `위임을 선택할 때 남겨야 할 세 가지 손잡이`를 추가했다. 관측 손잡이, 변경 손잡이, 회수 손잡이로 나누어 클라우드 선택을 서비스 추천표가 아니라 위임 후에도 다시 볼 수 있고 고칠 수 있고 빠져나올 수 있는 재진입 가능성의 문제로 정리했다.
+- 선호 신호: 저자는 Cloud 노트에서도 편의 기능 자체보다, 관리형 서비스에 맡긴 뒤에도 상태 원천·관측 표면·회수 경로를 잃지 않는 운영 설계를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 여전히 0줄 공란이며 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Feedback 최소 점검 순서 보강
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
