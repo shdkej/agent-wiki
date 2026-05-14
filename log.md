@@ -1,5 +1,13 @@
 ## 2026-05-14 | Health·Human·Idea·Communication·Integration·blog·Deep Knowledge·Fundamental 노드 점진 심화
 
+### Communication/Foreign_language 표현 경계 감각 보강
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Human/Readability]] 앞부분을 참고해 이 노드가 외국어 지식장이 아니라 실제 장면에서 덜 멈추고 덜 오해하게 만드는 발화 인터페이스임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `serve/reserve/preserve`, `authority/authorization/authentication`, `update/modify/change`, `remove/delete` 같은 헷갈리는 단어 목록을 단순 번역 후보가 아니라 행위·상태·권한·기록의 경계를 선명하게 고르는 표현 선택 훈련으로 보강했다.
+- 선호 신호: 저자는 외국어 단어도 어휘량 자체보다, 실제 업무·기술·생활 장면에서 무엇이 바뀌고 누가 허락하며 어떤 흔적이 남는지 오해 없이 고르는 감각을 중시하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Fundamental/Math 공개성과 감시 주체 구분 보강
 - 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 수학 공식집이 아니라 관계식·신호·집적·신뢰·제어를 잇는 Fundamental 기초 공학 노드임을 재확인했다.
