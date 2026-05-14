@@ -25,7 +25,7 @@
 - 선호 신호: 저자는 개인 인프라에서도 서버가 켜졌다는 사실보다, 상태가 보이고 변경이 추적되며 실패 후 되돌릴 수 있는 운영 가능 상태를 더 중요하게 보는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/My_space.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 홈랩형 체크리스트를 설치 항목이 아니라 완료 기준 사다리로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 
 
@@ -522,7 +522,7 @@
 - 정리: 기존 baseline은 유지한 채 `반도체·CPU 계보를 제약 이동으로 읽기`를 추가했다. 진공관→트랜지스터→집적회로→CPU 연표를 브랜드·스펙 목록이 아니라 증폭 필요, 소형화, 집적, 전력·열·누설전류 병목이 이동하는 사다리로 보강했다.
 - 선호 신호: 저자는 Math 노트에서도 공식과 부품명을 많이 외우는 정리보다, 신호를 다시 쓰게 만드는 장치와 작아질수록 새로 생기는 비용을 함께 보는 다변수 공학 감각을 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Integration/Work 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Integration/Work]] 1개 페이지만 점진 심화했다.
@@ -860,7 +860,7 @@
 - 정리: 기존 baseline은 유지한 채 `실패 기록을 다음 실행으로 바꾸는 최소 필드`를 추가했다. 실패 경험을 `빠진 전제 / 실패가 커진 경로 / 되돌릴 손잡이 / 다음 실행의 자동 장치`로 다시 꺼내, 복붙·무확인·백업 부재·문서/자동화 메모가 같은 재발 방지 구조로 읽히도록 보강했다.
 - 선호 신호: 저자는 Fail_experience 노트에서도 반성의 강도보다, 같은 손실이 다시 커지지 않도록 확인·원복·자동 검증 표면을 남기는 운영형 회고를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Food 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Food]] 1개 페이지만 점진 심화했다.
@@ -1317,7 +1317,7 @@
 - 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 해석`과 `창작의 현장 표식은 나중의 재진입 가능성을 만든다`를 추가했다. 덕분에 슬레이트, NG 뒤 박수, 싱크 지점이 단순 촬영 팁이 아니라 문서·코드 리뷰·영상 편집·앨범 제작에 공통으로 필요한 재진입 인터페이스로 더 선명해졌다.
 - 선호 신호: 저자는 Creator 노트에서도 창작자의 재능 묘사보다, 감각적 판단을 역할 구조·편집 기준·공통 표식·피드백 언어로 바꾸는 운영형 창작 문법을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Creator.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Integration/Economics 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지만 점진 심화했다.
@@ -1415,7 +1415,7 @@
 - 정리: 기존 baseline은 유지한 채 논리 도구를 Communication으로 옮기는 번역표를 추가해, 연역·귀납·귀류·오류론·MECE·철학 렌즈가 각각 대화와 문서에서 어떤 점검 질문으로 작동하는지 한눈에 보이게 했다.
 - 선호 신호: 저자는 Logical_Thinking 노트에서도 논증법 이름 자체보다, 질문을 고르고 전제를 공유하며 반대편을 통과한 뒤 상대가 들을 수 있는 구조로 옮기는 실전 판단 루프를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Deep Knowledge 노드 점진 심화
 
@@ -1425,7 +1425,7 @@
 - 정리: baseline은 유지한 채 `공란 노드에서 특히 조심할 드리프트`를 추가해, 확실한 사실과 주변 노트 기반 가설을 분리하고 빈 `Cloud` 노트가 외부 클라우드 일반론이나 `Infra` 실행 메모 복사본으로 부풀어 오르지 않게 흡수 필터를 보강했다.
 - 선호 신호: 빈 source 노트일수록 내용을 대신 채우기보다 만다라트 위치, 인접 노드와의 경계, 향후 원문 갱신 시 분류 기준을 선명하게 남기는 편이 더 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Deep Knowledge/Monitoring 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Deep Knowledge/Monitoring]] 1개 페이지만 점진 심화했다.
@@ -1434,7 +1434,7 @@
 - 선호 신호: 저자는 Monitoring 노트에서도 Grafana·Prometheus 같은 툴 이름보다, 어떤 상태를 정상으로 보고 어떤 신호만 사람의 주의를 호출할지까지 이어지는 운영 피드백 구조를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Monitoring.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 모니터링형 source 노트는 도구 스택 목록보다 정상 상태 정의, 신호 수집, 대시보드 배치, 알림 승격의 피드백 회로로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Health 노드 점진 심화
 
@@ -1444,7 +1444,7 @@
 - 정리: 기존 baseline은 유지한 채 `연습 단위를 고르는 기준`을 추가해, 원문의 `타브 보는 법 / 지판 연습 / 왼손·오른손 역할` 질문을 곡 전체 도전이 아니라 `짧은 표기 → 위치 이동 → 손별 실패 분리`의 작은 피드백 단위로 바꿔 읽었다.
 - 선호 신호: 저자는 Music 노트에서도 장르·장비·이론 확장보다, 보이는 표기를 손 위치와 반복 가능한 몸동작으로 바꾸는 재진입 단위가 보이는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Deep Knowledge 노드 점진 심화
 
@@ -1454,7 +1454,7 @@
 - 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽는 해석`을 앞쪽에 추가해 AI가 Data·Devops·AGENTS를 가로지르는 운영 번역층이라는 점을 더 선명하게 세웠다. 또 `개념 → 위임 구조 → 기준 문서 → 검증 실행 → 서비스 운영`의 운영 사다리를 새로 뽑아, 원문의 넓은 메모가 프롬프트 팁이나 ML 부록으로 흩어지지 않고 하나의 운영 구조로 다시 읽히게 다듬었다.
 - 선호 신호: 저자는 AI 노트에서도 모델 기능 소개보다, 어디까지 맡기고 무엇을 문서로 고정하며 어떤 검증과 복원 장치를 붙일지가 한 화면에서 이어지는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Meta 노드 점진 심화
 
@@ -1464,7 +1464,7 @@
 - 정리: 기존 baseline은 유지한 채 `Meta > Developer`의 만다라트 위치를 앞쪽에 세우고, 넓게 흩어진 경력·면접·회사 분석 메모를 `경계면 마찰을 줄이는 운영 번역자` 정체성으로 다시 묶었다. 또 원문 경험 조각들을 `문제 / 선택 / 운영 / 성장 / 문화`의 `증거 패킷`으로 읽는 단락을 추가해, 이력서·포트폴리오·면접 답변이 서로 다른 작업이 아니라 같은 재료를 다른 표면으로 재조합하는 과정이라는 점을 더 선명하게 만들었다.
 - 선호 신호: 저자는 Developer 노트에서도 기술 키워드 나열보다, 여러 역할 사이의 번역 능력과 판단 근거를 재사용 가능한 증거 단위로 보여 주는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Developer.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Root 노드 점진 심화
 
@@ -1474,7 +1474,7 @@
 - 정리: 기존 baseline은 유지한 채 `update`를 한 덩어리로 읽지 않고 `날짜형 생활 메모 133회`와 `upstream 추적형 update 96회`로 다시 갈라 적었다. 덕분에 같은 단어가 `직접 다시 만진 시간`과 `기반을 따라간 시간`을 동시에 담고 있다는 점이 더 선명해졌다.
 - 선호 신호: 저자는 changelog형 노트에서도 단순 빈도표보다, 같은 기록 문법 안에 서로 다른 책임 출처와 시간층이 어떻게 눌려 있는지가 보이는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Integration 노드 점진 심화
 
@@ -1484,7 +1484,7 @@
 - 정리: 기존 baseline은 유지한 채 `각 매체별 글은 다 달라야 한다`는 원문 메모를 `같은 제품 제안을 표면 문법에 맞게 번역하는 문제`로 끌어올렸고, 유입 경로 분리·고객 플래그·무료/유료 마찰 설계를 한 흐름으로 다시 묶었다. 덕분에 SNS, UX 라이팅, CRM, 제품 메모가 흩어진 부록이 아니라 하나의 사용자 이동 경로를 조정하는 층이라는 점이 더 선명해졌다.
 - 선호 신호: 저자는 Marketing 노트에서도 광고 채널 팁보다, 어떤 말로 사람을 들어오게 하고 그 반응을 어떻게 추적해 제품과 전환 구조를 다시 손볼지까지 한 화면에서 보이는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Fundamental 노드 점진 심화
 
@@ -1494,7 +1494,7 @@
 - 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽기`를 새로 추가해 Math가 `Network / Computer_Architecture / Software`로 이어지는 번역면이라는 점을 앞쪽에 세웠다. 또 기존 `관계식 / 신호 / 신뢰 / 제어` 축 사이에 `집적` 축을 새로 세워, 반도체·CPU 연표가 단순 하드웨어 상식 부록이 아니라 `관계식을 실제 장치 안에 얼마나 촘촘히 접어 넣는가`를 다루는 핵심 층임을 더 선명하게 만들었다.
 - 선호 신호: 저자는 Math 노트에서도 순수 수학 정의집보다, 보이지 않는 현상을 변수 관계로 붙잡아 통신·하드웨어·합의·제어로 옮겨 가는 기초 감각이 한 화면에서 이어지는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Fundamental/Architecture 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Fundamental/Architecture]] 1개 페이지만 점진 심화했다.
@@ -1502,7 +1502,7 @@
 - 정리: 기존 baseline은 유지한 채 `만다라트 위치에서 읽기`를 추가해 이 노드의 상위 기준면 성격을 더 앞에 세웠고, 길게 나열된 아키텍처 이름들을 `우열 비교표`가 아니라 `같은 변화 관리 질문을 반복해 만져 보는 후보군`으로 다시 읽는 단락을 보강했다. 또 후반 코드 레이아웃 메모를 계층 패턴 복습이 아니라 `변경 이유가 다른 것끼리 수정 지점을 분리하는 운영 감각`으로 재정리해, 원문의 패턴·컴포넌트·레이어 메모들이 결국 `좋은 구조`보다 `좋은 변화 관리`를 향한다는 점이 더 선명해졌다.
 - 선호 신호: 저자는 Architecture 노트에서도 유명한 구조 이름 자체보다, 무엇을 늦게 결정하고 어디서 수정 지점을 끊어야 사람이 다시 들어와도 덜 헤매는지가 보이는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Fundamental/Tool 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Fundamental/Tool]] 1개 페이지만 점진 심화했다.
@@ -1510,7 +1510,7 @@
 - 정리: 기존 baseline은 유지한 채 `로컬 튜닝 → 셸 조작 → 서버 유지 → Git 복원 → 시스템 조합`의 5단 확장 사다리를 새로 세워, 긴 원문 분량이 하나의 상승 구조로 보이게 다듬었다. 또 후반 `Terraform vs Serverless`, `Vault`, `API gateway`, `gRPC` 메모를 기술 이름 부록이 아니라 `어느 책임을 어느 레이어에 둘 것인가`를 연습하는 비교축으로 재정리했다.
 - 선호 신호: 저자는 Tool 노트에서도 최신 도구 소개보다, 하부 표면을 직접 제어한 뒤 그 위에 어떤 책임선을 얹을지 판단할 수 있는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Tool.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Health 노드 점진 심화
 
@@ -1520,7 +1520,7 @@
 - 정리: 기존 baseline은 유지한 채 `조리 · 비조리 · 외부조달`의 3가지 섭취 인터페이스를 새로 세우고, 반복 재료와 간편식 후보를 `기본 재고 / 빠른 보충 / 준비된 5일 단위 / 검증 대기`라는 운영 단위로 다시 묶었다. 덕분에 제철 목록·상비 재고·편의점/도시락 후보가 한 문서에 같이 있는 이유가 식단 지식 혼합이 아니라 서로 다른 공급 표면을 한 시스템에서 다루기 때문이라는 점이 더 선명해졌다.
 - 선호 신호: 저자는 Food 노트에서도 건강식 정답표보다, 어떤 상태에서 어떤 먹는 표면을 붙여 두면 식사 공백을 줄일 수 있는지가 보이는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Idea/Travel 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
@@ -1528,7 +1528,7 @@
 - 정리: 기존 baseline은 유지한 채 `Idea` 축 안의 만다라트 위치를 앞쪽에 세우고, 원문을 `여행 전 후보 축적 / 여행 중 감각과 변수 / 여행 후 운영 규칙`의 시간층으로 다시 묶었다. 덕분에 현장 리뷰, 미래 후보, 체류·안전 메모가 한 문서에 함께 있는 이유가 산만함이 아니라 같은 여행 운영 시스템의 다른 시간면이라는 점이 더 선명해졌다.
 - 선호 신호: 저자는 Travel 노트에서도 관광 정보 요약보다, 장소가 시선과 생활 판단을 어떻게 바꾸는지, 그리고 그 경험이 다음 이동 규칙으로 어떻게 환원되는지가 보이는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Human 노드 점진 심화
 
@@ -1539,7 +1539,7 @@
 - 선호 신호: 저자는 Balance 노트에서도 정답표나 중간론보다, 서로 충돌하는 가치쌍을 장기적으로 축적하고 새 사례를 끼워 넣으며 판단 근육을 키우는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 대립쌍 축적형 source 노트는 항목별 결론을 성급히 통합하지 말고, 이후 사례를 계속 끼워 넣을 수 있는 비교축 저장소로 먼저 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Human/Reality 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Reality]] 1개 페이지만 점진 심화했다.
@@ -1547,7 +1547,7 @@
 - 정리: 기존 baseline은 유지한 채 짧게 흩어져 있던 `de facto` 메모를 `문서 규칙보다 실제 사용 습관이 먼저 기준을 굳히는 현실 층`으로 끌어올렸고, 카테고리/추상화 메모도 개발 부록이 아니라 `분류 체계 역시 현실 재사용 동선 앞에서 수정된다`는 설계 현실 문제로 다시 묶었다. 덕분에 생활 마찰, 예술사 논쟁, 소프트웨어 추상화가 모두 `현실이 아이디어를 검증하고 형식을 굳히는 방식`이라는 공통 질문으로 더 선명하게 이어졌다.
 - 선호 신호: 저자는 Reality 노트에서도 현실 적응 팁보다, 이상과 형식이 실제 사용 장면에서 어떻게 살아남거나 수정되는지가 보이는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Reality.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Health·blog·Idea·Meta 노드 점진 심화
 
@@ -1557,7 +1557,7 @@
 - 정리: 기존 baseline은 유지한 채 원문 첫머리의 `리더` 중심 배치를 만다라트식 중심-주변 구조로 더 해석했고, `약한 고리 강화`를 자동화 과시보다 병목 보강의 출발점으로 전면화했다. 또 `사진과 프롬프트`, 블로그 같은 외부 표면을 내부 위키 바깥의 홍보 부록이 아니라 고객 반응을 되가져오는 운영 기억층으로 다시 묶어, 이 노드가 멀티에이전트 설정표보다 문서 기반 협업 시스템 설계 노드라는 점을 더 선명하게 다듬었다.
 - 선호 신호: 저자는 AGENTS 노트에서도 모델/플러그인 목록 자체보다, 어떤 중심 문서군이 여러 역할을 묶고 어디서 병목을 보강하며 어떤 발행 표면으로 고객 신호를 다시 받아오는지가 보이는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/AGENTS.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Idea/History 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Idea/History]] 1개 페이지만 점진 심화했다.
@@ -1566,7 +1566,7 @@
 - 선호 신호: 저자는 History 노트에서도 최초 발명자나 연도 암기보다, 어떤 제약이 어떤 전환 장치로 바뀌고 그 뒤에 어떤 설명 형식이 남았는지 추적하는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/History.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 역사형 Idea source 노트는 연도·인물 목록보다 `표면 결과 → 이전 제약 → 전환 장치 → 남은 형식 → 현재 비유` 순서로 계보를 복원하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-04 | Health·blog 노드 점진 심화
 
@@ -1577,7 +1577,7 @@
 - 선호 신호: 저자는 신체 노트에서도 운동 종류를 늘어놓는 요약보다, 몸의 여러 사용 장면을 한 운영 인터페이스로 다시 읽어 주는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Physical.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 신체형 source 노트에 스포츠 전술 메모가 섞여 있으면 경기지식 부록으로 밀지 말고, 효율·안정성·힘 전달을 시험하는 몸 사용 장면으로 읽어야 한다는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Decision 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 점진 심화했다.
@@ -1585,7 +1585,7 @@
 - 정리: 기존 baseline은 유지한 채 `소유 욕구 vs 관리 표면 축소` 축을 새로 전면화했고, 후반 `공간 분리` 메모를 인테리어 부록이 아니라 `선택이 덜 꼬이게 만드는 생활 배치` 문제로 다시 묶었다. 또 반복 판단 축에 `분리된 환경 vs 한 공간 다기능화`를 추가해, 도구·집·작업 환경 선택이 같은 문법 위에 있음을 더 선명하게 다듬었다.
 - 선호 신호: 저자는 Decision 노트에서도 더 많이 갖는 법보다, 유지 포인트를 줄이고 몸·공간·주의력을 덜 새게 만드는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### blog/100k_concurrent_server 단일 노드 점진 심화
 - 갱신 범위: [[mapped/blog/100k_concurrent_server]] 1개 페이지만 점진 심화했다.
@@ -1593,7 +1593,7 @@
 - 정리: 기존 baseline은 유지한 채 `10만 동접`이 실제로는 `짧은 요청 / 유지 연결 / websocket / 앞단 포함 전체 경로`를 한데 부르는 느슨한 이름이라는 점을 전면에 보강했다. 또 `서버 코드`보다 `테스트 토폴로지`가 계속 바뀌는 노트라는 점, 그리고 최고 기록보다 `어느 층이 먼저 비명을 질렀는가`를 읽어야 한다는 점을 분명히 해 숫자 혼선을 줄였다.
 - 선호 신호: 저자는 부하테스트 노트에서도 최대 수치 자체보다, 에러 문구·관측 명령·실험 배치 차이를 통해 병목 층을 판별할 수 있게 정리하는 쪽을 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/100k_concurrent_server.md`는 frontmatter상 2021 수정 기록만 있고 file mtime 기준으로도 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Teamwork 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 점진 심화했다.
@@ -1602,7 +1602,7 @@
 - 선호 신호: 저자는 Teamwork 노트에서도 리더십 조언과 기술 운영 규칙을 따로 요약하기보다, 질문 경로·공개 기록·공용 문법이 함께 작동하는 협업 인터페이스로 읽어 주는 정리를 더 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 frontmatter상 최근 갱신 이력이 있으나 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 협업형 source 노트는 리더십 조언, 조직 구조, 문서 규칙, 기술 workflow를 따로 요약하지 말고 `맥락 전달`과 `재진입 가능한 handoff`를 만드는 하나의 협업 인터페이스로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ## 2026-05-03 | Human 노드 점진 심화
 
@@ -1764,7 +1764,7 @@
 - 정리: 기존 baseline은 유지한 채, 원문의 매우 짧은 질문 배열 `타브 → 지판 → 기타와의 차이 → 양손 역할` 자체를 입문 동선으로 복원하는 섹션을 추가했다. 정보량을 억지로 늘리기보다 질문 순서를 구조 축으로 삼아, 몸기술형 짧은 source의 성장 경계를 더 선명하게 고정했다.
 - 선호 신호: 저자는 짧은 노트에서도 이론 백과형 확장보다, 실제 첫 재진입 동선과 기존 몸 감각의 전이 가능성을 보존하는 정리를 더 선호하는 경향이 보인다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Human/Love 단일 노드 점진 심화
 - 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
