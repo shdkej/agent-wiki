@@ -1,5 +1,14 @@
 ## 2026-05-14 | Human·Idea·Communication·blog·Deep Knowledge 노드 점진 심화
 
+
+### Deep Knowledge/Product 구매 여정 측정 관점 보강
+- 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Design]], [[mapped/Integration/Marketing]] 앞부분을 참고해 이 노드가 제품 경험과 검증 루프를 다루는 Deep Knowledge 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 쇼핑몰·CTA·A/B 테스트 메모를 `즉시 구매보다 여정의 막힘을 보는 성과 측정` 관점으로 보강했다. 방문 세션, 평균 스크롤, 체류시간, 비교 동선, 브랜드 스토리를 사용자의 이해·비교·확신·행동 전환 흔적으로 다시 묶었다.
+- 선호 신호: 저자는 Product 노트에서도 전환율 숫자 자체보다, 사용자가 어느 설명과 비교 표면에서 납득하거나 멈추는지를 읽어 제품 안쪽의 확신 구조를 조정하는 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### blog/picasso 이미지 배열과 사고 이동 보강
 - 갱신 범위: [[mapped/blog/picasso]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/picasso.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Movie]], [[mapped/Integration/Design]] 앞부분을 참고해 이 노드가 전시 감상에서 AI 시대 직업 감각으로 이동하는 blog형 사고 실험임을 재확인했다.
