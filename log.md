@@ -1,5 +1,14 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·CHANGELOG 노드 점진 심화
 
+### blog/Note_Management 기술적 재호출 보조층 보강
+- 갱신 범위: [[mapped/blog/Note_Management]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Note_Management.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Journal]], [[mapped/Communication/Blogging]] 앞부분을 참고해 이 노드가 기록 입력과 발행 출력 사이의 재발견 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 컨플루언스, 마크다운, 관련 문서 추천, 사진·파일 첨부, 위젯·알람 메모를 `기술적 재호출 보조층`으로 묶었다. 자동 연결은 정답 자동화가 아니라 사람이 판단 가능한 연결 후보를 띄워 주는 협업 인터페이스로 해석했다.
+- 선호 신호: 저자는 노트 도구에서도 자동 정리 자체보다, 과거 기록의 존재를 잊기 전에 다시 떠올리고 발행·판단으로 연결할 수 있게 만드는 보조 표면을 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Note_Management.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 노트관리형 source 노트의 스마트 링크·알림·첨부 메모를 정답 자동화가 아니라 재호출 후보 제안층으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### blog/Digital_Content 서비스 종료 시나리오 보강
 - 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Digital_Content.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Movie]], `source/shdkej-content/blog/Note_Management.md` 앞부분을 참고해 이 노드가 단순 백업법이 아니라 디지털 소장 감각과 장기 재접속권을 다루는 blog 카테고리임을 재확인했다.
