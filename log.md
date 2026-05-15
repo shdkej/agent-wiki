@@ -1,5 +1,13 @@
 ## 2026-05-15 | Health·Communication·Meta 노드 점진 심화
 
+### Portfolio 재진입 표면 관점 압축 보강
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Portfolio.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/devops]], [[mapped/Communication/Teamwork]] 앞부분을 참고했다.
+- 정리: 기존 baseline은 유지하면서 DevOps·Teamwork 연결부를 더 압축해, Slack 명령·TraceID·Helm/ArgoCD·비용 계산을 각각 배포·장애 분석·신규 사이트 추가·의사결정의 `재진입 표면`으로 묶었다. 500줄 제한을 지키기 위해 관련 절은 줄여서 정리했다.
+- 선호 신호: 저자는 포트폴리오에서도 도구 숙련도보다, 다음 사람이 같은 운영 상태로 다시 들어올 수 있게 만드는 설명 가능한 표면을 성과로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Health/Curiosity 질문 출력면 라우팅 관점 보강
 - 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Exploration]], [[mapped/Meta/Collection]] 앞부분을 참고해 이 노드가 질문 저장소이자 다음 노드로 보내는 첫 분기점임을 재확인했다.
