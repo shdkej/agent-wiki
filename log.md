@@ -1,5 +1,13 @@
 ## 2026-05-15 | Meta 노드 점진 심화
 
+### Communication/Logical_Thinking 오류론 복구 지도 관점 보강
+- 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드가 철학 요약장이 아니라 Communication 안에서 질문·전제·반례·분류·수용 조건을 공개하는 판단 인터페이스임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문의 논리적 오류 목록을 심리적 오류, 자료적 오류, 언어적 오류라는 세 장애 지점으로 다시 읽는 절을 추가했다. 오류론을 상대 공격 목록이 아니라 말이 실패했을 때 감정 조건, 사례-결론 연결, 표현 경계를 복구하는 지도로 고정했다.
+- 선호 신호: 저자는 논리 오류도 정답/오답 판정표보다, 대화와 문서가 어디서 막혔는지 되짚어 다시 검토 가능한 상태로 여는 도구로 쓰려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Meta/일 업무 가시성과 사람 평가 안전장치 보강
 - 갱신 범위: [[mapped/Meta/일]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/일.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Integration/Work]]를 참고해 이 노드가 사람 판단과 업무 실행 기준을 함께 다루는 Meta 카테고리임을 재확인했다.
