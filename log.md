@@ -1,5 +1,13 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·Idea·CHANGELOG 노드 점진 심화
 
+### Meta/Troubleshooting stateful 복구 경계 보강
+- 갱신 범위: [[mapped/Meta/Troubleshooting]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이번 런에서는 외부 링크나 보조 원문을 추가로 끌어오지 않고 원문 후반의 Kubernetes·Odoo·PostgreSQL 상태 질문에 집중했다.
+- 정리: 기존 baseline은 유지한 채 reset·재설치가 반복되는 복구 메모 안에서도 pod/node 같은 실행 상태, selector/service 같은 연결 상태, database/filestore/session/volume 같은 저장 상태, `runAsUser`·`chown` 같은 권한 상태를 먼저 갈라야 한다는 점을 보강했다.
+- 선호 신호: 저자는 트러블슈팅에서 빠른 초기화를 실무적 복구 전략으로 받아들이되, 데이터와 볼륨·권한·트래픽 전환이 얽힌 stateful 장애에서는 무엇이 재생성 가능하고 무엇이 보존 대상인지 먼저 분리하려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 트러블슈팅형 source 노트의 reset·재설치 메모에 데이터·볼륨·권한 질문이 함께 있으면, 실행 상태와 저장 상태의 소유자를 먼저 가르는 stateful 복구 규칙으로 읽는 항목을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Fundamental/Network 완료 기준 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Network]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Network.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이번 런에서는 외부 링크나 보조 노트를 끌어오지 않고 원문 안의 DNS·TCP·HTTP·NAT·CDN·트래픽 계산 조각만 재확인했다.
