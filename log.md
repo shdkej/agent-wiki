@@ -1,5 +1,13 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·Idea·CHANGELOG 노드 점진 심화
 
+### Fundamental/Tool 실행 후 확인 신호 관점 보강
+- 갱신 범위: [[mapped/Fundamental/Tool]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Tool]] 앞부분만 참고해 이 노드가 앱 추천이 아니라 하부 운영 감각을 붙드는 Fundamental 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `df -h`, `df -hT`, `wsl -l -v`, `ssh -T`, crontab 구분, Terraform backend·gateway 확인 같은 조각을 `실행 후 확인 신호`로 묶었다. 도구 메모가 설치 명령이 아니라 실행 전 상태와 실행 후 완료 기준을 함께 남기는 재진입 포맷이라는 점을 보강했다.
+- 선호 신호: 저자는 도구를 실행하는 것보다, 원하는 상태가 실제 파일시스템·접속 경계·자동화·Git 시간축·운영 gateway 표면에 나타났는지 확인하는 감각을 더 오래 보존하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Tool.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 도구형 source 노트의 명령어 조각을 실행법만이 아니라 실행 뒤 확인 신호와 실패 후 복귀점으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Fundamental/Computer_Architecture 캐시와 실행 제어면 보강
 - 갱신 범위: [[mapped/Fundamental/Computer_Architecture]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Software]], [[mapped/Fundamental/Network]], [[mapped/Meta/Troubleshooting]], [[mapped/deep-knowledge/devops]]의 관련 연결만 참고했다.
