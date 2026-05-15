@@ -1,5 +1,13 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·Idea·CHANGELOG 노드 점진 심화
 
+### Fundamental/Network 완료 기준 관점 보강
+- 갱신 범위: [[mapped/Fundamental/Network]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Network.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이번 런에서는 외부 링크나 보조 노트를 끌어오지 않고 원문 안의 DNS·TCP·HTTP·NAT·CDN·트래픽 계산 조각만 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `네트워크 완료 기준을 나누는 법`을 추가했다. 원문의 도달 가능성, 연결 유지와 종료, 처리량과 병목, 앞단 정책의 의도 일치를 분리해 네트워크 지식을 실제 요청이 통과 가능한지 판정하는 운영 지도처럼 읽히게 했다.
+- 선호 신호: 저자는 네트워크도 프로토콜 이름 암기보다, 요청이 목적지를 찾고 연결을 유지하며 병목을 버티고 앞단 정책대로 통과하는지 확인하는 완료 기준을 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Network.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 네트워크형 source 노트의 명령·수치·장비 메모를 개념 부록이 아니라 도달성·연결 수명·처리량·앞단 정책의 완료 기준으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Fundamental/Tool 실행 후 확인 신호 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Tool]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Tool]] 앞부분만 참고해 이 노드가 앱 추천이 아니라 하부 운영 감각을 붙드는 Fundamental 카테고리임을 재확인했다.
