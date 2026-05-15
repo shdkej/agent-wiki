@@ -1,5 +1,13 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·CHANGELOG 노드 점진 심화
 
+### Idea/Journal 기록 재등장 표면 보강
+- 갱신 범위: [[mapped/Idea/Journal]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Journal.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Note_Management]], [[mapped/Communication/Blogging]] 앞부분을 참고해 이 노드가 Idea 카테고리 안의 시간축 기록 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문의 duration/frequency, 자주 다시 볼 글, 미완료 글, 오늘 할 일, 월간 회고 메모를 `기록마다 다른 재등장 표면이 필요하다`는 관점으로 보강했다.
+- 선호 신호: 저자는 Journal 노트에서도 저장 위치 자체보다, 기록이 오늘 실행·주기적 회고·검색 호출·발행 출력 중 어떤 방식으로 다시 나타나야 하는지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Journal.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Journal형 source 노트의 duration/frequency 메모를 재등장 표면 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### CHANGELOG 정리·삭제 항목의 운영 표면 축소 관점 보강
 - 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/CHANGELOG.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Blogging]], [[mapped/Meta/My_space]], [[mapped/deep-knowledge/web]] 앞부분을 참고했다.
