@@ -1,5 +1,14 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human 노드 점진 심화
 
+### Health/Music 최소 피드백 루프 보강
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/Health/Routine]] 앞부분을 참고해 이 노드가 Health 카테고리 안의 베이스 입문 신체 인터페이스임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `연습을 끊지 않는 최소 피드백`을 추가했다. 베이스 연습 기록을 성공/실패 평가가 아니라 타브 해독, 왼손 위치, 오른손 소리, 기타 습관 전이, 몸 신호 중 어디서 다음 5분을 잡을지 정하는 재진입 손잡이로 보강했다.
+- 선호 신호: 저자는 악기 입문도 성과 과시보다 실패 원인을 작게 이름 붙이고, 몸에 무리가 없는 반복 단위로 다시 들어갈 수 있게 만드는 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 악기 입문형 Health 노트의 연습 메모를 성과 평가가 아니라 다음 5분을 정하는 작은 실패 이름과 몸 신호로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Meta/About_Development 공개 기반과 변경 책임 관점 보강
 - 갱신 범위: [[mapped/Meta/About_Development]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/About_Development.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Developer]], [[mapped/Communication/Teamwork]], [[mapped/Fundamental/Coding]] 앞부분을 참고해 이 노드가 개발 일반론이 아니라 Meta 카테고리 안의 개발 기준·협업 윤리·재진입성 설계 노드임을 재확인했다.
