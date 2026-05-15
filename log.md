@@ -1,5 +1,13 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·Idea·CHANGELOG 노드 점진 심화
 
+### blog/Deploy_ERP_server_story 검증 표면과 프로토타입 흔적 보강
+- 갱신 범위: [[mapped/blog/Deploy_ERP_server_story]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/infra]] 앞부분만 참고해 이 노드가 Odoo 설치법보다 초기 운영 설계 실습 로그에 가깝다는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문 이미지 `erp_first_page`, `before_update`, `after_update`, `docker_volume`을 실행 성공과 상태 위치 확인의 검증 표면으로 보강했다. 또한 `depens_on`, `addions_external`, 거친 Dockerfile 명령처럼 미완성에 가까운 설정 조각을 최신 정답 코드로 덮지 않고, 프로토타입에서 재현 가능한 운영 절차로 올라가야 하는 흔적으로 읽었다.
+- 선호 신호: 저자는 실습형 운영 노트에서 완성된 레시피보다, 실제 화면 확인·수정 전후 비교·볼륨 위치 추적처럼 운영 상태를 직접 확인한 증거와 그 다음 성숙도 과제를 함께 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: blog 실습 노트의 오타·거친 명령어·스크린샷은 최신 정답으로 평탄화하지 말고 프로토타입 검증 표면과 문서화 과제로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Idea/Reading 독서 메모 상태 전이 보강
 - 갱신 범위: [[mapped/Idea/Reading]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Reading.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Article]], [[mapped/Human/Readability]]의 연결 구조만 참고했다.

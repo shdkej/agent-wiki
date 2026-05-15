@@ -133,6 +133,23 @@ DB는 MySQL, MSSQL, PostgreSQL 중에서 PostgreSQL을 골랐다.
 
 즉 이 노드는 개발 메모이지만, 핵심 배움은 **운영 변경을 런타임이 아니라 빌드 타임으로 끌어올려야 한다**는 것이다.
 
+## 화면 확인과 거친 설정을 함께 보존하기
+원문에는 `erp_first_page`, `before_update`, `after_update`, `docker_volume` 같은 이미지가 붙어 있다. 이 이미지들은 장식 자료라기보다, 각 단계에서 작성자가 무엇을 성공으로 인정했는지 보여 주는 검증 표면이다.
+
+| 원문 이미지 | 확인한 상태 | 운영상 의미 |
+|---|---|---|
+| `erp_first_page` | `localhost:8069`에서 Odoo 초기 화면이 열린다 | 컨테이너 조합이 최소 실행 상태에 도달했다 |
+| `before_update` / `after_update` | view 수정 전후의 화면 차이가 보인다 | 코드 변경이 실제 업무 화면에 반영되는지 확인했다 |
+| `docker_volume` | Docker volume 이름과 실제 경로를 확인한다 | 데이터가 어디에 남는지 추적 가능한 상태가 되었다 |
+
+또한 원문의 `depens_on`, `addions_external`, `apt-get update -y vim`처럼 거친 오타나 미완성에 가까운 설정 조각은 현재 정답 코드로 교정해 버릴 대상이 아니라, 초기 실습 노트가 가진 실제성을 보여 주는 흔적이다. 이 노드의 가치는 완성된 Docker 레시피보다 **실행해 보고, 깨지고, 어디에 상태가 남는지 찾은 과정**에 있다.
+
+그래서 이 mapped 페이지에서는 원문 코드 조각을 최신 권장 설정으로 갱신하지 않는다. 대신 다음처럼 읽는 편이 안전하다.
+
+1. **실행 성공 기준**: 화면이 뜨고, 수정 전후 차이가 보이며, 볼륨 위치가 확인된다.
+2. **운영 전환 신호**: 컨테이너 안 수작업 수정이 사라지면서 Dockerfile과 volume 경계가 필요해진다.
+3. **문서화 과제**: 거친 명령어와 오타를 나중에 재사용 가능한 스크립트, README, 배포 절차로 승격해야 한다.
+
 ## 데이터 이동과 다른 컴퓨터로의 이관
 원문 중반 이후에는 볼륨을 검사하고, 실제 Docker volume 경로를 찾아 데이터를 복사해 다른 컴퓨터로 옮기는 절차가 나온다.
 
@@ -260,4 +277,5 @@ DB는 MySQL, MSSQL, PostgreSQL 중에서 PostgreSQL을 골랐다.
 - 기존 기준선은 유지하되, 원문 전체를 다시 읽고 `파일 다섯 개로 운영한다`는 대목을 상태 소유권 지도 관점으로 보강했다.
 - Compose, Dockerfile, addons, ERP volume, DB volume이 각각 어떤 상태를 맡는지 분리해 이 노드가 단순 설치기가 아니라 초기 운영 경계 설계 사례임을 더 선명하게 했다.
 - 이번 런에서는 원문 마지막의 CI/CD, Test Code, HAProxy, repository split, docker build, update announcing 메모를 운영 성숙도 사다리로 재해석해, `돌아가는 서버`가 `조직이 믿고 쓰는 업무 시스템`으로 올라가는 조건을 추가했다.
+- 이번 런에서는 원문 이미지와 거친 설정 조각을 `검증 표면`과 `프로토타입 흔적`으로 다시 읽어, 이 문서가 완성 레시피보다 초기 운영 학습 로그에 가깝다는 점을 보강했다.
 - [[../Deep Knowledge/Container]], [[../Deep Knowledge/Infra]], [[../Deep Knowledge/Monitoring]], [[../Deep Knowledge/Devops]]와의 연결을 강화하되, 실제 작성 변경은 이 페이지 하나에만 제한했다.
