@@ -1,4 +1,13 @@
-## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human 노드 점진 심화
+## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·CHANGELOG 노드 점진 심화
+
+### CHANGELOG 정리·삭제 항목의 운영 표면 축소 관점 보강
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/CHANGELOG.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Blogging]], [[mapped/Meta/My_space]], [[mapped/deep-knowledge/web]] 앞부분을 참고했다.
+- 정리: 기존 baseline은 유지한 채 `delete annoying document`, `remove resume`, `remove unnecessary fragment`, `update 404 page`, `popup color and position`, dependency security fix를 공개 표면의 잔여물·방해 요소·잠재 위험을 줄이는 운영 표면 축소 작업으로 보강했다.
+- 선호 신호: 저자는 개인 웹 운영에서도 기능 추가만큼이나, 독자와 운영자가 다시 들어올 때 걸리는 작은 마찰을 걷어 내는 사후 편집과 안정화 감각을 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: changelog형 source 노트의 삭제·정리 항목을 후퇴가 아니라 운영 표면 축소 작업으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Health/Music 최소 피드백 루프 보강
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
