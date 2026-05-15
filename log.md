@@ -1,5 +1,14 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·CHANGELOG 노드 점진 심화
 
+### Human/Principle 원칙 층위 구분 보강
+- 갱신 범위: [[mapped/Human/Principle]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Principle.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Human/Standard]], [[mapped/Integration/Work]]의 구조만 참고해 이 노드가 Human 카테고리의 자기 운영 헌장임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원칙을 `오래 남는 가치 / 조정 가능한 운영 규칙 / 장면별 사고 도구`의 세 층으로 나누었다. 덕분에 여유·관심·용기 같은 사람의 방향, 시작점/끝점·통제 범위 같은 생활 규칙, 맥락·분할정복·피드백 같은 실행 손잡이가 한 덩어리로 납작해지지 않게 했다.
+- 선호 신호: 저자는 Principle 노트에서도 단순한 좌우명보다, 가치의 방향을 유지하면서 상황마다 실행 강도를 조정하고 다시 도구로 내려보낼 수 있는 자기 운영 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Principle.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 원칙형 source 노트는 가치·운영 규칙·사고 도구를 같은 강도의 다짐으로 합치지 말고 층위를 나누어 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ### Idea/Journal 기록 재등장 표면 보강
 - 갱신 범위: [[mapped/Idea/Journal]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Journal.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Note_Management]], [[mapped/Communication/Blogging]] 앞부분을 참고해 이 노드가 Idea 카테고리 안의 시간축 기록 운영 노드임을 재확인했다.
