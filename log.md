@@ -1,4 +1,12 @@
-## 2026-05-15 | Health·Communication·Meta 노드 점진 심화
+## 2026-05-15 | Health·Communication·Meta·Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/Infra 변경 가시성 시간차 보강
+- 갱신 범위: [[mapped/deep-knowledge/infra]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/monitoring]], [[mapped/deep-knowledge/container]], [[mapped/deep-knowledge/devops]] 앞부분을 참고해 이 노드가 실행 중인 인프라 상태의 소유자·전파·검증을 다루는 Deep Knowledge 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 IAM 적용 지연, DNS·인증서·CloudFront 캐시, ArgoCD/Kubernetes controller, CNI 메모를 `선언 시간 → 전파 시간 → 검증 시간`의 차이로 묶었다.
+- 선호 신호: 저자는 인프라 변경에서도 명령 실행 자체보다, 변경이 어느 표면에 선언되고 어느 계층에서 늦게 반영되며 어떤 관측 지점에서 완료로 인정되는지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Portfolio 재진입 표면 관점 압축 보강
 - 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
