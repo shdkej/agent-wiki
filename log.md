@@ -1,4 +1,11 @@
-## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·CHANGELOG 노드 점진 심화
+## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·Idea·CHANGELOG 노드 점진 심화
+
+### Idea/Reading 독서 메모 상태 전이 보강
+- 갱신 범위: [[mapped/Idea/Reading]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Reading.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Article]], [[mapped/Human/Readability]]의 연결 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 `읽기 메모의 상태 전이`를 추가했다. 원문의 책 목록, 인용 뒤 반응, 질문 후보, 주변 노드 링크, 리뷰·책값·텍스트/이미지 비교를 각각 입력 후보·읽는 중 반응·질문 후보·이동 씨앗·콘텐츠 판단 기준으로 나누어 재진입성을 높였다.
+- 선호 신호: 저자는 Reading 노트에서도 책별 요약보다, 읽은 것이 어떤 질문으로 남고 어느 만다라트 노드나 출력면으로 이동해야 하는지를 구분하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Reading.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
 ### Integration/Exploration 탐구 결과의 운영 가능성 보강
 - 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 점진 심화했다.
