@@ -1,4 +1,11 @@
-## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·CHANGELOG 노드 점진 심화
+## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·CHANGELOG 노드 점진 심화
+
+### Integration/Exploration 탐구 결과의 운영 가능성 보강
+- 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Exploration.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Curiosity]], [[mapped/Idea/Article]]의 구조만 참고해 이 노드가 검색 팁이 아니라 낯선 영역을 운영 가능한 지식으로 바꾸는 Integration 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문의 측정 가능한 목표, 메뉴얼, 좋은 배 비유를 `탐구 결과의 운영 가능성`으로 보강했다. 숫자는 비교 가능한 감각을 만드는 표면으로, 메뉴얼은 공유 기준점으로, 경험과 이론의 결합은 설계 가능한 지식으로 읽었다.
+- 선호 신호: 저자는 탐구를 많이 찾아보는 행위로 끝내지 않고, 나중에 비교·변형·인수인계할 수 있는 기준선으로 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Exploration.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
 ### blog/Note_Management 기술적 재호출 보조층 보강
 - 갱신 범위: [[mapped/blog/Note_Management]] 1개 페이지만 점진 심화했다.
