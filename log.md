@@ -1,5 +1,12 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·Idea·CHANGELOG 노드 점진 심화
 
+### Fundamental/Computer_Architecture 캐시와 실행 제어면 보강
+- 갱신 범위: [[mapped/Fundamental/Computer_Architecture]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Software]], [[mapped/Fundamental/Network]], [[mapped/Meta/Troubleshooting]], [[mapped/deep-knowledge/devops]]의 관련 연결만 참고했다.
+- 정리: 기존 baseline은 유지한 채 CPU 캐시·페이지/버퍼 캐시·Redis batch·CDN/프록시를 `가까움과 신뢰 기한`의 문제로 압축했고, 부팅 스크립트·표준 스트림·SIGTERM/SIGKILL을 `시작과 종료의 제어면`으로 다시 묶었다.
+- 선호 신호: 저자는 컴퓨터 구조를 부품 암기보다 실행 상태가 어디에 놓이고, 어디서 가까워지고, 어떤 통로로 안전하게 멈출 수 있는지 확인하는 운영 지도처럼 이해하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/Deploy_ERP_server_story 검증 표면과 프로토타입 흔적 보강
 - 갱신 범위: [[mapped/blog/Deploy_ERP_server_story]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/infra]] 앞부분만 참고해 이 노드가 Odoo 설치법보다 초기 운영 설계 실습 로그에 가깝다는 점을 재확인했다.
