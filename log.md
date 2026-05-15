@@ -1,3 +1,14 @@
+## 2026-05-15 | Meta 노드 점진 심화
+
+### Meta/일 업무 가시성과 사람 평가 안전장치 보강
+- 갱신 범위: [[mapped/Meta/일]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/일.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Integration/Work]]를 참고해 이 노드가 사람 판단과 업무 실행 기준을 함께 다루는 Meta 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `업무 가시성은 사람 평가를 덜 억울하게 만드는 안전장치다`를 추가했다. 신입·선임·회사 문제를 바로 성격이나 의지로 판정하기 전에 요구사항, 시도한 방법, 막힌 지점, 검토 흔적, 완료 기준이 보이는 표면이 필요하다는 점을 보강했다.
+- 선호 신호: 저자는 `일` 노트에서도 좋은 사람을 알아보는 기준만큼이나, 좋은 사람이 드러나고 나쁜 구조가 숨지 못하게 만드는 기록면과 상태 가시성을 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/일.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 사람 판단을 다루는 Meta 노트의 업무일지·가시성 메모를 평가 안전장치로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
+
 ## 2026-05-14 | Health·Human·Idea·Communication·Integration·blog·Deep Knowledge·Fundamental 노드 점진 심화
 
 ### Integration/Tool 전달 경계와 형식 변환 관점 보강
