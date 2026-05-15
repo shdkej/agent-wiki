@@ -1,5 +1,12 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·CHANGELOG 노드 점진 심화
 
+### blog/Digital_Content 서비스 종료 시나리오 보강
+- 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Digital_Content.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Movie]], `source/shdkej-content/blog/Note_Management.md` 앞부분을 참고해 이 노드가 단순 백업법이 아니라 디지털 소장 감각과 장기 재접속권을 다루는 blog 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `서비스 종료 시나리오로 보는 소유의 약한 고리`를 추가했다. 회사 폐업, 판권 정산, DRM 해제 불가능성, 장기 뷰어 보존, 블록체인 소유 인증 질문을 권리 표식과 실질 접근성의 분리 문제로 묶었다.
+- 선호 신호: 저자는 디지털 콘텐츠 소장을 파일 저장보다, 돈을 낸 사용자가 미래에도 열고 옮기고 다시 꺼내 쓸 수 있는 권리와 실행 환경의 보존 문제로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Digital_Content.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Human/Principle 원칙 층위 구분 보강
 - 갱신 범위: [[mapped/Human/Principle]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Principle.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Human/Standard]], [[mapped/Integration/Work]]의 구조만 참고해 이 노드가 Human 카테고리의 자기 운영 헌장임을 재확인했다.
