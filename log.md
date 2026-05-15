@@ -6,7 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 `변경 생애주기로 다시 보기`를 추가했다. 이슈·PR·리뷰·버전·릴리즈 노트·발표를 따로 보지 않고, 하나의 변경이 발견→진입→제안→수용→배포→재설명을 지나 다음 기여자의 길잡이로 남는 흐름으로 보강했다.
 - 선호 신호: 저자는 오픈소스에서도 좋은 기여 자체보다, 그 기여가 메인테이너의 판단 비용을 줄이고 다음 사람이 다시 따라올 수 있는 공개 자산으로 남는 구조를 더 중요하게 보는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
-- 배포: `scripts/publish-agent-wiki.sh` 실행 예정.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Logical_Thinking 오류론 복구 지도 관점 보강
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
