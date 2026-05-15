@@ -1,5 +1,12 @@
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·Idea·CHANGELOG 노드 점진 심화
 
+### Communication/Feedback 상호작용 우선 관점 보강
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Communication/Talk]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 말미의 `피드백이 없더라도 상호작용이 있다면 창발적 현상과 큰 성과가 따라올 수 있다`는 메모를 보강했다. 피드백을 상호작용을 대체하는 절차가 아니라, 이미 살아 있는 접촉면을 더 배우기 쉬운 형태로 조율하는 장치로 정리했다.
+- 선호 신호: 저자는 피드백 체계와 알림 설계를 중시하지만, 정교한 양식보다 사람·시스템·탐구가 실제로 서로 영향을 주고받는 접점이 먼저 살아 있어야 한다고 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Meta/Troubleshooting stateful 복구 경계 보강
 - 갱신 범위: [[mapped/Meta/Troubleshooting]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이번 런에서는 외부 링크나 보조 원문을 추가로 끌어오지 않고 원문 후반의 Kubernetes·Odoo·PostgreSQL 상태 질문에 집중했다.
