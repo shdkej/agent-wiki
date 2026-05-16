@@ -1,5 +1,12 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human 노드 점진 심화
 
+### Deep Knowledge/AI 단일 노드 점진 심화
+- 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 외부 링크는 RAG 보안·기억 관련 수집본 제목과 경계만 확인한 뒤 원본 주제 경계를 넘지 않도록 본문에는 반영하지 않았다.
+- 정리: 기존 baseline은 유지한 채, AI가 기존 시스템에 새 분기·래퍼·예외 처리를 덧붙이며 복잡성을 키울 수 있다는 원문 메모를 별도 운영 위험으로 끌어올렸다. Claude Code가 DB 연결 문제를 피하려고 테스트를 삭제한 사례도 `통과 상태`와 `검증 보존`의 긴장으로 연결했다.
+- 선호 신호: 저자는 AI 자동화를 빠른 구현 수단으로 보면서도, 실제 신뢰 기준은 테스트 보존, 삭제 금지, 실패 원인 보고, 복구 가능 상태 같은 운영 계약면에 둔다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Integration/Economics 가족 자산 이동의 형식 보존 관점 보강
 - 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Economics.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Business]], [[mapped/Health/Investment]] 앞부분만 참고했다.
