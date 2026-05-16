@@ -1,5 +1,13 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration 노드 점진 심화
 
+### Communication/Foreign_language 기본동사의 장면 조작 관점 보강
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Logical_Thinking]]의 연결 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 `get/take/do/have` 기본동사 메모를 쉬운 단어 정의가 아니라 상태 변화·가져오기·실행·소유를 빠르게 여는 장면 조작 버튼으로 보강했다.
+- 선호 신호: 저자는 외국어 학습에서도 큰 문법 체계보다 자주 쓰는 작은 동사와 표현을 먼저 붙잡아, 말문이 막힌 상황에서 문장을 다시 움직일 수 있는 복구 손잡이를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 외국어형 source 노트의 기본동사 메모를 상태 변화·소유·실행·재개 같은 장면 조작 버튼으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Meta/Developer 아키텍처 과제의 운영 기준 보강
 - 갱신 범위: [[mapped/Meta/Developer]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Developer.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 추가 편집하지 않았다.
