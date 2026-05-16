@@ -7,6 +7,7 @@
 - 선호 신호: 저자는 미래 계획에서도 완벽한 장기표보다, 막힌 위치와 우회로를 남겨 큰 목표 전체가 멈추지 않게 만드는 운영형 준비를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Future.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: Future형 노트의 실패 경험을 의지 부족보다 다음 재진입 지점과 우회로를 남기는 계획 설계 문제로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Communication/Foreign_language 기본동사의 장면 조작 관점 보강
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
