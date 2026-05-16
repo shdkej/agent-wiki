@@ -1,4 +1,11 @@
-## 2026-05-16 | Fundamental/Coding·Idea/Information·Communication/Talk 노드 점진 심화
+## 2026-05-16 | Fundamental·Idea·Communication·blog 노드 점진 심화
+
+### blog/100k_concurrent_server 부하 발생자와 수신자 분리 관점 보강
+- 갱신 범위: [[mapped/blog/100k_concurrent_server]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/100k_concurrent_server.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/infra]]의 상태 소유자 관점만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `localhost`, 외부 IP, vagrant, docker, Kubernetes ingress 실험 차이를 서버 성능 숫자의 흔들림이 아니라 부하 발생자·수신자·커널·네트워크·앞단 프록시의 책임 분리 문제로 보강했다.
+- 선호 신호: 저자는 대규모 부하테스트에서도 최고 숫자보다, 실패가 어느 참여자와 상태 소유자에게서 발생했는지 가르는 재현 가능한 실험 지도를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/100k_concurrent_server.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
 ### Communication/Talk 작은 응답 신호와 진입 순서 보강
 - 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
