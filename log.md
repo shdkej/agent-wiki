@@ -1,5 +1,12 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
+### Communication/Logical_Thinking 분류와 긴장 보존 루프 보강
+- 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 MECE와 변증법을 대체 관계가 아니라 `분류 기준 세우기 → 반례와 겹침 다시 호출하기 → 다음 질문 조정하기`의 순차 루프로 보강했다. 이로써 논리 노트가 깔끔한 분류표에 머물지 않고, 분류 뒤에도 남는 긴장과 반대편의 유효성을 Communication의 설명 가능성으로 옮기는 노드임을 더 선명하게 했다.
+- 선호 신호: 저자는 논리적 사고에서도 구조화 자체보다, 구조가 놓치는 반례와 애매한 사례를 다시 불러와 다음 질문을 더 정밀하게 만드는 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Integration/Creator 제품 디자인의 사용 안내 표면 보강
 - 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Creator.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Marketing]], [[mapped/Integration/Business]] 앞부분만 참고했다.
