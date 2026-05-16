@@ -1,5 +1,12 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
+### Deep Knowledge/Cloud 비용 신호와 구조 변경 기준 보강
+- 갱신 범위: [[mapped/deep-knowledge/cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 0줄 공란임을 확인하고, 기존 mapped 노트 전체를 다시 읽었다. 필요 최소 맥락으로 `source/shdkej-content/Deep Knowledge/Infra.md`, `Devops.md`, `Container.md`의 클라우드·서버리스·비용 관련 문장과 [[mapped/deep-knowledge/infra]], [[mapped/deep-knowledge/devops]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 NAT gateway, VPC Endpoint, Lambda 요청당 비용, Fargate 대안 같은 인접 `Infra` 메모를 비용표로 복사하지 않고, 관리형·서버리스 선택이 언제 네트워크 경계와 지속 실행 구조를 다시 묻게 만드는지의 상위 판단 축으로 보강했다.
+- 선호 신호: 저자는 Cloud 노트에서도 서비스명·요금표보다, 편의 선택이 비용·상태성·관측·회귀 가능성 앞에서 언제 구조 변경 신호로 바뀌는지를 보존하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 file mtime 기준으로 mapped 노트보다 오래되고 본문도 0줄이어서 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Meta/My_space 업그레이드 검증과 DevOps 실행 표면 보강
 - 갱신 범위: [[mapped/Meta/My_space]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/My_space]]만 참고했다.
