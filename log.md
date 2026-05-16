@@ -6,6 +6,7 @@
 - 정리: 기존 baseline은 유지한 채 세금 종류, 소유권 이전, 증여·상속·양도 메모를 가족 자산 이동의 형식 보존 문제로 보강했다. 가족 내부의 의사결정도 시가 산정, 등기, 세금, 증빙 책임을 통과해야 하며, Economics는 이를 생활 현금흐름 이전의 규칙 해독층으로 다룬다는 점을 선명하게 했다.
 - 선호 신호: 저자는 돈 문제에서도 혜택 크기보다 나중에 설명 가능한 형식, 선택권, 안전성을 남기는 제도 이해를 중시하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Economics.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Human/Future 재진입 손잡이와 다음 세대 환경 관점 보강
 - 갱신 범위: [[mapped/Human/Future]] 1개 페이지만 점진 심화했다.
