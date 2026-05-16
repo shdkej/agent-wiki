@@ -1,5 +1,12 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration 노드 점진 심화
 
+### Meta/Developer 아키텍처 과제의 운영 기준 보강
+- 갱신 범위: [[mapped/Meta/Developer]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Developer.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 추가 편집하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 채팅 시스템 설계, Lambda/Fargate/DynamoDB/RDS 비교, AWS/GCP 마이그레이션 상상, EKS 과제 메모를 `아키텍처 정답 풀이`가 아니라 요구사항을 운영 기준으로 바꾸고 실패 지점을 다음 설계 근거로 남기는 압축 증거로 보강했다.
+- 선호 신호: 저자는 개발자 자기소개에서도 기술명 암기보다, 요구사항·제약·서비스 선택·변경 가능성·실패 관찰이 한 흐름으로 보이는 설계 설명을 더 신뢰하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Developer.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Health/Food 소화 가능성과 처리 능력 관점 보강
 - 갱신 범위: [[mapped/Health/Food]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Food.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/Health/Routine]] 앞부분만 참고했다.
