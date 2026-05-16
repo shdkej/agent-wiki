@@ -1,4 +1,4 @@
-## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human 노드 점진 심화
+## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
 ### Deep Knowledge/AI 단일 노드 점진 심화
 - 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 점진 심화했다.
@@ -45,6 +45,14 @@
 - 정리: 기존 baseline은 유지한 채 원문의 칼로리 목표, 고형식 필요성, 액상 대체식 질문, 채소 음료, 물 섭취 타이밍, 당·나트륨·트랜스지방 메모를 `얼마나 먹을 것인가`보다 `몸이 실제로 처리 가능한 형태로 나눠 넣을 수 있는가`라는 소화 가능성 관점으로 보강했다.
 - 선호 신호: 저자는 식사 운영에서도 영양 목표 숫자만 채우기보다, 포만감·위장 부담·수분·장기 반복 가능성까지 확인해 하루 루틴과 몸 사용이 같이 무너지지 않는 입력 구조를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
+### Health/Investment 대출 이동권과 주거 운영비 관점 보강
+- 갱신 범위: [[mapped/Health/Investment]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Investment.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 링크 연결만 보강했으며 본문 편집은 하지 않았다.
+- 정리: 기존 baseline은 유지한 채 보금자리·신생아대출·일반 은행 대출 메모를 금리표가 아니라 `다음 선택지로 이동할 수 있는가`를 확인하는 제도 손잡이로 보강했다. 또한 인테리어·가전·밀프렙 메모를 소비 욕심이 아니라 주거 선택 이후의 생활 루틴 운영비로 정리했다.
+- 선호 신호: 저자는 주거 판단에서도 매매가와 대출 원리금만 보지 않고, 갈아타기 가능성·대환 조건·생활 동선·집안일 자동화·식사 준비까지 포함해 집이 실제 삶을 얼마나 덜 흔드는지 보려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 투자·주거형 source 노트의 인테리어·가전 메모를 소비 취향보다 생활 루틴을 고정하는 주거 운영비로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
 ### blog/Life_Tracking 입력 관리 요구 분리
 - 갱신 범위: [[mapped/blog/Life_Tracking]] 1개 페이지만 점진 심화했다.
