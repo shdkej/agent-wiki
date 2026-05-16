@@ -1,4 +1,11 @@
-## 2026-05-16 | Fundamental/Coding·Idea/Information 노드 점진 심화
+## 2026-05-16 | Fundamental/Coding·Idea/Information·Communication/Talk 노드 점진 심화
+
+### Communication/Talk 작은 응답 신호와 진입 순서 보강
+- 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Talk.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Feedback]], [[mapped/Communication/Foreign_language]]의 연결 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 호응, 질문, 의례적 말, 반대 의견 메모를 `작은 응답 신호`로 묶었다. 동의/비동의보다 먼저 상대가 더 말할 수 있는 수신 신호를 보내고, 깊은 진심이나 반대 의견은 상대가 들을 수 있는 진입 순서를 만든 뒤 꺼내야 한다는 점을 보강했다.
+- 선호 신호: 저자는 Talk 노트에서도 말재주보다, 호응·질문·의례·반대의 순서를 조절해 관계를 닫지 않고 감정과 사실을 함께 전달하는 대화 운영 감각을 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Talk.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
 ### Idea/Information 재프레이밍과 판단 방향 보강
 - 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
