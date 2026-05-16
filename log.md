@@ -1,5 +1,12 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration 노드 점진 심화
 
+### Health/Food 소화 가능성과 처리 능력 관점 보강
+- 갱신 범위: [[mapped/Health/Food]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Food.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/Health/Routine]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 칼로리 목표, 고형식 필요성, 액상 대체식 질문, 채소 음료, 물 섭취 타이밍, 당·나트륨·트랜스지방 메모를 `얼마나 먹을 것인가`보다 `몸이 실제로 처리 가능한 형태로 나눠 넣을 수 있는가`라는 소화 가능성 관점으로 보강했다.
+- 선호 신호: 저자는 식사 운영에서도 영양 목표 숫자만 채우기보다, 포만감·위장 부담·수분·장기 반복 가능성까지 확인해 하루 루틴과 몸 사용이 같이 무너지지 않는 입력 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/Life_Tracking 입력 관리 요구 분리
 - 갱신 범위: [[mapped/blog/Life_Tracking]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]]의 하루 기동 구조만 참고했다.
