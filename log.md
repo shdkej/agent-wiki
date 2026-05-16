@@ -1,5 +1,12 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration 노드 점진 심화
 
+### blog/Life_Tracking 입력 관리 요구 분리
+- 갱신 범위: [[mapped/blog/Life_Tracking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]]의 하루 기동 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 뉴스 브리핑, 메시지 100% 수신, 메일 적체 불안을 `놓치지 않기 / 쌓이지 않기 / 요약되기`의 세 요구로 분리했다. 입력을 더 많이 받는 문제가 아니라, 즉시 반응할 신호·나중에 처리할 더미·회고로 압축할 흐름을 가르는 문제로 보강했다.
+- 선호 신호: 저자는 라이프 트래킹에서도 정보 수집량 자체보다, 현재 집중을 덜 깨면서 필요한 신호와 하루 회고 재료를 남기는 입력 운영 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Integration/Work 프로페셔널과 전문성의 성장 축 분리
 - 갱신 범위: [[mapped/Integration/Work]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Work.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/일]], [[mapped/Communication/Teamwork]]의 구조만 참고했다.
