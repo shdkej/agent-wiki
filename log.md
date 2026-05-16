@@ -1,5 +1,12 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
+### Integration/Creator 제품 디자인의 사용 안내 표면 보강
+- 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Creator.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Marketing]], [[mapped/Integration/Business]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 디터 람스, 문 손잡이, 투명한 엘리베이터 메모를 `형태가 사용법과 내부 구조를 말해 주는 창작 표면`으로 보강했다. 창작을 보기 좋은 결과물에서 닫지 않고, 사용자가 다음 행동을 덜 헷갈리게 하는 설명 가능한 표면으로 읽는 축을 추가했다.
+- 선호 신호: 저자는 창작과 제품을 분리해서 보지 않고, 감각적 완성도와 사용자가 바로 이해할 수 있는 구조가 함께 있을 때 오래 남는 결과물로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Creator.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/picasso 오디오 가이드의 번역 인터페이스 관점 보강
 - 갱신 범위: [[mapped/blog/picasso]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/picasso.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/History]], [[mapped/deep-knowledge/ai]], [[mapped/Integration/Design]] 앞부분만 참고했다.
