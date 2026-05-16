@@ -1,5 +1,13 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
+### Idea/History 연구 환경과 상업화 경로 관점 보강
+- 갱신 범위: [[mapped/Idea/History]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/History.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Business]], [[mapped/Integration/Work]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 Bell Labs, Xerox PARC, CERN, ARPANET, IBM, MIT, Xerox와 Apple 메모를 기관 이름 목록이 아니라 `문제를 오래 품은 연구 환경 → 표준·인터페이스 → 제품화·상업화 경로`로 읽는 축을 보강했다.
+- 선호 신호: 저자는 역사에서도 최초 발명자보다 어떤 환경이 전환을 가능하게 하고, 그 결과가 어떤 사용 표면과 사업 경로로 이동했는지를 함께 보려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/History.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 역사형 source 노트의 기관·인물 메모를 영웅 목록이 아니라 전환을 오래 품은 연구·조직 환경과 제품화 경로의 증거로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Deep Knowledge/Monitoring 알림 주의 배분과 장기 실행 시간축 보강
 - 갱신 범위: [[mapped/deep-knowledge/monitoring]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Monitoring.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/devops]], [[mapped/blog/Life_Tracking]]의 피드백·운영 입력 구조만 참고했다.
