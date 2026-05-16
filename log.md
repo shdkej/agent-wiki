@@ -1,4 +1,12 @@
-## 2026-05-16 | Fundamental·Idea·Communication·blog 노드 점진 심화
+## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta 노드 점진 심화
+
+### Meta/AGENTS 약한 고리 라우팅 관점 보강
+- 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/AGENTS.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Integration/Tool]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 초반의 `약한고리를 강화한다`를 에이전트 도입 전 병목 발견 규칙으로 끌어올렸다. 역할 에이전트를 늘리는 것보다 고객·운영에서 반복되는 막힘을 먼저 찾고, 이를 역할 라우팅·문서 계약·히스토리 환류로 연결하는 순서를 보강했다.
+- 선호 신호: 저자는 에이전트 운영에서도 역할 자동화 자체보다 약한 고리를 문서와 산출물 계약으로 줄이고, 고객 반응과 운영 히스토리를 다시 공통 문서군으로 되돌리는 구조를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/AGENTS.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 에이전트 운영형 source 노트에서 역할 목록과 약한 고리 메모가 함께 나오면, 역할 자동화보다 병목 발견 → 역할 라우팅 → 문서 계약 → 히스토리 환류 순서로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
 ### Fundamental/Architecture 서비스 경계와 조직 경계 보강
 - 갱신 범위: [[mapped/Fundamental/Architecture]] 1개 페이지만 점진 심화했다.
