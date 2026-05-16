@@ -1,5 +1,13 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
+### Deep Knowledge/Monitoring 알림 주의 배분과 장기 실행 시간축 보강
+- 갱신 범위: [[mapped/deep-knowledge/monitoring]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Monitoring.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/devops]], [[mapped/blog/Life_Tracking]]의 피드백·운영 입력 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 Alert를 단순 임계치 발화가 아니라 사람의 주의 배분 정책으로 읽어 `깨우는 알림 / 확인 알림 / 기록 신호`로 분리했다. 또한 오래 켜 둔 시스템의 성능 저하 메모를 즉시 상태·추세 상태·수명 상태의 시간축으로 보강했다.
+- 선호 신호: 저자는 모니터링에서도 더 많은 지표보다, 실제 개입이 필요한 신호를 선별하고 장기 실행 중 조용히 쌓이는 상태 변화를 놓치지 않는 운영 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Monitoring.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 모니터링형 source 노트의 Alert 메모를 주의 배분 정책으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Deep Knowledge/Cloud 비용 신호와 구조 변경 기준 보강
 - 갱신 범위: [[mapped/deep-knowledge/cloud]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 0줄 공란임을 확인하고, 기존 mapped 노트 전체를 다시 읽었다. 필요 최소 맥락으로 `source/shdkej-content/Deep Knowledge/Infra.md`, `Devops.md`, `Container.md`의 클라우드·서버리스·비용 관련 문장과 [[mapped/deep-knowledge/infra]], [[mapped/deep-knowledge/devops]] 앞부분만 참고했다.
