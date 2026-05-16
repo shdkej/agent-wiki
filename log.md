@@ -1,5 +1,13 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
+### Meta/My_space 업그레이드 검증과 DevOps 실행 표면 보강
+- 갱신 범위: [[mapped/Meta/My_space]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/My_space]]만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 버전 알림, EKS 업그레이드 테스트 전략, minikube·Docker Compose 진입 표면 고민, 데브시스터즈·카카오 관리페이지 사례를 묶어 `개인 운영 공간`이 의존성 변화와 실행 접근성을 함께 흡수해야 한다는 점을 보강했다.
+- 선호 신호: 저자는 개인 인프라에서도 도구 설치보다 업그레이드 전 복제 검증, addon 호환성 확인, 중앙 요청 표면과 로컬 재현성 사이의 균형처럼 실제 운영 가능 상태를 판별하는 기준을 더 중시하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/My_space.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 개인 인프라·DevOps형 노트의 버전 업그레이드 메모를 최신화 목록보다 테스트 클러스터, 워크로드 복제, addon 호환성, 실행 진입 표면을 확인하는 운영 검증 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Communication/Logical_Thinking 분류와 긴장 보존 루프 보강
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]] 앞부분만 참고했다.
