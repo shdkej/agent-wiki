@@ -1,5 +1,12 @@
 ## 2026-05-16 | Fundamental·Idea·Communication·blog 노드 점진 심화
 
+### Fundamental/Architecture 서비스 경계와 조직 경계 보강
+- 갱신 범위: [[mapped/Fundamental/Architecture]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Software]], [[mapped/Meta/About_Architecture]] 앞부분을 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 마이크로서비스·팀 장벽·수평적 연결망 메모를 `나눈 뒤 다시 이해하고 협력하고 복구할 수 있는가`라는 재연결 표면 관점으로 보강했다. 또한 기본 컴포넌트와 추가 컴포넌트 목록을 최소 기반과 증설층의 분리로 정리했다.
+- 선호 신호: 저자는 Architecture 노트에서도 패턴 이름이나 분산 자체보다, 기술 경계와 조직 경계를 함께 읽고 복잡도 증가를 관측 가능한 순간까지 미루는 기준선 설계를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/100k_concurrent_server 부하 발생자와 수신자 분리 관점 보강
 - 갱신 범위: [[mapped/blog/100k_concurrent_server]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/100k_concurrent_server.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/infra]]의 상태 소유자 관점만 참고했다.
