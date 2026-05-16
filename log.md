@@ -1,3 +1,12 @@
+## 2026-05-16 | Fundamental/Coding 노드 점진 심화
+
+### Fundamental/Coding 작은 실험과 실패 선택권 보강
+- 갱신 범위: [[mapped/Fundamental/Coding]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Coding.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Architecture]], [[mapped/Fundamental/Software]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `주먹구구와 점진적 개선의 차이`, `Fatal은 최종 사용자가 하는거다`, Python/Go/JS/Kotlin의 작은 문법 실험을 각각 검증 가능한 변경 습관, 에러 선택권 보존, 언어별 런타임 관찰 로그로 보강했다.
+- 선호 신호: 저자는 Coding 노트에서도 문법 지식이나 원칙 암기보다, 작은 재현 실험으로 상태·주소·실행 순서·에러 전파를 확인하고 그 결과를 변경 가능한 코딩 습관으로 끌어올리는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Coding.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-15 | Health·Communication·Meta·Deep Knowledge·Human·Integration·Idea·CHANGELOG 노드 점진 심화
 
 ### Communication/Feedback 상호작용 우선 관점 보강
