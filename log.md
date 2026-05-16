@@ -1,4 +1,11 @@
-## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta 노드 점진 심화
+## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration 노드 점진 심화
+
+### Integration/Work 프로페셔널과 전문성의 성장 축 분리
+- 갱신 범위: [[mapped/Integration/Work]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Work.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/일]], [[mapped/Communication/Teamwork]]의 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 프로페셔널·전문가·경력·덕후 메모를 같은 서열로 합치지 않고, `신뢰 가능한 마감`과 `애매한 판단을 줄이는 경험`이라는 두 성장 축으로 분리했다.
+- 선호 신호: 저자는 업무 성장도 단순한 노력량보다, 맡은 일을 예측 가능하게 닫아 신뢰를 만들고 그 과정에서 만난 예외와 애매한 판단을 다음 전문성의 재료로 축적하는 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Work.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
 ### Meta/AGENTS 약한 고리 라우팅 관점 보강
 - 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 점진 심화했다.
