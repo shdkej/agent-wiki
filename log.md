@@ -2208,6 +2208,16 @@
 - 선호 신호: 저자는 빈 Cloud 노트도 외부 일반론이나 벤더 백과사전으로 채우기보다, 나중에 직접 메모가 들어왔을 때 어떤 층위의 판단으로 읽어야 하는지 먼저 고정하는 정리를 더 선호하는 경향이 보인다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
+## 2026-05-17 | Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/Devops CI 리포트와 피드백 표면 보강
+- 갱신 범위: [[mapped/deep-knowledge/devops]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Devops.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/infra]], [[mapped/deep-knowledge/monitoring]]만 참고했다.
+- 정리: 기존 baseline은 유지한 채 실패 메시지, PR 코멘트, 테스트 리포트, artifact, 코드리뷰봇, 레포 관리 AI, Devops Agent 메모를 `CI 리포트는 다음 행동을 여는 피드백 표면이다`라는 축으로 보강했다.
+- 선호 신호: 저자는 DevOps 자동화를 통과/실패 판정이나 도구 설정으로 끝내기보다, 개발자·리뷰어·배포자·운영자가 다음 행동으로 재진입할 수 있게 맥락을 돌려주는 작업 상태 전달 인터페이스로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Devops.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: DevOps형 source 노트의 CI 실패 메시지·PR 코멘트·리포트·봇 메모를 작업 상태 전달 인터페이스로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ## 2026-05-03 | Root·Meta·Communication·Human·Health 노드 점진 심화
 
 ### CHANGELOG 단일 노드 점진 심화
