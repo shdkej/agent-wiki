@@ -1,5 +1,13 @@
 ## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge 노드 점진 심화
 
+### Deep Knowledge/Data 입력 적체와 재등장 설계 보강
+- 갱신 범위: [[mapped/deep-knowledge/data]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/blog/Life_Tracking]]의 연결 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 입력 적체, 웹서핑, 인박스, 정보 초조함 메모를 `재등장 설계` 관점으로 보강했다. 개인 데이터 관리는 전부 보관하는 문제가 아니라 즉시 처리할 신호, 나중에 다시 볼 후보, 장기 기억의 씨앗을 가르는 라우팅 문제라는 점을 선명하게 했다.
+- 선호 신호: 저자는 데이터 관리에서도 저장량 자체보다, 처리하지 않은 자료가 나중에 다시 나타날 조건과 잃지 않는다는 운영 신뢰를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 데이터형 source 노트의 입력 적체·인박스 메모를 재등장 조건 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Idea/Article 사례 모음의 결과물 압축 기준 보강
 - 갱신 범위: [[mapped/Idea/Article]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Article.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Reading]], [[mapped/Communication/Blogging]] 앞부분만 참고했다.
