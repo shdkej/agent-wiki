@@ -6,6 +6,13 @@
 - source 규칙: 새 외부 링크 문서는 YAML frontmatter, Source Boundary, 출처 URL, 처리 상태, 재사용 포인트를 포함하도록 고정했다.
 - 정합성 점검: `source/external-links/`의 기존 markdown 파일을 감사해 frontmatter/source_type/Source Boundary 누락을 보강했다.
 
+### blog/My_space Tool·Service·Infra 3층 분리 보강
+- 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/My_space]], `source/shdkej-content/Deep Knowledge/Infra.md`를 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 말미의 `Tool / Service / Infra` 분류를 사용자 조작 표면, 실제 워크로드, 운영 제어면의 분리로 보강했다.
+- 선호 신호: 저자는 개인 인프라에서도 Kubernetes 도입 자체보다, 어떤 요소가 사용자 진입·서비스 가치·관측/배포/복구 책임을 맡는지 나눠 오래 굴릴 수 있는 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/My_space.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Communication/Logical_Thinking 철학 렌즈와 사고 후처리 층 보강
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Document]]의 연결 축만 참고했다.
