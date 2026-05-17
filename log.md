@@ -6,6 +6,13 @@
 - source 규칙: 새 외부 링크 문서는 YAML frontmatter, Source Boundary, 출처 URL, 처리 상태, 재사용 포인트를 포함하도록 고정했다.
 - 정합성 점검: `source/external-links/`의 기존 markdown 파일을 감사해 frontmatter/source_type/Source Boundary 누락을 보강했다.
 
+### Human/Readability 복귀 경로 관점 보강
+- 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]]의 연결 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 쉬운 설명이 원래 이름·원래 밀도·원래 난도로 다시 돌아가게 해야 한다는 `복귀 경로` 관점을 보강했다. 가독성을 독자를 편하게 머무르게 하는 표면이 아니라 원본·공식 문서·실제 난도 앞으로 다시 데려가는 안내 구조로 정리했다.
+- 선호 신호: 저자는 쉬운 설명을 선호하지만, 쉬움이 원문 손실·전문어 단절·어려움 회피로 바뀌는 것을 경계하며 친절함과 검증 가능성을 함께 남기는 정리를 더 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Readability.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/My_space Tool·Service·Infra 3층 분리 보강
 - 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/My_space]], `source/shdkej-content/Deep Knowledge/Infra.md`를 참고했다.
