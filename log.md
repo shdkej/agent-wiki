@@ -1,5 +1,13 @@
 ## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge·Communication 노드 점진 심화
 
+### Communication/Blogging 반복 발행 포맷 후보 보강
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Idea/Article]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `favorite`, `Item List`를 단순 취향 목록이 아니라 데스크 셋업·앱·여행팩·홈 아이템처럼 시간이 지나도 반복 가능한 생활/도구 발행 포맷 후보로 보강했다.
+- 선호 신호: 저자는 블로그 소재에서도 스펙 나열보다 실제 선택 이유, 제외한 대안, 반복 사용 후 남은 만족, 생활 장면을 독자에게 전달하는 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Blogging.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 블로깅형 source 노트의 favorite·Item List를 반복 발행 가능한 생활/도구 포맷 후보로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Deep Knowledge/Cloud 공개·비공개 출입구 경계 보강
 - 갱신 범위: [[mapped/deep-knowledge/cloud]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 0줄 공란임을 확인하고, 기존 mapped 노트 전체를 다시 읽었다. 필요 최소 맥락으로 `source/shdkej-content/Deep Knowledge/Infra.md`, `Container.md`, `Devops.md`의 cloud/public/private/비용/관측 관련 줄만 필터링해 참고했다.
