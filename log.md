@@ -115,6 +115,14 @@
 - 선호 신호: 저자는 악기 입문에서도 곡 완주나 이론량보다, 실패 원인을 작게 분리해 다음 5분 연습 단위로 되돌리는 구조를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
+### Integration/Marketing 출시 전 learning-mode 관점 보강
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 보조 외부 소스 `source/external-links/marketing/2026-05-17-prelaunch-plg-activation.md`를 원본 경계를 넘지 않는 supporting context로만 제한 참조했다.
+- 정리: 기존 baseline은 유지한 채 원문의 무료 활성사용자, 전환, 고객 플래그 메모를 정식 출시 전 learning-mode 관점으로 보강했다. 작은 지표를 성과로 판정하기보다 첫 가치 순간, PQL 후보 행동, 라이프사이클 메시지, 코호트 관찰 기준을 미리 세우는 사전 질문 정의가 중요하다는 점을 추가했다.
+- 선호 신호: 저자는 마케팅에서도 낮은 신호 단계의 숫자보다, 나중에 실제 데이터가 들어왔을 때 덜 추측하게 만드는 기준·질문·관찰 표면을 먼저 세우는 운영 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 정식 출시 전·저신호 제품의 마케팅 메모를 성과 판정보다 activation/PQL/lifecycle 질문 정의로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
 ### Idea/History 연구 환경과 상업화 경로 관점 보강
