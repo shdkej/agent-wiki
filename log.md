@@ -84,6 +84,7 @@
 - 정리: 기존 baseline은 유지한 채, 컨퍼런스 영상·넷플릭스 해시태그·한국십진분류표·대학수업·인터넷에서 찾을 수 없는 관찰 메모를 `정보가 다시 등장하는 표면`으로 묶어 보강했다.
 - 선호 신호: 저자는 정보 노트에서도 자료량 자체보다 나중에 어떤 표면으로 다시 나타나 판단과 탐구를 열어 주는지를 더 중요하게 보는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Information.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
 ### Human/Future 재진입 손잡이와 다음 세대 환경 관점 보강
 - 갱신 범위: [[mapped/Human/Future]] 1개 페이지만 점진 심화했다.
