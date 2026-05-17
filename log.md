@@ -1,5 +1,12 @@
 ## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge·Communication 노드 점진 심화
 
+### Deep Knowledge/Cloud 공개·비공개 출입구 경계 보강
+- 갱신 범위: [[mapped/deep-knowledge/cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 0줄 공란임을 확인하고, 기존 mapped 노트 전체를 다시 읽었다. 필요 최소 맥락으로 `source/shdkej-content/Deep Knowledge/Infra.md`, `Container.md`, `Devops.md`의 cloud/public/private/비용/관측 관련 줄만 필터링해 참고했다.
+- 정리: 기존 baseline은 유지한 채 인접 source의 public IP, public/private subnet, NAT, VPC Endpoint, 계정 분리, CloudWatch/Flow Logs 메모를 `설정값`으로 옮기지 않고 `사용자·운영자·자동화·관리형 서비스가 드나드는 출입구 설계`라는 상위 판단 축으로 보강했다.
+- 선호 신호: 저자는 빈 Cloud 노드에서도 일반 클라우드 지식을 채우기보다, 인접 실행 메모가 반복해서 드러내는 접근 경계·피해 반경·관측 가능성을 상위 선택 기준으로만 승격하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 file mtime 기준으로 mapped 노트보다 오래되고 여전히 공란이어서 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Integration/Business 개인 문제와 구조 문제의 책임 귀속 보강
 - 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Business.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Integration/Marketing]] 앞부분만 참고했다.
