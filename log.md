@@ -1,4 +1,4 @@
-## 2026-05-17 | Fundamental 자료구조·blog EKS·Meta 아키텍처 노드 점진 심화
+## 2026-05-17 | Fundamental·blog·Meta 아키텍처 노드 점진 심화
 
 ### Human/Reality 관객과 해설의 현실 접속면 보강
 - 갱신 범위: [[mapped/Human/Reality]] 1개 페이지만 점진 심화했다.
@@ -43,6 +43,14 @@
 - 정리: 기존 baseline은 유지한 채 원문 후반의 `business logic`, 모델 정의, CRUD extension, serverless, aggregation API 메모를 `추상 경계와 세부 책임의 동시 배치` 문제로 보강했다.
 - 선호 신호: 저자는 아키텍처 노트에서도 공통형·추상화 자체보다, 도메인 규칙과 호출 경계와 테스트 표면이 어디에 남아야 다음 변경 때 길을 잃지 않는지를 더 중요하게 보는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
+### Fundamental/Infra 대표 표면의 변경·관측 책임 보강
+- 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Network]], [[mapped/deep-knowledge/infra]]의 경계·상태 소유자 관점만 참고했다.
+- 정리: 기존 baseline은 유지한 채 Route53, CloudFront, ALB/NLB, ingress, external-dns 메모를 `대표 표면` 관점으로 묶어 변경 전파, 캐시 무효화, 인증서, 라우팅, 로그 책임을 보강했다.
+- 선호 신호: 저자는 인프라 앞단 장치를 빠른 접속이나 단순 보호막보다, 사용자가 보는 하나의 주소 뒤에서 변경·캐시·관측·장애 해석 책임을 안정적으로 모으는 운영 인터페이스로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 인프라형 source 노트의 DNS/CDN/LB/ingress 메모를 대표 표면의 변경·관측 책임점으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
