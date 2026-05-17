@@ -1,3 +1,13 @@
+## 2026-05-17 | Fundamental 자료구조 노드 점진 심화
+
+### Fundamental/Data_Structure 경계 입력과 수치 표현 오차 관점 보강
+- 갱신 범위: [[mapped/Fundamental/Data_Structure]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Data_Structure.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/data]], [[mapped/Fundamental/Computer_Architecture]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 중간의 배열 길이 1개, 끝값 검사, 구간 포함, 실수 비교, 큰 수 계산 순서 메모를 `자료구조 선택 뒤에 따라오는 경계 입력과 표현 오차` 관점으로 보강했다.
+- 선호 신호: 저자는 자료구조를 평균 시간복잡도 표로만 보지 않고, 선택한 구조가 어떤 입력에서 깨지는지와 그 실패를 어떻게 최소 조건으로 재현할지까지 함께 보려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Data_Structure.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 자료구조·알고리즘형 source 노트의 경계값·수치 오차 메모를 예외 감지 훈련으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
 ### Idea/History 연구 환경과 상업화 경로 관점 보강
