@@ -78,6 +78,13 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Economics.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 완료.
 
+### Idea/Information 단일 노드 점진 심화
+- 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Information.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Article]], [[mapped/Idea/Journal]]만 참고해 이 노드가 저장소 선택보다 정보의 발견·분류·재호출·판단 전환을 맡는 상위 Idea 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채, 컨퍼런스 영상·넷플릭스 해시태그·한국십진분류표·대학수업·인터넷에서 찾을 수 없는 관찰 메모를 `정보가 다시 등장하는 표면`으로 묶어 보강했다.
+- 선호 신호: 저자는 정보 노트에서도 자료량 자체보다 나중에 어떤 표면으로 다시 나타나 판단과 탐구를 열어 주는지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Information.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Human/Future 재진입 손잡이와 다음 세대 환경 관점 보강
 - 갱신 범위: [[mapped/Human/Future]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Future.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Reality]], [[mapped/Health/Routine]] 앞부분만 참고했다.
