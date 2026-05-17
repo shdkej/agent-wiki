@@ -1,5 +1,12 @@
 ## 2026-05-17 | Fundamental 자료구조 노드 점진 심화
 
+### Human/Evolve 변화 수용 경로 관점 보강
+- 갱신 범위: [[mapped/Human/Evolve]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Evolve.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]], [[mapped/Human/Reality]], [[mapped/Fundamental/Architecture]]의 관련 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 속 상향식/하향식, 디자인 시스템 통일, 환경 변화, 현재 실행 메모를 묶어 `변화가 들어오는 경로` 관점으로 보강했다. 좋은 변화는 내용의 타당성만이 아니라 현장에서 자라고, 반복 환경까지 바뀌며, 현재 실행을 비우지 않는 방식으로 들어와야 지속된다는 점을 선명하게 했다.
+- 선호 신호: 저자는 변화 메모에서도 새 기준이나 목표 선언보다, 그 기준이 어떤 경로로 생겨났고 사람들이 자기 경험으로 납득하며 반복할 수 있는지를 함께 보려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Evolve.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Fundamental/Data_Structure 경계 입력과 수치 표현 오차 관점 보강
 - 갱신 범위: [[mapped/Fundamental/Data_Structure]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Data_Structure.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/data]], [[mapped/Fundamental/Computer_Architecture]] 앞부분만 참고했다.
