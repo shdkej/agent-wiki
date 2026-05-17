@@ -1,4 +1,4 @@
-## 2026-05-17 | Fundamental 자료구조 노드 점진 심화
+## 2026-05-17 | Fundamental 자료구조·blog EKS 노드 점진 심화
 
 ### Health/Physical 준비와 회복의 상태 전환 절차 보강
 - 갱신 범위: [[mapped/Health/Physical]] 1개 페이지만 점진 심화했다.
@@ -22,6 +22,13 @@
 - 선호 신호: 저자는 자료구조를 평균 시간복잡도 표로만 보지 않고, 선택한 구조가 어떤 입력에서 깨지는지와 그 실패를 어떻게 최소 조건으로 재현할지까지 함께 보려는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Data_Structure.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 자료구조·알고리즘형 source 노트의 경계값·수치 오차 메모를 예외 감지 훈련으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
+### blog/EKS_with_terraform Cluster Autoscaler 경계 보강
+- 갱신 범위: [[mapped/blog/EKS_with_terraform]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/EKS_with_terraform.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/infra]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 Cluster Autoscaler 미완 실험을 `scaling_config`, controller 설치, pending pod 신호, AWS 실행 권한의 분리 문제로 보강했다.
+- 선호 신호: 저자는 관리형 Kubernetes 실습에서도 자동화 성공 여부를 한 문장으로 닫기보다, 어떤 설정값과 어떤 control loop가 실제 완료 조건을 만든 것인지 나누어 보려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/EKS_with_terraform.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
