@@ -1,5 +1,12 @@
 ## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge·Communication 노드 점진 심화
 
+### Integration/Business 개인 문제와 구조 문제의 책임 귀속 보강
+- 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Business.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Integration/Marketing]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 신입·퇴사자·선임을 둘러싼 불만 메모를 `개인 문제 vs 구조 문제`의 책임 귀속 판단 축으로 보강했다. 불만과 비난을 바로 성격 문제로 닫지 않고, 실제 역량 부족·관계 마찰·온보딩 설계·착취 가능성·현실 교육을 나눠 보는 구조를 추가했다.
+- 선호 신호: 저자는 Business 노트에서도 사람 평가를 빠르게 단정하기보다, 조직이 사람을 실패시키는 조건과 사람이 조직에 남기는 실제 위험 신호를 함께 구분하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Business.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Knowledge Lab schema/source 규칙 정렬
 - 갱신 범위: Knowledge Lab 루트의 `schema/`, `source/` README 계층, `configs/agent-rules.md`, `AGENT_RULES.md`를 Karpathy식 LLM wiki 패턴에 맞춰 정렬했다.
 - 구조 결정: `source/`는 raw source, `agent-wiki/`는 컴파일된 지식, `schema/`는 convention 레이어로 명시했다.
