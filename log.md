@@ -1,4 +1,11 @@
-## 2026-05-17 | Fundamental·blog·Meta 아키텍처 노드 점진 심화
+## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge 노드 점진 심화
+
+### Deep Knowledge/Web PWA와 권한 기대 경계 보강
+- 갱신 범위: [[mapped/Deep Knowledge/Web]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Web.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 추가 편집하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문의 PWA, 센서 감지, 푸시 알림 메모를 웹 기능 확장 목록이 아니라 웹이 생활 신호에 깊게 들어올 때 생기는 권한 기대와 신뢰 경계 문제로 보강했다.
+- 선호 신호: 저자는 Web 노트에서도 최신 기능 가능성 자체보다, 그 기능이 사용자의 생활 흐름과 알림 피로, 실패 시 설명 책임을 어떻게 바꾸는지를 함께 보려는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Web.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
 ### Human/Reality 관객과 해설의 현실 접속면 보강
 - 갱신 범위: [[mapped/Human/Reality]] 1개 페이지만 점진 심화했다.
