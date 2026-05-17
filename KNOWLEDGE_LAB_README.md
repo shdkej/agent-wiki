@@ -5,7 +5,9 @@
 ## 구조
 
 - `source/shdkej-content/` — 블로그/content 레포에서 복사한 원본 노트
+- `source/external-links/` — 사용자 원본과 섞지 않는 보조 외부 소스 레이어
 - `agent-wiki/` — 에이전트가 유지하는 위키 레이어
+- `schema/` — source/wiki/log/frontmatter 등 Knowledge Lab 운영 스키마
 - `human-reviews/` — 사용자가 직접 고친 노트나 비교용 스냅샷
 - `configs/agent-rules.md` — 장기 운영 규칙
 - `scripts/` — 보조 스크립트
@@ -25,3 +27,12 @@
 - 가져온 원본 노트를 조용히 덮어쓴다
 - 노트를 다른 주제로 바꿔버린다
 - 문서를 끝없이 길게 늘린다
+
+## LLM Wiki 원칙
+
+Knowledge Lab은 Karpathy식 LLM wiki 패턴을 따른다.
+
+- raw source는 `source/`에 보존한다.
+- 컴파일된 지식은 `agent-wiki/`에 축적한다.
+- 운영 관례와 문서 타입은 `schema/`에 고정한다.
+- 새 자료를 넣을 때는 단순 요약으로 끝내지 않고, 관련 wiki 페이지와 index/log에 연결할지 판단한다.

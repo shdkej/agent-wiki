@@ -1,10 +1,17 @@
-## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge 노드 점진 심화
+## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge·Communication 노드 점진 심화
 
 ### Knowledge Lab schema/source 규칙 정렬
 - 갱신 범위: Knowledge Lab 루트의 `schema/`, `source/` README 계층, `configs/agent-rules.md`, `AGENT_RULES.md`를 Karpathy식 LLM wiki 패턴에 맞춰 정렬했다.
 - 구조 결정: `source/`는 raw source, `agent-wiki/`는 컴파일된 지식, `schema/`는 convention 레이어로 명시했다.
 - source 규칙: 새 외부 링크 문서는 YAML frontmatter, Source Boundary, 출처 URL, 처리 상태, 재사용 포인트를 포함하도록 고정했다.
 - 정합성 점검: `source/external-links/`의 기존 markdown 파일을 감사해 frontmatter/source_type/Source Boundary 누락을 보강했다.
+
+### Communication/Logical_Thinking 철학 렌즈와 사고 후처리 층 보강
+- 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Document]]의 연결 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 후반 철학 메모를 교양 요약이 아니라 `내 판단이 어떤 전제에서 출발했는가`를 묻는 검사 도구로 보강했고, 마지막 꿈 메모를 의식적 분류가 놓친 연결이 뒤늦게 조합되는 사고의 후처리 층으로 정리했다.
+- 선호 신호: 저자는 논리 노트에서도 증명 형식만이 아니라 세계관, 언어 경계, 무의식적 재조합까지 함께 보며, 좋은 질문과 검토 가능한 설명 재료를 오래 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
 ### Deep Knowledge/Data 입력 적체와 재등장 설계 보강
 - 갱신 범위: [[mapped/deep-knowledge/data]] 1개 페이지만 점진 심화했다.
