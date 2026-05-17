@@ -211,6 +211,13 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 투자·주거형 source 노트의 인테리어·가전 메모를 소비 취향보다 생활 루틴을 고정하는 주거 운영비로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
+### Idea/Travel 장거리 동선과 귀국 후 적용 관점 보강
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/Idea/Journal]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 2026년 세계여행 목록을 세부 일정표가 아니라 문화권 전환, 장거리 이동 리듬, 피로 회수, 귀국 후 적용을 열어 두는 동선 초안으로 보강했다.
+- 선호 신호: 저자는 여행 계획에서도 나라 수나 관광지 수보다, 이동 중 어떤 감각과 판단 기준을 시험하고 돌아와서 삶에 어떻게 적용할지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/Life_Tracking 입력 관리 요구 분리
 - 갱신 범위: [[mapped/blog/Life_Tracking]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]]의 하루 기동 구조만 참고했다.
