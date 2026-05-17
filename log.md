@@ -94,6 +94,13 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Infra.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 인프라형 source 노트의 DNS/CDN/LB/ingress 메모를 대표 표면의 변경·관측 책임점으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
+### Health/Music 양손 역할 계약 관점 보강
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/Health/Routine]]의 몸 감각·짧은 반복 관점만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `왼손 오른손 어떤걸 해야할까` 질문을 단순 주법 요청이 아니라, 왼손의 위치 선택·오른손의 소리 발화와 시간감·합칠 때 실패 원인을 하나씩 보이게 하는 역할 계약으로 보강했다.
+- 선호 신호: 저자는 악기 입문에서도 곡 완주나 이론량보다, 실패 원인을 작게 분리해 다음 5분 연습 단위로 되돌리는 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-16 | Fundamental·Idea·Communication·blog·Meta·Integration·Human·Health 노드 점진 심화
 
 ### Idea/History 연구 환경과 상업화 경로 관점 보강
