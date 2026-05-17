@@ -1,5 +1,11 @@
 ## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge 노드 점진 심화
 
+### Knowledge Lab schema/source 규칙 정렬
+- 갱신 범위: Knowledge Lab 루트의 `schema/`, `source/` README 계층, `configs/agent-rules.md`, `AGENT_RULES.md`를 Karpathy식 LLM wiki 패턴에 맞춰 정렬했다.
+- 구조 결정: `source/`는 raw source, `agent-wiki/`는 컴파일된 지식, `schema/`는 convention 레이어로 명시했다.
+- source 규칙: 새 외부 링크 문서는 YAML frontmatter, Source Boundary, 출처 URL, 처리 상태, 재사용 포인트를 포함하도록 고정했다.
+- 정합성 점검: `source/external-links/`의 기존 markdown 파일을 감사해 frontmatter/source_type/Source Boundary 누락을 보강했다.
+
 ### Deep Knowledge/Data 입력 적체와 재등장 설계 보강
 - 갱신 범위: [[mapped/deep-knowledge/data]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/blog/Life_Tracking]]의 연결 축만 참고했다.
