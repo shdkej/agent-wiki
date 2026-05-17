@@ -6,6 +6,14 @@
 - source 규칙: 새 외부 링크 문서는 YAML frontmatter, Source Boundary, 출처 URL, 처리 상태, 재사용 포인트를 포함하도록 고정했다.
 - 정합성 점검: `source/external-links/`의 기존 markdown 파일을 감사해 frontmatter/source_type/Source Boundary 누락을 보강했다.
 
+### Meta/Collection 미해결 질문의 탐색 큐 관점 보강
+- 갱신 범위: [[mapped/Meta/Collection]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Collection.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]], [[mapped/Idea/Information]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 아에로플로트 보딩패스, 새벽 공항 교통, 유심 호환 같은 작은 미해결 질문을 잡메모가 아니라 `다음에 다시 확인해야 할 탐색 큐`로 보강했다.
+- 선호 신호: 저자는 Collection 노트에서도 큰 가치·비교축뿐 아니라, 답이 막힌 작고 구체적인 생활/기기 질문을 검색 표면과 실사용 검증 지점으로 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Collection.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Collection형 source 노트의 작은 미해결 생활·기기 질문을 삭제하거나 일반 팁으로 평탄화하지 말고, 정보 공백과 다음 확인 지점을 보존하는 탐색 큐로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Human/Readability 복귀 경로 관점 보강
 - 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]]의 연결 축만 참고했다.
