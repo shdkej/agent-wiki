@@ -7,6 +7,13 @@
 - 선호 신호: 저자는 현실 노트에서도 이론·작품·설계가 실제 사람에게 도달하는 번역 표면을 중요하게 보며, 설명이 결과물을 대신 꾸미는 상태는 경계하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Reality.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
+### Human/Standard 하향식 기준의 현장 번역 비용 보강
+- 갱신 범위: [[mapped/Human/Standard]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Standard.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]], [[mapped/Human/Reality]]의 구조와 제목만 참고했다.
+- 정리: 기존 baseline은 유지한 채 정부 지침, 표준 프레임워크, 자유학기제, 하향식 메뉴얼 메모를 `기준이 내려오는 순간 생기는 현장 번역 비용` 관점으로 보강했다.
+- 선호 신호: 저자는 기준의 내용만큼이나 그 기준을 적용자가 자기 장면에 맞게 해석할 수 있는지, 반례가 다시 기준 수정으로 돌아갈 수 있는지를 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Standard.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Health/Physical 준비와 회복의 상태 전환 절차 보강
 - 갱신 범위: [[mapped/Health/Physical]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Physical.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Food]] 앞부분만 참고했다.
