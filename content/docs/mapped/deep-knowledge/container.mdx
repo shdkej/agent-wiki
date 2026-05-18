@@ -193,6 +193,27 @@ title: "Container"
 
 이 층은 `클러스터를 띄운다` 이후에야 시작되는 실제 운영 부담을 보여 준다. 원문이 k3s, EKS, GlusterFS, metrics-server, cluster autoscaler, chaos tool까지 흩어 적는 이유도 여기에 있다.
 
+## 로컬 실험에서 관리형 운영으로 넘어가는 사다리
+원문 후반의 k3s, Helm, ArgoCD, Spinnaker, EKS 메모는 도구 쇼핑 목록이 아니다. 이들은 `내 손으로 클러스터를 띄워 본다`에서 `운영 상태를 선언하고 되돌릴 수 있게 만든다`로 넘어갈 때 필요한 단계별 확인면이다.
+
+| 단계 | 원문 표지 | 읽는 법 |
+|---|---|---|
+| 로컬 클러스터 | k3s, minikube, local image, `imagePullPolicy: Never` | 실제 쿠버네티스 객체가 어떻게 붙는지 빠르게 확인하는 실험장 |
+| 패키징 | Helm chart, values, templates | 매니페스트 반복을 줄이되, 어떤 값이 환경별로 달라지는지 드러내는 설정 표면 |
+| 선언형 동기화 | ArgoCD, GitOps, GitHub Actions 의존성 질문 | 현재 클러스터 상태를 사람이 직접 기억하지 않고 저장소와 비교하게 만드는 방식 |
+| 배포 오케스트레이션 | Spinnaker, rollback, image tag, rollout history | 빌드·배포·승인·되돌리기를 하나의 흐름으로 묶는 운영 절차 |
+| 관리형 운영 | EKS, pod limit, IAM, autoscaler, NLB, ingress-nginx | 클라우드가 대신해 주는 부분과 여전히 직접 책임져야 하는 네트워크·권한·비용을 분리하는 층 |
+
+이 사다리에서 중요한 것은 `어떤 도구가 더 좋은가`가 아니라, 지금 단계에서 어떤 책임을 명시적으로 넘겨야 하는가다. k3s는 빠른 학습과 재현 실험에 강하지만 운영 권한·스토리지·모니터링 책임을 사라지게 하지 않는다. Helm은 파일 수를 줄여 주지만 values 관리가 새 복잡성이 될 수 있다. ArgoCD는 클러스터 상태를 Git으로 되돌려 보게 해 주지만, 잘못 선언된 상태도 충실히 동기화한다. EKS는 control plane 부담을 줄이지만 VPC, IAM, ingress, pod density 같은 클라우드 고유 제약을 새로 가져온다.
+
+따라서 이 노드의 확장 도구 메모는 다음 질문으로 정리하는 편이 좋다.
+
+- 로컬에서 확인한 동작을 같은 방식으로 원격 클러스터에서 재현할 수 있는가?
+- 설정 차이는 Helm values, namespace, kubeconfig, secret 중 어디에 남아야 하는가?
+- 배포 상태의 진실은 사람의 터미널 히스토리, Git 저장소, CI 로그, 클러스터 중 어디에 있는가?
+- 관리형 서비스가 덜어 준 책임과 새로 만든 제약을 구분했는가?
+- 새 도구를 붙였을 때 장애 진입점이 더 명확해졌는가, 더 길어졌는가?
+
 ## 상태 소유권과 저장소를 함께 보기
 원문 후반에는 GlusterFS, StatefulSet, PV, StorageClass, EKS의 Pod 제한, namespace별 request/limit, kubeconfig와 인증서 메모가 길게 붙어 있다. 겉으로는 설치 명령 모음이지만, 실제 질문은 `컨테이너가 사라져도 어떤 상태가 어디에 남는가`에 가깝다.
 
@@ -296,9 +317,10 @@ title: "Container"
 - Docker / OCI 런타임 / Podman 계열의 역할 차이를 더 선명하게 정리할 수 있다.
 - 쿠버네티스 파트를 `네트워크`, `배포`, `권한`, `운영 실수` 축으로 한 번 더 압축할 수 있다.
 - 이미지 버저닝, 핫픽스, 롤백 규칙을 이 노드만의 운영 체크리스트로 따로 추출할 수 있다.
-- EKS, k3s, Helm, ArgoCD 메모를 `로컬 실험 ↔ 관리형 운영 ↔ GitOps` 비교 축으로 재정리할 수 있다.
+- service mesh와 ingress/gateway 메모를 `트래픽 제어 위치` 관점으로 더 압축할 수 있다.
 
 ## 이번 갱신 메모
 - 기존 baseline은 유지하되, 원문 중반의 `배포와 릴리즈 분리`, Istio/NGINX canary, preStop, readiness/liveness, PM2 kill timeout, while curl 테스트 메모를 `배포와 릴리즈를 분리해 보기`로 보강했다.
 - 컨테이너 교체를 단순한 `kubectl apply`가 아니라 새 버전 준비, 트래픽 전환, 기존 요청 마무리, 라우팅 제거 확인이 이어지는 상태 전환으로 읽도록 정리했다.
 - 이전 갱신에서 보강한 상태 소유권·저장소 관점은 유지하면서, 이번에는 Container 노드가 무중단 배포와 롤백을 이미지 교체와 트래픽 전환의 이중 계약으로 다룬다는 점을 더 선명하게 했다.
+- 2026-05-18 심화에서는 원문 후반의 k3s, Helm, ArgoCD, Spinnaker, EKS, local image 메모를 도구 목록으로 두지 않고, `로컬 실험 → 패키징 → 선언형 동기화 → 배포 오케스트레이션 → 관리형 운영`으로 이어지는 운영 성숙도 사다리로 보강했다.

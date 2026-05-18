@@ -1,5 +1,13 @@
 ## 2026-05-18 | Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Deep Knowledge/Container 로컬 실험에서 관리형 운영 사다리 보강
+- 갱신 범위: [[mapped/deep-knowledge/container]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 편집하지 않은 채 원문 후반의 k3s, Helm, ArgoCD, Spinnaker, EKS, local image 메모를 같은 실행·배포 경계 안에서 다시 읽었다.
+- 정리: 기존 baseline은 유지한 채 확장 도구 메모를 `로컬 실험 → 패키징 → 선언형 동기화 → 배포 오케스트레이션 → 관리형 운영`으로 이어지는 운영 성숙도 사다리로 보강했다. 도구 이름보다 책임이 어디로 이동하고 어떤 장애 진입점이 생기는지 보이도록 질문 축을 추가했다.
+- 선호 신호: 저자는 컨테이너 노트에서도 도구 도입 자체보다, 로컬에서 확인한 동작이 원격·관리형 환경에서도 같은 상태로 재현되고 되돌릴 수 있는지 확인하는 운영형 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 컨테이너형 source 노트의 k3s·Helm·ArgoCD·EKS 메모를 도구 목록이 아니라 로컬 실험에서 관리형/GitOps 운영으로 책임이 이동하는 성숙도 사다리로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Communication/Teamwork 응답의 불확실성 감소 규칙 보강
 - 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Feedback]]의 질문·피드백 축만 참고했다.
