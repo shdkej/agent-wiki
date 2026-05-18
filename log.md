@@ -1,4 +1,11 @@
-## 2026-05-18 | Communication·Deep Knowledge 노드 점진 심화
+## 2026-05-18 | Communication·Deep Knowledge·Root 노드 점진 심화
+
+### README source 레이어 경계 노드 baseline 생성
+- 갱신 범위: [[mapped/README]] 1개 페이지만 신규 생성했다.
+- 탐구: 대응 원본 `source/shdkej-content/README.md` 전체를 다시 읽었고, 기존 대응 mapped 노트가 없음을 확인했다. 필요 최소 맥락으로 [[mapped/Portfolio]], [[mapped/CHANGELOG]]의 루트 노드 역할만 참고했다.
+- 정리: 원문 11줄을 단순 안내문으로 넘기지 않고, `source/shdkej-content/`를 읽기 전용 1차 소스 레이어로 유지하며 해석·비교·합성은 agent-wiki에서 수행한다는 경계 노드로 baseline화했다.
+- 선호 신호: 저자는 원본 노트의 내용뿐 아니라 폴더 구조와 파일 단위 자체를 사고 격자로 보고, 에이전트 해석이 원본 흔적을 덮어쓰지 않기를 원하는 경향이 강하다.
+- 드리프트 점검: 기존 mapped 노트가 없어 file mtime 비교로 직접 사용자 수정 여부를 판정하지 않았고, 원본은 수정하지 않았으므로 `human-reviews/` 복사는 생략했다.
 
 ### Health/Music 짧은 질문의 실행 검증 단위 보강
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
