@@ -1,3 +1,13 @@
+## 2026-05-18 | Communication 노드 점진 심화
+
+### Communication/Feedback 입력면과 응답면 분리 보강
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Teamwork]], [[mapped/Integration/Work]]의 제목 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 말미의 `google에서 grpc request와 response를 따로 하는 이유` 메모를 API 잡항목으로 넘기지 않고, 피드백에서 입력면과 응답면을 분리해 설계해야 한다는 인터페이스 관점으로 보강했다.
+- 선호 신호: 저자는 피드백을 감정적 평가나 알림 양이 아니라, 무엇을 입력해 조정하고 무엇을 응답으로 관측해 다음 행동을 바꿀지 나누는 구조로 이해하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 피드백형 source 노트의 request/response 메모를 피드백 인터페이스 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge·Communication 노드 점진 심화
 
 ### Communication/Blogging 반복 발행 포맷 후보 보강
