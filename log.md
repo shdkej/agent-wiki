@@ -1,5 +1,12 @@
 ## 2026-05-18 | Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Integration/Exploration 근저 정보 조사 계층 보강
+- 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Exploration.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Integration/Tool]], [[mapped/Idea/Information]]의 연결 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 말미의 직급·호봉 제도 조사 예시를 끌어올려, 탐구를 공식 규칙·운영 관행·비교 사례·당사자 언어가 겹친 근저 정보 계층을 복원하는 작업으로 보강했다.
+- 선호 신호: 저자는 제도·조직·기술 판단에서도 빠른 찬반이나 단일 팩트보다, 판단이 기대는 규칙·맥락·언어·이해관계의 지층을 내려가 확인하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Exploration.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Integration/Design 문자·아이콘 번역 표면 보강
 - 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Design.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Creator]], [[mapped/Communication/Blogging]]의 표현 표면·발행 표면 축만 참고했다.
