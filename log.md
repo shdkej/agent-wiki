@@ -30,6 +30,13 @@
 - 선호 신호: 저자는 원본 노트의 내용뿐 아니라 폴더 구조와 파일 단위 자체를 사고 격자로 보고, 에이전트 해석이 원본 흔적을 덮어쓰지 않기를 원하는 경향이 강하다.
 - 드리프트 점검: 기존 mapped 노트가 없어 file mtime 비교로 직접 사용자 수정 여부를 판정하지 않았고, 원본은 수정하지 않았으므로 `human-reviews/` 복사는 생략했다.
 
+### README 단일 노드 점진 심화
+- 갱신 범위: [[mapped/README]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/README.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 `agent-wiki/content/docs/maintenance/source-mapping.mdx`를 참고해 이 노드가 개별 내용 카테고리보다 원본 만다라트 레이어의 경계·권한을 정하는 루트 문서임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 README를 `source 레이어 출입 규칙`으로 더 선명하게 보강했고, 원본 노트와 mapped 노트, external-links, syntheses가 섞이지 않도록 하는 편집 판단 섹션을 추가했다.
+- 선호 신호: 저자는 짧은 운영 README도 단순 안내문으로 방치하기보다, 원본 보존과 해석 레이어 분리를 반복 작업의 기준점으로 재사용할 수 있게 정리하는 쪽을 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/README.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Health/Music 짧은 질문의 실행 검증 단위 보강
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Physical]] 연결 축만 참고했다.
