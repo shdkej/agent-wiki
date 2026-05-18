@@ -1,5 +1,12 @@
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### blog/Decision_Monitor_Size 이동면·고정면 분리 구조 보강
+- 갱신 범위: [[mapped/blog/Decision_Monitor_Size]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Decision_Monitor_Size.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Decision]]의 후불 비용·선택 기준 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 벽 고정, 기둥 고정, 자석 고정, 책상 거치, 24인치 휴대 화면 상상을 `이동면 / 고정면 / 감상면`의 분리 설계 문제로 보강했다. 노트북 인치 비교가 아니라 이동 후 작업면을 얼마나 빠르고 덜 아프게 복원할 수 있는지의 판단 노드로 더 압축했다.
+- 선호 신호: 저자는 작업환경 선택에서도 장비 스펙보다, 이동 직후 최소 작업면과 오래 버티는 고정 작업면을 분리해 후불 비용을 낮추는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Decision_Monitor_Size.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Deep Knowledge/Product 유지력·기획 판단 구조 보강
 - 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Marketing]], [[mapped/Integration/Business]]의 유입·사업 검증 축만 참고했다.
