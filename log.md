@@ -1,5 +1,12 @@
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Deep Knowledge/AI 개인용 AI 학습 루프 보강
+- 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/data]], [[mapped/Integration/Exploration]]의 청킹·반복 탐색 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 개인 노트를 AI에게 학습시키려는 원문 메모를 `수집 → 추출 → 묶음 처리 → 반복 보정 → 정성 평가`의 분류 루프로 보강했다. RAG·파인튜닝·긴 컨텍스트를 정답 경쟁이 아니라 기억 위치, 추출 단위, 누락 보정 방식의 선택지로 다시 묶었다.
+- 선호 신호: 저자는 개인용 AI에서도 많은 자료를 한 번에 넣는 방식보다, 작은 단위 추출과 반복 보정으로 빠진 부분을 줄이고 실제 재사용 가능성을 확인하는 운영형 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/Decision_Monitor_Size 이동면·고정면 분리 구조 보강
 - 갱신 범위: [[mapped/blog/Decision_Monitor_Size]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Decision_Monitor_Size.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Decision]]의 후불 비용·선택 기준 축만 참고했다.
