@@ -1,5 +1,12 @@
 ## 2026-05-18 | Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Portfolio 외부 설명용 3문장 순서 보강
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Portfolio.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/devops]], [[mapped/Communication/Teamwork]]의 재진입·handoff 축을 참고했다.
+- 정리: 기존 baseline은 유지한 채 포트폴리오를 자기소개나 협업 설명으로 옮길 때 `문제 현장 → 바뀐 제어면 → 재진입 가능성` 순서로 말하는 3문장 압축을 보강했다. 프로젝트 수보다 개발자·운영자·의사결정자가 다시 움직일 수 있게 된 표면을 먼저 드러내는 쪽으로 정리했다.
+- 선호 신호: 저자는 포트폴리오에서도 기술명 나열보다 누가 어떤 마찰에서 벗어났고, 그 상태가 어떤 공용 표면과 문서·도식·절차로 남았는지를 설명하는 방식을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Portfolio.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Integration/Economics 공시 읽기의 설명 책임 관점 보강
 - 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Economics.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Investment]], [[mapped/Health/Decision]]의 재무·결정 축만 참고했다.
