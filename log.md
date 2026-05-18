@@ -1,5 +1,12 @@
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Deep Knowledge/Product 유지력·기획 판단 구조 보강
+- 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Marketing]], [[mapped/Integration/Business]]의 유입·사업 검증 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 `Carrying Capacity`, 기획, 페인포인트 탐색 메모를 끌어올려 제품 판단을 `유입 이후 누수 확인 → 방향성 납득 → 요구사항 필터링 → 실행 가능한 제품 판단`의 흐름으로 보강했다.
+- 선호 신호: 저자는 제품 노트에서도 더 많은 유입이나 요청 처리 자체보다, 들어온 사용자가 남을 이유가 있는지와 고객 요구를 어떤 내부 판단 절차로 번역할지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Human/Balance 접근성과 깊이 구조 보강
 - 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Balance.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]], [[mapped/Human/Reality]] 앞부분만 참고해 이 노드가 여전히 대립쌍을 장기 축적해 판단 시간을 조정하는 Human 카테고리임을 재확인했다.
