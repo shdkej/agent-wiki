@@ -1,5 +1,13 @@
 ## 2026-05-18 | Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Idea/Movie 감상 환경의 입력 조건 보강
+- 갱신 범위: [[mapped/Idea/Movie]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Movie.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 편집하지 않은 채 [[mapped/Idea/Reading]], [[mapped/Communication/Document]]의 입력·재진입 축만 연결 맥락으로 삼았다.
+- 정리: 기존 baseline은 유지한 채 원문 초반의 화질, 비트레이트, 해상도, 코덱, Blu-ray, rip 종류 메모를 기술 잡항목이 아니라 장면·색·리듬·표정이 훼손되지 않은 상태로 들어오게 하는 감상 입력 조건으로 보강했다.
+- 선호 신호: 저자는 영화 감상에서도 줄거리·메시지뿐 아니라 작품이 어떤 품질과 경로로 들어오는지까지 감상 깊이의 일부로 보는 경향이 있다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Movie.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 감상형 source 노트의 화질·소스·상영 조건 메모를 입력 품질 조건으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Integration/Exploration 근저 정보 조사 계층 보강
 - 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Exploration.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Integration/Tool]], [[mapped/Idea/Information]]의 연결 축만 참고했다.
