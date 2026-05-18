@@ -1,4 +1,4 @@
-## 2026-05-18 | Communication 노드 점진 심화
+## 2026-05-18 | Communication·Deep Knowledge 노드 점진 심화
 
 ### Communication/Feedback 입력면과 응답면 분리 보강
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
@@ -7,6 +7,14 @@
 - 선호 신호: 저자는 피드백을 감정적 평가나 알림 양이 아니라, 무엇을 입력해 조정하고 무엇을 응답으로 관측해 다음 행동을 바꿀지 나누는 구조로 이해하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 피드백형 source 노트의 request/response 메모를 피드백 인터페이스 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
+### Deep Knowledge/Web 추천·평가 UI의 재호출 표면 보강
+- 갱신 범위: [[mapped/deep-knowledge/web]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Web.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/Integration/Design]]의 관련 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 중간의 별점, 최근 업데이트 문서, 관련 문서, 관심사 기반 추천 메모를 `추천·평가 UI가 만드는 재호출 표면`으로 보강했다. 웹의 편의 기능을 장식이나 알고리즘 항목이 아니라 사용자가 다음 문서·댓글·관심사로 흐름을 이어 가는 내비게이션 장치로 정리했다.
+- 선호 신호: 저자는 Web 노트에서도 정보 표시량보다, 어떤 신호가 다음 이동과 재방문 이유를 만들어 사용자의 탐색 흐름을 덜 끊기게 하는지를 중시하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Web.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 웹형 source 노트의 추천·평가·관련 문서 UI 메모를 재호출 표면과 탐색 경로 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
 ## 2026-05-17 | Fundamental·blog·Meta·Deep Knowledge·Communication 노드 점진 심화
 
