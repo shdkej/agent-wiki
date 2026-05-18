@@ -1,5 +1,12 @@
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Human/Love 상실 이후의 생 지속 감각 보강
+- 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Human/Reality]]의 자기 보존·현실 검증 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 `사랑하는 사람이 떠나가면 죽고 싶을 정도로 힘들다`와 `사랑이 떠나가도 삶은 계속된다`가 함께 놓인 대목을 보강했다. 사랑을 가볍게 만들지 않으면서도 삶 전체의 유일한 기반으로 절대화하지 않는 상실 이후의 생 지속 감각으로 정리했다.
+- 선호 신호: 저자는 사랑 노트에서도 낭만적 절대화보다, 깊은 감정을 인정하되 현실의 시간·생활·자기 보존을 함께 남기는 균형 잡힌 관계 해석을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Meta/Fail_experience 실패 전조 표면 보강
 - 갱신 범위: [[mapped/Meta/Fail_experience]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Fail_experience.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Collection]]의 검역 대기열 축만 참고했다.
