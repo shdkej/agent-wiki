@@ -1,5 +1,12 @@
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Human/Balance 접근성과 깊이 구조 보강
+- 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Balance.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]], [[mapped/Human/Reality]] 앞부분만 참고해 이 노드가 여전히 대립쌍을 장기 축적해 판단 시간을 조정하는 Human 카테고리임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문의 메뉴 단계, 주머니/지갑 비유, 2단계/3단계 중첩, 복잡한 도구 학습 메모를 `접근성은 얕음이 아니라 재진입 비용을 줄이는 일`이라는 축으로 보강했다. 깊이를 허용하되 첫 접근면을 잃지 않는 것이 이 노드의 단순함 감각임을 더 선명히 했다.
+- 선호 신호: 저자는 Balance 노트에서도 단순함을 정보량 축소로만 보지 않고, 자주 쓰는 길은 짧게 만들면서 깊은 구조는 필요한 만큼 보존하는 재진입성 중심의 구조 판단을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Health/Curiosity 원시 질문 입력면 보강
 - 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 편집하지 않은 채 기존 연결 축만 유지했다.
