@@ -1,5 +1,12 @@
 ## 2026-05-18 | Communication·Deep Knowledge 노드 점진 심화
 
+### Health/Music 짧은 질문의 실행 검증 단위 보강
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Physical]] 연결 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `타브 보는 법`, `지판 위치가 다른가?`, `왼손 오른손 어떤걸 해야할까` 질문을 정답 요약으로 닫지 않고, 다음 연습에서 확인해야 할 행동 검증 단위로 보강했다.
+- 선호 신호: 저자는 아주 짧은 악기 입문 메모에서도 지식 백과보다 다음 5분에 무엇을 관찰하고 어디서 다시 시작할지 보이는 작은 피드백 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Communication/Feedback 입력면과 응답면 분리 보강
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Teamwork]], [[mapped/Integration/Work]]의 제목 구조만 참고했다.
