@@ -1,5 +1,13 @@
 ## 2026-05-18 | Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Integration/Design 문자·아이콘 번역 표면 보강
+- 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Design.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Creator]], [[mapped/Communication/Blogging]]의 표현 표면·발행 표면 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 글자마크, 의미 있는 링크 텍스트, 스크린리더 네비게이션 메모를 `언어·시각·보조기술 사이의 번역 표면`으로 보강했다. 아이콘은 언어 장벽을 낮추지만 의미를 대체할 수 없고, 링크 문구와 읽히는 순서까지 함께 설계해야 한다는 점을 명확히 했다.
+- 선호 신호: 저자는 디자인에서도 미감이나 컴포넌트 모양보다, 서로 다른 언어·감각·도구를 쓰는 사람이 같은 의미에 도착할 수 있는 설명 가능한 표면을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Design.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 디자인형 source 노트의 글자마크·링크 텍스트·스크린리더 메모를 의미 번역 표면으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Portfolio 외부 설명용 3문장 순서 보강
 - 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Portfolio.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/devops]], [[mapped/Communication/Teamwork]]의 재진입·handoff 축을 참고했다.
