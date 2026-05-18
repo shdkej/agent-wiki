@@ -15,6 +15,13 @@
 - 선호 신호: 저자는 개인용 AI에서도 많은 자료를 한 번에 넣는 방식보다, 작은 단위 추출과 반복 보정으로 빠진 부분을 줄이고 실제 재사용 가능성을 확인하는 운영형 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
+### Deep Knowledge/Cloud 관리형 편의의 붕괴 조건 보강
+- 갱신 범위: [[mapped/deep-knowledge/cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 0줄 공란임을 확인하고, 기존 mapped 노트 전체를 다시 읽었다. 필요 최소 맥락으로 [[mapped/deep-knowledge/infra]], [[mapped/deep-knowledge/container]]의 관리형 서비스·네트워크·상태 소유권 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 `관리형 편의가 무너지는 순간을 먼저 찾기`를 추가했다. 서버리스·Fargate·EKS·NAT·CloudWatch·IAM 메모를 서비스 추천표로 옮기지 않고, 처음의 편의가 지연시간·숨은 비용·가시성·이전 가능성 문제로 되돌아오는 조건을 판별하는 상위 질문으로 압축했다.
+- 선호 신호: 저자는 클라우드 노트에서도 관리형 서비스의 장점 자체보다, 무엇을 맡긴 뒤에도 어떤 운영 손잡이가 남아야 하는지와 편의가 언제 다시 책임으로 돌아오는지를 더 중요하게 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 0줄 공란이고 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/Decision_Monitor_Size 이동면·고정면 분리 구조 보강
 - 갱신 범위: [[mapped/blog/Decision_Monitor_Size]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Decision_Monitor_Size.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Decision]]의 후불 비용·선택 기준 축만 참고했다.
