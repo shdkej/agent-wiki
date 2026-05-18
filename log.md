@@ -1,5 +1,13 @@
 ## 2026-05-18 | Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Communication/Teamwork 응답의 불확실성 감소 규칙 보강
+- 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Communication/Feedback]]의 질문·피드백 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 GitLab식 소통 팁 후반의 `OK/할게` 비판, 마감 시간·명시적 호출·링크 첨부 메모를 `응답은 확인보다 불확실성 감소가 먼저다`로 보강했다. 비동기 소통을 느린 대화가 아니라 상대의 대기열과 추측 비용을 줄이는 handoff 문법으로 정리했다.
+- 선호 신호: 저자는 팀워크에서도 친절한 분위기보다, 다음 사람이 기다림·추측·책임 공백 없이 바로 움직일 수 있게 만드는 명시적 상태 전달을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 협업형 source 노트의 짧은 응답·참조·마감 메모를 예절 문제가 아니라 상대의 불확실성과 대기열을 줄이는 handoff 문법으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Idea/Movie 감상 환경의 입력 조건 보강
 - 갱신 범위: [[mapped/Idea/Movie]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Movie.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 편집하지 않은 채 [[mapped/Idea/Reading]], [[mapped/Communication/Document]]의 입력·재진입 축만 연결 맥락으로 삼았다.
