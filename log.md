@@ -171,6 +171,13 @@
 - 정리: 기존 baseline은 유지한 채 원문의 `favorite`, `Item List`를 단순 취향 목록이 아니라 데스크 셋업·앱·여행팩·홈 아이템처럼 시간이 지나도 반복 가능한 생활/도구 발행 포맷 후보로 보강했다.
 - 선호 신호: 저자는 블로그 소재에서도 스펙 나열보다 실제 선택 이유, 제외한 대안, 반복 사용 후 남은 만족, 생활 장면을 독자에게 전달하는 구조를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Blogging.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
+### blog/Life_Tracking 단일 노드 점진 심화
+- 갱신 범위: [[mapped/blog/Life_Tracking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]]을 참고해 이 노드가 생활 데이터 수집뿐 아니라 현재 집중을 보호하는 입력 관리 노드라는 점을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 메일 적체 불안, 뉴스 브리핑, 메시지 수신, 전환 비용 질문을 `기록하기 vs 현재 집중 보호하기`의 판단 축으로 보강했다. 또한 Life Tracking을 하루 총량 채점 장치가 아니라 하루가 어디서 끊기고 다시 이어지는지 찾는 관측 장치로 다듬었다.
+- 선호 신호: 저자는 라이프 트래킹에서도 더 많은 지표보다, 놓치지 않아야 할 신호와 나중에 회고할 더미를 분리해 현재 작업 표면을 덜 흔드는 구조를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 블로깅형 source 노트의 favorite·Item List를 반복 발행 가능한 생활/도구 포맷 후보로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
 ### Deep Knowledge/Cloud 공개·비공개 출입구 경계 보강
