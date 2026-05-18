@@ -1,5 +1,13 @@
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Fundamental/Tool 오래된 명령어의 재검증 표면 보강
+- 갱신 범위: [[mapped/Fundamental/Tool]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Tool]], [[mapped/Meta/AGENTS]], [[mapped/deep-knowledge/ai]]의 도구 편입·문서 계약 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 오래된 Linux·DB·Terraform·Serverless·gRPC 명령어를 최신 정답으로 덮지 않고 `당시 조건 / 남는 판단 구조 / 현재 재검증 표면`으로 나누어 읽는 기준을 보강했다.
+- 선호 신호: 저자는 도구 노트에서도 낡은 명령어를 단순 폐기하거나 최신 문법으로 평탄화하기보다, 왜 그 명령이 필요했고 지금 다시 실행하려면 무엇을 확인해야 하는지 남기는 운영형 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Tool.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 오래된 도구형 source 노트의 명령어는 최신 정답으로 바로 덮지 말고 당시 조건, 남는 판단 구조, 현재 재검증 표면을 분리해 보존하는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Deep Knowledge/AI 개인용 AI 학습 루프 보강
 - 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/data]], [[mapped/Integration/Exploration]]의 청킹·반복 탐색 축만 참고했다.
