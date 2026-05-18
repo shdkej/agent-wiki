@@ -1,5 +1,12 @@
 ## 2026-05-18 | Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
+### Communication/Teamwork 협업 상태 전달 모델 압축
+- 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]], [[mapped/Integration/Work]]의 문서·업무 상태 전달 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 업무 할당, 진행 공유, 응답 규칙을 `협업 상태 전달` 모델로 압축했다. 이전 보강에서 따로 설명되던 진행상황 불안, `OK/할게` 비판, 마감·소유자·링크·대안 메모를 하나의 작은 맥락 패키지 구조로 묶어 반복을 줄였다.
+- 선호 신호: 저자는 팀워크에서도 긴 보고서나 친절한 확인보다, 상대가 바로 다음 판단을 할 수 있도록 시간·소유자·위치·대안이 보이는 작은 상태 패킷을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Deep Knowledge/Container 로컬 실험에서 관리형 운영 사다리 보강
 - 갱신 범위: [[mapped/deep-knowledge/container]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Container.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 편집하지 않은 채 원문 후반의 k3s, Helm, ArgoCD, Spinnaker, EKS, local image 메모를 같은 실행·배포 경계 안에서 다시 읽었다.
