@@ -1,4 +1,12 @@
-## 2026-05-18 | Integration·Communication·Deep Knowledge·Root 노드 점진 심화
+## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
+
+### Health/Curiosity 원시 질문 입력면 보강
+- 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 관련 노트는 편집하지 않은 채 기존 연결 축만 유지했다.
+- 정리: 기존 baseline은 유지한 채 2026년 초반의 데이터 파이프라인, FDE, 알파팀, CEO 업무, 프로덕트 질문을 `원시 질문을 시스템 입력·권한 위치·도메인 접촉면과 함께 보존하는 문제 정의 전 단계`로 보강했다.
+- 선호 신호: 저자는 질문을 깨끗한 분류표로 너무 빨리 정규화하기보다, 생활 언어·현장 권한·도메인 마찰을 보존한 뒤 실행 가능한 문제로 좁히는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 호기심형 source 노트의 데이터 입력·FDE·도메인 질문을 원시 질문이 시스템으로 들어오는 입력면과 권한 흐름으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
 ### Communication/Teamwork 협업 상태 전달 모델 압축
 - 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 점진 심화했다.
