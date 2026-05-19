@@ -91,6 +91,13 @@
 - 선호 신호: 저자는 기초 수학·공학 노트에서도 공식 자체보다, 어떤 값을 재고 어떤 장치 한계에서 다시 확인해야 하는지까지 보이는 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
+### blog/picasso 품질 기준 이동 축 보강
+- 갱신 범위: [[mapped/blog/picasso]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/picasso.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/History]], [[mapped/deep-knowledge/ai]], [[mapped/Integration/Design]]의 계보·검증·디자인 판단 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 피카소 비유를 `산출물 대체`보다 `품질 기준 이동`의 문제로 압축했다. AI 이후 인간 역할을 결과 생성보다 요구사항, 운영 조건, 사용자 이해, 다음 수정 가능성까지 포함해 좋은 작업의 기준을 다시 세우는 책임으로 보강했다.
+- 선호 신호: 저자는 AI 시대 직업 역할을 단순 생존 전략이나 창의성 선언으로 닫기보다, 기존 강점이 보편 도구가 된 뒤 어떤 기준을 새로 세우고 검증해야 하는지 묻는 정리를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/picasso.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
 ### Human/Love 상실 이후의 생 지속 감각 보강
