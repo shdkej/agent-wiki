@@ -1,4 +1,4 @@
-## 2026-05-19 | Human·Fundamental·Idea·blog 노드 점진 심화
+## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge 노드 점진 심화
 
 ### Communication/Document 정보 순환 루프 보강
 - 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 점진 심화했다.
@@ -7,6 +7,14 @@
 - 선호 신호: 저자는 문서화를 산출물 꾸미기보다, 정보가 처음 들어오는 모양과 나중에 다시 쓰이는 표면까지 설계하는 운영 회로로 보는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 문서화형 source 노트의 위키·README·제품 소개·트러블슈팅·히스토리 메모는 문서 종류 목록이 아니라 정보가 재사용되기까지의 순환 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
+### deep-knowledge/data 보존 형식과 변환 비용 보강
+- 갱신 범위: [[mapped/deep-knowledge/data]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]]만 참고해 이 노드가 저장소 선택보다 장기 보존·재호출·변환 책임까지 다루는 Deep Knowledge 데이터 운영 노드임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 원문의 조선시대 사료, 회사 데이터, 백업/압축, csv/json/순수 텍스트 메모를 `보존 형식과 변환 비용` 구간으로 묶었다. 데이터 형식 선택을 취향이나 도구 목록이 아니라 장기 복원성, 사본 신뢰, 사람이 읽는 표면과 기계가 처리하는 표면 사이의 왕복 가능성 문제로 보강했다.
+- 선호 신호: 저자는 데이터 노트에서도 많이 저장하는 것보다, 시간이 지난 뒤 다시 읽고 다른 도구로 옮겨도 의미가 무너지지 않는 보존 구조를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 데이터형 source 노트의 백업·압축·csv/json/순수 텍스트 메모는 저장소 부록이 아니라 장기 복원성과 왕복 변환 가능성을 정하는 보존 형식 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
 ### blog/Digital_Content 재접속 표면별 처리 모델 보강
 - 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 점진 심화했다.
