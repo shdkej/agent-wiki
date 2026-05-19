@@ -1,5 +1,13 @@
 ## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge·Integration 노드 점진 심화
 
+### Communication/Talk 친밀감과 침범 경계 보강
+- 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Talk.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Feedback]], [[mapped/Communication/Teamwork]]의 수신 상태·심리적 안전감 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 칭찬, 약간의 유머, 결핍을 건드리지 않는 농담, 공유된 이스터에그, 소중한 사람을 위하는 마음을 `친밀감을 만드는 말과 침범하는 말 구분하기`로 보강했다. 친밀한 말의 기준을 재치나 표현력보다 상대의 가치감과 수신 안정성을 해치지 않는 경계 감각으로 정리했다.
+- 선호 신호: 저자는 대화에서도 재미있게 말하는 능력보다, 상대가 안전하게 반응할 수 있고 자기 가치가 깎이지 않는 상태를 먼저 만드는 말을 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Talk.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 대화형 source 노트의 유머·칭찬·농담 메모는 표현 기술보다 상대의 가치감과 수신 안정성을 보존하는 친밀감 경계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Meta/일 불가피한 선택의 회수 구조 보강
 - 갱신 범위: [[mapped/Meta/일]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/일.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Meta/Developer]] 앞부분만 참고했다.
