@@ -45,6 +45,13 @@
 - 선호 신호: 저자는 원칙 노트에서도 더 많은 다짐을 쌓기보다, 원칙이 실제 생활에서 어떤 방식으로 약해지는지 빨리 알아차리고 회복 신호로 바꾸는 정리를 선호하는 경향이 보인다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Principle.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
+### Fundamental/Math 공식의 실험 표면 보강
+- 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Data_Structure]], [[mapped/Fundamental/Coding]]의 구조·검증 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 수학 공식과 공학 질문이 `관계식 → 단위 → 장치 한계 → 재검증`으로 내려오는 순서를 보강했다. 통신 속도, 드론 전류·무게, CPU 공정, 블록체인 감시 주체를 같은 실험형 학습 흐름 안에서 다시 읽게 만들었다.
+- 선호 신호: 저자는 기초 수학·공학 노트에서도 공식 자체보다, 어떤 값을 재고 어떤 장치 한계에서 다시 확인해야 하는지까지 보이는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Math.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
 ### Human/Love 상실 이후의 생 지속 감각 보강
