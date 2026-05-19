@@ -1,5 +1,12 @@
 ## 2026-05-19 | Human·Fundamental·Idea 노드 점진 심화
 
+### README 원본 레이어 라우팅 기준 보강
+- 갱신 범위: [[mapped/README]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/README.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/About_Development]]의 개발 메타 노드 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원본 보존 원칙을 `source / mapped / syntheses / log / human-reviews` 중 어디에 판단을 남길지 가르는 레이어 라우팅 기준으로 보강했다.
+- 선호 신호: 저자는 원본 노트 레이어를 깔끔하게 덮어쓰는 정리보다, 거친 흔적과 폴더 위치를 보존하면서 해석·종합·드리프트 기록의 위치를 분리하는 운영형 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/README.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Health/Routine 기본값과 예외 처리 보강
 - 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Routine.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/blog/Life_Tracking]]의 몸 기동·생활 입력 축만 참고했다.
