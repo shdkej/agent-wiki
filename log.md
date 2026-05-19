@@ -8,6 +8,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Talk.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 대화형 source 노트의 유머·칭찬·농담 메모는 표현 기술보다 상대의 가치감과 수신 안정성을 보존하는 친밀감 경계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
+### Fundamental/Software 확인 리듬과 비동기 연결 보강
+- 갱신 범위: [[mapped/Fundamental/Software]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Software.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Architecture]], [[mapped/Fundamental/Coding]]의 경계·검증 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 Agile의 `계속 확인받으면서 수정`, 고객이 계속 질문받기는 원하지 않는다는 메모, 비동기 실행과 메시지 큐 예시를 `확인 리듬과 느슨한 연결` 축으로 보강했다.
+- 선호 신호: 저자는 소프트웨어 제작에서도 자주 방해하는 확인보다, 상태가 부담 없이 전달되고 다음 수정 범위가 분명해지는 피드백 구조를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Software.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Software형 source 노트의 Agile·비동기·메시지 큐 메모를 확인 리듬 설계로 함께 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Meta/일 불가피한 선택의 회수 구조 보강
 - 갱신 범위: [[mapped/Meta/일]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/일.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Meta/Developer]] 앞부분만 참고했다.
