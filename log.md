@@ -16,6 +16,13 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 운영 학습: 데이터형 source 노트의 백업·압축·csv/json/순수 텍스트 메모는 저장소 부록이 아니라 장기 복원성과 왕복 변환 가능성을 정하는 보존 형식 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
+### deep-knowledge/cloud 선택 시간층 보강
+- 갱신 범위: [[mapped/deep-knowledge/cloud]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md` 전체가 여전히 0줄 공란임을 확인하고, 기존 mapped 노트 전체를 다시 읽었다. 필요 최소 맥락으로 `source/shdkej-content/Deep Knowledge/Infra.md`, `Container.md`, `Devops.md`, `Monitoring.md`의 클라우드 관련 메모만 확인했다.
+- 정리: 기존 baseline은 유지한 채 클라우드 선택을 `도입 순간 / 운영 중 / 철수·이전 순간`의 세 시간층으로 나눠 읽는 기준을 추가했다. 특정 서비스 추천표로 확장하지 않고, 편의가 통제 포기·관측 가능성·이전 가능성 질문으로 어떻게 바뀌는지만 보강했다.
+- 선호 신호: 저자는 클라우드 노트에서도 서비스 기능보다 시작할 때의 편의, 운영 중 남는 신호, 나중에 줄이거나 옮길 손잡이를 함께 보는 운영형 판단을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Deep Knowledge/Cloud.md`는 0줄 공란이고 file mtime 기준으로 기존 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/Digital_Content 재접속 표면별 처리 모델 보강
 - 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Digital_Content.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Note_Management]], [[mapped/Communication/Blogging]] 앞부분만 참고했다.
