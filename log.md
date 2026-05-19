@@ -1,5 +1,13 @@
 ## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge·Integration 노드 점진 심화
 
+### Idea/Journal 가이드와 다중 출력 표면 보강
+- 갱신 범위: [[mapped/Idea/Journal]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Journal.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Note_Management]], [[mapped/Communication/Blogging]]의 재발견·발행 전환 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 `guide`, `입력은 하나로, 출력은 여러 개` 메모를 끌어올려, Journal의 템플릿·카테고리·다시 보기 장치를 강제 규칙이 아니라 기록이 회고·블로그·프로젝트 문서·결정 기준·오늘 할 일로 넘어가게 하는 포장도로로 보강했다.
+- 선호 신호: 저자는 기록 체계에서도 규칙을 늘리는 것보다, 낮은 마찰로 입력한 기록이 여러 출력 표면으로 변환될 수 있게 하는 유연한 운영 구조를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Journal.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Journal형 source 노트의 guide·template 메모는 고정 규칙이 아니라 기록을 다음 출력 표면으로 이동시키는 포장도로로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Meta/Collection 만다라트식 승격 기준 보강
 - 갱신 범위: [[mapped/Meta/Collection]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Collection.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/About_Development]], [[mapped/Meta/Fail_experience]]의 구조만 참고했다.
