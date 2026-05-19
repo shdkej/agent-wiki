@@ -1,5 +1,13 @@
 ## 2026-05-19 | Human·Fundamental·Idea·blog 노드 점진 심화
 
+### Communication/Document 정보 순환 루프 보강
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Meta/Troubleshooting]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 위키·README·제품 소개·트러블슈팅·히스토리·UTM·국제화 메모를 `접수 → 배치 → 전달 → 재호출` 루프로 압축했다. 좋은 문서의 완료 기준을 작성 자체가 아니라 다음 사람이 다시 찾고 바로 움직일 수 있는 상태로 보강했다.
+- 선호 신호: 저자는 문서화를 산출물 꾸미기보다, 정보가 처음 들어오는 모양과 나중에 다시 쓰이는 표면까지 설계하는 운영 회로로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 문서화형 source 노트의 위키·README·제품 소개·트러블슈팅·히스토리 메모는 문서 종류 목록이 아니라 정보가 재사용되기까지의 순환 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### blog/Digital_Content 재접속 표면별 처리 모델 보강
 - 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Digital_Content.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Note_Management]], [[mapped/Communication/Blogging]] 앞부분만 참고했다.
