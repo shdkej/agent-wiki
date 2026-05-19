@@ -1,3 +1,12 @@
+## 2026-05-19 | Human 노드 점진 심화
+
+### Human/Principle 원칙 변질 신호 보강
+- 갱신 범위: [[mapped/Human/Principle]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Principle.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]]의 기준 생애주기 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 `원칙이 무너지는 신호`를 추가해, 호기심의 의무화·몰입의 과부하·선명함의 날카로움·수집의 적체·감당 범위 초과를 생활 안에서 원칙이 변질되는 조기 신호로 정리했다.
+- 선호 신호: 저자는 원칙 노트에서도 더 많은 다짐을 쌓기보다, 원칙이 실제 생활에서 어떤 방식으로 약해지는지 빨리 알아차리고 회복 신호로 바꾸는 정리를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Principle.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
 ### Human/Love 상실 이후의 생 지속 감각 보강
