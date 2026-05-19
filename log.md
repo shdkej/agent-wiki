@@ -105,6 +105,14 @@
 - 선호 신호: 저자는 AI 시대 직업 역할을 단순 생존 전략이나 창의성 선언으로 닫기보다, 기존 강점이 보편 도구가 된 뒤 어떤 기준을 새로 세우고 검증해야 하는지 묻는 정리를 선호하는 경향이 보인다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/picasso.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
+### blog/Deploy_ERP_server_story 실행 계약 분리 축 보강
+- 갱신 범위: [[mapped/blog/Deploy_ERP_server_story]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/deep-knowledge/container]], [[mapped/Meta/Troubleshooting]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 `docker-compose.yml 하나`라는 초기 욕구를 실행 계약으로 다시 읽고, Compose·Dockerfile·addons·erp-data·db-data가 각각 어떤 책임을 맡는지 보강했다. Nagios의 Docker socket 마운트와 Nginx/SSL 분리도 관측 편의와 외부 진입 권한 경계로 정리했다.
+- 선호 신호: 저자는 실습형 배포 노트에서도 최종 정답 레시피보다, 빠른 실행 욕구가 반복 실행·상태 보존·업무 변경·외부 진입 책임으로 분해되는 과정을 보존하는 정리를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Deploy_ERP_server_story.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Compose-only 욕구가 역할별 파일·폴더로 분해되는 실습형 노트는 단순 구성 실패가 아니라 실행 계약의 책임 분리 신호로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ## 2026-05-18 | Health·Integration·Communication·Deep Knowledge·Root 노드 점진 심화
 
 ### Human/Love 상실 이후의 생 지속 감각 보강
