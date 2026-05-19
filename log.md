@@ -1,5 +1,13 @@
 ## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge·Integration 노드 점진 심화
 
+### Meta/일 불가피한 선택의 회수 구조 보강
+- 갱신 범위: [[mapped/Meta/일]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/일.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Work]], [[mapped/Meta/Developer]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 `일하는 방법`, `일과 코딩` 메모를 끌어올려, 불가피한 선택을 숨기지 않고 기록해 다음 변경 때 회수하는 업무 품질 축으로 보강했다. 업무 기획 시나리오, 비즈니스/테크니컬 로직 분리, 정상 상태 측정, 테스트 코드, 프로세스 개선 메모를 결과물의 설명 가능성과 변경 재진입성으로 묶었다.
+- 선호 신호: 저자는 일을 빠르게 끝내는 것보다, 왜 그렇게 선택했는지와 무엇이 임시 결정인지가 남아 다음 사람과 다음 변경이 덜 흔들리는 실행 구조를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/일.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 업무형 source 노트의 불가피한 선택·단순화·코드 구조 메모는 잡항목이 아니라, 임시 결정이 다음 변경에서 회수될 수 있게 만드는 실행 책임 기록으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Idea/Journal 가이드와 다중 출력 표면 보강
 - 갱신 범위: [[mapped/Idea/Journal]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Journal.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Note_Management]], [[mapped/Communication/Blogging]]의 재발견·발행 전환 축만 참고했다.
