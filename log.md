@@ -1,5 +1,13 @@
 ## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge·Integration 노드 점진 심화
 
+### Meta/Collection 만다라트식 승격 기준 보강
+- 갱신 범위: [[mapped/Meta/Collection]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Collection.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/About_Development]], [[mapped/Meta/Fail_experience]]의 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 첫머리의 `TOP 8`, 개발 요소 8가지, 대화 8가지, 개발자 체격훈련을 단순 숫자 목록이 아니라 수집물이 독립 노드 후보로 승격되는지 확인하는 만다라트식 압축 장치로 보강했다.
+- 선호 신호: 저자는 수집 노트에서도 많은 항목을 평면 보관하기보다, 반복해서 돌아볼 기준·훈련 메뉴·분화 후보를 좁혀 남기는 정리를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Collection.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 메타 수집형 source 노트의 `TOP 8`류 숫자 목록은 정리 형식보다 분화 후보를 압축하는 승격 장치로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Communication/Feedback 자동 루프와 사람 해석면 보강
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 원문 안에서 자동 피드백 루프와 사람 수신자 메모가 어떻게 만나는지 재확인했다.
