@@ -1,5 +1,13 @@
 ## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge 노드 점진 심화
 
+### Integration/Tool 변경 범위 라우팅 축 보강
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Tool]]의 하부 조작면 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 중반의 `git diff --name-only`, 패키지 경로 추출, `BUILD_CONTEXT` 기반 Dockerfile 메모를 `변경 범위를 실행 단위로 줄이는 도구 감각`으로 보강했다. 빌드 스크립트 조각을 최신 레시피가 아니라 변경 신호를 패키지·공통 의존성·검증 표면으로 라우팅하는 통합 도구 메모로 정리했다.
+- 선호 신호: 저자는 도구 통합에서도 전체 재빌드나 도구 이름 수집보다, 어떤 변경이 어느 책임 단위에 영향을 주고 어디까지 다시 실행해야 하는지 좁혀 재진입 가능한 상태로 남기는 정리를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 통합 도구형 source 노트의 변경 파일 추출·패키지별 Docker build 메모는 빌드 팁이 아니라 변경 신호를 실행 단위와 검증 표면으로 라우팅하는 책임 분리로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Communication/Document 정보 순환 루프 보강
 - 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Meta/Troubleshooting]] 앞부분만 참고했다.
