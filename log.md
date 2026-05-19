@@ -1,4 +1,12 @@
-## 2026-05-19 | Human·Fundamental·Idea 노드 점진 심화
+## 2026-05-19 | Human·Fundamental·Idea·blog 노드 점진 심화
+
+### blog/Digital_Content 재접속 표면별 처리 모델 보강
+- 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Digital_Content.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/blog/Note_Management]], [[mapped/Communication/Blogging]] 앞부분만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 소장·구독·쌓인 자료 정리·종이책 소장 기쁨을 `소장 / 구독 / 아카이브 / 발행`의 네 칸으로 압축했다. 디지털 콘텐츠 처리를 결제 방식의 찬반보다, 미래의 내가 어떤 표면에서 다시 만나야 하는지 가르는 생활형 판단 모델로 보강했다.
+- 선호 신호: 저자는 디지털 콘텐츠를 무조건 많이 저장하려는 쪽보다, 대상의 애착·대체 가능성·재호출 가능성·발행 가능성에 따라 접근권과 소장 방식을 다르게 고르는 정리를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Digital_Content.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 디지털 소장·구독형 노트를 재접속 표면별 처리 모델로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
 
 ### Human/Evolve 변화를 유지하는 주변 장 보강
 - 갱신 범위: [[mapped/Human/Evolve]] 1개 페이지만 점진 심화했다.
