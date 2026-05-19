@@ -1,4 +1,4 @@
-## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge 노드 점진 심화
+## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge·Integration 노드 점진 심화
 
 ### Communication/Feedback 자동 루프와 사람 해석면 보강
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
@@ -6,6 +6,13 @@
 - 정리: 기존 baseline은 유지한 채 `program -> feedback -> program -> feedback`, health check, test script, log, client voice, 최종 수신자는 사람이라는 메모를 `자동 루프와 사람 해석면` 축으로 보강했다. 자동 수집 자체보다 사람이 다음 개입을 결정할 수 있는 판단 표면으로 번역되는지가 중요하다는 점을 추가했다.
 - 선호 신호: 저자는 피드백 자동화에서도 사람을 제거하는 폐쇄 루프보다, 기계가 빠르게 모은 신호가 사람에게 덜 피곤하고 더 해석 가능한 형태로 돌아오는 구조를 선호하는 경향이 보인다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
+### Integration/Exploration 재발견 가능한 탐구 기록 축 보강
+- 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Exploration.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Business]]의 사업 검증·문제 퍼널 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `정보 입력이 편리한가`, `나중에 찾아볼 때 효율적으로 찾을 수 있는가` 메모를 `입력 표면 / 검색 표면 / 판단 표면`으로 보강했다. 탐구를 자료 찾기에서 끝내지 않고, 다음번에 다시 발견하고 판단에 연결할 수 있게 쓰는 운영 루프로 정리했다.
+- 선호 신호: 저자는 탐구 노트에서도 자료량보다, 제목·키워드·출처·보관 이유가 함께 남아 다음 탐색의 시작 비용을 줄이는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Exploration.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 
 ### Integration/Tool 변경 범위 라우팅 축 보강
 - 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 점진 심화했다.
