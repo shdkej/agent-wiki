@@ -1,5 +1,13 @@
 ## 2026-05-19 | Human·Fundamental·Idea 노드 점진 심화
 
+### Health/Decision 선택 후 후기 보정 루프 보강
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Integration/Tool]]의 복구·도구 선택 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 2021·2022·2024 집 구하기 기록의 `후기`, `이사 이유`, `가계약 후 불확실성`, `이사 후 산 것들`을 `선택 후 실제 생활이 다음 필터를 갱신하는 보정 루프`로 보강했다.
+- 선호 신호: 저자는 결정을 한 번의 정답 선택으로 끝내기보다, 살아 본 뒤 남은 마찰과 견딜 만했던 포기점을 다음 선택 기준으로 되돌리는 정리를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 결정형 source 노트의 선택 후 후기와 이사 이유는 감상문이 아니라 다음 선택 필터를 갱신하는 보정 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Idea/History 변경 경로 복원 축 보강
 - 갱신 범위: [[mapped/Idea/History]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/History.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]]의 정보 생애주기 축만 참고했다.
