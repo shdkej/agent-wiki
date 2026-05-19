@@ -1,5 +1,6 @@
 import { defineConfig, defineDocs } from 'fumadocs-mdx/config';
 import { metaSchema, pageSchema } from 'fumadocs-core/source/schema';
+import fs from 'node:fs';
 import path from 'node:path';
 
 export const docs = defineDocs({
@@ -17,17 +18,45 @@ export const docs = defineDocs({
 
 const DOCS_DIR = path.resolve(process.cwd(), 'content/docs');
 
-function slugifySegment(s: string): string {
-  return s.trim().replace(/\s+/g, '-').toLowerCase();
+function toRoutePath(relPath: string): string {
+  return relPath.replace(/\\/g, '/').replace(/\.mdx$/, '').replace(/(?:^|\/)index$/, '');
 }
+
+function toLookupKey(routePath: string): string {
+  return routePath
+    .replace(/\\/g, '/')
+    .replace(/\.mdx$/, '')
+    .replace(/(?:^|\/)index$/, '')
+    .split('/')
+    .filter(Boolean)
+    .map((segment) => segment.trim().replace(/\s+/g, '-').toLowerCase())
+    .join('/');
+}
+
+function listDocRoutes(dir = DOCS_DIR, prefix = ''): string[] {
+  if (!fs.existsSync(dir)) return [];
+
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const rel = prefix ? `${prefix}/${entry.name}` : entry.name;
+    const full = path.join(dir, entry.name);
+
+    if (entry.isDirectory()) return listDocRoutes(full, rel);
+    if (!entry.isFile() || !entry.name.endsWith('.mdx')) return [];
+    return [toRoutePath(rel)];
+  });
+}
+
+const docRouteByLookupKey = new Map(
+  listDocRoutes().map((route) => [toLookupKey(route), route]),
+);
 
 function resolveWikiTarget(target: string, filePath: string | undefined): string {
   const fileDir = filePath ? path.dirname(path.resolve(filePath)) : DOCS_DIR;
   const relBase = path.relative(DOCS_DIR, fileDir).split(path.sep).filter(Boolean).join('/');
   const joined = target.startsWith('/') ? target.slice(1) : (relBase ? `${relBase}/${target}` : target);
   const normalized = path.posix.normalize(joined);
-  const segments = normalized.split('/').filter((s) => s && s !== '.').map(slugifySegment);
-  return '/docs/' + segments.join('/');
+  const route = docRouteByLookupKey.get(toLookupKey(normalized)) ?? toRoutePath(normalized);
+  return '/docs/' + route.split('/').filter(Boolean).map(encodeURIComponent).join('/');
 }
 
 function remarkWikilink() {
