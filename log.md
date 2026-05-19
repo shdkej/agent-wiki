@@ -1,5 +1,13 @@
 ## 2026-05-19 | Human·Fundamental·Idea 노드 점진 심화
 
+### Health/Routine 기본값과 예외 처리 보강
+- 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Routine.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/blog/Life_Tracking]]의 몸 기동·생활 입력 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 우선순위 3개, 독서·운동·악기 기본 활동, 중요한 일이 생기면 다른 일을 내려놓는 메모를 `기본값과 예외 처리로 보는 시간관리`로 보강했다.
+- 선호 신호: 저자는 루틴에서도 모든 항목을 매일 지키는 체크리스트보다, 평소 돌아갈 기본 활동과 예외가 생겼을 때 의도적으로 비울 항목을 설명 가능하게 남기는 운영형 정리를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Routine.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 루틴형 source 노트의 기본 활동·우선순위·긴급 예외 메모는 체크리스트가 아니라 하루 라우팅 규칙으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Integration/Marketing 낮은 압박의 재방문 이유 보강
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 보조 외부 소스 `source/external-links/marketing/2026-05-19-habit-streak-flexibility.md`를 원문 경계 안에서만 제한적으로 참고했다.
