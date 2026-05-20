@@ -1,4 +1,12 @@
-## 2026-05-20 | Root README·blog·Integration·Health 노드 점진 심화
+## 2026-05-20 | Root README·blog·Integration·Health·Meta 노드 점진 심화
+
+### Meta/About_Development 요구사항-변경 반경 번역 축 보강
+- 갱신 범위: [[mapped/Meta/About_Development]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/About_Development.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Developer]], [[mapped/Communication/Teamwork]], [[mapped/Integration/Work]]의 자기 설명·상태 전달·요구사항 해석 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 `요구사항`, 프로덕트 디자이너의 추상화 경계, 한 동작 변경이 다른 동작에 미치는 영향, AI가 맡을 수 있는 일에 대한 질문을 `요구사항을 변경 반경으로 번역하는 개발` 축으로 보강했다. 개발의 핵심 난도를 코딩량보다 외부 요구를 실행 조건·역할 경계·시스템 영향으로 바꾸는 일로 정리했다.
+- 선호 신호: 저자는 개발자를 구현자에만 가두기보다, 사람의 요구와 제품 표면과 내부 구조 사이의 흔들림을 작게 만드는 번역자로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/About_Development.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
 ### Idea/Journal AI 답변 경계와 자기 언어 원칙 보강
 - 갱신 범위: [[mapped/Idea/Journal]] 1개 페이지만 점진 심화했다.
