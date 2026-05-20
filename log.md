@@ -24,6 +24,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Information.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
+### Idea/Information 정보 생애주기 판정 흐름 압축
+- 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Information.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Article]], [[mapped/Idea/Journal]]의 입력 포착·기록 재호출 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 누적된 보강 기록을 `현재 유지 기준`으로 압축하고, 원문의 방대한 사례를 `입력 신호 → 발견 표면 → 해석 도구 → 허가와 책임 → 재호출 표면` 흐름에 배치하는 판정 모델을 추가했다. 새 주제를 늘리기보다 후속 편집자가 기존 사례를 어디에 놓아야 하는지 더 빨리 판단하도록 만들었다.
+- 선호 신호: 저자는 Information 노트에서 잡학 항목을 분야별로 쪼개기보다, 정보가 들어오고 발견되고 해석되고 책임 조건을 지나 다시 호출되는 생애주기를 유지하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Information.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Human/Love 이유 목록의 재인식 표면 보강
 - 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Communication/Talk]]의 관계·응답 신호 축만 참고했다.
