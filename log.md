@@ -1,5 +1,13 @@
 ## 2026-05-20 | Root README·blog·Integration·Health·Meta 노드 점진 심화
 
+### CHANGELOG 책임 층 판정 질문 보강
+- 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/CHANGELOG.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/README]]의 원본 레이어 경계와 루트 노드 취급만 참고했다.
+- 정리: 기존 baseline은 유지한 채 긴 changelog 항목을 후속 편집에서 `직접 발행면 조정 / 기반 선택이 밀어 넣은 상속 유지비 / 짧은 생활형 재방문` 중 어디에 놓을지 먼저 판정하는 세 가지 질문을 추가했다.
+- 선호 신호: 저자는 오래된 변경 이력도 기능 목록으로 다시 펼치기보다, 어떤 책임 층에서 반복 압력이 생겼는지 먼저 가르는 운영 해석을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Health/Music 다음 5분 판정 모델 압축
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/Health/Routine]]의 몸 감각·짧은 반복 축만 참고했다.
