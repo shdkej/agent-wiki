@@ -1,5 +1,13 @@
 ## 2026-05-20 | Root README·blog·Integration·Health 노드 점진 심화
 
+### Human/Love 이유 목록의 재인식 표면 보강
+- 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Balance]], [[mapped/Communication/Talk]]의 관계·응답 신호 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `좋아하는 이유를 백가지도 말할 수 있지만 그것 때문에 좋아하는 건 아니다` 문장을 `이유는 근거보다 재인식 표면에 가깝다`는 축으로 보강했다. 사랑의 이유 목록을 평가 체크리스트가 아니라 상대를 다시 알아보고 소중함을 표현하는 통로로 정리했다.
+- 선호 신호: 저자는 관계 감정도 설명 가능한 조건표로 환원하기보다, 이유·표현·관심이 상대에게 다시 도착하는 작은 확인 신호로 작동하는지를 중시하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### README 편집 실행 순서 보강
 - 갱신 범위: [[mapped/README]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/README.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 `schema/source.md`의 사용자 원본 노트 규칙만 참고했다.
