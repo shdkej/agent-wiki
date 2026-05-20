@@ -8,6 +8,13 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/README.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
+### Meta/About_Architecture 재진입 경로 설계 축 보강
+- 갱신 범위: [[mapped/Meta/About_Architecture]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Architecture]]의 구조 판단 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 트리의 깊이와 넓이, 작은 함수·모듈 과잉, 폴더 중첩 고민을 `재진입 경로 설계` 문제로 압축했다. 구조 선택의 기준을 디렉터리 스타일 선호가 아니라 다음 수정 지점으로 다시 들어가는 길찾기 비용으로 더 선명하게 보강했다.
+- 선호 신호: 저자는 아키텍처를 큰 설계도나 패턴 이름보다, 조각이 늘어난 뒤에도 원인·책임·호출 경로를 찾아갈 수 있는 운영 문법으로 다루는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/About_Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-20 | Communication/Open_Source 노드 점진 심화
 
 ### Communication/Open_Source 메인테이너 시간 보호 축 보강
