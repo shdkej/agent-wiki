@@ -1,5 +1,12 @@
 ## 2026-05-20 | Root README·blog 노드 점진 심화
 
+### Communication/Blogging 개인 잡지형 발행 표면 보강
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Document]]의 독자별 진입면만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `하나의 잡지`, `미니멀 테크 데스크 개발 자동화 효율화`, `밸런스 한 꼭지` 메모를 블로그의 개인 잡지형 편집 약속과 시리즈 리듬으로 보강했다. favorite와 Item List도 단순 소재 목록이 아니라 전체 블로그의 기대감을 만드는 반복 코너 후보로 다시 압축했다.
+- 선호 신호: 저자는 블로그를 검색형 단일 답변 모음으로만 보지 않고, 데스크·디지털 라이프·자동화·생활 도구가 같은 관점 아래 반복되는 개인 편집면으로 운영하려는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Blogging.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### blog/Life_Tracking 출력 필터 축 보강
 - 갱신 범위: [[mapped/blog/Life_Tracking]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/blog/Life_Tracking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 원문의 `쓰레드로 정리 -> 아웃풋`, `오늘 배운 것만 내일로 보내고 나머지는 오늘의 영역에 둔다`, 수면·소비·장소·업무노트 같은 사적 입력 목록을 함께 재확인했다.
