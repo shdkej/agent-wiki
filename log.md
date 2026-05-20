@@ -90,6 +90,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
+### Human/Love 소중함의 현재형 보강
+- 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Principle]], [[mapped/Human/Balance]]의 관심·표현·자기 보존 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 `당연한 사랑은 없다`와 `소중함을 잊지 말자`를 사랑의 현재형 확인 문제로 보강했다. 소중함을 과거 감정의 보관이 아니라 질문·반응·감사·불편 확인처럼 상대가 실제로 받을 수 있는 관심 표면으로 정리했다.
+- 선호 신호: 저자는 사랑 노트에서도 큰 선언보다 가까워진 사람을 현재에도 어떻게 대하고 조율하는지가 드러나는 정리를 선호하는 경향이 보인다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### README 편집 실행 순서 보강
 - 갱신 범위: [[mapped/README]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/README.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 `schema/source.md`의 사용자 원본 노트 규칙만 참고했다.
