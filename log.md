@@ -1,5 +1,13 @@
 ## 2026-05-20 | Root README·blog·Integration·Health 노드 점진 심화
 
+### Idea/Journal AI 답변 경계와 자기 언어 원칙 보강
+- 갱신 범위: [[mapped/Idea/Journal]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Journal.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Information]], [[mapped/Idea/Reading]]의 입력·해석 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 첫머리의 `AI에게 물어보고 대답 받은 지식은 최대한 옮기지 않는다`는 문장을 출처 경계로 보강했다. `Journal`을 외부 답변 저장소가 아니라 몸에 새긴 경험, 자기 언어, 다시 볼 표면을 통과한 기록만 위키 자산으로 남기는 노드로 더 선명하게 다듬었다.
+- 선호 신호: 저자는 Journal형 기록에서 최신 지식이나 완성된 답변을 그대로 복사하기보다, 실제 경험·실패·글쓰기 감각을 통과해 자기 언어로 바뀐 것만 오래 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Journal.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Journal형 source 노트의 AI 답변 배제 문장을 출처 경계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### README 1:1 노드 정체성 보강
 - 갱신 범위: [[mapped/README]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/README.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/AGENTS]]의 문서 중심 운영 구조만 참고했다.
