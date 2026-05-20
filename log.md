@@ -1,4 +1,12 @@
-## 2026-05-20 | Root README·blog 노드 점진 심화
+## 2026-05-20 | Root README·blog·Integration 노드 점진 심화
+
+### Integration/Marketing 빈 상태 활성화 축 보강
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 보조 외부 소스 `source/external-links/marketing/2026-05-19-empty-state-activation.md`를 원본 주제 경계 안에서 제한적으로 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `무료 활성사용자`, `전환`, `UX 라이팅` 메모를 첫 빈 상태의 상태 설명·기대 결과·첫 행동 CTA와 연결했다. 빈 상태를 온보딩 일반론으로 확장하지 않고, 유입 뒤 첫 행동이 막히지 않게 하는 가장 작은 활성화 표면으로 보강했다.
+- 선호 신호: 저자는 마케팅을 외부 홍보에서 닫지 않고, 제품 안의 첫 화면·빈 목록·첫 CTA처럼 사용자가 실제 행동으로 넘어가는 작은 표면까지 이어 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
 ### Communication/Blogging 개인 잡지형 발행 표면 보강
 - 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 점진 심화했다.
