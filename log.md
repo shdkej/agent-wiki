@@ -1,3 +1,13 @@
+## 2026-05-20 | Root README 노드 점진 심화
+
+### README 출처 경계와 작업 우선순위 보강
+- 갱신 범위: [[mapped/README]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/README.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 `schema/source.md`, [[mapped/Communication/Document]], [[maintenance/source-mapping]]의 경계·문서 역할만 참고했다.
+- 정리: 기존 baseline은 유지한 채, 외부 링크나 보조 자료가 풍부하더라도 hourly run의 우선순위는 `source/shdkej-content/`의 1:1 대응 상태, mapped 성숙도, 사용자 수정 여부에서 먼저 나와야 한다는 점을 보강했다. 루트 README를 전체 자료 수집 안내서로 확장하지 않고, 원본 만다라트 레이어의 출처 경계와 편집 라우터 역할 안에 묶었다.
+- 선호 신호: 저자는 원본 노트가 짧더라도 외부 자료량에 끌려 주제를 바꾸기보다, 원본 격자의 위치와 대응 페이지의 역할을 먼저 지키는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/README.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-20 | Communication/Open_Source 노드 점진 심화
 
 ### Communication/Open_Source 메인테이너 시간 보호 축 보강
