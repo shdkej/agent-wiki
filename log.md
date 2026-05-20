@@ -1,5 +1,14 @@
 ## 2026-05-20 | Root README·blog·Integration·Health·Meta 노드 점진 심화
 
+### Human/Principle 작은 실험과 마찰 개선 루프 보강
+- 갱신 범위: [[mapped/Human/Principle]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Principle.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]], [[mapped/Human/Reality]]의 기준·현실 마찰 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `마이크로어드벤처`와 `페인포인트`를 따로 떨어진 다짐이 아니라, 작은 변주를 시도하고 실제 불편을 관찰해 다음 행동으로 되돌리는 피드백 루프로 보강했다.
+- 선호 신호: 저자는 원칙 노트에서도 큰 결심보다 오늘 닫을 수 있는 작은 실험, 감당 가능한 범위, 현실 마찰의 개선 가능성이 함께 보이는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Principle.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 원칙형 source 노트의 마이크로어드벤처·페인포인트 메모는 낭만적 일탈이나 문제 목록이 아니라, 작은 변주와 현실 마찰 개선이 순환하는 실행 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Human/Readability 가독성 네 작업면 압축
 - 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]], [[mapped/Communication/Document]]의 기준·문서 재진입 표면만 참고했다.
