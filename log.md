@@ -1,5 +1,13 @@
 ## 2026-05-20 | Root README·blog·Integration·Health 노드 점진 심화
 
+### Integration/Work 예상-실제 계측 루프 보강
+- 갱신 범위: [[mapped/Integration/Work]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Work.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/일]], [[mapped/Communication/Teamwork]]의 업무 가시성·상태 전달 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문의 `예측하고 측정하고 개선한다`, 업무 기간 산정, 작업 후 회고, 업무 건별 한줄 회고 메모를 `예상 시간은 압박 숫자가 아니라 다음 일을 보정하는 계측값`이라는 축으로 보강했다. 예상과 실제 소요의 차이를 실패 낙인이 아니라 다음 업무를 더 작게 나누고 먼저 검증할 지점을 알려 주는 관측 데이터로 정리했다.
+- 선호 신호: 저자는 업무 시간을 더 세게 압박하는 방식보다, 예상·실제·차이·다음 보정이 남아 다음 실행의 정확도가 올라가는 업무일지 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Work.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: Work형 source 노트의 예상 시간·실제 소요·회고 메모를 업무 판단 재현성을 높이는 계측 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+
 ### Idea/Information 증거 축적과 판단 겸손 축 보강
 - 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Information.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Article]], [[mapped/Integration/Exploration]], [[mapped/Communication/Logical_Thinking]]을 참고해 이 노드가 단순 정보 수집장이 아니라 정보가 판단 표면으로 바뀌는 생애주기 노드임을 재확인했다.
