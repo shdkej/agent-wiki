@@ -1,3 +1,13 @@
+## 2026-05-20 | Communication/Open_Source 노드 점진 심화
+
+### Communication/Open_Source 메인테이너 시간 보호 축 보강
+- 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Open_Source.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Communication/Feedback]]의 공개 질문·반복 질문 감소 축만 참고했다. 외부 링크 `source/external-links/communication/2026-05-19-okky-communication-collaboration.md`는 아직 분석 전 수집본이라 이번 노트의 주제를 확장하는 근거로 쓰지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문의 작은 기여, 흐름 파악, 작성자 습관 파악, 레퍼런스 확인 메모를 `메인테이너 시간을 아끼는 공개 커뮤니케이션`으로 보강했다. 공개 질문과 PR이 개인 편의에서 끝나지 않고 먼저 읽은 흔적, 좁은 범위, 검증 경로, 남길 표면을 갖춰야 지속 가능한 협업 자산이 된다는 점을 추가했다.
+- 선호 신호: 저자는 오픈소스 기여에서도 열정이나 빠른 질문보다, 기존 운영자의 판단 비용을 줄이고 같은 질문이 다음 사람의 문서·이슈·릴리즈 표면으로 남는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge·Integration 노드 점진 심화
 
 ### Communication/Talk 친밀감과 침범 경계 보강
