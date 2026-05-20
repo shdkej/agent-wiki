@@ -1,5 +1,13 @@
 ## 2026-05-20 | Root README·blog·Integration·Health·Meta 노드 점진 심화
 
+### Health/Music 다음 5분 판정 모델 압축
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Physical]], [[mapped/Health/Routine]]의 몸 감각·짧은 반복 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 누적된 베이스 입문 보강을 `읽기 / 위치 / 발화 / 전이` 네 칸의 현재 유지 모델로 압축했다. 후속 연습 메모가 들어오면 새 해석을 계속 덧붙이기보다 어느 칸에 놓을지 먼저 판정하도록 재진입성을 높였다.
+- 선호 신호: 저자는 악기 입문도 성과나 이론량보다, 다음 5분에 어디서 다시 시작할지 보이는 작은 실패 분리 모델을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Meta/About_Development 요구사항-변경 반경 번역 축 보강
 - 갱신 범위: [[mapped/Meta/About_Development]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/About_Development.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Developer]], [[mapped/Communication/Teamwork]], [[mapped/Integration/Work]]의 자기 설명·상태 전달·요구사항 해석 축만 참고했다.
