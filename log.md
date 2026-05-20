@@ -1,5 +1,13 @@
 ## 2026-05-20 | Root README·blog·Integration·Health 노드 점진 심화
 
+### README 편집 실행 순서 보강
+- 갱신 범위: [[mapped/README]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/README.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 `schema/source.md`의 사용자 원본 노트 규칙만 참고했다.
+- 정리: 기존 baseline은 유지한 채 이 README를 단순한 source 수정 금지문이 아니라 `원본 전체 읽기 → 기존 mapped 전체 읽기 → drift 판단 → mapped 편집 → 상위 레이어 분리`의 실행 순서까지 정하는 경계 문서로 보강했다.
+- 선호 신호: 저자는 원본 레이어 보호를 추상 원칙으로만 남기기보다, 매시간 작업자가 어떤 순서로 읽고 어디에 써야 하는지 판단 가능한 운영 절차로 고정하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/README.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Fundamental/Network 내부망 경계 설계 축 보강
 - 갱신 범위: [[mapped/Fundamental/Network]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Network.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Infra]], [[mapped/Deep Knowledge/Infra]]의 public/private 경계와 운영 인프라 축만 참고했다.
