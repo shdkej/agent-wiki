@@ -1,5 +1,13 @@
 ## 2026-05-20 | Root README·blog·Integration·Health 노드 점진 심화
 
+### README 1:1 노드 정체성 보강
+- 갱신 범위: [[mapped/README]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/README.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/AGENTS]]의 문서 중심 운영 구조만 참고했다.
+- 정리: 기존 baseline은 유지한 채 1:1 대응 원칙을 파일 개수 맞추기가 아니라 source markdown 하나가 가진 카테고리 노드 정체성을 지키는 규칙으로 보강했다. 한 source 안에 여러 주제가 섞여 보일 때도 먼저 해당 mapped 안에서 층을 나누고, 반복 패턴은 synthesis 후보로 올리며, 외부 링크가 원본 노드의 빈칸을 대체하지 않게 하는 판별표를 추가했다.
+- 선호 신호: 저자는 원본 만다라트 노트를 더 세련된 문서 단위로 재분해하기보다, 사용자가 한 파일로 묶어 둔 사고 단위의 내부 질서를 먼저 복원하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/README.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Integration/Work 예상-실제 계측 루프 보강
 - 갱신 범위: [[mapped/Integration/Work]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Work.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/일]], [[mapped/Communication/Teamwork]]의 업무 가시성·상태 전달 축만 참고했다.
