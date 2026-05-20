@@ -1,5 +1,14 @@
 ## 2026-05-20 | Root README·blog·Integration·Health·Meta 노드 점진 심화
 
+### Human/Readability 가독성 네 작업면 압축
+- 갱신 범위: [[mapped/Human/Readability]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Readability.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Human/Standard]], [[mapped/Communication/Document]]의 기준·문서 재진입 표면만 참고했다.
+- 정리: 기존 baseline은 유지한 채 누적된 쉬운 설명/원전 복귀/난도 보존 보강을 `표면 문턱 낮추기 → 의미 연결 만들기 → 원전 복귀 경로 남기기 → 실제 난도 재진입시키기`의 네 작업면으로 압축했다. 새 해석을 늘리기보다 쉬운 글을 평가할 때 바로 꺼내 쓸 수 있는 판단 모델로 페이지 밀도를 높였다.
+- 선호 신호: 저자는 가독성을 문장 친절도보다, 독자가 쉬운 입구를 지나 원래 용어·원전·실제 어려움으로 다시 돌아갈 수 있게 하는 전달 경로로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Readability.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 가독성형 Human source 노트는 쉬운 문장 팁보다 해독 비용, 의미 도달, 원전 복귀, 실제 난도 재진입을 함께 보는 전달 경로로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### CHANGELOG 책임 층 판정 질문 보강
 - 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/CHANGELOG.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/README]]의 원본 레이어 경계와 루트 노드 취급만 참고했다.
