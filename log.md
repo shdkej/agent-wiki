@@ -25,6 +25,14 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
+### Communication/Logical_Thinking 검토권 보존 축 보강
+- 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Talk]], [[mapped/Human/Readability]]의 수신·명료화 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 연역·귀납·귀류·변증법·오류론·MECE를 결론 확정 도구가 아니라 전제·사례·반례·분류 기준을 상대가 다시 검토할 수 있게 남기는 `검토권 보존` 장치로 보강했다.
+- 선호 신호: 저자는 논리적 사고에서도 이기는 결론보다, 판단 경로가 공개되어 다른 사람이 다시 고치고 이어 받을 수 있는 설명 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-19 | Human·Fundamental·Idea·blog·Deep Knowledge·Integration 노드 점진 심화
 
 ### Communication/Talk 친밀감과 침범 경계 보강
