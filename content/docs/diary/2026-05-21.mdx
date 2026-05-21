@@ -1,12 +1,32 @@
-diary 2026-05-21 병합 완료했습니다.
+---
+title: "2026-05-21"
+date: 2026-05-21
+type: diary
+last_sync: 2026-05-21T14:07:11+09:00
+---
 
-추가된 신규 항목:
-- **#15 ax-terraform (13:19)** — prod AWS 셋업 후 변경분 커밋
-- **#16 purple-auth (13:34)** — Entra ID 기준 Microsoft SAML 연동 검토
+# 2026-05-21
 
-중복으로 제외한 항목:
-- 13:17 비용 압박(18달러)·GitLab 경량화 → 기존 #13(11:41)과 동일 주제
-- 13:34 purple-auth 내부 띄우기 → 기존 #11(10:56)과 동일
-- 13:35 GitLab runner/agent 세팅 → 기존 #14(12:32)와 동일
+## Sessions
 
-`last_sync`는 `13:35:36+09:00`으로 갱신했고, Media/Notes는 raw에 내용이 없어 생략했습니다.
+### 업무
+
+| # | 프로젝트 | 시간 | 주요 작업 |
+|---|----------|------|-----------|
+| 1 | ax-terraform | 09:00 | prod 복사로 test 환경 만들어 배포·제거 테스트, 소요 시간 측정 및 부트스트랩 진행 |
+| 2 | ax-terraform | 09:19 | AWS Config 비용 원인 확인, kolon-ax 프로파일별 override 분리 후 집계 |
+| 3 | ax-terraform | 09:47 | aws-api MCP 연결 안 되는 문제 점검 |
+| 4 | ax-terraform | 09:54 | kolon-ax 프로파일 조회 및 saml2aws 갱신 무반응 문제 확인 |
+| 5 | ax-terraform | 09:56 | GitLab omnibus 전환 후 ax-deploy 스킬 호환성·신규 레포 생성 여부 점검 |
+| 6 | legal-advice-dispatch | 10:04 | AI 회사명 추출 실패 시 사용자 정보 폴백 로직 검토 |
+| 7 | ax-terraform | 11:07 | ax-deploy 스킬로 GitLab 레포 생성·배포 시도 |
+| 8 | ax-terraform | 13:17 | prod 비용 압박(18달러), GitLab self-hosted EC2 경량화 비용 비교 |
+| 9 | ax-terraform | 13:19 | 변경분 커밋 |
+| 10 | ax-terraform | 14:05 | purple-auth VPN 연결 전 내부 임시 구동 세팅 |
+| 11 | ax-terraform | 14:05 | purple-access 앞단 배치로 와일드카드 접근 제어, grafana·gitlab은 우회 허용 |
+| 12 | purple-auth | 14:06 | Entra ID 기준 Microsoft SAML 연동 및 grafana SSO 통과 검토 |
+| 13 | ax-terraform | 14:06 | 신규 GitLab runner·agent 세팅, environment 생성 방식 확인 |
+
+### 기타
+
+- 09:14 — 출근, 어제 작업 이어가기 및 문서 업데이트
