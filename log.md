@@ -1,5 +1,13 @@
 ## 2026-05-21 | Communication·blog·Human·Meta 노드 점진 심화
 
+### Communication/Foreign_language 업무 영어 상태 복구 축 보강
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Communication/Talk]]의 상태 전달·수신 안정 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문의 업무 핵심 동사 7가지를 비즈니스 표현 목록이 아니라 `준비`, `일정 가능성`, `진행 공유`, `중단 후 재개` 같은 협업 상태를 짧게 복구하는 운영 어휘로 보강했다.
+- 선호 신호: 저자는 외국어 업무 표현도 고급 표현 암기보다 상대가 다음 행동을 덜 추측하게 만드는 상태 전달 문장으로 정리하는 쪽을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Fundamental/Math 대리 신호와 재확인 표면 보강
 - 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Fundamental/Math.md` 전체와 기존 mapped 노트 전체를 다시 읽었다. 외부 링크 소스는 참조하지 않았고, 관련 노트도 별도 편집하지 않았다.
