@@ -1,4 +1,4 @@
-## 2026-05-21 | Communication 노드 점진 심화
+## 2026-05-21 | Communication·blog 노드 점진 심화
 
 ### Communication/Logical_Thinking 판단 패킷 압축
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
@@ -6,6 +6,14 @@
 - 정리: 원문의 질문·전제·증거·반례·분류·수용 조건 흐름을 `논리적 사고의 최소 산출물` 섹션으로 보강했다. 논리의 결과를 정답 문장이 아니라 다음 사람이 이어 검토할 수 있는 판단 패킷으로 남기는 축을 추가했다.
 - 선호 신호: 저자는 논리 노트에서도 결론 확정보다, 나중에 다시 고치고 공유할 수 있도록 판단 경로를 작게 포장해 남기는 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
+### blog/Note_Management 회수 루프 압축
+- 갱신 범위: [[mapped/blog/Note_Management]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Note_Management.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Journal]], [[mapped/Communication/Blogging]]의 기록 입력면·발행 출력면만 참고했다.
+- 정리: 기존 baseline은 유지한 채 원문 마무리의 `카테고리·태그·인덱싱·리마인더` 결론을 병렬 기능 목록이 아니라 기록이 다시 쓰이게 하는 회수 루프의 네 단계로 보강했다. 또한 `여기서 다루지 못한 것들` 목록을 본문 확장 재료가 아니라 노트 주제 경계를 보여 주는 표식으로 보존했다.
+- 선호 신호: 저자는 노트 관리를 정리 미학보다, 이미 적은 기록이 카테고리·태그·인덱스·시간 장치를 거쳐 다시 글과 판단으로 회수되는 운영 구조로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Note_Management.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
 ## 2026-05-20 | Root README·blog·Integration·Health·Meta 노드 점진 심화
