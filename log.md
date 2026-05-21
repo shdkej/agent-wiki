@@ -1,5 +1,14 @@
 ## 2026-05-21 | Communication·blog·Human·Meta 노드 점진 심화
 
+### Integration/Economics 제도 수치의 최신성 경계 보강
+- 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Economics.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Investment]]의 생활 장부 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
+- 정리: 기존 baseline은 유지한 채 카드 공제율, 청약 조건, ISA, 해외주식 양도세, 증여·세금 한도처럼 시간에 따라 바뀌는 수치를 `현재 조언`이 아니라 당시 계산 프레임과 검증 필요 체크포인트로 분리하는 섹션을 추가했다.
+- 선호 신호: 저자는 경제·투자 메모에서도 특정 수치를 고정 정답으로 믿기보다, 한도·초과분·증빙·실현 시점처럼 실제 선택 전에 다시 확인해야 할 표면을 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Economics.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 경제·투자형 source 노트의 오래된 세법·공제·청약 수치는 최신 조언으로 덮지 말고 당시 계산 프레임과 재검증 체크포인트로 분리해 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Idea/Travel 관찰 프레임으로서의 카메라 보강
 - 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽었다. 외부 링크 소스는 참조하지 않았고, 관련 노트도 별도 편집하지 않았다.
