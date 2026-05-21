@@ -1,4 +1,12 @@
-## 2026-05-21 | Communication·blog·Human 노드 점진 심화
+## 2026-05-21 | Communication·blog·Human·Meta 노드 점진 심화
+
+### Meta/Troubleshooting 검색 가능한 증상 표면 보강
+- 갱신 범위: [[mapped/Meta/Troubleshooting]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Developer]]의 문제 해결 경력 서사 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문의 `Ctrl+F` 전제와 `not working`, `connection refuse`, `pending`, `NotReady`, `fatal` 같은 짧은 에러 문자열을 검색 가능한 증상 표면으로 보강했다. 추상 판단 모델과 실제 에러 문자열을 함께 남겨야 다음 장애 때 다시 진입할 수 있다는 축을 추가했다.
+- 선호 신호: 저자는 트러블슈팅 노트에서도 매끈한 회고보다, 실제 장애 문장·상태값·명령어가 다시 걸리는 검색 인덱스를 보존하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
 ### Fundamental/Computer_Architecture 파일시스템 좌표계 보강
 - 갱신 범위: [[mapped/Fundamental/Computer_Architecture]] 1개 페이지만 점진 심화했다.
