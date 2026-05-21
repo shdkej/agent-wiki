@@ -1,5 +1,13 @@
 ## 2026-05-21 | Communication·blog·Human·Meta 노드 점진 심화
 
+### Communication/Teamwork 정보 비대칭 재진입 설계 보강
+- 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽었다. 외부 링크 소스는 참조하지 않았고, 관련 노트도 별도 편집하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 `정보 불균형`, `라이브러리 찾기`, `github workflow` 메모를 정보 비대칭의 재진입 설계로 묶었다. 모든 사람이 모든 맥락을 알 수 있다는 이상보다, 빠진 사람이 목적·결정·다음 행동·도구 상태를 다시 복원할 수 있는 표면을 만드는 쪽으로 보강했다.
+- 선호 신호: 저자는 협업 노트에서도 정보 공유를 도덕적 당위로만 보지 않고, 조직 규모상 생기는 맥락 누락을 이슈·문서·레포 메타 정보·workflow 상태로 다시 복구하는 운영 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Integration/Economics 제도 수치의 최신성 경계 보강
 - 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Economics.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Investment]]의 생활 장부 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
