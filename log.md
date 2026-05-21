@@ -16,6 +16,15 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/blog/Note_Management.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
+### blog/My_space 관측-복구 루프 보강
+- 갱신 범위: [[mapped/blog/My_space]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/My_space]]의 개인 운영면 구분만 참고했다. 외부 링크 소스는 직접 참조하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 `상태 모니터링 알림`, `배포 시 상태 추적`, `오버로드`, `알림 후 롤백`, Telegram API 추상화 메모를 관측 신호가 실제 복구 행동으로 되돌아오는 운영 루프로 보강했다. 깨진 deep-knowledge 계열 내부 링크도 현재 mapped 경로에 맞게 정리했다.
+- 선호 신호: 저자는 개인 인프라에서도 대시보드 설치 자체보다, 배포 직후 이상을 감지하고 사람의 주의를 호출한 뒤 되돌리는 작은 복구 계약을 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/blog/My_space.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 개인 인프라형 blog 노트의 알림·롤백 메모를 관측 신호가 복구 행동으로 돌아오는 루프로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-20 | Root README·blog·Integration·Health·Meta 노드 점진 심화
 
 ### Human/Principle 작은 실험과 마찰 개선 루프 보강
