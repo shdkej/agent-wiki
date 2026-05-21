@@ -1,5 +1,12 @@
 ## 2026-05-21 | Communication·blog·Human·Meta 노드 점진 심화
 
+### Communication/Foreign_language 원문 예문 중심 압축
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `핵심 판단 축`, `반복 패턴`, `특히 보존할 부분` 중복 축소 요구를 반영했다.
+- 정리: 기존 다섯 축 모델은 유지하되 후반부의 반복 설명을 `핵심 판단 축과 보존할 원문` 표로 합쳐 원문 예문이 먼저 보이게 했다. 쉐도잉, 여행 문장, 업무 요청, 기본동사, 헷갈리는 단어를 각각 반복 검증·장면 호출·판단 가능성·상태 조작·경계 감각으로 압축했다.
+- 선호 신호: 저자는 Foreign_language 노트에서 새 해석을 계속 덧붙이기보다, 이미 확보한 발화 인터페이스 모델 안에 원문 표현 조각을 더 촘촘히 배치하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime과 git 이력 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ### Communication/Foreign_language 업무 영어 상태 복구 축 보강
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Teamwork]], [[mapped/Communication/Talk]]의 상태 전달·수신 안정 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
