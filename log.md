@@ -1,5 +1,13 @@
 ## 2026-05-21 | Communication·blog·Human 노드 점진 심화
 
+### Fundamental/Computer_Architecture 파일시스템 좌표계 보강
+- 갱신 범위: [[mapped/Fundamental/Computer_Architecture]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽었다. 외부 링크 소스는 참조하지 않았고, 관련 노트도 별도 편집하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문 후반의 리눅스 디렉터리, 파티션, swap, LVM 메모를 실행·설정·임시 상태·장치 관측의 좌표계와 장기 저장 상태의 변경 가능성 설계로 보강했다. CPU·메모리·OS 흐름이 실제 장애 진입점으로 내려오는 부분을 더 선명하게 했다.
+- 선호 신호: 저자는 낮은 층의 컴퓨터 구조 메모에서도 명령 위치, 설정 위치, 임시 상태, 장치 관측, 저장소 경계처럼 나중에 문제를 좁힐 수 있는 좌표계를 남기는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Computer_Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### deep-knowledge/ai 생성 산출물과 모델 서빙 축 보강
 - 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Software]], [[mapped/Integration/Tool]]의 운영·도구 편입 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
