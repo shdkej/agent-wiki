@@ -8,6 +8,15 @@
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
 
+### Communication/Open_Source 기여 준비와 프로젝트 응답성 보강
+- 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Open_Source.md` 전체와 기존 mapped 노트 전체를 다시 읽었다. 외부 링크 소스는 참조하지 않았고, 관련 노트도 별도 편집하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문의 `필요한 부분을 먼저 본다`, `구조를 그리면서 파악한다`, `비슷한 내용의 다른 것들을 찾아본다` 메모를 기여자 개인의 학습법과 프로젝트의 공개 응답성 사이의 균형으로 보강했다. 구조·검증·선례·응답 기준이 남아 있어야 낯선 기여자가 스스로 질문 범위를 좁힐 수 있다는 축을 추가했다.
+- 선호 신호: 저자는 오픈소스 노트에서도 기여자의 열정만 강조하기보다, 프로젝트가 처음 온 사람이 따라갈 수 있는 구조와 검증 표면을 남겨 메인테이너 기억에만 의존하지 않게 만드는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 오픈소스형 source 노트의 구조 파악·레퍼런스 확인 메모는 기여자 태도뿐 아니라 프로젝트가 낯선 사람을 받아들이는 공개 응답성 표면으로도 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Integration/Economics 제도 수치의 최신성 경계 보강
 - 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Integration/Economics.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Investment]]의 생활 장부 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
