@@ -1,5 +1,14 @@
 ## 2026-05-21 | Communication·blog·Human·Meta 노드 점진 심화
 
+### Fundamental/Architecture 기본값-오버라이드 경계 보강
+- 갱신 범위: [[mapped/Fundamental/Architecture]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Architecture.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Fundamental/Software]], [[mapped/Meta/About_Architecture]]의 감당 가능한 범위·교체 반경 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문의 `강제성 vs 자율성`, `코드와 설정 분리`, `사용자 스펙이 없으면 서버 스펙 사용`, vim/zsh/Nagios/Odoo 사례를 기본값과 오버라이드 경계 설계로 보강했다. 자율성을 무제한 선택지가 아니라 안전한 기준선 위의 조정 출구로 읽도록 했다.
+- 선호 신호: 저자는 아키텍처 노트에서도 사용자가 직접 관리할 수 있는 표면을 선호하지만, 그 자유가 핵심 정책을 흔들지 않도록 기본값·설정층·오버라이드 책임을 나누는 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Fundamental/Architecture.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 아키텍처형 source 노트의 강제성·자율성 메모를 기본값과 오버라이드 경계 설계로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Communication/Teamwork 정보 비대칭 재진입 설계 보강
 - 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽었다. 외부 링크 소스는 참조하지 않았고, 관련 노트도 별도 편집하지 않았다.
