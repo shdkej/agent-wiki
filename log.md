@@ -3190,3 +3190,11 @@
 - 정리: `대화 운영 루프`, `관계 단계`, `작은 응답 신호`, `소통 상태`, `말이 도착한 뒤`로 흩어져 있던 중복 해석을 `수신 안정 / 현재 호응 / 긴장 진입 / 반복 정렬 / 자기 정렬` 중심 모델로 합쳤다. 날짜별 보강 이력은 본문에서 덜어 log 역할과 본문 역할을 분리했다.
 - 선호 신호: 저자는 Talk 노트에서 새 설명을 계속 덧붙이기보다, 원문 사례가 잘 보이도록 반복 결론을 압축하고 재진입 가능한 중심 모델을 남기는 편이 더 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Talk.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
+## 2026-05-21 22:19 UTC | Communication/Foreign_language 단일 노드 압축 정리
+
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 반복 압축 요구를 반영했다. 관련 맥락은 [[mapped/Communication/Talk]], [[mapped/Communication/Teamwork]]만 참고했다.
+- 정리: `사회적 타이밍`, `응답 가능한 표면`, `협업 상태 복구`, `장면별 재진입 버튼`으로 반복되던 해석을 `활용 손잡이 / 소리와 힘점 / 장면 호출문 / 협업 상태 / 경계 감각` 다섯 축으로 합쳤다. 오래된 날짜별 보강 이력은 본문에서 덜어 log 역할과 본문 역할을 분리했다.
+- 선호 신호: 저자는 외국어를 언어별 교재 목차보다, 낯선 장면에서 덜 멈추고 상대가 덜 추측하게 만드는 작은 표현 인터페이스로 정리할 때 원문 실전성이 가장 잘 살아난다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 최근 git 변경 이력이 없고 이번 런의 직접 사용자 수정본으로 보이지 않아 `human-reviews/` 복사는 생략했다.
