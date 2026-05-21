@@ -1,5 +1,13 @@
 ## 2026-05-21 | Communication·blog·Human 노드 점진 심화
 
+### Idea/Reading 질문 처리 속도 보강
+- 갱신 범위: [[mapped/Idea/Reading]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Reading.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Idea/Journal]], [[mapped/Idea/Movie]]의 입력·감상 경계만 참고했다. 외부 링크 소스는 참조하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문에 반복되는 질문을 `빠른 확인 질문`과 `오래 보존할 질문`으로 나누는 기준을 보강했다. 용어·근거·비교 질문은 조사 후보로, 사랑·자유·정의·진실처럼 여러 책을 통과하는 질문은 장기 사고 축으로 남기도록 정리했다.
+- 선호 신호: 저자는 독서 메모에서 모든 질문을 즉시 답으로 닫기보다, 확인 가능한 것은 조건을 보강하고 오래 남을 질문은 여러 책을 통과하며 계속 변형되게 두는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Reading.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Human/Reality 실제-상상 검증면 보강
 - 갱신 범위: [[mapped/Human/Reality]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Human/Reality.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Integration/Exploration]], [[mapped/Idea/Information]], [[mapped/Human/Balance]], [[mapped/Human/Principle]]의 질문·발견·조정 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
