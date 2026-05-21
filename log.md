@@ -3157,3 +3157,11 @@
 - 정리: 기존 baseline은 유지한 채 제품 소개·튜토리얼·소스 버전관리 메모를 `사용 전 신뢰 표면`으로 보강했다. 문서가 사용법 이전에 현재성, 작동감, 최소 뼈대, 지속 가능성을 보여 주어야 독자가 도구를 믿고 시작할 수 있다는 축을 추가했다.
 - 선호 신호: 저자는 문서를 설명문보다 다음 사람이 바로 시작할 수 있게 만드는 증거 묶음으로 보는 경향이 강하며, 불필요한 의존성이나 죽은 서비스처럼 시작 전 불안을 키우는 요소에 민감하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
+## 2026-05-21 | Communication/Talk 단일 노드 점진 심화
+
+- 갱신 범위: [[mapped/Communication/Talk]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Talk.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Communication/Feedback]], [[mapped/Human/Readability]], [[mapped/Communication/Teamwork]]를 참고해 이 노드가 순간 대화의 수신 상태와 반응 여지를 설계하는 Communication 접점임을 재확인했다.
+- 정리: 기존 baseline은 유지한 채 `말이 도착한 뒤 남겨야 하는 것` 섹션을 추가했다. 갑작스런 쏟아냄, 두루뭉술한 말, 코드 맞추기, 진심 공유 메모를 묶어, 좋은 말의 기준을 발화량이 아니라 상대에게 안심·이해·반응 여지·관계 지속감을 남기는지로 보강했다.
+- 선호 신호: 저자는 말하기를 자기표현의 완결보다 상대가 다시 반응할 수 있는 상태를 만드는 일로 보는 경향이 강하며, 진심도 날것으로 쏟아내기보다 수신 상태와 전달 순서를 통과해야 도착한다고 본다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Talk.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
