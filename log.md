@@ -37,6 +37,7 @@
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 외부 링크 소스는 직접 참조하지 않았다. 기존 baseline이 이미 충분히 단단해 이번 런에서는 전면 재작성 대신 실전 재사용 기준만 압축했다.
 - 정리: 원문의 질문·전제·증거·반례·분류·수용 조건 흐름을 `논리적 사고의 최소 산출물` 섹션으로 보강했다. 논리의 결과를 정답 문장이 아니라 다음 사람이 이어 검토할 수 있는 판단 패킷으로 남기는 축을 추가했다.
+- 07:17 UTC 추가 정리: 같은 대응 원본과 mapped 노트를 다시 확인하고, 원문의 짧은 `명제 논증 결론 전제` 메모를 접속부 모델로 보강했다. 논쟁·문서·피드백에서 상대가 멈춘 지점을 전제·논증·결론 중 어디인지 더 작게 찾는 기준을 추가했다.
 - 선호 신호: 저자는 논리 노트에서도 결론 확정보다, 나중에 다시 고치고 공유할 수 있도록 판단 경로를 작게 포장해 남기는 정리를 선호하는 경향이 강하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
 - 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
