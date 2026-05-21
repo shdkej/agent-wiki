@@ -1,5 +1,13 @@
 ## 2026-05-21 | Communication·blog 노드 점진 심화
 
+### Communication/Feedback 신호 선별 축 보강
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 외부 링크 소스는 참조하지 않았다. 기존 baseline이 충분히 단단해 전면 재작성 대신 피드백 수집과 알림 노이즈 사이의 판단 축만 보강했다.
+- 정리: 원문에 흩어진 고객 반응, 리뷰 커뮤니티, 채용 알림, 모니터링 로그, 검색 후보를 `많이 모으기`가 아니라 `지금 끼어들 신호 / 묶어서 볼 신호 / 나중에 기준을 바꿀 신호`로 선별하는 문제로 압축했다. 또한 장소·자료조사 트리거 메모를 결과 기록이 다음 상황의 입구에 붙어야 한다는 재호출 구조로 보강했다.
+- 선호 신호: 저자는 피드백을 많이 받는 것보다, 신호가 실제 다음 행동의 시간대에 맞게 돌아와 집중을 덜 깨고 수정 가능성을 높이는 구조를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Health/Curiosity 오래된 질문의 재등장 조건 보강
 - 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Physical]]의 생활 리듬·몸 실행 기반 축만 참고했다.
