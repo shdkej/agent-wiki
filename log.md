@@ -1,5 +1,14 @@
 ## 2026-05-21 | Communication·blog·Human·Meta 노드 점진 심화
 
+### Idea/Travel 관찰 프레임으로서의 카메라 보강
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽었다. 외부 링크 소스는 참조하지 않았고, 관련 노트도 별도 편집하지 않았다.
+- 정리: 기존 baseline은 유지한 채 원문 마지막의 `여행은 공간의 이동이 아닌 시선의 이동` 인용을 보강했다. 카메라·기차 창밖·도서관·축구장·음식 같은 매개가 이동 거리보다 관찰 프레임을 바꾸는 장치라는 축을 추가했다.
+- 선호 신호: 저자는 Travel 노트에서도 멀리 가는 계획 자체보다, 도구와 질문을 통해 익숙한 공간까지 다르게 보게 되는 시선 전환을 여행의 핵심으로 보는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Travel.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 운영 학습: 여행형 source 노트의 카메라·사진·산책 메모를 여행 밖 취미가 아니라 익숙한 공간을 다시 여행지로 만드는 관찰 프레임으로 읽는 규칙을 `logs/OPERATING_LESSONS.md`에 추가했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Meta/Troubleshooting 검색 가능한 증상 표면 보강
 - 갱신 범위: [[mapped/Meta/Troubleshooting]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Meta/Troubleshooting.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Meta/Developer]]의 문제 해결 경력 서사 축만 참고했다. 외부 링크 소스는 참조하지 않았다.
