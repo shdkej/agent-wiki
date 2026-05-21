@@ -1,5 +1,13 @@
 ## 2026-05-21 | Communication·blog 노드 점진 심화
 
+### Health/Curiosity 오래된 질문의 재등장 조건 보강
+- 갱신 범위: [[mapped/Health/Curiosity]] 1개 페이지만 점진 심화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 필요 최소 맥락으로 [[mapped/Health/Routine]], [[mapped/Health/Physical]]의 생활 리듬·몸 실행 기반 축만 참고했다.
+- 정리: 기존 baseline은 유지한 채 오래된 체크리스트를 단순 미완료 더미가 아니라, 통과 지식·제품 후보·관계 접점·운영 기준 중 하나로 다시 등장하는 질문 대기열로 보강했다.
+- 선호 신호: 저자는 오래된 호기심을 최신 답으로 덮기보다, 지금의 경험에서 어떤 작업·제품·운영 판단으로 되살아나는지 판별하는 정리를 선호하는 경향이 강하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ### Communication/Logical_Thinking 판단 패킷 압축
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 점진 심화했다.
 - 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 외부 링크 소스는 직접 참조하지 않았다. 기존 baseline이 이미 충분히 단단해 이번 런에서는 전면 재작성 대신 실전 재사용 기준만 압축했다.
