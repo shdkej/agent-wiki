@@ -3326,3 +3326,11 @@
 - 정리: 본문 해석은 105줄 기준선을 유지하고, `npm run build`로 공개 산출물을 재생성했다. `out/docs`와 `out/llms.mdx`가 `첫 가치`, `두 번째 가치`, `2026-05-22-time-to-value-second-value` 보조 렌즈를 반영하는지 확인했다.
 - 선호 신호: 이미 좋은 Marketing 기준선이 있을 때는 새 설명을 더하기보다 content와 공개 렌더링 산출물이 같은 사용자 흐름 모델을 보여 주는지 먼저 보장하는 편이 맞다.
 - 드리프트 점검: 대응 원본은 초기 동기화 이후 직접 수정 이력이 없어 이번 런의 사용자 직접 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
+
+## 2026-05-22 17:17 UTC | Integration/Marketing 실행 지도 압축
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 실행 지도와 보조 렌즈 중복 가능성 지적을 반영했다. 보조 외부 소스는 현재 연결된 `source/external-links/marketing/2026-05-22-time-to-value-second-value.md`와 marketing README만 확인했다.
+- 정리: 별도 `보조 외부 소스` 표를 `실행 지도와 보조 렌즈` 표로 흡수해, 외부 링크가 원문을 대체하지 않고 핵심 고객·유입·CRM·무료/유료·첫 가치·SNS 운영 판단을 좁히는 위치만 보이게 했다.
+- 선호 신호: Marketing 노트에서는 외부 growth 자료 목록을 늘리기보다 원문 실행 표면별로 어디까지 보조 렌즈로 쓸지 제한하는 편이 주제 경계를 더 잘 지킨다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 직접 수정 이력이 없어 이번 런의 사용자 직접 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
