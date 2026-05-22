@@ -6,7 +6,7 @@ title: "Journal"
 
 - 원본: `source/shdkej-content/Idea/Journal.md`
 - 성격: `Journal` 만다라트 카테고리 노드의 대응 페이지
-- 이번 상태: 원문 전체와 기존 mapped를 다시 확인하고, 공개 산출물의 stale build 위험을 점검함
+- 이번 상태: 원문 전체와 기존 mapped를 다시 확인하고, 임시 운영 점검 메모를 log 역할로 덜어 압축 기준선을 유지함
 
 ## 한 줄 요약
 `Journal`은 일기를 모아두는 장소가 아니라, 하루의 경험·실패·할 일·글감·스크랩이 나중에 다시 읽히고 다른 노드로 이동하며 새 산출물로 바뀌게 하는 기록 운영 노드다.
@@ -125,13 +125,6 @@ title: "Journal"
 - [[../Health/Routine]]: 오늘 다시 볼 기록과 주간 회고 표면이 생활 루프와 이어진다.
 - [[../Health/Decision]]: 목표, 선택 조건, 행동 방침을 어느 노드로 넘길지 고민하는 흐름이 이어진다.
 - [[../blog/Note_Management]]: 기록의 재발견과 노트 운영의 중간 제어면을 다룬다.
-
-## 공개 산출물 점검
-최근 평가에서 `agent-wiki/out` 쪽 공개 산출물이 이전 308줄 본문과 잘못된 `Note_Management` 경로를 계속 보여 주는 문제가 확인됐다. 원본 mapped 본문은 이미 130줄 압축본이므로, 이 노드의 다음 운영 기준은 본문을 다시 늘리는 것이 아니라 **수정본이 실제 publish 산출물까지 반영되는지 확인하는 것**이다.
-
-- 본문 기준선: `입력 / 표식 / 재호출 / 재분류 / 출력` 5단계 모델을 유지한다.
-- 링크 기준선: `Note_Management`는 같은 `mapped` 아래의 `blog` 노드로 연결되어야 하며, `mapped/Idea/mapped/blog/...`나 `mapped/Idea/blog/...` 형태로 렌더링되면 실패다.
-- 운영 기준선: content를 고친 뒤에는 build 산출물과 publish 스크립트 결과를 함께 확인한다.
 
 ## 드리프트 점검
 대응 원본 `source/shdkej-content/Idea/Journal.md`는 Git 이력상 초기 동기화 이후 직접 수정 이력이 확인되지 않았다. 이번 실행에서는 `human-reviews/` 복사를 생략했다.
