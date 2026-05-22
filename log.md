@@ -3222,3 +3222,11 @@
 - 정리: `핵심 논지`, `다섯 가지 층위`, `반복 패턴`, `운영 루프`, `중요한 판단 축`으로 반복되던 설명을 하나의 중심 모델로 합쳤다. 날짜별 보강 이력은 본문에서 덜었고, 잘못 렌더링되던 Note_Management 참조를 현재 위치 기준 상대 링크로 고쳤다.
 - 선호 신호: 저자는 Journal을 일기장보다 기록이 다시 나타나는 방식과 출력 표면을 설계하는 Idea 입력 노드로 다룰 때 원문 경계가 가장 잘 살아난다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Idea/Journal.md`는 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다.
+
+## 2026-05-22 03:17 UTC | Idea/Journal 단일 노드 publish 점검
+
+- 갱신 범위: [[mapped/Idea/Journal]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Journal.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 공개 산출물 stale build 지적을 확인했다. 관련 맥락은 링크 대상인 [[mapped/blog/Note_Management]]만 가볍게 참고했다.
+- 정리: 본문 기준선은 유지하고, 공개 산출물 점검 섹션을 추가해 `agent-wiki/out`이 이전 308줄 본문이나 잘못된 `mapped/Idea/mapped/blog/...` 링크를 계속 보여 주면 실패로 보도록 했다. `Note_Management` 연결은 현재 위치 기준 wiki link로 고정했다.
+- 선호 신호: 저자는 mapped 본문만 좋아지는 것보다, 실제 공개 위키 산출물이 같은 버전과 링크 경계를 보여 주는 운영 일관성을 중요하게 본다.
+- 드리프트 점검: 대응 원본은 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다.
