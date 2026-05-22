@@ -3318,3 +3318,11 @@
 - 정리: 본문 중심 모델은 유지하고, `다음 확장 포인트`를 별도 backlog로 남기지 않았다. 대신 인접 노드 연결을 역할 표로 바꿔 시스템 관측, 사람 수신 상태, 팀 상태 전달, 탐구 검증, 생활 재호출이 Feedback 안에서 각각 어떤 기능을 맡는지 한 번에 보이게 했다.
 - 선호 신호: 이미 압축된 Feedback 노트에서는 미래 보강 후보를 계속 쌓기보다, 연결 노드가 현재 본문 모델 안에서 맡는 역할을 짧게 고정하는 편이 재진입성이 높다.
 - 드리프트 점검: 대응 원본은 mapped보다 오래되었고 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
+
+## 2026-05-22 15:17 UTC | Integration/Marketing publish 재생성
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 대상으로 삼았다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 publish stale 지적을 확인했다. 보조 외부 소스는 이미 연결된 `source/external-links/marketing/2026-05-22-time-to-value-second-value.md`만 확인했다.
+- 정리: 본문 해석은 105줄 기준선을 유지하고, `npm run build`로 공개 산출물을 재생성했다. `out/docs`와 `out/llms.mdx`가 `첫 가치`, `두 번째 가치`, `2026-05-22-time-to-value-second-value` 보조 렌즈를 반영하는지 확인했다.
+- 선호 신호: 이미 좋은 Marketing 기준선이 있을 때는 새 설명을 더하기보다 content와 공개 렌더링 산출물이 같은 사용자 흐름 모델을 보여 주는지 먼저 보장하는 편이 맞다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 직접 수정 이력이 없어 이번 런의 사용자 직접 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
