@@ -3358,3 +3358,11 @@
 - 정리: 본문 해석은 98줄 기준선을 유지하고 `npm run build`로 공개 산출물을 재생성했다. `out/docs`와 `out/llms.mdx`가 더 이상 `minimum-viable-audience`, `prelaunch-positioning-pmf`, `time-to-value-second-value` 같은 개별 링크명 나열을 보여 주지 않고, `고객 범위 렌즈`, `반응 언어 렌즈`, `가치 사다리 렌즈` 중심의 역할 압축본을 반영하는지 확인했다.
 - 선호 신호: 이미 압축된 Marketing 기준선에서는 본문을 더 늘리기보다 content와 공개 산출물의 일치를 먼저 보장하는 편이 맞다.
 - 드리프트 점검: 대응 원본은 초기 동기화 이후 직접 수정 이력이 없어 이번 런의 사용자 직접 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
+
+## 2026-05-22 21:17 UTC | Integration/Marketing publish 재생성
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 대상으로 삼았다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `Design` 인접 노드가 공개 산출물에 빠진 publish stale 지적을 확인했다.
+- 정리: 본문 해석은 99줄 기준선을 유지하고 `npm run build`로 공개 산출물을 재생성했다. `out/docs`와 `out/llms.mdx`가 `Design` 인접 노드와 `실행 지도와 보조 렌즈` 압축본을 함께 반영하는지 확인했다.
+- 선호 신호: Marketing 노트가 안정된 뒤에는 새 외부 링크나 해석을 더하기보다, 인접 노드 연결이 실제 공개 산출물까지 반영되는지 확인하는 쪽이 재진입성을 높인다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 직접 수정 이력이 없어 이번 런의 사용자 직접 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
