@@ -3278,3 +3278,11 @@
 - 정리: 본문 5단계 모델은 유지하고, 연결 노드에 [[mapped/Idea/Information]]과 [[mapped/blog/Life_Tracking]]을 추가해 `Journal`이 시간축 입력면에서 정보 재등장과 생활 회고 표면으로 이어지는 경로를 더 분명히 했다. 운영 점검 문구는 본문에 다시 넣지 않았다.
 - 선호 신호: 저자는 안정된 Journal 기준선에서는 새 해석을 크게 늘리기보다, 이미 압축된 모델을 유지하며 실제 인접 노드와의 경로를 선명하게 만드는 쪽이 적합하다.
 - 드리프트 점검: 대응 원본은 mapped보다 오래되었고 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
+
+## 2026-05-22 10:22 UTC | Communication/Feedback 단일 노드 압축 정리
+
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `수집 / 선별 / 해석 / 재호출` 중심 압축 요구를 반영했다. 관련 맥락은 [[mapped/Communication/Talk]], [[mapped/Communication/Teamwork]], [[mapped/deep-knowledge/monitoring]]만 가볍게 참고했다.
+- 정리: 반복되던 `재진입 인터페이스`, `신호 선별`, `트리거`, 패스별 정리 메모를 본문에서 덜고, 원문 고유 장면인 5F, Grafana/알림/행동별 페이지, 검색 5단계, request/response, 상호작용 메모를 중심 모델 안에 재배치했다.
+- 선호 신호: 저자는 Feedback 노트를 피드백 미덕론보다 실제 신호가 다음 행동으로 돌아오는 회로로 읽을 때 원문 경계가 잘 살아나며, 빠른 신호도 집중 보호와 재호출 위치까지 함께 설계하는 편을 선호한다.
+- 드리프트 점검: 대응 원본은 mapped보다 오래되었고 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
