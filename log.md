@@ -1,3 +1,11 @@
+## 2026-05-22 | Integration/Marketing 단일 노드 링크 정밀화
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `압축 상태 고정` 지시와 인접 노드 역방향 링크 상태를 확인했다. 관련 외부 링크 `source/external-links/marketing/2026-05-22-time-to-value-second-value.md`는 이미 본문에 역할 렌즈로 흡수된 보조 맥락으로만 재확인했다.
+- 정리: 기존 5축 모델과 실행 지도는 그대로 두고, `Design` 인접 노드만 추가해 브랜드 톤·화면 문구·제품 언어가 Marketing의 첫인상과 전환 설득으로 이어지는 경로를 명시했다. 본문을 새 외부 링크 목록이나 추가 이론으로 늘리지는 않았다.
+- 선호 신호: 저자는 Marketing 노트가 안정된 뒤에는 새 이론을 계속 붙이기보다, 기존 압축 모델 안에서 인접 노드 역할과 링크 경로를 정밀하게 맞추는 유지 보수를 더 재사용하기 쉽다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+
 ## 2026-05-22 | Communication/Teamwork 단일 노드 압축 정리
 
 - 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 수정했다.
