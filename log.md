@@ -1,3 +1,11 @@
+## 2026-05-23 | Integration/Marketing 도달 전 마찰 단서 정렬
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `도달 전 마찰` 원문 단서 조정 요구를 반영했다. 외부 링크 소스는 새로 확장하지 않았다.
+- 정리: 실행 지도에서 `도달 전 마찰`의 원문 단서를 `제품이 없으면 불편`에서 `유입 경로 3가지`, `좌에서 우로 한판의 그림`으로 옮겨, 첫 가치 전 UX 경로 점검과 무료/유료·이탈 방지 판단이 섞이지 않게 했다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-22 | Integration/Marketing 단일 노드 링크 정밀화
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
