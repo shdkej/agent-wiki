@@ -3494,3 +3494,11 @@
 - 정리: 본문은 이미 120줄 기준선이 안전하므로 더 늘리지 않고, 공개 산출물만 재생성해 `out/docs`와 `out/llms.mdx`가 `원문에서 유지한 구조` 목록 대신 `원문 흐름 요약` 압축본을 보여 주도록 맞췄다.
 - 선호 신호: 안정된 Teamwork 노트는 새 해석을 더하기보다 content와 공개 산출물의 일치를 보장해, 리더 완충·조직 handoff·상태 패키지·재진입 기록 모델을 그대로 재사용하게 하는 편이 적합하다.
 - 드리프트 점검: 대응 원본은 mapped보다 오래되었고 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
+
+## 2026-05-23 15:17 UTC | Communication/Teamwork 인접 노드 압축
+
+- 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 인접 노드 7개 압축 제안을 반영했다. 관련 맥락은 [[mapped/Communication/Document]]와 [[mapped/Communication/Feedback]] 앞부분만 가볍게 확인했다.
+- 정리: 인접 노드 연결을 개별 링크 목록에서 `소통 표면`과 `운영 구조` 두 역할 묶음 표로 접어, Document/Feedback/Talk/Open_Source와 Work/About_Development/Architecture가 Teamwork 안에서 맡는 기능을 분리했다.
+- 선호 신호: 안정된 Teamwork 노트에서는 관련 노드를 계속 늘리기보다, 협업 맥락이 남는 표면과 handoff 비용을 줄이는 운영 구조로 나누어 링크의 역할을 먼저 보이게 하는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 mapped보다 오래되었고 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
