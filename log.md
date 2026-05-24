@@ -3639,6 +3639,14 @@
 - 선호 신호: 안정된 Math 노트에서는 노드 정체성을 여러 문장으로 반복하기보다, 다음 학습자가 바로 적용할 짧은 점검 질문으로 바꾸는 편이 중복을 줄이고 재진입성을 높인다.
 - 드리프트 점검: 대응 원본은 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
 
+## 2026-05-24 19:18 UTC | Communication/Foreign_language 1:1 대응 경계 명시
+
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 source-mapping 부재 지적을 본문 확장 없이 처리했다.
+- 정리: 상단 메타 정보에 이 페이지가 `Communication/Foreign_language.md`만을 원본으로 삼으며, 다른 외국어·읽기·협업 노트 내용을 흡수하지 않는다는 대응 확인 문장을 추가했다.
+- 선호 신호: 안정된 Foreign_language 노트에서는 새 표현이나 해석을 더하기보다, 평가·자동 선택이 헷갈릴 수 있는 1:1 원본 경계를 짧게 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 직접 수정 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 대응 확인에는 사용하지 않았다.
+
 ## 2026-05-24 07:17 UTC | Fundamental/Math 응용 피드백 해석 압축
 
 - 갱신 범위: [[mapped/Fundamental/Math]] 1개 페이지만 수정했다.
