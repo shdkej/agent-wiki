@@ -1,3 +1,11 @@
+## 2026-05-24 | Communication/Foreign_language 경계 감각 반복 분리
+
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `경계 감각` 설명·보존 표·후속 기준 역할 분리 지시를 반영했다. 외부 링크 소스는 참조하지 않았다.
+- 정리: 새 표현을 추가하지 않고 `mores`, `communication vs conversation` 설명을 `해석 / 원문 표식 보존 / 후속 배치 기준`으로 분리했다. 사회적 관습 메모가 문화론 섹션으로 커지지 않고 다섯 축 중 `경계 감각` 안에만 남도록 문장을 줄였다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-24 | Communication/Foreign_language 후속 배치 기준 정리
 
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
