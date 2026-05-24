@@ -1,3 +1,11 @@
+## 2026-05-24 | Communication/Foreign_language 후속 배치 기준 정리
+
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `새 항목이 다섯 축 중 한 축에만 붙는지 확인` 지시를 반영했다. 외부 링크 소스는 참조하지 않았다.
+- 정리: 본문 기준선은 유지하고 `후속 정리 기준`을 표로 압축해, 일본어 활용·발음·여행 문장·업무 동사구·헷갈리는 단어가 각각 어느 축에 먼저 붙고 어떤 확장을 보류해야 하는지 분리했다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-23 | Integration/Marketing 도달 전 마찰 단서 정렬
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
