@@ -3686,3 +3686,11 @@
 - 정리: 2026-05-24 외부 보조 노트의 PLG/activation 자료는 새 행이나 새 주제로 늘리지 않고, 기존 전환 설계 문단과 `첫 가치`, `SNS 운영` 행에 `두 번째 가치`, `첫 주 재가치 경험` 관찰 렌즈로 흡수했다.
 - 선호 신호: Marketing 노트에서는 외부 벤치마크나 PLG 용어를 원본 위에 덮기보다, 원문의 무료 활성사용자·전환·SNS 지속성 메모가 맡던 사용자 흐름 판단을 더 선명하게 하는 보조 렌즈로만 써야 한다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 현재 노트와 직접 관련 있는 marketing/activation 2건만 제한적으로 확인했다.
+
+## 2026-05-24 15:17 UTC | Communication/Foreign_language 사회적 경계 보강
+
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 기준선 유지 및 새 표현은 기존 표에 흡수하라는 지침을 따랐다.
+- 정리: `mores: social convention`과 `communication vs conversation` 메모를 새 주제로 키우지 않고, 기존 `경계 감각` 축 안에서 일방 전달·양방향 대화·정중한 요청·응답 부담을 가르는 사회적 경계 표식으로 보강했다.
+- 선호 신호: 안정된 Foreign_language 노트에서는 표현 목록을 늘리기보다, 원문에 남은 작은 사회적 관습 메모가 어떤 응답 구조를 요구하는지 기존 판단 축에 붙이는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 노트와 직접 관련성이 낮아 사용하지 않았다.
