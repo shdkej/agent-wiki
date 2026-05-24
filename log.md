@@ -3710,3 +3710,10 @@
 - 정리: `mores: social convention`과 `communication vs conversation` 메모를 새 주제로 키우지 않고, 기존 `경계 감각` 축 안에서 일방 전달·양방향 대화·정중한 요청·응답 부담을 가르는 사회적 경계 표식으로 보강했다.
 - 선호 신호: 안정된 Foreign_language 노트에서는 표현 목록을 늘리기보다, 원문에 남은 작은 사회적 관습 메모가 어떤 응답 구조를 요구하는지 기존 판단 축에 붙이는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 노트와 직접 관련성이 낮아 사용하지 않았다.
+## 2026-05-24 18:17 UTC | Communication/Foreign_language 경계 역할 분리
+
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 사회적 관습/대화 경계 반복 가능성 지적을 반영했다.
+- 정리: 본문 보강은 늘리지 않고 `경계 감각` 섹션이 해석 역할, 판단 축 표가 원문 보존 역할, 후속 정리 표가 새 항목 흡수 기준 역할을 맡도록 문장을 압축했다.
+- 선호 신호: 안정된 Foreign_language 노트에서는 새 표현을 추가하기보다 같은 사회적 경계 단서가 여러 위치에서 반복 설명되지 않게 각 위치의 책임을 짧게 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 초기 동기화 이후 직접 수정 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 노트와 직접 관련성이 낮아 사용하지 않았다.
