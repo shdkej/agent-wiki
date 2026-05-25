@@ -3837,3 +3837,11 @@
 - 정리: `한눈에 남길 아이디어`를 14개에서 8개로 줄여 질문, 전제/표본/반례, 수용 조건, 오류 복구, MECE와 변증법, 철학 렌즈, 최소 판단 패킷만 남겼다. 본문 확장이나 새 이론 추가는 하지 않았다.
 - 선호 신호: 안정된 Logical_Thinking 노트에서는 요약 목록도 새 설명층이 되지 않게, 뒤쪽의 최소 산출물·판단 표식으로 이어지는 압축 표지 역할만 맡기는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 최근 git 이력이 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 압축과 직접 관련성이 낮아 사용하지 않았다.
+
+## 2026-05-25 10:22 UTC | Communication/Foreign_language 1:1 대응 경계 점검
+
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문을 더 만지지 말고 대응 경계를 유지`하라는 지침을 반영했다.
+- 정리: 본문 해석은 확장하지 않고 상단 메타 정보에 mapped 경로와 최신 기준선 날짜를 고정했으며, 후속 정리 기준에 안정 단계에서는 새 표현이 없을 때 본문을 늘리지 않는다는 운영 기준을 짧게 추가했다.
+- 선호 신호: 안정된 Foreign_language 노트에서는 외국어 학습 이론을 더하기보다, `활용 손잡이 / 소리와 힘점 / 장면 호출문 / 협업 상태 / 경계 감각` 다섯 축 중 어디에 붙는지만 확인하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md`는 최근 git 이력이 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 대응 경계 점검에는 사용하지 않았다.
