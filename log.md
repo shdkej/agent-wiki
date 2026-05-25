@@ -3757,3 +3757,11 @@
 - 정리: 상단 역할 설명과 후속 정리 기준에 `Communication/Teamwork.md`와의 단일 대응 관계를 짧게 명시했다. 핸드북, GitHub workflow, 코드리뷰, 온보딩 메모는 별도 기술 노드로 분리하지 않고 Teamwork의 협업 상태 전달·재진입 표면으로 유지하도록 경계를 고정했다.
 - 선호 신호: 안정된 Teamwork 노트에서는 새 리더십/협업 이론을 늘리기보다 원본과 mapped의 1:1 관계, 내부 사례의 귀속 위치를 먼저 고정하는 편이 평가와 다음 편집의 흔들림을 줄인다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 대응 경계 확인에는 사용하지 않았다.
+
+## 2026-05-25 00:17 UTC | Communication/Feedback 인접 연결 압축
+
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `인접 노드 연결` 7개가 길어질 때 역할 묶음으로 접으라는 지적을 반영했다.
+- 정리: 본문 해석은 늘리지 않고 상단 상태를 안정 기준선으로 갱신했으며, 인접 노드 연결을 `사람 수신 / 기록 전환 / 시스템 관측 / 탐구·생활 재호출` 네 묶음으로 압축했다.
+- 선호 신호: 안정된 Feedback 노트에서는 새 피드백 이론을 더하기보다, 연결 노드가 현재 `수집 / 선별 / 해석 / 재호출` 모델에서 어떤 역할을 맡는지 압축해 재진입성을 유지하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Feedback.md`는 최근 git 변경 이력이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 노트와 직접 관련성이 낮아 사용하지 않았다.
