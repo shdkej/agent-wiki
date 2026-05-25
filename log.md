@@ -1,3 +1,11 @@
+## 2026-05-25 | Communication/Document 접수-배치-전달-재호출 압축
+
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 반복 축소 지시를 반영했다. 외부 링크 소스는 참조하지 않았다.
+- 정리: 318줄 기준선을 112줄로 압축하고, 문서 운영을 `접수 / 배치 / 전달 / 재호출 / 신뢰 신호` 다섯 칸으로 재배치했다. README·제품 소개·사용 가이드·트러블슈팅·히스토리·메타 문서함은 문서 종류 목록이 아니라 독자와 상황별 진입면 분업으로 정리했다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 file mtime 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, 따라서 `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-24 | Communication/Foreign_language 경계 감각 반복 분리
 
 - 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지만 수정했다.
