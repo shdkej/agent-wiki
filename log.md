@@ -1,3 +1,11 @@
+## 2026-05-26 23:17 UTC | Health/Decision 매핑 상태 문구 보정
+
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `별도 maintenance 매핑이 비어 있어도` 문장이 낡았다는 지적을 반영했다.
+- 정리: 본문 해석은 늘리지 않고 상단 1:1 확인 문장만 현재 `maintenance/source-mapping` 상태에 맞춰 낮췄다. 네 칸 유지 모델과 원문 범위는 그대로 유지했다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 git 변경이 없고 file mtime도 mapped보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-26 17:17 UTC | Integration/Marketing 공개 설명면 중복 압축
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
