@@ -4007,3 +4007,11 @@
 - 정리: 본문 해석을 새로 늘리지 않고 상단 대응 경로와 `대응 경계` 문단만 추가해, 외부 PLG/activation/AEO 자료가 원문 유입·활성화·전환·유지·재방문 접점을 보조할 때만 흡수된다는 기준을 고정했다.
 - 선호 신호: 안정된 Marketing 노트에서는 새 외부 마케팅 이론보다 원본 노드와 mapped 페이지의 짝, 그리고 외부 자료 흡수 한계를 먼저 확인하는 편이 드리프트를 줄인다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 이번 런에서 목록만 확인하고 본문에는 새로 반영하지 않았다.
+
+## 2026-05-26 07:17 UTC | Integration/Marketing source-mapping 대응 추가
+
+- 갱신 범위: [[maintenance/source-mapping]]에 `Integration/Marketing`의 1:1 대응만 추가했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 `agent-wiki/content/docs/mapped/Integration/Marketing.mdx` 전체를 다시 읽고, 최근 평가의 `본문을 더 만지지 말고 source-mapping에 대응을 추가`하라는 지침을 반영했다.
+- 정리: 오래된 예시 경로 `agent-wiki/mapped/...`를 현재 실제 경로 `agent-wiki/content/docs/mapped/.../*.mdx`로 고치고, `source/shdkej-content/Integration/Marketing.md` -> `agent-wiki/content/docs/mapped/Integration/Marketing.mdx` 대응 행을 추가했다. Marketing 본문은 안정 단계로 판단해 수정하지 않았다.
+- 선호 신호: 안정된 Marketing 노트에서는 새 마케팅 해석보다 자동 점검과 사람 재진입이 같은 1:1 경로를 보게 만드는 관리 표식이 더 유효하다.
+- 드리프트 점검: 대응 원본의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
