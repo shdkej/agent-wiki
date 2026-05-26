@@ -1,3 +1,11 @@
+## 2026-05-26 12:17 UTC | Integration/Marketing 첫 가치와 도달 전 마찰 경계 고정
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 활성화 관련 중복 확장 방지 지침을 반영했다.
+- 정리: `첫 가치`는 첫 행동 뒤 확인되는 이득과 다음 사용 이유로, `도달 전 마찰`은 첫 행동 전에 결과 확인을 늦추는 입력·화면·대기 비용으로 더 분명히 갈랐다. 새 외부 자료나 독립 행은 추가하지 않았다.
+- 드리프트 점검: 대응 원본은 git 상태와 file mtime 기준으로 최근 사용자 직접 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-25 23:17 UTC | Health/Decision 네 칸 모델 전면화
 
 - 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 수정했다.
