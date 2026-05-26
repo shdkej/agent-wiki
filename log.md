@@ -4040,6 +4040,14 @@
 - 선호 신호: 안정된 Marketing 노트에서는 새 외부 마케팅 이론보다 원본 노드와 mapped 페이지의 짝, 그리고 외부 자료 흡수 한계를 먼저 확인하는 편이 드리프트를 줄인다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 이번 런에서 목록만 확인하고 본문에는 새로 반영하지 않았다.
 
+## 2026-05-26 16:17 UTC | Integration/Marketing 첫 가치·응답 표면 역할 분리
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `첫 가치`와 `응답 표면` 보조 판정이 약속·결과·대상 확인을 반복할 수 있다는 지적을 반영했다.
+- 정리: `실행 판단판`에서 `첫 가치`는 제품 안 첫 결과와 저장·재방문 이유로, `응답 표면`은 제품 밖 공개 설명이 누구의 어떤 망설임을 줄이는지로 갈라 문장 두 개만 대체했다.
+- 선호 신호: 안정된 Marketing 노트에서는 AI/PLG 보조 자료를 새 행으로 늘리지 않고, 원문 퍼널 질문 안에서 제품 안 결과와 제품 밖 설명의 역할을 분리하는 정도가 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 새로 확장하지 않고 최근 평가 맥락과 기존 보조 노트 경계만 확인했다.
+
 ## 2026-05-26 07:17 UTC | Integration/Marketing source-mapping 대응 추가
 
 - 갱신 범위: [[maintenance/source-mapping]]에 `Integration/Marketing`의 1:1 대응만 추가했다.
