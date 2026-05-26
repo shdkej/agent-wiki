@@ -3952,6 +3952,14 @@
 - 선호 신호: 안정된 Music 노트에서는 같은 입문 루프를 여러 섹션에서 다시 설명하기보다, 한 표는 연습 실패 판정에 쓰고 한 기준은 메모 흡수 여부에 쓰는 편이 밀도가 높다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
+## 2026-05-26 10:20 UTC | Integration/Marketing 첫 화면 활성화 판정 추가
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `외부 자료는 실행 판단판의 접점만 선명하게 할 것`이라는 기준을 유지했다.
+- 정리: 2026-05-26 `첫 홈 화면은 First Activation Event로 향하는 방향판` 외부 보조 노트는 독립 성장 이론으로 키우지 않고, 원문의 `무료 활성사용자`와 `좌에서 우로 한판의 그림`에 붙는 `첫 화면 방향` 판정 행으로만 흡수했다.
+- 선호 신호: 안정된 Marketing 노트에서는 새 activation/onboarding 자료를 별도 섹션으로 늘리기보다, 첫 가치 행동에 닿기 전 마찰을 구분하는 짧은 판단어로 남기는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-26-home-dashboard-fae.md`만 필터링해 사용했다.
+
 ## 2026-05-25 21:17 UTC | Health/Music 역할 분리 문장 흡수
 
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 수정했다.
