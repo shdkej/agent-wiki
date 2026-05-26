@@ -3832,6 +3832,14 @@
 - 선호 신호: 안정된 Blogging 노트에서는 새 글쓰기 이론을 더하기보다, 소재 목록을 반복 코너 후보로 묶고 매체별 기준을 짧은 판단표로 유지하는 편이 재진입성이 높다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Blogging.md`는 최근 git 이력이 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 압축과 직접 관련성이 낮아 사용하지 않았다.
 
+## 2026-05-26 00:17 UTC | Health/Decision 1:1 대응 경계 고정
+
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문을 더 줄이기보다 1:1 대응 추가만 충분`하다는 지적을 확인했다.
+- 정리: 본문 해석은 늘리지 않고 상단 메타 정보와 후속 편집 기준에 `Health/Decision.md` 단일 대응을 고정했다. source-mapping 부재를 본문 확장 이유로 쓰지 않는다는 안정 단계 기준도 짧게 남겼다.
+- 선호 신호: 안정된 Decision 노트에서는 구매·집·역할·효율 해석을 더 추가하기보다, 원문 장면이 `후보 축소 / 최악 회피 / 관리 표면 / 선택 후 보정` 네 칸 중 어디에 붙는지만 확인하는 편이 적합하다.
+- 드리프트 점검: 대응 원본의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 대응 경계 점검과 직접 관련성이 낮아 사용하지 않았다.
+
 ## 2026-05-25 07:17 UTC | Communication/Logical_Thinking 중복 모델 압축
 
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 수정했다.
