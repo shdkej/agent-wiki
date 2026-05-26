@@ -3896,6 +3896,14 @@
 - 선호 신호: 안정된 changelog 노트에서는 새 해석층을 계속 늘리기보다, 개인 변경·상속 로그·릴리스 껍데기의 세 층을 짧게 판정하는 구조가 더 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/CHANGELOG.md`는 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
+## 2026-05-26 08:17 UTC | Integration/Marketing 본문 메타 압축
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `source-mapping과 본문 상단 메타가 역할이 겹친다`는 지적을 반영했다.
+- 정리: 본문 상단의 `대응`, `역할`, `상태` 불릿과 별도 `대응 경계` 섹션을 한 문장으로 접고, 1:1 경로 관리는 [[maintenance/source-mapping]]으로 넘겼다. Marketing 본문은 사용자 흐름 판단판과 중심 모델 중심으로 유지했다.
+- 선호 신호: source-mapping에 대응이 고정된 안정 단계 노트에서는 본문이 관리 이력을 반복하기보다, 원문 주제 판단과 재진입 표면만 남기는 편이 드리프트를 줄인다.
+- 드리프트 점검: 대응 원본은 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-25 14:17 UTC | CHANGELOG 후반 메타 구조 압축
 
 - 갱신 범위: [[mapped/CHANGELOG]] 1개 페이지만 수정했다.
