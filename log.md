@@ -3975,3 +3975,11 @@
 - 정리: 2026-05-26 AEO/agent-ready 외부 보조 노트를 새 성장 이론으로 확장하지 않고, `소비자가 듣고 싶어 하는 얘기`와 `좌에서 우로 한판의 그림`에 붙는 `응답 표면` 점검 행으로만 제한했다.
 - 선호 신호: 안정된 Marketing 노트에서는 새 마케팅 트렌드를 별도 섹션으로 키우기보다, 기존 퍼널 질문이 사람과 에이전트 모두에게 읽히는 공개 설명 구조인지 확인하는 보조 렌즈로 흡수하는 편이 안전하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-26-aeo-agent-ready-research.md`만 필터링해 사용했다.
+
+## 2026-05-26 03:17 UTC | Integration/Marketing 실행 판단판 압축
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `보조 렌즈 표와 반복 패턴을 일부 합치라`는 지적을 반영했다.
+- 정리: `실행 지도와 보조 렌즈`와 `반복 패턴`을 `실행 판단판` 하나로 합쳐 유입, 활성화, 전환, 유지, 재방문 접점별 판단과 보조 렌즈를 한 자리에서 보게 했다. AEO/agent-ready는 여전히 별도 성장 채널이 아니라 원문 퍼널 질문의 응답 표면 점검으로 제한했다.
+- 선호 신호: 안정된 Marketing 노트에서는 외부 자료나 반복 해석을 계속 늘리기보다, 새 자료가 기존 사용자 흐름의 어느 접점을 선명하게 하는지 판정하는 압축 표가 더 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 직전 AEO 보조 노트만 맥락으로 확인했다.
