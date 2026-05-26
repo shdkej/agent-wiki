@@ -1,3 +1,11 @@
+## 2026-05-26 17:17 UTC | Integration/Marketing 공개 설명면 중복 압축
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `첫 가치`와 `응답 표면`이 약속·결과·대상 확인을 중복할 수 있다는 지적을 반영했다.
+- 정리: `첫 가치`는 제품 안 실제 결과와 다음 사용 이유로, `응답 표면`은 제품 밖 공개 설명이 줄이는 망설임으로 더 짧게 갈라 두 판정어가 같은 말을 반복하지 않게 했다. 새 외부 자료나 독립 행은 추가하지 않았다.
+- 드리프트 점검: 대응 원본은 file mtime 기준으로 mapped보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-26 13:17 UTC | Integration/Marketing 첫 세션 관찰 판정 보강
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
