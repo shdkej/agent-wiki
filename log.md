@@ -4095,3 +4095,11 @@
 - 정리: 2026-05-26 AI agent/product marketing 보조 노트는 독립 섹션으로 키우지 않고, `첫 가치`와 `응답 표면`의 보조 판정어만 짧게 바꿔 첫 결과 이후 다음 이유와 공개 설명의 약속·대상·한계가 흐려지지 않게 했다.
 - 선호 신호: 안정된 Marketing 노트에서는 새 AI/PLG 트렌드를 실행 항목으로 늘리기보다, 원문 퍼널 질문이 첫 가치와 공개 설명 표면에서 더 정확히 닫히는지 확인하는 문장 보정이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-26-ai-agent-product-marketing-trends.md`만 필터링해 사용했다.
+
+## 2026-05-26 18:17 UTC | Integration/Marketing 응답 표면 권한 경계 보강
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `새 보조 자료는 기존 실행 판단판의 한 문장 대체로 충분한지 먼저 판정` 기준을 적용했다.
+- 정리: AI/agent 제품 보조 노트는 독립 섹션으로 키우지 않고, `표현과 채널`의 톤 경계와 `응답 표면` 행에만 흡수했다. 제품 밖 설명은 약속뿐 아니라 사용자가 선택·수정할 수 있는 한계를 보여 줄 때 원문의 `전문적이지만 잘난 척하지 않는다`는 UX 라이팅 기준과 맞는다고 정리했다.
+- 선호 신호: 안정된 Marketing 노트에서는 AI/agent 트렌드를 새 성장 이론으로 확장하기보다, 원문 퍼널 질문의 공개 설명 표면에서 신뢰·권한·한계가 흐려지지 않는지만 보정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-26-ai-agent-product-marketing-trends.md`만 필터링해 사용했다.
