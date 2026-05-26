@@ -4023,3 +4023,11 @@
 - 정리: 오래된 예시 경로 `agent-wiki/mapped/...`를 현재 실제 경로 `agent-wiki/content/docs/mapped/.../*.mdx`로 고치고, `source/shdkej-content/Integration/Marketing.md` -> `agent-wiki/content/docs/mapped/Integration/Marketing.mdx` 대응 행을 추가했다. Marketing 본문은 안정 단계로 판단해 수정하지 않았다.
 - 선호 신호: 안정된 Marketing 노트에서는 새 마케팅 해석보다 자동 점검과 사람 재진입이 같은 1:1 경로를 보게 만드는 관리 표식이 더 유효하다.
 - 드리프트 점검: 대응 원본의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-26 09:17 UTC | Integration/Marketing 외부 렌즈 존재감 축소
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `외부 렌즈 언급을 실행 판단판의 짧은 보조 판정어로만 유지`하라는 지적을 반영했다.
+- 정리: 전환 설계 본문에서 PLG/activation 외부 자료 언급 문단을 덜고, `실행 판단판` 도입부와 `응답 표면` 행을 원문 단서 중심의 공개 설명 점검으로 압축했다.
+- 선호 신호: 안정된 Marketing 노트에서는 외부 마케팅 프레임의 이름보다 원문 퍼널 질문이 유입·활성화·전환·유지·재방문 중 어느 접점을 밝히는지만 남기는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 새로 읽지 않았다.
