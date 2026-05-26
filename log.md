@@ -4103,3 +4103,11 @@
 - 정리: AI/agent 제품 보조 노트는 독립 섹션으로 키우지 않고, `표현과 채널`의 톤 경계와 `응답 표면` 행에만 흡수했다. 제품 밖 설명은 약속뿐 아니라 사용자가 선택·수정할 수 있는 한계를 보여 줄 때 원문의 `전문적이지만 잘난 척하지 않는다`는 UX 라이팅 기준과 맞는다고 정리했다.
 - 선호 신호: 안정된 Marketing 노트에서는 AI/agent 트렌드를 새 성장 이론으로 확장하기보다, 원문 퍼널 질문의 공개 설명 표면에서 신뢰·권한·한계가 흐려지지 않는지만 보정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-26-ai-agent-product-marketing-trends.md`만 필터링해 사용했다.
+
+## 2026-05-26 20:17 UTC | Integration/Marketing 보조 참고 표식 축소
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `새 보조 자료` 문구가 공개 출력에서도 외부 자료명 없이 반영되는지 확인하라는 지적을 반영했다.
+- 정리: 본문 해석은 늘리지 않고 `새 보조 자료`라는 운영 표식을 `추가 참고`와 `새 참고`로 낮춰, 외부 자료가 독립 주제가 아니라 원문 접점 판정을 선명하게 할 때만 흡수된다는 기준을 유지했다.
+- 선호 신호: 안정된 Marketing 노트에서는 외부 마케팅/AI 자료의 이름이나 작업 이력보다, 유입·활성화·전환·응답 표면 중 어느 접점이 선명해졌는지만 남기는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`에는 이번 런의 직접 사용자 수정 diff가 없어 `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-26-ai-agent-product-marketing-trends.md`만 필터링해 확인했다.
