@@ -4071,3 +4071,11 @@
 - 정리: 새 외부 자료를 붙이지 않고, 전환 설계 문단과 실행 판단판의 `첫 가치`·`도달 전 마찰` 행만 짧게 다듬어 `첫 이득 -> 다시 쓸 이유`와 `첫 행동 전 멈춤 증거`의 역할을 분리했다.
 - 선호 신호: 안정된 Marketing 노트에서는 활성화 보조 자료를 누적하기보다 기존 한 문장을 대체할 만큼 구체적인 관찰일 때만 반영하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 이번 런에서 새로 읽지 않았다.
+
+## 2026-05-26 15:22 UTC | Integration/Marketing 응답 표면 최소 보정
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `Marketing 본문은 유지하고 새 자료는 기존 문장 대체 수준에서만 반영`하라는 기준을 적용했다.
+- 정리: 2026-05-26 AI agent/product marketing 보조 노트는 독립 섹션으로 키우지 않고, `첫 가치`와 `응답 표면`의 보조 판정어만 짧게 바꿔 첫 결과 이후 다음 이유와 공개 설명의 약속·대상·한계가 흐려지지 않게 했다.
+- 선호 신호: 안정된 Marketing 노트에서는 새 AI/PLG 트렌드를 실행 항목으로 늘리기보다, 원문 퍼널 질문이 첫 가치와 공개 설명 표면에서 더 정확히 닫히는지 확인하는 문장 보정이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-26-ai-agent-product-marketing-trends.md`만 필터링해 사용했다.
