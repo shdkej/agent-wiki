@@ -3967,3 +3967,11 @@
 - 정리: `이 노드를 읽을 때 놓치지 말아야 할 점`에서 source-mapping 부재와 편집 운영 설명을 덜고, 구매/집/도구/역할 메모를 네 칸 판단 문법으로 읽는 기준만 남겼다.
 - 선호 신호: 안정된 Decision 노트에서는 새 해석보다 `후보 축소 / 최악 회피 / 관리 표면 / 선택 후 보정` 모델에 새 원문 장면을 붙일지 판정하는 짧은 흡수 기준이 더 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`는 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-26 02:17 UTC | Integration/Marketing 응답 표면 보조 렌즈
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문을 더 늘리지 말고 외부 렌즈는 기존 실행 지도에 흡수하라`는 기준을 반영했다.
+- 정리: 2026-05-26 AEO/agent-ready 외부 보조 노트를 새 성장 이론으로 확장하지 않고, `소비자가 듣고 싶어 하는 얘기`와 `좌에서 우로 한판의 그림`에 붙는 `응답 표면` 점검 행으로만 제한했다.
+- 선호 신호: 안정된 Marketing 노트에서는 새 마케팅 트렌드를 별도 섹션으로 키우기보다, 기존 퍼널 질문이 사람과 에이전트 모두에게 읽히는 공개 설명 구조인지 확인하는 보조 렌즈로 흡수하는 편이 안전하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-26-aeo-agent-ready-research.md`만 필터링해 사용했다.
