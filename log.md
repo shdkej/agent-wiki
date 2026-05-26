@@ -1,3 +1,11 @@
+## 2026-05-26 13:17 UTC | Integration/Marketing 첫 세션 관찰 판정 보강
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `첫 가치`와 `도달 전 마찰`을 새 행으로 늘리지 말라는 기준을 유지했다.
+- 정리: 2026-05-25 첫 세션/마찰 보조 노트는 독립 섹션으로 키우지 않고, `첫 가치`는 짧은 약속-행동-결과 폐쇄 여부로, `도달 전 마찰`은 전환율보다 반복 클릭·입력 후 멈춤·결과 전 이탈 같은 행동 증거를 먼저 보는 보조 판정으로만 흡수했다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 git 변경이 없고 file mtime도 mapped보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-26 12:17 UTC | Integration/Marketing 첫 가치와 도달 전 마찰 경계 고정
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
