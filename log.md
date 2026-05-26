@@ -4111,3 +4111,11 @@
 - 정리: 본문 해석은 늘리지 않고 `새 보조 자료`라는 운영 표식을 `추가 참고`와 `새 참고`로 낮춰, 외부 자료가 독립 주제가 아니라 원문 접점 판정을 선명하게 할 때만 흡수된다는 기준을 유지했다.
 - 선호 신호: 안정된 Marketing 노트에서는 외부 마케팅/AI 자료의 이름이나 작업 이력보다, 유입·활성화·전환·응답 표면 중 어느 접점이 선명해졌는지만 남기는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`에는 이번 런의 직접 사용자 수정 diff가 없어 `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-26-ai-agent-product-marketing-trends.md`만 필터링해 확인했다.
+
+## 2026-05-26 21:17 UTC | Integration/Marketing 보조 자료 문구 안정화
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `추가 참고`/`새 참고` 문구가 공개 출력에서도 낮은 강도로 반영되는지만 확인하라는 지적을 반영했다.
+- 정리: 본문 해석과 실행 판단판 행은 늘리지 않고, `추가 참고`와 `새 참고`라는 작업 이력성 표현을 각각 `응답 표면 점검`과 `보조 자료`로 낮춰 원문 유입·활성화·전환·유지·재방문 접점이 중심에 남게 했다.
+- 선호 신호: 안정된 Marketing 노트에서는 외부 자료의 존재를 본문에 남기기보다, 원문 접점 중 어느 판단을 선명하게 하는지만 짧게 남기는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크는 새로 확장하지 않고 최근 평가 맥락만 사용했다.
