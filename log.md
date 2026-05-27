@@ -4079,6 +4079,14 @@
 - 선호 신호: 안정된 Marketing 노트에서는 새 마케팅 해석보다 자동 점검과 사람 재진입이 같은 1:1 경로를 보게 만드는 관리 표식이 더 유효하다.
 - 드리프트 점검: 대응 원본의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
+## 2026-05-27 03:18 UTC | Health/Decision publish 기준 문구 고정
+
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `publish 산출물이 재생성된 뒤 네 칸 모델과 상단 상태 문구가 공개 출력에도 같은 강도로 반영되는지 확인` 지적을 반영했다.
+- 정리: 본문 해석은 늘리지 않고 상태 문구와 후속 흡수 기준에서 공개 출력 점검을 `publish 산출물` 기준으로 낮게 고정했다. 핵심 모델은 계속 `후보 축소 / 최악 회피 / 관리 표면 / 선택 후 보정` 네 칸이다.
+- 선호 신호: 안정된 Decision 노트에서는 새 구매 해석을 더하지 말고 mapped 본문과 publish 산출물이 같은 판단 모델을 유지하는지 확인하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-26 09:17 UTC | Integration/Marketing 외부 렌즈 존재감 축소
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
