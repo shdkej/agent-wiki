@@ -1,3 +1,11 @@
+## 2026-05-27 21:17 UTC | Health/Physical 매핑 정합화
+
+- 갱신 범위: [[mapped/Health/Physical]] 1개 노트를 대상으로 삼고, 본문 해석은 늘리지 않았다. 관리 표면인 `source-mapping`만 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Physical.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `source-mapping` 누락 지적을 반영했다.
+- 정리: `source/shdkej-content/Health/Physical.md` -> `agent-wiki/content/docs/mapped/Health/Physical.mdx` 1:1 대응 행을 `maintenance/source-mapping`에 추가해 본문 상단의 관리 문구와 실제 관리 표면을 맞췄다.
+- 선호 신호: 안정된 Physical 노트에서는 운동 해석을 더 늘리기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Physical.md`의 git 이력은 초기 동기화에 머물러 있고 file mtime도 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-27 09:17 UTC | Health/Music 공개 출력 기준 확인
 
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 최소 수정했다.
