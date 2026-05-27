@@ -1,3 +1,11 @@
+## 2026-05-27 09:17 UTC | Health/Music 공개 출력 기준 확인
+
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `Music 본문을 더 만지지 말고 publish 산출물 반영만 확인` 기준을 반영했다.
+- 정리: 본문 해석과 네 칸 모델은 늘리지 않고, 상단 상태 문구만 `후속 메모`보다 구체적인 `새 연습 기록` 기준으로 낮춰 몸 상태 보강이 독립 주제로 커지지 않게 했다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 git 변경이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-27 06:17 UTC | Health/Music 몸 상태 행 보조화
 
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 최소 수정했다.
