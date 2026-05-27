@@ -4278,3 +4278,11 @@
 - 정리: 주거와 선택권 섹션 안에 월 단위 현금흐름 시나리오 표를 추가해 5억 집·3.5억 대출·월 200, 반전세 1억에 70, 월세 90, 2억 배당 월 80, 720/550 생활비 상한, 출산 후 790 같은 원문 숫자를 판단 장면으로 직접 남겼다.
 - 선호 신호: Investment 노트에서는 새 재무 이론보다 월 단위 잔액, 고정 저축, 주거비 상한처럼 반복 계산 가능한 안전성 테스트를 보존하는 편이 재사용성이 높다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-27 18:17 UTC | Health/Investment 매핑 정합화
+
+- 갱신 범위: [[mapped/Health/Investment]] 1개 노트를 대상으로 삼고, 본문 해석은 늘리지 않았다. 관리 표면인 `source-mapping`만 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Investment.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `source-mapping` 누락 지적을 반영했다.
+- 정리: `source/shdkej-content/Health/Investment.md` -> `agent-wiki/content/docs/mapped/Health/Investment.mdx` 1:1 대응 행을 `maintenance/source-mapping`에 추가해 본문 상단의 관리 문구와 실제 관리 표면을 맞췄다.
+- 선호 신호: 안정된 Investment 노트에서는 새 재무 해석을 덧붙이기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
