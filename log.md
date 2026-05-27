@@ -1,3 +1,10 @@
+## 2026-05-27 00:17 UTC | Health/Decision 드리프트 점검 문단 정리
+
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `드리프트 점검` 문단이 본문 안에서는 관리 표면과 겹친다는 지적을 반영했다.
+- 정리: Decision 본문 해석은 늘리지 않고 말미의 실행 로그성 드리프트 점검 문단을 제거했다. 원본 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다.
+- 선호 신호: 안정된 Decision 노트에서는 구매·집·역할·효율 해석보다 네 칸 유지 모델과 원문 장면을 먼저 보이게 하고, 실행 확인은 본문보다 log에 남기는 편이 적합하다.
+
 ## 2026-05-26 23:17 UTC | Health/Decision 매핑 상태 문구 보정
 
 - 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 수정했다.
