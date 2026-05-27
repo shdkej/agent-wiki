@@ -4142,3 +4142,11 @@
 - 정리: `source-mapping`에 `source/shdkej-content/Health/Decision.md` -> `agent-wiki/content/docs/mapped/Health/Decision.mdx` 1:1 대응 행을 추가했다. Decision 본문은 이미 안정 압축 상태로 판단해 수정하지 않았다.
 - 선호 신호: 안정된 Decision 노트에서는 새 해석보다 원본 만다라트 노드와 mapped 페이지의 대응 경계를 본문 밖 관리 표면에 고정하는 편이 더 유효하다.
 - 드리프트 점검: 대응 원본의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-27 01:17 UTC | Health/Decision 공개 출력 일치 점검
+
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `publish 산출물이 재생성된 뒤 네 칸 유지 모델과 상단 1:1 확인 문장이 공개 출력에도 같은 낮은 강도로 반영되는지 확인` 지적을 반영했다.
+- 정리: 본문 해석은 늘리지 않고 상태 문구와 후속 흡수 기준만 낮은 강도로 다듬어, `후보 축소 / 최악 회피 / 관리 표면 / 선택 후 보정` 모델이 본문과 공개 산출물의 공통 기준임을 명시했다.
+- 선호 신호: 안정된 Decision 노트에서는 새 해석을 추가하기보다 원문 만다라트 노드, mapped 본문, 공개 출력이 같은 네 칸 모델을 유지하는지 확인하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`의 최근 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
