@@ -1,3 +1,11 @@
+## 2026-05-27 05:17 UTC | Health/Music 상단 운영 메타 압축
+
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `상단 운영 메타를 한두 줄로 접어 표와 흡수 기준이 먼저 보이게 하라`는 지적을 반영했다.
+- 정리: Music 본문 해석과 `읽기 / 위치 / 발화 / 전이` 모델은 늘리지 않고, H1 아래의 원본·mapped·상태·역할·기준선 목록을 한 문장 상태 설명으로 압축했다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 git 변경이 없고 file mtime도 mapped보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-27 04:17 UTC | Health/Music 1:1 매핑 확인
 
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 수정하고, 유지 관리용 source-mapping에 개별 대응을 추가했다.
