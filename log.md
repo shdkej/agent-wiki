@@ -4151,6 +4151,14 @@
 - 선호 신호: 안정된 Food 노트에서는 새 해석 이력을 본문에 누적하기보다, 다음 음식·실패·간편식 메모가 어느 운영 층으로 들어갈지 판정하는 재사용 기준만 남기는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
+## 2026-05-27 12:17 UTC | Health/Food 대응 표면 정합화
+
+- 갱신 범위: [[mapped/Health/Food]] 1개 페이지만 최소 수정하고, 관리 표면의 1:1 대응 기록을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Food.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `source-mapping` 누락과 작업 이력성 문구 지적을 반영했다.
+- 정리: Food 본문은 해석을 늘리지 않고 `이번 패스` 표현을 구조 설명으로 낮췄다. `source-mapping`에는 `source/shdkej-content/Health/Food.md` -> `agent-wiki/content/docs/mapped/Health/Food.mdx` 대응 행을 추가해 상단 1:1 상태 문구와 관리 표면을 맞췄다.
+- 선호 신호: 안정된 Food 노트에서는 식사 운영 해석을 더 확장하기보다, 본문 안 작업 이력 표현을 줄이고 원본 만다라트 노드와 mapped 페이지의 대응 경계를 관리 표면에 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Food.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-26 15:22 UTC | Integration/Marketing 응답 표면 최소 보정
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 수정했다.
