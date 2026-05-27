@@ -4207,14 +4207,6 @@
 - 선호 신호: 안정된 Decision 노트에서는 새 구매 해석보다 mapped 본문과 공개 산출물이 같은 판단 모델을 유지하는지 검증하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Decision.md`에는 이번 런 이후 직접 사용자 수정 이력이 없어 `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
-## 2026-05-27 19:17 UTC | Health/Investment 후속 흡수 기준 고정
-
-- 갱신 범위: [[mapped/Health/Investment]] 1개 페이지만 최소 수정했다.
-- 탐구: 대응 원본 `source/shdkej-content/Health/Investment.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문을 더 늘리지 말고 새 정책·대출·가계 숫자가 들어올 때만 기존 표의 한 줄을 대체` 기준을 반영했다.
-- 정리: 본문 해석은 늘리지 않고 `보존해야 할 질문` 섹션을 `보존해야 할 질문과 흡수 기준`으로 낮게 확장해, 후속 메모는 전제표·월 장부·대출 이동성 표 중 한 줄을 대체할 만큼 구체적인 숫자나 조건일 때만 흡수한다고 명시했다.
-- 선호 신호: 안정된 Investment 노트에서는 새 재무 이론을 붙이기보다 기존 장부 표를 교체·선명화할 수 있는 실제 숫자와 제도 조건만 받아들이는 편이 적합하다.
-- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 관련 파일이 없어 사용하지 않았다.
-
 ## 2026-05-27 07:17 UTC | Health/Music 몸 상태 흡수 기준 축소
 
 - 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 최소 수정했다.
@@ -4294,3 +4286,11 @@
 - 정리: `source/shdkej-content/Health/Investment.md` -> `agent-wiki/content/docs/mapped/Health/Investment.mdx` 1:1 대응 행을 `maintenance/source-mapping`에 추가해 본문 상단의 관리 문구와 실제 관리 표면을 맞췄다.
 - 선호 신호: 안정된 Investment 노트에서는 새 재무 해석을 덧붙이기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-27 19:17 UTC | Health/Investment 후속 흡수 기준 고정
+
+- 갱신 범위: [[mapped/Health/Investment]] 1개 페이지만 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Investment.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문을 더 늘리지 말고 새 정책·대출·가계 숫자가 들어올 때만 기존 표의 한 줄을 대체` 기준을 반영했다.
+- 정리: 본문 해석은 늘리지 않고 `보존해야 할 질문` 섹션을 `보존해야 할 질문과 흡수 기준`으로 낮게 확장해, 후속 메모는 전제표·월 장부·대출 이동성 표 중 한 줄을 대체할 만큼 구체적인 숫자나 조건일 때만 흡수한다고 명시했다.
+- 선호 신호: 안정된 Investment 노트에서는 새 재무 이론을 붙이기보다 기존 장부 표를 교체·선명화할 수 있는 실제 숫자와 제도 조건만 받아들이는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Investment.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 관련 파일이 없어 사용하지 않았다.
