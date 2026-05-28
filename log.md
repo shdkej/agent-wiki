@@ -4468,3 +4468,11 @@
 - 정리: `source/shdkej-content/Human/Standard.md` -> `agent-wiki/content/docs/mapped/Human/Standard.mdx` 대응 행을 `maintenance/source-mapping`에 추가해 mapped 상단의 1:1 관리 문구와 실제 관리 표면을 맞췄다.
 - 선호 신호: 안정 디벨롭 단계의 Standard 노트에서는 형식 해석을 더 늘리기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Standard.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-28 20:17 UTC | Human/Standard 반복 질문 압축
+
+- 갱신 범위: [[mapped/Human/Standard]] 1개 페이지만 안정 디벨롭 단계에 맞춰 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Standard.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `핵심 논지`, `다섯 가지 질문`, `반복되는 사고 축` 중 겹치는 결론을 1단계 접으라는 지적을 반영했다.
+- 정리: `원문에서 더 선명하게 잡히는 다섯 가지 질문`, `반복되는 사고 축`, `이 노드가 실제로 묻는 것`을 `반복 질문과 판단 축` 표로 합쳐, 원문 표식과 판단 기준이 한 번에 보이도록 압축했다.
+- 선호 신호: 안정된 Standard 노트에서는 새 형식 해석을 늘리기보다, 표준·제한·메뉴얼·효율 질문을 기존 기준 강도와 수명 점검표 안으로 흡수하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Standard.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
