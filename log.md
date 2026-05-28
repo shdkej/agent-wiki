@@ -4452,3 +4452,11 @@
 - 정리: 이력 섹션과 반복 해석을 본문에서 덜고, 사랑을 `관심 지속 / 익숙함 이후 재선택 / 회복 가능한 마찰 / 상실 이후의 삶` 네 축으로 재배치했다. 감정선·가치관 호환성, 이유 목록의 비환원성, 자기 소실 경계는 표와 최소 판단으로만 남겼다.
 - 선호 신호: 짧은 Love 노트에서는 새 해석을 계속 늘리기보다, 원문 문장들이 어느 관계 운영 축을 선명하게 하는지 판정할 수 있는 압축 구조가 더 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`의 git 이력은 기존 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-28 18:17 UTC | Human/Love 매핑 정합화
+
+- 갱신 범위: [[mapped/Human/Love]] 1개 노트를 대상으로 삼고, 본문 해석은 늘리지 않았다. 관리 표면인 `source-mapping`만 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Love.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `Love·Standard의 1:1 대응 행을 먼저 보강`하라는 지적 중 Love를 이번 대상 노트로 선택했다.
+- 정리: `source/shdkej-content/Human/Love.md` -> `agent-wiki/content/docs/mapped/Human/Love.mdx` 대응 행을 `maintenance/source-mapping`에 추가해 mapped 상단의 1:1 관리 문구와 실제 관리 표면을 맞췄다.
+- 선호 신호: 안정 압축 직후의 Love 노트에서는 새 관계 해석을 덧붙이기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`의 git 이력은 기존 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
