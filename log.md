@@ -4334,3 +4334,11 @@
 - 정리: 기존 질문 라우팅 표는 유지하고, 긴 질문 목록을 다시 꺼낼 때 필요한 `키워드 / 확인 질문 / 작은 실험 / 산출 후보 / 관계 장면` 재호출 단위를 추가했다. 후속 흡수 기준도 새 항목이 기존 표 한 줄을 대체할 만큼 구체적일 때만 본문에 흡수하도록 낮췄다.
 - 선호 신호: Curiosity 노트에서는 최신 답을 덧붙이기보다, 질문이 다음에 어떤 크기의 행동으로 돌아올지 먼저 정하는 편이 미해결 목록의 재사용성을 높인다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`에는 이번 런의 직접 사용자 수정 흔적이 없어 `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-28 01:17 UTC | Health/Curiosity 매핑 정합화
+
+- 갱신 범위: [[mapped/Health/Curiosity]] 1개 노트를 대상으로 삼고, 본문 해석은 늘리지 않았다. 관리 표면인 `source-mapping`만 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Curiosity.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `source-mapping` 1:1 행 누락 지적을 반영했다.
+- 정리: `source/shdkej-content/Health/Curiosity.md` -> `agent-wiki/content/docs/mapped/Health/Curiosity.mdx` 대응 행을 `maintenance/source-mapping`에 추가해 mapped 상단의 1:1 관리 문구와 실제 관리 표면을 맞췄다.
+- 선호 신호: 안정된 Curiosity 노트에서는 새 질문 해석을 더하기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`에는 이번 런의 직접 사용자 수정 흔적이 없어 `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
