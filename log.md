@@ -4342,3 +4342,11 @@
 - 정리: `source/shdkej-content/Health/Curiosity.md` -> `agent-wiki/content/docs/mapped/Health/Curiosity.mdx` 대응 행을 `maintenance/source-mapping`에 추가해 mapped 상단의 1:1 관리 문구와 실제 관리 표면을 맞췄다.
 - 선호 신호: 안정된 Curiosity 노트에서는 새 질문 해석을 더하기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Curiosity.md`에는 이번 런의 직접 사용자 수정 흔적이 없어 `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-28 02:17 UTC | Health/Music 안정 문구 압축
+
+- 갱신 범위: [[mapped/Health/Music]] 1개 페이지만 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Music.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 Music 평가의 `새 연습 기록이 없으면 본문을 더 늘리지 말라`는 기준을 반영했다.
+- 정리: 본문 구조와 네 칸 모델은 유지하고, 상단 상태 문구와 후속 흡수 기준의 반복 설명을 낮췄다. `baseline` 같은 영어 운영어는 한국어 `기준선`으로 맞췄다.
+- 선호 신호: 안정된 Music 노트에서는 베이스 입문 해석을 확장하기보다, 새 연습 기록이 들어올 때만 `읽기 / 위치 / 발화 / 전이` 표의 기존 판단을 대체할 만큼 구체적인지 판정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Health/Music.md`에는 이번 런의 직접 사용자 수정 흔적이 없어 `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
