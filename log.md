@@ -4366,3 +4366,11 @@
 - 정리: `source/shdkej-content/Human/Balance.md` -> `agent-wiki/content/docs/mapped/Human/Balance.mdx` 대응 행을 `maintenance/source-mapping`에 추가해 mapped 상단의 1:1 관리 문구와 실제 관리 표면을 맞췄다.
 - 선호 신호: 안정된 Balance 노트에서는 새 균형 해석을 더하기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-28 06:17 UTC | Human/Balance 재진입 표 압축
+
+- 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 점진 정리했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Balance.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `중복 결론 1~2개를 접으라`는 지적을 반영했다.
+- 정리: `균형은 평균값이 아니라 조정`이라는 결론이 반복되던 말미의 판단 프레임·비교축·시간표·재진입 질문 섹션을 하나의 `재진입 인터페이스` 표로 합쳤다. 원문 대비쌍은 유지하되, 새 사례를 어느 저장 슬롯에 넣고 언제 다시 판단할지 보이도록 압축했다.
+- 선호 신호: 안정된 Balance 노트에서는 해석을 더 늘리기보다, 원문 대립쌍을 다시 호출하는 표면을 조밀하게 만들어 토큰 밀도를 높이는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`에는 이번 런의 직접 사용자 수정 흔적이 없어 `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
