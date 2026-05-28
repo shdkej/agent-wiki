@@ -4358,3 +4358,11 @@
 - 정리: 본문 말미의 긴 `이번 심화` 이력 섹션을 제거하고, 새 Balance 메모를 기존 비교축·비용·시간표·재진입 질문 중 하나를 대체할 때만 흡수한다는 기준으로 접었다. 제목과 H1도 한국어 기본값에 맞춰 `밸런스 맞추기`로 낮췄다.
 - 선호 신호: 안정된 Balance 노트에서는 새 해석 이력을 본문에 누적하기보다, 원문 대립쌍을 다시 사용할 수 있는 판단 인터페이스와 후속 흡수 기준만 남기는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`에는 이번 런의 직접 사용자 수정 흔적이 없어 `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-28 04:17 UTC | Human/Balance 매핑 정합화
+
+- 갱신 범위: [[mapped/Human/Balance]] 1개 노트를 대상으로 삼고, 본문 해석은 늘리지 않았다. 관리 표면인 `source-mapping`만 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Balance.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `source-mapping` 1:1 행 누락 지적을 반영했다.
+- 정리: `source/shdkej-content/Human/Balance.md` -> `agent-wiki/content/docs/mapped/Human/Balance.mdx` 대응 행을 `maintenance/source-mapping`에 추가해 mapped 상단의 1:1 관리 문구와 실제 관리 표면을 맞췄다.
+- 선호 신호: 안정된 Balance 노트에서는 새 균형 해석을 더하기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
