@@ -4492,3 +4492,11 @@
 - 정리: 말미 `남겨둘 질문` 3개를 별도 섹션으로 남기지 않고 `후속 흡수 기준`의 판정 문장에 흡수해, 새 대비쌍이 들어올 때만 비교축·비용·시간표·재진입 질문을 실제로 대체하는지 보게 했다.
 - 선호 신호: 안정된 Balance 노트에서는 새 질문을 계속 쌓기보다, 강한 원칙/유동 판단, 설계된 점진성/임기응변, 소유/자원 확보 질문을 기존 판정 기준으로 되돌리는 편이 재진입성이 좋다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Balance.md`는 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-28 23:17 UTC | Integration/Marketing 표제와 플래그 판정 정합화
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 안정 디벨롭 단계에 맞춰 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `새 외부 자료는 기존 실행 판단판의 한 문장 대체로만 흡수` 기준을 유지했다.
+- 정리: 표시 제목을 한국어 기본값에 맞춰 `마케팅`으로 바꾸고, `고객 플래그` 보조 판정을 실사용자·테스트·자동화 트래픽을 섞지 않는 반응 언어 보존 기준으로 선명하게 했다.
+- 선호 신호: Marketing 노트에서는 새 onboarding/agent 자료를 독립 주제로 키우기보다, 원문 `유입될 때 플래그` 단서의 판독 경계를 구체화할 때만 흡수하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 초기 동기화 이후 직접 사용자 수정본으로 보이지 않아 `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-28-human-agent-onboarding-metrics.md`만 필터링해 보조 맥락으로 참고했다.
