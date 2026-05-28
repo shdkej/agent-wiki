@@ -4460,3 +4460,11 @@
 - 정리: `source/shdkej-content/Human/Love.md` -> `agent-wiki/content/docs/mapped/Human/Love.mdx` 대응 행을 `maintenance/source-mapping`에 추가해 mapped 상단의 1:1 관리 문구와 실제 관리 표면을 맞췄다.
 - 선호 신호: 안정 압축 직후의 Love 노트에서는 새 관계 해석을 덧붙이기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Love.md`의 git 이력은 기존 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-28 19:17 UTC | Human/Standard 매핑 정합화
+
+- 갱신 범위: [[mapped/Human/Standard]] 1개 노트를 대상으로 삼고, 본문 해석은 늘리지 않았다. 관리 표면인 `source-mapping`만 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Standard.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `Standard의 1:1 대응 행 누락을 먼저 정리`하라는 지적을 반영했다.
+- 정리: `source/shdkej-content/Human/Standard.md` -> `agent-wiki/content/docs/mapped/Human/Standard.mdx` 대응 행을 `maintenance/source-mapping`에 추가해 mapped 상단의 1:1 관리 문구와 실제 관리 표면을 맞췄다.
+- 선호 신호: 안정 디벨롭 단계의 Standard 노트에서는 형식 해석을 더 늘리기보다, 원본 만다라트 노드와 mapped 페이지의 대응 기록을 먼저 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Standard.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
