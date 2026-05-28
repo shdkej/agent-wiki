@@ -1,3 +1,10 @@
+## 2026-05-28 10:22 UTC | Human/Reality 원문 신호 보강
+
+- 갱신 범위: [[mapped/Human/Reality]] 1개 페이지만 점진 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Reality.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `예술의 주술/가상` 흐름과 `de facto standard` 메모를 필요한 경우에만 기존 축에 흡수하라는 지적을 반영했다.
+- 정리: 새 섹션을 늘리지 않고 `이상·현실의 역사`와 `추상과 사용 현실` 축 안에 원문 신호를 한 줄씩 보강했다. Reality를 냉소가 아니라 현실 표면에서 이상·표현·기준이 작동하는지 확인하는 검증장으로 유지했다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Reality.md`의 git 이력은 초기 동기화에 머물러 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-27 21:17 UTC | Health/Physical 매핑 정합화
 
 - 갱신 범위: [[mapped/Health/Physical]] 1개 노트를 대상으로 삼고, 본문 해석은 늘리지 않았다. 관리 표면인 `source-mapping`만 보강했다.
