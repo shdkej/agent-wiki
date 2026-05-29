@@ -4453,6 +4453,14 @@
 - 선호 신호: 안정된 Principle 노트에서는 원칙 목록을 계속 확장하기보다, 새 문장이 기존 운영판의 어느 기능을 개선하는지 확인하는 흡수 기준이 더 유용하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Human/Principle.md`는 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
+## 2026-05-29 09:17 UTC | Integration/Design 4칸 구조 압축
+
+- 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 안정 디벨롭 단계에 맞춰 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Design.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `인상 / 위계 / 접근성 / 구현·회복` 4칸 압축과 Deep Knowledge 계열 링크 경로 점검 지적을 반영했다.
+- 정리: 표시 제목을 한국어 기본값에 맞춰 `디자인`으로 바꾸고, 반복되던 핵심 논지·판단 루프·정리 메모를 4칸 판단 모델과 후속 흡수 기준으로 접었다. `Deep Knowledge/Product` 참조는 실제 mapped 경로에 맞춰 `../deep-knowledge/product`로 정리했다.
+- 선호 신호: 안정된 Design 노트에서는 새 미감 해석을 늘리기보다, 이미지·위계·접근성·실패 복귀·긴 목록·웹 수치 메모가 기존 네 칸 중 어느 판단을 대체할 만큼 구체적인지 먼저 판정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Design.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-28 17:17 UTC | Human/Love 과확장 압축
 
 - 갱신 범위: [[mapped/Human/Love]] 1개 페이지만 안정 디벨롭 단계에 맞춰 압축했다.
