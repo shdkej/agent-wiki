@@ -4668,3 +4668,11 @@
 - 정리: `도구 편입의 네 층` 중 작업 표면, 공유 표면, 확장 표면의 사례 나열을 줄이고 각 층의 판단 질문 중심으로 압축했다. 복구 표면의 원문 명령 표는 재진입 앵커 역할이 커서 유지했다.
 - 선호 신호: 안정된 Tool 노트에서는 원문 명령과 경계 단서는 후속 판단표에 남기고, 앞쪽 baseline 설명은 층위와 질문을 빠르게 잡아 주는 정도로 가볍게 두는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-29 21:17 UTC | Integration/Marketing 재방문 신호 정밀화
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 안정 디벨롭 단계에 맞춰 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `외부 렌즈는 실행 판단판의 기존 행을 선명하게 할 때만 흡수`하라는 기준을 반영했다.
+- 정리: 2026-05-29 retention 보조 자료는 독립 이론으로 키우지 않고 `SNS 운영`의 재방문 판정만 정밀화했다. 원문의 꾸준함·자기표현·향후 궁금증을 압박형 연속성보다 멈춘 뒤에도 다시 떠올릴 이유가 남는 신호로 정리했다.
+- 선호 신호: 안정된 Marketing 노트에서는 retention 자료도 새 섹션으로 늘리지 말고, SNS 운영이나 첫 가치 행의 기존 문구를 더 정확히 대체할 때만 흡수하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 `source/external-links/marketing/2026-05-29-streak-flexibility-recovery-retention.md`만 제한적으로 참고했다.
