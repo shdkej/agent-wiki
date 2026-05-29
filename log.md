@@ -4500,3 +4500,11 @@
 - 정리: 표시 제목을 한국어 기본값에 맞춰 `마케팅`으로 바꾸고, `고객 플래그` 보조 판정을 실사용자·테스트·자동화 트래픽을 섞지 않는 반응 언어 보존 기준으로 선명하게 했다.
 - 선호 신호: Marketing 노트에서는 새 onboarding/agent 자료를 독립 주제로 키우기보다, 원문 `유입될 때 플래그` 단서의 판독 경계를 구체화할 때만 흡수하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 초기 동기화 이후 직접 사용자 수정본으로 보이지 않아 `human-reviews/` 복사는 생략했다. 외부 링크는 `source/external-links/marketing/2026-05-28-human-agent-onboarding-metrics.md`만 필터링해 보조 맥락으로 참고했다.
+
+## 2026-05-29 00:17 UTC | Integration/Business 후반 판단판 압축
+
+- 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 안정 디벨롭 단계에 맞춰 수정하고, 관리 표면인 `source-mapping`에 1:1 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Business.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `한눈에 보는 요약`부터 후반 메타 섹션까지 결론이 반복된다는 지적을 반영했다.
+- 정리: 표시 제목을 한국어 기본값에 맞춰 `비즈니스`로 바꾸고, 반복되던 `핵심 판단 축`, `반복 패턴`, `오래 남길 아이디어`, 날짜별 심화 메모를 `운영 판단판`과 `후속 흡수 기준`으로 압축했다.
+- 선호 신호: 안정된 Business 노트에서는 새 경영 해석을 늘리기보다, 사람 판단·조직 경험·고객 검증·사용자 마찰을 기존 판단판의 어느 행으로 흡수할지 먼저 판정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Business.md`는 초기 동기화 이후 직접 사용자 수정본으로 보이지 않아 `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
