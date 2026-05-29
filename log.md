@@ -4652,3 +4652,11 @@
 - 정리: 후반의 반복 판단 축, 선호 신호, 후속 흡수 기준을 `후속 판단 기준` 표로 합쳐 상태 전달, 수명 관리, 형식 경계, 변경 라우팅, 장기 편입 기준을 한 번에 보게 했다.
 - 선호 신호: 안정된 Tool 노트에서는 새 도구 해석을 늘리기보다, 새 메모가 기존 작업 표면을 더 잘 보이게 하거나 복구 가능하게 만드는지 먼저 판정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-29 19:17 UTC | Integration/Tool 후속 판단표 원문 앵커 정밀화
+
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 안정 디벨롭 단계에 맞춰 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `새 앱·명령 메모는 별도 섹션보다 기존 후속 판단 기준의 한 행을 대체할 때만 흡수`하라는 기준을 반영했다.
+- 정리: 본문을 늘리지 않고 `후속 판단 기준` 표의 사례를 Grafana/Prometheus, `sudo tailscale up --force-reauth`, Kong/gRPC/protobuf/HLS, `BUILD_CONTEXT`와 `banadio-common`, OpenClaw 포트포워딩처럼 원문 명령·경계 단서 중심으로 고정했다.
+- 선호 신호: 안정된 Tool 노트에서는 새 도구 이름을 더 쌓기보다, 상태 전달·수명 관리·형식 경계·변경 라우팅 중 어느 기준을 실제 원문 앵커로 더 정확히 대체하는지 먼저 보는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
