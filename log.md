@@ -4557,6 +4557,14 @@
 - 선호 신호: 안정된 Marketing 노트에서는 새 마케팅 자료를 독립 섹션으로 키우기보다 원문 실행 판단판의 한 줄을 대체하거나 선명하게 할 때만 흡수하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 초기 동기화 이후 직접 사용자 수정본으로 보이지 않아 `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
+## 2026-05-29 17:17 UTC | Integration/Tool 원문 앵커 전면화
+
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지를 안정 디벨롭 단계에 맞춰 압축하고, 관리 표면인 `source-mapping`에 1:1 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `메타층을 접고 Tailscale/OpenClaw/Linux/Git 대표 명령을 원문 어휘로 더 직접 남기라`는 지적을 반영했다.
+- 정리: 표시 제목을 한국어 기본값에 맞춰 `도구`로 바꾸고, 반복되던 도입 질문·핵심 논지·도구 편입 사다리를 `핵심 판단 모델`과 네 층 편입 구조로 접었다. `sudo tailscale up --force-reauth`, OpenClaw 포트포워딩, 모델/스킬 설정, `ssh-keygen -R`, `git merge --abort`, `git stash branch` 같은 원문 앵커를 복구 표면 표에 직접 배치했다.
+- 선호 신호: 안정된 Tool 노트에서는 새 도구 해석을 늘리기보다, 도구가 손·협업 표면·원격 운영·복구 절차·형식 경계 중 어디를 실제로 개선하는지 원문 명령과 함께 남기는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-29 02:17 UTC | Integration/Business 앞쪽 요약층 압축
 
 - 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 안정 디벨롭 단계에 맞춰 수정했다.
