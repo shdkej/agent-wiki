@@ -4628,3 +4628,11 @@
 - 정리: `세후 실현과 시장 불안`에 매수·보유·매도·배당 판단 표를 추가해, 가격 하락 반응보다 제품 이해, 월급 기반 시간표, 생활 필요, 기업 설명 책임, 배당 지속성을 함께 보게 했다.
 - 선호 신호: 안정된 Economics 노트에서는 새 투자 이론을 늘리기보다 원문의 망설임을 행동 장면별 재검증 조건으로 정리하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Economics.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-29 16:17 UTC | Integration/Exploration 네 칸 압축
+
+- 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지를 안정 디벨롭 단계에 맞춰 압축하고, 관리 표면인 `source-mapping`에 1:1 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Exploration.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `질문 설정 / 탐색 표면 / 검증 강도 / 공유 출발점` 4칸 압축과 원문 고유 장면 전면화 기준을 반영했다.
+- 정리: 반복되던 핵심 논지, 원리, 숨은 패턴, 오래 남길 판단을 줄이고 PRISMA, RSS/알림, DevonThink 탐색 경험, 왜 묻는지 밝히는 질문, XY problem, 5 Whys, SSOT, 인수인계 장면을 구조 안에 직접 배치했다.
+- 선호 신호: 안정된 Exploration 노트에서는 새 탐구 해석을 늘리기보다, 새 메모가 질문 설정, 탐색 표면, 검증 강도, 공유 출발점 중 어느 칸을 실제로 선명하게 하는지 먼저 판정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Exploration.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
