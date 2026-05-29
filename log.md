@@ -4684,3 +4684,11 @@
 - 정리: 한 줄 요약과 사용자 흐름에서 `첫 가치 확인`을 명시하고, 전환 설계 문단의 반복 설명을 줄였다. `첫 가치`와 `도달 전 마찰` 행도 결제 설득 전에 결과 확인·다음 사용 이유·경로 실패를 먼저 보도록 정밀화했다.
 - 선호 신호: 안정된 Marketing 노트에서는 activation/onboarding 보조 렌즈를 새 섹션으로 늘리기보다, 첫 가치와 전환 사이의 경계가 흐려지는 문장을 줄이고 기존 실행 판단판의 행을 더 정확히 만드는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 git 상태상 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-29 23:17 UTC | Integration/Marketing 첫 가치 행 경계 정밀화
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 안정 디벨롭 단계에 맞춰 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `첫 가치`와 `도달 전 마찰`이 겹쳐 보일 때 한 줄씩 더 구분하라는 기준을 반영했다.
+- 정리: 전환 설계 문단에서 구매 설득 실패와 가치 도착 전 경로 실패를 분리하고, 실행 판단판의 `첫 가치` 행은 결과 확인과 다음 가치로, `도달 전 마찰` 행은 첫 가치 이전의 입력·화면·대기 문제로 좁혔다.
+- 선호 신호: 안정된 Marketing 노트에서는 time-to-value 보조 자료를 새 지표 섹션으로 늘리기보다, 원문 무료 활성사용자와 퍼널 그림 단서가 기존 행의 경계를 더 정확히 잡게 할 때만 제한적으로 쓴다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 git 상태상 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 `source/external-links/marketing/2026-05-22-time-to-value-second-value.md`만 제한적으로 참고했다.
