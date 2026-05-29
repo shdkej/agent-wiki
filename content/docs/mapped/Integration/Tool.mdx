@@ -14,7 +14,7 @@ language: ko
 
 - 원본: `source/shdkej-content/Integration/Tool.md`
 - 성격: 만다라트 `Integration` 축의 1:1 대응 카테고리 노드
-- 이번 상태: 기존 baseline은 유지하되, 후속 판단표의 사례를 원문 명령·경계 단서 쪽으로 더 정확히 고정했다. 새 도구나 메모가 들어와도 별도 이력을 본문에 계속 쌓기보다, 기존 작업 표면을 실제로 더 잘 보이게 하거나 복구 가능하게 만드는지 먼저 본다.
+- 이번 상태: 기존 baseline은 유지하되, 앞쪽 설명에서 후속 판단표와 겹치던 사례 반복을 줄였다. 새 도구나 메모가 들어와도 별도 이력을 본문에 계속 쌓기보다, 기존 작업 표면을 실제로 더 잘 보이게 하거나 복구 가능하게 만드는지 먼저 본다.
 
 ## 핵심 판단 모델
 이 노드의 `Tool`은 추천 앱 모음이 아니다. 맥 유틸, 터미널 툴, 업무 서비스, Tailscale, OpenClaw, Linux, Git, Terraform, gRPC, 스트리밍 메모가 한 파일에 섞여 있는 이유는, 저자가 툴을 `하루의 입력·검색·협업·원격 운영·복구·확장`을 한 몸처럼 잇는 작업 시스템으로 보기 때문이다.
@@ -39,10 +39,10 @@ language: ko
 ## 도구 편입의 네 층
 
 ### 1. 작업 표면: 손과 검색을 가까이 둔다
-`블로그 소프트웨어 탑 텐`의 맥 도구, 터미널 도구, 개발도구, 크롬 익스텐션, 앱 묶음은 취향 taxonomy보다 하루 접점의 순서를 보여 준다. Karabiner, Raycast, hidden bar, spectacle, Vimium은 손과 화면 전환을 줄이고, vim, zshrc, UltiSnips, Rclone, fzf, ripgrep, jq, Claude Code는 검색과 조합을 재실행 가능한 텍스트 흐름으로 만든다.
+`블로그 소프트웨어 탑 텐`의 맥 도구, 터미널 도구, 개발도구, 크롬 익스텐션, 앱 묶음은 취향 taxonomy보다 하루 접점의 순서를 보여 준다. 이 층의 핵심은 개별 앱 이름보다 손 전환, 화면 이동, 파일 검색, 텍스트 조합을 얼마나 짧게 되돌릴 수 있는가다.
 
 ### 2. 공유 표면: 개인 상태를 밖으로 꺼낸다
-Asana, Slack, Confluence, Google Drive, GitHub, GitHub Actions, Jenkins, Netlify, Cloudflare, Analytics는 혼자만의 생산성 앱이 아니라 여러 사람이 같은 상태를 읽는 공용 표면이다. 초반의 Traefik, Signoz, Grafana, Prometheus, Next.js, Kubernetes, k3s, ArgoCD도 구현·배포·관측을 한 사람이 이어 만지는 현실 표면으로 붙어 있다.
+회사/개인 서비스 목록과 구현·배포·관측 도구 묶음은 혼자만의 생산성 앱 목록이 아니라 여러 사람이 같은 상태를 다시 읽는 공용 표면이다. 이 층에서는 도구 이름을 늘리는 것보다, 작업 상태가 문서·알림·저장소·대시보드 중 어디에 남는지가 더 중요하다.
 
 ### 3. 복구 표면: 다시 세팅할 수 있어야 편입된다
 글로벌 설치 목록을 파일로 모으려는 메모, dotfiles, startup files, backup, cron, SSH, known_hosts, Git 복구 메모는 `좋은 도구`의 기준을 설치 성공이 아니라 재진입 가능성으로 옮긴다. 원문에서 직접 남겨야 하는 장면도 이 층에 있다.
@@ -55,7 +55,7 @@ Asana, Slack, Confluence, Google Drive, GitHub, GitHub Actions, Jenkins, Netlify
 | `ssh-keygen -R <host IP>`, `git merge --abort`, `git stash branch <new-branch> stash@{0}` | 꼬인 상태에서 빠져나오는 명령이 남아야 Git과 SSH가 복구 장치가 된다. |
 
 ### 4. 확장 표면: 도구는 시스템 책임 배치로 이어진다
-Ansible, Terraform, Serverless, Vault, Nagios, Lambda cronjob, API gateway, Kafka, gRPC, 동영상 스트리밍 메모는 수집벽이 아니라 시스템 조합 실험이다. Terraform vs Serverless는 책임 배치 문제이고, Vault는 보안과 운영 편의의 충돌 지점이며, gateway·gRPC·HLS는 경계에서 형식이 바뀔 때 무엇이 보존되는지 확인하는 장치다.
+Ansible, Terraform, Serverless, Vault, Nagios, Lambda cronjob, API gateway, Kafka, gRPC, 동영상 스트리밍 메모는 수집벽이 아니라 시스템 조합 실험이다. 이 층에서는 특정 기술의 정답보다 자원 관리, 비밀 관리, 관측, 호출 형식, 미디어 전달 책임이 어느 경계에서 나뉘는지를 본다.
 
 ## 도구 의존을 관리하는 세 가지 소유 위치
 이 노드를 다시 읽으면 도구 목록보다 `내가 무엇을 어디까지 소유하는가`가 더 중요하게 보인다. 회사 SaaS, 개인 서비스, 로컬 앱, 서버 운영 도구가 한 페이지에 섞여 있는 이유도 여기 있다. 각각은 편의의 층이 아니라, 상태를 어디에 맡기고 어디에서 되찾을 수 있는지를 가르는 선택지다.

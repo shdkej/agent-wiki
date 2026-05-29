@@ -4660,3 +4660,11 @@
 - 정리: 본문을 늘리지 않고 `후속 판단 기준` 표의 사례를 Grafana/Prometheus, `sudo tailscale up --force-reauth`, Kong/gRPC/protobuf/HLS, `BUILD_CONTEXT`와 `banadio-common`, OpenClaw 포트포워딩처럼 원문 명령·경계 단서 중심으로 고정했다.
 - 선호 신호: 안정된 Tool 노트에서는 새 도구 이름을 더 쌓기보다, 상태 전달·수명 관리·형식 경계·변경 라우팅 중 어느 기준을 실제 원문 앵커로 더 정확히 대체하는지 먼저 보는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-29 20:17 UTC | Integration/Tool 앞쪽 반복 설명 압축
+
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 안정 디벨롭 단계에 맞춰 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `도구 편입의 네 층`과 후반 `후속 판단 기준`이 같은 사례를 반복할 때 앞쪽 설명을 줄이라는 지적을 반영했다.
+- 정리: `도구 편입의 네 층` 중 작업 표면, 공유 표면, 확장 표면의 사례 나열을 줄이고 각 층의 판단 질문 중심으로 압축했다. 복구 표면의 원문 명령 표는 재진입 앵커 역할이 커서 유지했다.
+- 선호 신호: 안정된 Tool 노트에서는 원문 명령과 경계 단서는 후속 판단표에 남기고, 앞쪽 baseline 설명은 층위와 질문을 빠르게 잡아 주는 정도로 가볍게 두는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Tool.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
