@@ -4604,3 +4604,11 @@
 - 정리: 본문을 다시 늘리지 않고 만다라트 위치에 새 디자인 단서의 흡수 기준을 한 문장으로 고정했다. `[[../deep-knowledge/product]]` 연결이 실제 `agent-wiki/content/docs/mapped/deep-knowledge/product.mdx` 경로와 맞는지도 확인했다.
 - 선호 신호: 안정된 Design 노트에서는 취향 이미지, 접근성 메모, 웹 구현 수치를 새 섹션으로 늘리기보다 기존 4칸 판단 모델 중 어느 칸을 더 정확하게 만드는지 먼저 판정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Design.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-29 13:17 UTC | Integration/Economics 원문 앵커 보강
+
+- 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Economics.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `계산식과 망설임을 얇게라도 함께 남기라`는 지적을 반영했다.
+- 정리: 기존 4칸 판단 모델은 유지하고, 총급여 25% 초과분·청약 10만원/150회·감사의견/CAM/MD&A·하락장 매수와 집 구매 망설임을 `원문 앵커` 표로 붙여 추상화가 원문 질감을 밀어내지 않게 했다.
+- 선호 신호: 안정된 Economics 노트에서는 새 금융 지식을 늘리기보다, 제도 수치와 생활자의 망설임이 어떤 판단 기준을 실제로 붙잡아 주는지 앵커로 남기는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Economics.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
