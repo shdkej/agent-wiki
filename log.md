@@ -1,3 +1,11 @@
+## 2026-05-29 14:57 UTC | Integration/Economics 원문 수치 표면 정리
+
+- 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지만 안정 디벨롭 단계에 맞춰 수정하고, 관리 표면인 `maintenance/source-mapping`에 1:1 대응 행을 추가했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Economics.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `제도 통로 / 기업 설명 책임 / 주거 선택권 / 시장 불안` 압축 기준과 원문 수치·망설임 직접 노출 요구를 반영했다.
+- 정리: 본문 해석은 늘리지 않고 앞쪽 앵커 표를 `계산과 망설임` 표면으로 고쳐 카드 공제, 청약 횟수, 공시 확인, 매수·주거 불안을 더 직접 보이게 했다. 실행 로그성 드리프트 점검은 본문에서 덜었다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 git 변경이 없고 file mtime도 mapped보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-29 03:17 UTC | Integration/Business 정리 메모 로그성 압축
 
 - 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 안정 디벨롭 단계에 맞춰 수정했다.
