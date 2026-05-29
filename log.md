@@ -4676,3 +4676,11 @@
 - 정리: 2026-05-29 retention 보조 자료는 독립 이론으로 키우지 않고 `SNS 운영`의 재방문 판정만 정밀화했다. 원문의 꾸준함·자기표현·향후 궁금증을 압박형 연속성보다 멈춘 뒤에도 다시 떠올릴 이유가 남는 신호로 정리했다.
 - 선호 신호: 안정된 Marketing 노트에서는 retention 자료도 새 섹션으로 늘리지 말고, SNS 운영이나 첫 가치 행의 기존 문구를 더 정확히 대체할 때만 흡수하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 `source/external-links/marketing/2026-05-29-streak-flexibility-recovery-retention.md`만 제한적으로 참고했다.
+
+## 2026-05-29 22:22 UTC | Integration/Marketing 첫 가치와 전환 분리
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 안정 디벨롭 단계에 맞춰 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `중심 모델`과 `실행 판단판`이 반복될 때 한두 문장씩 접으라는 기준을 반영했다.
+- 정리: 한 줄 요약과 사용자 흐름에서 `첫 가치 확인`을 명시하고, 전환 설계 문단의 반복 설명을 줄였다. `첫 가치`와 `도달 전 마찰` 행도 결제 설득 전에 결과 확인·다음 사용 이유·경로 실패를 먼저 보도록 정밀화했다.
+- 선호 신호: 안정된 Marketing 노트에서는 activation/onboarding 보조 렌즈를 새 섹션으로 늘리기보다, 첫 가치와 전환 사이의 경계가 흐려지는 문장을 줄이고 기존 실행 판단판의 행을 더 정확히 만드는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 git 상태상 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
