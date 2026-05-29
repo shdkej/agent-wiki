@@ -1,3 +1,11 @@
+## 2026-05-29 03:17 UTC | Integration/Business 정리 메모 로그성 압축
+
+- 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 안정 디벨롭 단계에 맞춰 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Business.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 말미 `정리 메모` 작업 이력 문장이 본문 재사용성보다 로그성에 가깝다는 지적을 반영했다.
+- 정리: 본문 해석은 늘리지 않고 `정리 메모`를 짧은 `운영 메모`로 바꿔, Business 노드가 사람·조직·제품을 함께 보는 사업 감각 카테고리라는 유지 기준만 남겼다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 git 변경이 없고 file mtime도 mapped보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-28 10:22 UTC | Human/Reality 원문 신호 보강
 
 - 갱신 범위: [[mapped/Human/Reality]] 1개 페이지만 점진 보강했다.
