@@ -4596,3 +4596,11 @@
 - 정리: 표시 제목을 한국어 기본값에 맞춰 `창작자들`로 바꾸고, `한눈에 보는 요약`, `핵심 논지`, 반복 패턴, 정리 메모를 `핵심 판단 모델`, 원문 장면별 구조, 후속 흡수 기준으로 접었다. 제품 디자인·감상법·장범준 제작 메모는 독립 확장 이력이 아니라 원문 장면 안의 판단 축으로 재배치했고, `source-mapping`에도 Creator 대응 기록을 추가했다.
 - 선호 신호: 안정된 Creator 노트에서는 새 창작 해석을 계속 늘리기보다, 역할 구조·편집 표식·사용 안내 표면·감상 판단·기술 성장 중 어느 행을 실제로 선명하게 하는지 먼저 판정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Creator.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-29 12:17 UTC | Integration/Design 4칸 흡수 기준 고정
+
+- 갱신 범위: [[mapped/Integration/Design]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정하고, 관리 표면인 `source-mapping`에 1:1 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Design.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `인상 / 위계 / 접근성 / 구현·회복` 4칸 압축과 실제 mdx 경로 기준 링크 점검을 반영했다.
+- 정리: 본문을 다시 늘리지 않고 만다라트 위치에 새 디자인 단서의 흡수 기준을 한 문장으로 고정했다. `[[../deep-knowledge/product]]` 연결이 실제 `agent-wiki/content/docs/mapped/deep-knowledge/product.mdx` 경로와 맞는지도 확인했다.
+- 선호 신호: 안정된 Design 노트에서는 취향 이미지, 접근성 메모, 웹 구현 수치를 새 섹션으로 늘리기보다 기존 4칸 판단 모델 중 어느 칸을 더 정확하게 만드는지 먼저 판정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Design.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
