@@ -4661,6 +4661,14 @@
 - 선호 신호: 안정된 Document 노트에서는 새 문서 유형을 늘리기보다 1:1 대응과 후속 흡수 위치를 명확히 해 반복 평가가 본문 메타에만 의존하지 않게 하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 git 이력상 초기 동기화 뒤 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
+## 2026-05-30 06:17 UTC | Communication/Logical_Thinking 1:1 대응 고정
+
+- 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정하고, 관리 표면인 `source-mapping`에 개별 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문 확장보다 source-mapping 대응 추가` 기준을 반영했다.
+- 정리: 본문은 해석을 늘리지 않고 상태 줄, `Readability` 연결 경로, 후속 정리 기준만 갱신해 질문·전제·반례·분류 기준·수용 조건 중심축을 유지했다.
+- 선호 신호: 안정된 Logical_Thinking 노트에서는 새 논리 이론을 늘리기보다, 1:1 대응과 링크 정확도를 고정해 반복 평가가 본문 메타에 의존하지 않게 하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Logical_Thinking.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-29 15:17 UTC | Integration/Economics 매수·보유·매도 기준 보강
 
 - 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정했다.
