@@ -4692,3 +4692,11 @@
 - 정리: 전환 설계 문단에서 구매 설득 실패와 가치 도착 전 경로 실패를 분리하고, 실행 판단판의 `첫 가치` 행은 결과 확인과 다음 가치로, `도달 전 마찰` 행은 첫 가치 이전의 입력·화면·대기 문제로 좁혔다.
 - 선호 신호: 안정된 Marketing 노트에서는 time-to-value 보조 자료를 새 지표 섹션으로 늘리기보다, 원문 무료 활성사용자와 퍼널 그림 단서가 기존 행의 경계를 더 정확히 잡게 할 때만 제한적으로 쓴다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 git 상태상 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 `source/external-links/marketing/2026-05-22-time-to-value-second-value.md`만 제한적으로 참고했다.
+
+## 2026-05-30 00:17 UTC | Integration/Marketing 메시지 혼란 신호 보강
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 안정 디벨롭 단계에 맞춰 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `외부 자료는 실행 판단판의 한 행을 대체할 만큼 구체적일 때만 흡수`하라는 기준을 반영했다.
+- 정리: 별도 포지셔닝 섹션을 만들지 않고, `표현과 채널` 및 `응답 표면` 행에 사용자가 제품을 어떤 대체재 상자에 넣는지, 어떤 약속을 되묻는지, 무엇을 불명확하다고 말하는지를 메시지 혼란 신호로 얇게 추가했다.
+- 선호 신호: 안정된 Marketing 노트에서는 포지셔닝·AEO/GEO 자료도 새 이론으로 늘리지 말고, 원문 UX 라이팅·소비자 이해·채널별 글쓰기 중 어느 접점의 오해를 줄이는지 먼저 판정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 git 상태상 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 `source/external-links/marketing/2026-05-29-positioning-message-confusion.md`만 제한적으로 참고했다.
