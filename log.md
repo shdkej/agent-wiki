@@ -4700,3 +4700,11 @@
 - 정리: 별도 포지셔닝 섹션을 만들지 않고, `표현과 채널` 및 `응답 표면` 행에 사용자가 제품을 어떤 대체재 상자에 넣는지, 어떤 약속을 되묻는지, 무엇을 불명확하다고 말하는지를 메시지 혼란 신호로 얇게 추가했다.
 - 선호 신호: 안정된 Marketing 노트에서는 포지셔닝·AEO/GEO 자료도 새 이론으로 늘리지 말고, 원문 UX 라이팅·소비자 이해·채널별 글쓰기 중 어느 접점의 오해를 줄이는지 먼저 판정하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Marketing.md`는 git 상태상 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 `source/external-links/marketing/2026-05-29-positioning-message-confusion.md`만 제한적으로 참고했다.
+
+## 2026-05-30 01:17 UTC | Communication/Open_Source 1:1 대응 고정
+
+- 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정하고, 관리 표면인 `source-mapping`에 개별 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Open_Source.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문을 더 늘리지 말고 source-mapping 대응을 추가`하라는 지적을 반영했다.
+- 정리: 본문은 해석 확장 대신 상태일과 후속 정리 기준만 갱신해, 코드베이스 진입·공개 범위·릴리즈 신뢰·설명 재진입 네 축의 안정된 구조를 유지했다.
+- 선호 신호: 안정된 Open_Source 노트에서는 새 오픈소스 이론을 늘리기보다, 1:1 대응과 후속 흡수 기준을 명확히 해 반복 평가가 본문 메타에만 의존하지 않게 하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 git 이력상 초기 동기화 뒤 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
