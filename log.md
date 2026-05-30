@@ -4637,6 +4637,14 @@
 - 선호 신호: 안정된 Economics 노트에서는 새 금융 지식을 늘리기보다, 제도 수치와 생활자의 망설임이 어떤 판단 기준을 실제로 붙잡아 주는지 앵커로 남기는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Integration/Economics.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
+## 2026-05-30 03:17 UTC | Communication/Document 1:1 대응 고정
+
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정하고, 관리 표면인 `source-mapping`에 개별 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문을 더 늘리기보다 source-mapping 대응을 추가`하라는 지적을 반영했다.
+- 정리: 본문 해석은 유지하고 상태 줄만 갱신해, `접수 / 배치 / 전달 / 재호출 / 신뢰 신호` 모델과 문서군 분업 구조를 흔들지 않았다.
+- 선호 신호: 안정된 Document 노트에서는 새 문서 유형을 늘리기보다 1:1 대응과 후속 흡수 위치를 명확히 해 반복 평가가 본문 메타에만 의존하지 않게 하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 git 이력상 초기 동기화 뒤 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-29 15:17 UTC | Integration/Economics 매수·보유·매도 기준 보강
 
 - 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정했다.
