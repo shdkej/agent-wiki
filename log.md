@@ -4756,3 +4756,11 @@
 - 정리: 본문은 해석 확장 대신 상태일과 후속 정리 기준만 갱신해, 코드베이스 진입·공개 범위·릴리즈 신뢰·설명 재진입 네 축의 안정된 구조를 유지했다.
 - 선호 신호: 안정된 Open_Source 노트에서는 새 오픈소스 이론을 늘리기보다, 1:1 대응과 후속 흡수 기준을 명확히 해 반복 평가가 본문 메타에만 의존하지 않게 하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Open_Source.md`는 git 이력상 초기 동기화 뒤 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
+## 2026-05-30 08:17 UTC | Communication/Teamwork 1:1 대응 고정
+
+- 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정하고, 관리 표면인 `source-mapping`에 개별 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문을 더 보강하지 말고 source-mapping 대응을 추가`하라는 지적을 반영했다.
+- 정리: 본문 해석은 확장하지 않고 상태 줄과 대응 확인 문장만 갱신해, 리더 완충 / 조직 handoff / 상태 패키지 / 재진입 기록의 안정된 구조를 유지했다.
+- 선호 신호: 안정된 Teamwork 노트에서는 새 협업 이론을 늘리기보다, 반복 평가가 본문 메타에만 의존하지 않도록 1:1 대응과 후속 흡수 위치를 고정하는 편이 적합하다.
+- 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Teamwork.md`는 파일 수정 시각 기준으로 mapped 노트보다 오래되어 이번 런의 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
