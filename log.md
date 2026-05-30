@@ -1,3 +1,11 @@
+## 2026-05-30 05:17 UTC | Communication/Foreign_language 1:1 대응 행 고정
+
+- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정하고, 관리 표면인 `source-mapping`에 개별 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문 확장보다 source-mapping 대응 추가` 기준을 반영했다.
+- 정리: 본문 해석은 늘리지 않고 상단 상태와 후속 정리 기준의 대응 확인 문장만 갱신해, 영어·일본어·발음·업무 표현을 `Communication/Foreign_language.md` 한 노트의 경계 안에 묶었다.
+- 선호 신호: 안정된 Foreign_language 노트에서는 새 표현이 없을 때 다섯 축 모델을 다시 쓰기보다, 원본/mapped 대응과 새 항목 배치 기준을 짧게 확인하는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 git 이력상 초기 동기화 뒤 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+
 ## 2026-05-30 04:17 UTC | Communication/Feedback 1:1 매핑 확인
 
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 안정 단계에 맞춰 최소 수정하고, 관리 표면인 `maintenance/source-mapping`에 1:1 대응 행을 추가했다.
@@ -4652,14 +4660,6 @@
 - 정리: 본문 해석은 유지하고 상태 줄만 갱신해, `접수 / 배치 / 전달 / 재호출 / 신뢰 신호` 모델과 문서군 분업 구조를 흔들지 않았다.
 - 선호 신호: 안정된 Document 노트에서는 새 문서 유형을 늘리기보다 1:1 대응과 후속 흡수 위치를 명확히 해 반복 평가가 본문 메타에만 의존하지 않게 하는 편이 적합하다.
 - 드리프트 점검: 대응 원본 `source/shdkej-content/Communication/Document.md`는 git 이력상 초기 동기화 뒤 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
-
-## 2026-05-30 05:17 UTC | Communication/Foreign_language 1:1 대응 행 고정
-
-- 갱신 범위: [[mapped/Communication/Foreign_language]] 1개 페이지를 안정 디벨롭 단계에 맞춰 최소 수정하고, 관리 표면인 `source-mapping`에 개별 대응 행을 보강했다.
-- 탐구: 대응 원본 `source/shdkej-content/Communication/Foreign_language.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문 확장보다 source-mapping 대응 추가` 기준을 반영했다.
-- 정리: 본문 해석은 늘리지 않고 상단 상태와 후속 정리 기준의 대응 확인 문장만 갱신해, 영어·일본어·발음·업무 표현을 `Communication/Foreign_language.md` 한 노트의 경계 안에 묶었다.
-- 선호 신호: 안정된 Foreign_language 노트에서는 새 표현이 없을 때 다섯 축 모델을 다시 쓰기보다, 원본/mapped 대응과 새 항목 배치 기준을 짧게 확인하는 편이 적합하다.
-- 드리프트 점검: 대응 원본은 git 이력상 초기 동기화 뒤 직접 사용자 수정본으로 보이지 않았고, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
 
 ## 2026-05-29 15:17 UTC | Integration/Economics 매수·보유·매도 기준 보강
 
