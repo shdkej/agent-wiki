@@ -1,3 +1,11 @@
+## 2026-05-30 04:17 UTC | Communication/Feedback 1:1 매핑 확인
+
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 안정 단계에 맞춰 최소 수정하고, 관리 표면인 `maintenance/source-mapping`에 1:1 대응 행을 추가했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 `본문을 더 보강하지 말고 source-mapping 대응을 추가`하라는 지침을 반영했다.
+- 정리: Feedback 본문 해석은 확장하지 않고 상단 상태 문구만 현재 매핑 기록과 맞췄다. `수집 / 선별 / 해석 / 재호출` 회로와 보존할 판단 체크는 그대로 유지했다.
+- 드리프트 점검: 대응 원본은 초기 동기화 이후 git 변경이 없어 이번 런의 직접 사용자 수정본으로 보이지 않았으며, `human-reviews/` 복사는 생략했다. 외부 링크 소스는 사용하지 않았다.
+- 배포: `scripts/publish-agent-wiki.sh` 실행 대상으로 반영했다.
+
 ## 2026-05-30 02:17 UTC | Communication/Blogging 1:1 매핑 확인
 
 - 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 안정 단계에 맞춰 최소 수정하고, 관리 표면인 `maintenance/source-mapping`에 1:1 대응 행을 추가했다.
