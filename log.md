@@ -5179,3 +5179,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 평가 요청에 따라 `Monitoring` 반복을 멈추고 `Infra`로 옮겨, 원본 854줄과 mapped 259줄 전체를 다시 읽은 뒤 source-mapping과 산출물 반영만 확인했다.
 - 정리: source-mapping 1:1 행을 현재 확인 시각으로 갱신했고, 2026-06-02 현재 산출물 HTML/content에 `상태: 안정 디벨롭`, `변경이 보이는 시간과 실제 적용 시간을 분리하기`, `앞단 경계는 사용자에게 보이는 계약이다`가 반영되어 있다.
 - 확인 기준: 본문 해석은 늘리지 않았고, 이번 런은 로그 기록과 source-mapping 상태 갱신만 남긴 뒤 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-02 15:17 UTC | mapped/Fundamental/Computer_Architecture 1:1 매핑 보강
+
+- 갱신 범위: 최근 평가 요청에 따라 `Infra` 반복을 멈추고, source-mapping 행이 없던 `Computer_Architecture`로 옮겨 원본 207줄과 mapped 318줄 전체를 다시 읽었다.
+- 정리: 본문은 실행 상태의 소유권, 완충층, 시작/종료 제어면을 이미 안정적으로 보존하므로 새 해석을 늘리지 않고 `상태: 안정 디벨롭`과 `후속 정리 기준`으로 누적 런 표현만 압축했다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
