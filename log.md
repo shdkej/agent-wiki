@@ -5149,3 +5149,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 평가가 요청한 공개 URL 확인만 수행했다. 원본 690줄과 mapped 305줄 전체를 다시 읽었고, 본문 해석과 source-mapping은 수정하지 않았다.
 - 정리: 공개 배포 URL에서 `Architecture`, 인접 `Fundamental/Coding`, `Deep Knowledge/Infra`가 모두 200으로 응답했다. GitHub Pages URL은 `shdkej.com/agent-wiki/...`로 리다이렉트되지만 최종 응답은 정상이다.
 - 확인 기준: 이번 런은 basePath 404 위험을 좁게 닫는 로그 기록만 남기고, publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-02 10:17 UTC | mapped/Fundamental/Coding 산출물 반영 확인
+
+- 갱신 범위: 직전 평가 요청에 따라 `Architecture` 반복 점검을 멈추고 `Coding`으로 옮겨, 원본 1414줄과 mapped 326줄 전체를 다시 읽은 뒤 source-mapping과 산출물 반영만 확인했다.
+- 정리: source-mapping 1:1 행은 유지되고, 2026-06-02 09:18 UTC 산출물 HTML/content에 `상태: 안정 디벨롭`, `후속 정리 기준`, `변경 가능한 구조를 만들기 위한 기초 판단 문법 노드`가 반영되어 있다.
+- 확인 기준: 본문 해석은 늘리지 않았고, 이번 런은 로그 기록만 남긴 뒤 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
