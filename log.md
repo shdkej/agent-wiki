@@ -5197,3 +5197,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 평가 요청에 따라 `Computer_Architecture` 반복을 멈추고, source-mapping 행이 없던 `Data_Structure`로 옮겨 원본 507줄과 mapped 305줄 전체를 다시 읽었다.
 - 정리: 본문은 자료구조를 이름 목록이 아니라 `무슨 연산을 빠르게 만들고 싶은가`와 `찾기 위해 무엇을 미리 조직하는가`의 두 축으로 안정적으로 보존하므로 새 해석을 늘리지 않고 상태 표기만 `안정 디벨롭`으로 맞췄다.
 - 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-02 18:17 UTC | mapped/Fundamental/Data_Structure 인접 링크 경로 보정
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Data_Structure` 원본 507줄과 mapped 305줄 전체를 다시 읽고, `Deep Knowledge/Data` 인접 링크 오라우팅만 확인했다.
+- 정리: 본문 해석은 늘리지 않고 `[[Deep Knowledge/Data]]` 2곳을 `[[../deep-knowledge/data|Deep Knowledge/Data]]`로 바꿔 Fundamental 하위 경로가 아니라 실제 `mapped/deep-knowledge/data` 페이지로 향하게 했다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
