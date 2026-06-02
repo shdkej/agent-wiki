@@ -5191,3 +5191,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Computer_Architecture` 원본 207줄과 mapped 본문 전체를 다시 읽고, 새 해석을 늘리지 않는 압축만 수행했다.
 - 정리: `이번 패스에서 다시 선명해진 핵심`, `숨은 패턴`, `후속 정리 기준`에 반복되던 결론을 핵심 논지와 두 문단 요약으로 합쳐 MDX를 318줄에서 294줄로 줄였다.
 - 확인 기준: source-mapping 행은 유지했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-02 17:17 UTC | mapped/Fundamental/Data_Structure 1:1 매핑 확인
+
+- 갱신 범위: 최근 평가 요청에 따라 `Computer_Architecture` 반복을 멈추고, source-mapping 행이 없던 `Data_Structure`로 옮겨 원본 507줄과 mapped 305줄 전체를 다시 읽었다.
+- 정리: 본문은 자료구조를 이름 목록이 아니라 `무슨 연산을 빠르게 만들고 싶은가`와 `찾기 위해 무엇을 미리 조직하는가`의 두 축으로 안정적으로 보존하므로 새 해석을 늘리지 않고 상태 표기만 `안정 디벨롭`으로 맞췄다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
