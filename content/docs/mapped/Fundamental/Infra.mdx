@@ -5,15 +5,15 @@ tags: [mapped, infra, fundamental, cloud, operations]
 source_file: "[[source/shdkej-content/Fundamental/Infra.md]]"
 source_name: Infra
 created: 2026-04-20
-updated: 2026-05-17
-status: evolving
+updated: 2026-06-02
+status: stable
 language: ko
 ---
 
 # Infra
 
 - 원본: `source/shdkej-content/Fundamental/Infra.md`
-- 상태: 점진 심화
+- 상태: 안정 디벨롭
 - 역할: 만다라트 `Fundamental > Infra` 카테고리 노드의 구조적 읽기 기준
 
 ## 한눈에 보는 요약
@@ -23,7 +23,7 @@ language: ko
 원본에서 인프라는 클라우드 제품 모음이 아니라, 워크로드의 특성에 따라 점진적으로 두꺼워지는 운영 구조다. 가장 단순한 서비스는 정적 자산과 CDN, 스토리지, API Gateway 같은 얇은 레이어로도 충분하지만, 상태 관리, 트래픽 변화, 실시간성, 장애 대응, 조직 운영이 커질수록 데이터베이스, 캐시, 큐, 권한, 네트워크 경계, 모니터링, 배포 자동화가 필요해진다. 다만 저자는 무조건 복잡한 구조로 가는 대신, 가능하면 서버리스와 매니지드 서비스를 먼저 검토하고, 한계가 분명해질 때만 더 무거운 구성을 받아들이려는 태도를 보인다.
 
 ## 만다라트 위치에서 읽기
-이 페이지는 `Fundamental` 안의 `Infra`다. 같은 이름의 `[[mapped/Deep Knowledge/Infra]]`가 실제 플랫폼 운영과 장애 사례를 더 두껍게 축적하는 쪽이라면, 이 노드는 그보다 앞단에서 **인프라를 선택하는 기본 판단 문법**을 붙든다. 따라서 AWS, VPC, IAM, EKS, Route53, CloudFront, Beanstalk, Kinesis 같은 항목을 각각의 제품 지식으로 확장하기보다, `얇게 시작하기 → 상태가 생기는 지점 찾기 → 경계 비용 확인하기 → 복구 가능한 운영면 만들기`의 순서로 읽어야 한다.
+이 페이지는 `Fundamental` 안의 `Infra`다. 같은 이름의 `[[../deep-knowledge/infra|Deep Knowledge/Infra]]`가 실제 플랫폼 운영과 장애 사례를 더 두껍게 축적하는 쪽이라면, 이 노드는 그보다 앞단에서 **인프라를 선택하는 기본 판단 문법**을 붙든다. 따라서 AWS, VPC, IAM, EKS, Route53, CloudFront, Beanstalk, Kinesis 같은 항목을 각각의 제품 지식으로 확장하기보다, `얇게 시작하기 → 상태가 생기는 지점 찾기 → 경계 비용 확인하기 → 복구 가능한 운영면 만들기`의 순서로 읽어야 한다.
 
 이 차이를 세우면 두 Infra 노트가 중복되지 않는다. `Fundamental/Infra`는 서비스가 아직 작거나 설계 초기에 있을 때 어느 층까지 필요할지 판단하는 기준면이고, `Deep Knowledge/Infra`는 이미 운영 중인 시스템에서 어떤 증상과 도구 조합으로 문제를 좁힐지 다루는 실행면에 가깝다.
 
@@ -155,7 +155,7 @@ language: ko
 - CloudFront, ALB, NLB, ingress는 단순 트래픽 통로가 아니라 캐시, 헤더, 인증서, 클라이언트 IP 전달, 리다이렉트 책임을 나눠 갖는 경계 장치다.
 - RDS, Redis, S3, DynamoDB처럼 상태를 가진 서비스는 `접속 가능함`과 `안전하게 열려 있음`이 다르므로 security group, subnet, endpoint, 삭제 방지까지 함께 확인해야 한다.
 
-따라서 이 노드에서 public/private는 이분법이 아니다. `무조건 닫기`가 아니라 외부 사용자, 내부 운영자, 자동화 도구, 관리형 서비스가 각각 어떤 문으로 들어와야 하는지를 정하는 일이다. 이 관점은 [[Fundamental/Network]]의 주소·경계 감각과 이어지고, 실제 장애 상황에서는 [[Meta/Troubleshooting]]의 증상→상태 확인→수정→재검증 루프로 내려간다.
+따라서 이 노드에서 public/private는 이분법이 아니다. `무조건 닫기`가 아니라 외부 사용자, 내부 운영자, 자동화 도구, 관리형 서비스가 각각 어떤 문으로 들어와야 하는지를 정하는 일이다. 이 관점은 [[Network|Fundamental/Network]]의 주소·경계 감각과 이어지고, 실제 장애 상황에서는 [[../Meta/Troubleshooting|Meta/Troubleshooting]]의 증상→상태 확인→수정→재검증 루프로 내려간다.
 
 ### 8. 대표 표면은 숨기기만 하는 장치가 아니라 변경과 관측의 책임점이다
 Route53, CloudFront, ALB, NLB, ingress, 프론트 프록시 메모를 함께 읽으면 원문은 `주소를 붙인다`나 `앞단을 둔다`에서 멈추지 않는다. 저자는 백엔드를 프라이빗에 숨기고, 프론트나 ALB 같은 대표 표면을 두면 무엇이 좋아지는지와 동시에 무엇이 새로 어려워지는지를 묻는다. 핵심은 **사용자가 만나는 주소와 실제 워크로드 사이에 어떤 대표 인터페이스를 둘 것인가**다.
@@ -234,14 +234,14 @@ IAM 부분은 짧지 않지만 핵심은 명확하다.
 이 긴장을 제거하지 않고 남겨 두는 편이 원문 의도에 더 맞다.
 
 ## 인접 노드 연결
-- [[Fundamental/Architecture]]: 인프라 선택을 더 큰 설계 원칙과 연결해 읽을 수 있다.
-- [[Fundamental/Network]]: VPC, NAT, Route53, CloudFront, 로드밸런서 감각이 직접 맞닿는다.
-- [[Deep Knowledge/Cloud]]: 클라우드 추상화 자체의 범위와 한계를 한 단계 위에서 볼 수 있다.
-- [[Deep Knowledge/Container]]: 서버리스에서 컨테이너, 쿠버네티스 운영으로 넘어가는 경계가 이어진다.
-- [[Deep Knowledge/Devops]]: 배포, 자동화, 복구 가능성, 플랫폼 팀 역할과 연결된다.
-- [[Deep Knowledge/Monitoring]]: 인프라를 실제로 운영 가능한 상태로 만드는 관측과 알림 설계가 이어진다.
-- [[Meta/Troubleshooting]]: 실제 장애 시 증상, 상태 확인, 수정, 재검증의 루프로 다시 내려온다.
-- [[Meta/My_space]]: 개인 인프라를 작게 운영할 때도 같은 비용 감각과 복구 감각이 반복된다.
+- [[Architecture|Fundamental/Architecture]]: 인프라 선택을 더 큰 설계 원칙과 연결해 읽을 수 있다.
+- [[Network|Fundamental/Network]]: VPC, NAT, Route53, CloudFront, 로드밸런서 감각이 직접 맞닿는다.
+- [[../deep-knowledge/cloud|Deep Knowledge/Cloud]]: 클라우드 추상화 자체의 범위와 한계를 한 단계 위에서 볼 수 있다.
+- [[../deep-knowledge/container|Deep Knowledge/Container]]: 서버리스에서 컨테이너, 쿠버네티스 운영으로 넘어가는 경계가 이어진다.
+- [[../deep-knowledge/devops|Deep Knowledge/Devops]]: 배포, 자동화, 복구 가능성, 플랫폼 팀 역할과 연결된다.
+- [[../deep-knowledge/monitoring|Deep Knowledge/Monitoring]]: 인프라를 실제로 운영 가능한 상태로 만드는 관측과 알림 설계가 이어진다.
+- [[../Meta/Troubleshooting|Meta/Troubleshooting]]: 실제 장애 시 증상, 상태 확인, 수정, 재검증의 루프로 다시 내려온다.
+- [[../Meta/My_space|Meta/My_space]]: 개인 인프라를 작게 운영할 때도 같은 비용 감각과 복구 감각이 반복된다.
 
 ## 선호 신호
 저자는 인프라를 최신 스택 과시보다 워크로드 적합성, 숨은 비용, 네트워크 경계, 권한 분리, 관측 가능성, 복구 가능성의 문제로 다루는 경향이 강하다. 또한 가능하면 서버리스와 매니지드 서비스를 먼저 검토하지만, 그 한계가 드러나는 순간 실시간성, 지속 연결, 운영 복잡성을 기준으로 더 무거운 구성을 받아들이는 실용적 태도를 보인다. 특히 `Fundamental` 위치에서는 제품 상세를 끝까지 파기보다, 나중에 더 깊은 운영 노드로 내려가기 전에 필요한 선택 기준과 경계 감각을 먼저 세우려는 성향이 강하다.
@@ -263,3 +263,4 @@ IAM 부분은 짧지 않지만 핵심은 명확하다.
 - 2026-05-12: Terraform import, ArgoCD, LB controller, external-dns, stateful 자원 메모를 `현재 상태의 주인`을 확인하는 변경 안전성 축으로 보강했다.
 - 2026-05-13: public/private subnet, NAT, Endpoint, JumpServer, ALB/NLB, RDS 접근 메모를 `운영 동선의 계약` 관점으로 보강했다.
 - 2026-05-17: Route53, CloudFront, ALB/NLB, ingress, external-dns 메모를 `대표 표면` 관점으로 묶어 변경 전파, 캐시 무효화, 인증서, 라우팅, 로그 책임을 보강했다.
+- 2026-06-02: 본문 해석은 늘리지 않고 상태를 `안정 디벨롭`으로 맞췄으며, Fundamental 내부 링크와 Deep Knowledge/Meta 인접 링크 경로를 실제 mapped 위치로 보정했다.
