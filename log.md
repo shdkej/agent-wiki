@@ -5143,3 +5143,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 평가가 지적한 `Architecture` 산출물 링크의 basePath 위험만 좁게 확인했다. 원본 690줄과 mapped 305줄 전체를 다시 읽었고, 본문 해석은 수정하지 않았다.
 - 정리: `content.md`의 처리된 마크다운에는 `/docs/mapped/...`가 남지만, 실제 HTML 본문 anchor는 `/agent-wiki/docs/mapped/.../`로 렌더링된다. 확인 대상 인접 노드의 정적 HTML 파일도 모두 존재해, 현재 Architecture 본문에서는 basePath 404로 판정하지 않았다.
 - 확인 기준: source-mapping 1:1 행은 유지했고, 이번 런은 로그 기록만 남긴 뒤 publish exit status, git status, 최신 커밋, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-02 09:17 UTC | mapped/Fundamental/Architecture 공개 링크 200 확인
+
+- 갱신 범위: 최근 평가가 요청한 공개 URL 확인만 수행했다. 원본 690줄과 mapped 305줄 전체를 다시 읽었고, 본문 해석과 source-mapping은 수정하지 않았다.
+- 정리: 공개 배포 URL에서 `Architecture`, 인접 `Fundamental/Coding`, `Deep Knowledge/Infra`가 모두 200으로 응답했다. GitHub Pages URL은 `shdkej.com/agent-wiki/...`로 리다이렉트되지만 최종 응답은 정상이다.
+- 확인 기준: 이번 런은 basePath 404 위험을 좁게 닫는 로그 기록만 남기고, publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
