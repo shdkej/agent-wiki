@@ -5185,3 +5185,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 평가 요청에 따라 `Infra` 반복을 멈추고, source-mapping 행이 없던 `Computer_Architecture`로 옮겨 원본 207줄과 mapped 318줄 전체를 다시 읽었다.
 - 정리: 본문은 실행 상태의 소유권, 완충층, 시작/종료 제어면을 이미 안정적으로 보존하므로 새 해석을 늘리지 않고 `상태: 안정 디벨롭`과 `후속 정리 기준`으로 누적 런 표현만 압축했다.
 - 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-02 16:17 UTC | mapped/Fundamental/Computer_Architecture 메타 요약 압축
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Computer_Architecture` 원본 207줄과 mapped 본문 전체를 다시 읽고, 새 해석을 늘리지 않는 압축만 수행했다.
+- 정리: `이번 패스에서 다시 선명해진 핵심`, `숨은 패턴`, `후속 정리 기준`에 반복되던 결론을 핵심 논지와 두 문단 요약으로 합쳐 MDX를 318줄에서 294줄로 줄였다.
+- 확인 기준: source-mapping 행은 유지했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
