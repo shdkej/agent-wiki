@@ -5131,3 +5131,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 새 mapped 본문은 수정하지 않고, 최근 평가가 지적한 `agent-wiki` 로컬 1커밋/원격 다수 커밋 divergence를 해소해 publish 경로를 복구하는 데 집중했다.
 - 정리: 기존 수정 11개를 stash로 보존한 뒤 `origin/main` 위로 로컬 publish 커밋을 rebase했고, 보존한 수정도 충돌 없이 되돌렸다.
 - 완료 기준: 이번 런의 판정은 `scripts/publish-agent-wiki.sh` 1회 실행 exit status, git status, 최신 커밋, 변경 파일 목록으로 제한한다.
+
+## 2026-06-02 06:17 UTC | mapped/Fundamental/Architecture 링크 라우팅 점검
+
+- 갱신 범위: `source/shdkej-content/Fundamental/Architecture.md`와 대응 mapped 노트 전체를 다시 읽고, publish 복구 뒤 산출물이 현재 `안정 디벨롭` 상태를 반영하는지 좁게 확인했다.
+- 정리: 본문 해석은 늘리지 않고, `Architecture` 안의 인접 노드 wikilink가 현재 폴더 기준으로 `/docs/mapped/Fundamental/...` 아래에 잘못 붙는 문제만 상대 경로와 표시명을 명시해 고쳤다.
+- 확인 기준: source-mapping 1:1 행, MDX 305줄, 산출물의 `상태: 안정 디벨롭`, publish exit status, git status, 최신 커밋만 확인한다.
