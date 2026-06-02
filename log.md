@@ -5167,3 +5167,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 평가 요청에 따라 `Web` 반복 점검을 멈추고 `Product`로 옮겨, 원본 365줄과 mapped 359줄 전체를 다시 읽은 뒤 source-mapping과 산출물 반영만 확인했다.
 - 정리: source-mapping 1:1 행을 현재 확인 시각으로 갱신했고, 2026-06-02 11:18 UTC 산출물 HTML/content에 `상태: 안정 디벨롭`, `네 칸 판단 모델`, `후속 정리 기준`이 반영되어 있다.
 - 확인 기준: 본문 해석은 늘리지 않았고, 이번 런은 로그 기록과 source-mapping 상태 갱신만 남긴 뒤 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-02 13:17 UTC | mapped/deep-knowledge/monitoring 산출물 반영 확인
+
+- 갱신 범위: 최근 평가 요청에 따라 `Product` 반복을 멈추고 `Monitoring`으로 옮겨, 원본 413줄과 mapped 284줄 전체를 다시 읽은 뒤 source-mapping과 산출물 반영만 확인했다.
+- 정리: source-mapping 1:1 행을 현재 확인 시각으로 갱신했고, Monitoring 본문은 `상태: 안정 디벨롭`, `알림은 지표가 아니라 주의 배분 정책이다`, `오래 켜 둔 시스템을 보는 시간축`을 유지해 원문 경계를 안정적으로 보존한다.
+- 확인 기준: 본문 해석은 늘리지 않았고, 이번 런은 로그 기록과 source-mapping 상태 갱신만 남긴 뒤 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
