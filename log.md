@@ -5155,3 +5155,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가 요청에 따라 `Architecture` 반복 점검을 멈추고 `Coding`으로 옮겨, 원본 1414줄과 mapped 326줄 전체를 다시 읽은 뒤 source-mapping과 산출물 반영만 확인했다.
 - 정리: source-mapping 1:1 행은 유지되고, 2026-06-02 09:18 UTC 산출물 HTML/content에 `상태: 안정 디벨롭`, `후속 정리 기준`, `변경 가능한 구조를 만들기 위한 기초 판단 문법 노드`가 반영되어 있다.
 - 확인 기준: 본문 해석은 늘리지 않았고, 이번 런은 로그 기록만 남긴 뒤 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-02 11:17 UTC | mapped/deep-knowledge/web 산출물 반영 확인
+
+- 갱신 범위: 최근 평가 요청에 따라 `Coding` 반복 점검을 멈추고 `Web`으로 옮겨, 원본 286줄과 mapped 266줄 전체를 다시 읽은 뒤 source-mapping과 산출물 반영만 확인했다.
+- 정리: source-mapping 1:1 행은 유지되고, 2026-06-02 10:18 UTC 산출물 HTML/content에 `상태: 안정 디벨롭`, `브라우저 기본 계약`, `상태 보존`, `후속 정리 기준`이 반영되어 있다.
+- 확인 기준: 본문 해석은 늘리지 않았고, 이번 런은 로그 기록만 남긴 뒤 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
