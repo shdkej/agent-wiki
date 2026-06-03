@@ -5251,3 +5251,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 평가 요청에 따라 `Software` 반복을 멈추고, source-mapping 행이 없던 `Tool`로 옮겨 원본 1621줄과 mapped 361줄 전체를 다시 읽었다.
 - 정리: 본문 해석은 늘리지 않고 상태를 `안정 디벨롭`으로 맞췄으며, `mapped/...` 형태의 인접 wikilink를 실제 Fundamental 상대 경로와 `../deep-knowledge/...`, `../Meta/...` 경로로 보정했다.
 - 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-03 03:17 UTC | mapped/Human/Future 보강 기록 압축
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Future` 원본 405줄과 mapped 260줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: 패스별 보강 기록 13개 bullet를 본문에서 제거하고, `시간층`, `재진입 손잡이`, `다음 세대 환경`처럼 현재 해석에 필요한 후속 정리 기준만 남겨 mapped를 245줄로 줄였다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
