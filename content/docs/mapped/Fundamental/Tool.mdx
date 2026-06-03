@@ -5,8 +5,8 @@ tags: [mapped, fundamental, tool, linux, git, ops]
 source_file: "[[source/shdkej-content/Fundamental/Tool.md]]"
 source_name: Tool
 created: 2026-04-14
-updated: 2026-05-18
-status: evolving
+updated: 2026-06-03
+status: stable-development
 language: ko
 ---
 
@@ -14,7 +14,7 @@ language: ko
 
 - 원본: `source/shdkej-content/Fundamental/Tool.md`
 - 성격: 만다라트 `Fundamental` 축의 1:1 대응 카테고리 노드
-- 이번 상태: 기존 기준선은 유지하되, 오래된 명령어 조각을 최신 정답으로 덮지 않고 `당시의 작업 조건`과 `현재 재검증이 필요한 표면`으로 나누어 읽는 기준을 보강했다.
+- 이번 상태: 안정 디벨롭. 기존 기준선은 유지하되, 1:1 매핑을 확인하면서 오래된 명령어 조각을 `당시의 작업 조건`과 `현재 재검증이 필요한 표면`으로 나누어 읽는 기준을 보존했다.
 
 ## 한눈에 보는 핵심
 이 노트의 `Tool`은 앱 추천 목록이 아니다. 원문은 Linux 명령어, 한글 입력기 설정, 백업 스크립트, SSH 보안, DNS, 스토리지, Git 복구, Terraform, Ansible, Vault, gRPC, 스트리밍까지 한 문서에 쌓아 둔다. 겉으로는 산만하지만 실제 중심은 분명하다.
@@ -294,7 +294,7 @@ GUI는 빠르지만 휘발되고, CLI는 번거롭지만 기록과 자동화가 
 3. **경계를 여닫는가**: SSH, sudoers, iptables, TLS, DNS, API gateway처럼 접근·이름·권한·통신 경계를 조정하는 메모다.
 4. **책임을 옮기는가**: Terraform, Ansible, Serverless, Vault, Nagios, Kafka, gRPC, streaming처럼 수동 조작을 선언형 관리, 감시, 메시징, 전송 레이어로 옮길지 판단하는 메모다.
 
-이 기준을 세우면 원문의 긴 명령어 묶음을 전부 같은 수준으로 해설하지 않아도 된다. `무엇을 설치했는가`보다 `어떤 작업 책임이 어디로 이동했는가`를 먼저 보게 되고, 후속 편집에서도 [[mapped/Deep Knowledge/Infra]], [[mapped/Deep Knowledge/Devops]], [[mapped/Fundamental/Network]], [[mapped/Meta/Troubleshooting]]로 넘길 경계가 더 분명해진다.
+이 기준을 세우면 원문의 긴 명령어 묶음을 전부 같은 수준으로 해설하지 않아도 된다. `무엇을 설치했는가`보다 `어떤 작업 책임이 어디로 이동했는가`를 먼저 보게 되고, 후속 편집에서도 [[../deep-knowledge/infra|Deep Knowledge/Infra]], [[../deep-knowledge/devops|Deep Knowledge/Devops]], [[Network|Fundamental/Network]], [[../Meta/Troubleshooting|Meta/Troubleshooting]]로 넘길 경계가 더 분명해진다.
 
 ## 성공 명령보다 중요한 것은 확인 신호다
 원문에는 명령어만 있는 것이 아니라, 실행 뒤 무엇을 확인해야 하는지가 자주 붙어 있다. VirtualBox 디스크를 붙인 뒤 `df -h`로 확인하고, NFS를 마운트한 뒤 `df -hT`와 `ls -al`을 본다. 배터리는 `upower`나 `tlp-stat`으로 상태를 확인하고, WSL은 `wsl -l -v`로 적용 상태를 확인한다. GitHub SSH도 `ssh -T git@github.com`으로 접속 경계를 시험한다.
@@ -335,12 +335,12 @@ GUI는 빠르지만 휘발되고, CLI는 번거롭지만 기록과 자동화가 
 - 오래된 도구 명령어는 최신 정답으로 바로 덮지 말고, 당시 조건과 지금 재검증해야 할 표면을 분리해 보존할 때 학습 가치가 유지된다.
 
 ## 인접 노드 연결
-- [[mapped/Meta/Troubleshooting]]: 도구 사용 중 생기는 오류를 상태 확인, 수정, 재검증 루프로 다루는 방식이 직접 맞닿아 있다.
-- [[mapped/Deep Knowledge/Infra]]: DB, DNS, storage, 네트워크, 권한 관리 메모는 인프라 카테고리와 강하게 이어진다.
-- [[mapped/Deep Knowledge/Devops]]: 자동화, 배포, 복구, 공통 플랫폼 설계의 층위가 DevOps 노드와 만난다.
-- [[mapped/Fundamental/Coding]]: shell, build, runtime, 언어 도구가 실제 구현 습관으로 연결된다.
-- [[mapped/Meta/About_Development]]: 개발자의 기본을 코드 문법이 아니라 재현 가능한 작업 환경까지 포함해 이해하는 관점이 이어진다.
-- [[mapped/Deep Knowledge/Monitoring]]: Nagios, 상태 확인, 알림, 운영 감시 감각이 모니터링 노드로 이어진다.
+- [[../Meta/Troubleshooting|Meta/Troubleshooting]]: 도구 사용 중 생기는 오류를 상태 확인, 수정, 재검증 루프로 다루는 방식이 직접 맞닿아 있다.
+- [[../deep-knowledge/infra|Deep Knowledge/Infra]]: DB, DNS, storage, 네트워크, 권한 관리 메모는 인프라 카테고리와 강하게 이어진다.
+- [[../deep-knowledge/devops|Deep Knowledge/Devops]]: 자동화, 배포, 복구, 공통 플랫폼 설계의 층위가 DevOps 노드와 만난다.
+- [[Coding|Fundamental/Coding]]: shell, build, runtime, 언어 도구가 실제 구현 습관으로 연결된다.
+- [[../Meta/About_Development|Meta/About_Development]]: 개발자의 기본을 코드 문법이 아니라 재현 가능한 작업 환경까지 포함해 이해하는 관점이 이어진다.
+- [[../deep-knowledge/monitoring|Deep Knowledge/Monitoring]]: Nagios, 상태 확인, 알림, 운영 감시 감각이 모니터링 노드로 이어진다.
 
 ## 선호 신호
 저자는 툴을 화려한 최신 앱보다 `마찰을 줄이고, 원하는 상태를 만들고, 다시 복원할 수 있게 하는 운영 표면`으로 보는 경향이 강하다. 또한 도구를 기록할 때도 기능 설명보다 파일 경로, 권한, 실행 순서, 재시작, 백업, 자동화처럼 실패를 줄이는 정보를 더 오래 붙잡는다. 즉 툴을 소비하는 사람이라기보다, 툴을 조합해 자기 작업 환경을 길들이는 사람에 가깝다.
@@ -355,7 +355,7 @@ GUI는 빠르지만 휘발되고, CLI는 번거롭지만 기록과 자동화가 
 ## 드리프트 점검
 대응 원본 `source/shdkej-content/Fundamental/Tool.md`의 파일 수정 시각은 mapped 노트보다 오래되어, 이번 실행에서는 사용자의 최근 직접 수정본으로 판단하지 않았다. 따라서 `human-reviews/` 복사는 생략했다.
 
-## 이번 갱신 메모
-- 기존 baseline은 유지한 채, 원문의 오래된 Linux·DB·Terraform·Serverless·gRPC 명령어를 최신 정답으로 평탄화하지 않고 `당시 조건 / 남는 판단 구조 / 현재 재검증 표면`으로 나누어 읽는 기준을 추가했다.
-- 도구 메모의 최신화는 덮어쓰기보다 원문 조건 보존, 현재 조건 확인, 확인 신호 갱신 순서로 진행해야 한다는 점을 보강했다.
-- 드리프트 점검은 유지했다. 대응 원본은 mapped보다 오래되어 이번 실행에서 별도 human review 복사는 하지 않았다.
+## 후속 정리 기준
+- 본문은 이미 `상태: 안정 디벨롭`으로 볼 수 있으므로 다음 패스에서는 새 해석을 더하기보다 인접 링크, source-mapping, 산출물 반영 여부만 좁게 확인한다.
+- 오래된 Linux·DB·Terraform·Serverless·gRPC 명령어는 최신 정답으로 바로 덮지 말고 `당시 조건 / 남는 판단 구조 / 현재 재검증 표면`의 세 층을 유지한다.
+- 도구 메모의 최신화는 원문 조건 보존, 현재 조건 확인, 확인 신호 갱신 순서로 진행한다.

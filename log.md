@@ -5239,3 +5239,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Software` 원본 684줄과 mapped 263줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
 - 정리: `Integration/Business`, `Communication/Document`, `Communication/Feedback`, `Communication/Teamwork` 인접 wikilink에 표시명을 붙여 content 산출물에서 상대 경로가 독자용 문구처럼 노출되지 않게 했다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
+
+## 2026-06-03 01:17 UTC | mapped/Fundamental/Tool 1:1 매핑 및 링크 경로 보정
+
+- 갱신 범위: 최근 평가 요청에 따라 `Software` 반복을 멈추고, source-mapping 행이 없던 `Tool`로 옮겨 원본 1621줄과 mapped 361줄 전체를 다시 읽었다.
+- 정리: 본문 해석은 늘리지 않고 상태를 `안정 디벨롭`으로 맞췄으며, `mapped/...` 형태의 인접 wikilink를 실제 Fundamental 상대 경로와 `../deep-knowledge/...`, `../Meta/...` 경로로 보정했다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수로 제한해 확인한다.
