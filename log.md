@@ -5275,3 +5275,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 Future 반복을 멈추고 source-mapping 행이 없던 `Readability`로 옮겨 원본 142줄과 mapped 280줄 전체를 다시 읽었다.
 - 정리: 본문 상태를 `안정 디벨롭`으로 맞추고, 날짜별 패스 기록을 후속 정리 기준으로 압축했으며, 한자/한글, 조사 충돌, 교육용 만화, 청소년용 고전, 대중 설명자, 해상도 인용 같은 원문 장면 앵커를 전면에 보강했다.
 - 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-03 07:17 UTC | mapped/Human/Readability 반복 설명층 압축
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Readability` 원본 142줄과 mapped 267줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: `해독·이해·행동`, `복귀 경로`, `어려움을 보존한 순서`, 반복 판단표를 네 작업면 중심의 실패 신호와 압축된 재사용 모델로 합쳐 mapped를 200줄로 줄였다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
