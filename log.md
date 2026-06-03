@@ -5281,3 +5281,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Readability` 원본 142줄과 mapped 267줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
 - 정리: `해독·이해·행동`, `복귀 경로`, `어려움을 보존한 순서`, 반복 판단표를 네 작업면 중심의 실패 신호와 압축된 재사용 모델로 합쳐 mapped를 200줄로 줄였다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-03 08:17 UTC | mapped/Human/Readability 인접 링크 표시명 보정
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Readability` 원본 142줄과 mapped 200줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: 산출물에서 상대 경로가 독자용 문구처럼 노출되던 `Communication/Document`, `Fundamental/Coding`, `Health/Decision`, `Meta/About_Development` wikilink에 표시명을 붙였다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
