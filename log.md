@@ -5359,3 +5359,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Movie` 원본 372줄과 mapped 323줄 전체를 다시 읽고, 새 작품 해석은 늘리지 않았다.
 - 정리: 반복되던 감상 루프, 미해결 감각, 감상 환경 설명을 하나의 판단 모델로 압축해 mapped를 292줄로 줄였고, `대도시의 사랑법`, `중쇄를 찍자`, `패터슨`, `존 말코비치 되기` 원문 앵커는 유지했다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-03 21:17 UTC | mapped/Idea/Reading 1:1 매핑 및 인접 링크 경로 보정
+
+- 갱신 범위: 최근 `Movie` 반복을 멈추고 source-mapping 행이 없던 `Reading`으로 옮겨 원본 839줄과 mapped 296줄 전체를 다시 읽었다.
+- 정리: 본문 해석은 늘리지 않고 `mapped/...` 형태로 남아 있던 인접 wikilink를 실제 상대 경로와 표시명으로 보정했으며, 독자용 본문에 남아 있던 운영 점검 문단을 제거했다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
