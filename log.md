@@ -5371,3 +5371,8 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Reading` 원본 839줄과 mapped 293줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
 - 정리: 독자용 mapped 본문 말미에 남아 있던 `이번 심화에서 보강한 점` 작업 기록과 반복 문장을 제거해 페이지가 재사용 가능한 다음 심화 후보로 끝나게 했다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+## 2026-06-03 23:17 UTC | mapped/Idea/Travel 1:1 매핑 및 인접 링크 경로 보정
+
+- 갱신 범위: 최근 `Reading` 반복을 멈추고 source-mapping 행이 없던 `Travel`로 옮겨 원본 521줄과 mapped 265줄 전체를 다시 읽었다.
+- 정리: 본문 해석은 늘리지 않고 상태를 1:1 매핑 보수로 맞췄으며, 독자용 본문 말미의 작업 기록층을 제거하고 `mapped/...` 형태의 인접 wikilink를 실제 상대 경로와 표시명으로 보정했다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
