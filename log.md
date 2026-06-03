@@ -5323,3 +5323,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 `History` 반복을 멈추고 source-mapping 행이 없던 `Information`으로 옮겨 원본 650줄과 mapped 267줄 전체를 다시 읽었다.
 - 정리: 본문 해석은 늘리지 않고 `mapped/Meta/Collection`, `../Deep Knowledge/Data`처럼 실제 mapped 경로와 맞지 않던 인접 wikilink를 상대 경로와 표시명으로 보정했다.
 - 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-03 15:17 UTC | mapped/Idea/Information 운영 로그 문장 제거
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Information` 원본 650줄과 mapped 267줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: 독자용 mapped 본문 말미에 남아 있던 `드리프트 점검` 운영 문단을 제거해 페이지가 유지 기준과 다음 심화 후보로 끝나게 했다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
