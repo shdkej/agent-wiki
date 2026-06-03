@@ -5311,3 +5311,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `History` 원본 245줄과 mapped 252줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
 - 정리: 여섯 개 하위 섹션을 소개하는 제목 숫자를 `여섯 가지 층위`로 맞추고, content 산출물에서 깨질 수 있는 강조문을 inline code 문장으로 바꿨다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-03 13:17 UTC | mapped/Idea/History 인접 링크 표시명 보정
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `History` 원본 245줄과 mapped 252줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: `Fundamental/Software`, `Fundamental/Network`, `deep-knowledge/infra`, `blog/picasso` 등 인접 wikilink에 표시명을 붙여 content/HTML 산출물에서 상대 경로가 독자용 문구처럼 노출되지 않게 했다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
