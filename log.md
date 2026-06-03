@@ -5263,3 +5263,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Future` 원본 405줄과 mapped 245줄 전체를 다시 읽고, 후속 정리 기준의 운영 지시형 문장만 확인했다.
 - 정리: 본문 해석은 늘리지 않고 `패스별 작업 기록은 본문에 쌓지 말라`는 운영 로그 성격의 문장을 독자용 재사용 기준으로 바꿨다.
 - 확인 기준: 원문 경계와 1:1 대응은 유지하고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-03 05:17 UTC | mapped/Human/Future source-mapping 상태 보정
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Future` 원본 405줄과 mapped 245줄 전체를 다시 읽고, 본문 해석과 mapped 파일은 더 수정하지 않았다.
+- 정리: source-mapping 행의 확인 시각과 설명을 04:17 런의 실제 상태인 운영 문장 제거 반영 확인으로 맞췄다.
+- 확인 기준: 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
