@@ -5269,3 +5269,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Future` 원본 405줄과 mapped 245줄 전체를 다시 읽고, 본문 해석과 mapped 파일은 더 수정하지 않았다.
 - 정리: source-mapping 행의 확인 시각과 설명을 04:17 런의 실제 상태인 운영 문장 제거 반영 확인으로 맞췄다.
 - 확인 기준: 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-03 06:17 UTC | mapped/Human/Readability 1:1 매핑 및 원문 장면 앵커 보강
+
+- 갱신 범위: 최근 Future 반복을 멈추고 source-mapping 행이 없던 `Readability`로 옮겨 원본 142줄과 mapped 280줄 전체를 다시 읽었다.
+- 정리: 본문 상태를 `안정 디벨롭`으로 맞추고, 날짜별 패스 기록을 후속 정리 기준으로 압축했으며, 한자/한글, 조사 충돌, 교육용 만화, 청소년용 고전, 대중 설명자, 해상도 인용 같은 원문 장면 앵커를 전면에 보강했다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
