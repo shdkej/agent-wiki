@@ -2,7 +2,7 @@
 title: "2026-06-04"
 date: 2026-06-04
 type: diary
-last_sync: 2026-06-04T11:00:09+09:00
+last_sync: 2026-06-04T11:31:09+09:00
 ---
 
 # 2026-06-04
@@ -15,6 +15,10 @@ last_sync: 2026-06-04T11:00:09+09:00
 |---|---------|------|----------|
 | 1 | ax-terraform | 09:05 | app node 종료 후 갱신, 재기동 |
 | 2 | ax-terraform | 09:26 | localhost:9000 데이터를 purple-auth(auth.ax.purpleio.dev)로 이관, admin 비밀번호 리셋(qwer1234), 상위 IdP 값 우리 환경에 맞게 조정 |
+| 3 | ax-terraform | 11:23 | purple-auth(~/dev/ai/kolon/purple-auth)에서 testapp1, testapp2의 client id/secret 확인 |
+| 4 | ax-terraform | 11:27 | 취약성점검 Container Registry 항목 '[적합] 조건 1 만족' 처리 후 갱신 |
+| 5 | legal-advice-dispatch | 11:27 | 의뢰번호 summary에서 회사명·실명·'요청' 제거해 검토/자문 건수만 간결하게 표기하도록 문서 업데이트 |
+| 6 | koco | 11:29 | 심사요청 트리거 설계 — 배포 요청 시 즉시 배포 대신 심사 레코드(pending) 생성 + 승인자에게 코코 인앱 알림 |
 
 ### 개인
 
@@ -29,5 +33,5 @@ last_sync: 2026-06-04T11:00:09+09:00
 - 09:27 — Downloads: 보안성검토 체크리스트(KOCO) CSP 구성도상 모든 요소(EKS, VPC 등) R&R 책임자 지정 처리 방안 검토, 엑셀 시트 반영 후 docx 변환
 - 09:28 — Downloads: 취약성점검 AX인프라(AWS) CA-04 콘솔 접근 제한 확인, K8s 호스트 네임스페이스 공유 금지·hostPort 미사용·fsGroup 최소 권한 점검
 - 09:28 — Downloads: 취약성점검 Container Registry 시트 gitlab Registry 기반 점검 여부 확인 및 적합 처리 방안 검토 (kolon-ax)
-- 09:58 — Downloads: 취약성점검 AX정보보안자산 인프라 시스템 카탈로그 항목 채우기
+- 09:58 — Downloads: 취약성점검 AX정보보안자산 인프라 시스템 카탈로그 항목 채우기 (aws secretsmanager 조회 활용)
 - 10:29 — Downloads: 취약성점검 AX인프라(AWS) 점검결과 상세내용을 준수기준 불릿 그대로 간결하게 수정, 체크표시 제거하고 불릿로 정리, Cache for Redis 감사로그 수집 방안 검토
