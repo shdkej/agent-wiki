@@ -5406,3 +5406,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 `Operation` 반복을 멈추고 source-mapping 행이 없던 `Meta/AGENTS`로 옮겨 원본 111줄과 mapped 339줄 전체를 다시 읽었다.
 - 정리: 본문 해석은 늘리지 않고 독자용 mapped 본문 말미에 남아 있던 `이번 패스`/`정리 메모` 작업 기록층을 제거하고, 재사용 가능한 `현재 유지 기준`으로 압축했다.
 - 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-04 11:17 UTC | mapped/Fundamental/Math 삭제된 Infra 링크 보정
+
+- 갱신 범위: 직전 평가의 삭제된 경로 잔존 점검 요청에 따라 `Math` 원본 648줄과 mapped 329줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: `인접 노드 연결` 표의 삭제된 `deep-knowledge/infra` 링크를 현재 남아 있는 `Fundamental/Infra` 경로로 보정했다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
