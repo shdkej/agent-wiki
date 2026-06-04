@@ -5435,3 +5435,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: source-mapping 행이 없던 `Meta/About_Architecture`로 옮겨 원본 792줄과 mapped 260줄 전체를 다시 읽었다.
 - 정리: 본문 해석은 늘리지 않고 독자용 mapped 본문 말미의 작업 기록성 섹션을 제거했으며, 인접 노드 wikilink를 `/docs/mapped/...` 절대 Markdown 링크로 보정했다.
 - 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-04 21:17 UTC | mapped/Meta/About_Architecture 강조 렌더링 보정
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `About_Architecture` 원본 792줄과 mapped 251줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: llms 공개 표면에서 깨지던 굵은 강조 2곳을 일반 문장으로 바꿔 `핵심 논지`와 `분산의 이점과 관리 비용의 충돌` 문장이 그대로 읽히게 했다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
