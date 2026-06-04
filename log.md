@@ -5412,3 +5412,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 삭제된 경로 잔존 점검 요청에 따라 `Math` 원본 648줄과 mapped 329줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
 - 정리: `인접 노드 연결` 표의 삭제된 `deep-knowledge/infra` 링크를 현재 남아 있는 `Fundamental/Infra` 경로로 보정했다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-04 12:17 UTC | mapped/Fundamental/Math 표 안 링크 경로 보정
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Math` 원본 648줄과 mapped 329줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: `인접 노드 연결` 표 안의 `Deep Knowledge/AI`와 `Fundamental/Infra` 링크를 `/docs/mapped/...` 절대 경로로 바꿔 Math 위치 기준 상대 href 오해를 피했다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
