@@ -5376,3 +5376,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 최근 `Reading` 반복을 멈추고 source-mapping 행이 없던 `Travel`로 옮겨 원본 521줄과 mapped 265줄 전체를 다시 읽었다.
 - 정리: 본문 해석은 늘리지 않고 상태를 1:1 매핑 보수로 맞췄으며, 독자용 본문 말미의 작업 기록층을 제거하고 `mapped/...` 형태의 인접 wikilink를 실제 상대 경로와 표시명으로 보정했다.
 - 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-04 00:17 UTC | mapped/Idea/Travel 층위 제목 및 음식 입력면 보정
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Travel` 원본 521줄과 mapped 254줄 전체를 다시 읽고, 본문 해석은 크게 늘리지 않았다.
+- 정리: `다섯 층위` 제목을 실제 하위 섹션 수에 맞춰 `일곱 층위`로 고치고, 원문 말미의 국내/일본 음식 목록을 미래 도시별 맛/장소 입력면으로 한 문단만 회수했다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
