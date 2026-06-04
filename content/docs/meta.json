@@ -8,6 +8,9 @@
     "sources",
     "---Diary---",
     "diary",
+    "---Logs---",
+    "log",
+    "logs",
     "---Mapped---",
     "mapped",
     "---Syntheses---",
@@ -16,7 +19,6 @@
     "maintenance",
     "---Reference---",
     "agent_rules",
-    "knowledge_lab_readme",
-    "log"
+    "knowledge_lab_readme"
   ]
 }

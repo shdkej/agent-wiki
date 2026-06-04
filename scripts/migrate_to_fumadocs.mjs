@@ -5,7 +5,7 @@ import path from 'node:path';
 const ROOT = process.cwd();
 const DOCS = path.join(ROOT, 'content', 'docs');
 
-const TOP_LEVEL_DIRS = ['concepts', 'diary', 'mapped', 'sources', 'syntheses', 'maintenance'];
+const TOP_LEVEL_DIRS = ['concepts', 'diary', 'logs', 'mapped', 'sources', 'syntheses', 'maintenance'];
 const ROOT_FILES = ['README.md', 'index.md', 'KNOWLEDGE_LAB_README.md', 'AGENT_RULES.md', 'log.md'];
 const SKIP_FILES = new Set(['_sidebar.md', '_navbar.md']);
 
@@ -37,7 +37,7 @@ function slugifyRelPath(rel) {
 }
 
 function processFile(srcPath, destPath, fallbackTitle) {
-  let content = fs.readFileSync(srcPath, 'utf-8');
+  let content = fs.readFileSync(srcPath, 'utf-8').split('\n').map((line) => line.trimEnd()).join('\n');
   if (!hasFrontmatter(content)) {
     const title = extractTitle(content, fallbackTitle);
     const fm = `---\ntitle: "${escapeYaml(title)}"\n---\n\n`;
@@ -88,7 +88,7 @@ for (const f of ROOT_FILES) {
 // generate meta.json for top-level ordering
 const meta = {
   title: 'Agent Wiki',
-  pages: ['index', '---Concepts---', 'concepts', '---Sources---', 'sources', '---Diary---', 'diary', '---Mapped---', 'mapped', '---Syntheses---', 'syntheses', '---Maintenance---', 'maintenance', '---Reference---', 'agent_rules', 'knowledge_lab_readme', 'log'],
+  pages: ['index', '---Concepts---', 'concepts', '---Sources---', 'sources', '---Diary---', 'diary', '---Logs---', 'log', 'logs', '---Mapped---', 'mapped', '---Syntheses---', 'syntheses', '---Maintenance---', 'maintenance', '---Reference---', 'agent_rules', 'knowledge_lab_readme'],
 };
 fs.writeFileSync(path.join(DOCS, 'meta.json'), JSON.stringify(meta, null, 2));
 

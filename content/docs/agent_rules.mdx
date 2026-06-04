@@ -16,6 +16,7 @@ title: "지식 랩 운영 규칙"
 - 보조 외부 소스: `source/external-links/`
 - 에이전트 산출물: `agent-wiki/`
 - 인간 수정/비교본: `human-reviews/`
+- 운영 스키마: `schema/`
 
 ## 제약
 1. 각 노트의 기본 구조와 주제를 유지한다.
@@ -35,6 +36,9 @@ title: "지식 랩 운영 규칙"
    - 어떤 드리프트나 이상 징후가 있었는지
 12. 이 랩 안에서의 일반적인 위키 재작성에는 사용자 허가가 필요 없다.
 13. 결과가 이상해지면 원본에서 같은 시스템을 다시 생성하고 변화 경로를 비교한다.
+14. `source/` 아래 새 문서는 `schema/source.md`의 frontmatter, Source Boundary, 출처/상태/재사용 포인트 규칙을 따른다.
+15. source 레이어는 raw material이고, 장기 판단·비교·개념화·질의 답변은 `agent-wiki/` 레이어에 컴파일한다. 좋은 답변이나 반복 가능한 판단은 채팅에만 두지 말고 wiki 또는 log에 누적한다.
+16. schema 변경이 발생하면 `schema/`, `configs/agent-rules.md`, 필요한 하위 README가 서로 모순되지 않게 같은 흐름에서 갱신한다.
 
 ## 원하는 결과
 - 사용자와 에이전트의 장기적 핏 향상
