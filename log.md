@@ -5400,3 +5400,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Operation` 원본 113줄과 mapped 131줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
 - 정리: `Operation` 위치에서 한 단계 얕게 해석될 수 있던 `[Network](../Fundamental/Network)` 링크를 `[Network](../../Fundamental/Network)`로 바꿔 실제 mapped `Fundamental/Network` 경로를 가리키게 했다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-04 06:17 UTC | mapped/Meta/AGENTS 1:1 매핑 및 운영 문단 정리
+
+- 갱신 범위: 최근 `Operation` 반복을 멈추고 source-mapping 행이 없던 `Meta/AGENTS`로 옮겨 원본 111줄과 mapped 339줄 전체를 다시 읽었다.
+- 정리: 본문 해석은 늘리지 않고 독자용 mapped 본문 말미에 남아 있던 `이번 패스`/`정리 메모` 작업 기록층을 제거하고, 재사용 가능한 `현재 유지 기준`으로 압축했다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
