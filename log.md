@@ -5446,3 +5446,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: source-mapping 행이 없던 `Meta/Collection`으로 옮겨 원본 713줄과 mapped 258줄 전체를 다시 읽었다.
 - 정리: 본문 해석은 늘리지 않고 독자용 mapped 본문 말미에 남아 있던 `이번 패스에서 더 또렷해진 점` 작업 기록층을 제거해, 페이지가 정리 원칙과 후속 질문으로 끝나게 했다.
 - 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-04 23:17 UTC | mapped/Meta/Collection 인접 링크 절대 경로 보정
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Collection` 원본 713줄과 mapped 242줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: llms 공개 표면에서 `/docs/mapped/Meta/mapped/...`로 어긋나던 `[[mapped/...]]` 인접 wikilink를 `/docs/mapped/...` 절대 Markdown 링크로 보정했다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
