@@ -5394,3 +5394,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Operation` 원본 113줄과 mapped 131줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
 - 정리: 공개 llms에서 `/docs/Fundamental/Network`로 어긋나던 `Network` wikilink를 명시적 Markdown 링크로 바꿔 실제 mapped 경로를 가리키게 했다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-04 05:17 UTC | mapped/deep-knowledge/operation Network 링크 경로 재보정
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Operation` 원본 113줄과 mapped 131줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: `Operation` 위치에서 한 단계 얕게 해석될 수 있던 `[Network](../Fundamental/Network)` 링크를 `[Network](../../Fundamental/Network)`로 바꿔 실제 mapped `Fundamental/Network` 경로를 가리키게 했다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
