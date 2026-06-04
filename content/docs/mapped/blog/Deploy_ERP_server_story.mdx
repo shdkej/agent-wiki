@@ -180,7 +180,7 @@ DB는 MySQL, MSSQL, PostgreSQL 중에서 PostgreSQL을 골랐다.
 | `erp-data/` | 웹 내부 데이터와 Odoo 상태 | 애플리케이션이 계속 품고 가야 하는 상태 |
 | `db-data/` | PostgreSQL 데이터 | 업무 기록의 최종 보존면 |
 
-이렇게 읽으면 원문의 볼륨 복사 절차도 `백업 팁`을 넘어선다. 작성자는 어떤 파일은 Git으로 설명하고, 어떤 상태는 이미지로 고정하며, 어떤 데이터는 볼륨으로 옮겨야 하는지를 구분하려고 한다. 이는 [[../Deep Knowledge/Infra]]에서 반복되는 `현재 상태를 누가 소유하는가`라는 질문의 초기 버전이다.
+이렇게 읽으면 원문의 볼륨 복사 절차도 `백업 팁`을 넘어선다. 작성자는 어떤 파일은 Git으로 설명하고, 어떤 상태는 이미지로 고정하며, 어떤 데이터는 볼륨으로 옮겨야 하는지를 구분하려고 한다. 이는 [[../Fundamental/Infra|Fundamental/Infra]]에서 반복되는 `현재 상태를 누가 소유하는가`라는 질문의 초기 버전이다.
 
 특히 이 노드에서는 다음 세 층을 섞지 않는 것이 중요하다.
 
@@ -265,7 +265,7 @@ DB는 MySQL, MSSQL, PostgreSQL 중에서 PostgreSQL을 골랐다.
 ## 인접 노드와의 연결
 - [[../Deep Knowledge/Container]]: 컨테이너 격리, 이미지, 볼륨, Dockerfile, 쿠버네티스로 이어지는 일반 원리가 이 사례의 배경이 된다.
 - [[../Meta/Troubleshooting]]: 컨테이너 안 직접 수정 후 재실행에서 상태가 사라지는 경험은 전형적인 상태 확인-수정-재검증 루프 사례다.
-- [[../Deep Knowledge/Infra]]: ERP 서버를 실제 업무 시스템으로 다루면서 데이터 저장, 외부 진입, 감시 구성이 인프라 판단으로 확장된다.
+- [[../Fundamental/Infra|Fundamental/Infra]]: ERP 서버를 실제 업무 시스템으로 다루면서 데이터 저장, 외부 진입, 감시 구성이 인프라 판단으로 확장된다.
 - [[../Deep Knowledge/Monitoring]]: Nagios를 붙이는 짧은 메모는 서비스가 동작하는지 지속적으로 보려는 운영 감각의 시작점이다.
 - [[Decision_Monitor_Size]]: 둘 다 다른 주제지만, 실제 사용성 기준으로 판단한다는 점에서는 닮아 있다. 스펙보다 `관리 가능한 상태`를 더 우선한다.
 
@@ -304,4 +304,4 @@ DB는 MySQL, MSSQL, PostgreSQL 중에서 PostgreSQL을 골랐다.
 - 이번 런에서는 원문 마지막의 CI/CD, Test Code, HAProxy, repository split, docker build, update announcing 메모를 운영 성숙도 사다리로 재해석해, `돌아가는 서버`가 `조직이 믿고 쓰는 업무 시스템`으로 올라가는 조건을 추가했다.
 - 이번 런에서는 원문 이미지와 거친 설정 조각을 `검증 표면`과 `프로토타입 흔적`으로 다시 읽어, 이 문서가 완성 레시피보다 초기 운영 학습 로그에 가깝다는 점을 보강했다.
 - 이번 런에서는 `docker-compose.yml 하나`라는 초기 욕구를 단순화 실패가 아니라 실행 계약이 역할별 파일·폴더로 분해되는 과정으로 보강했고, Nagios의 Docker socket 마운트와 Nginx/SSL 분리를 관측 편의와 외부 진입 권한 경계로 다시 읽었다.
-- [[../Deep Knowledge/Container]], [[../Deep Knowledge/Infra]], [[../Deep Knowledge/Monitoring]], [[../Deep Knowledge/Devops]]와의 연결을 강화하되, 실제 작성 변경은 이 페이지 하나에만 제한했다.
+- [[../Deep Knowledge/Container]], [[../Fundamental/Infra|Fundamental/Infra]], [[../Deep Knowledge/Monitoring]], [[../Deep Knowledge/Devops]]와의 연결을 강화하되, 실제 작성 변경은 이 페이지 하나에만 제한했다.

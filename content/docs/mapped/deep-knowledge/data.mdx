@@ -158,7 +158,7 @@ Postgres에서 ClickHouse로 복제하는 흐름, 실시간과 배치 복제의 
 - CDC, Kafka, Airflow는 저장소가 아니라 이동·연결 계층이다.
 - Athena는 배치성 탐색에는 좋지만, 실시간성이 중요하면 다른 판단이 필요하다.
 
-이 축은 [[mapped/deep-knowledge/monitoring]]의 지표 저장 감각, [[mapped/deep-knowledge/infra]]의 계층 분리 감각과 자연스럽게 이어진다.
+이 축은 [[mapped/deep-knowledge/monitoring]]의 지표 저장 감각, [[mapped/Fundamental/Infra|Fundamental/Infra]]의 계층 분리 감각과 자연스럽게 이어진다.
 
 ## 데이터 판단을 묶는 운영 사다리
 원문 전체를 다시 접으면 이 노드는 아래 사다리로 읽는 편이 재진입성이 높다.
@@ -251,7 +251,7 @@ ClickHouse, Athena, CDC, Kafka, Airflow 메모는 분석을 운영계 DB 위에 
 
 ## 인접 노드 연결
 - [[mapped/deep-knowledge/monitoring]]: 병목, 느린 쿼리, 지표 저장, 검색 가능성을 운영 차원에서 함께 읽을 수 있다.
-- [[mapped/deep-knowledge/infra]]: 저장소를 어떤 시스템 계층 안에 배치할지 판단하는 노드다.
+- [[mapped/Fundamental/Infra|Fundamental/Infra]]: 저장소를 어떤 시스템 계층 안에 배치할지 판단하는 노드다.
 - [[mapped/deep-knowledge/web]]: 검색, 응답, 사용자 질의 경험이 실제 제품 표면으로 이어지는 접점이다.
 - [[mapped/Idea/Information]]: 정보 과잉, 기록 욕구, 발견 가능성, 검색 욕망을 인간 차원에서 확장한다.
 - [[mapped/Fundamental/Data_Structure]]: 자료구조 선택과 데이터 표현 방식의 감각이 바닥에서 연결된다.
