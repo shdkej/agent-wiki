@@ -5429,3 +5429,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `About_Development` 원본 708줄과 mapped 288줄 전체를 다시 읽고, 새 해석을 늘리지 않았다.
 - 정리: `한눈에 보는 핵심`, `구조 재정리`, `4층 분업`, `반복되는 판단 축`, `오래 남길 아이디어`에 흩어진 가까운 결론을 세 가지 판단 모델로 압축해 mapped를 117줄로 줄였고, 페어 프로그래밍의 계속 말하기·고장 난 테스트·퇴고/출판 비유·레거시 재사용 앵커는 보존했다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-04 20:17 UTC | mapped/Meta/About_Architecture 1:1 매핑 및 공개 표면 정리
+
+- 갱신 범위: source-mapping 행이 없던 `Meta/About_Architecture`로 옮겨 원본 792줄과 mapped 260줄 전체를 다시 읽었다.
+- 정리: 본문 해석은 늘리지 않고 독자용 mapped 본문 말미의 작업 기록성 섹션을 제거했으며, 인접 노드 wikilink를 `/docs/mapped/...` 절대 Markdown 링크로 보정했다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
