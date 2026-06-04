@@ -5382,3 +5382,9 @@ fatal: Not possible to fast-forward, aborting.
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Travel` 원본 521줄과 mapped 254줄 전체를 다시 읽고, 본문 해석은 크게 늘리지 않았다.
 - 정리: `다섯 층위` 제목을 실제 하위 섹션 수에 맞춰 `일곱 층위`로 고치고, 원문 말미의 국내/일본 음식 목록을 미래 도시별 맛/장소 입력면으로 한 문단만 회수했다.
 - 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
+## 2026-06-04 03:17 UTC | mapped/deep-knowledge/operation 1:1 매핑
+
+- 갱신 범위: 최근 `Idea` 반복을 멈추고 source-mapping 행이 없던 `Operation`으로 옮겨 원본 113줄을 전체 읽고 새 mapped 노트를 작성했다.
+- 정리: 운영을 장애 인식·보고·롤백·복구·피드백 루프와 시간 경계, DORA Metrics, 대규모 병목 판단으로 압축해 `Devops`·`Monitoring`과의 역할 경계를 세웠다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
