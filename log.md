@@ -1,3 +1,9 @@
+## 2026-06-05 01:17 UTC | mapped/Meta/Collection source-mapping 확인 문구 동기화
+
+- 갱신 범위: 직전 평가의 좁은 요청에 따라 `Collection` 원본 713줄과 mapped 242줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: `agent-wiki/log.md`의 00:17 기록과 어긋나 있던 source-mapping의 `Meta/Collection` 확인 상태만 `2026-06-05 00:17 UTC 기준 과정 표현 현재형 보정 확인`으로 맞췄다.
+- 확인 기준: mapped 본문은 그대로 두고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-05 00:17 UTC | mapped/Meta/Collection 과정 표현 현재형 보정
 
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Collection` 원본 713줄과 mapped 242줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
