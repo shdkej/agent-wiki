@@ -1,3 +1,11 @@
+## 2026-06-05 19:17 UTC | blog/Digital_Content 1:1 대응과 이력층 정리
+
+- 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 안정화하고, 관리 표면인 `source-mapping`에 개별 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Digital_Content.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 디지털 콘텐츠 소장이 백업 팁보다 애착 대상의 장기 재접속권, DRM/플랫폼 종속, 실물화 욕구가 충돌하는 blog형 글감임을 재확인했다.
+- 정리: 상태 줄을 `안정 디벨롭`으로 맞추고, 본문 말미의 작업 이력성 `이번 패스에서 특히 보강한 점`과 드리프트 점검 문장을 독자용 `후속 정리 기준`으로 압축했다.
+- 선호 신호: 안정된 Digital_Content 노트에서는 최신 구매처나 우회법을 늘리기보다, 정당한 구매자의 장기 재접속권과 소장·구독·아카이브·발행 분기 기준을 유지하는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 기존 원본을 기준으로 읽었고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-05 18:17 UTC | mapped/blog/Deploy_ERP_server_story 1:1 매핑 및 후반 반복 압축
 
 - 갱신 범위: source-mapping 행이 없고 평가에서 압축 요청이 반복된 `blog/Deploy_ERP_server_story` 원본 258줄과 mapped 307줄 전체를 다시 읽었다.
