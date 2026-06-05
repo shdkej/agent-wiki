@@ -1,3 +1,9 @@
+## 2026-06-05 11:17 UTC | mapped/Meta/Fail_experience 1:1 매핑 및 메타 요약층 압축
+
+- 갱신 범위: source-mapping 행이 없던 `Meta/Fail_experience`로 옮겨 원본 236줄과 mapped 262줄 전체를 다시 읽었다.
+- 정리: 본문 말미의 작업 기록성 `이번 패스` 층과 반복 섹션을 제거하고, 실패 회고를 `빠진 전제`, `복구 가능성`, `검증 게이트` 3개 판단 모델로 압축했다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-05 09:20 UTC | mapped/Meta/Developer 메타 요약층 압축
 
 - 갱신 범위: 최근 평가의 좁은 요청에 따라 `Meta/Developer` 원본 750줄과 mapped 286줄 전체를 다시 읽고, 같은 해석을 더 늘리지 않았다.
