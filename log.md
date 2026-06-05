@@ -1,3 +1,9 @@
+## 2026-06-05 02:17 UTC | mapped/Meta/Developer 1:1 매핑 및 작업 이력층 제거
+
+- 갱신 범위: source-mapping 행이 없던 `Meta/Developer`로 옮겨 원본 750줄과 mapped 295줄 전체를 다시 읽었다.
+- 정리: 본문 해석은 늘리지 않고 상태를 `안정 디벨롭`으로 맞췄으며, 독자용 mapped 본문 말미의 `정리 메모` 작업 기록층을 제거하고 `mapped/...` wikilink를 `/docs/mapped/...` 절대 Markdown 링크로 보정했다.
+- 확인 기준: source-mapping 1:1 행을 추가했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-05 01:17 UTC | mapped/Meta/Collection source-mapping 확인 문구 동기화
 
 - 갱신 범위: 직전 평가의 좁은 요청에 따라 `Collection` 원본 713줄과 mapped 242줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
