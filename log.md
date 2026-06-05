@@ -1,3 +1,9 @@
+## 2026-06-05 16:17 UTC | mapped/blog/100k_concurrent_server 테스트 토폴로지 압축
+
+- 갱신 범위: 최근 평가의 좁은 요청에 따라 `blog/100k_concurrent_server` 원본 532줄과 mapped 252줄 전체를 다시 읽고, 새 해석을 늘리기보다 중복 구조를 압축했다.
+- 정리: `실험 계약` 표와 `부하를 누가 발생시키고 누가 견디는지` 표를 하나의 `테스트 토폴로지 체크리스트`로 접고, 독자용 본문 말미의 작업 이력성 `이번 갱신 메모`를 제거했다. 인접 노드 wikilink도 `/docs/mapped/...` 절대 Markdown 링크로 보정했다.
+- 확인 기준: `too many open files`, `cannot assign requested address`, `watch ss -s`, `/proc/net/tcp`, `59980`, 다중 IP, 프로세스당 FD 한계, nginx·traefik 실험 같은 원문 앵커가 유지되어 있고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-05 15:17 UTC | mapped/README 1:1 매핑 및 상태 문구 안정화
 
 - 갱신 범위: source-mapping 행이 없던 루트 `README`로 옮겨 원본 11줄과 mapped 190줄 전체를 다시 읽었다.

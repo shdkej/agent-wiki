@@ -5,15 +5,15 @@ tags: [mapped, blog, load-test, network, tcp, websocket, performance]
 source_file: "[[source/shdkej-content/blog/100k_concurrent_server.md]]"
 source_name: 10만 유저 동시 접속 가능하게 하기
 created: 2026-04-14
-updated: 2026-05-16
-status: evolving
+updated: 2026-06-05
+status: stable
 language: ko
 ---
 
 # 100k_concurrent_server
 
 - 원본: `source/shdkej-content/blog/100k_concurrent_server.md`
-- 상태: baseline 이후 점진 심화
+- 상태: 안정 디벨롭
 - 역할: 만다라트 `blog > 100k_concurrent_server` 카테고리 노드의 1:1 대응 페이지
 
 ## 한눈에 보는 요약
@@ -66,17 +66,19 @@ language: ko
 
 이 표를 세워 두면 원문 속 숫자들이 서로 충돌하는 것이 아니라, **서로 다른 실험군이 서로 다른 병목 층을 보여 준 결과**로 다시 읽힌다.
 
-## 실험 계약을 먼저 고정하는 재사용 표면
-원문 후반의 `동시 접속이 무엇인지 명확히 생각하지 않았다`는 문장은 이 노트의 약점이 아니라 가장 중요한 재사용 지점이다. 다음에 이 노드를 다시 쓸 때는 목표 숫자보다 먼저 **무엇을 동접으로 부를지**를 고정해야 한다.
+## 테스트 토폴로지 체크리스트
+원문 후반의 `동시 접속이 무엇인지 명확히 생각하지 않았다`는 문장은 이 노트의 약점이 아니라 가장 중요한 재사용 지점이다. 다음에 이 노드를 다시 쓸 때는 목표 숫자보다 먼저 **무엇을 동접으로 부를지**, 그리고 그 부하를 누가 만들고 누가 견디는지를 한 표에 고정해야 한다.
 
 | 먼저 고정할 질문 | 구분해야 할 선택지 | 원문에서 흔들린 이유 |
 | --- | --- | --- |
 | 연결의 수명 | 짧은 HTTP 요청 / 10초 유지 / websocket 장기 유지 | 같은 10만이라도 열고 닫는 비용과 붙들고 있는 비용이 다르다 |
 | 성공 판정 | 응답 수신 / 서버 accept / 열린 소켓 수 / 에러율·latency | 클라이언트 성공 로그만 보면 서버가 어디서 멈췄는지 놓친다 |
-| 부하 발생 위치 | localhost / 외부 IP / VM / 다중 클라이언트 / 다중 IP | 서버 한계와 클라이언트 포트·가상화·네트워크 한계가 섞인다 |
-| 관측 기준 | `ss -s`, `/proc/net/tcp`, CPU, 메모리, 대역폭, ingress 지표 | 숫자만 남기면 어떤 층이 먼저 고갈됐는지 재현하기 어렵다 |
+| 클라이언트 위치 | localhost / 외부 IP / VM / Docker / 라즈베리파이 | 서버 한계와 부하 발생기의 포트·가상화·네트워크 한계가 섞인다 |
+| 주소와 프로세스 분산 | 단일 IP / 다중 IP / 단일 프로세스 / 멀티 프로세스 | `59980` 정체, 여러 IP 할당, 프로세스당 FD 한계 발견이 모두 이 축에서 갈린다 |
+| 앞단 구조 | Go 서버 직접 / nginx / Kubernetes ingress / traefik replica | 애플리케이션 pod가 멀쩡해도 앞단 controller가 먼저 막힐 수 있다 |
+| 관측 기준 | `watch ss -s`, `/proc/net/tcp`, CPU, 메모리, 대역폭, ingress 지표 | 숫자만 남기면 어떤 층이 먼저 고갈됐는지 재현하기 어렵다 |
 
-이 표는 원문을 새 결론으로 덮는 것이 아니라, 원문의 의식 흐름을 다음 실험자가 다시 들어갈 수 있는 계약서로 접는 장치다. 특히 [[../../mapped/Fundamental/Network]]가 요청 경로와 프로토콜 계층을 설명한다면, 이 노드는 그 지식을 실제 부하 실험에서 **어떤 성공 조건과 관측 표면으로 고정할지** 보여 주는 사례가 된다.
+이 표는 원문을 새 결론으로 덮는 것이 아니라, 원문의 의식 흐름을 다음 실험자가 다시 들어갈 수 있는 계약서로 접는 장치다. 특히 [Fundamental/Network](/docs/mapped/Fundamental/Network)가 요청 경로와 프로토콜 계층을 설명한다면, 이 노드는 그 지식을 실제 부하 실험에서 **어떤 성공 조건과 관측 표면으로 고정할지** 보여 주는 사례가 된다.
 
 ## 핵심 논지
 
@@ -97,19 +99,6 @@ language: ko
 
 ### 멀티 프로세스 발견은 팁이 아니라 구조 전환점이다
 `프로세스당 FD 한계가 ulimit`이라는 발견은 이 노트의 중요한 전환점이다. 여기서 질문은 `한 프로세스로 얼마나 받나`에서 `한 머신에서 프로세스·포트·IP를 어떻게 나눠 받나`로 이동한다. 즉 이 노트는 벤치마크 메모를 넘어 **운영 구조를 다시 짜는 감각**으로 넘어간다.
-
-## 부하를 누가 발생시키고 누가 견디는지 분리하기
-원문을 다시 읽으면 저자가 가장 오래 헷갈린 지점은 서버의 능력만이 아니라 **부하 발생기와 부하 수신기의 책임이 한 실험 안에서 섞이는 문제**다. `localhost`, `외부 IP`, `vagrant`, `docker`, `라즈베리파이`, `Kubernetes ingress`가 바뀔 때마다 같은 숫자도 다른 의미를 가진다. 따라서 이 노드를 다음 실험의 참고 자료로 쓸 때는 테스트 참여자를 먼저 나눠야 한다.
-
-| 참여자 | 원문에서 맡은 역할 | 섞이면 생기는 오해 |
-| --- | --- | --- |
-| 클라이언트 프로세스 | 요청 생성, ephemeral port 사용, 응답 확인 | 서버가 못 받는 것인지 클라이언트 포트가 고갈된 것인지 흐려진다 |
-| 서버 프로세스 | accept, 응답 처리, FD와 메모리 사용 | 프로세스별 FD 한계와 머신 전체 한계를 같은 것으로 착각한다 |
-| 커널/OS | 소켓 상태, TIME_WAIT, TCP 버퍼, local port range 관리 | 애플리케이션 최적화로 풀 수 없는 제약을 코드 문제로 본다 |
-| 네트워크 경로 | localhost, 외부 IP, VM NIC, 대역폭, unreachable 상태 | 한 머신 내부 실험 숫자를 실제 외부 접속 성능으로 일반화한다 |
-| 앞단 프록시/ingress | nginx, traefik, replica 분산, controller 병목 | 애플리케이션 pod가 멀쩡해도 앞단에서 거부되는 상태를 놓친다 |
-
-이 구분은 [[../../mapped/Fundamental/Infra|Fundamental/Infra]]의 `상태 소유자` 관점과 직접 이어진다. 동시 접속 실험에서 실패가 났을 때도 먼저 `누가 이 상태를 소유하는가`를 가르면, 수정 위치가 `ulimit`, OS 파라미터, 클라이언트 분산, 프록시 설정, ingress replica 중 어디인지 더 빨리 좁혀진다.
 
 ## 실험 해석에서 특히 중요한 반전 4개
 
@@ -184,7 +173,7 @@ language: ko
 | `connection reset by peer` | 서버 측 연결 종료·앞단 프록시·재사용 충돌 | 서버 로그, TIME_WAIT, nginx/ingress 로그 | 앱 서버와 앞단 계층 중 누가 끊는지 분리 |
 | ingress에서 조기 거부 | Kubernetes 앞단 구조 | traefik/nginx ingress pod 자원, replica, service endpoint | 애플리케이션 pod보다 controller 병목을 먼저 확인 |
 
-이 루프를 추가하면 [[../../mapped/Meta/Troubleshooting]]의 `증상 → 상태 확인 → 수정 → 재검증` 문법이 대규모 부하테스트 맥락으로 더 구체화된다. 동시에 [[../../mapped/Fundamental/Infra|Fundamental/Infra]]의 상태 소유권 관점과도 연결된다. 같은 에러라도 상태를 소유한 주체가 애플리케이션 프로세스인지, 클라이언트 테스트기인지, 커널인지, ingress controller인지에 따라 수정 위치가 달라지기 때문이다.
+이 루프는 [Meta/Troubleshooting](/docs/mapped/Meta/Troubleshooting)의 `증상 → 상태 확인 → 수정 → 재검증` 문법을 대규모 부하테스트 맥락으로 구체화한다. 동시에 [Fundamental/Infra](/docs/mapped/Fundamental/Infra)의 상태 소유권 관점과도 연결된다. 같은 에러라도 상태를 소유한 주체가 애플리케이션 프로세스인지, 클라이언트 테스트기인지, 커널인지, ingress controller인지에 따라 수정 위치가 달라지기 때문이다.
 
 ## 원문이 남기는 구조적 교훈
 
@@ -195,13 +184,13 @@ language: ko
 - `i/o timeout`: 과부하·대기·네트워크 지연이 섞인 문제
 - `network is unreachable`: 경로/가상화/네트워크 계층 문제
 
-원문은 이 오류들을 하나로 뭉개지 않고, **다음에 어느 층을 먼저 의심할지** 배우는 과정으로 읽힌다. 이 점은 [[mapped/Meta/Troubleshooting]]의 `증상 → 상태 확인 → 수정 → 재검증` 루프와 정확히 맞닿아 있다.
+원문은 이 오류들을 하나로 뭉개지 않고, **다음에 어느 층을 먼저 의심할지** 배우는 과정으로 읽힌다. 이 점은 [Meta/Troubleshooting](/docs/mapped/Meta/Troubleshooting)의 `증상 → 상태 확인 → 수정 → 재검증` 루프와 정확히 맞닿아 있다.
 
 ### 관측 명령이 있어야 경험담이 운영 자산으로 바뀐다
-이 노트에서 가치 있는 것은 `몇 만 성공`보다 `무엇을 보며 판단했는가`다. `ss -s`, `/proc/net/tcp`, `netstat`, `iperf`, CPU/메모리 확인 메모는 모두 `느낌상 느리다`를 넘어서 **병목을 상태로 만들기 위한 관측 인터페이스**다. 이 감각은 [[mapped/Deep Knowledge/Monitoring]]과도 연결된다. 동시에 [[mapped/Meta/Troubleshooting]]의 `증상 → 상태 확인 → 수정 → 재검증` 루프를 대규모 부하테스트 맥락으로 확장한 사례로도 읽을 수 있다.
+이 노트에서 가치 있는 것은 `몇 만 성공`보다 `무엇을 보며 판단했는가`다. `ss -s`, `/proc/net/tcp`, `netstat`, `iperf`, CPU/메모리 확인 메모는 모두 `느낌상 느리다`를 넘어서 **병목을 상태로 만들기 위한 관측 인터페이스**다. 이 감각은 [Deep Knowledge/Monitoring](/docs/mapped/deep-knowledge/monitoring)과도 연결된다.
 
 ### 네트워크 개념 학습과 운영 실험은 분리되지 않는다
-초반의 TCP·포트·keep-alive·window scaling 질문과 후반의 실험 실패는 따로 놀지 않는다. 원문은 개념을 외운 뒤 실험하는 구조가 아니라, **실험에 막혀서 개념 모델을 다시 보강하는 구조**로 움직인다. 그래서 [[mapped/Fundamental/Network]]는 이 노드의 배경지식이면서 동시에 계속 되묻는 해설 층이다.
+초반의 TCP·포트·keep-alive·window scaling 질문과 후반의 실험 실패는 따로 놀지 않는다. 원문은 개념을 외운 뒤 실험하는 구조가 아니라, **실험에 막혀서 개념 모델을 다시 보강하는 구조**로 움직인다. 그래서 [Fundamental/Network](/docs/mapped/Fundamental/Network)는 이 노드의 배경지식이면서 동시에 계속 되묻는 해설 층이다.
 
 ### 최고 기록보다 안정 운영 숫자가 따로 있다
 원문은 이론적으로 더 가능해 보여도, 실제 서비스에서는 `5만 정도만 안정적으로` 같은 판단으로 돌아온다. 이는 최고치보다 **CPU·메모리·네트워크·운영 여유를 함께 고려한 현실적 상한**을 더 중요하게 본다는 뜻이다.
@@ -223,12 +212,12 @@ language: ko
 - 성능 최적화를 서버 코드 단독 문제가 아니라 프록시·ingress·멀티프로세스·관측 체계까지 포함한 운영 구조 문제로 본다.
 
 ## 인접 노드 연결
-- [[mapped/Fundamental/Network]]
-- [[mapped/Meta/Troubleshooting]]
-- [[mapped/Deep Knowledge/Monitoring]]
-- [[mapped/Fundamental/Infra|Fundamental/Infra]]
-- [[mapped/Deep Knowledge/Web]]
-- [[mapped/blog/EKS_with_terraform]]
+- [Fundamental/Network](/docs/mapped/Fundamental/Network)
+- [Meta/Troubleshooting](/docs/mapped/Meta/Troubleshooting)
+- [Deep Knowledge/Monitoring](/docs/mapped/deep-knowledge/monitoring)
+- [Fundamental/Infra](/docs/mapped/Fundamental/Infra)
+- [Deep Knowledge/Web](/docs/mapped/deep-knowledge/web)
+- [blog/EKS_with_terraform](/docs/mapped/blog/EKS_with_terraform)
 
 ## 아직 풀리지 않은 긴장
 
@@ -237,13 +226,6 @@ language: ko
 
 ### `동접`과 `처리량`은 같은 KPI가 아니다
 원문 막바지에서 저자는 `동시 접속이 무엇인지 명확히 생각하지 않았다`, `tps를 보는게 더 정확한 것일까`라고 되묻는다. 이 질문은 후반부 부록이 아니라 이 노드 전체를 다시 묶는 핵심이다. 연결을 오래 붙들어 두는 문제와 초당 얼마나 빨리 처리하느냐는 다른 KPI이고, 운영 설계도 달라진다. 그래서 이 노드는 앞으로 후속 메모가 붙을수록 `동접 상한`, `유지 연결 비용`, `처리량`, `응답시간`의 네 축을 따로 세워 읽는 편이 더 정확해질 것이다.
-
-## 이번 갱신 메모
-- 2026-05-16: 원본 전체와 기존 mapped 전체를 다시 읽고, 기존 baseline을 유지한 채 `부하를 누가 발생시키고 누가 견디는지 분리하기`를 추가했다.
-- `localhost`, `외부 IP`, `vagrant`, `docker`, `Kubernetes ingress` 실험 차이를 서버 성능 숫자의 흔들림이 아니라 부하 발생자·수신자·커널·네트워크·앞단 프록시의 책임 분리 문제로 정리했다.
-- 2026-05-10: 원본 전체와 기존 mapped 전체를 다시 읽고, 기존 baseline을 유지한 채 `실험 계약을 먼저 고정하는 재사용 표면`과 `에러에서 다음 관측으로 넘어가는 최소 루프`를 추가했다.
-- 숫자 최고치보다 연결 수명, 성공 판정, 부하 발생 위치, 관측 기준을 먼저 고정해야 같은 `10만 동접` 실험을 비교할 수 있다는 점을 보강했다.
-- `too many open files`, `cannot assign requested address`, `i/o timeout`, `connection reset by peer`, ingress 조기 거부를 각각 다음 관측과 수정 분기로 연결해, 이 노드가 경험담보다 재진입 가능한 부하테스트 디버깅 지도에 가깝게 읽히도록 다듬었다.
 
 ## 다음에 더 볼 질문
 - 이 노드의 숫자 혼선을 `처리량`과 `유지 연결`의 두 실험군으로 더 엄격히 나누면 어떤 비교 표가 남는가?
