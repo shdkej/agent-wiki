@@ -1,3 +1,9 @@
+## 2026-06-05 17:17 UTC | mapped/blog/Decision_Monitor_Size 1:1 매핑 및 작업 이력층 제거
+
+- 갱신 범위: source-mapping 행이 없던 `blog/Decision_Monitor_Size`로 옮겨 원본 141줄과 mapped 300줄 전체를 다시 읽었다.
+- 정리: 본문 해석은 늘리지 않고 상태를 `안정 디벨롭`으로 맞췄으며, 독자용 mapped 본문 말미의 작업 기록성 `이번 심화에서 더 선명해진 점`을 제거했다. 인접 노드 wikilink는 `/docs/mapped/...` 절대 Markdown 링크로 보정했다.
+- 확인 기준: 13/15/17인치 비교, `15 + 15`, 빔프로젝트, 태블릿 한계, 모니터 거리·화면비·시야각, 벽·기둥·자석·책상 거치 같은 원문 앵커를 보존했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-05 16:17 UTC | mapped/blog/100k_concurrent_server 테스트 토폴로지 압축
 
 - 갱신 범위: 최근 평가의 좁은 요청에 따라 `blog/100k_concurrent_server` 원본 532줄과 mapped 252줄 전체를 다시 읽고, 새 해석을 늘리기보다 중복 구조를 압축했다.
