@@ -2,6 +2,12 @@
 title: "log"
 ---
 
+## 2026-06-05 13:17 UTC | mapped/Meta/Troubleshooting 1:1 매핑 및 복구 인덱스 압축
+
+- 갱신 범위: source-mapping 행이 없던 `Meta/Troubleshooting`으로 옮겨 원본 596줄과 mapped 283줄 전체를 다시 읽었다.
+- 정리: 작업 이력성 `이번 패스`와 반복 요약층을 제거하고, 트러블슈팅 기록을 `증상→상태→개입→닫힘`, `권한·경로·버전·네트워크·자원`, `stateful 경계` 3개 판단 모델로 압축했다.
+- 확인 기준: `Ctrl+F` 전제, 대표 에러 문자열, Kubernetes OOM/NotReady/reset, 미해결 표식, Odoo/PostgreSQL/volume 권한 질문 같은 원문 앵커를 보존했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-05 12:17 UTC | mapped/Meta/My_space 1:1 매핑 및 운영 루프 압축
 
 - 갱신 범위: source-mapping 행이 없던 `Meta/My_space`로 옮겨 원본 336줄과 mapped 253줄 전체를 다시 읽었다.
