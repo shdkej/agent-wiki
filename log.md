@@ -1,3 +1,11 @@
+## 2026-06-05 20:17 UTC | blog/EKS_with_terraform 1:1 대응과 링크 경로 보정
+
+- 갱신 범위: [[mapped/blog/EKS_with_terraform]] 1개 페이지만 안정화하고, 관리 표면인 `source-mapping`에 개별 대응 행을 보강했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/EKS_with_terraform.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트가 EKS 구축 완성 가이드보다 Terraform으로 관리형 Kubernetes의 책임 경계를 확인하는 실습 로그임을 재확인했다.
+- 정리: 상태 줄을 `안정 디벨롭`으로 맞추고, 본문 말미의 작업 이력성 `이번 갱신 메모`를 제거했다. 인접 노드 연결은 publish 표면에서 깨지지 않도록 `/docs/mapped/...` 절대 경로 Markdown 링크로 보정하고, 중복된 Infra 항목을 하나로 합쳤다.
+- 선호 신호: 안정된 blog 실습 노트에서는 새 EKS 해석을 더 붙이기보다, 완료 기준·상태 소유권·컨트롤 루프 구분을 유지하면서 작업 이력과 불안정한 상대 링크를 정리하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-05 19:17 UTC | blog/Digital_Content 1:1 대응과 이력층 정리
 
 - 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 안정화하고, 관리 표면인 `source-mapping`에 개별 대응 행을 보강했다.
