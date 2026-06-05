@@ -1,3 +1,9 @@
+## 2026-06-05 18:17 UTC | mapped/blog/Deploy_ERP_server_story 1:1 매핑 및 후반 반복 압축
+
+- 갱신 범위: source-mapping 행이 없고 평가에서 압축 요청이 반복된 `blog/Deploy_ERP_server_story` 원본 258줄과 mapped 307줄 전체를 다시 읽었다.
+- 정리: 상태를 `안정 디벨롭`으로 맞추고, 독자용 본문 말미의 작업 기록성 `이번 점진 심화에서 강화한 점`과 중복된 `남겨진 과제` 목록을 제거했다. 반복 판단 축은 본문 앞쪽과 운영 성숙도 표에 흡수하고, 인접 노드 wikilink는 `/docs/mapped/...` 절대 Markdown 링크로 보정했다.
+- 확인 기준: `docker exec` 수정 증발, Dockerfile 승격, volume 복사, Nagios Docker socket, Nginx/SSL, CI/CD·Test Code·HAProxy·announcing update 같은 원문 앵커를 보존했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-05 17:17 UTC | mapped/blog/Decision_Monitor_Size 1:1 매핑 및 작업 이력층 제거
 
 - 갱신 범위: source-mapping 행이 없던 `blog/Decision_Monitor_Size`로 옮겨 원본 141줄과 mapped 300줄 전체를 다시 읽었다.
