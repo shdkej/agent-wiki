@@ -1,3 +1,11 @@
+## 2026-06-06 17:17 UTC | blog/Digital_Content 강조 렌더링 보정
+
+- 갱신 범위: [[mapped/blog/Digital_Content]] 1개 페이지만 최근 평가의 `llms` 강조 깨짐 지적에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Digital_Content.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 디지털 소장·DRM·구독·서비스 종료·재접속 해석은 이미 안정 상태임을 확인했다.
+- 정리: 본문 해석을 늘리지 않고 89줄의 굵은 강조 문장만 일반 문장으로 바꿔 공개 산출물에서 `&#x2A;*...**`처럼 깨질 수 있는 표면을 줄였다.
+- 선호 신호: 안정된 Digital_Content 노트에서는 소장 해석을 반복 확장하기보다, llms/HTML에서 실제 독자가 보는 렌더링 결함만 좁게 보수하는 편이 적합하다.
+- 드리프트 점검: source-mapping은 이미 1:1 대응 상태라 변경하지 않았고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-06 14:17 UTC | blog/Note_Management 인접 링크 독자용 표시명 보정
 
 - 갱신 범위: [[mapped/blog/Note_Management]] 1개 페이지만 최근 평가의 링크 표시명 요청에 맞춰 좁게 수정했다.
