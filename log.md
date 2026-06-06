@@ -1,3 +1,9 @@
+## 2026-06-06 00:17 UTC | blog/Note_Management 1:1 대응과 작업 이력층 제거
+
+- 갱신 범위: source-mapping 행이 없던 `blog/Note_Management` 원본 309줄과 mapped 287줄 전체를 다시 읽었다.
+- 정리: 본문 해석은 늘리지 않고 상태를 `안정 디벨롭`으로 맞췄으며, 독자용 본문 말미에 누적된 `이번/이전 갱신` 작업 기록층을 `후속 정리 기준`으로 압축했다. 관리 표면인 `source-mapping`에는 1:1 대응 행을 추가했다.
+- 확인 기준: 클립 무용론, 자동 연결, PARA, 데일리노트, 만다라트, 월간 문서, 제텔카스텐, OneNote/Notion/Roam/Obsidian, Ideal Note, 카테고리·태그·인덱싱·리마인더 같은 원문 앵커를 보존했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-05 23:17 UTC | blog/My_space 1:1 대응과 작업 이력층 제거
 
 - 갱신 범위: source-mapping 행이 없고 평가에서 작업 이력층 정리를 요청한 `blog/My_space` 원본 159줄과 mapped 260줄 전체를 다시 읽었다.
