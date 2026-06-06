@@ -1,3 +1,11 @@
+## 2026-06-06 14:17 UTC | blog/Note_Management 인접 링크 독자용 표시명 보정
+
+- 갱신 범위: [[mapped/blog/Note_Management]] 1개 페이지만 최근 평가의 링크 표시명 요청에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/blog/Note_Management.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 본문 해석과 원문 앵커는 더 늘리지 않아도 되는 안정 상태임을 확인했다.
+- 정리: `인접 노드 연결`의 href는 `/docs/mapped/...` 절대 경로로 유지하고, 표시 텍스트만 `블로깅`, `저널`, `컬렉션`, `탐구`, `문서화`, `디지털 콘텐츠`처럼 독자용 이름으로 바꿨다.
+- 선호 신호: 안정된 Note_Management 노트에서는 회수 루프 해석을 반복 확장하기보다, 실제 독자가 누르는 인접 링크의 표시명과 경로 안정성을 좁게 보수하는 편이 적합하다.
+- 드리프트 점검: source-mapping은 이미 1:1 대응 상태라 변경하지 않았고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-06 13:17 UTC | blog/Note_Management 인접 링크 표시명 보정
 
 - 갱신 범위: [[mapped/blog/Note_Management]] 1개 페이지만 최근 평가의 좁은 요청대로 수정했다.
