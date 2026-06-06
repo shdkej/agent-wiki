@@ -1,3 +1,9 @@
+## 2026-06-06 10:17 UTC | blog/Digital_Content 인접 링크 산출물 반영 확인
+
+- 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping·산출물 반영 확인` 요청에 맞춰 `blog/Digital_Content` 원본 200줄과 mapped 249줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: mapped 본문은 `상태: 안정 디벨롭`이며 공개 산출물에도 디지털 소장, DRM, 구독, 서비스 종료, 재접속 앵커가 반영되어 있음을 확인했다. 공개 표면에서 상대 slug처럼 보일 수 있는 인접 wikilink만 `/docs/mapped/...` 절대 Markdown 링크로 보정하고, 관리 표면인 `source-mapping` 확인 상태를 산출물 반영 기준으로 갱신했다.
+- 확인 기준: 클라우드/외장하드 백업, HDD 규격 변화, 랜섬웨어, 전자책 DRM, 회사 폐업 시 뷰어 지속성, 블록체인 소유 인증 질문, 합법 구매 경로의 소장 마찰, 구독/실물 소장 분기 앵커를 보존했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-06 05:17 UTC | blog/Note_Management 산출물 반영 좁은 확인
 
 - 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping·산출물 반영 확인` 요청에 맞춰 `blog/Note_Management` 원본 309줄과 mapped 257줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
