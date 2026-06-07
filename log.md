@@ -1,3 +1,9 @@
+## 2026-06-07 11:17 UTC | blog/Life_Tracking 인접 링크 독자용 표시명 보정
+
+- 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `blog/Life_Tracking` 원본과 mapped 본문 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: 공개 llms 산출물에서 `../../mapped/...` 상대 경로가 표시명으로 노출되던 인접 링크를 `/docs/mapped/...` 절대 경로 Markdown 링크와 독자용 표시명으로 바꿨다. 관리 표면인 `source-mapping`의 확인 상태도 현재 보정 기준으로 갱신했다.
+- 확인 기준: 수면·사진·캘린더·돈·책·영화·음식·작업 내용이 하루 회고와 다음날 적용으로 이어지는 생활 운영 파이프라인 해석은 유지하고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-07 07:17 UTC | blog/Note_Management source-mapping 확인 문구 재동기화
 
 - 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `blog/Note_Management` 원본과 mapped 본문 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
