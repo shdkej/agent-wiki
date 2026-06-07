@@ -1,3 +1,9 @@
+## 2026-06-07 07:17 UTC | blog/Note_Management source-mapping 확인 문구 재동기화
+
+- 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `blog/Note_Management` 원본과 mapped 본문 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: 2026-06-06 14:17 UTC에 보정한 인접 링크 표시명이 llms 산출물에서 `블로깅`, `저널`, `컬렉션`, `탐구`, `문서화`, `디지털 콘텐츠`로 남아 있음을 확인하고, 관리 표면인 `source-mapping`의 확인 상태를 현재 산출물 확인 기준으로 갱신했다.
+- 확인 기준: 재발견, 만다라트, 제텔카스텐 전환, 앱 요구사항 경계와 인접 링크 href는 유지하고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-07 05:17 UTC | blog/Digital_Content source-mapping 확인 문구 재동기화
 
 - 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 실제 산출물 반영 확인` 요청에 맞춰 `blog/Digital_Content` 원본과 mapped 본문 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
