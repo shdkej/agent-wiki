@@ -1,3 +1,9 @@
+## 2026-06-07 17:17 UTC | Deep Knowledge/Data 인접 링크 공개 경로 보정
+
+- 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `Deep Knowledge/Data` 원본과 mapped 본문 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: 공개 llms 산출물에서 `[[mapped/...]]` wikilink가 현재 페이지 기준 상대 href로 변환되어 `/docs/mapped/deep-knowledge/mapped/...`처럼 깨지는 표면을 확인했다. `Data` 본문 안의 인접 wikilink를 `/docs/mapped/...` 절대 경로 Markdown 링크와 독자용 표시명으로 바꾸고, source-mapping 확인 상태를 현재 보정 기준으로 갱신했다.
+- 확인 기준: 저장 원천, 빠른 조회층, 검색 번역층, 분석 복제, 장기 보존이라는 Data 판단 사다리는 유지하고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-07 11:17 UTC | blog/Life_Tracking 인접 링크 독자용 표시명 보정
 
 - 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `blog/Life_Tracking` 원본과 mapped 본문 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
