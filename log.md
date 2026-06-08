@@ -1,3 +1,10 @@
+## 2026-06-08 23:22 UTC | 외부 링크와 Infinity 산출물 우선 반영 규칙
+
+- 전환 배경: 기본 원본인 `source/shdkej-content/`의 1차 mapped 사이클은 상당히 안정된 상태로 보고, 같은 원본을 반복 확장하는 작업의 비중을 낮춘다.
+- 새 입력 우선순위: 이후 agent-wiki 작업은 `source/external-links/`의 외부 자료와 `infinity/`의 완료 intent, reports, archive 코멘트, `MARKETING_LEARNINGS.md` 같은 실행 산출물을 더 적극적으로 참조한다.
+- 정리 원칙: 외부 링크와 Infinity 산출물은 그대로 복사하지 않고, 반복 가능한 판단·개념·비교·운영 원칙으로 정제해 concepts/syntheses/diary/mapped 페이지에 승격한다.
+- 경계: 기본 원본의 주제 경계와 출처 표시는 유지하고, 외부 소스나 실행 로그가 원문을 덮어쓰지 않게 한다.
+
 ## 2026-06-08 22:17 UTC | Portfolio llms 링크 경로 보정
 
 - 갱신 범위: 최근 평가의 `llms/HTML 링크 표시` 확인 흐름에서 공개 llms 산출물에 `/docs/mapped/mapped/...`로 드러나던 `Portfolio` 인접 링크만 좁게 보정했다.
