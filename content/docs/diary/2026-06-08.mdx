@@ -2,7 +2,7 @@
 title: "2026-06-08"
 date: 2026-06-08
 type: diary
-last_sync: 2026-06-08T10:13:22+09:00
+last_sync: 2026-06-08T10:43:54+09:00
 ---
 
 # 2026-06-08
@@ -14,10 +14,15 @@ last_sync: 2026-06-08T10:13:22+09:00
 | # | 프로젝트 | 시간 | 주요 작업 |
 |---|----------|------|-----------|
 | 1 | koco | 08:55 | api-server GitLab 연동을 app plugins 방식으로 옮겨 단순화 검토, ax-deploy 단순화 진단(critic 2개 종합), README 정합 확인 및 미구현 항목 점검 |
-| 2 | kolon | 09:10 | 출근, 남은 운영 작업 점검(teams-bot-relay 포함), wiki에 만료 날짜 안내 여부 확인 |
-| 3 | koco | 09:11 | 공유앱 데이터 아이콘·설명 개선, koco-api-server 빌드 후 배포 |
-| 4 | ax-terraform | 09:11 | GitLab ARM 전환 검토(데이터 보존 확인), purple-access 병렬 ARM 빌드, 텔레그램 알림봇 제거 |
-| 5 | ax-terraform | 09:37 | 우리 인프라와 purple(prod_2023·sta_2023) 멀티 AZ 고가용성 비교, helm 분산 검토, 단일 AZ 시스템에서 앱 멀티 AZ 의미 및 AZ 장애 자동 복구 가능성 논의 |
-| 6 | ax-terraform | 10:12 | Jenkins 제거 후 ax-terraform로 옮긴 koco-api-server 이미지 배포 방법 검토(서버 빌드 소요) |
-| 7 | access-gateway | 10:12 | 폴더명을 k8s 표기에 맞춰 purple-access로 변경 검토 |
-| 8 | koco | 10:13 | 배포 심사 파이프라인 이상 동작 점검 |
+| 2 | ax-terraform | 09:11 | GitLab ARM 전환 검토(데이터 보존 확인), purple-access 병렬 ARM 빌드, 텔레그램 알림봇 제거 |
+| 3 | ax-terraform | 09:37 | 우리 인프라와 purple(prod_2023·sta_2023) 멀티 AZ 고가용성 비교, helm 분산 검토, 단일 AZ 시스템에서 앱 멀티 AZ 의미 및 AZ 장애 자동 복구 가능성 논의 |
+| 4 | kolon | 09:51 | 출근, 남은 운영 작업 점검(teams-bot-relay 포함), wiki에 만료 날짜 안내 여부 확인 |
+| 5 | koco | 10:04 | 공유앱 데이터 아이콘·설명 개선, koco-api-server 빌드 후 배포 |
+| 6 | purple-access | 10:20 | 폴더·관련 이름을 access-gateway에서 purple-access(k8s 표기 정합)로 변경 확인 후 커밋 |
+| 7 | ax-terraform | 10:27 | Azure SAML을 purple-auth에 연동 시 Azure 측 IP 허용 필요 여부 검토 |
+| 8 | koco | 10:43 | 배포 심사 파이프라인 이상 동작 점검, koco 재시작, api-server는 로컬 빌드 후 ECR 수동 업로드·ax-terraform 처리 방식 확인 |
+| 9 | ax-terraform | 10:43 | Jenkins 제거 후 ax-terraform로 옮긴 koco-api-server 이미지 배포 방법 검토(서버 빌드 소요) |
+
+### 기타
+
+- 10:43 — diary: 지난주/이번주 할 일 목록 정리 요청
