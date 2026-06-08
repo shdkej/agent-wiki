@@ -1,3 +1,9 @@
+## 2026-06-08 09:17 UTC | Meta/Troubleshooting 공개 링크 표시 확인
+
+- 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `Meta/Troubleshooting` 원본 596줄과 mapped 96줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: mapped 본문은 이미 `증상 → 상태 → 개입 → 닫힘`, 권한·경로·버전·네트워크·자원, stateful 경계의 3개 판단 모델로 압축되어 있었다. 인접 링크도 `/docs/mapped/...` 공개 경로와 독자용 표시명을 유지하고 있어 frontmatter의 갱신 시각과 관리 표면인 `source-mapping` 확인 문구만 현재 확인 기준으로 맞췄다.
+- 확인 기준: `Ctrl+F` 전제, 대표 에러 문자열, Kubernetes OOM/NotReady/reset, 미해결 표식, Odoo/PostgreSQL/volume 권한 질문 앵커는 유지하고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-08 05:17 UTC | blog/Life_Tracking 공개 표면 확인 문구 동기화
 
 - 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `blog/Life_Tracking` 원본과 mapped 본문 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
