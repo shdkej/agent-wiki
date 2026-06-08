@@ -1,3 +1,9 @@
+## 2026-06-08 14:17 UTC | Meta/Developer 관리 문구와 링크 표시 확인
+
+- 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰, 최근 12시간 안에 수정된 노트는 피하고 `Meta/Developer` 원본 750줄과 mapped 92줄 전체를 다시 읽었다.
+- 정리: 본문 해석은 늘리지 않고 mapped frontmatter의 갱신 시각과 관리 표면인 `source-mapping` 확인 문구만 현재 확인 기준으로 맞췄다. 인접 링크는 이미 `/docs/mapped/...` 공개 경로와 독자용 표시명을 유지하고 있어 본문 링크 구조는 보존했다.
+- 확인 기준: 증거 패킷, 운영 마찰 감소, 설명 인터페이스 테스트라는 세 판단 모델과 그래프/수치·백업 실패·면접 질문·채팅 시스템 v2/v3 수정 앵커는 유지하고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-08 13:17 UTC | Meta/About_Development 관리 문구와 링크 표시 확인
 
 - 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `Meta/About_Development` 원본 708줄과 mapped 117줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
