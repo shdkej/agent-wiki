@@ -5,8 +5,9 @@
 ## 구조
 
 - `source/shdkej-content/` — 블로그/content 레포에서 복사한 원본 노트
-- `source/external-links/` — 사용자 원본과 섞지 않는 보조 외부 소스 레이어
+- `source/external-links/` — 사용자 원본과 섞지 않는 외부 소스 레이어. 기본 원본 1차 사이클 이후에는 agent-wiki의 적극 입력 후보로 본다.
 - `agent-wiki/` — 에이전트가 유지하는 위키 레이어
+- `infinity/` — 실행 intent, archive, reports, 판단 산출물. 완료된 산출물은 agent-wiki 컴파일 입력으로도 참고한다.
 - `schema/` — source/wiki/log/frontmatter 등 Knowledge Lab 운영 스키마
 - `human-reviews/` — 사용자가 직접 고친 노트나 비교용 스냅샷
 - `configs/agent-rules.md` — 장기 운영 규칙
@@ -36,3 +37,4 @@ Knowledge Lab은 Karpathy식 LLM wiki 패턴을 따른다.
 - 컴파일된 지식은 `agent-wiki/`에 축적한다.
 - 운영 관례와 문서 타입은 `schema/`에 고정한다.
 - 새 자료를 넣을 때는 단순 요약으로 끝내지 않고, 관련 wiki 페이지와 index/log에 연결할지 판단한다.
+- `source/shdkej-content/`의 1차 mapped 사이클이 안정된 뒤에는 `source/external-links/`와 `infinity/` 산출물을 더 많이 참고해 agent-wiki를 갱신한다.
