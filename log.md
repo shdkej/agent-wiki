@@ -1,3 +1,9 @@
+## 2026-06-08 13:17 UTC | Meta/About_Development 관리 문구와 링크 표시 확인
+
+- 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `Meta/About_Development` 원본 708줄과 mapped 117줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
+- 정리: 독자용 본문 상단의 작업 이력성 `이번 상태` 문구를 `상태: 안정 디벨롭`으로 바꾸고, frontmatter와 관리 표면인 `source-mapping` 확인 문구를 현재 확인 기준으로 맞췄다. 인접 링크는 이미 `/docs/mapped/...` 공개 경로와 독자용 표시명을 유지하고 있어 본문 링크 구조는 보존했다.
+- 확인 기준: 읽힘과 신뢰, 요구의 실행 조건 번역, 재진입 가능한 개발 루프라는 세 판단 모델은 유지하고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-08 09:17 UTC | Meta/Troubleshooting 공개 링크 표시 확인
 
 - 갱신 범위: 최근 평가의 `다른 mapped 노트 1개에서 source-mapping 확인 문구와 llms/HTML 링크 표시 확인` 요청에 맞춰 `Meta/Troubleshooting` 원본 596줄과 mapped 96줄 전체를 다시 읽고, 본문 해석은 늘리지 않았다.
