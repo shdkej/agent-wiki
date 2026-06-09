@@ -1,3 +1,11 @@
+## 2026-06-09 10:17 UTC | Integration/Marketing 인접 링크 공개 표면 보정
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 최근 평가의 wikilink 렌더링 지적에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping` 확인 문구를 현재 상태로 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Marketing 노트의 해석은 유지한 채 공개 표면에서 연결 노드 표시명과 href가 분명해야 함을 확인했다.
+- 정리: 본문 첫 단락과 `인접 노드` 표 안의 `[[...]]` wikilink를 `/docs/mapped/...` 절대 Markdown 링크와 독자용 표시명으로 바꿨다. 새 외부 링크나 Infinity 산출물은 추가하지 않았다.
+- 선호 신호: 안정된 Marketing 노트에서는 해석을 더 붙이기보다, 표 안 연결처럼 렌더링이 깨지기 쉬운 표면을 독자가 바로 따라갈 수 있는 링크로 고정하는 편이 적합하다.
+- 드리프트 점검: source-mapping의 1:1 대응 문구와 실제 mapped 파일의 관리 문구를 함께 확인했고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-09 09:17 UTC | Integration/Marketing 관리 링크 표시명 보정
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 최근 평가의 wikilink 표시 지적에 맞춰 좁게 수정했다.
