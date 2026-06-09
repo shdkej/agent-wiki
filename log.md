@@ -1,3 +1,11 @@
+## 2026-06-09 15:17 UTC | Integration/Business 첫 사용자 학습 루프 연결
+
+- 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 외부 링크 1개를 연결했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Business.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Business 노트의 startup 검증 순서가 관심 확인·소수 구매자 테스트·초기 경험·확장으로 이어지는 고객 학습 루프임을 확인했다.
+- 정리: `source/external-links/marketing/2026-06-08-founder-led-first-users.md`를 새 연구 다이제스트로 만들지 않고, 첫 사용자를 채널 숫자가 아니라 문제 언어·첫 가치 장면·자기 말 설명을 회수하는 표본으로 보는 짧은 `외부 연결` 문단만 추가했다.
+- 선호 신호: Business 노드의 창업 검증은 빠른 확장보다 사용자가 자기 말로 가치를 설명할 수 있는지 보는 직접 학습 루프를 우선하는 편이 적합하다.
+- 드리프트 점검: 최근 12시간 안에 수정된 Product·Marketing 노트는 반복 편집하지 않았고, Infinity 산출물은 본문에 사용하지 않았다.
+
 ## 2026-06-09 13:17 UTC | Deep Knowledge/Product 인접 링크 절대 경로 표시 확인
 
 - 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 최근 평가의 인접 wikilink 표시 지적에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping`의 확인 문구를 갱신했다.
