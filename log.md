@@ -1,3 +1,11 @@
+## 2026-06-09 01:17 UTC | Integration/Marketing 외부 링크·Infinity 승격 기준 반영
+
+- 갱신 범위: 최근 Portfolio 반복 점검을 멈추고, 2026-06-08 23:22 UTC의 외부 링크·Infinity 우선 반영 규칙을 실제 mapped 승격 대상으로 적용하기 위해 [[mapped/Integration/Marketing]] 1개 페이지만 좁게 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 보조 입력으로 `source/external-links/marketing/2026-06-08-agent-led-growth-boundary.md`, `source/external-links/marketing/2026-06-08-founder-led-first-users.md`, `infinity/MARKETING_LEARNINGS.md`의 최근 마케팅 기준만 확인했다.
+- 정리: 새 독립 섹션을 만들지 않고 `실행 판단판`에 `첫 사용자 학습`과 `에이전트 유통` 행을 추가해, 외부 링크와 Infinity 산출물이 원문 Marketing의 유입·첫 가치·채널링 판단을 어떻게 선명하게 하는지 보조 렌즈로만 흡수했다.
+- 선호 신호: 외부 마케팅 자료는 링크명이나 최신 이론으로 쌓기보다, 원문 단서의 어느 실행 접점을 더 정확히 판정하게 하는지 먼저 고른 뒤 한 행 수준으로 승격하는 편이 적합하다.
+- 확인 기준: source-mapping 행을 현재 확인 시각으로 갱신했고, 이번 런은 publish exit status, git status, 최신 커밋, 변경 파일, MDX 줄 수, 로그 최신 항목만 확인한다.
+
 ## 2026-06-08 23:22 UTC | 외부 링크와 Infinity 산출물 우선 반영 규칙
 
 - 전환 배경: 기본 원본인 `source/shdkej-content/`의 1차 mapped 사이클은 상당히 안정된 상태로 보고, 같은 원본을 반복 확장하는 작업의 비중을 낮춘다.
