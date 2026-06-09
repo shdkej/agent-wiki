@@ -1,3 +1,11 @@
+## 2026-06-09 09:17 UTC | Integration/Marketing 관리 링크 표시명 보정
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 최근 평가의 wikilink 표시 지적에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 본문 해석은 그대로 유지했다.
+- 정리: 관리 문구의 `source-mapping` wikilink를 독자용 표시명 `소스 매핑`과 `/docs/maintenance/source-mapping` 절대 Markdown 링크로 바꿔 llms/HTML에서 상대 경로가 그대로 보일 위험을 줄였다.
+- 선호 신호: 안정된 Marketing 노트에서는 새 해석을 더 붙이기보다, 공개 표면에서 관리 링크의 표시명과 href가 독자에게 자연스럽게 보이는지 좁게 확인하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스와 Infinity 산출물은 이번 좁은 표시명 보정에는 사용하지 않았다.
+
 ## 2026-06-09 08:17 UTC | Deep Knowledge/Product 첫 사용자 언어 회수 루프 보강
 
 - 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 외부 링크 1개와 Infinity 산출물 1개를 연결하고, 관리 표면인 `source-mapping`의 Product 행을 갱신했다.
