@@ -1,3 +1,11 @@
+## 2026-06-09 13:17 UTC | Deep Knowledge/Product 인접 링크 절대 경로 표시 확인
+
+- 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 최근 평가의 인접 wikilink 표시 지적에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping`의 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Product 해석은 늘리지 않았다.
+- 정리: Marketing, Business, Design, Feedback, AI, Data 인접 연결을 `/docs/...` 절대 Markdown 링크와 독자용 표시명으로 바꿔 표·llms·HTML에서 경로 문자열이 노출될 가능성을 줄였다.
+- 선호 신호: 안정된 Product 노트의 후속 작업은 새 해석 추가보다 공개 표면의 링크 표시명과 href가 맞는지 좁게 확인하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았고, 원문 주제 경계는 유지했다.
+
 ## 2026-06-09 10:17 UTC | Integration/Marketing 인접 링크 공개 표면 보정
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 최근 평가의 wikilink 렌더링 지적에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping` 확인 문구를 현재 상태로 갱신했다.
