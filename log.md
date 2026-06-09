@@ -1,3 +1,11 @@
+## 2026-06-09 21:17 UTC | Integration/Tool 에이전트 도구 완료 주체 연결
+
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 fallback 범위의 Infinity 산출물 1개와 연결하고, 관리 표면인 `source-mapping`의 Tool 행을 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Tool 노트가 앱 추천 목록보다 상태 전달·복구·형식 경계·장기 편입을 다루는 통합 노드임을 재확인했다.
+- 정리: `infinity/intents/archive/marketing-46.md`의 agent-led growth fit/no-fit 경계표를 새 마케팅 다이제스트로 만들지 않고, 에이전트 도구를 편입할 때 `가치를 누가 완료하는가`를 먼저 묻는 `외부/실행 산출물 연결` 문단으로만 흡수했다. 인접 링크는 `/docs/...` 절대 Markdown 링크와 독자용 표시명으로 보정했다.
+- 선호 신호: Tool 노드의 AI 도구 판단은 기능 자동화 여부보다 사람이 확인·선택해야 하는 완료 주체와 agent가 읽고 설명하는 read-about 표면, agent가 마지막 행동을 맡는 do-for-you 표면의 경계를 먼저 가르는 편이 적합하다.
+- 드리프트 점검: 최근 12시간 안에 수정된 Product·Marketing·Business·Travel 노트는 반복 편집하지 않았고, 외부 링크 소스는 본문에 사용하지 않았다.
+
 ## 2026-06-09 20:17 UTC | Integration/Business 인접 링크 공개 표면 보정
 
 - 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 최근 평가의 source-mapping 및 wikilink 표시 지적에 맞춰 좁게 수정했다.
