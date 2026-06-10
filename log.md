@@ -1,3 +1,11 @@
+## 2026-06-10 18:17 UTC | Integration/Design 첫 사용자 질문 산출물 연결
+
+- 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 fallback 범위의 Infinity 산출물 1개와 좁게 연결하고, 관리 표면인 `source-mapping`의 Design 행을 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Design.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `infinity/artifacts/marketing-47/virtue-first-10-design-user-ask-script.md`가 새 마케팅 주제가 아니라 Design의 일관성·제품 언어·검수 표면을 선명하게 하는 보조 산출물임을 확인했다.
+- 정리: 첫 10명 ask script의 초대 문장, 사용 전/후 질문, 자기 말 기록 칸을 새 조사 다이제스트로 넓히지 않고, 제품의 인상과 위계가 실제 사람의 언어로 도착했는지 확인하는 `실행 산출물 연결` 문단으로만 흡수했다.
+- 선호 신호: Design 노트에서 첫 사용자 산출물은 화면 미감 이후의 별도 리서치가 아니라 카피·질문·기록 양식까지 같은 제품 언어로 이어지는지 확인하는 검수 표면으로 읽는 편이 적합하다.
+- 드리프트 점검: 최근 12시간 안에 수정된 Business·Product·Travel·Marketing·Tool 노트는 반복 편집하지 않았고, Infinity 산출물은 원문 Design의 1:1 경계를 덮지 않는 보조 연결로만 사용했다.
+
 ## 2026-06-10 17:17 UTC | Integration/Business 실행 산출물 수익 후보 철회 판단 연결
 
 - 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 최근 Infinity 산출물과 연결하고, 관리 표면인 `source-mapping`의 확인 문구를 맞췄다.
