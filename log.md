@@ -1,3 +1,11 @@
+## 2026-06-10 17:17 UTC | Integration/Business 실행 산출물 수익 후보 철회 판단 연결
+
+- 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 최근 Infinity 산출물과 연결하고, 관리 표면인 `source-mapping`의 확인 문구를 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Business.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Business 노트가 사람·조직·고객·제품을 함께 보는 사업 판단 노드임을 재확인했다.
+- 정리: `naver-shopping-01` 2026-06-10T1507Z router report의 워크샵/질문카드 SKU 철회 판단을 `실행 산출물 연결` 문단으로 압축했다. 학습·대화 맥락으로는 보존되더라도 문제 크기, 반복 구매성, 유통 표면이 약하면 매출 후보로 승격하지 않는 기준을 운영 판단판에 추가했다.
+- 선호 신호: Business 노트에서는 관심 신호를 모두 상품화하지 않고, 고객 적합성·수익 맥락·검증 표면을 통과한 것만 다음 사업 후보로 보내는 편이 적합하다.
+- 드리프트 점검: 외부/Infinity 산출물은 원문 경계를 덮지 않는 보조 연결로만 사용했고, 본문은 `source/shdkej-content/Integration/Business.md`의 창업·아이템 검증 축 안에 묶었다.
+
 ## 2026-06-10 16:17 UTC | Deep Knowledge/Product guided first-value 산출물 연결
 
 - 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 fallback 범위의 Infinity 산출물 1개와 좁게 연결하고, 관리 표면인 `source-mapping`의 Product 행을 갱신했다.
