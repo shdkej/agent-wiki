@@ -1,3 +1,11 @@
+## 2026-06-10 16:17 UTC | Deep Knowledge/Product guided first-value 산출물 연결
+
+- 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 fallback 범위의 Infinity 산출물 1개와 좁게 연결하고, 관리 표면인 `source-mapping`의 Product 행을 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `infinity/intents/archive/marketing-51.md` 및 해당 감사표가 Product의 첫 문턱·측정 루프 안에서만 해석될 수 있음을 확인했다.
+- 정리: guided first-value 감사표를 새 온보딩 기능이나 계측 요구로 확장하지 않고, 첫 입력 전·AI 판단 대기·결과 해석·저장/종료 중 사용자가 행동권을 잃는 구간을 판독하는 `외부/실행 산출물 연결` 보강으로만 흡수했다.
+- 선호 신호: AI 제품의 첫 세션 판단은 빠른 결과 생성보다 사용자가 어느 구간에서 직접 해냈다고 느꼈고 AI를 결정 대행이 아니라 판단 보조로 읽었는지를 먼저 보는 편이 적합하다.
+- 드리프트 점검: 최근 12시간 안에 수정된 Tool·Travel·Marketing·Design 노트는 반복 편집하지 않았고, Infinity 산출물은 원문 Product의 1:1 경계를 덮지 않는 보조 판독 기준으로만 사용했다.
+
 ## 2026-06-10 15:17 UTC | Idea/Travel 관리 표면과 링크 표시 보정
 
 - 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 최근 평가 리캡의 Tool/Travel 좁은 확인 지시에 맞춰 본문 해석은 늘리지 않고 관리 표면을 보정했다.
