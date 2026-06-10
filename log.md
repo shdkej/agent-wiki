@@ -1,3 +1,11 @@
+## 2026-06-10 04:18 UTC | Integration/Creator 실행 산출물 경계와 링크 표시 확인
+
+- 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 최근 평가 리캡의 외부 링크·Infinity 반영 경계 점검 지시에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Creator.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `infinity/intents/archive/marketing-50.md`가 Creator의 창작 리더십·질문 구조를 덮는 새 커머스 주제가 아니라 보조 판단으로만 쓰였는지 확인했다.
+- 정리: 본문 해석은 늘리지 않고 상태 문구를 경계 확인 중심으로 바꿨다. 인접 wikilink는 `/docs/...` 절대 Markdown 링크와 독자용 표시명으로 바꿔 llms/HTML에서 경로 문자열이 노출될 가능성을 줄이고, `source-mapping`의 Creator 행도 같은 확인 상태로 맞췄다.
+- 선호 신호: 안정된 Creator 노트의 실행 산출물 연결은 새 상품/마케팅 설명을 더 붙이기보다 원문 질문·감상·편집 축 안에서만 보조 렌즈로 남기고, 공개 표면의 링크 표시를 좁게 고정하는 편이 적합하다.
+- 드리프트 점검: 최근 12시간 안에 수정된 Marketing·Business·Tool·Travel 노트는 반복 편집하지 않았고, 외부 링크 소스는 새로 흡수하지 않았다.
+
 ## 2026-06-10 03:17 UTC | Integration/Creator 워크숍 카드 산출물 연결
 
 - 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 fallback 범위의 Infinity 산출물 1개와 연결하고, 관리 표면인 `source-mapping`의 Creator 행을 갱신했다.
