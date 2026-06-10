@@ -1,3 +1,11 @@
+## 2026-06-10 03:17 UTC | Integration/Creator 워크숍 카드 산출물 연결
+
+- 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 fallback 범위의 Infinity 산출물 1개와 연결하고, 관리 표면인 `source-mapping`의 Creator 행을 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Creator.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `infinity/intents/archive/marketing-50.md` 및 해당 positioning artifact를 Creator의 창작 리더십·편집 표식·질문 구조 안에서만 해석했다.
+- 정리: AI/creator workshop card 포지셔닝을 새 커머스 다이제스트로 만들지 않고, 넓은 질문 카드 형식을 구매 상황과 작업실 장면으로 좁혀 창작자의 관점 정리를 외부 사람이 쓸 수 있게 만드는 `외부/실행 산출물 연결` 문단으로만 흡수했다.
+- 선호 신호: 창작형 산출물의 포지셔닝은 물건 이름보다 어떤 방에서 어떤 관찰·회고·가설을 꺼내 다음 실험으로 줄이는지 먼저 잡을 때 원문 Creator의 편집·감상·자기 세계화 기준과 잘 맞는다.
+- 드리프트 점검: 최근 12시간 안에 수정된 Marketing·Business·Tool·Travel 노트는 반복 편집하지 않았고, Infinity 산출물은 원문 Creator의 1:1 경계를 덮지 않는 보조 렌즈로만 사용했다.
+
 ## 2026-06-10 02:18 UTC | Idea/Travel 실행 산출물 경계 문구 보정
 
 - 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 최근 평가의 외부 링크·Infinity 반영 경계 점검 지시에 맞춰 좁게 수정했다.
