@@ -1,3 +1,11 @@
+## 2026-06-10 08:17 UTC | Integration/Tool 외부·실행 산출물 경계 고정
+
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 최근 평가 리캡의 Tool/Travel 좁은 확인 지시에 맞춰 보조 자료 연결 문장을 보정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Tool 노트가 앱 추천 목록보다 로컬 즉시성·외부 협업성·복원 가능성·형식 경계를 묶는 통합 노드임을 재확인했다.
+- 정리: `source/external-links/marketing/2026-06-08-agent-led-growth-boundary.md`와 `infinity/intents/archive/marketing-46.md`는 Marketing 주제 확장이 아니라, 새 AI 도구의 완료 주체를 묻는 한 칸의 판단 기준으로만 쓰이도록 문장을 좁혔다.
+- 선호 신호: 외부 링크와 Infinity 산출물을 mapped에 붙일 때는 새 주제를 만들기보다 기존 판단 표의 한 축을 더 정확하게 만드는 경우에만 승격한다.
+- 드리프트 점검: source-mapping은 이미 1:1 대응 상태라 변경하지 않았고, `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-10 06:17 UTC | Integration/Design 실행 산출물 연결 보강
 
 - 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 최근 평가 리캡의 `최근 수정된 다른 mapped 노트에서 외부/Infinity 보조 자료가 기존 판단 축 하나만 선명하게 하는지 확인` 지시에 맞춰 좁게 수정했다.
