@@ -1,3 +1,11 @@
+## 2026-06-10 19:17 UTC | Deep Knowledge/AI 선택권 외부 연결
+
+- 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 fallback 범위의 외부 링크 1개와 좁게 연결하고, 관리 표면인 `source-mapping`의 AI 행을 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `source/external-links/marketing/2026-06-07-ai-control-not-decision.md`가 새 마케팅 주제가 아니라 AI 노트의 위임·통제·제품 확인 표면을 선명하게 하는 보조 자료임을 확인했다.
+- 정리: Gartner AI shopping survey 기반 자료를 수치 목표나 쇼핑 맥락으로 확장하지 않고, `AI가 결정한다`보다 `사용자가 판단할 수 있게 정리한다`는 선택권 강화 기준으로만 흡수했다.
+- 선호 신호: AI 노트에서는 자율성 자체보다 사람이 마지막 판단권을 유지하도록 요청·확인·복구 표면을 남기는지 먼저 보는 편이 적합하다.
+- 드리프트 점검: 최근 12시간 안에 수정된 Design·Business·Product·Travel·Marketing·Tool 노트는 반복 편집하지 않았고, 외부 링크는 원문 AI의 1:1 경계를 덮지 않는 보조 연결로만 사용했다.
+
 ## 2026-06-10 18:17 UTC | Integration/Design 첫 사용자 질문 산출물 연결
 
 - 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 fallback 범위의 Infinity 산출물 1개와 좁게 연결하고, 관리 표면인 `source-mapping`의 Design 행을 갱신했다.
