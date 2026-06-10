@@ -1,3 +1,11 @@
+## 2026-06-10 21:17 UTC | Deep Knowledge/Product 표현 보정
+
+- 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 최근 평가 리캡의 좁은 지시에 맞춰 표현 하나를 보정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, guided first-value 감사표 연결은 새 해석을 더 붙이지 않아도 되는 상태임을 확인했다.
+- 정리: `잡별 가치 도착점`을 `작업별/사용자군별 가치 도착점`으로 고쳐 첫 세션의 정상 종료 기준이 사용자군과 작업 맥락에 따라 달라진다는 의도를 분명히 했다.
+- 선호 신호: 안정된 Product 노트에서는 산출물 해석을 반복 확장하기보다 평가가 집은 문장 단위 의도만 보정하고 다른 노트로 이동하는 편이 적합하다.
+- 드리프트 점검: 외부 링크와 Infinity 산출물은 새로 흡수하지 않았고, `source-mapping`의 1:1 대응 상태는 유지했다.
+
 ## 2026-06-10 19:17 UTC | Deep Knowledge/AI 선택권 외부 연결
 
 - 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 fallback 범위의 외부 링크 1개와 좁게 연결하고, 관리 표면인 `source-mapping`의 AI 행을 갱신했다.
