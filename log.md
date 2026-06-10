@@ -1,3 +1,11 @@
+## 2026-06-10 11:17 UTC | Integration/Tool 관리 표면 보정
+
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 최근 평가의 관리 표면 지적에 맞춰 본문 해석은 늘리지 않고 frontmatter 날짜를 현재 보정 기준으로 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 08:17 런의 외부/Infinity 연결이 Tool의 `완료 주체` 판단 한 칸에만 머물러 있음을 확인했다.
+- 정리: `source-mapping`의 Tool 행을 2026-06-10 11:17 UTC 확인 문구로 갱신해 mapped frontmatter와 관리 표면의 기준일을 맞췄다.
+- 선호 신호: 안정된 Tool 노트에서는 새 에이전트 도구 해석을 더 붙이기보다, 외부/Infinity 보조 자료가 기존 상태 전달·수명 관리·복구 표면 중 어느 한 칸만 선명하게 하는지 좁게 확인하는 편이 적합하다.
+- 드리프트 점검: 외부 링크와 Infinity 산출물은 새 주제로 확장하지 않았고, `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-10 10:17 UTC | Idea/Travel 실행 산출물 연결 보강
 
 - 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 보강했다.
