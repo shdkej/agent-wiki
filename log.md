@@ -1,3 +1,11 @@
+## 2026-06-11 07:17 UTC | Deep Knowledge/Product 첫 입력 prompt design 산출물 연결
+
+- 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 외부 링크·Infinity 보조 자료와 연결했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Product 노트의 첫 문턱·측정 루프가 최근 guided first-value 산출물과 이미 맞물려 있음을 확인했다.
+- 정리: 2026-06-10 외부 링크 `AI 온보딩은 클릭세를 줄이고 첫 산출물을 앞당긴다`와 Infinity `marketing-52`를 `/add` 첫 입력 표면의 `UI 사용법 / 판단 위임 / 원하는 결과 가르치기` 구분으로 압축해 반영했다.
+- 선호 신호: Product 노트에서 click-tax 감소는 반성적 입력 시간을 없애는 일이 아니라, 결과와 무관한 설명·탐색·판단 위임을 덜어 사용자가 원하는 산출을 더 분명히 가르치게 하는 일로 읽는 편이 적합하다.
+- 드리프트 점검: 외부 링크와 Infinity 산출물은 보조 자료로만 사용했고, 원본 `source/shdkej-content/Deep Knowledge/Product.md`의 제품 판단 경계를 넘기지 않았다.
+
 ## 2026-06-11 06:17 UTC | Deep Knowledge/AI 링크 표시 보정
 
 - 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 최근 평가의 wikilink 표시 지적에 맞춰 좁게 수정했다.
