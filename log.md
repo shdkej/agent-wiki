@@ -1,3 +1,11 @@
+## 2026-06-11 23:17 UTC | Communication/Feedback 첫 사용자 이유 데이터 연결
+
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 최신 외부 링크 1개와 좁게 연결하고, 관리 표면인 `source-mapping`의 Feedback 행을 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `source/external-links/marketing/2026-06-11-onboarding-feedback-loop.md`가 새 Marketing 주제가 아니라 Feedback의 수집·선별·해석·재호출 모델 중 해석 칸을 선명하게 하는 보조 자료임을 확인했다.
+- 정리: 작은 온보딩 숫자를 바로 성패로 읽지 않고, 기대·획득·막힘 이유 데이터를 정상 종료, 혼란, 가치 미전달, 기대 불일치로 판독해 다음 질문으로 되돌리는 기준으로 압축했다.
+- 선호 신호: Feedback 노트에서는 빠른 신호 자체보다, 사람이 다음 행동을 바꿀 수 있을 만큼 이유와 맥락을 붙여 재호출 가능한 판독문으로 만드는 편이 적합하다.
+- 드리프트 점검: 최근 반복 편집된 Product·Marketing·Business·Travel·AI·Design 노트는 건드리지 않았고, 외부 링크는 원문 Feedback의 1:1 경계를 덮지 않는 보조 연결로만 사용했다.
+
 ## 2026-06-11 21:17 UTC | Integration/Design 첫 사용자 질문 양식 흡수 기준 확인
 
 - 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 최근 평가 리캡의 `외부·Infinity 산출물이 기존 판단판 한 행만 대체했는지` 확인 지시에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping`의 Design 행을 갱신했다.
