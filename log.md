@@ -1,3 +1,11 @@
+## 2026-06-11 18:17 UTC | Idea/Travel 도착일 실패 예방 산출물 연결
+
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 최신 Naver Shopping 실행 산출물 1개와 좁게 연결하고, 관리 표면인 `source-mapping`의 Travel 행을 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `infinity/reports/naver-shopping-01/2026-06-10T2007Z-local.html`의 도착일 실패 예방 카드 판단이 새 쇼핑 다이제스트가 아니라 Travel의 준비 시나리오·복구 단서 축을 선명하게 하는 보조 자료임을 확인했다.
+- 정리: 독립 체크리스트나 안전 카드 SKU를 새 주제로 넓히지 않고, 기존 여행 노트 안에서 일정·짐·숙소·비용·도착일 복구 단서를 함께 넘겨 보게 하는 구조화된 속지 기준으로 압축했다.
+- 선호 신호: Travel 노트에서는 준비물을 많이 나열하기보다, 현장 첫날이 막혔을 때 감상 시간을 보존할 복구 단서를 기존 여행 기록 흐름 안에 넣는 편이 적합하다.
+- 드리프트 점검: 최근 반복 편집된 Product·Marketing·Design·Business 노트는 건드리지 않았고, Naver Shopping 산출물은 원문 Travel의 1:1 경계를 덮지 않는 보조 연결로만 사용했다.
+
 ## 2026-06-11 15:17 UTC | Integration/Business 구매 상황 우선 포지셔닝 연결
 
 - 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 최신 완료 Infinity 산출물 1개와 좁게 연결하고, 관리 표면인 `source-mapping`의 Business 행을 갱신했다.
