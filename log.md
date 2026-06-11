@@ -1,3 +1,11 @@
+## 2026-06-11 06:17 UTC | Deep Knowledge/AI 링크 표시 보정
+
+- 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 최근 평가의 wikilink 표시 지적에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, AI 노트의 해석층은 유지한 채 공개 표면의 링크 라벨만 보정 대상으로 삼았다.
+- 정리: `/docs/...` 절대 Markdown 링크는 유지하되, 본문에 보이던 `Deep Knowledge/Data`, `Meta/AGENTS` 같은 경로형 라벨을 `Data 노드`, `AGENTS 노드`처럼 독자용 표시명으로 바꿨다.
+- 선호 신호: 안정된 AI 노트에서는 새 해석을 늘리기보다, 공개 표면에서 링크가 경로나 내부 관리명처럼 보이지 않도록 표시명만 고정하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았고, source-mapping은 기존 1:1 대응 상태를 유지했다.
+
 ## 2026-06-11 01:17 UTC | Deep Knowledge/AI 인접 링크 공개 표면 보정
 
 - 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 최근 평가 리캡의 좁은 지시에 맞춰 인접 wikilink 표시와 href를 보정했다.
