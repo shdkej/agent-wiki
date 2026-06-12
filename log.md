@@ -1,3 +1,11 @@
+## 2026-06-12 19:17 UTC | Deep Knowledge/Devops publish·rollback 산출물 연결
+
+- 갱신 범위: [[mapped/deep-knowledge/devops]] 1개 페이지만 보강하고, 관리 표면인 `source-mapping`의 Devops 확인 문구를 현재 기준으로 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Devops.md` 전체와 기존 mapped 노트 전체를 다시 읽고, CD가 배포 버튼보다 승인, 산출물 고정, 공개 반영, 검증, 롤백 손잡이의 상태 전환 설계에 가깝다는 기존 판단 축을 재확인했다.
+- 정리: Infinity `build-09`의 Control Center authenticated publish/rollback spec과 이후 정적 target 제거 결론을 `실행 산출물 연결` 문단으로 흡수했다. CMS 편집면과 공개 publish target을 섞지 않고, 새 target은 살아 있는 CMS에서 다시 명시해야 한다는 경계를 남겼다.
+- 선호 신호: 운영 CMS 산출물은 구현 기능 목록보다 `snapshot -> diff preview -> approval -> scoped write -> verify -> rollback handle`처럼 공개 반영 전후의 책임 경계가 보일 때 DevOps 노드에 재사용할 가치가 있다.
+- 드리프트 점검: 외부 링크 소스는 사용하지 않았고, Infinity 산출물은 `build-09` 하나만 보조 입력으로 사용했다.
+
 ## 2026-06-12 17:17 UTC | Integration/Work 인접 링크 표시 보정
 
 - 갱신 범위: [[mapped/Integration/Work]] 1개 페이지와 관리 표면인 `source-mapping`만 수정했다.
