@@ -1,3 +1,11 @@
+## 2026-06-12 17:17 UTC | Integration/Work 인접 링크 표시 보정
+
+- 갱신 범위: [[mapped/Integration/Work]] 1개 페이지와 관리 표면인 `source-mapping`만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Work.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가의 상대 wikilink 지적이 본문 해석 문제가 아니라 공개 표면 표시 문제임을 확인했다.
+- 정리: 인접 노드 연결의 `[[../...]]` 상대 wikilink를 `/docs/...` 절대 Markdown 링크와 독자용 표시명으로 바꾸고, frontmatter의 source_file도 실제 원본 경로 문자열로 맞췄다.
+- 선호 신호: 안정된 Work 노트에서는 새 실행 사례를 더 붙이기보다, 이미 남긴 업무 판단 축이 공개 표면에서 깨지지 않는 링크와 표시명으로 보이게 하는 편이 적합하다.
+- 드리프트 점검: 외부 링크와 Infinity 산출물은 새로 사용하지 않았고, 원문 Work의 1:1 경계와 본문 판단은 유지했다.
+
 ## 2026-06-12 15:17 UTC | Integration/Work 실행 산출물 연결 보강
 
 - 갱신 범위: [[mapped/Integration/Work]] 1개 페이지와 관리 표면인 `source-mapping`만 수정했다.
