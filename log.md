@@ -1,3 +1,11 @@
+## 2026-06-12 03:17 UTC | Integration/Exploration 질문 카드 포지셔닝 산출물 연결
+
+- 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 외부/실행 산출물 연결 기준으로 보강하고, `source-mapping`의 대응 행을 현재 확인 문구로 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Exploration.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Exploration 노트가 자료량보다 질문 설정, 탐색 표면, 검증 강도, 공유 출발점을 다루는 노드임을 재확인했다.
+- 정리: `infinity/artifacts/marketing-50/question-workshop-card-positioning-selection.md`의 질문 카드 포지셔닝 판단을 새 주제로 확장하지 않고, 넓은 키워드를 구매 상황 언어로 좁히는 `외부/실행 산출물 연결` 문단으로만 흡수했다.
+- 선호 신호: 상업 조사에서도 고빈도 키워드는 바로 제목이 아니라 탐색 입구로 보고, 실제 사용 방·구매 상황·검증 흔적이 살아남을 때만 포지션으로 승격하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 최신 5개와 최근 Infinity 산출물 후보를 좁게 훑은 뒤, 최근 12시간 내 반복 수정 대상이 아닌 Exploration에만 반영했다.
+
 ## 2026-06-12 02:17 UTC | Idea/Travel 도착일 시나리오 표면 재확인
 
 - 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 최근 평가 리캡의 `보조 산출물이 기존 판단 한 칸만 선명하게 하는지` 지시에 맞춰 좁게 보강하고, 관리 표면인 `source-mapping`의 Travel 행을 갱신했다.
