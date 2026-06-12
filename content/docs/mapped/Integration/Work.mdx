@@ -5,7 +5,7 @@ tags: [mapped, integration, work, execution, professionalism, worklog]
 source_file: "[[source/shdkej-content/Integration/Work.md]]"
 source_name: Work
 created: 2026-04-14
-updated: 2026-05-29
+updated: 2026-06-12
 status: evolving
 language: ko
 ---
@@ -137,6 +137,12 @@ language: ko
 | LLM 정리 | 요구사항, 코드 결과물, 대화, 문서의 단일 출력 | 다음 업무의 입력 문서 |
 
 LLM 메모도 도구 목록보다 이 루프가 핵심이다. 여러 입력을 하나의 컨플루언스 문서로 마감하고, 다시 그 문서를 다음 입력으로 쓰려는 흐름은 AI를 검색 보조가 아니라 업무 마감 루프를 묶는 정리 엔진으로 보는 관점이다.
+
+## 실행 산출물 연결
+
+2026-06-12 Infinity의 Control Center 작업 흐름은 이 노드의 `마무리` 기준을 더 선명하게 보여 준다. `build-05`가 설계 산출물로 Archive에 들어간 뒤 사용자가 "CMS 만들던 건 홀딩인가"라고 물었고, 이후 `build-06`부터 `build-08`까지 draft editor, Supabase CRUD, shadcn/ui 운영툴로 이어졌다. 마지막 `build-09`에서는 정적 Control Center publish 대상이 제거되면서, 실제 활성 표면은 `https://cms.oracle.shdkej.com`인 CMS로 재정의되었다.
+
+이 사례의 재사용 포인트는 `완료`가 파일을 archive로 옮기는 상태가 아니라는 점이다. 업무가 신뢰 가능하게 닫히려면 산출물, 현재 활성 표면, 중단된 대상, 다음 승인 경계가 함께 보여야 한다. 특히 후속 작업이 남아 있는 설계 산출물은 `완료` 대신 `다음 구현의 입력`으로 표시해야 하고, 대상이 사라진 경우에는 과거 계획을 되살리지 않도록 "이 target은 더 이상 구현·publish 대상이 아니다"라는 종료 신호를 남겨야 한다.
 
 ## 반복 판단 모델
 

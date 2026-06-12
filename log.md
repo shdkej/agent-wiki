@@ -1,3 +1,11 @@
+## 2026-06-12 15:17 UTC | Integration/Work 실행 산출물 연결 보강
+
+- 갱신 범위: [[mapped/Integration/Work]] 1개 페이지와 관리 표면인 `source-mapping`만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Work.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Work 노트가 업무 완료를 실행·검토·보고·후속 입력까지 닫는 상태 전달 노드임을 재확인했다.
+- 정리: Infinity `build-06`부터 `build-09`까지 이어진 Control Center 흐름을 `실행 산출물 연결`로 흡수했다. Archive 상태, 실제 활성 표면, 제거된 publish target, 다음 승인 경계를 함께 남겨야 업무가 신뢰 가능하게 닫힌다는 판단만 보강했다.
+- 선호 신호: 실행 산출물은 완료 목록으로 옮기기보다, 후속 구현의 입력인지 종료된 target인지가 다음 사람이 바로 보이게 해야 한다.
+- 드리프트 점검: 외부 링크 소스는 사용하지 않았고, Infinity archive 산출물 1개 흐름만 관련 보조 자료로 연결했다.
+
 ## 2026-06-12 12:17 UTC | Integration/Tool 운영 CMS 상태 편집면 산출물 연결
 
 - 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 최근 완료된 Infinity 산출물과 좁게 연결하고, 관리 표면인 `source-mapping`의 Tool 행을 갱신했다.
