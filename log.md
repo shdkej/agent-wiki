@@ -1,3 +1,11 @@
+## 2026-06-13 21:17 UTC | Integration/Exploration 관리 링크 보정
+
+- 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 최근 평가의 frontmatter 날짜와 인접 링크 표시 지적에 맞춰 최소 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Exploration.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 본문 해석은 더 늘리지 않아도 되는 안정 디벨롭 상태임을 확인했다.
+- 정리: `updated` 날짜를 2026-06-13으로 맞추고, 인접 노드 wikilink를 `/docs/...` 절대 Markdown 링크와 독자용 표시명으로 바꿔 공개 표면의 경로 노출 가능성을 줄였다.
+- 선호 신호: 안정된 Exploration 노트에서는 새 조사 해석을 보태기보다, 관리 표면과 독자용 링크가 실제 publish 표면에서 같은 의미로 보이게 맞추는 편이 적합하다.
+- 드리프트 점검: source-mapping 문구는 이미 2026-06-13 기준이라 변경하지 않았고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-13 17:18 UTC | Integration/Exploration 관리 표면 문장 정리
 
 - 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 최근 평가의 관리 표면과 본문 경계 점검에 맞춰 좁게 수정했다.
