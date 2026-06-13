@@ -1,3 +1,11 @@
+## 2026-06-13 02:17 UTC | Integration/Tool 실행 점검 문장 흡수
+
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지와 관리 표면인 `source-mapping`만 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가 리캡의 Tool 지적이 새 해석 보강이 아니라 말미의 운영 로그성 문장 정리임을 확인했다.
+- 정리: 본문 끝의 `드리프트 점검` 섹션을 제거하고, 보조 산출물을 흡수할 때는 기존 `후속 판단 기준` 행 하나를 더 정확하게 만들 때만 반영한다는 조건으로 접었다.
+- 선호 신호: 안정된 Tool 노트에서는 새 앱·도구 사례보다 상태 전달, 수명 관리, 형식 경계, 변경 라우팅, 장기 편입의 기존 판단 행을 선명하게 하는지 먼저 보는 편이 적합하다.
+- 드리프트 점검: 외부 링크와 Infinity 산출물은 새로 사용하지 않았고, 원문 Tool의 1:1 경계와 본문 판단은 유지했다.
+
 ## 2026-06-13 01:17 UTC | Deep Knowledge/Devops 인접 링크 절대 경로 보정
 
 - 갱신 범위: [[mapped/deep-knowledge/devops]] 1개 페이지와 관리 표면인 `source-mapping`만 수정했다.
