@@ -5,7 +5,7 @@ tags: [mapped, portfolio, devops, infrastructure]
 source_file: "[[source/shdkej-content/Portfolio.md]]"
 source_name: Portfolio
 created: 2026-04-16
-updated: 2026-06-12 08:17 UTC
+updated: 2026-06-13 06:17 UTC
 status: stable-developing
 language: ko
 ---
@@ -61,7 +61,9 @@ language: ko
 이 네 축으로 보면 큰 인프라 프로젝트와 작은 자동화 사례가 같은 문법 안에 놓인다. 단순히 `인프라를 잘한다`가 아니라, 팀이 덜 막히도록 운영 표면을 설계한다는 점이 이 노드의 핵심이다.
 
 ## 외부/실행 산출물 연결
-`infinity/artifacts/build-05/control-center-editable-cms-design.md`는 이 포트폴리오의 최신 실행형 변주로 읽을 수 있다. "CMS는 수정이 핵심"이라는 피드백을 곧장 범용 CMS나 배포 버튼으로 키우지 않고, editable surface schema, 필드 단위 anchor, `preview.write: "none"`, approval-needed publish 경계, change-log 모델로 쪼갠 점이 원본의 Slack 배포 봇·버티컬 사이트 관리와 같은 문법을 따른다. 즉 반복 수정 요청을 개인 숙련이 아니라 공용 제어면으로 옮기되, 정본 미변경 diff preview와 승인 경계로 안전면을 먼저 세우고, commit/deploy/URL 검증 기록으로 설명면을 남기는 사례다.
+Control Center 계열 실행 산출물은 이 포트폴리오의 최신 실행형 변주로 읽을 수 있다. `build-05`의 editable CMS 설계는 "수정이 핵심"이라는 피드백을 곧장 범용 CMS나 배포 버튼으로 키우지 않고, editable surface schema, 필드 단위 anchor, `preview.write: "none"`, approval-needed publish 경계, change-log 모델로 쪼갰다. 이후 `build-07`과 `build-08`은 Next.js·Supabase·shadcn/ui 기반 CMS, 트리형 Status 구성, Activity 감사 로그, service-role-only 경계를 실제 웹 조작과 배포 검증까지 밀어 넣었다.
+
+중요한 점은 `build-09`에서 정적 Control Center 페이지가 제거되자, 이전 publish/rollback target을 계속 밀지 않고 live CMS(`https://cms.oracle.shdkej.com`)를 새 기준면으로 다시 잡았다는 것이다. 원본의 Slack 배포 봇·버티컬 사이트 관리와 같은 문법이 여기서 반복된다. 반복 수정 요청을 개인 숙련이 아니라 공용 제어면으로 옮기되, 실제 공개 정본 변경·권한·롤백은 승인 경계로 분리하고, build/pass·rollout·HTTPS 200·API mutation·activity log 같은 검증 흔적으로 설명면을 남긴다.
 
 ## 프로젝트별 증거
 

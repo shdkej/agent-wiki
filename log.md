@@ -1,3 +1,11 @@
+## 2026-06-13 06:17 UTC | Portfolio Control Center 실행 산출물 연결 보강
+
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 fallback 산출물 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Portfolio 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Portfolio.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최신 Infinity `build-07`·`build-08`·`build-09`가 포트폴리오의 공용 제어면, 승인 경계, 검증 흔적 문법과 직접 이어지는지 확인했다.
+- 정리: 기존 `build-05` 설계 연결을 유지하되 실제 CMS 구현, shadcn/ui 운영툴화, Activity 감사 로그, 정적 target 제거 이후 live CMS 기준면 재설정을 한 문단으로 압축했다.
+- 선호 신호: 포트폴리오형 실행 산출물은 새 도구 목록보다, 사용자 요청이 어떤 조작면으로 바뀌고 어떤 공개 변경 경계와 검증 기록을 남겼는지 보일 때만 mapped 본문에 흡수한다.
+- 드리프트 점검: 외부 링크 소스는 사용하지 않았고, Infinity archive 요약 중 Control Center 구현/제거 흐름 하나만 보조 산출물로 사용했다.
+
 ## 2026-06-13 04:17 UTC | Deep Knowledge/Product first reliable value 관찰 연결
 
 - 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 보강하고, 관리 표면인 `source-mapping`의 Product 행을 현재 확인 기준으로 맞췄다.
