@@ -133,7 +133,7 @@ title: "Devops"
 - 지금 롤백해야 하는가, 버텨도 되는가
 - 다음에는 어떤 신호를 기본 대시보드와 알림으로 승격해야 하는가
 
-즉 [[Monitoring]]과의 연결은 부가 기능이 아니라, DevOps가 `빠르게 배포`한 뒤 `빠르게 이해`하기 위해 필요한 중심 축이다.
+즉 [Monitoring](/docs/mapped/deep-knowledge/monitoring)과의 연결은 부가 기능이 아니라, DevOps가 `빠르게 배포`한 뒤 `빠르게 이해`하기 위해 필요한 중심 축이다.
 
 ## 원문 발췌 구조
 원문은 대체로 아래 층으로 쌓여 있다.
@@ -228,7 +228,7 @@ CD는 배포 그 자체보다 배포 이후 상태까지 포함한다.
 | 데이터 변경 | 롤백 후 데이터 의미 불일치, 양방향 호환 실패 | migration 단계화, 스냅샷, backfill/rollback 계획 |
 | 외부 알림·큐 | 새/옛 버전의 이벤트 중복 처리, 재시도 폭발 | dedup key, 소비자 pause/resume, DLQ 확인 |
 
-즉 좋은 CD는 새 이미지를 적용하는 도구가 아니라, **배포 중에도 계속 살아 있는 상태를 안전하게 넘기는 절차**까지 포함해야 한다. 이 관점은 [[Container]]의 상태 소유권, [[Monitoring]]의 알림 승격, [[Infra]]의 변경 전 기준점 확보와 바로 이어진다.
+즉 좋은 CD는 새 이미지를 적용하는 도구가 아니라, **배포 중에도 계속 살아 있는 상태를 안전하게 넘기는 절차**까지 포함해야 한다. 이 관점은 [Container](/docs/mapped/deep-knowledge/container)의 상태 소유권, [Monitoring](/docs/mapped/deep-knowledge/monitoring)의 알림 승격, [Fundamental/Infra](/docs/mapped/Fundamental/Infra)의 변경 전 기준점 확보와 바로 이어진다.
 
 ## CI 리포트는 다음 행동을 여는 피드백 표면이다
 원문에는 CI 도구 사용법처럼 보이는 세부 메모가 많이 흩어져 있다. `failure()`로 실패 메시지를 보내기, pull request에 코멘트를 달기, 테스트 결과를 댓글로 붙이기, artifact 만료 시간을 조정하기, CI에서 코드 변경 수·빌드 시간·패키지 크기·정적 분석 결과를 리포트로 남기기 같은 항목들이다.
@@ -284,7 +284,7 @@ CD는 배포 그 자체보다 배포 이후 상태까지 포함한다.
 - 분석 과정을 정리해 축적하고
 - 다음 대응 품질을 높이는
 
-반자동 운영 조수의 문제로 보고 있다. 이는 [[../Meta/AGENTS|AGENTS]] 노드와 맞닿으며, DevOps가 점점 `사람이 일일이 클릭하는 운영`에서 `맥락을 이어받는 운영 오케스트레이션`으로 가고 있음을 드러낸다.
+반자동 운영 조수의 문제로 보고 있다. 이는 [AGENTS](/docs/mapped/Meta/AGENTS) 노드와 맞닿으며, DevOps가 점점 `사람이 일일이 클릭하는 운영`에서 `맥락을 이어받는 운영 오케스트레이션`으로 가고 있음을 드러낸다.
 
 ## 원문 고유 시나리오
 원문 말미의 `상황`과 `TODO`는 DevOps를 추상 문화론에서 실제 설계 문제로 끌어내린다.
@@ -307,13 +307,12 @@ CD는 배포 그 자체보다 배포 이후 상태까지 포함한다.
 | 스테이징 vs 카나리 | 실제 환경에서 검증하고 싶어 하지만 데이터 영향 격리와 롤백 검증을 요구한다. | DevOps의 핵심 불안은 `어디서 꼬일까`이며, 개발 편의와 복구 가능성을 동시에 붙든다. |
 
 ## 인접 노드와의 연결
-- [[Infra]]: DevOps가 실제로 다루는 기반 자원과 운영 환경의 범위를 넓혀 준다.
-- [[Container]]: 컨테이너는 DevOps 흐름에서 재현 가능한 빌드와 배포의 핵심 실행 단위다.
-- [[Monitoring]]: 빠른 피드백과 MTTR 개선은 관측성 없이는 성립하지 않는다.
-- [[Cloud]]: 인프라 자동화와 자원 관리의 많은 전제가 클라우드 환경과 연결된다.
-- [[../Fundamental/Architecture|Architecture]]: 배포 단위, 서비스 경계, 롤백 가능성은 결국 아키텍처 결정과 맞물린다.
-- [[../Fundamental/Coding|Coding]]: CI 기준과 테스트 전략은 코드 작성 습관, 컨벤션, 실패 처리와 직접 연결된다.
-- [[../Meta/AGENTS|AGENTS]]: 에이전트 기반 운영 자동화가 현실화될수록 DevOps는 파이프라인과 도구 자동화에서 더 넓은 운영 오케스트레이션으로 확장될 수 있다.
+- [Fundamental/Infra](/docs/mapped/Fundamental/Infra): DevOps가 실제로 다루는 기반 자원과 운영 환경의 범위를 넓혀 준다.
+- [Container](/docs/mapped/deep-knowledge/container): 컨테이너는 DevOps 흐름에서 재현 가능한 빌드와 배포의 핵심 실행 단위다.
+- [Monitoring](/docs/mapped/deep-knowledge/monitoring): 빠른 피드백과 MTTR 개선은 관측성 없이는 성립하지 않는다.
+- [Architecture](/docs/mapped/Fundamental/Architecture): 배포 단위, 서비스 경계, 롤백 가능성은 결국 아키텍처 결정과 맞물린다.
+- [Coding](/docs/mapped/Fundamental/Coding): CI 기준과 테스트 전략은 코드 작성 습관, 컨벤션, 실패 처리와 직접 연결된다.
+- [AGENTS](/docs/mapped/Meta/AGENTS): 에이전트 기반 운영 자동화가 현실화될수록 DevOps는 파이프라인과 도구 자동화에서 더 넓은 운영 오케스트레이션으로 확장될 수 있다.
 
 ## 후속 정리 기준
 - CI 메모는 새 도구 이름을 늘리기보다 `품질 게이트`, `리포트`, `보안 검사`, `개발 편의` 중 어느 피드백 표면을 바꾸는지 확인한 뒤 흡수한다.
