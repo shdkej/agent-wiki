@@ -1,3 +1,11 @@
+## 2026-06-14 22:17 UTC | Communication/Document 결과 중심 문서 외부 연결
+
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 fallback 외부 링크 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Document 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최신 외부 링크 `source/external-links/marketing/2026-06-14-agentic-plg-outcome-docs.md`가 Document의 전달·신뢰 신호 축을 선명하게 하는지 확인했다.
+- 정리: 외부 자료를 Marketing/Product 이론으로 확장하지 않고, 문서가 `좋은 결과 / 판단 기준 / 다음 행동`을 사람과 에이전트가 모두 읽을 수 있게 남겨야 한다는 한 문단으로만 흡수했다.
+- 선호 신호: 안정된 Document 노트에서 보조 자료를 흡수할 때는 문서 종류를 늘리기보다, README·제품 소개·사용 가이드가 첫 성공 결과를 재호출 가능한 문장으로 남기는지 보는 쪽이 적합하다.
+- 드리프트 점검: 최근 12시간 안에 반복 보강된 Logical_Thinking·Business·Travel·Marketing·Product는 피했고, 외부 링크 1개만 보조 입력으로 사용했다.
+
 ## 2026-06-14 21:17 UTC | Communication/Logical_Thinking 인접 링크 절대 경로 보정
 
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 최근 평가의 요청대로 본문 해석은 늘리지 않고 인접 wikilink를 공개 표면에서 안전한 절대 Markdown 링크로 바꿨다.
