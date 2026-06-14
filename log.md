@@ -1,3 +1,11 @@
+## 2026-06-14 14:17 UTC | Integration/Business PLG 신호 위계 실행 산출물 연결
+
+- 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 fallback 외부/실행 산출물 연결로 좁게 갱신하고, 관리 표면인 `source-mapping`의 Business 행을 최신화했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Business.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최신 외부 링크 `source/external-links/marketing/2026-06-14-plg-signal-hierarchy.md`와 완료 산출물 `infinity/artifacts/marketing-59/virtue-launch-ready-plg-signal-gate.md`를 Business의 스타트업 검증 루프와 연결했다.
+- 정리: 가입 수나 유입 채널보다 first win, 자기 언어의 가치 설명, 다음 행동을 먼저 보게 하는 `첫 가치 신호 위계`를 Business 운영 판단판에 추가했다.
+- 선호 신호: prelaunch 사업 판단에서는 관심 신호를 빨리 성공/실패로 닫기보다 acquisition 문제, activation 문제, 측정 보류 상태를 분리하는 관찰 게이트가 적합하다.
+- 드리프트 점검: 원본 1:1 경계는 유지했고, Business 외 다른 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-14 13:17 UTC | Portfolio Control Center publish target 보류 판단 연결
 
 - 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 fallback Infinity 산출물 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Portfolio 확인 문구를 갱신했다.
