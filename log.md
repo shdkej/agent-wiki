@@ -1,3 +1,11 @@
+## 2026-06-14 04:17 UTC | Integration/Exploration 관리 표면 보정
+
+- 갱신 범위: [[mapped/Integration/Exploration]] 1개 페이지만 최근 평가의 좁은 지적에 맞춰 보정하고, 관리 표면인 `source-mapping` 상태 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Exploration.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 본문 해석은 이미 안정 디벨롭 기준을 유지함을 확인했다.
+- 정리: 새 해석을 붙이지 않고 frontmatter `updated` 날짜를 현재 패스에 맞췄으며, 인접 노드 링크 표시명을 경로명 대신 독자용 한국어 명칭으로 바꿨다.
+- 선호 신호: 안정된 Exploration 노트에서는 추가 해석보다 관리 날짜와 공개 링크 표시처럼 독자가 다시 진입하는 표면을 좁게 고정하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-14 03:17 UTC | Deep Knowledge/Product 첫 성공 출력 계약 연결
 
 - 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 fallback Infinity 산출물 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Product 확인 문구를 갱신했다.
