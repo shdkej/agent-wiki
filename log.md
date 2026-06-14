@@ -1,3 +1,11 @@
+## 2026-06-14 12:17 UTC | Idea/Travel 실행 산출물 연결 압축
+
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 최근 평가의 실행 산출물 누적 지적에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping` 확인 문구를 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Travel 노트가 여행지 추천보다 여행 전 시나리오, 현장 감각, 여행 후 기준 회수를 함께 다루는 Idea 카테고리임을 재확인했다.
+- 정리: `marketing-48`, `naver-shopping-01`, `Arrival-Day Insert Keyword Test`, 외부 선행 행동 자료를 시간순 실행 로그처럼 늘리지 않고 `여행 전 시나리오 보존 -> 여행 후 감각 회수 -> 검증 전 후보 보류` 판단 모델 1개로 압축했다.
+- 선호 신호: 안정된 Travel 노트에서는 보조 산출물을 계속 붙이기보다, 원문 감각을 지키는 전후 행동 기준 하나로 흡수될 때만 남기는 편이 적합하다.
+- 드리프트 점검: source 원문과 mapped 본문은 1:1 대응을 유지했고, 새 외부 링크나 Infinity 산출물은 추가로 흡수하지 않았다.
+
 ## 2026-06-14 11:17 UTC | Communication/Logical_Thinking 신호 위계 판단 연결
 
 - 갱신 범위: [[mapped/Communication/Logical_Thinking]] 1개 페이지만 fallback 외부 링크/Infinity 산출물 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Logical_Thinking 행을 갱신했다.
