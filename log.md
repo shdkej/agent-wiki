@@ -1,3 +1,11 @@
+## 2026-06-14 07:17 UTC | Idea/Travel 소싱-퍼스트 산출물 연결
+
+- 갱신 범위: [[mapped/Idea/Travel]] 1개 페이지만 보강하고, 관리 표면인 `source-mapping`의 Travel 행을 현재 연결 상태로 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Idea/Travel.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최신 Infinity `naver-shopping-01` 소싱-퍼스트 스크린 1개를 보조 산출물로 확인했다.
+- 정리: 러기지택·카드 인서트·트래블러스노트 속지 보류 뒤 포토 포켓 앨범과 투명/다꾸 스티커가 후보가 된 이유를 `여행 후 감각 회수`와 `구체적 구매 상황` 기준으로 압축해 연결했다.
+- 선호 신호: Travel 노트에서 실행 산출물을 흡수할 때는 `여행 용품` 일반성이 아니라, 여행 전 시나리오를 지키거나 여행 후 감각을 다시 꺼내 보게 하는 사용 장면이 분명한지 먼저 본다.
+- 드리프트 점검: 외부/Infinity 산출물은 원문 철학을 대체하지 않고, DataLab 검증 전 후보 상태로만 남겼다.
+
 ## 2026-06-14 06:17 UTC | Communication/Feedback 활성화 신호 판독 연결
 
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 fallback 외부 링크 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Feedback 확인 문구를 갱신했다.
