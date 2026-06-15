@@ -1,3 +1,11 @@
+## 2026-06-15 21:17 UTC | Communication/Document 결과 중심 감사표 산출물 연결
+
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 fallback 실행 산출물 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Document 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `infinity/artifacts/marketing-60/virtue-outcome-readable-docs-audit.md`가 Document의 전달·신뢰 신호 축을 선명하게 하는지 확인했다.
+- 정리: 산출물을 PLG 성장 전략으로 넓히지 않고, 문서가 `좋은 결과 / 나쁜 결과 / 다음 행동 / 수기 판독 칸`을 함께 남겨 독자와 에이전트가 결과 품질을 다시 읽게 하는 한 문단으로만 흡수했다.
+- 선호 신호: 안정된 Document 노트에서는 기능 설명을 더 늘리기보다, 작은 표본의 결과 품질을 사람이 먼저 판독하고 반복적으로 약한 job만 후속 개선으로 분리하는 문서 감사 기준을 남기는 편이 적합하다.
+- 드리프트 점검: 실행 산출물은 1개만 사용했고, Document 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-15 20:17 UTC | Integration/Tool 관리 날짜와 링크 표면 확인
 
 - 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 최근 평가의 관리 표면 점검 지시에 맞춰 좁게 확인했다.
