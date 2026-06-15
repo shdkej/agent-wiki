@@ -1,3 +1,11 @@
+## 2026-06-15 04:17 UTC | Integration/Marketing 결과 중심 문서 연결
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 보조 자료 연결을 좁게 보강하고, 관리 표면인 `source-mapping`의 확인 상태를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Marketing 노트가 유입·첫 가치·전환·CRM·제품 경험을 한 흐름으로 묶는 Integration 노드임을 재확인했다.
+- 정리: `source/external-links/marketing/2026-06-14-agentic-plg-outcome-docs.md`의 agentic PLG 결과 중심 문서 렌즈를 별도 성장 이론으로 늘리지 않고, 기존 `첫 가치 확인 -> 결과 소유 행동 -> 다음 행동` 모델의 문서 표면 판정으로만 흡수했다.
+- 선호 신호: Marketing 보조 자료는 채널 확장보다 먼저 내부 설명과 관찰표가 좋은 결과·나쁜 결과·다음 행동을 같은 말로 닫고 있는지 확인할 때만 유용하다.
+- 드리프트 점검: 외부 링크는 1개만 사용했고, 실행 산출물·가격·트래킹·공개 카피 변경은 하지 않았다.
+
 ## 2026-06-15 02:17 UTC | Communication/Document 관리 문구와 인접 링크 확인
 
 - 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 최근 평가의 좁은 지적에 맞춰 상단 상태 문구를 현재 확인 기준으로 맞추고, 관리 표면인 `source-mapping`의 대응 행을 갱신했다.
