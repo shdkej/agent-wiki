@@ -1,3 +1,11 @@
+## 2026-06-15 07:17 UTC | Communication/Document 인접 링크 표시명 보정
+
+- 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 최근 평가의 좁은 지적에 맞춰 본문 해석은 늘리지 않고, 관리 표면인 `source-mapping`의 확인 상태를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Document.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 남은 문제는 문서화 모델이 아니라 공개 표면의 인접 링크 표시 기준임을 확인했다.
+- 정리: 인접 노드 연결을 `/docs/...` 절대 Markdown 링크로 유지하되, 표시명을 `Human/Readability`, `Communication/Feedback`, `Meta/Troubleshooting`처럼 독자용 경로가 드러나게 맞췄다.
+- 선호 신호: 안정된 Document 노트에서는 외부 산출물이나 문서 종류를 더 붙이기보다, 접수·배치·전달·재호출·신뢰 신호 모델이 깨지지 않도록 링크 표면만 고정하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스와 Infinity 산출물은 새로 흡수하지 않았고, Document 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-15 05:17 UTC | Integration/Economics 인접 링크 절대 경로 보정
 
 - 갱신 범위: [[mapped/Integration/Economics]] 1개 페이지만 fallback 외부 링크 재확인 후 본문 해석은 늘리지 않고, 관리 표면인 `source-mapping`의 확인 상태를 갱신했다.
