@@ -1,3 +1,11 @@
+## 2026-06-15 09:17 UTC | Integration/Business 선행 목표 외부 연결
+
+- 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 fallback 외부 링크 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Business 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Business.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `source/external-links/marketing/2026-06-12-youtube-better-goal-than-sales.md`가 Business의 스타트업 검증 루프와 지표 선택 축을 선명하게 하는지 확인했다.
+- 정리: 매출 목표를 대체하는 새 마케팅 이론으로 늘리지 않고, `아이템 확인 -> 제품 테스트 -> 피드백 -> 초기 유저 확장` 사이에서 결과 직전의 선행 행동을 먼저 찾는 한 문단과 판단판 한 행으로만 흡수했다.
+- 선호 신호: Business 노트에서 외부 목표 설정 자료를 흡수할 때는 매출·가입자 같은 후행 숫자보다 좋은 고객이 초기에 반복한 행동과 결과 직전 행동이 실제 고객 창출 신호인지 분리하는 기준으로 남기는 편이 적합하다.
+- 드리프트 점검: 외부 링크는 1개만 사용했고, Business 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-15 07:17 UTC | Communication/Document 인접 링크 표시명 보정
 
 - 갱신 범위: [[mapped/Communication/Document]] 1개 페이지만 최근 평가의 좁은 지적에 맞춰 본문 해석은 늘리지 않고, 관리 표면인 `source-mapping`의 확인 상태를 갱신했다.
