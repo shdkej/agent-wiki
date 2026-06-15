@@ -1,3 +1,11 @@
+## 2026-06-15 20:17 UTC | Integration/Tool 관리 날짜와 링크 표면 확인
+
+- 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 최근 평가의 관리 표면 점검 지시에 맞춰 좁게 확인했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Tool.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Tool 노트가 도구 목록보다 상태 전달·수명 관리·복구 가능한 운영 표면을 다루는 Integration 카테고리임을 재확인했다.
+- 정리: 본문 해석은 늘리지 않고 frontmatter `updated`를 2026-06-15 기준으로 맞췄으며, source-mapping의 해당 행도 같은 확인 시각으로 갱신했다. 인접 링크는 이미 `/docs/...` 절대 경로와 독자용 표시명을 유지하고 있어 추가 보정하지 않았다.
+- 선호 신호: 안정된 Tool 노트에서는 새 앱이나 자동화 사례를 더 붙이기보다, 관리 날짜·1:1 대응·독자용 링크 표시처럼 공개 표면의 신뢰 신호를 먼저 맞추는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-15 17:17 UTC | Integration/Tool 인접 링크 표시명 보정
 
 - 갱신 범위: [[mapped/Integration/Tool]] 1개 페이지만 최근 평가의 `관리 표면과 링크 표시` 지적에 맞춰 본문 해석은 늘리지 않고, 관리 표면인 `source-mapping`의 확인 상태를 갱신했다.
