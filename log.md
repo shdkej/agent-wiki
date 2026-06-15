@@ -1,3 +1,11 @@
+## 2026-06-15 10:17 UTC | Deep Knowledge/Product 활성화와 PQL 경계 연결
+
+- 갱신 범위: [[mapped/deep-knowledge/product]] 1개 페이지만 fallback 외부 링크 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Product 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Product.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `source/external-links/marketing/2026-06-15-plg-activation-pql-boundary.md`가 Product의 첫 문턱·측정·유지력 판단 축을 선명하게 하는지 확인했다.
+- 정리: PLG 지표 목록을 늘리지 않고, activation은 첫 가치 경험, PQL은 반복 사용·기능 채택 폭·확장 의도 이후 신호로 분리해 launch 전 숫자 판정을 보류하는 한 문단으로만 흡수했다.
+- 선호 신호: Product 노트에서 PLG 자료를 흡수할 때는 가입·PQL 같은 성장 숫자를 먼저 붙이기보다, 첫 가치 후보를 이후 retention cohort로 검증하고 PQL은 충분한 반복 행동 뒤에 정의하는 순서를 남기는 편이 적합하다.
+- 드리프트 점검: 외부 링크는 1개만 사용했고, Product 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-15 09:17 UTC | Integration/Business 선행 목표 외부 연결
 
 - 갱신 범위: [[mapped/Integration/Business]] 1개 페이지만 fallback 외부 링크 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Business 확인 문구를 갱신했다.
