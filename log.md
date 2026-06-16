@@ -1,3 +1,11 @@
+## 2026-06-16 01:17 UTC | Deep Knowledge/AI 관리 날짜와 링크 표면 확인
+
+- 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 최근 평가의 `Tool 반복 중지 후 다른 최근 mapped 노트 관리 표면 점검` 지시에 맞춰 좁게 확인했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, AI 노트가 모델 개념·작업 위임·기준 문서·검증 실행·서비스 운영 사다리를 이미 안정적으로 보존하고 있음을 확인했다.
+- 정리: 본문 해석과 외부 자료 연결은 늘리지 않고, 상단 상태 문구와 `source-mapping`의 AI 확인 문구를 현재 확인 시각으로 맞췄다. 인접 노드 연결은 이미 `/docs/...` 절대 Markdown 링크와 독자용 표시명을 유지하고 있어 추가 보정하지 않았다.
+- 선호 신호: 안정된 AI 노트에서는 AI-native PLG 자료를 더 붙이기보다, 위임된 일·AI 산출물·사용자의 신뢰 후속 행동 구분이 공개 표면에서 깨지지 않게 관리 문구와 링크만 확인하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스와 Infinity 산출물은 새로 사용하지 않았고, AI 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-16 00:17 UTC | Fundamental/Architecture 모놀리스 조사 산출물 연결
 
 - 갱신 범위: [[mapped/Fundamental/Architecture]] 1개 페이지만 fallback 실행 산출물 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Architecture 확인 문구를 갱신했다.
