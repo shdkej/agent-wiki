@@ -1,3 +1,11 @@
+## 2026-06-16 22:17 UTC | Integration/Design 실행 산출물 판단 모델 압축
+
+- 갱신 범위: [[mapped/Integration/Design]] 1개 페이지만 최근 평가의 실행 산출물 누적 압축 지시에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping`의 Design 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Design.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 원문 인상·위계·접근성·웹 구현 경계는 유지한 채 보조 산출물 연결만 압축하면 충분함을 확인했다.
+- 정리: `실행 산출물 연결`의 product-01, marketing-47, build-10 시간순 문단을 `차용원 -> 언어 검수 -> 깊이감/회복 검수` 한 모델로 접었다. 새 외부 링크나 Infinity 산출물은 추가하지 않았다.
+- 선호 신호: 안정된 Design 노트에서는 실행 사례를 계속 쌓기보다, 출처가 분명한 UI 차용, 사용자 언어 검수, 운영 화면의 깊이감·회복 검수가 기존 4칸 판단 모델을 선명하게 하는지만 본다.
+- 드리프트 점검: 외부 링크 소스와 Infinity 산출물은 새로 사용하지 않았고, Design 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-16 20:17 UTC | Deep Knowledge/AI 보조 연결 시간성 문구 정리
 
 - 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 최근 평가의 비마케팅 mapped 점검 요청에 맞춰 좁게 확인하고, 관리 표면인 `source-mapping`의 AI 행을 현재 확인 문구로 맞췄다.
