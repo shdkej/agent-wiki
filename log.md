@@ -1,3 +1,11 @@
+## 2026-06-16 08:17 UTC | Integration/Marketing 위임 성공 활성화 연결
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 fallback 외부 링크 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Marketing 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `source/external-links/marketing/2026-06-15-ai-native-plg-delegation.md`가 Marketing의 무료 활성사용자·전환·제품 불편 판단 축을 선명하게 하는지 확인했다.
+- 정리: AI-native PLG 자료를 새 지표 목록으로 늘리지 않고, `위임한 일 -> 믿을 만한 결과 -> 신뢰 후속 행동`을 원문의 첫 가치와 전환 사이를 판정하는 한 문단으로만 흡수했다.
+- 선호 신호: 안정된 Marketing 노트에서는 클릭 완료나 방문 숫자보다 사용자가 제품에 맡긴 일이 받아들일 만한 결과로 돌아왔고 그 결과를 다음 행동으로 회수했는지 먼저 보는 편이 적합하다.
+- 드리프트 점검: 외부 링크는 1개만 사용했고, Marketing 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-16 04:17 UTC | Fundamental/Architecture 인접 링크 표면 확인
 
 - 갱신 범위: [[mapped/Fundamental/Architecture]] 1개 페이지만 최근 평가의 좁은 지적에 맞춰 확인하고, 관리 표면인 `source-mapping`의 Architecture 확인 문구를 갱신했다.
