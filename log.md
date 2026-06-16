@@ -1,3 +1,11 @@
+## 2026-06-16 10:17 UTC | Deep Knowledge/Data AI 분석 의미 층 연결
+
+- 갱신 범위: [[mapped/deep-knowledge/data]] 1개 페이지만 fallback 외부 링크 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Data 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/Data.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `source/external-links/marketing/2026-06-16-ai-analytics-semantic-context.md`가 Data의 검색 번역·분석 복제·단일 진실 원천 축을 선명하게 하는지 확인했다.
+- 정리: AI 분석 자료를 Marketing 지표 목록으로 넓히지 않고, 이벤트 정의·제외 규칙·공식 대시보드·데이터 품질 예외를 에이전트가 참조할 semantic layer로 남기는 한 섹션만 추가했다.
+- 선호 신호: 안정된 Data 노트에서는 새 분석 도구를 더 붙이기보다, 읽기 도구가 바뀌어도 같은 행동 정의와 제외 기준으로 분석을 재시작할 수 있는 의미 층을 먼저 보존하는 편이 적합하다.
+- 드리프트 점검: 외부 링크는 1개만 사용했고, Data 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-16 08:17 UTC | Integration/Marketing 위임 성공 활성화 연결
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 fallback 외부 링크 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Marketing 확인 문구를 갱신했다.
