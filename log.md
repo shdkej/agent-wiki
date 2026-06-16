@@ -1,3 +1,11 @@
+## 2026-06-16 02:17 UTC | Communication/Blogging 콘텐츠 브리프 산출물 연결
+
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 fallback 실행 산출물 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Blogging 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, `infinity/artifacts/research-13/content-minimum-settings-checklist.md`가 Blogging의 독자 타깃·문체·형식 결정 축을 선명하게 하는지 확인했다.
+- 정리: 콘텐츠 제작 최소 설정을 새 마케팅 이론으로 넓히지 않고, 만다라트 안에서 익은 재료를 독자용 발행물로 내보내기 전의 8칸 브리프 게이트로 한 문단만 흡수했다. 인접 링크도 `/docs/...` 절대 Markdown 링크와 독자용 표시명으로 맞췄다.
+- 선호 신호: 안정된 Blogging 노트에서는 새 글감 목록을 늘리기보다, 독자 상태·핵심 메시지·톤·채널을 먼저 닫아 내부 위키 재료가 외부 독자용 산출물로 전환되는 순간을 확인하는 편이 적합하다.
+- 드리프트 점검: 실행 산출물은 1개만 사용했고, Blogging 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-16 01:17 UTC | Deep Knowledge/AI 관리 날짜와 링크 표면 확인
 
 - 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 최근 평가의 `Tool 반복 중지 후 다른 최근 mapped 노트 관리 표면 점검` 지시에 맞춰 좁게 확인했다.
