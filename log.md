@@ -1,3 +1,11 @@
+## 2026-06-17 05:17 UTC | Portfolio 실행 산출물 판단 모델 압축
+
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 최근 평가의 요청대로 보조 산출물 연결을 좁게 압축하고, `source-mapping`의 Portfolio 확인 문구를 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Portfolio.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 포트폴리오의 중심이 최신 작업 로그가 아니라 운영 표면 설계 능력이라는 점을 재확인했다.
+- 정리: `외부/실행 산출물 연결`에서 Control Center와 Status 대시보드 build 나열을 줄이고, `수정 가능한 제어면 -> 승인 경계 -> 검증 흔적 -> 운영 화면 우선순위` 판단 모델 하나로 접었다.
+- 선호 신호: 안정된 Portfolio 노트에서는 새 실행 산출물을 계속 붙이기보다, 원본의 입력면·제어면·안전면·설명면 중 실제로 바뀌는 판단만 흡수하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스는 새로 사용하지 않았고, `EVALUATION_NOTES`의 2026-06-17 04:47 UTC Portfolio 평가만 좁게 반영했다.
+
 ## 2026-06-17 04:17 UTC | Portfolio 관리 문구 로그화 점검
 
 - 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 최근 평가 리캡의 비마케팅 mapped 점검 기준에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping`의 Portfolio 확인 문구를 갱신했다.

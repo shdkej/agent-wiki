@@ -5,7 +5,7 @@ tags: [mapped, portfolio, devops, infrastructure]
 source_file: "[[source/shdkej-content/Portfolio.md]]"
 source_name: Portfolio
 created: 2026-04-16
-updated: 2026-06-17 04:17 UTC
+updated: 2026-06-17 05:17 UTC
 status: stable-developing
 language: ko
 ---
@@ -61,11 +61,16 @@ language: ko
 이 네 축으로 보면 큰 인프라 프로젝트와 작은 자동화 사례가 같은 문법 안에 놓인다. 단순히 `인프라를 잘한다`가 아니라, 팀이 덜 막히도록 운영 표면을 설계한다는 점이 이 노드의 핵심이다.
 
 ## 외부/실행 산출물 연결
-Control Center 계열 실행 산출물은 이 포트폴리오의 최신 실행형 변주로 읽을 수 있다. `build-05`의 editable CMS 설계는 "수정이 핵심"이라는 피드백을 곧장 범용 CMS나 배포 버튼으로 키우지 않고, editable surface schema, 필드 단위 anchor, `preview.write: "none"`, approval-needed publish 경계, change-log 모델로 쪼갰다. 이후 `build-07`과 `build-08`은 Next.js·Supabase·shadcn/ui 기반 CMS, 트리형 Status 구성, Activity 감사 로그, service-role-only 경계를 실제 웹 조작과 배포 검증까지 밀어 넣었다.
+Control Center와 Status 대시보드 산출물은 최신 작업 이력으로 계속 덧붙이기보다, 원본 포트폴리오의 운영 인터페이스 4축을 확인하는 한 모델로만 보존한다.
 
-중요한 점은 `build-09`에서 정적 Control Center 페이지가 제거되자, 이전 publish/rollback target을 계속 밀지 않고 live CMS(`https://cms.oracle.shdkej.com`)를 새 기준면으로 다시 잡았다는 것이다. 여기서 보류는 실패가 아니라 더 이상 유효하지 않은 배포 표면을 닫고, 다음 publish 논의가 시작될 때 기준 target과 승인 경계를 새로 확인하게 만드는 운영 판단이다. 원본의 Slack 배포 봇·버티컬 사이트 관리와 같은 문법이 여기서 반복된다. 반복 수정 요청을 개인 숙련이 아니라 공용 제어면으로 옮기되, 실제 공개 정본 변경·권한·롤백은 승인 경계로 분리하고, build/pass·rollout·HTTPS 200·API mutation·activity log 같은 검증 흔적으로 설명면을 남긴다.
+| 판단 단계 | 산출물에서 보인 신호 | Portfolio와의 연결 |
+| --- | --- | --- |
+| 수정 가능한 제어면 | editable surface schema, 필드 단위 anchor, CMS 조작면 | 반복 수정 요청을 개인 숙련이 아니라 팀이 다룰 수 있는 공용 표면으로 옮긴다 |
+| 승인 경계 | `preview.write: "none"`, approval-needed publish, service-role-only | 빠른 조작과 실제 공개 정본 변경을 분리해 안전면을 남긴다 |
+| 검증 흔적 | build/pass, rollout, HTTPS 200, API mutation, activity log | 구현 결과를 다음 사람이 확인할 수 있는 설명면으로 바꾼다 |
+| 운영 화면 우선순위 | 3D 배경, 얇은 HUD, compact 상태 레일, 모바일 겹침 검증 | 상태 정보와 제품 신뢰를 함께 살리도록 화면 제어면을 다시 배열한다 |
 
-Status 대시보드의 `build-10`/`build-11` 전환도 같은 축에서 보존할 만하다. 첫 결과가 밝은 glass 카드와 큰 hero copy를 전면에 세웠을 때, 사용자는 "3D 풀 이미지가 백그라운드에 있고 메뉴/상태 정보는 살짝 떠 있는 정도"라는 기준으로 방향을 바로잡았다. 이는 디자인 취향 메모라기보다 운영 화면의 우선순위 판단이다. 상태 정보는 계속 읽혀야 하지만, 첫 화면의 주된 시각 자산과 메뉴의 부유감이 제품 표면의 신뢰를 결정한다면 UI는 섹션을 더 쌓는 대신 배경 자산, 얇은 HUD, compact 상태 레일, 모바일 겹침 검증으로 재조립되어야 한다.
+따라서 이 보조 산출물은 별도 프로젝트 로그가 아니라, Slack 배포 봇·버티컬 사이트 관리·로그 추적 시스템과 같은 문법을 최신 작업에서 다시 확인한 사례다. 새 build 번호를 더 쌓는 대신, 이후에는 이 네 단계 중 하나를 실제로 바꾸는 판단만 흡수한다.
 
 ## 프로젝트별 증거
 
