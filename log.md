@@ -1,3 +1,11 @@
+## 2026-06-17 04:17 UTC | Portfolio 관리 문구 로그화 점검
+
+- 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 최근 평가 리캡의 비마케팅 mapped 점검 기준에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping`의 Portfolio 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Portfolio.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 전 런에서 추가된 Status 대시보드 실행 산출물 연결이 Portfolio의 운영 인터페이스 4축 안에 들어와 있는지 확인했다.
+- 정리: 본문 해석은 늘리지 않고 `최근 평가`라는 작업 기록성 표현만 제거해, 독자용 본문이 평가 로그가 아니라 프로젝트 해석 모델로 읽히게 했다.
+- 선호 신호: 안정된 Portfolio 노트에서는 실행 산출물을 더 쌓기보다, 이미 흡수된 문단이 입력면·제어면·안전면·설명면 중 어디에 놓이는지와 작업 기록 문구가 남지 않았는지만 확인하는 편이 적합하다.
+- 드리프트 점검: 새 외부 링크나 Infinity 산출물은 사용하지 않았고, Portfolio 외 mapped 노트는 수정하지 않았다.
+
 ## 2026-06-17 03:17 UTC | Portfolio Status 대시보드 실행 산출물 연결
 
 - 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 fallback 실행 산출물 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Portfolio 확인 문구를 갱신했다.
