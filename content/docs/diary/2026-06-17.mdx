@@ -2,7 +2,7 @@
 title: "2026-06-17"
 date: 2026-06-17
 type: diary
-last_sync: 2026-06-17T14:47:00+09:00
+last_sync: 2026-06-17T15:17:46+09:00
 ---
 
 # 2026-06-17
@@ -38,9 +38,13 @@ last_sync: 2026-06-17T14:47:00+09:00
 | 23 | ax-terraform | 14:37 | 변경 파일 커밋·푸시, Ingress NLB 전환 시 컷오버 internal 전환(ALB scheme/subnet/inboundCIDRs vpn_cutover) 검토, 공인 DNS 의미 확인 |
 | 24 | ax-terraform | 14:44 | Purple-access→KOCO→infra GitLab(내부 registry 경유 빌드)→사용자 접속 흐름을 인프라 구성도 스타일 HTML로 도식화, purple-access↔purple-auth 통신 표현·화살표 가독성 개선 |
 | 25 | ax-terraform | 14:46 | 10번대 공인IP→100번대 인바운드/아웃바운드 흐름 분석, VPC가 100번대 구성·10번대는 VGW에만 있는 구조 재확인, internal 전환 시나리오 A 시 VGW 정보 재전달 필요성 검토 |
+| 26 | ax-terraform | 15:12 | NAT gateway 대신 NAT instance를 쓴 이유 조사(Obsidian 노트 참고) |
+| 27 | ax-terraform | 15:15 | Purple-access→KOCO→infra GitLab(내부 registry 경유 빌드)→사용자 접속 흐름 HTML 도식화 개선, purple-access↔purple-auth 통신 표현·화살표 가독성·운영자(KOCO 사용자/운영자) 구분 반영 |
+| 28 | ax-terraform | 15:16 | 10번대 공인IP→100번대 인바운드/아웃바운드 흐름 분석, VPC가 100번대 구성·10번대는 VGW에만 있는 구조 확인, internal 전환 시나리오 A 시 VGW 정보 재전달 필요성 검토 |
 
 ### 기타
 
 - 09:09 — team-ax-holdings: AX 인프라 리스트를 구성도처럼 한 판에 보이게 시각화 개선
 - 09:41 — team-ax-holdings: 인프라 리스트를 구성도 스타일로 재구성, 추가보완 항목 별도 탭 추가, 집계 숫자 정합성 보정
 - 10:03 — team-ax-holdings: 인프라 리스트를 구성도처럼 한 판에 재구성, 추가보완 항목 별도 탭 추가, 집계 숫자 정합성 보정
+- 15:04 — Ganti-goh: 압축 파일 기본 비밀번호 확인
