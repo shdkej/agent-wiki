@@ -1,3 +1,11 @@
+## 2026-06-17 06:17 UTC | Health/Decision 구매 shortlist 실행 산출물 연결
+
+- 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 fallback 실행 산출물 기준으로 좁게 보강하고, 관리 표면인 `source-mapping`의 Decision 확인 문구를 갱신했다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Decision.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 손목 스트랩 공급사 shortlist가 Decision의 후보 축소·최악 회피·선택 후 보정 모델 안에 들어오는지 확인했다.
+- 정리: `infinity/reports/naver-shopping-01/2026-06-17T0347Z-local.html`을 제품 추천 목록으로 넓히지 않고, 검증권을 남기는 임시 shortlist와 샘플 주문 승인 경계라는 한 문단으로만 연결했다.
+- 선호 신호: 안정된 Decision 노트에서는 새 구매 후보를 계속 쌓기보다, 조건을 늘려 후보를 줄이고 주문 전 검증권을 남기는 판단 절차가 네 칸 유지 모델을 선명하게 할 때만 흡수하는 편이 적합하다.
+- 드리프트 점검: 실행 산출물은 1개만 사용했고, Decision 외 mapped 노트 본문은 수정하지 않았다.
+
 ## 2026-06-17 05:17 UTC | Portfolio 실행 산출물 판단 모델 압축
 
 - 갱신 범위: [[mapped/Portfolio]] 1개 페이지만 최근 평가의 요청대로 보조 산출물 연결을 좁게 압축하고, `source-mapping`의 Portfolio 확인 문구를 맞췄다.
