@@ -2,12 +2,8 @@
 title: "2026-06-22"
 date: 2026-06-22
 type: diary
-last_sync: 2026-06-22T13:22:50+09:00
+last_sync: 2026-06-22T14:23:29+09:00
 ---
-
-# 2026-06-22
-
-I'll process the diary merge and output the final markdown body.
 
 # 2026-06-22
 
@@ -20,11 +16,15 @@ I'll process the diary merge and output the final markdown body.
 | 2 | ax-terraform | 09:24 | koco GitLab 푸시 후 빌드 동작 확인 방법 점검 |
 | 3 | teams-relay-bot | 09:44 | teams-relay-bot의 endpoint 호출 경로 확인 |
 | 4 | recog-secu-number | 11:01 | 작업 착수 |
-| 5 | ax-terraform | 12:38 | v2 GitLab 인증 정리(토큰=Secrets Manager ax-prod-v2/gitlab/admin-pat), 배포됐으나 app node에 팟 미생성 원인 분석 |
-| 6 | teams-relay-bot | 12:30 | relay 서버→openclaw HTTP 전송 가능 여부 및 내부망 인증을 AWS ACM으로 처리 가능한지 검토 |
+| 5 | teams-relay-bot | 12:27 | relay 서버→openclaw HTTP 전송 가능 여부 및 내부망 인증을 AWS ACM으로 처리 가능한지 검토 |
+| 6 | ax-terraform | 12:38 | v2 GitLab 인증 정리(토큰=Secrets Manager ax-prod-v2/gitlab/admin-pat), 배포됐으나 app node에 팟 미생성 원인 분석 |
 | 7 | ax-terraform | 12:40 | v2 네이밍을 ax로 변경 가능 여부 점검 |
 | 8 | koco | 12:44 | infra GitLab 배포 시 env 설정을 별도 파일로 분리 가능 여부 검토 |
 | 9 | recog-secu-number | 12:56 | 이미지 자료(클립보드 캡처) 기반 작업 추가 검토 |
 | 10 | ax-terraform | 13:05 | 공인 IP(10번대)→내부(100번대) 트래픽 유입 경로 확인, VPC는 100번대·VGW에만 10번대 구성 점검, 시나리오 A 적용 시 VGW 정보 재전달 여부 검토 |
-| 11 | ax-examples | 13:21 | legal-advice-dispatch 서브모듈을 일반 폴더로 인식하도록 전환, 커밋·푸시 및 README 업데이트 |
-| 12 | koco | 13:22 | infra 폴더 내에서 DATABASE_URL·키값을 plain으로 env 설정 처리(private), feat/koco-db 브랜치 main 머지 여부 확인 |
+| 11 | ax-examples | 13:37 | legal-advice-dispatch 서브모듈을 일반 폴더로 인식하도록 전환, 커밋·푸시 및 README 업데이트 |
+| 12 | koco | 13:51 | 로컬 koco가 바라보는 서버 주소 확인 |
+| 13 | koco | 14:05 | GitLab feat/koco-db 브랜치의 main 머지 여부 확인(ax-terraform에서 kolon-ax 프로파일로 점검) |
+| 14 | koco | 14:07 | infra 폴더 내에서 DATABASE_URL·키값을 plain으로 env 설정 처리(private), tfvars 대신 infra 폴더 내 처리 |
+| 15 | ax-terraform | 14:07 | 공인 IP(10번대)→내부(100번대) 트래픽 흐름·인바운드 경로 확인, VPC가 100번대 구성·10번대는 VGW에만 존재함 점검, 시나리오 A 적용 시 VGW 정보 재전달 여부 검토 |
+| 16 | captcha-recognize | 14:08 | scourt 스킬과 통합해 검증 테스트 5회 실행 및 실제 scourt 테스트 |
