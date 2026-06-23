@@ -2,12 +2,12 @@
 title: "2026-06-23"
 date: 2026-06-23
 type: diary
-last_sync: 2026-06-23T15:23:23+09:00
+last_sync: 2026-06-23T17:25:00+09:00
 ---
 
 # 2026-06-23
 
-diary 본문 정제 작업이라 직접 처리한다.
+diary 본문 정제 작업이므로 직접 처리하겠다.
 
 # 2026-06-23
 
@@ -21,14 +21,19 @@ diary 본문 정제 작업이라 직접 처리한다.
 | 2 | ax-terraform | 10:53 | kolon-ax loki 주소 및 외부 주소 확인 |
 | 3 | koco | 11:10 | ax-api 시각화 HTML 제작 — 앱 호출자 탭 추가·최상단 배치, 아키텍처 레이어 구조 시각화·요청 흐름 통합 |
 | 4 | koco | 11:10 | Builtin key not configured 에러 대응, koco 변수를 kolon-ax eks·.gitlab-ci에 세팅 후 배포 |
-| 5 | ax-terraform | 11:35 | 현재 브랜치 origin/main 푸시 |
-| 6 | koco | 11:39 | ax-api 도구 리팩토링 — ax-deploy 스킬 제거 방향, 입출력을 도구에 추상화 |
-| 7 | ax-terraform | 12:51 | blue 환경 제거 및 terraform 폴더 삭제 작업, audit 인계 시 비용 발생 여부 검토 |
-| 8 | ax-terraform | 13:33 | koco iam role·kms terraform 관리 여부 검토, kek 신규 생성 점검, voice S3 권한 점검 후 커밋·메인 푸시 |
-| 9 | operation | 14:55 | Obsidian vertical-wiki를 노성호 이름으로 이관, 브랜치 푸시, 개인정보·민감정보 점검 |
+| 5 | ax-terraform | 13:04 | 현재 브랜치 origin/main 푸시 |
+| 6 | ax-terraform | 13:26 | blue 환경 제거 및 terraform 폴더 삭제 작업, audit 인계 시 비용 발생 여부 검토 |
+| 7 | ax-terraform | 13:33 | koco iam role·kms terraform 관리 여부 검토, kek 신규 생성 점검, voice S3 권한 점검 후 커밋·메인 푸시 |
+| 8 | operation | 14:55 | Obsidian vertical-wiki를 노성호 이름으로 이관, 브랜치 푸시, 개인정보·민감정보 점검 |
+| 9 | koco | 15:03 | ax-api 도구 리팩토링 — ax-deploy 스킬 제거 방향, 입출력을 도구에 추상화 |
 | 10 | ax-terraform | 15:08 | auth.ax.purpleio.dev IP 확인, 내부망 전환 후 internet-facing ALB 점검·도메인 변경 순서 검토 |
-| 11 | koco | 15:21 | 공유앱 DB 유저 가이드 단일 문서 통합 정리, impl 제거 |
-| 12 | ax-terraform | 15:23 | ax-prod-koco DB 접속 방법 점검 — bastion 없이 dbeaver 접속 확인 |
+| 11 | koco | 15:43 | 공유앱 DB 유저 가이드 단일 문서 통합 정리, impl 제거 |
+| 12 | documents | 17:00 | purple 상대 참조 경로(../../purple) 제거, 모든 내용을 위키로 포함 이관 |
+| 13 | ax-terraform | 17:00 | ax-prod-koco DB 접속 방법 점검 — bastion 없이 dbeaver 접속 확인 |
+| 14 | ax-terraform | 17:08 | infra-cloudflare-image 타 PC apply 방법 점검 |
+| 15 | team-agents | 17:08 | 에이전트 설정 구조 정리 — roles 제거·base 통합·루트 이동, RULES를 openclaw docs로 이동 |
+| 16 | legal-advice-dispatch | 17:15 | 법무 배분 백서 제작·PDF 변환, frontend-design 스킬로 문서 디자인 개선 |
+| 17 | purple-auth | 17:23 | SAML SP metadata(Entity ID) 점검, MS federation metadata 연동 단계 확인 |
 
 ### 개인
 
@@ -42,3 +47,4 @@ diary 본문 정제 작업이라 직접 처리한다.
 - 09:19 — Obsidian diary 2~6월 내용 정리 작업
 - 09:42 — Obsidian diary 2~6월 내용을 노성호-wiki와 비교
 - 15:22 — team-ax-holdings 에이전트 파일 기반 7인 팀용 에이전트 설정파일 제작 (workspace git·관리 git 분리)
+- 15:59 — claude-plugins 위키 조회·업데이트 클로드 스킬 제작
