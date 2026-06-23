@@ -1,3 +1,26 @@
+## 2026-06-23 06:17 UTC | Fundamental/Infra source-mapping 관리 문구 정렬
+
+- 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 최근 평가의 `source-mapping 확인 문구 정렬` 요청에 맞춰 관리 표면을 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트의 중심이 서비스 목록 확장보다 `겉가격보다 경계 비용`을 드릴다운 가능한 운영 점수판으로 읽게 만드는 판단 기준에 있음을 재확인했다.
+- 정리: mapped 본문은 더 늘리지 않고 유지했다. `source-mapping`의 Infra 행만 2026-06-22 21:17 UTC 본문 상태와 맞도록 `외부 비용 점수판 연결` 기준으로 현재화했다.
+- 선호 신호: 안정 단계의 Infra 노트에서는 새 AWS 해석을 더 붙이기보다, 최근 외부 연결이 실제로 어떤 비용 판독 습관을 선명하게 만드는지만 관리 표면과 함께 맞추는 편이 적합하다.
+- 드리프트 점검: 외부 링크는 이미 연결된 1건만 기준으로 재확인했고, Infinity 산출물과 `human-reviews/` 복사는 사용하지 않았다.
+
+## 2026-06-20 14:17 UTC | Communication/Feedback source-mapping 확인 시각 보정
+
+- 갱신 범위: [[mapped/Communication/Feedback]] 관련 관리 표면만 좁게 손봐 `source-mapping`의 확인 시각과 문구를 최신 mapped 상태에 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 최근 평가가 요구한 범위가 본문 확장이 아니라 관리 표면 동기화뿐임을 확인했다.
+- 정리: Feedback 본문은 그대로 두고, `agent-wiki/content/docs/maintenance/source-mapping.mdx`의 Feedback 행을 `관찰표 모델 압축 반영 확인` 상태로 갱신했다.
+- 선호 신호: 안정 단계의 Feedback 노트는 해석을 더 붙이기보다 mapped 본문과 source-mapping의 확인 시각·상태 문구를 같이 맞추는 편이 안전하다.
+- 드리프트 점검: 외부 링크, Infinity 산출물, `human-reviews/` 복사는 새로 추가하지 않았고 기존 Feedback 본문만 기준으로 확인했다.
+
+## 2026-06-18 07:26 UTC | Marketing/Brand Operations 외부 YouTube 소스 수집
+
+- 수집 범위: 채널톡 YouTube 영상 `2년차에 100억대 매출, 세터 대표가 매일 확인하는 4가지 지표`를 `source/external-links/marketing/2026-06-18-youtube-satur-repeat-purchase-brand.md`로 보관했다.
+- 처리: `mac-cdp` 브라우저로 재생 가능성과 한국어 자막 트랙 존재를 확인했으나 timedtext 본문은 빈 응답이어서, Gemini direct video understanding 요약을 소스 노트에 정리했다.
+- 핵심 신호: 초기 브랜드는 awareness/브랜딩보다 상품력, 재구매율, 기존 고객 접점, 고객의 자발적 태그/자부심 신호를 먼저 봐야 한다.
+- 후속 후보: [[mapped/Integration/Marketing]], [[mapped/deep-knowledge/product]], 나래/SmartStore 검증 지표 설계에 필요한 경우 좁게 승격한다.
+
 ## 2026-06-17 07:17 UTC | Health/Decision 인접 링크 표면 보정
 
 - 갱신 범위: [[mapped/Health/Decision]] 1개 페이지만 최근 비마케팅 mapped 점검 기준에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping`의 Decision 확인 문구를 갱신했다.
@@ -1670,3 +1693,54 @@ fatal: Not possible to fast-forward, aborting.
 - 정리: 같은 deep-knowledge 폴더의 `Infra`, `Container`, `Monitoring`, `Cloud` 링크는 그대로 두고, 다른 폴더에 있는 `Architecture`, `Coding`, `AGENTS` 링크만 명시 경로와 표시명을 함께 넣어 publish 라우팅의 모호성을 줄였다.
 - 선호 신호: 안정된 DevOps 노트에서는 새 해석을 더하기보다, 경로 기반 라우팅에서 깨질 수 있는 인접 링크만 좁게 고정하는 편이 적합하다.
 - 드리프트 점검: source-mapping은 이미 1:1 대응 상태라 변경하지 않았고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+## 2026-06-19 21:17 UTC | Communication/Feedback 관찰표 모델 압축
+
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 최근 평가의 `관찰표 모델 1개 압축`과 링크 표면 보정 요청에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Feedback 노트가 리뷰 기법 일반론보다 신호를 다음 행동으로 되돌리는 Communication 회로를 다룬다는 점을 재확인했다.
+- 정리: 길게 누적돼 있던 외부/Infinity 연결을 `기대 / 결과 / 막힘 / 다음 행동` 관찰표 모델 1개로 접고, 본문과 표 안의 남은 wikilink를 독자용 `/docs/...` Markdown 링크로 바꿨다.
+- 선호 신호: 안정 단계의 Feedback 노트에서는 새 사례를 더 붙이기보다 첫 사용자 반응을 짧은 판독문으로 읽게 하는 해석면 하나를 남기는 편이 적합하다.
+- 드리프트 점검: source-mapping 1:1 행은 이미 최신 상태라 건드리지 않았고, 보조 산출물도 Infinity 항목 1개만 유지했다.
+
+## 2026-06-20 18:17 UTC | Deep Knowledge/AI 문서 기반 위임 운영 모델 압축
+
+- 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 최근 평가의 `반복 연결 문장 압축` 요청에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, AI 노트의 중심이 새 해석 추가보다 `개념 → 위임 → 문서화 → 검증 → 운영` 사다리와 현장 사례를 붙여 두는 데 있음을 재확인했다.
+- 정리: 중복되던 카테고리 설명, 자연어 인터페이스 메타 해설, 인접 노드 연결 재서술을 접고, `자연어를 우리의 툴로 연결한다`, `최종 go/no go 판단은 사람이 적는다`, `결정만 하면 되는 구조` 같은 원문 문장을 제품 판단 문단에 더 가깝게 붙였다.
+- 선호 신호: 안정 단계의 AI 노트에서는 인접 노드 설명을 여러 번 반복하기보다 문서 기반 위임 운영 모델과 원문 고유 사례를 바로 맞닿게 두는 편이 토큰 효율과 재사용성이 높다.
+- 드리프트 점검: source-mapping 1:1 행은 이미 최신 상태라 건드리지 않았고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+## 2026-06-20 21:17 UTC | Integration/Marketing seeded proof 온보딩 연결 압축
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 외부 연결 구간을 최신 외부 링크 1건 기준으로 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Marketing 노트의 중심이 채널 추가보다 `첫 가치 확인 이전에 무엇을 보여 줘야 하는가`를 정하는 사용자 흐름 판독이라는 점을 재확인했다.
+- 정리: 길게 누적돼 있던 activation·PLG·Infinity 연결을 걷어내고, `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md` 1건만 남겨 empty state에서 CTA보다 seeded proof가 먼저 보여야 하는지로 압축했다.
+- 선호 신호: 안정 단계의 Marketing 노트에서는 외부 성장 이론을 더 붙이기보다, 원문의 `무료 활성사용자`를 빈 상태에서 결과를 먼저 상상하게 하는가라는 단일 질문으로 다시 읽는 편이 재사용성이 높다.
+- 드리프트 점검: source-mapping 1:1 행은 이미 최신 상태라 건드리지 않았고, 보조 자료도 외부 링크 1건만 유지했다.
+## 2026-06-22 17:17 UTC | Deep Knowledge/AI source-mapping 관리 문구 정렬
+
+- 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 최근 평가의 `source-mapping 확인 문구 정렬` 요청에 맞춰 관리 표면을 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Deep Knowledge/AI.md` 전체와 기존 mapped 노트 전체를 다시 읽고, AI 노트의 중심이 새 해석 추가보다 `개념 → 위임 → 문서화 → 검증 → 운영` 사다리를 문서 기반 위임 운영 모델로 붙여 두는 데 있음을 재확인했다.
+- 정리: mapped 본문은 더 늘리지 않고 유지했다. `source-mapping`의 AI 행만 2026-06-20 18:17 UTC 본문 상태와 맞도록 `문서 기반 위임 운영 모델 압축` 기준으로 현재화했다.
+- 선호 신호: 안정 단계의 AI 노트에서는 새 개념을 더 붙이기보다, 최근 압축된 판단 모델이 공개 본문과 관리 표면에서 같은 문구로 보이게 맞추는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스, Infinity 산출물, `human-reviews/` 복사는 사용하지 않았다.
+
+## 2026-06-22 16:17 UTC | Integration/Marketing seeded proof 첫 가치 판정 문구 정렬
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 최근 평가의 `source-mapping 확인 문구 정렬` 요청에 맞춰 아주 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Marketing 노트의 중심이 채널 확장보다 `무료 활성사용자`를 첫 가치 확인 장치로 판독하는 데 있음을 다시 확인했다.
+- 정리: 외부/실행 산출물 연결 문단에서 seeded proof를 `전환 설득 이전의 가치 확인 장치`이자 `무료 활성사용자` 판정면으로 한 문장 더 가깝게 붙였고, `source-mapping`의 Marketing 행도 같은 상태 문구로 현재화했다.
+- 선호 신호: 안정 단계의 Marketing 노트에서는 새 성장 해석을 더 붙이기보다, 최근 외부 연결이 실제로 어떤 첫 가치 판정 질문을 선명하게 만드는지만 관리 표면과 함께 맞추는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 기존 원본을 기준으로 읽었고, 보조 자료도 이미 연결된 외부 링크 1건만 유지했다.
+## 2026-06-22 21:17 UTC | Fundamental/Infra 외부 비용 점수판 연결
+
+- 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 fallback 외부 링크 1건과의 직접 연결이 분명한 범위에서 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트의 중심이 서비스별 AWS 지식 확장보다 `숨은 경계 비용과 운영 부담을 어떻게 읽는가`에 있음을 재확인했다.
+- 정리: `source/external-links/notion-social-media-content/items/2026-05-05-tech.buzzvil.com-AWS-비용-최적화-Part-1-버즈빌은-어떻게-월-1억-이상의-AWS-비용을-절약할-수-있었.md` 1건만 사용해 `외부/실행 산출물 연결` 문단을 추가하고, 데이터 전송·NAT·리전 간 이동 같은 경계 비용을 `드릴다운 가능한 점수판`으로 먼저 끌어올리는 운영 습관으로 압축했다.
+- 선호 신호: 안정 단계의 Infra 노트에서는 새 AWS 서비스를 더 붙이기보다, 숨은 비용을 `인스턴스 가격표 밖의 경계 비용`으로 판독하게 만드는 보조 사례 1건만 얇게 연결하는 편이 재사용성이 높다.
+- 드리프트 점검: source-mapping 1:1 행은 이미 최신 상태라 건드리지 않았고, Infinity 산출물과 `human-reviews/` 복사는 사용하지 않았다.
+## 2026-06-23 12:17 UTC | Fundamental/Infra source-mapping 관리 문구 정렬
+
+- 갱신 범위: [[mapped/Fundamental/Infra]] 1개 노트의 관리 표면만 최근 평가 리캡 요청에 맞춰 아주 좁게 정렬했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 본문은 이미 `외부 비용 점수판 연결` 판단을 안정적으로 담고 있음을 재확인했다.
+- 정리: mapped 본문은 더 늘리지 않고 유지했다. `source-mapping`의 Fundamental/Infra 행만 현재 상태에 맞춰 `외부 비용 점수판 연결 확인` 문구로 현재화했다.
+- 선호 신호: 최근 평가가 관리 표면 정렬을 요구할 때는 본문 재해석보다 `source-mapping`과 공개 본문의 상태 문구를 같은 폭으로 맞추는 편이 안전하다.
+- 드리프트 점검: 외부 링크, Infinity 산출물, `human-reviews/` 복사는 추가로 사용하지 않았다.

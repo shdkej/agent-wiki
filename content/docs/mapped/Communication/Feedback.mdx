@@ -32,7 +32,7 @@ title: "Feedback"
 
 ## 만다라트 위치에서 읽기
 
-`Communication > Feedback`은 리뷰 기법 노드가 아니다. [[Talk]]가 대화 순간의 수신 상태를 만들고, [[Teamwork]]가 팀 안에서 상태 패키지를 넘긴다면, `Feedback`은 그 뒤에 돌아온 반응을 어떻게 다시 행동과 기준으로 연결할지 묻는다. 그래서 이 노드는 사람 사이의 말, 시스템의 상태 신호, 탐구 과정의 중간 점검, 생활 루틴의 회고를 같은 구조 안에 둔다.
+`Communication > Feedback`은 리뷰 기법 노드가 아니다. [Talk](/docs/mapped/Communication/Talk) 가 대화 순간의 수신 상태를 만들고, [Teamwork](/docs/mapped/Communication/Teamwork) 가 팀 안에서 상태 패키지를 넘긴다면, `Feedback`은 그 뒤에 돌아온 반응을 어떻게 다시 행동과 기준으로 연결할지 묻는다. 그래서 이 노드는 사람 사이의 말, 시스템의 상태 신호, 탐구 과정의 중간 점검, 생활 루틴의 회고를 같은 구조 안에 둔다.
 
 ## 중심 모델: 수집 / 선별 / 해석 / 재호출
 
@@ -45,15 +45,9 @@ title: "Feedback"
 
 이 네 단계가 닫히지 않으면 피드백은 자료 창고, 알림 폭탄, 좋은 회고, 잊힌 가이드 중 하나로 흩어진다. 원문이 계속 묻는 것은 `피드백이 있었는가`보다 `그 신호가 실제 수정이나 다음 행동으로 돌아왔는가`다.
 
-## 외부/실행 산출물 연결: 첫 사용자 이유와 행동 순서
+## 외부/실행 산출물 연결
 
-외부 링크 `source/external-links/marketing/2026-06-11-onboarding-feedback-loop.md`는 온보딩 실패를 전환율 숫자보다 `무엇을 기대했나 / 원하던 것을 얻었나 / 무엇이 막았나` 같은 이유 데이터로 먼저 읽으라고 정리한다. 이 자료는 Marketing 주제를 새로 넓히기보다, 이 페이지의 `수집 / 선별 / 해석 / 재호출` 모델 중 `해석` 칸을 선명하게 한다. 초기 사용자 수가 작을 때는 `어디서 이탈했는가`보다 `정상 종료, 혼란, 가치 미전달, 기대 불일치 중 무엇이었는가`를 구분해야 다음 안내나 제품 행동을 바꿀 수 있다. 따라서 피드백 루프의 좋은 단위는 숫자 하나가 아니라, 사용자가 기대한 결과와 실제로 얻은 결과 사이의 차이를 다음 질문으로 되돌리는 짧은 판독문이다.
-
-Infinity 산출물 `infinity/artifacts/marketing-54/virtue-first-10-expectation-outcome-blocker-loop-audit.md`는 이 판단을 관찰표 수준으로 한 칸 더 좁힌다. `Expected / Acquired / Blocked / Exit class`를 별도 필드로 두면, 저장하지 않은 사용자를 곧바로 실패로 분류하지 않고 `정상 완료`, `혼란`, `가치 미전달`, `이미 충분함`, `마찰·프라이버시 우려` 중 어디에 가까운지 읽을 수 있다. 이 보강은 새 계측이나 자동 알림보다 먼저, 사람이 첫 사용자 반응을 다음 질문으로 번역하는 해석면을 안정화하는 용도다.
-
-외부 링크 `source/external-links/marketing/2026-06-12-plg-activation-measurement.md`는 PLG의 activation을 가입 수가 아니라 핵심 가치를 처음 경험한 행동 신호로 보라고 정리한다. 이 자료는 Marketing 지표를 이 페이지로 옮기기보다, 피드백의 `선별`과 `해석` 사이에 필요한 금지선을 보강한다. 작은 표본에서는 지금 셀 수 있는 값, 사람이 직접 읽어야 하는 이유 데이터, 아직 판단하면 안 되는 후행 지표를 분리해야 한다. 그래야 피드백 회로가 숫자를 더 많이 모으는 장치가 아니라, 다음 행동을 바꿀 만큼 충분히 의미 있는 신호만 승격하는 장치가 된다.
-
-Infinity 산출물 `infinity/artifacts/marketing-64/virtue-early-behavior-intent-sequence-columns.md`는 같은 금지선을 행동 순서까지 확장한다. `deed_saved`, `deed_judged` 같은 단일 이벤트는 무엇이 일어났는지를 알려 주지만, 첫 탐색 화면, 멈춘 화면, 건너뛴 행동, 저장 뒤 다음 행동을 함께 보면 사용자가 무엇을 의도했고 어디서 마찰을 만났는지 낮은 확신으로 읽을 수 있다. 이 연결은 새 이벤트나 대시보드를 만들자는 뜻이 아니라, 원문의 `피드백을 받을 수 있는 형태로 정제해서 진행`한다는 기준을 first-10 관찰표에 적용하는 방식이다.
+Infinity 산출물 `infinity/artifacts/marketing-54/virtue-first-10-expectation-outcome-blocker-loop-audit.md`는 이 노드의 `해석` 단계를 `기대 / 결과 / 막힘 / 다음 행동` 관찰표 1개로 압축해 준다. 초기 사용자 반응을 볼 때 `Expected / Acquired / Blocked / Exit class`를 따로 적어 두면, 신호를 단순 실패나 전환율 숫자로 평탄화하지 않고 `무엇을 기대했는가`, `실제로 무엇을 얻었는가`, `어디서 막혔는가`, `그래서 다음에 무엇을 물어보거나 바꿀 것인가`를 한 번에 읽을 수 있다. 이 보강은 Marketing 해석을 늘리는 용도가 아니라, 원문의 `피드백을 받을 수 있는 형태로 정제해서 진행` 기준을 첫 사용자 반응 판독면에 그대로 적용하는 작은 모델이다.
 
 ## 1. 수집: 신호가 생기는 표면을 넓게 본다
 
@@ -67,7 +61,7 @@ Infinity 산출물 `infinity/artifacts/marketing-64/virtue-early-behavior-intent
 4. 정리한다.
 5. 검증한다.
 
-여기서 탐구는 단순 자료 수집이 아니라 질문 자체를 조정하는 피드백 루프다. `피드백을 빨리 받아서 고치는 방법`, `어떤 방식으로, 어떤 주기로, 어떤 내용을 주면 좋을지` 같은 시작 질문은 너무 넓고, 검색어와 사례를 모으면서 점점 작게 잘라야 한다. 이 점은 [[../Integration/Exploration]]의 탐구 운영 감각과 직접 이어진다.
+여기서 탐구는 단순 자료 수집이 아니라 질문 자체를 조정하는 피드백 루프다. `피드백을 빨리 받아서 고치는 방법`, `어떤 방식으로, 어떤 주기로, 어떤 내용을 주면 좋을지` 같은 시작 질문은 너무 넓고, 검색어와 사례를 모으면서 점점 작게 잘라야 한다. 이 점은 [Exploration](/docs/mapped/Integration/Exploration) 의 탐구 운영 감각과 직접 이어진다.
 
 ## 2. 선별: 빠른 신호와 방해 신호를 나눈다
 
@@ -96,7 +90,7 @@ Infinity 산출물 `infinity/artifacts/marketing-64/virtue-early-behavior-intent
 
 이 순서는 시스템뿐 아니라 사람 피드백에도 적용된다. 상대가 계속 움직일 수 있는지, 진행 속도가 부담스럽지 않은지, 막힌 지점이 어디인지, 다음에 무엇을 도와야 하는지를 물으면 피드백은 평가 문장보다 다음 행동을 여는 대화가 된다.
 
-5F도 같은 역할을 한다. `fact, feeling, finding, future, feedback`은 사실만 던져 차갑게 만들거나, 감정만 남겨 흐리게 만드는 일을 막는다. 피드백은 사실, 감정, 발견, 다음 방향이 함께 있어야 상대가 다시 움직일 수 있다. 이 점에서 Feedback은 [[Talk]]의 수신 안정과 [[Teamwork]]의 공개 기록·실패 공유 감각 사이에 놓인다.
+5F도 같은 역할을 한다. `fact, feeling, finding, future, feedback`은 사실만 던져 차갑게 만들거나, 감정만 남겨 흐리게 만드는 일을 막는다. 피드백은 사실, 감정, 발견, 다음 방향이 함께 있어야 상대가 다시 움직일 수 있다. 이 점에서 Feedback은 [Talk](/docs/mapped/Communication/Talk) 의 수신 안정과 [Teamwork](/docs/mapped/Communication/Teamwork) 의 공개 기록·실패 공유 감각 사이에 놓인다.
 
 원문 말미의 request/response 메모도 작지만 중요하다. 입력값과 출력값을 나눈다는 것은 `무엇을 조정하려고 넣었는가`와 `무엇을 관측해 다음 입력을 바꿀 것인가`를 분리하는 일이다. 요청이 모호하면 응답도 해석하기 어렵고, 응답면이 빈약하면 실제 변화가 있었는지 확인할 수 없다.
 
@@ -108,7 +102,7 @@ Infinity 산출물 `infinity/artifacts/marketing-64/virtue-early-behavior-intent
 - 어느 장소에 가서 해야 할 일을 다시 기억해야 한다.
 - 집에 가면 할 일이 떠올라야 한다.
 
-이 메모 덕분에 피드백은 평가론에서 생활 운영 장치로 확장된다. 하루 회고, 프로젝트 회고, 모니터링 대시보드, 체크리스트, 장소 트리거는 모두 `나중에 같은 실수를 덜 하게 만드는 호출 표면`이다. 이 부분은 [[../Health/Routine]]과 [[../blog/Life_Tracking]] 쪽으로도 이어질 수 있다.
+이 메모 덕분에 피드백은 평가론에서 생활 운영 장치로 확장된다. 하루 회고, 프로젝트 회고, 모니터링 대시보드, 체크리스트, 장소 트리거는 모두 `나중에 같은 실수를 덜 하게 만드는 호출 표면`이다. 이 부분은 [Routine](/docs/mapped/Health/Routine) 과 [Life Tracking](/docs/mapped/blog/Life_Tracking) 쪽으로도 이어질 수 있다.
 
 ## 보존할 판단 체크
 
@@ -124,10 +118,10 @@ Infinity 산출물 `infinity/artifacts/marketing-64/virtue-early-behavior-intent
 
 | 역할 묶음 | 연결 노드 | Feedback에서 맡는 역할 |
 | --- | --- | --- |
-| 사람 수신 | [[Talk]] · [[Teamwork]] | 피드백이 도착하기 전에 상대가 들을 수 있는 상태를 만들고, 실패 공유·진행상황 보고를 팀의 상태 전달 회로로 만든다 |
-| 기록 전환 | [[Document]] | 피드백을 개인 감각에 묻지 않고 다음 사람이 다시 찾을 기록으로 남긴다 |
-| 시스템 관측 | [[../deep-knowledge/monitoring]] · [[../Meta/Troubleshooting]] | 로그, 메트릭, 알림, 증상 확인, 수정 후 재검증을 `기록 신호 / 확인 신호 / 깨우는 알림`으로 나눈다 |
-| 탐구·생활 재호출 | [[../Integration/Exploration]] · [[../Health/Routine]] · [[../blog/Life_Tracking]] | 검색어 확장, 검증 루프, 하루 회고, 장소·시간 트리거를 다음 행동을 부르는 표면으로 돌린다 |
+| 사람 수신 | [Talk](/docs/mapped/Communication/Talk) · [Teamwork](/docs/mapped/Communication/Teamwork) | 피드백이 도착하기 전에 상대가 들을 수 있는 상태를 만들고, 실패 공유·진행상황 보고를 팀의 상태 전달 회로로 만든다 |
+| 기록 전환 | [Document](/docs/mapped/Communication/Document) | 피드백을 개인 감각에 묻지 않고 다음 사람이 다시 찾을 기록으로 남긴다 |
+| 시스템 관측 | [Monitoring](/docs/mapped/deep-knowledge/monitoring) · [Troubleshooting](/docs/mapped/Meta/Troubleshooting) | 로그, 메트릭, 알림, 증상 확인, 수정 후 재검증을 `기록 신호 / 확인 신호 / 깨우는 알림`으로 나눈다 |
+| 탐구·생활 재호출 | [Exploration](/docs/mapped/Integration/Exploration) · [Routine](/docs/mapped/Health/Routine) · [Life Tracking](/docs/mapped/blog/Life_Tracking) | 검색어 확장, 검증 루프, 하루 회고, 장소·시간 트리거를 다음 행동을 부르는 표면으로 돌린다 |
 
 ## 후속 정리 기준
 
