@@ -1,3 +1,11 @@
+## 2026-06-24 09:17 UTC | Integration/Marketing 상단 상태 줄과 source-mapping 정합성 보정
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 최근 평가의 상단 상태 줄 정합성 요청에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping`의 확인 문구를 현재 기준으로 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Marketing 노트가 채널 목록보다 `첫 가치 확인 -> 전환 설득 -> 제품/CRM 조정` 사이의 사용자 이동을 다루는 Integration 노드임을 재확인했다.
+- 정리: frontmatter `updated`를 2026-06-24로 갱신하고, mapped 상단을 `원본 / 대응 페이지 / 역할 / 상태` 네 줄 관리 표면으로 통일했다. 상태 문구는 최근 평가가 요구한 `첫 피드백 정합성 기반 활성화 깊이` 기준으로 맞췄다.
+- 선호 신호: 안정 단계의 Marketing 노트는 해석을 더 붙이기보다, 외부 산출물이 이미 본문에 흡수된 판단판을 어떻게 더 좁고 명확한 상태 문구로 드러내는지 관리하는 편이 적합하다.
+- 드리프트 점검: 본문 해석과 외부 연결 단락은 늘리지 않았고, `source-mapping` 외 관리 표면은 건드리지 않았다.
+
 ## 2026-06-24 08:18 UTC | Meta/AGENTS 로컬 기록면 handoff 기준 연결
 
 - 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 최근 external-link 1건을 바탕으로 `외부/실행 산출물 연결` 문단을 좁게 추가했다.
