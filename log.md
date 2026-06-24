@@ -1,3 +1,11 @@
+## 2026-06-24 00:17 UTC | Fundamental/Infra source-mapping 확인 문구 정합화
+
+- 갱신 범위: [[mapped/Fundamental/Infra]] 본문은 다시 수정하지 않고, 관리 표면인 `source-mapping`의 Infra 확인 문구만 최근 평가 기준에 맞춰 좁게 조정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Fundamental/Infra.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 현재 본문이 `겉가격보다 경계 비용`, `현재 상태의 주인`, `대표 표면` 축을 이미 안정 디벨롭 상태로 유지하고 있음을 확인했다.
+- 정리: `source-mapping`의 Infra 행을 `외부 비용 점수판 연결 상태 반영` 문구로 맞춰, 최근 평가가 요구한 관리 표면의 현재 상태를 직접 보이도록 했다.
+- 선호 신호: 안정 단계의 Infra 노트는 본문에 새 해석을 더하기보다, 외부 산출물 연결이 이미 판단 모델로 압축되어 있으면 source-mapping 같은 관리 표면만 현재 상태에 맞춰 갱신하는 편이 적합하다.
+- 드리프트 점검: mapped 본문, 외부 링크 원문, `human-reviews/` 복사는 수정하지 않았다.
+
 ## 2026-06-23 12:17 UTC | Fundamental/Infra source-mapping 관리 문구 정렬
 
 - 갱신 범위: [[mapped/Fundamental/Infra]] 1개 노트의 관리 표면만 최근 평가 리캡 요청에 맞춰 아주 좁게 정렬했다.
