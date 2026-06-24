@@ -1,3 +1,11 @@
+## 2026-06-24 03:17 UTC | Communication/Feedback 상태 줄 최신 평가 기준 정렬
+
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 최근 평가가 지정한 상단 상태 줄 표현을 현재 관리 기준에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트가 피드백 일반론보다 신호를 다음 행동으로 되돌리는 `수집 / 선별 / 해석 / 재호출` 회로를 중심에 둔다는 점을 재확인했다.
+- 정리: 본문 해석은 늘리지 않고, 오래된 `초기 행동 시퀀스 판독 연결` 상태 문구를 최근 평가와 source-mapping이 이미 쓰는 `관찰표 모델 압축 반영` 기준으로 맞췄다.
+- 선호 신호: 최근 평가가 좁게 지시한 경우에는 안정된 mapped 본문을 다시 해석하기보다 상단 관리 문구와 실제 관리 표면을 먼저 일치시키는 편이 적합하다.
+- 드리프트 점검: source-mapping은 이미 같은 표현으로 최신화되어 있어 건드리지 않았고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-24 02:17 UTC | Communication/Blogging 기록-출판 편집 루프 연결
 
 - 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 최근 Infinity 산출물 연결 문단으로 좁게 보강했다.
