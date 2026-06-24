@@ -1,3 +1,11 @@
+## 2026-06-24 21:17 UTC | Human/Balance 독자용 링크 표면 정리
+
+- 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 최근 평가가 요청한 남은 wikilink 정리에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Balance.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 본문 해석과 `source-mapping` 정합성은 이미 안정적이며 남은 과제가 공개 표면 링크 형식 보정뿐임을 확인했다.
+- 정리: 해석 문단은 더 붙이지 않고, 본문 안의 `Evolve`, `Principle`, `Standard`, `Work`, `Readability`, `Reality`, `Future` 연결만 독자용 `/docs/...` 링크와 표시명으로 통일했다.
+- 선호 신호: 최근 평가가 좁은 링크 표면 보정을 지시한 안정 노트는 새 비교축을 더하기보다 공개 표면에서 바로 읽히는 연결 형식만 고정한 뒤 다른 노드로 이동하는 편이 적합하다.
+- 드리프트 점검: 외부 링크, Infinity 산출물, `human-reviews/`, 다른 mapped 노트와 `source-mapping`은 이번 런에서 수정하지 않았다.
+
 ## 2026-06-24 17:17 UTC | Communication/Blogging 관리 표면 정합성 갱신
 
 - 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 최근 평가가 요청한 관리 표면 정합성으로 좁게 수정하고, `source-mapping`의 Blogging 확인 문구를 함께 맞췄다.
