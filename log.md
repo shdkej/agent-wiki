@@ -1,3 +1,11 @@
+## 2026-06-24 04:17 UTC | Integration/Marketing 첫 피드백 정합성으로 활성화 깊이 재고정
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 최근 external-link 1건을 바탕으로 `외부/실행 산출물 연결` 문단을 좁게 교체했다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Marketing.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트의 중심이 채널 확장보다 `첫 가치 확인 -> 다음 가치 이동`을 만드는 접점 설계에 있음을 재확인했다.
+- 정리: `source/external-links/marketing/2026-06-23-first-week-feedback-consistency.md`를 연결해, activation을 속도 지표보다 `저장됨/누적됨/다음 행동`이 같은 현실을 말하는 첫 피드백 정합성 문제로 압축했다.
+- 선호 신호: Marketing 노트에서 보조 산출물은 새 퍼널 이론을 늘리기보다, 첫 행동 직후 어떤 proof surface가 canonical feedback인지와 그 표면들이 서로 모순되지 않는지를 판정하는 기준으로 흡수하는 편이 적합하다.
+- 드리프트 점검: `source-mapping`은 이미 최신 1:1 대응 상태라 건드리지 않았고, 이번 적용에는 external-link 1건만 보조 산출물로 사용했다.
+
 ## 2026-06-24 03:17 UTC | Communication/Feedback 상태 줄 최신 평가 기준 정렬
 
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 최근 평가가 지정한 상단 상태 줄 표현을 현재 관리 기준에 맞춰 좁게 수정했다.
