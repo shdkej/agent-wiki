@@ -1,3 +1,11 @@
+## 2026-06-25 01:17 UTC | Communication/Feedback 상태 줄 정합화
+
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 최근 평가의 남은 상태 줄 정합성 지적에 맞춰 좁게 수정했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 사람 피드백·소프트웨어 신호·회고·재호출을 `수집 / 선별 / 해석 / 재호출` 회로로 묶는 현재 구조가 이미 안정 단계임을 재확인했다.
+- 정리: 새 해석은 추가하지 않고, mapped 상단 상태 줄만 현재 `관찰표 모델 압축 반영` 기준에 맞게 날짜형 확인 문구 대신 안정 상태 문구로 정리했다.
+- 선호 신호: 안정된 Feedback 노트에서는 실행 산출물 연결을 더 늘리기보다 공개 본문 상단 관리 문구를 현재 판단 모델과 일치시키는 편이 적합하다.
+- 드리프트 점검: source-mapping 행은 이미 최근 확인 문구와 맞아 추가 수정하지 않았고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-24 22:18 UTC | Integration/Marketing 관리 표면 재정렬
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 최근 평가가 요청한 관리 표면 정합성 범위로 좁게 수정하고, `source-mapping`의 Marketing 행을 함께 맞췄다.
