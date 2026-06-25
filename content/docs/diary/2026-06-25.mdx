@@ -2,7 +2,7 @@
 title: "2026-06-25"
 date: 2026-06-25
 type: diary
-last_sync: 2026-06-25T13:42:22+09:00
+last_sync: 2026-06-25T14:12:51+09:00
 ---
 
 # 2026-06-25
@@ -19,11 +19,19 @@ last_sync: 2026-06-25T13:42:22+09:00
 | 4 | ax-terraform | 10:33 | DNS forward 불가·NS 위임 재검토 상황으로 코드 정리 및 커밋, 망 연결 후 pod에서 auth.purple.io 직접 접근/IP 오픈 검토 |
 | 5 | purple-auth | 10:36 | SAML Entity ID 및 Azure AD federation metadata XML 설정 단계 순서 확인 |
 | 6 | ax-terraform | 10:39 | purpleio-dev 망 DB 마이그레이션 스크립트를 kolon-ax v2로 이관(재실행), koco 소스 받아 로그인 |
-| 7 | ax-terraform | 11:40 | `/simplify`로 cleanup 에이전트 4개 병렬 실행 후 envs 전체 내용 정리 적용 |
-| 8 | ax-terraform | 13:26 | envs 전체 내용 정리 후 메인 푸시 및 작업 브랜치를 메인으로 전환 |
+| 7 | ax-terraform | 11:28 | 변경사항 커밋, DNS forward 불가·NS 위임 재검토 상황으로 코드 정리, 망 연결 후 pod에서 auth.purple.io 접근 및 오픈할 IP 검토 |
+| 8 | purple-auth | 11:29 | SAML SP Identifier(Entity ID) 설정, 화면상 1·2단계 순서 확인, federation metadata XML 적용 |
+| 9 | ax-terraform | 11:40 | `/simplify`로 cleanup 에이전트 4개 병렬 실행 후 envs 전체 내용 정리 적용 |
+| 10 | ax-terraform | 13:26 | envs 전체 내용 정리 후 메인 푸시 및 작업 브랜치를 메인으로 전환 |
+| 11 | ax-terraform | 13:51 | db 마이그레이션 스크립트 점검, purpleio-dev 망 스크립트를 kolon-ax v2로 이관(기 1회 수행), 소스 받아 koco 로그인 |
+| 12 | ax-terraform | 13:51 | `/simplify` cleanup 에이전트 4개 병렬 실행, envs 전체 정리, 메인 푸시 및 브랜치 메인 전환 |
+| 13 | purple-auth | 14:03 | SAML SSO 오류 점검 |
+| 14 | purple-auth | 14:12 | grafana는 purple-auth 연동됐으나 gitlab 미연동 원인 확인, OIDC 방식 gitlab 연동 방법 검토 |
+| 15 | ax-terraform | 14:12 | envs 90번대 불필요 항목 최신 정리, 포워딩 미수신 상태 확인, auto approve 실행, 메모리·team-ax-holdings 노성호 wiki 업데이트 |
 
 ### 기타
 
 - 09:05 — Obsidian AX wiki: Update Config Skill 문서 작성
 - 09:28 — AX holdings wiki: diary·ax-terraform 기준 Update Config Skill 문서 최신화, DNS 플랜B(유사도메인) 정합성 검토
 - 10:22 — AX holdings wiki: Update Config Skill 문서를 오늘 버전으로 최신화(diary·ax-terraform 기준), DNS 플랜B 유사도메인 정합성 검토
+- 14:12 — OIDC 개념 질의
