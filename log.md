@@ -1,3 +1,11 @@
+## 2026-06-25 05:17 UTC | Meta/AGENTS 관리 표면 동기화
+
+- 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 최근 평가가 지목한 관리 표면 정렬 범위로 좁게 수정하고, `source-mapping`의 AGENTS 행을 현재 상태로 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/AGENTS.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트의 중심이 새 에이전트 해석 추가보다 로컬 기록면과 handoff 기준을 문서 기반 협업 구조로 유지하는 데 있음을 재확인했다.
+- 정리: mapped frontmatter `updated`를 현재 날짜로 올리고 상단 상태 줄을 `로컬 기록면 handoff 기준 연결 유지`로 정리했다. `source-mapping`도 같은 표현과 현재 시각으로 맞췄다.
+- 선호 신호: 최근 평가가 이미 핵심 해석을 충분히 고정한 mapped 노트는 새 설명을 덧붙이기보다 상단 관리 문구와 매핑 표면을 현재 판단 문장으로 맞추는 정도가 적합하다.
+- 드리프트 점검: 외부 링크 소스, Infinity 산출물, `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-25 01:17 UTC | Communication/Feedback 상태 줄 정합화
 
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 최근 평가의 남은 상태 줄 정합성 지적에 맞춰 좁게 수정했다.
