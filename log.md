@@ -1,3 +1,11 @@
+## 2026-06-26 05:17 UTC | Meta/AGENTS 관리 표면 정렬
+
+- 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 최근 평가가 지목한 관리 표면 정렬에 맞춰 최소 수정했고, `source-mapping`의 대응 확인 문구를 함께 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/AGENTS.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트의 중심이 새 에이전트 해석 확장이 아니라 `역할 × 문서 × handoff` 운영 골격 유지에 있음을 재확인했다.
+- 정리: frontmatter `updated`를 현재 시각으로 갱신하고 상태 문구를 `안정 디벨롭 · 로컬 기록면 handoff 기준 연결`로 정렬했다. `source-mapping`의 AGENTS 행도 같은 기준 문구와 날짜로 맞췄다.
+- 선호 신호: 안정 단계의 AGENTS 노트는 새 해석을 덧붙이기보다, 상단 관리 문구와 대응 기록이 현재 운영 기준을 정확히 가리키는 쪽이 더 적합하다.
+- 드리프트 점검: 외부 링크 소스, Infinity 산출물, `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-25 21:17 UTC | Meta/AGENTS 반복 메타 축 압축
 
 - 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 최근 평가의 `반복되는 메타 설명` 지적에 맞춰 좁게 수정했다.
