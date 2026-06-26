@@ -5,7 +5,7 @@ tags: [mapped, meta, agents, orchestration, documentation]
 source_file: "[[source/shdkej-content/Meta/AGENTS.md]]"
 source_name: AGENTS
 created: 2026-04-14
-updated: 2026-06-26 05:17:00 UTC
+updated: 2026-06-26 21:17:00 UTC
 status: stable
 language: ko
 ---
@@ -23,7 +23,7 @@ language: ko
 원본에서 `AGENTS`는 모델 설정 메모이기 전에 "역할이 분리된 협업 시스템을 어떻게 문서 중심으로 운영할 것인가"에 대한 설계 노트다. 에이전트는 사람을 완전히 대체하는 존재라기보다, 브랜드·요구사항·기술 명세·히스토리 문서를 공유받고 각자 다른 전문 관점으로 작업하는 공동작업자에 가깝다. 따라서 이 노드의 중심은 프롬프트 기교보다 역할 분화, 공통 문서 기반, 맥락 전달, 추적 가능성, 다시 만들 수 있는 상태에 있다.
 
 ## 만다라트 위치에서 읽는 해석
-`Meta/AGENTS`는 단순히 AI 도구를 많이 붙이는 법을 적은 보조 메모가 아니다. `Meta` 축 안에서 이 노드는 다른 카테고리 노드들이 실제로 함께 굴러가게 만드는 **운영 오케스트레이션 노드**에 가깝다. [[mapped/Meta/About_Development]]가 개발자의 기본 태도와 설명 윤리를 붙들고, [[mapped/Communication/Document]]가 문서 표면의 분업 구조를 다룬다면, `AGENTS`는 그 둘을 위에서 다시 묶어 `누가 어떤 문서를 읽고 어떤 상태를 남기며 다음 역할로 넘길 것인가`를 설계한다. 즉 이 노드의 핵심은 에이전트 자체보다 `역할 × 문서 × handoff`의 교차점이다.
+`Meta/AGENTS`는 단순히 AI 도구를 많이 붙이는 법을 적은 보조 메모가 아니다. `Meta` 축 안에서 이 노드는 다른 카테고리 노드들이 실제로 함께 굴러가게 만드는 **운영 오케스트레이션 노드**에 가깝다. [Meta/About_Development](/docs/mapped/Meta/About_Development)가 개발자의 기본 태도와 설명 윤리를 붙들고, [Communication/Document](/docs/mapped/Communication/Document)가 문서 표면의 분업 구조를 다룬다면, `AGENTS`는 그 둘을 위에서 다시 묶어 `누가 어떤 문서를 읽고 어떤 상태를 남기며 다음 역할로 넘길 것인가`를 설계한다. 즉 이 노드의 핵심은 에이전트 자체보다 `역할 × 문서 × handoff`의 교차점이다.
 
 또 하나 중요한 점은 원문 첫 줄이 이미 `리더`를 중심에 두고 그 아래에 `기획자-개발자-디자인-마케터-운영자`를 배치한다는 사실이다. 만다라트식으로 보면 이는 수평적인 직무 목록이라기보다, **한 중심 의도에서 여러 실행 표면이 퍼져 나가고 다시 중앙 문서군으로 수렴하는 배치**에 가깝다. 따라서 이 페이지는 에이전트 개체 설명서보다 `중심 판단을 여러 역할 노드로 분산시키되 다시 합칠 수 있게 만드는 메타 허브`로 읽는 편이 더 정확하다.
 
@@ -184,7 +184,7 @@ language: ko
 - 내부 문서: 복원성과 역할 정렬을 담당
 - 외부 발행면: 고객 반응과 언어 감각을 되받아오는 센서를 담당
 
-그래서 리더 역할은 명령 배분자보다, 약한 고리를 공통 문서군으로 번역하고 어느 역할이 어떤 표면에서 해결해야 하는지 라우팅하는 조정자에 가깝다. [[mapped/Integration/Work]]가 개인 실행의 신뢰 회수를 다룬다면, `AGENTS`는 여러 역할 사이에서 그 신뢰 회수가 끊기지 않게 만드는 상위 운영층이다.
+그래서 리더 역할은 명령 배분자보다, 약한 고리를 공통 문서군으로 번역하고 어느 역할이 어떤 표면에서 해결해야 하는지 라우팅하는 조정자에 가깝다. [Integration/Work](/docs/mapped/Integration/Work)가 개인 실행의 신뢰 회수를 다룬다면, `AGENTS`는 여러 역할 사이에서 그 신뢰 회수가 끊기지 않게 만드는 상위 운영층이다.
 
 ## 오래 남길 아이디어
 - 좋은 멀티에이전트 시스템은 모델 수보다 공통 문서 구조가 먼저다.
@@ -244,13 +244,13 @@ language: ko
 이 표현은 메모의 밀도를 높인다. 사람 머릿속에만 있는 맥락을 줄이고, 에이전트와 사람이 번갈아 작업해도 이어질 수 있게 만드는 목표가 명확히 드러난다.
 
 ## 인접 노드 연결
-- [[mapped/Communication/Document]]: 문서 구조, 히스토리, 재진입 가능성을 함께 다룬다.
-- [[mapped/Communication/Teamwork]]: 역할 분화와 리더십, 맥락 전달, 성장 설계를 연결해 읽을 수 있다.
-- [[mapped/Deep Knowledge/Product]]: 브랜드, 사용자 가치, 문제 정의, 제품 방향 문서의 선행 조건과 맞닿아 있다.
-- [[mapped/Integration/Marketing]]: 고객 유입, 메시지, STP, 브랜드 DNA를 실제 시장 언어로 연결하는 축이다.
-- [[mapped/Communication/Blogging]]: 내부 위키 바깥의 발행 표면을 어떻게 운영 기억과 연결할지 읽는 데 도움이 된다.
-- [[mapped/Fundamental/Architecture]]: 문서만으로 다시 만들 수 있는 상태, 설계 기준, 운영 복원성이라는 점에서 이어진다.
-- [[mapped/Meta/About_Development]]: 개발의 기본, 설명 가능성, 협업 시 맥락 노출이라는 메타 감각과 연결된다.
+- [Communication/Document](/docs/mapped/Communication/Document): 문서 구조, 히스토리, 재진입 가능성을 함께 다룬다.
+- [Communication/Teamwork](/docs/mapped/Communication/Teamwork): 역할 분화와 리더십, 맥락 전달, 성장 설계를 연결해 읽을 수 있다.
+- [Deep Knowledge/Product](/docs/mapped/deep-knowledge/product): 브랜드, 사용자 가치, 문제 정의, 제품 방향 문서의 선행 조건과 맞닿아 있다.
+- [Integration/Marketing](/docs/mapped/Integration/Marketing): 고객 유입, 메시지, STP, 브랜드 DNA를 실제 시장 언어로 연결하는 축이다.
+- [Communication/Blogging](/docs/mapped/Communication/Blogging): 내부 위키 바깥의 발행 표면을 어떻게 운영 기억과 연결할지 읽는 데 도움이 된다.
+- [Fundamental/Architecture](/docs/mapped/Fundamental/Architecture): 문서만으로 다시 만들 수 있는 상태, 설계 기준, 운영 복원성이라는 점에서 이어진다.
+- [Meta/About_Development](/docs/mapped/Meta/About_Development): 개발의 기본, 설명 가능성, 협업 시 맥락 노출이라는 메타 감각과 연결된다.
 
 ## 선호 신호
 저자는 에이전트를 마법 같은 자동 생산 장치보다, 문서 기반 협업을 더 촘촘하게 만드는 역할별 공동작업자로 보는 경향이 강하다. 또한 단순 산출물 생성보다 약한 고리 보완, 고객 목소리 반영, 맥락 문서화, 다시 만들 수 있는 상태, 그리고 여러 역할 사이의 추적 가능한 연결 구조를 더 중요하게 여긴다. 특히 설정값이나 툴 목록만 남기는 것보다, 어떤 공통 문서가 기준점이 되고 어떤 역할 문서가 파생되는지까지 드러나는 설계를 더 선호하는 신호가 강하다.
