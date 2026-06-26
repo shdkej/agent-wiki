@@ -1,3 +1,11 @@
+## 2026-06-26 09:17 UTC | Communication/Feedback 상단 관리면 정렬
+
+- 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 최근 평가 리캡의 후속 지시에 맞춰 상단 관리면만 좁게 정렬했다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Feedback.md` 전체와 기존 mapped 노트 전체를 다시 읽고, Feedback 노트의 중심이 여전히 `수집 / 선별 / 해석 / 재호출` 회로와 `관찰표 모델` 압축에 있음을 재확인했다.
+- 정리: 본문 해석은 늘리지 않고 frontmatter `updated`를 현재 실행 시각으로 맞췄다. 상단 상태 줄 구분자도 다른 최근 mapped 노트와 같은 `·` 표기로 통일하고, `source-mapping`의 Feedback 확인 시각을 함께 갱신했다.
+- 선호 신호: 안정 단계의 Feedback 노트는 새 사례를 더 붙이기보다, 관찰표 모델처럼 이미 압축된 판단을 독자용 관리 표면과 같은 문구로 유지하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스, Infinity 추가 산출물, `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-26 05:17 UTC | Meta/AGENTS 관리 표면 정렬
 
 - 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 최근 평가가 지목한 관리 표면 정렬에 맞춰 최소 수정했고, `source-mapping`의 대응 확인 문구를 함께 맞췄다.
