@@ -1,3 +1,11 @@
+## 2026-06-27 05:17 UTC | Communication/Blogging 관리 표면 정렬
+
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 최근 평가 리캡의 후속 지시에 맞춰 최소 수정하고, 관리 표면인 `source-mapping` 날짜와 확인 문구를 현재 상태로 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드의 중심이 여전히 `기록-출판 편집 루프`와 내부 위키/외부 발행 경계에 있음을 재확인했다.
+- 정리: 본문 해석은 늘리지 않고 frontmatter `updated`만 현재 실행 시각으로 갱신했다. `source-mapping`의 Blogging 행도 같은 시각과 `기록-출판 편집 루프 연결` 확인 문구로 정렬했다.
+- 선호 신호: 안정 단계의 Blogging 노트는 새 사례를 더 붙이기보다, 공개 본문의 관리 시각과 source-mapping 확인 문구가 현재 핵심 판단을 같은 문장으로 가리키게 유지하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스, Infinity 추가 산출물, `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-27 01:17 UTC | Deep Knowledge/AI 상태 문구 정렬
 
 - 갱신 범위: [[mapped/deep-knowledge/ai]] 1개 페이지만 최근 평가의 상태 문구 정렬 포인트에 맞춰 최소 수정하고, 관리 표면인 `source-mapping` 날짜와 확인 문구를 현재 상태로 갱신했다.
