@@ -1,3 +1,11 @@
+## 2026-06-28 05:17 UTC | Communication/Blogging 관리 표면 재정렬
+
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 최근 평가의 후속 지시에 맞춰 좁게 점검하고, `source-mapping` 확인 시각과 상태 문구를 현재 기준으로 다시 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 블로깅 노트의 핵심이 새 글 양산보다 만다라트 안에서 기록을 발행 가능한 독자 경험으로 편집하는 루프에 있음을 재확인했다.
+- 정리: 새 해석을 추가하지 않았다. frontmatter `updated`, mapped 상단 상태 줄, `source-mapping`의 Blogging 확인 문구만 `기록-출판 편집 루프 연결 유지` 기준으로 정렬했다.
+- 선호 신호: 안정 단계의 Blogging 노트는 외부 사례를 더 붙이기보다, 위키와 블로그의 경계와 반복 편집 루프가 현재 관리 표면과 같은 언어로 보이게 유지하는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 기존 원본을 기준으로 읽었고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-28 01:17 UTC | Fundamental/Infra 작업 이력층 압축
 
 - 갱신 범위: [[mapped/Fundamental/Infra]] 1개 페이지만 좁게 수정하고, 관리 표면인 `source-mapping`의 확인 문구를 현재 상태에 맞춰 갱신했다.
