@@ -1,3 +1,11 @@
+## 2026-06-29 09:17 UTC | Human/Balance 관리 표면 정렬
+
+- 갱신 범위: [[mapped/Human/Balance]] 1개 페이지만 최근 평가가 남긴 관리 표면 차이를 좁게 정렬하고, `source-mapping` 날짜를 함께 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Human/Balance.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 본문 판단 축은 이미 안정적이며 이번 런에서 새 해석을 더할 필요가 없음을 확인했다.
+- 정리: mapped 상단 상태 줄을 현재 독자용 `/docs/...` 링크 표면 정리 상태로 맞추고, frontmatter `updated`와 `source-mapping` 확인 시각을 이번 점검 시각으로 갱신했다.
+- 선호 신호: 안정 단계의 Balance 노트는 새 대비쌍을 붙이기보다, 본문과 관리 표면이 같은 상태를 가리키는지부터 좁게 맞추는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스, Infinity 산출물, `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-29 05:18 UTC | Meta/My_space 본문 메타 지침층 제거
 
 - 갱신 범위: [[mapped/Meta/My_space]] 1개 페이지만 품질 폴리시 범위로 좁게 수정하고, `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
