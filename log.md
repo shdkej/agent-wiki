@@ -1,3 +1,11 @@
+## 2026-06-29 21:17 UTC | Communication/Blogging 관리 표면 정렬
+
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 최근 평가가 지정한 관리 표면 정렬 범위로 좁게 수정했고, `source-mapping` 확인 시각을 현재 상태에 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 블로깅 노트가 새 해석 확장보다 기록-출판 편집 루프를 안정적으로 드러내는 관리 표면 유지가 더 중요한 단계임을 재확인했다.
+- 정리: frontmatter `updated`와 mapped 상단 상태 줄을 현재 `기록-출판 편집 루프 연결 정렬` 상태로 맞췄고, `source-mapping`의 Blogging 개별 대응 행 시각도 함께 갱신했다.
+- 선호 신호: 안정 단계의 mapped 노트는 새 해석을 덧붙이기보다 상단 상태 문구와 source-mapping 확인 문구를 실제 본문 상태에 맞게 짧게 유지하는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스, Infinity 보조 산출물, `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-29 17:35 UTC | Communication/Teamwork 링크 표면과 상태 줄 정렬
 
 - 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 작은 품질 정리로 갱신하고, 관리 표면인 `source-mapping`의 대응 행을 현재 상태로 맞췄다.
