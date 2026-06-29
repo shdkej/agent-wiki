@@ -1,3 +1,11 @@
+## 2026-06-29 05:18 UTC | Meta/My_space 본문 메타 지침층 제거
+
+- 갱신 범위: [[mapped/Meta/My_space]] 1개 페이지만 품질 폴리시 범위로 좁게 수정하고, `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/My_space.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트의 중심이 개인 인프라 도구 목록보다 상태 전달·관측·복구가 이어지는 운영 공간 설계에 있음을 재확인했다.
+- 정리: 본문 해석은 늘리지 않고 말미의 `후속 정리 기준` 섹션만 제거해 독자용 본문에서 작업 지침성 메타 층을 걷어냈다. frontmatter `updated`와 `source-mapping`의 My_space 행도 같은 시각으로 맞췄다.
+- 선호 신호: 안정 단계의 My_space 노트는 새 인프라 해석을 더 붙이기보다, 본문 밖 운영 판단은 log와 관리 표면으로 보내고 공개 본문에는 상태 전달 경로 자체만 남기는 편이 적합하다.
+- 드리프트 점검: 외부 링크 소스, Infinity 산출물, `human-reviews/` 복사는 사용하지 않았고 변경은 mapped 1개와 관리 표면에 한정했다.
+
 ## 2026-06-29 01:17 UTC | Communication/Blogging 상태 문구 현재화
 
 - 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 최근 평가 리캡이 남긴 관리 표면 정렬 범위로 좁게 수정했다.
