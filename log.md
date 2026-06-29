@@ -1,3 +1,11 @@
+## 2026-06-29 17:17 UTC | Communication/Open_Source 독자용 링크 표면 정리
+
+- 갱신 범위: [[mapped/Communication/Open_Source]] 1개 페이지만 좁게 다듬고, 관리 표면인 `source-mapping`의 대응 행을 현재 상태로 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Open_Source.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트가 라이선스 개요보다 낯선 기여자와 사용자가 진입·검토·릴리즈를 신뢰할 수 있게 만드는 공개 협업 인터페이스를 다룬다는 점을 재확인했다.
+- 정리: 상단 상태 줄을 `안정 디벨롭 · 공개 협업 인터페이스 정리`로 맞추고, 본문의 작업 메타 문단은 걷어냈다. 남아 있던 wikilink를 독자용 `/docs/mapped/...` 링크로 바꿔 공개 표면에서 경로가 직접 읽히게 정리했다.
+- 선호 신호: 안정 단계의 Open_Source 노트에서는 새 해석을 더 붙이기보다, 이미 정리된 판단 축이 독자에게 깨지지 않게 링크 표면과 상태 문구를 먼저 맞추는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 기존 원본을 기준으로 읽었고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-29 13:17 UTC | Integration/Marketing 관리 표면 재정렬
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지만 최근 평가 리캡이 지정한 관리 표면 정렬 범위로 좁게 수정했다.
