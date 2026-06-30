@@ -1,3 +1,11 @@
+## 2026-06-30 17:17 UTC | Meta/AGENTS 상단 요약 압축과 handoff 기준 정렬
+
+- 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지만 최근 평가가 남긴 좁은 후속 과제에 맞춰 최소 수정하고, 관리 표면인 `source-mapping` 날짜와 확인 문구를 함께 정렬했다.
+- 탐구: 대응 원본 `source/shdkej-content/Meta/AGENTS.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노드의 핵심이 멀티에이전트 도구 목록보다 문서 기반 역할 분화와 handoff 복원성에 있음을 재확인했다.
+- 정리: frontmatter `updated`를 현재 시각으로 맞추고 상단 상태 줄을 `로컬 기록면 handoff 기준 정렬`로 단순화했다. `한눈에 보는 요약` 첫 문단은 같은 뜻의 반복을 줄여 중심 논지를 더 빨리 잡히게 압축했다.
+- 선호 신호: 안정 단계의 AGENTS 노트에서는 새 운영 이론을 더 붙이기보다, 상단 요약과 관리 표면이 현재 handoff 기준을 같은 문장으로 가리키게 맞추는 편이 적합하다.
+- 드리프트 점검: 대응 원본은 기존 원본을 기준으로 읽었고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-06-30 13:17 UTC | Communication/Blogging 상태 문구 정합성 고정
 
 - 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 최근 평가 리캡의 정합성 요청에 맞춰 좁게 수정하고, 관리 표면인 `source-mapping`을 함께 맞췄다.
