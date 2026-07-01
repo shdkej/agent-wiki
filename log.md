@@ -1,3 +1,11 @@
+## 2026-07-01 05:17 UTC | Communication/Blogging 상태 문장 정리
+
+- 갱신 범위: [[mapped/Communication/Blogging]] 1개 페이지만 명시적 평가 후속 과제로 좁게 다듬고, 관리 표면인 `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Blogging.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트가 새 글감 추가보다 내부 기록을 독자용 발행 표면으로 전환하는 편집 루프를 다루는 안정 노드임을 재확인했다.
+- 정리: frontmatter `updated`와 상단 `상태` 문장을 현재 판단 기준에 맞게 보정하고, `source-mapping`의 확인 문구도 같은 표현으로 정렬했다.
+- 선호 신호: 안정 단계의 블로깅 노트에서는 새 해석을 더 붙이기보다, 독자가 처음 보는 상단 상태 문장이 지금 이 노드의 편집 기준을 바로 드러내는 편이 낫다.
+- 드리프트 점검: 대응 원본을 기준으로 읽었고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-07-01 01:17 UTC | Idea/Information 상태 문장 정리
 
 - 갱신 범위: [[mapped/Idea/Information]] 1개 페이지만 품질 폴백 대상으로 좁게 다듬고, 관리 표면인 `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
