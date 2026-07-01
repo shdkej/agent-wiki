@@ -1,3 +1,11 @@
+## 2026-07-01 13:17 UTC | Communication/Teamwork 후속 정리 기준 압축
+
+- 갱신 범위: [[mapped/Communication/Teamwork]] 1개 페이지만 명시적 평가 후속 과제로 좁게 다듬고, 관리 표면인 `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Communication/Teamwork.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트가 협업 일반론 확장보다 상태 전달과 재진입 표면을 설명하는 안정 노드임을 재확인했다.
+- 정리: `후속 정리 기준` 말미의 평가/자동선택 절차 문장을 제거하고, 독자용 판단 기준만 남긴 뒤 `source-mapping` 확인 문구를 같은 변화로 정렬했다.
+- 선호 신호: 안정 단계의 Teamwork 노트에서는 새 해석을 더 붙이기보다 공개 본문에 남은 운영 메타를 관리 표면으로 되돌리는 편이 낫다.
+- 드리프트 점검: 대응 원본을 기준으로 읽었고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-07-01 09:17 UTC | Human/Standard 링크 표면 정리
 
 - 갱신 범위: [[mapped/Human/Standard]] 1개 페이지만 명시적 평가 후속 과제로 좁게 다듬고, 관리 표면인 `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
