@@ -1,3 +1,11 @@
+## 2026-07-03 05:17 UTC | Integration/Creator 운영 메타 회수
+
+- 갱신 범위: [[mapped/Integration/Creator]] 1개 페이지만 품질 폴백 대상으로 좁게 다듬고, 관리 표면인 `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Integration/Creator.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트가 창작 직군 일반론보다 역할 구조·편집 표식·기술 성장 판단을 묶는 Integration 노드임을 재확인했다.
+- 정리: 본문 말미 `드리프트 점검` 운영 메타를 제거해 독자용 `선호 신호`까지만 남기고, frontmatter `updated`와 `source-mapping` 확인 문구를 같은 기준으로 보정했다.
+- 선호 신호: 안정 단계의 Creator 노트에서는 새 해석을 더 붙이기보다 공개 본문에 남은 운영 메타를 관리 표면으로 되돌리는 편이 낫다.
+- 드리프트 점검: 대응 원본을 기준으로 읽었고, 외부 링크 본문 재독해와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-07-03 01:17 UTC | Communication/Feedback 상태 문장 재정렬
 
 - 갱신 범위: [[mapped/Communication/Feedback]] 1개 페이지만 품질 폴백 대상으로 좁게 다듬고, 관리 표면인 `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
