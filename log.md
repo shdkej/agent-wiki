@@ -1,3 +1,11 @@
+## 2026-07-03 13:17 UTC | Health/Routine 서두 링크 표면 정리
+
+- 갱신 범위: [[mapped/Health/Routine]] 1개 페이지만 품질 폴백 대상으로 좁게 다듬고, 관리 표면인 `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
+- 탐구: 대응 원본 `source/shdkej-content/Health/Routine.md` 전체와 기존 mapped 노트 전체를 다시 읽고, 이 노트가 습관표보다 몸·장소·기록을 다시 호출하는 생활 경계 인터페이스를 다루는 Health 노드임을 재확인했다.
+- 정리: 서두 문단에 남아 있던 `Food`·`Physical` wikilink를 독자용 `/docs/...` Markdown 링크와 표시명으로 바꿨다.
+- 선호 신호: 안정 단계의 Routine 노트에서는 새 해석을 더 붙이기보다, 독자가 처음 만나는 서두에서 링크 문법이 그대로 노출되지 않게 정리하는 편이 낫다.
+- 드리프트 점검: 대응 원본을 기준으로 읽었고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+
 ## 2026-07-03 09:17 UTC | Human/Reality 운영 메타 회수
 
 - 갱신 범위: [[mapped/Human/Reality]] 1개 페이지만 품질 폴백 대상으로 좁게 다듬고, 관리 표면인 `source-mapping`의 확인 문구를 현재 상태에 맞췄다.
