@@ -8,15 +8,17 @@ title: "에이전트 위키"
 
 ## 구조
 
-- `index.md` — 전체 탐색 인덱스
-- `log.md` — 날짜별 유지보수 로그
-- `sources/` — 원본 카테고리 개요 페이지
-- `concepts/` — 반복되는 개념, 원칙, 패턴
-- `syntheses/` — 여러 노트를 묶는 종합 페이지
-- `comparisons/` — 비교 페이지
-- `queries/` — 장기 보관용 질의응답
-- `maintenance/` — 감사, 드리프트, 재생성 메모
-- `mapped/` — 원본 노트와 1:1 대응하는 핵심 관리 노트
+이 위키는 Fumadocs(Next.js) 사이트로 publish된다. 지식 페이지 본문은 `content/docs/` 아래 `.mdx` 파일에 직접 작성하고, 루트의 `README.md`와 `log.md`는 publish 시 `content/docs/index.mdx`, `content/docs/log.mdx`로 자동 변환된다.
+
+- `README.md` — 이 파일. 전체 탐색 인덱스이며 인덱스 수정은 여기서 한다
+- `log.md` — 현재 월 유지보수 로그. 최신 항목이 위에 온다
+- `logs/YYYY-MM.md` — 지난 월 로그 보관
+- `content/docs/sources/` — 원본 카테고리 개요 페이지
+- `content/docs/concepts/` — 반복되는 개념, 원칙, 패턴
+- `content/docs/syntheses/` — 여러 노트를 묶는 종합 페이지
+- `content/docs/diary/` — 날짜별 세션 노트
+- `content/docs/maintenance/` — 감사, 드리프트, 재생성 메모
+- `content/docs/mapped/` — 원본 노트와 1:1 대응하는 핵심 관리 노트
 
 ## 제약
 

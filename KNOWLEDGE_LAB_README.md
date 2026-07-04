@@ -6,13 +6,14 @@
 
 - `source/shdkej-content/` — 블로그/content 레포에서 복사한 원본 노트
 - `source/external-links/` — 사용자 원본과 섞지 않는 외부 소스 레이어. 기본 원본 1차 사이클 이후에는 agent-wiki의 적극 입력 후보로 본다.
-- `agent-wiki/` — 에이전트가 유지하는 위키 레이어
-- `infinity/` — 실행 intent, archive, reports, 판단 산출물. 완료된 산출물은 agent-wiki 컴파일 입력으로도 참고한다.
+- `agent-wiki/` — 에이전트가 유지하는 위키 레이어(git 서브모듈). 지식 페이지 본문은 `agent-wiki/content/docs/*.mdx`, 인덱스 원본은 `agent-wiki/README.md`, 현재 월 로그는 `agent-wiki/log.md`
+- `infinity/` — 실행 intent, archive, reports, 판단 산출물(git 서브모듈). 완료된 산출물은 agent-wiki 컴파일 입력으로도 참고한다.
 - `schema/` — source/wiki/log/frontmatter 등 Knowledge Lab 운영 스키마
 - `human-reviews/` — 사용자가 직접 고친 노트나 비교용 스냅샷
 - `configs/agent-rules.md` — 장기 운영 규칙
-- `scripts/` — 보조 스크립트
-- `logs/` — 실행 로그와 일일 요약
+- `evaluators/` — 문서 작업 품질을 점검하는 평가기 정의
+- `scripts/` — 보조 스크립트(`publish-agent-wiki.sh`, `sync-evaluation.mjs`)
+- `logs/` — 평가 로그(`EVALUATION_NOTES.md` 원본, `EVALUATION_RECAP.md` 요약)와 운영 교훈(`OPERATING_LESSONS.md`)
 
 ## 운영 의도
 
@@ -21,7 +22,7 @@
 - 그 경계 안에서 정리, 탐구, 개선을 수행한다
 - 각 문서를 500줄 이하로 유지한다
 - 나중에 사용자가 직접 고친 노트와 에이전트 노트를 비교한다
-- 매시간 한 카테고리씩 탐구한다
+- 정기 사이클(현재 4시간 간격)마다 한 카테고리씩 탐구한다
 - 매일 사용자에게 요약을 보낸다
 
 이 시스템은 아래를 하면 안 된다.
