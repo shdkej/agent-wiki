@@ -263,3 +263,5 @@ language: ko
 
 ## 외부/실행 산출물 연결
 `source/external-links/notion-social-media-content/items/2026-05-04-github.com-GitHub-screenpipe-screenpipe-Run-agents-that-work-based-on.md`가 가리키는 `screenpipe` README는, 이 노드의 `stateless` 요구를 단순 문서 저장이 아니라 `행동 맥락을 다시 질의 가능한 로컬 기록면`까지 포함한 운영 표면으로 밀어 올린다. 여기서 중요한 점은 에이전트가 더 똑똑해진다는 주장보다, 화면·오디오·앱 전환 같은 작업 흔적이 로컬에 남고 이후 에이전트가 그 흔적을 바탕으로 요약·추적·후속 행동을 만든다는 점이다. 즉 `AGENTS` 노드의 문서 계약은 브랜드/PRD/스펙 같은 기준 문서만으로 닫히지 않고, 실제 작업 흔적을 다시 불러와 판단 배경을 복원하는 관측층을 붙일 때 더 견고해진다. 이 연결은 새 툴 소개가 아니라, 역할 에이전트에 무엇을 "기억"시킬지보다 어떤 기록면을 단일 handoff 근거로 삼을지 먼저 정해야 한다는 운영 기준으로 흡수하는 편이 적합하다.
+
+`source/external-links/ai-agents/2026-05-01-aws-augmented-coding-with-kiro.md`가 가리키는 Kiro 글은 spec-driven development, steering 파일, agent hook, MCP 연결을 하나의 개발 워크플로우로 묶는다. 여기서 오래 남길 판단은 특정 IDE 기능보다, 에이전트 코딩이 프롬프트를 곧바로 코드로 바꾸는 일이 아니라 `요구사항 → 설계 → 태스크 → 반복 실수 방지 규칙 → 실행 이벤트`를 문서로 남기고 다시 참조하는 handoff 표면이라는 점이다. `AGENTS` 노트에서는 이 사례를 개발자 역할 도구 소개로 흡수하지 않고, 역할별 에이전트가 공통 기준 문서와 프로젝트별 steering 문서를 통해 같은 실수를 줄이고 다음 작업 단위로 안전하게 재진입하는 운영 패턴으로만 남긴다.
