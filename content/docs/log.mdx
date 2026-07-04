@@ -2,6 +2,14 @@
 title: "log"
 ---
 
+## 2026-07-04 17:17 UTC | Deep Knowledge/Container 외부 웜업 사례 승격
+
+- 갱신 범위: `source/external-links/ai-agents/2026-05-01-medium-daangn-k8s-search-node-warmup.md` 1개 외부 링크를 승격하고, [[mapped/deep-knowledge/container]]에 Kubernetes Ready와 실제 서빙 준비 상태를 분리하는 판단으로 반영했다.
+- 탐구: 당근 검색 엔진의 ECK 기반 Elasticsearch 데이터 노드 웜업 사례를 읽고, cold cache 노드가 Ready 직후 트래픽을 받는 문제가 Container 노트의 배포/릴리즈 분리 기준을 보강한다고 판단했다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, Container 본문에는 `preStop → exclude → warmup → include` 흐름을 복사 요약이 아니라 릴리즈 게이트 판단으로 압축했다.
+- 선호 신호: 컨테이너 운영에서는 Kubernetes의 기술 상태와 도메인별 서빙 가능 상태가 다를 수 있으므로, 자동화 성공보다 라우팅 참여 조건을 별도 검증면으로 남기는 편이 재사용 가치가 높다.
+- 드리프트 점검: 최근 세 번의 mapped polish가 표면 정리 성격이어서 품질 폴백을 피하고 우선순위 3의 외부 링크 승격으로 전환했다.
+
 ## 2026-07-04 13:17 UTC | Marketing 출시 전 PMF 신호 루프 승격
 
 - 갱신 범위: [[mapped/Integration/Marketing]]에 `source/external-links/marketing/2026-05-17-prelaunch-pmf-signal-loop.md`의 재사용 판단을 반영하고, 해당 외부 링크 source를 `integrated`로 전환했다.
