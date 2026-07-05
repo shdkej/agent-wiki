@@ -1,3 +1,11 @@
+## 2026-07-05 21:17 UTC | Deep Knowledge/Container CPU 리소스 계약 외부 링크 승격
+
+- 갱신 범위: `source/external-links/ai-agents/2026-05-01-outsider-1653.md` 1개 외부 링크를 승격하고, [[mapped/deep-knowledge/container]]의 테스트와 복구 기준에 Kubernetes CPU requests/limits 판단을 보강했다.
+- 탐구: Outsider의 Kubernetes CPU requests/limits 글을 사용률 팁이 아니라, request가 만드는 스케줄링·상대 배분 계약과 limit이 만드는 런타임 상한·throttling 계약을 구분하는 운영 자료로 읽었다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 바꾸고 `integrated_into`를 남겼으며, Container 본문에는 CPU usage와 throttling을 같은 그래프로 납작하게 보지 말고 자원 종류와 제어 계약을 분리해 읽는 기준만 추가했다.
+- 선호 신호: 오래된 큐 상태 외부 링크는 새 도구 설명을 늘리기보다 기존 Container 노트의 복구 리허설과 리소스 계약 판단을 선명하게 할 때 승격 가치가 높다.
+- 드리프트 점검: 최근 cosmetic polish 흐름을 끊기 위해 품질 폴백 대신 30일 이상 된 외부 링크 승격 대상을 우선 처리했다.
+
 ## 2026-07-05 17:17 UTC | Fundamental/Infra 외부 인프라 회고 승격
 
 - 갱신 범위: 외부 링크 `source/external-links/ai-agents/2026-05-01-news-hada-topic-13564.md` 1개를 승격 대상으로 처리하고, [[mapped/Fundamental/Infra]]의 외부/실행 산출물 연결에 반영했다.
