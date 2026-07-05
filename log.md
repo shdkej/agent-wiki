@@ -1,3 +1,11 @@
+## 2026-07-05 17:17 UTC | Fundamental/Infra 외부 인프라 회고 승격
+
+- 갱신 범위: 외부 링크 `source/external-links/ai-agents/2026-05-01-news-hada-topic-13564.md` 1개를 승격 대상으로 처리하고, [[mapped/Fundamental/Infra]]의 외부/실행 산출물 연결에 반영했다.
+- 탐구: GeekNews topic 13564의 스타트업 인프라 결정 회고를 확인해, AWS/EKS/RDS 같은 도구 지지와 Datadog 비용·공유 DB·SealedSecrets 같은 후회가 모두 팀이 감당할 운영 복잡성 판단으로 수렴함을 확인했다.
+- 정리: source frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, Infra 노트에는 도구 이름보다 데이터 책임, 권한, 배포 상태, 경보 리뷰, 사후 분석, 월간 비용 점검 리듬을 먼저 묻는 판단 문장을 추가했다.
+- 선호 신호: 인프라 외부 회고는 최신 도구 추천 목록으로 복사하기보다 비용·복잡성·팀 효율성·복구 루프를 함께 재평가하는 운영 점수판으로 흡수하는 편이 맞다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/Fundamental/Infra.md`는 수정하지 않았고, 외부 링크 1개만 명시적으로 승격했다.
+
 ## 2026-07-05 13:17 UTC | Brunch 직장 경험 링크 승격 기각
 
 - 갱신 범위: `source/external-links/ai-agents/2026-05-01-brunch-marmalatte-77.md` 1개 외부 링크의 30일 초과 queued 상태를 검토하고 기각 처리했다.

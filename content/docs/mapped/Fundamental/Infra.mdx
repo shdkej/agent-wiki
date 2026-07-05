@@ -5,7 +5,7 @@ tags: [mapped, infra, fundamental, cloud, operations]
 source_file: "[[source/shdkej-content/Fundamental/Infra.md]]"
 source_name: Infra
 created: 2026-04-20
-updated: 2026-06-28 01:17:00 UTC
+updated: 2026-07-05 17:17:00 UTC
 status: stable
 language: ko
 ---
@@ -233,6 +233,8 @@ IAM 부분은 짧지 않지만 핵심은 명확하다.
 
 ## 외부/실행 산출물 연결
 `source/external-links/notion-social-media-content/items/2026-05-05-tech.buzzvil.com-AWS-비용-최적화-Part-1-버즈빌은-어떻게-월-1억-이상의-AWS-비용을-절약할-수-있었.md`는 이 노드의 비용 문장을 한 단계 더 실무적으로 압축한다. 핵심은 인프라 비용을 인스턴스 가격표가 아니라 `드릴다운 가능한 점수판`으로 보고, 특히 데이터 전송, NAT Gateway, 리전 간 이동처럼 경계에서 새는 비용을 먼저 이상 징후로 끌어올리는 것이다. 그래서 이 노트의 `겉가격보다 경계 비용` 판단은 단순 경고가 아니라, 서비스별 비용 다음에 `Operation`, `Resource ID`, `Lineitem Description` 같은 분해 축으로 실제 누수 지점을 찾아야 한다는 운영 습관으로 이어진다.
+
+`source/external-links/ai-agents/2026-05-01-news-hada-topic-13564.md`의 스타트업 인프라 선택 회고는 같은 판단을 비용 밖으로 넓힌다. 어떤 팀이 AWS, EKS, RDS, Redis, Terraform, GitOps를 지지하거나 EKS 관리형 애드온, Datadog 비용, 단일 공유 DB, SealedSecrets를 후회하는 이유는 도구 이름보다 `팀이 감당한 운영 복잡성`에 있다. 따라서 이 노드에서 인프라 선택을 볼 때는 "좋은 서비스인가"보다 "데이터 책임, 권한, 배포 상태, 경보 리뷰, 사후 분석, 월간 비용 점검을 팀이 반복 가능한 리듬으로 다룰 수 있는가"를 먼저 물어야 한다.
 
 이 긴장을 제거하지 않고 남겨 두는 편이 원문 의도에 더 맞다.
 
