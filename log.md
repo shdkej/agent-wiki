@@ -1,3 +1,11 @@
+## 2026-07-05 13:17 UTC | Brunch 직장 경험 링크 승격 기각
+
+- 갱신 범위: `source/external-links/ai-agents/2026-05-01-brunch-marmalatte-77.md` 1개 외부 링크의 30일 초과 queued 상태를 검토하고 기각 처리했다.
+- 탐구: 브런치 메타데이터로 제목 `08화 작년에 왔던 빌런이 죽지도 않고 또 온다`, 작성자, 발행일을 확인했고, 내용 성격이 AI/에이전트 운영이 아니라 직장 내 빌런형 상사 경험담에 가깝다고 판단했다.
+- 정리: 관련 mapped/concept/synthesis에 반복 가능한 판단으로 승격할 근거가 약해 위키 본문에는 흡수하지 않고, 해당 source frontmatter를 `rejected`로 바꿨다.
+- 선호 신호: 오래된 외부 링크 큐는 무조건 요약·흡수하기보다 잘못 분류된 자료와 현재 판단 자산으로 쓸 자료를 먼저 가르는 편이 백로그 품질을 높인다.
+- 드리프트 점검: saturation escape에 따라 최근 cosmetic mapped polish 대신 priority 3 승격 백로그를 처리했고, 사용자 원본 `source/shdkej-content/`는 수정하지 않았다.
+
 ## 2026-07-05 10:00 UTC | Marketing 목적별 첫 길 온보딩 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-07-03-purpose-path-onboarding.md` 1개를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 첫 길 온보딩 판단을 보강했다.
