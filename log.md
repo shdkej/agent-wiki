@@ -1,3 +1,11 @@
+## 2026-07-05 01:17 UTC | AI agents 기억 링크 기각
+
+- 갱신 범위: `source/external-links/ai-agents/2026-05-01-medium-memory-delightroom.md` 1개 외부 링크를 승격 백로그 대상으로 검토하고 기각했다.
+- 탐구: 수집 파일에는 링크와 기본 메모만 있었고, 원문 URL은 현재 Cloudflare JavaScript/cookie 게이트만 반환해 본문 제목·논지·재사용 포인트를 확인할 수 없었다.
+- 정리: 외부 링크 frontmatter를 `rejected`로 전환하고, 수집 메모만으로 판단을 컴파일하지 않는다는 사유를 `notes`와 처리 상태에 남겼다.
+- 선호 신호: 외부 링크 백로그는 오래되었다는 이유만으로 위키에 흡수하지 않고, 원문 확인 또는 충분한 요약이 있어 반복 가능한 판단을 만들 수 있을 때만 승격한다.
+- 드리프트 점검: source/shdkej-content 원본과 mapped 본문은 수정하지 않았고, 이번 패스는 외부 링크 1개와 log 기록으로 제한했다.
+
 ## 2026-07-04 21:17 UTC | Meta/AGENTS Kiro 외부 링크 승격
 
 - 갱신 범위: `source/external-links/ai-agents/2026-05-01-aws-augmented-coding-with-kiro.md` 1개 외부 링크를 승격하고, [[mapped/Meta/AGENTS]]의 외부/실행 산출물 연결에 반영했다.
