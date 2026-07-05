@@ -1,3 +1,11 @@
+## 2026-07-05 22:00 UTC | Marketing 온보딩 지표 운영 루프 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-27-onboarding-metrics-practice.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 실행 산출물 연결에 출시 전 온보딩 지표 판독 리듬을 보강했다.
+- 탐구: Appcues 온보딩 지표 메모를 activation, TTV, drop-off, retention의 새 목표 숫자가 아니라 작은 표본에서 첫 가치와 다음 가치로 이어지는지 확인하는 운영 루프로 읽었다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 바꾸고 `integrated_into`를 남겼으며, Marketing 본문에는 J1/J2/J4=`deed_saved`, J3=`deed_judged` 기준을 유지한 채 TTV와 drop-off를 잡별 문맥으로 판독하는 기준만 추가했다.
+- 선호 신호: 출시 전 온보딩 지표는 벤치마크 비교보다 사용자가 어디서 첫 가치를 확인했고, 어디서 자연 종료했으며, D1/D7에 다시 기록할 이유가 남았는지 묻는 리듬으로 승격할 때 유용하다.
+- 드리프트 점검: 신규 외부 노트는 만들지 않고 백로그 92개 상태에서 기존 summarized 노트 1개를 integrated로 전환했다.
+
 ## 2026-07-05 21:17 UTC | Deep Knowledge/Container CPU 리소스 계약 외부 링크 승격
 
 - 갱신 범위: `source/external-links/ai-agents/2026-05-01-outsider-1653.md` 1개 외부 링크를 승격하고, [[mapped/deep-knowledge/container]]의 테스트와 복구 기준에 Kubernetes CPU requests/limits 판단을 보강했다.
