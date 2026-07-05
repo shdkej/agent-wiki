@@ -1,3 +1,11 @@
+## 2026-07-05 10:00 UTC | Marketing 목적별 첫 길 온보딩 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-07-03-purpose-path-onboarding.md` 1개를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 첫 길 온보딩 판단을 보강했다.
+- 탐구: Amplitude product-led onboarding 메모를 설명량 확대가 아니라 사용자가 제품 안에서 첫 가치를 확인하는 최소 경로 설계로 읽었다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 바꾸고 `integrated_into`를 남겼으며, Marketing 본문에는 J1 기록형·J3 AI 호기심형의 목적별 첫 길을 빈 화면 문구보다 먼저 판정한다는 좁은 판단만 추가했다.
+- 선호 신호: 출시 전 온보딩 자료는 채널 확장 근거보다 첫 방문자가 자기 목적에 맞는 시작선을 바로 고를 수 있는지 확인하는 운영 질문으로 승격할 때 유용하다.
+- 드리프트 점검: 사용자 원본 노트는 수정하지 않았고, 외부 링크 1개와 대응 mapped 노트 1개만 적용했다.
+
 ## 2026-07-05 09:17 UTC | Communication/Document 설계 문서 외부 링크 승격
 
 - 갱신 범위: `source/external-links/ai-agents/2026-05-01-news-hada-topic-22338.md` 1개 외부 링크를 승격하고, [[mapped/Communication/Document]]의 외부 산출물 연결에 설계 문서 판단을 보강했다.
