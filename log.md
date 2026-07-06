@@ -1,3 +1,11 @@
+## 2026-07-06 01:17 UTC | Devops 외부 시각화 사례 승격
+
+- 갱신 범위: `source/external-links/ai-agents/2026-05-01-hancom-devops-data-visualization.md` 1개 외부 링크를 승격 처리하고, [[mapped/deep-knowledge/devops]]의 관측성 구간에 반영했다.
+- 탐구: 한컴테크 글을 확인해 Jira/GitLab/Jenkins API에서 이슈·MR·빌드 데이터를 모으고, PostgreSQL 정제 저장 후 차트/테이블로 나누어 보여 주는 사례임을 확인했다.
+- 정리: DevOps 대시보드를 리포트 장식이 아니라 개발 규칙과 배포 흐름이 실제로 지켜지는지 확인하는 운영 관측면으로 압축하고, 외부 링크 frontmatter를 `integrated`와 `integrated_into`로 갱신했다.
+- 선호 신호: DevOps 관련 외부 사례는 도구 튜토리얼을 옮기기보다, 어떤 데이터가 어떤 다음 행동 표면으로 라우팅되는지를 선명하게 할 때 mapped 노트에 흡수하는 편이 적합하다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/`는 수정하지 않았고, 외부 링크 1개만 명시적으로 상태 전환했다.
+
 ## 2026-07-05 22:00 UTC | Marketing 온보딩 지표 운영 루프 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-27-onboarding-metrics-practice.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 실행 산출물 연결에 출시 전 온보딩 지표 판독 리듬을 보강했다.
