@@ -5,7 +5,7 @@ tags: [mapped, meta, agents, orchestration, documentation]
 source_file: "[[source/shdkej-content/Meta/AGENTS.md]]"
 source_name: AGENTS
 created: 2026-04-14
-updated: 2026-07-02 17:17:00 UTC
+updated: 2026-07-06 05:17:00 UTC
 status: stable
 language: ko
 ---
@@ -13,7 +13,7 @@ language: ko
 # AGENTS
 
 - 원본: `source/shdkej-content/Meta/AGENTS.md`
-- 상태: 안정 디벨롭 · 로컬 기록면 handoff 기준 연결
+- 상태: 안정 디벨롭 · 역할별 상태 격리와 gateway handoff 기준 연결
 - 역할: 원본 만다라트 노드와 1:1 대응하는 메타 운영 페이지
 
 ## 한눈에 보는 요약
@@ -186,6 +186,8 @@ language: ko
 
 그래서 리더 역할은 명령 배분자보다, 약한 고리를 공통 문서군으로 번역하고 어느 역할이 어떤 표면에서 해결해야 하는지 라우팅하는 조정자에 가깝다. [Integration/Work](/docs/mapped/Integration/Work)가 개인 실행의 신뢰 회수를 다룬다면, `AGENTS`는 여러 역할 사이에서 그 신뢰 회수가 끊기지 않게 만드는 상위 운영층이다.
 
+외부 사례 `source/external-links/ai-agents/2026-05-01-substack-build-multi-agent-openclaw-team.md`도 같은 방향을 보강한다. Telegram 단일 gateway 아래에서 PM, engineer, QA 같은 agent를 별도 workspace와 group binding으로 분리하는 구성은 멀티에이전트의 실용 기준이 "한 화면에서 많이 부른다"가 아니라 **역할별 기억이 섞이지 않게 라우팅하고, 메인 agent가 조정자 역할만 수행하게 하는 경계 설계**임을 보여 준다. 따라서 `AGENTS`의 handoff 기준은 문서 연결뿐 아니라 대화 채널, binding, agent workspace 같은 실행 표면에서도 같은 원칙으로 유지되어야 한다.
+
 ## 오래 남길 아이디어
 - 좋은 멀티에이전트 시스템은 모델 수보다 공통 문서 구조가 먼저다.
 - 역할별 분업이 효과를 내려면, 브랜드와 비전, 문제 정의, 기술 제약이 공통 바닥으로 깔려 있어야 한다.
@@ -196,6 +198,7 @@ language: ko
 - "Code as doc"라는 감각은 코드를 문서로 대체하자는 뜻이 아니라, 핵심 맥락이 코드와 문서 양쪽에서 복원 가능해야 한다는 요구에 가깝다.
 - 설정 파일 목록은 운영 실체가 아니라 운영 실체를 지탱하는 하부 층이므로, 늘 문서 흐름과 함께 읽어야 한다.
 - 약한 고리 발견은 에이전트 배치보다 앞선다. 어떤 역할을 만들지보다 먼저, 어떤 반복 막힘을 어떤 문서와 역할 계약으로 줄일지 정해야 한다.
+- 멀티에이전트 gateway는 편의 채널이 아니라 상태 격리 장치다. 한 계정으로 여러 역할을 호출하더라도, group binding과 workspace 경계가 없으면 역할 분화가 곧 맥락 오염으로 바뀐다.
 
 ## 추출 섹션
 

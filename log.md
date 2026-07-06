@@ -1,3 +1,11 @@
+## 2026-07-06 05:17 UTC | Meta/AGENTS 외부 gateway 사례 반영
+
+- 갱신 범위: [[mapped/Meta/AGENTS]] 1개 페이지에 `source/external-links/ai-agents/2026-05-01-substack-build-multi-agent-openclaw-team.md`의 Telegram 단일 gateway/격리 workspace 사례를 반영하고, 해당 외부 링크 상태를 `integrated`로 전환했다.
+- 탐구: Substack 링크가 메인 agent, Telegram group binding, PM/engineer/QA agent의 독립 workspace를 묶는 실전 구성임을 확인했다.
+- 정리: AGENTS의 handoff 기준을 문서 연결에서 실행 표면의 상태 격리까지 확장하되, 원본 노트 경계 밖의 도구 튜토리얼 세부 명령은 복사하지 않았다.
+- 선호 신호: 멀티에이전트 운영은 agent 수 확장보다 역할별 기억이 섞이지 않게 하는 gateway·binding·workspace 경계 설계로 읽는 편이 재사용 가능하다.
+- 드리프트 점검: 외부 링크 1개만 사용했고, 사용자 원본 `source/shdkej-content/Meta/AGENTS.md`는 수정하지 않았다.
+
 ## 2026-07-06 01:17 UTC | Devops 외부 시각화 사례 승격
 
 - 갱신 범위: `source/external-links/ai-agents/2026-05-01-hancom-devops-data-visualization.md` 1개 외부 링크를 승격 처리하고, [[mapped/deep-knowledge/devops]]의 관측성 구간에 반영했다.
