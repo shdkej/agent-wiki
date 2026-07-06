@@ -1,3 +1,11 @@
+## 2026-07-06 13:17 UTC | structure-before-scale 외부 링크 승격
+
+- 갱신 범위: `source/external-links/ai-agents/2026-05-01-musinsa-techblog-growth-story.md` 1개 외부 링크를 승격 판단하고, [[concepts/structure-before-scale]] 1개 concept 페이지에 반영했다.
+- 탐구: 무신사 무진장 이벤트 시스템 글을 읽고, 분당 수백만 조회와 주문 피크 대응의 핵심을 특정 기술 목록이 아니라 읽기/쓰기 분리, 사전 계산, 다층 방어, 탐지-제어 쌍으로 책임 경계를 나누는 구조 판단으로 정리했다.
+- 정리: concept 본문을 한국어 판단 모델로 확장하고, 외부 링크 source의 `status`를 `integrated`로 바꾸며 `integrated_into`를 남겼다.
+- 선호 신호: 외부 기술 사례는 최신 아키텍처 레시피로 복사하지 않고, Knowledge Lab에서 반복 사용할 수 있는 성장 전 구조 점검 원칙으로 승격하는 편이 낫다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/`는 수정하지 않았고, 외부 링크 1개만 명시적 입력으로 사용했다.
+
 ## 2026-07-06 09:17 UTC | Health/Physical 외부 링크 승격
 
 - 갱신 범위: `source/external-links/ai-agents/2026-05-01-news-hada-topic-19034.md` 1개 외부 링크를 승격하고, [[mapped/Health/Physical]]에 판단을 압축 반영했다.
