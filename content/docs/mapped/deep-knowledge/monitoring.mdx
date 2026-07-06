@@ -1,11 +1,12 @@
 ---
 title: "Monitoring"
+updated: 2026-07-06 17:17:00 UTC
 ---
 
 # Monitoring
 
 - 원본: `source/shdkej-content/Deep Knowledge/Monitoring.md`
-- 상태: 안정 디벨롭
+- 상태: 안정 디벨롭 · 중앙 관측면과 서비스별 재진입 경로 연결
 - 역할: 원본 만다라트 노드와 1:1 대응하는 관리 노트
 
 ## 핵심 요약
@@ -96,6 +97,8 @@ title: "Monitoring"
 - Prometheus는 메트릭 전문, Loki는 로그 전문, Tempo는 트레이싱 전문으로 읽는다
 
 즉 이 파트의 핵심은 `무엇이 최고 툴인가`보다, **어떤 신호를 어떤 저장/조회 체계에 태워야 하는가**를 현실 비용 안에서 고민하는 것이다.
+
+외부 링크 `source/external-links/ai-agents/2026-05-01-youtube-i_rZZ6CFH3k.md`가 가리키는 AWS Summit Seoul 2023 발표 제목은 `Global scale service의 중앙 집중식 Observability 구축`이다. 이 사례는 이 노드의 도구 고민을 특정 AWS 구성 소개로 확장하기보다, 여러 서비스와 리전에서 생기는 로그·메트릭·트레이스를 한 관측면으로 모으되 각 서비스 담당자가 다시 원인으로 들어갈 경로를 잃지 않아야 한다는 기준으로 흡수하는 편이 맞다. 중앙 집중식 observability는 대시보드를 하나로 합치는 일이 아니라, 공통 정상성 언어와 서비스별 디버깅 진입점을 동시에 유지하는 운영 계약이다.
 
 ## 원문 발췌 구조
 원문이 실제로 놓고 있는 메모층을 짧게 복원하면 다음과 같다.

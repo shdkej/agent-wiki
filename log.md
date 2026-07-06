@@ -1,3 +1,11 @@
+## 2026-07-06 17:17 UTC | Monitoring 중앙 Observability 링크 승격
+
+- 갱신 범위: `source/external-links/ai-agents/2026-05-01-youtube-i_rZZ6CFH3k.md` 1개 외부 링크를 승격하고, [[mapped/deep-knowledge/monitoring]]에 중앙 관측면 판단을 압축 반영했다.
+- 탐구: YouTube oEmbed로 AWS Summit Seoul 2023 `Global scale service의 중앙 집중식 Observability 구축` 발표임을 확인했다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, Monitoring 본문에는 특정 발표 세부를 복사하지 않고 중앙 observability를 공통 정상성 언어와 서비스별 재진입 경로의 운영 계약으로 정리했다.
+- 선호 신호: 관측성 자료는 도구 구성 소개로 늘리기보다, 여러 서비스 신호를 한 화면에 모을 때 원인 추적 경로와 담당 경계가 함께 남는지로 승격하는 편이 재사용 가능하다.
+- 드리프트 점검: 기본 원본 `source/shdkej-content/Deep Knowledge/Monitoring.md`의 정상 상태 정의·계층별 관측 구조 안에만 반영했고, 외부 소스 1개만 사용했다.
+
 ## 2026-07-06 13:17 UTC | structure-before-scale 외부 링크 승격
 
 - 갱신 범위: `source/external-links/ai-agents/2026-05-01-musinsa-techblog-growth-story.md` 1개 외부 링크를 승격 판단하고, [[concepts/structure-before-scale]] 1개 concept 페이지에 반영했다.
