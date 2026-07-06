@@ -1,3 +1,11 @@
+## 2026-07-06 22:00 UTC | Marketing 활성화 사다리 외부 링크 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-21-activation-milestone-ladder.md` 1개 외부 링크를 승격하고, [[mapped/Integration/Marketing]]의 첫 가치 판정에 `setup -> aha -> habit` 단계 언어를 보강했다.
+- 탐구: activation milestone 자료를 단일 성공 이벤트나 체크리스트 UI 제안이 아니라, Virtue prelaunch 상태에서 작은 표본을 `어디까지 도달했는가`로 읽기 위한 관찰 문법으로 정리했다.
+- 정리: J1/J2/J4는 `deed_saved`, J3는 `deed_judged`를 Aha 후보로 두고, 반복 저장·덕행록 재방문·`level_up_viewed`는 충분한 실제 사용자 이후 habit 판단 후보로 남겼다. 외부 링크 frontmatter는 `integrated`로 전환했다.
+- 선호 신호: 출시 전 마케팅 판단은 성공률보다 setup/aha/habit 경계를 먼저 합의할 때, 자연 종료와 마찰을 덜 섞고 다음 제품/계측 태스크를 더 작게 라우팅할 수 있다.
+- 드리프트 점검: 새 learning note를 만들지 않고 summarized 백로그 91개 상태에서 기존 노트 1개를 integrated로 이동했다.
+
 ## 2026-07-06 21:17 UTC | Deep Knowledge/AI 서버리스 데이터 운영 판단 흡수
 
 - 갱신 범위: `source/external-links/ai-agents/2026-05-02-news-hada-topic-12053.md` 1개 외부 링크를 승격하고, [[mapped/deep-knowledge/ai]]의 서비스 운영 체크리스트에 반영했다.
