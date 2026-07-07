@@ -1,3 +1,11 @@
+## 2026-07-07 13:17 UTC | Marketing prelaunch 포지셔닝 외부 링크 통합
+
+- 갱신 범위: [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 `source/external-links/marketing/2026-05-19-prelaunch-positioning-pmf.md`를 통합하고, 해당 외부 링크 status를 `integrated`로 전환했다.
+- 탐구: 최근 세 패스가 안정 mapped 노트의 표면 정리에 가까워 포화 탈출 규칙에 따라 품질 폴백 대신 오래된 승격 백로그를 선택했다.
+- 정리: 정식 출시 전 PMF를 점수 수집보다 초기 지지자 언어, 제품 범주, 대체재, 첫인상 가설을 좁히는 판단으로 Marketing 노트의 기존 prelaunch PMF 문단에 접었다.
+- 선호 신호: prelaunch 마케팅 자료는 독립 이론으로 늘리기보다 `누구에게 먼저 약속해도 되는가`와 `첫 화면에서 어떤 제품으로 읽히는가`를 함께 확인하는 언어 수집 루프로 재사용한다.
+- 드리프트 점검: 외부 링크 1개만 active input으로 사용했고, 원본 `source/shdkej-content/Integration/Marketing.md`의 1:1 mapped 경계는 유지했다.
+
 ## 2026-07-07 09:17 UTC | Marketing habit streak 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-19-habit-streak-flexibility.md`를 `integrated`로 전환하고, [[mapped/Integration/Marketing]]의 실행 판단판과 외부/실행 산출물 연결에 낮은 압박 재방문 연속성 기준을 흡수했다.
