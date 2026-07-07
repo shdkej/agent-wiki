@@ -5,7 +5,7 @@ tags: [mapped, meta, agents, orchestration, documentation]
 source_file: "[[source/shdkej-content/Meta/AGENTS.md]]"
 source_name: AGENTS
 created: 2026-04-14
-updated: 2026-07-06 05:17:00 UTC
+updated: 2026-07-07 01:17:00 UTC
 status: stable
 language: ko
 ---
@@ -13,7 +13,7 @@ language: ko
 # AGENTS
 
 - 원본: `source/shdkej-content/Meta/AGENTS.md`
-- 상태: 안정 디벨롭 · 역할별 상태 격리와 gateway handoff 기준 연결
+- 상태: 안정 디벨롭 · 역할별 상태 격리와 권한·감사 handoff 기준 연결
 - 역할: 원본 만다라트 노드와 1:1 대응하는 메타 운영 페이지
 
 ## 한눈에 보는 요약
@@ -268,3 +268,5 @@ language: ko
 `source/external-links/notion-social-media-content/items/2026-05-04-github.com-GitHub-screenpipe-screenpipe-Run-agents-that-work-based-on.md`가 가리키는 `screenpipe` README는, 이 노드의 `stateless` 요구를 단순 문서 저장이 아니라 `행동 맥락을 다시 질의 가능한 로컬 기록면`까지 포함한 운영 표면으로 밀어 올린다. 여기서 중요한 점은 에이전트가 더 똑똑해진다는 주장보다, 화면·오디오·앱 전환 같은 작업 흔적이 로컬에 남고 이후 에이전트가 그 흔적을 바탕으로 요약·추적·후속 행동을 만든다는 점이다. 즉 `AGENTS` 노드의 문서 계약은 브랜드/PRD/스펙 같은 기준 문서만으로 닫히지 않고, 실제 작업 흔적을 다시 불러와 판단 배경을 복원하는 관측층을 붙일 때 더 견고해진다. 이 연결은 새 툴 소개가 아니라, 역할 에이전트에 무엇을 "기억"시킬지보다 어떤 기록면을 단일 handoff 근거로 삼을지 먼저 정해야 한다는 운영 기준으로 흡수하는 편이 적합하다.
 
 `source/external-links/ai-agents/2026-05-01-aws-augmented-coding-with-kiro.md`가 가리키는 Kiro 글은 spec-driven development, steering 파일, agent hook, MCP 연결을 하나의 개발 워크플로우로 묶는다. 여기서 오래 남길 판단은 특정 IDE 기능보다, 에이전트 코딩이 프롬프트를 곧바로 코드로 바꾸는 일이 아니라 `요구사항 → 설계 → 태스크 → 반복 실수 방지 규칙 → 실행 이벤트`를 문서로 남기고 다시 참조하는 handoff 표면이라는 점이다. `AGENTS` 노트에서는 이 사례를 개발자 역할 도구 소개로 흡수하지 않고, 역할별 에이전트가 공통 기준 문서와 프로젝트별 steering 문서를 통해 같은 실수를 줄이고 다음 작업 단위로 안전하게 재진입하는 운영 패턴으로만 남긴다.
+
+`source/external-links/ai-agents/2026-05-10-news-hada-topic-29171.md`의 에이전트 경제 메모는 SaaS UI 해자가 약해지고 MCP/A2A 같은 연결 표면, 권한 관리, 감사 추적, 정책 코드화가 더 중요한 해자로 이동한다는 판단을 준다. 이 페이지에서는 그 주장을 시장 예측으로 크게 펼치기보다, 멀티에이전트 운영의 handoff 단위가 `누가 어떤 작업을 맡았는가`에서 `어떤 데이터와 도구에 접근할 수 있고, 어떤 로그로 나중에 검토할 수 있는가`까지 넓어진다는 기준으로 흡수한다. 역할별 에이전트가 늘수록 공통 문서군만으로는 부족하고, 권한 부여 단위, human-on-the-loop 확인 지점, 실행 로그의 감사 가능성이 함께 설계되어야 한다.

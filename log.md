@@ -1,3 +1,11 @@
+## 2026-07-07 01:17 UTC | Meta/AGENTS 에이전트 경제 링크 승격
+
+- 갱신 범위: `source/external-links/ai-agents/2026-05-10-news-hada-topic-29171.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Meta/AGENTS]]에 권한·감사·거버넌스 handoff 판단을 좁게 반영했다.
+- 탐구: 에이전트 경제 메모의 핵심을 SaaS 시장 예측 전체가 아니라 `UI 해자 약화 → 데이터/권한/거버넌스 해자 강화`라는 운영 기준으로 읽었다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, AGENTS 노트의 상태 줄과 외부 산출물 연결에 권한 부여 단위, human-on-the-loop, 실행 로그 감사 가능성 기준을 추가했다.
+- 선호 신호: 에이전트 자료는 새 시장 카테고리 나열보다 역할별 작업이 어떤 권한과 검토 로그를 통해 안전하게 이어지는지로 컴파일할 때 재사용성이 높다.
+- 드리프트 점검: 안정 mapped 노트의 넓은 재작성은 하지 않았고, 오래된 external-link 백로그 1건만 명시적으로 승격했다.
+
 ## 2026-07-06 22:00 UTC | Marketing 활성화 사다리 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-21-activation-milestone-ladder.md` 1개 외부 링크를 승격하고, [[mapped/Integration/Marketing]]의 첫 가치 판정에 `setup -> aha -> habit` 단계 언어를 보강했다.
