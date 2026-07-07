@@ -1,3 +1,11 @@
+## 2026-07-07 21:17 UTC | Marketing PMF 응답 엔진 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-21-pmf-response-engine.md`를 승격 백로그 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 1개 판단만 흡수했다.
+- 탐구: PMF 응답 자료를 숫자 목표가 아니라 작은 표본에서 강한 반응자의 상황·benefit·대체재 언어를 분리하는 응답 엔진으로 읽었다.
+- 정리: Marketing 본문에는 새 이론 섹션을 만들지 않고 `첫 사용자 학습`과 `응답 표면` 판정에 붙여, 첫 화면 카피·초대 문장·다음 인터뷰 질문을 좁히는 기준으로 압축했다.
+- 선호 신호: 출시 전 마케팅 자료는 성패율보다 `누가 어떤 말로 가치를 되말했는가`를 남길 때 원문 Marketing 노드의 사람 해석과 전환 설계에 맞는다.
+- 드리프트 점검: 외부 링크 1개만 status `integrated`로 바꾸고 `integrated_into`를 남겼으며, 사용자 원본 노트는 수정하지 않았다.
+
 ## 2026-07-07 17:17 UTC | Marketing JTBD 첫 세션 분기 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-20-jtbd-onboarding-segmentation.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 통합했다.
