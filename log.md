@@ -1,3 +1,11 @@
+## 2026-07-07 22:00 UTC | Marketing agentic PLG 결과 출력 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-13-agentic-plg-outcome-readable.md`를 승격 백로그 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 1개 판단으로 흡수했다.
+- 탐구: agentic PLG 자료를 공개 AEO나 자동화 채널 확장 지시가 아니라, Virtue prelaunch의 첫 성공 출력이 사람과 에이전트 모두에게 읽히는지 확인하는 관찰 기준으로 읽었다.
+- 정리: Marketing 본문에는 새 agentic growth 섹션을 만들지 않고 `첫 가치`, `결과 소유 행동`, `에이전트 유통` 판정에 접어, J1/J2/J4의 `deed_saved`와 J3의 `deed_judged`가 어떤 좋은 결과인지 먼저 설명 가능해야 한다는 기준으로 압축했다.
+- 선호 신호: AI 제품의 초기 마케팅 판단은 UI 통과나 빠른 감탄보다, 결과 카드와 관찰표가 같은 성공 출력 언어를 쓰고 사용자가 그 결과를 자기 흐름에 편입하는지를 볼 때 재사용성이 높다.
+- 드리프트 점검: 새 learning note를 만들지 않고 summarized 백로그 84개 상태에서 기존 외부 링크 1개만 `integrated`로 이동했다.
+
 ## 2026-07-07 21:17 UTC | Marketing PMF 응답 엔진 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-21-pmf-response-engine.md`를 승격 백로그 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 1개 판단만 흡수했다.
