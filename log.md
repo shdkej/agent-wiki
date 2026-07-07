@@ -1,3 +1,11 @@
+## 2026-07-07 17:17 UTC | Marketing JTBD 첫 세션 분기 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-20-jtbd-onboarding-segmentation.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 통합했다.
+- 탐구: 최근 작업이 안정 mapped 노트의 표면 정리에 치우쳐 있어 포화 탈출 규칙에 따라 품질 폴백 대신 오래된 promotion backlog를 선택했다.
+- 정리: JTBD 자료를 새 세그먼트 확정표로 복사하지 않고, Virtue 첫 세션에서 J1/J2/J3/J4 job별 첫 가치와 성공 지표를 수동 관찰로 가르는 판단으로 압축했다.
+- 선호 신호: 출시 전 온보딩 자료는 이벤트 속성이나 분기 UI를 먼저 늘리기보다, 사용자가 왜 들어왔고 무엇을 가치로 말했는지 확인하는 가설 언어로 남길 때 재사용성이 높다.
+- 드리프트 점검: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`로 기록했다.
+
 ## 2026-07-07 13:17 UTC | Marketing prelaunch 포지셔닝 외부 링크 통합
 
 - 갱신 범위: [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 `source/external-links/marketing/2026-05-19-prelaunch-positioning-pmf.md`를 통합하고, 해당 외부 링크 status를 `integrated`로 전환했다.
