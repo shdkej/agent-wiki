@@ -1,3 +1,11 @@
+## 2026-07-08 13:17 UTC | Marketing 경쟁 대안 포지셔닝 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-23-competitive-alternatives-positioning.md` 1개 외부 링크를 integrated로 전환하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 흡수했다.
+- 탐구: Dunford/Godin 포지셔닝 요약을 새 카피 작업으로 키우지 않고, Virtue prelaunch에서 `없으면 무엇으로 대신했을지`를 묻는 경쟁 대안 감사 질문으로 좁혔다.
+- 정리: Marketing의 `핵심 고객`, `응답 표면`, `첫 사용자 학습` 판단에 J1-J4별 실제 대체재를 연결해 첫 가치와 카테고리 약속을 과대해석하지 않도록 했다.
+- 선호 신호: 초기 마케팅 판단은 문구의 매끈함보다 사용자가 이미 쓰던 대안과 비교해 어떤 부담·선명함이 달라졌는지 남길 때 재사용성이 높다.
+- 드리프트 점검: 외부 링크 원문은 source 레이어에 남기고, agent-wiki에는 반복 가능한 판단만 컴파일했다.
+
 ## 2026-07-08 09:17 UTC | Marketing 결과 기반 온보딩 승격
 
 - 갱신 범위: 외부 링크 `source/external-links/marketing/2026-05-23-outcome-based-onboarding.md` 1개를 승격 백로그 대상으로 처리하고, [[mapped/Integration/Marketing]]의 `도달 전 마찰`/`첫 가치` 판정 기준에 흡수했다.
