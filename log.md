@@ -1,3 +1,11 @@
+## 2026-07-08 01:17 UTC | Integration/Marketing TTV 백로그 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-22-time-to-value-second-value.md` 1개 외부 링크를 승격하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 반영했다.
+- 탐구: 최근 작업이 표면 정리 중심으로 반복되어 품질 폴백 대신 오래된 승격 백로그를 우선했고, 첫 가치 속도 자료를 새 지표 섹션이 아니라 Marketing의 `첫 가치 -> 다음 행동 -> 재방문 연속성` 판단으로 좁혔다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 바꾸고 `integrated_into`를 남겼으며, mapped 본문에는 첫 가치 도달률보다 두 번째 가치 후보까지의 공백과 자기 언어 설명을 함께 보라는 기준만 추가했다.
+- 선호 신호: Virtue prelaunch의 activation 자료는 벤치마크 목표치보다 작은 표본에서 어떤 행동이 첫 가치이고 무엇이 다음 가치로 이어지는지 구분하는 관찰 문법으로 재사용하는 편이 맞다.
+- 드리프트 점검: 사용자 원본 노트는 덮어쓰지 않았고, 외부 링크 1개만 active input으로 사용했다.
+
 ## 2026-07-07 22:00 UTC | Marketing agentic PLG 결과 출력 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-13-agentic-plg-outcome-readable.md`를 승격 백로그 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 1개 판단으로 흡수했다.
