@@ -1,3 +1,11 @@
+## 2026-07-08 05:17 UTC | Integration/Marketing 외부 기준선 노트 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-22-own-baseline-onboarding-metrics.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 반영했다.
+- 탐구: 최근 mapped 폴백이 상태 줄·링크 표면·운영 메타 회수로 이어졌기 때문에 포화 탈출 규칙에 따라 품질 폴백 대신 오래된 `summarized` 마케팅 백로그를 골랐다.
+- 정리: Appcues/Userpilot/PLG Handbook 벤치마크는 목표 숫자가 아니라 첫 실제 사용자 기준선, J1~J4별 첫 가치/두 번째 가치 후보, synthetic/test traffic 제외 기준을 남기는 관찰 문법으로 좁혔다.
+- 선호 신호: prelaunch 마케팅 판단에서는 외부 평균보다 작은 실제 사용자 표본이 어떤 약속·첫 가치·재방문 이유를 자기 말로 남기는지가 더 중요하다.
+- 드리프트 점검: 외부 링크 원문은 source 레이어에 유지하고, 사용자 원본 `source/shdkej-content/Integration/Marketing.md`는 수정하지 않았다.
+
 ## 2026-07-08 01:17 UTC | Integration/Marketing TTV 백로그 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-22-time-to-value-second-value.md` 1개 외부 링크를 승격하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 반영했다.
