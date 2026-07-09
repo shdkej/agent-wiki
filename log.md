@@ -1,3 +1,11 @@
+## 2026-07-09 13:17 UTC | Marketing 사람/에이전트 온보딩 지표 경계 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-28-human-agent-onboarding-metrics.md` 1개 외부 링크를 `integrated`로 전환하고, [[mapped/Integration/Marketing]]의 활성화 판정면에 사람/테스트/에이전트 트래픽 경계를 흡수했다.
+- 탐구: 최근 세 번 이상의 작업이 안정 mapped 노트의 표면 정리에 가까워, 포화 탈출 규칙에 따라 품질 폴백 대신 30일 이상 된 승격 백로그를 우선 처리했다.
+- 정리: Marketing 본문에는 새 지표 목록을 늘리지 않고, activation 숫자를 해석하기 전 표본 출처·플랫폼·테스트 제외 단서·human owner의 결과 재사용을 분리하는 판단 문장으로 압축했다.
+- 선호 신호: prelaunch/low-signal 상태의 마케팅 판단은 외부 benchmark보다 작은 표본의 출처와 사용 주체를 보존할 때 더 오래 쓸 수 있다.
+- 드리프트 점검: 외부 링크 1개만 승격 입력으로 사용했고, 원본 `source/shdkej-content/Integration/Marketing.md` 본문은 수정하지 않았다.
+
 ## 2026-07-09 10:00 UTC | Marketing 행복한 첫 사용자 언어 적합성 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-29-happy-customers-language-fit.md` 1개를 승격해 [[mapped/Integration/Marketing]]의 실행 판단판과 외부/실행 산출물 연결에 통합했다.
