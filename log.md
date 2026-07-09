@@ -1,3 +1,11 @@
+## 2026-07-09 05:17 UTC | Marketing 첫 세션 마찰 증거 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-25-first-session-friction-evidence.md` 1개 승격 백로그를 `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`에 통합하고, 해당 source 상태를 `integrated`로 전환했다.
+- 탐구: 첫 세션 마찰 자료를 퍼널 전환율보다 반복 클릭, 입력 후 멈춤, 결과 전 이탈, 저장 전 망설임 같은 행동 증거로 먼저 읽는 관찰 언어로 정리했다.
+- 정리: Marketing의 외부/실행 산출물 연결에 `value-critical`, `value-adjacent`, `non-critical at activation` 분류를 추가해, 작은 표본의 미완료 세션을 무관심이나 전환 실패로 과대해석하지 않게 했다.
+- 선호 신호: Virtue prelaunch의 첫 10-20명 관찰은 `deed_judged`/`deed_saved` 전환율보다 미완료 세션의 첫 막힘 유형과 사용자가 시도한 의도를 함께 남길 때 재사용성이 높다.
+- 드리프트 점검: 최근 표면 폴리시 반복을 피해 승격 백로그를 처리했고, 사용자 원본 `source/shdkej-content/`는 수정하지 않았다.
+
 ## 2026-07-09 01:17 UTC | Marketing 세 화면 가치 증명 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-25-three-screen-value-onboarding.md` 1개 승격 백로그를 `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`에 통합하고, 해당 source 상태를 `integrated`로 전환했다.
