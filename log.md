@@ -1,3 +1,11 @@
+## 2026-07-09 10:00 UTC | Marketing 행복한 첫 사용자 언어 적합성 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-29-happy-customers-language-fit.md` 1개를 승격해 [[mapped/Integration/Marketing]]의 실행 판단판과 외부/실행 산출물 연결에 통합했다.
+- 탐구: Retool의 100 happy customers 사례를 Virtue prelaunch의 공개 발송 지시가 아니라 J1-J4별 첫 사용자 언어와 first value 약속을 맞추는 내부 판독 기준으로 좁혔다.
+- 정리: Marketing 실행 판단판에 `행복한 첫 사용자` 행을 추가하고, 외부 링크 상태를 `integrated` 및 `integrated_into: agent-wiki/content/docs/mapped/Integration/Marketing.mdx`로 갱신했다.
+- 선호 신호: 출시 전에는 유입 확대보다 어떤 작은 집단이 어떤 문장을 자기 문제로 읽는지와 그 문장이 실제 첫 가치로 이어지는지 먼저 남길 때 재사용성이 높다.
+- 드리프트 점검: 새 learning note를 만들지 않고 summarized 백로그 72개 상태에서 기존 외부 링크 1개만 `integrated`로 이동했다.
+
 ## 2026-07-09 09:17 UTC | Integration/Marketing 홈 FAE 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-26-home-dashboard-fae.md` 1개를 승격해 [[mapped/Integration/Marketing]]의 실행 판단판과 외부/실행 산출물 연결에 통합했다.
