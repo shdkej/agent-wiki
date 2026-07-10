@@ -1,3 +1,11 @@
+## 2026-07-10 05:17 UTC | Marketing AEO/GEO 실행 게이트 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-27-hada-aeo-geo-seo-ai-search.md` 1개를 승격 대상으로 판정하고 [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 반영했다.
+- 탐구: Hada AEO/GEO 요약을 검색 순위 팁이 아니라 크롤링 허용, 스니펫 자격, 렌더링된 HTML, 검색용/학습용 봇 정책 분리, 직접 경험 콘텐츠라는 실행 게이트로 읽었다.
+- 정리: 외부 링크 source frontmatter를 `integrated`로 바꾸고 `integrated_into`를 남겼으며, mapped 본문에는 `응답 표면`과 `에이전트 유통`의 선행 조건으로만 압축했다.
+- 선호 신호: AEO/GEO 자료는 공개 노출 확대보다 사람이 읽는 설명과 에이전트가 읽는 DOM/label/heading이 같은 제품 약속을 전달하는지 확인하는 기준으로 흡수하는 편이 맞다.
+- 드리프트 점검: 최근 안정 mapped polish가 표면 정리에 치우쳐 이번에는 승격 백로그를 우선했고, 사용자 원본 `source/shdkej-content/`는 수정하지 않았다.
+
 ## 2026-07-10 01:18 UTC | Marketing 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-26-ai-onboarding-input-output.md` 1개를 승격 대상으로 판정하고 [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 반영했다.
