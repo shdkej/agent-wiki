@@ -1,3 +1,11 @@
+## 2026-07-10 09:17 UTC | Integration/Marketing AI 검색 표면 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-27-hada-google-ai-search-optimization-guide.md` 1개 외부 링크를 승격 대상으로 판정하고, [[mapped/Integration/Marketing]]에 반영했다.
+- 탐구: 최근 로그의 mapped 폴백이 표면 정리에 치우친 상태라 품질 폴백 대신 30일 이상 `summarized` 상태로 남아 있던 가장 오래된 마케팅 외부 링크를 선택했다.
+- 정리: Google 생성형 AI 검색 가이드를 AEO/GEO 해킹이 아니라 직접 경험 콘텐츠, 크롤링 가능한 HTML, 접근성/DOM 액션 표면이 사람과 에이전트에게 같은 약속을 전달하는 `응답 표면`/`에이전트 유통` 하한선으로 압축했다.
+- 선호 신호: AI 검색 자료는 새 채널 확장론으로 키우기보다, 기존 Marketing 노트의 첫 가치·대상 job·한계·다음 행동이 공개 렌더링 표면에서도 같은 문장으로 보이는지 감사하는 기준으로 흡수하는 편이 적합하다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/Integration/Marketing.md`는 수정하지 않았고, 외부 링크 frontmatter는 `integrated`와 `integrated_into`로 닫았다.
+
 ## 2026-07-10 05:17 UTC | Marketing AEO/GEO 실행 게이트 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-27-hada-aeo-geo-seo-ai-search.md` 1개를 승격 대상으로 판정하고 [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 반영했다.
