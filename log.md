@@ -1,3 +1,11 @@
+## 2026-07-10 01:18 UTC | Marketing 외부 링크 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-26-ai-onboarding-input-output.md` 1개를 승격 대상으로 판정하고 [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 반영했다.
+- 탐구: 해당 외부 링크의 입력 부담, 결과 강도, click tax, 60초 첫 결과 기준을 Marketing의 기존 `도달 전 마찰`, `첫 가치`, `결과 소유 행동` 판정판과 대조했다.
+- 정리: 외부 링크 source frontmatter를 `integrated`로 바꾸고 `integrated_into`를 남겼으며, mapped 본문에는 `/add`의 입력-출력 균형을 작은 표본 관찰 기준으로만 압축했다.
+- 선호 신호: AI 온보딩 자료는 새 목표 숫자나 체크리스트를 늘리기보다 사용자가 낸 수고보다 강한 결과 이해가 돌아오는지 판정하는 Marketing 기준으로 흡수하는 편이 맞다.
+- 드리프트 점검: 사용자 원본 노트는 수정하지 않았고, 외부 자료는 출처 경계를 보존한 채 기존 mapped 판단에만 연결했다.
+
 ## 2026-07-09 21:17 UTC | AEO agent-ready 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-26-aeo-agent-ready-research.md` 1개를 승격 백로그 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 판단을 흡수했다.
