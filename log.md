@@ -1,3 +1,11 @@
+## 2026-07-10 13:17 UTC | Integration/Marketing AI 신뢰 보정 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-05-28-ai-trust-calibration.md` 1개 외부 링크를 승격 대상으로 판정하고, [[mapped/Integration/Marketing]]에 반영했다.
+- 탐구: 최근 mapped polish가 표면 정리에 치우친 상태라 품질 폴백 대신 30일 이상 `summarized` 상태로 남아 있던 마케팅 외부 링크를 선택했다.
+- 정리: AI 결과 카드의 신뢰를 확신도 숫자나 설득 카피가 아니라 사용자가 어디까지 믿고 어디서 자기 판단을 써야 하는지 아는 보정 문제로 압축해 `첫 가치`, `결과 소유 행동`, `다음 행동` 판정에 연결했다.
+- 선호 신호: AI 판정 제품의 첫 세션은 결과를 더 믿게 만드는 문장보다 근거 이해, 한계 인지, 저장/재시도/무시 같은 제어 선택이 사용자 흐름에 남는지를 먼저 관찰하는 편이 적합하다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/Integration/Marketing.md`는 수정하지 않았고, 외부 링크 frontmatter는 `integrated`와 `integrated_into`로 닫았다.
+
 ## 2026-07-10 09:17 UTC | Integration/Marketing AI 검색 표면 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-05-27-hada-google-ai-search-optimization-guide.md` 1개 외부 링크를 승격 대상으로 판정하고, [[mapped/Integration/Marketing]]에 반영했다.
