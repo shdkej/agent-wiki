@@ -1,3 +1,11 @@
+## 2026-07-11 09:17 UTC | Marketing PLG 가격 트리거 승격
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지와 `source/external-links/marketing/2026-05-30-plg-pricing-triggers.md` 상태만 갱신했다.
+- 탐구: Stripe PLG pricing과 2026 B2B monetization 메모를 가격표 작성 지시가 아니라 첫 가치 전 차단과 첫 가치 후 확장 트리거를 가르는 판단 자료로 읽었다.
+- 정리: `무료/유료` 보조 판정에 첫 가치 이전 제한의 차단 위험을 더하고, 외부/실행 산출물 연결에는 저장·판정·결제 요구를 activation 경로와 분리해 읽는 기준을 압축했다.
+- 선호 신호: Virtue prelaunch의 가격 판단은 과금 모델 확정보다 사용자가 이미 얻은 가치 뒤에 무엇을 더 하고 싶어 하는지 관찰한 다음 붙여야 재사용 가능하다.
+- 드리프트 점검: saturation escape에 따라 mapped cosmetic polish 대신 오래된 external-link 승격 백로그를 처리했고, 원본 `source/shdkej-content/Integration/Marketing.md` 본문은 수정하지 않았다.
+
 ## 2026-07-11 01:17 UTC | Marketing AI 결과 대리 지표 승격
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지와 `source/external-links/marketing/2026-05-30-ai-outcome-proxy.md` 상태만 갱신했다.
