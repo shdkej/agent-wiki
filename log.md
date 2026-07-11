@@ -1,3 +1,11 @@
+## 2026-07-11 17:17 UTC | Marketing 제품 주도 온보딩 범퍼 승격
+
+- 갱신 범위: [[mapped/Integration/Marketing]]에 `source/external-links/marketing/2026-05-31-product-led-onboarding-bumpers.md`의 제품 본체/범퍼 구분을 좁게 흡수하고, 해당 외부 링크 source를 `integrated`로 전환했다.
+- 탐구: 오래된 `summarized` 백로그 중 2026-05-31 PLG 온보딩 자료를 골라, 기존 Marketing의 `도달 전 마찰`, `첫 가치`, `결과 소유 행동` 판정판과 겹치는 지점만 확인했다.
+- 정리: 체크리스트·툴팁 추가 지시로 복사하지 않고, Virtue prelaunch 관찰에서 길 잃음과 결과 기대 불일치를 분리해 제품 가치 문제와 범퍼 문제를 다르게 라우팅하는 기준으로 압축했다.
+- 선호 신호: 온보딩 자료는 새 안내 UI를 늘리기보다 제품 자체가 첫 가치를 만들고 안내는 이탈 지점에만 붙는지 판별할 때 더 재사용 가능하다.
+- 드리프트 점검: mapped cosmetic polish 대신 30일 이상 남은 external-link 승격 백로그를 처리했고, 원본 `source/shdkej-content/Integration/Marketing.md` 본문은 수정하지 않았다.
+
 ## 2026-07-11 13:17 UTC | Marketing AI 온보딩 공유성 승격
 
 - 갱신 범위: [[mapped/Integration/Marketing]]에 `source/external-links/marketing/2026-05-31-ai-onboarding-execute-shareworthy.md`의 shareworthy 첫 결과 판단을 좁게 흡수하고, 해당 외부 링크 source를 `integrated`로 전환했다.
