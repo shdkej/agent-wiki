@@ -1,3 +1,11 @@
+## 2026-07-12 05:17 UTC | Marketing 첫 입력 조향 외부 링크 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-01-agent-default-prompts-retention.md` 1개를 승격 대상으로 확정하고, [[mapped/Integration/Marketing]]의 실행 판단판과 외부 산출물 연결에 흡수했다.
+- 탐구: Amplitude의 agent default prompt/retention 사례를 수치 벤치마크가 아니라 Virtue prelaunch의 첫 입력 출처와 후속 행동 관찰 렌즈로 제한해 읽었다.
+- 정리: Marketing에 `첫 입력 조향` 행을 추가해 placeholder·예시·추천 질문이 기능 설명 카피가 아니라 J1-J4 첫 행동을 부르는 조향 장치라는 판단을 남기고, source frontmatter를 `integrated`로 갱신했다.
+- 선호 신호: AI/agent 온보딩 자료는 새 카피 실험으로 바로 옮기기보다 첫 10-20명 손기록에서 입력 출처와 두 번째 행동의 짝을 남길 때 더 재사용 가능하다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/Integration/Marketing.md`는 덮어쓰지 않았고, 외부 링크 1개만 active input으로 사용했다.
+
 ## 2026-07-11 17:17 UTC | Marketing 제품 주도 온보딩 범퍼 승격
 
 - 갱신 범위: [[mapped/Integration/Marketing]]에 `source/external-links/marketing/2026-05-31-product-led-onboarding-bumpers.md`의 제품 본체/범퍼 구분을 좁게 흡수하고, 해당 외부 링크 source를 `integrated`로 전환했다.
