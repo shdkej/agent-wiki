@@ -1,3 +1,11 @@
+## 2026-07-12 21:17 UTC | Marketing activation-retention 외부 링크 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-03-activation-retention-correlation.md` 1개를 승격 판단하고 [[mapped/Integration/Marketing]]에 재사용 판단을 컴파일했다.
+- 탐구: PostHog/Amplitude/Reforge 기반 activation-retention 노트를 제품 목표치가 아니라 Virtue launch 이후 사후 숫자 고르기를 막는 사전 대조 계약으로 읽었다.
+- 정리: Marketing의 activation 후보 묶음 문맥에 A1-A4 후보, 관찰 창, D7/D30 재가치 질문, synthetic/mock/availability 제외 조건을 같은 표에 묶어야 한다는 판단을 추가하고, 외부 링크 status를 `integrated`로 전환했다.
+- 선호 신호: prelaunch marketing 자료는 벤치마크 목표보다 첫 가치가 다시 올 이유로 검증되는지 확인하는 해석 금지선과 대조 창으로 흡수하는 편이 맞다.
+- 드리프트 점검: 사용자 원본 노트는 덮어쓰지 않았고, 외부 링크 1개와 대응 mapped 노트 1개만 사용했다.
+
 ## 2026-07-12 17:17 UTC | Marketing agent-first 제품 표면 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-03-agent-first-product-surfaces.md` 1개 외부 링크를 `integrated`로 전환하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 내부 분석 표면 기준으로 흡수했다.
