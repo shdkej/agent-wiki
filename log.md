@@ -1,3 +1,11 @@
+## 2026-07-13 22:00 UTC | Marketing PLG activation measurement 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-12-plg-activation-measurement.md`를 승격 백로그 대상으로 처리하고 [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 activation 정의 품질 판단을 흡수했다.
+- 탐구: Mixpanel PLG activation 자료를 채널 확장론이 아니라 Virtue prelaunch의 first value 계약과 해석 금지선으로 제한해 읽었다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, Marketing 본문에는 `count now / observe manually / do not judge yet` 분리 기준을 한 문단으로 추가했다.
+- 선호 신호: Virtue prelaunch에서는 가입·방문·단일 저장 수보다 잡별 first value와 수기 반응, 아직 판단하지 않을 후단 지표를 먼저 분리하는 편이 맞다.
+- 드리프트 점검: 신규 learning note는 만들지 않고 summarized backlog 43개 중 1개를 승격했으며, 사용자 원본 노트는 수정하지 않았다.
+
 ## 2026-07-13 21:17 UTC | Marketing PQL 경계 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-05-plg-pql-activation-boundary.md`를 승격 백로그 대상으로 처리하고 [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 PQL 경계 판단을 흡수했다.
