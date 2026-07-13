@@ -1,3 +1,11 @@
+## 2026-07-13 05:17 UTC | Marketing AI 신뢰 외부 링크 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-04-ai-trust-low-stakes-delegation.md` 1개를 `integrated`로 전환하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 낮은 위험 위임 기반 AI 신뢰 판단을 좁게 흡수했다.
+- 탐구: 승격 백로그의 오래된 summarized 항목 중 AI trust 자료를 골라, EY/McKinsey 관점을 Virtue prelaunch의 첫 가치·결과 소유 행동·다음 행동 관찰 경계로 번역했다.
+- 정리: 신뢰를 새 이벤트나 카피 배포로 키우지 않고, J3의 `deed_judged` 정상 종료와 J1/J2/J4의 `deed_saved` 해석 금지선을 함께 남겼다.
+- 선호 신호: AI 제품 마케팅 자료는 설득 문구보다 사용자가 근거를 읽고 선택권을 유지하는지 확인하는 관찰 기준으로 승격할 때 기존 Marketing 노드와 잘 맞는다.
+- 드리프트 점검: saturation escape에 따라 안정 mapped 노트의 표면 polish 대신 priority 3 외부 링크 백로그를 처리했다.
+
 ## 2026-07-12 21:17 UTC | Marketing activation-retention 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-03-activation-retention-correlation.md` 1개를 승격 판단하고 [[mapped/Integration/Marketing]]에 재사용 판단을 컴파일했다.
