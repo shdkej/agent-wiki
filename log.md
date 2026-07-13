@@ -1,3 +1,11 @@
+## 2026-07-13 13:17 UTC | Integration/Marketing AI readiness trace 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-04-human-ai-readiness-traces.md` 1개 외부 링크를 승격하고, [[mapped/Integration/Marketing]]의 실행 판단판에 `AI 의존 보정` 행으로 통합했다.
+- 탐구: 인간-AI 의사결정 readiness 자료를 정확도·만족도 지표가 아니라 outcome, reliance, safety, learning 상호작용 흔적으로 읽어 Marketing의 첫 가치/결과 소유 판단과 맞췄다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, mapped 본문에는 `deed_saved`, `deed_judged`, `deed_rerolled`를 신뢰 proxy로 단정하지 않는 관찰 기준만 추가했다.
+- 선호 신호: AI 제품 마케팅에서는 "AI를 믿게 만들기"보다 사용자가 근거를 읽고, 재시도·무시·저장·종료를 자기 선택으로 다루는지 확인하는 편이 Virtue prelaunch 판단에 더 맞다.
+- 드리프트 점검: 외부 논문/온보딩 자료를 사용자 원본으로 섞지 않고, 기존 Marketing mapped 노트의 실행 판단판 한 행과 외부 산출물 연결 문단으로만 승격했다.
+
 ## 2026-07-13 05:17 UTC | Marketing AI 신뢰 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-04-ai-trust-low-stakes-delegation.md` 1개를 `integrated`로 전환하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 낮은 위험 위임 기반 AI 신뢰 판단을 좁게 흡수했다.
