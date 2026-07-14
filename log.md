@@ -1,3 +1,11 @@
+## 2026-07-14 01:18 UTC | Marketing 세션당 가치 외부 링크 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-06-ai-value-per-session.md` 1개 외부 링크를 승격 판단 대상으로 처리하고, [[mapped/Integration/Marketing]]의 실행 판단판 1행에만 흡수했다.
+- 탐구: Mixpanel 2026 분석 요약 노트의 핵심을 이벤트 수 증가가 아니라 세션당 가치, 정상 종료, 후속 행동 명확성 판독으로 읽었다.
+- 정리: Marketing의 `첫 가치` 보조 판정에 AI 흐름에서는 이벤트 수보다 한 세션 안에서 전달된 가치와 정상 종료 여부를 먼저 본다는 기준을 추가하고, 외부 링크 frontmatter를 `integrated`와 `integrated_into`로 전환했다.
+- 선호 신호: 프리런치 AI 제품 판단에서는 클릭·이벤트 수가 줄어도 가치 전달이 빨라진 것일 수 있으므로, 작은 표본에서는 수치량보다 세션의 결과와 종료 맥락을 먼저 분리한다.
+- 드리프트 점검: 원본 `Integration/Marketing`의 활성화/전환 경계 안에서만 보강했고, 외부 링크 본문을 복사하지 않았다.
+
 ## 2026-07-13 22:00 UTC | Marketing PLG activation measurement 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-12-plg-activation-measurement.md`를 승격 백로그 대상으로 처리하고 [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 activation 정의 품질 판단을 흡수했다.
