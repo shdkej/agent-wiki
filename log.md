@@ -1,3 +1,11 @@
+## 2026-07-15 05:17 UTC | Integration/Marketing AI 선택권 경계 통합
+
+- 갱신 범위: `source/external-links/marketing/2026-06-07-ai-control-not-decision.md` 1개 승격 백로그를 처리하고 [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 통합했다.
+- 탐구: Gartner AI shopping survey 요약을 Marketing의 기존 `AI 의존 보정` 행과 대조해, AI 판정 약속을 결정 대행이 아니라 사용자의 저장·재시도·무시·종료 선택권을 보조하는 표면으로 읽었다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, Marketing 본문에는 autonomy-overclaim 방지선과 첫 관찰표에서 볼 선택권 신호만 짧게 추가했다.
+- 선호 신호: AI 제품 마케팅 자료는 더 강한 권위 주장보다 사용자가 결과를 참고 자료로 다룰 수 있는지와 추가 확인 노동을 만들지 않는지를 먼저 판정할 때 원문 Marketing 노드와 잘 맞는다.
+- 드리프트 점검: 사용자 원본 노트는 수정하지 않았고, 외부 링크 1개와 대응 mapped 페이지 1개만 다뤘다.
+
 ## 2026-07-15 01:17 UTC | Integration/Marketing 첫 주 재초대 경계 흡수
 
 - 갱신 범위: `source/external-links/marketing/2026-06-06-first-week-reactivation.md` 1개 승격 백로그를 처리하고, [[mapped/Integration/Marketing]]에 재방문 연속성 판단으로 흡수했다.
