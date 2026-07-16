@@ -1,3 +1,11 @@
+## 2026-07-16 05:19 UTC | Marketing 외부 링크 승격 - AI 수동 활성화/리텐션 공백
+
+- 갱신 범위: `source/external-links/marketing/2026-06-09-ai-passive-activation-retention.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]] 1개 페이지에만 판단을 컴파일했다.
+- 탐구: ChartMogul AI activation/retention 요약 노트와 기존 Marketing mapped 노트의 `결과 소유 행동`, `첫 가치`, `재방문 연속성` 판정면을 확인했다.
+- 정리: 빠른 AI 산출이 감탄은 만들지만 저장·수정·선택·자기 말 설명으로 이어지지 않으면 활성화를 과대평가하지 않는다는 판단을 Marketing의 기존 판정판에 흡수하고, 외부 링크 frontmatter를 `integrated`로 전환했다.
+- 선호 신호: 외부 링크는 새 이론 섹션으로 늘리기보다 기존 mapped 노트의 한 실행 행을 더 엄격하게 만드는 방식이 적합하다.
+- 드리프트 점검: `source/shdkej-content` 원본은 변경하지 않았고, 외부 링크 1개와 mapped 페이지 1개, 운영 로그만 수정했다.
+
 ## 2026-07-15 21:18 UTC | Integration/Marketing 첫 사용자 학습 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-08-founder-led-first-users.md` 1개 외부 링크를 승격하고, [[mapped/Integration/Marketing]]의 첫 사용자 학습 판단에만 좁게 반영했다.
