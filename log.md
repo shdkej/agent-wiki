@@ -1,3 +1,11 @@
+## 2026-07-16 17:17 UTC | Marketing AI 온보딩 의도-작업 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-11-ai-onboarding-intent-to-task.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 통합했다.
+- 탐구: ProductLed/Userflow/Userpilot/Fishman 계열 AI 온보딩 자료를 빠른 답변 생성보다 `사용자 의도 -> AI가 수행한 작업 -> 사용자가 선택한 다음 행동`을 보는 판단으로 읽었다.
+- 정리: Marketing의 `첫 입력 조향`, `결과 소유 행동`, `다음 행동` 행에 연결되도록 의도-작업 번역 기준을 한 문단으로 압축하고, 외부 링크 frontmatter를 `integrated`와 `integrated_into`로 갱신했다.
+- 선호 신호: Virtue prelaunch의 AI 온보딩은 이벤트 발생 자체보다 결과 직후 사용자가 저장, 재작성, 자기 말 설명, 정상 종료 중 무엇으로 자기 흐름에 편입했는지를 먼저 봐야 한다.
+- 드리프트 점검: 사용자 원본 노트는 덮어쓰지 않았고, 외부 링크 1개를 Integration/Marketing 판단면에 제한적으로 승격했다.
+
 ## 2026-07-16 13:17 UTC | Marketing AI 온보딩 click tax 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-10-ai-onboarding-click-tax-output.md`를 승격 완료로 닫고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 prompt design과 click tax 판정 기준을 한 문단으로 흡수했다.
