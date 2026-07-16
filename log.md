@@ -1,3 +1,11 @@
+## 2026-07-16 13:17 UTC | Marketing AI 온보딩 click tax 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-10-ai-onboarding-click-tax-output.md`를 승격 완료로 닫고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 prompt design과 click tax 판정 기준을 한 문단으로 흡수했다.
+- 탐구: ProductLed/Mixpanel/Userpilot 계열 요약을 60초 산출 목표로 넓히지 않고, Virtue 첫 입력 전 힌트와 결과 전 클릭이 잡별 첫 가치 도달을 돕는지 방해하는지 보는 기준으로 좁혔다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, Marketing 본문에는 기존 `도달 전 마찰`, `첫 가치`, `결과 소유 행동` 축 안에만 반영했다.
+- 선호 신호: AI 온보딩의 click tax는 모든 입력을 줄이라는 신호가 아니라, 결과와 무관한 탐색은 줄이고 결과를 자기 말로 회수하는 성찰 입력은 보존하는 판정 언어로 남기는 편이 낫다.
+- 드리프트 점검: 사용자 원본 노트는 변경하지 않았고, 외부 링크 1개와 대응 mapped 노트 1개만 편집했다.
+
 ## 2026-07-16 09:17 UTC | guided first-value 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-10-ai-onboarding-guided-first-value.md`를 승격 완료로 닫고, [[mapped/Integration/Marketing]]의 활성화 깊이 판정면에 guided first-value 판단을 한 문단으로 흡수했다.
