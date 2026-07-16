@@ -1,3 +1,11 @@
+## 2026-07-16 09:17 UTC | guided first-value 외부 링크 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-10-ai-onboarding-guided-first-value.md`를 승격 완료로 닫고, [[mapped/Integration/Marketing]]의 활성화 깊이 판정면에 guided first-value 판단을 한 문단으로 흡수했다.
+- 탐구: Amplitude/IBM/Seth Godin 계열 요약을 빠른 AI 산출 일반론으로 넓히지 않고, Virtue 첫 세션에서 사용자가 안내를 받으면서도 자기 선택권을 잃지 않는지 보는 기준으로 좁혔다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, Marketing 상단 상태 문장을 현재 판단에 맞춰 갱신했다.
+- 선호 신호: AI 온보딩 자료는 새 화면·지표 요청보다 `도움받았다`와 `내가 선택했다`가 동시에 남는지 확인하는 첫 사용자 관찰 언어로 축적하는 편이 낫다.
+- 드리프트 점검: 사용자 원본 노트는 변경하지 않았고, 외부 링크 1개와 대응 mapped 노트 1개만 편집했다.
+
 ## 2026-07-16 05:19 UTC | Marketing 외부 링크 승격 - AI 수동 활성화/리텐션 공백
 
 - 갱신 범위: `source/external-links/marketing/2026-06-09-ai-passive-activation-retention.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]] 1개 페이지에만 판단을 컴파일했다.
