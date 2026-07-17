@@ -1,3 +1,11 @@
+## 2026-07-17 17:17 UTC | Marketing agentic PLG 결과 문서 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-14-agentic-plg-outcome-docs.md` 1개 외부 링크를 승격해 [[mapped/Integration/Marketing]]에 반영하고, 외부 링크 frontmatter를 `integrated`로 전환했다.
+- 탐구: agentic PLG 자료를 빠른 time-to-value나 API 확장 신호가 아니라, J1-J4별 좋은 결과를 사람과 에이전트가 같은 문서에서 읽을 수 있는지 확인하는 outcome docs 기준으로 해석했다.
+- 정리: Marketing의 `에이전트 유통`/`첫 가치` 판단에 결과 중심 문서 기준을 한 문단으로 추가하고, 공개 카피보다 내부 product explainer와 첫 10명 관찰표가 job별 결과 품질을 구분하는지가 우선임을 남겼다.
+- 선호 신호: AI 제품 마케팅에서는 빠른 산출 자체보다 기대 결과, 판단 기준, 다음 행동, 사람의 최종 선택권이 문서와 관찰표에 같이 남을 때 활성화 판단으로 승격한다.
+- 드리프트 점검: `source/shdkej-content/Integration/Marketing.md` 원본 구조는 건드리지 않고, 외부 링크 1개를 기존 mapped 판단판에 좁게 컴파일했다.
+
 ## 2026-07-17 13:19 UTC | Marketing PLG 신호 위계 승격
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지에 `source/external-links/marketing/2026-06-14-plg-signal-hierarchy.md`를 승격하고, 해당 external-link 상태를 `integrated`로 전환했다.
