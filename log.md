@@ -1,3 +1,11 @@
+## 2026-07-17 21:17 UTC | Marketing PLG activation/PQL 백로그 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-15-plg-activation-pql-boundary.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]] 및 `source-mapping` 확인 문구에 반영했다.
+- 탐구: Mixpanel PLG 자료를 activation/PQL 일반론이 아니라 Virtue prelaunch에서 `count now / observe manually / do not judge yet` 경계를 세우는 launch-after 판독 계약으로 읽었다.
+- 정리: Marketing의 외부/실행 산출물 연결에 first value 이전 마찰과 이후 확장 의도를 분리하는 판단을 추가하고, 외부 링크 frontmatter를 `integrated` 및 `integrated_into`로 갱신했다.
+- 선호 신호: 작은 표본에서는 activation이나 PQL 임계값을 성급히 만들기보다, 잡별 first value 후보가 이후 재방문·반복 가치와 연결되는지 검증할 수 있는 관찰 언어를 먼저 고정하는 편이 낫다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/Integration/Marketing.md`는 직접 수정하지 않았고, 외부 링크 1개만 mapped 판단판에 흡수했다.
+
 ## 2026-07-17 17:17 UTC | Marketing agentic PLG 결과 문서 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-14-agentic-plg-outcome-docs.md` 1개 외부 링크를 승격해 [[mapped/Integration/Marketing]]에 반영하고, 외부 링크 frontmatter를 `integrated`로 전환했다.
