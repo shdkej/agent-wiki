@@ -1,6 +1,6 @@
 ---
 title: "마케팅"
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 # 마케팅
@@ -8,7 +8,7 @@ updated: 2026-07-16
 - 원본: `source/shdkej-content/Integration/Marketing.md`
 - 대응 페이지: `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`
 - 역할: 원본 만다라트 노드와 1:1 대응하는 Integration 판단 노트
-- 상태: 안정 디벨롭 · AI 온보딩의 빠른 산출을 첫 가치로 과대해석하지 않고, 안내된 경로와 사용자 통제감이 함께 남는지 보는 활성화 깊이 판정면 유지
+- 상태: 안정 디벨롭 · AI 온보딩의 빠른 산출을 첫 가치로 과대해석하지 않고, 신뢰 가능한 결과와 재현 이해가 함께 남는지 보는 활성화 깊이 판정면 유지
 
 ## 한 줄 요약
 Marketing은 광고 채널 관리보다 `사용자 접점 설계 -> 반응 관찰 -> 첫 가치 확인 -> 전환 설득 -> 제품/CRM 조정`을 잇는 Integration 노드다.
@@ -209,6 +209,8 @@ SNS 메모는 게시 빈도 팁보다 `꾸준히 계속 하는 사람이라는 �
 `source/external-links/marketing/2026-06-03-activation-retention-correlation.md`는 이 남은 일을 사후 숫자 고르기가 아니라 사전 등록된 대조 계약으로 좁힌다. Marketing에서는 activation 후보를 launch 뒤 보기 좋은 이벤트로 갈아끼우지 않고, A1-A4 후보 묶음, 제품 자연 주기에 맞는 관찰 창, D7/D30 재가치 질문, synthetic/mock/availability 제외 조건을 미리 같은 표에 묶어 둔다. 특히 J3처럼 `deed_judged`에서 정상 종료될 수 있는 job은 저장 없음만으로 이탈로 읽지 않고, 후보별 retained/non-retained cohort를 비교할 때 어떤 완료 행동이 어떤 다음 방문 언어로 이어졌는지를 함께 본다. 따라서 PostHog/Amplitude/Reforge의 숫자는 목표치가 아니라 `첫 가치가 다시 올 이유로 검증됐는가`를 묻는 사전 대조 문법으로만 쓴다.
 
 `source/external-links/marketing/2026-06-09-ai-passive-activation-retention.md`는 AI 제품의 빠른 첫 산출물이 활성화처럼 보이지만 반복 사용 이유를 만들지 못할 수 있다는 경고를 더한다. Marketing에서는 이를 새 리텐션 목표로 늘리지 않고, `결과 소유 행동` 행의 판정 근거로 흡수한다. 사용자가 AI 결과에 감탄했더라도 저장, 수정, 선택, 자기 말 설명, 다음 기록 의도 중 하나로 옮기지 않으면 first value를 과대평가하지 않는다. 특히 낮은 가격이나 쉬운 가입으로 들어온 AI 관광객은 진지한 사용자와 섞이기 쉬우므로, prelaunch에서는 전환율보다 첫 10명 관찰표의 `수동 감탄 / 자기화 행동 / 자연 종료` 구분이 먼저다.
+
+`source/external-links/marketing/2026-06-12-ai-plg-first-reliable-value.md`는 이 경고를 `첫 신뢰 가능한 결과` 기준으로 더 좁힌다. Marketing에서는 첫 사용, 첫 AI 응답, 첫 저장을 각각 activation으로 단정하지 않고, 사용자가 결과를 받아들인 이유, 다시 비슷한 상황에서 재현할 수 있다는 이해, 재입력이나 재판정이 줄어드는 흐름을 함께 본다. Virtue prelaunch에서는 새 이벤트보다 첫 10명 관찰표에 accepted output, useful-result time, retry 이유, 재현 이해를 수기로 붙이는 편이 안전하며, J1/J2/J4의 `deed_saved`와 J3의 `deed_judged`도 이 신뢰 확인을 통과할 때만 더 강한 첫 가치 후보가 된다.
 
 `source/external-links/marketing/2026-06-01-agent-default-prompts-retention.md`는 AI 제품의 기본 프롬프트와 예시 문구를 첫 입력 조향 장치로 보게 한다. Marketing에서는 이를 새 카피 실험으로 바로 키우지 않고, `첫 입력 조향`, `첫 가치`, `다음 행동` 행의 수기 관찰 기준으로 흡수한다. Virtue prelaunch에서는 기능을 설명하게 만드는 입력, 잡 수행으로 바로 들어가게 하는 입력, 중립 placeholder가 각각 어떤 J1-J4 행동을 부르는지 구분해 남긴다. 첫 메시지나 첫 저장보다 중요한 것은 첫 결과 뒤 사용자가 재판정, 다른 입력, 저장, 자기 말 설명 같은 두 번째 행동으로 넘어가는지이며, launch 전에는 이를 retention 수치가 아니라 입력 출처와 후속 행동의 짝으로 기록한다.
 
