@@ -1,3 +1,11 @@
+## 2026-07-17 05:17 UTC | Marketing 선행 행동 외부 링크 통합
+
+- 갱신 범위: `source/external-links/marketing/2026-06-12-youtube-better-goal-than-sales.md` 1개 승격 백로그를 `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`에 통합하고, source 상태를 `integrated`로 전환했다.
+- 탐구: 이 자료의 핵심을 매출·가입 같은 후행 결과보다 결과 직전에 반복되는 선행 행동을 찾는 목표 설정 기준으로 읽었다.
+- 정리: Marketing 실행 판단판에 `선행 행동` 행을 추가하고, 외부/실행 산출물 연결에는 저장·재질문·자기 말 설명·다음날 재방문 같은 행동 후보가 실제 전환·재방문·신뢰 이해와 함께 움직이는지 검증한다는 기준으로 압축했다.
+- 선호 신호: 외부 마케팅 자료는 새 목표 관리론으로 펼치기보다 기존 첫 가치/활성화 판정판을 더 정확히 하는 증거일 때만 흡수한다.
+- 드리프트 점검: 사용자 원본 노트는 수정하지 않았고, 외부 링크 1개와 관련 mapped 노트 1개만 연결했다.
+
 ## 2026-07-17 01:17 UTC | Integration/Marketing 외부 링크 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-12-ai-plg-first-reliable-value.md`를 `integrated`로 전환하고 [[mapped/Integration/Marketing]] 1개 페이지에 흡수했다.
