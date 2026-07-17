@@ -1,3 +1,11 @@
+## 2026-07-17 13:19 UTC | Marketing PLG 신호 위계 승격
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지에 `source/external-links/marketing/2026-06-14-plg-signal-hierarchy.md`를 승격하고, 해당 external-link 상태를 `integrated`로 전환했다.
+- 탐구: 오래된 승격 백로그 중 2026-06-14 수집 PLG 신호 위계 노트를 읽고, 가입 수나 벤치마크보다 첫 가치·선행 행동·다음 행동의 해석 순서를 먼저 고정해야 한다는 판단을 Marketing의 실행 판단판에 연결했다.
+- 정리: 새 대시보드나 지표 목표를 만들지 않고, source/referrer, job guess, first-value event, time-to-first-value, next action, manual confidence를 작은 표본의 수기 판독 묶음으로 남기는 문단만 추가했다.
+- 선호 신호: prelaunch 마케팅 판단은 트래픽 확대보다 synthetic/test traffic을 실제 activation과 분리하고, 메시지 문제·온보딩 경로 문제·판단 보류 신호를 먼저 가르는 쪽이 재사용 가능하다.
+- 드리프트 점검: 우선순위 3 승격 백로그를 처리했으며, 최근 cosmetic polish 연속 흐름에서 mapped 표면 정리 대신 외부 링크 학습 승격으로 전환했다.
+
 ## 2026-07-17 09:17 UTC | Marketing AI 가격·크레딧 신뢰 UX 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-13-ai-pricing-trust-credits.md` 1개 승격 백로그를 `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`에 통합하고, source 상태를 `integrated`로 전환했다.
