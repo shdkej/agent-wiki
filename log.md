@@ -1,3 +1,11 @@
+## 2026-07-18 09:17 UTC | Marketing 에이전트 신뢰 증거 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-17-agent-trust-economy.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 `에이전트 유통` 판단에 통합했다.
+- 탐구: AI 에이전트가 고객 접점 일부를 대신하는 환경에서도 Virtue prelaunch의 우선순위는 API/MCP 확장이 아니라 사람이 읽어도 에이전트가 읽어도 같은 첫 출력·근거·한계·저장 경계를 남기는 trust evidence inventory임을 확인했다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, Marketing 실행 판단판과 외부 산출물 연결에 `agent-readable` 신뢰 증거 기준을 짧게 반영했다.
+- 선호 신호: AI-native 마케팅 자료는 새 유통 채널 실행으로 키우기보다 첫 가치와 추천 금지선을 함께 읽게 하는 설명 감사 기준으로 흡수할 때 원문 Marketing의 전환·신뢰 판단과 잘 맞는다.
+- 드리프트 점검: 사용자 원본 노트는 수정하지 않았고, 외부 링크 1개와 관련 mapped 페이지 1개만 사용했다.
+
 ## 2026-07-18 05:17 UTC | Marketing AI 분석 측정 맥락 승격
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지에 `source/external-links/marketing/2026-06-16-ai-analytics-semantic-context.md`를 승격하고, 해당 외부 링크 source 상태를 `integrated`로 전환했다.
