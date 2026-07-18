@@ -1,3 +1,11 @@
+## 2026-07-18 21:17 UTC | 첫 세션 온보딩 게이트 synthesis 생성
+
+- 갱신 범위: `content/docs/syntheses/first-session-onboarding-gates.mdx`를 새로 만들어 외부 온보딩 학습 3개와 [[mapped/Integration/Marketing]]의 첫 가치/빈 상태 판단을 한 장의 게이트 모델로 컴파일했다.
+- 탐구: 최근 작업 로그가 mapped 표면 polish로 연속되어 있어 포화 탈출 규칙에 따라 품질 폴백 대신 priority 4 컴파일 대상으로 전환했다.
+- 정리: `진입 약속 -> 입력 기대 -> 반환 일관성` 3게이트로 첫 세션 판단을 압축하고, CTA·카피·상태 계약 문제를 같은 온보딩 실험으로 섞지 않는 기준을 남겼다.
+- 선호 신호: 프리런치 AI 제품의 첫 세션은 빠른 산출이나 클릭 완료보다 사용자가 결과 표면을 상상하고, 맡긴 결과를 자기 흐름에 편입하며, 반환 화면에서 모순 없이 확인하는지로 읽는 편이 적합하다.
+- 드리프트 점검: `source/shdkej-content/` 원본은 수정하지 않았고, 외부 링크는 판단 근거로만 사용했다.
+
 ## 2026-07-18 17:17 UTC | Integration/Marketing 빈 상태 proof seeding 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-19-empty-state-proof-seeding.md` 1개 외부 링크를 승격하고, [[mapped/Integration/Marketing]]의 `빈 상태` 판정에 proof seeding 기준을 좁게 반영했다.
