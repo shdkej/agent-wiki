@@ -1,3 +1,11 @@
+## 2026-07-18 05:17 UTC | Marketing AI 분석 측정 맥락 승격
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지에 `source/external-links/marketing/2026-06-16-ai-analytics-semantic-context.md`를 승격하고, 해당 외부 링크 source 상태를 `integrated`로 전환했다.
+- 탐구: Amplitude의 AI product analytics 자료를 대시보드 확장 요청이 아니라 이벤트 정의, 제외 규칙, 공식 맥락을 에이전트가 읽을 수 있어야 한다는 측정 계약으로 좁혔다.
+- 정리: Marketing 실행 판단판에 `측정 맥락` 행을 추가하고, 외부/실행 산출물 연결에는 analytics context card 기준을 한 문단으로 통합했으며 `source-mapping` 확인 문구도 같은 기준으로 맞췄다.
+- 선호 신호: AI 제품의 activation 판단은 빠른 숫자 조회보다 `used_definition`, `excluded_traffic`, `insufficient_signal` 같은 의미 경계를 먼저 남길 때 재사용 가치가 크다.
+- 드리프트 점검: mapped-note cosmetic polish 대신 30일 이상 대기한 외부 링크 승격 백로그를 처리했다.
+
 ## 2026-07-18 01:17 UTC | Integration/Marketing 외부 링크 승격
 
 - 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지에 `source/external-links/marketing/2026-06-15-ai-native-plg-delegation.md`를 승격하고, 해당 외부 링크 source 상태를 `integrated`로 전환했다.
