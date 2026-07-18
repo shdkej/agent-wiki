@@ -1,3 +1,11 @@
+## 2026-07-18 01:17 UTC | Integration/Marketing 외부 링크 승격
+
+- 갱신 범위: [[mapped/Integration/Marketing]] 1개 페이지에 `source/external-links/marketing/2026-06-15-ai-native-plg-delegation.md`를 승격하고, 해당 외부 링크 source 상태를 `integrated`로 전환했다.
+- 탐구: 승격 대상 외부 링크와 기존 Marketing mapped 노트를 읽고, AI-native PLG의 핵심을 클릭 완료가 아니라 위임한 작업의 신뢰 가능한 결과와 다음 행동으로 판정하는 기준으로 좁혔다.
+- 정리: Marketing 상단 상태 문장과 외부/실행 산출물 연결에 위임 성공 기준을 보강하고, `source-mapping`의 Marketing 확인 문구를 같은 판단으로 맞췄다.
+- 선호 신호: 안정 단계의 Marketing 노트에서는 새 지표 목록을 늘리기보다 `deed_judged`와 `deed_saved`를 첫 가치 후보로 읽는 경계와 수기 관찰 기준을 더 선명하게 하는 편이 낫다.
+- 드리프트 점검: mapped-note cosmetic polish 대신 30일 이상 대기한 외부 링크 승격 백로그를 처리했다.
+
 ## 2026-07-17 21:17 UTC | Marketing PLG activation/PQL 백로그 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-15-plg-activation-pql-boundary.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]] 및 `source-mapping` 확인 문구에 반영했다.
