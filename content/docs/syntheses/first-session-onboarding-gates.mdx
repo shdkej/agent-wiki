@@ -5,13 +5,13 @@ updated: 2026-07-19
 
 # 첫 세션 온보딩 게이트
 
-- 출처: `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md`, `source/external-links/marketing/2026-06-21-add-preinput-proof-bridge.md`, `source/external-links/marketing/2026-06-22-empty-state-triad-onboarding.md`, `source/external-links/marketing/2026-06-23-week-one-activation-observation.md`, `source/external-links/marketing/2026-06-24-secondary-onboarding-return-path.md`, `source/external-links/marketing/2026-06-28-first-session-three-gates.md`, `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`
+- 출처: `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md`, `source/external-links/marketing/2026-06-21-add-preinput-proof-bridge.md`, `source/external-links/marketing/2026-06-22-empty-state-triad-onboarding.md`, `source/external-links/marketing/2026-06-23-week-one-activation-observation.md`, `source/external-links/marketing/2026-06-24-secondary-onboarding-return-path.md`, `source/external-links/marketing/2026-06-27-contextual-onboarding-drift.md`, `source/external-links/marketing/2026-06-28-first-session-three-gates.md`, `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`
 - 역할: 외부 온보딩 학습과 Marketing mapped 노트의 `첫 가치`, `빈 상태`, `첫 홈 방향판`, `다음 행동` 판단을 한 장으로 압축하는 synthesis
 - 상태: 초안 안정화 · 프리런치 AI 제품의 첫 세션을 카피 실험이 아니라 약속, 기대, 반환 일관성의 세 게이트로 판정
 
 ## 한 줄 요약
 
-첫 세션 온보딩은 사용자가 버튼을 눌렀는지보다, `왜 시작하는가 -> 무엇을 넣으면 어떤 결과가 오는가 -> 방금 만든 것이 실제로 남았는가`를 세 번 연속으로 확인시켜 주는 구조다.
+첫 세션 온보딩은 사용자가 버튼을 눌렀는지보다, `왜 시작하는가 -> 무엇을 넣으면 어떤 결과가 오는가 -> 방금 만든 것이 실제로 남았는가 -> 돌아온 화면도 같은 약속을 말하는가`를 연속으로 확인시켜 주는 구조다.
 
 ## 중심 판단
 
@@ -26,8 +26,9 @@ updated: 2026-07-19
 | 진입 약속 | 왜 지금 시작해야 하지? | 빈 화면이 다음 행동, 이유, 기대 결과를 함께 보여 준다. | CTA는 보이지만 기록 뒤 무엇이 남는지 상상하기 어렵다. |
 | 입력 기대 | 무엇을 넣으면 어떤 결과가 오지? | 입력 전 예시나 안내가 기능 설명보다 결과 단위와 판단 지점을 먼저 보여 주고, AI가 어디까지 돕고 어디부터 사용자가 정하는지의 권한 경계를 짧게 드러낸다. | 사용자가 구경 모드로 머물거나 너무 일반적인 입력을 넣어 첫 가치 후보가 흐려진다. 이미 `/add`까지 온 사용자도 결과 형태를 상상하지 못해 제출 전에 멈춘다. |
 | 반환 일관성 | 방금 만든 것이 정말 남았나? | 저장/판정 뒤 홈이나 다음 화면이 방금 만든 결과와 다음 행동을 모순 없이 보여 준다. | retained proof와 first-visit 카피가 함께 보이거나, 결과 직후 다시 할 행동이 사라진다. |
+| 표면 정합성 | 라이브 화면도 같은 상태를 말하나? | local code, canonical proposal, production surface가 같은 사용자 상태에 같은 약속을 건다. | 누적 수치와 빈 상태 문구가 동시에 보여 사용자가 `남은 가치`와 `아무것도 없음`을 함께 듣는다. |
 
-이 표에서 중요한 점은 세 게이트를 한 실험으로 섞지 않는 것이다. 홈 약속이 약한 문제, `/add` 입력 기대가 약한 문제, 반환 상태 계약이 깨진 문제는 모두 온보딩처럼 보이지만 owner route와 검증 방식이 다르다.
+이 표에서 중요한 점은 게이트들을 한 실험으로 섞지 않는 것이다. 홈 약속이 약한 문제, `/add` 입력 기대가 약한 문제, 반환 상태 계약이 깨진 문제, 라이브 표면이 canonical 판단을 따라오지 못한 문제는 모두 온보딩처럼 보이지만 owner route와 검증 방식이 다르다.
 
 ## Knowledge Lab 재사용 기준
 
@@ -36,6 +37,7 @@ updated: 2026-07-19
 - `/add`처럼 이미 진입한 뒤의 입력 화면은 홈의 진입 약속과 분리해 본다. 여기서 필요한 것은 더 강한 CTA가 아니라 sample 결과 1줄, 권한 경계, 제출 후 남을 산출물의 기대를 연결하는 pre-input bridge다.
 - AI activation 자료는 첫 응답 속도보다 결과 소유 행동과 반환 일관성을 보강할 때만 승격한다.
 - Virtue 같은 성찰형 제품에서는 사회적 증명보다 product proof가 먼저다. 사용자는 남의 성공보다 `내가 기록하면 어떤 카드와 해석이 남는가`를 봐야 첫 클릭 압력을 낮출 수 있다.
+- 상태 기반 온보딩 자료는 새 안내 UI 후보보다 live/local/canonical drift를 먼저 줄이는 데 쓴다. 반환 사용자가 이미 만든 가치와 빈 제품 메시지를 동시에 보면, 문제는 카피 강도보다 source of truth 불일치다.
 
 ## 첫 1주 관찰 창
 

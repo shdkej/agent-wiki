@@ -1,3 +1,11 @@
+## 2026-07-19 13:17 UTC | 첫 세션 온보딩 표면 정합성 게이트 추가
+
+- 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis에 `source/external-links/marketing/2026-06-27-contextual-onboarding-drift.md`를 승격하고, 해당 외부 링크 상태를 `integrated`로 전환했다.
+- 탐구: 최근 작업 로그가 mapped 노트의 상태 줄/링크 표면 정리에 치우쳐 있어 포화 탈출 규칙에 따라 품질 폴백 대신 외부 링크 승격을 선택했다.
+- 정리: 기존 진입 약속, 입력 기대, 반환 일관성 게이트에 `표면 정합성` 게이트를 추가해 live/local/canonical 화면이 같은 사용자 상태를 말하는지 확인하게 했다.
+- 선호 신호: 프리런치 온보딩 판단에서는 새 카피나 안내 UI보다, 사용자가 이미 만든 가치와 빈 제품 메시지를 동시에 듣지 않도록 source of truth drift를 먼저 줄이는 편이 낫다.
+- 드리프트 점검: 외부 링크 1개만 입력으로 사용했고, 사용자 원본 mapped 1:1 구조는 건드리지 않았다.
+
 ## 2026-07-19 09:17 UTC | 첫 세션 온보딩 게이트 관찰 창 컴파일
 
 - 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis 페이지만 갱신했다.
