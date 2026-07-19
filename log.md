@@ -1,3 +1,11 @@
+## 2026-07-19 01:17 UTC | Integration/Marketing seeded proof 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md` 1개 외부 링크를 승격하고, [[mapped/Integration/Marketing]]의 빈 상태/첫 홈 방향판 기준에 통합했다.
+- 탐구: 2026-06-20 외부 링크 묶음은 프리런치 AI 온보딩에서 CTA 강화보다 사용자가 얻을 결과를 낮은 압력의 seeded proof로 먼저 보게 해야 한다는 판단을 제공했다.
+- 정리: Marketing의 기존 2026-06-19 empty-state proof 문단에 2026-06-20 synthesis를 합쳐, `오늘의 기록 1개 -> AI 해석 -> 저장된 카드 1장` 예시를 CTA 이전 검증 기준으로 고정했다.
+- 선호 신호: 작은 표본·프리런치 단계에서는 클릭 요구보다 첫 행동 뒤 남는 결과 표면을 먼저 증명하는 편이 activation 판단을 덜 과대해석하게 한다.
+- 드리프트 점검: 최근 로그가 상태 줄/링크/메타 회수 중심으로 이어졌으므로 mapped polish 대신 승격 백로그를 처리했다.
+
 ## 2026-07-18 21:17 UTC | 첫 세션 온보딩 게이트 synthesis 생성
 
 - 갱신 범위: `content/docs/syntheses/first-session-onboarding-gates.mdx`를 새로 만들어 외부 온보딩 학습 3개와 [[mapped/Integration/Marketing]]의 첫 가치/빈 상태 판단을 한 장의 게이트 모델로 컴파일했다.
