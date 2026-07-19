@@ -1,3 +1,11 @@
+## 2026-07-19 17:19 UTC | 첫 세션 온보딩 게이트 J3 진입 약속 보강
+
+- 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis 페이지만 컴파일 대상으로 좁게 갱신했다.
+- 탐구: `source/external-links/marketing/2026-06-21-ai-curiosity-entry-gap.md`, `2026-06-21-add-preinput-proof-bridge.md`, `2026-06-22-empty-state-triad-onboarding.md`를 함께 읽고, 홈의 진입 약속과 `/add` 입력 기대가 서로 다른 게이트임을 재확인했다.
+- 정리: 기존 3게이트 판정판의 `진입 약속`에 J3 AI 호기심형이 홈에서 결과 해석 신호를 발견해야 한다는 조건을 보강하고, 관찰 창 질문에 job 문 발견 여부를 추가했다.
+- 선호 신호: 프리런치 온보딩 학습은 CTA 강화나 새 화면 제안보다, 어떤 job을 어느 표면에서 초대하고 어떤 결과 기대를 미리 보여 주는지의 판단 언어로 컴파일하는 편이 낫다.
+- 드리프트 점검: 안정 mapped 노트 폴백 대신 priority 4 synthesis 컴파일을 선택했고, 외부 링크 원문은 source 레이어에 그대로 두었다.
+
 ## 2026-07-19 13:17 UTC | 첫 세션 온보딩 표면 정합성 게이트 추가
 
 - 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis에 `source/external-links/marketing/2026-06-27-contextual-onboarding-drift.md`를 승격하고, 해당 외부 링크 상태를 `integrated`로 전환했다.
