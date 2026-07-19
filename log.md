@@ -1,3 +1,11 @@
+## 2026-07-19 05:17 UTC | 첫 세션 온보딩 게이트 pre-input bridge 통합
+
+- 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis와 외부 링크 `source/external-links/marketing/2026-06-21-add-preinput-proof-bridge.md`의 처리 상태를 함께 갱신했다.
+- 탐구: 최근 polish가 표면 정리에 치우친 신호를 보고 mapped 폴백 대신 외부 링크 승격/컴파일 대상으로 전환했고, `/add` 입력 전 기대 형성 메모를 기존 빈 상태·첫 세션 게이트 판단에 연결했다.
+- 정리: `입력 기대` 게이트에 결과 예시뿐 아니라 AI 권한 경계와 제출 전 멈춤 증상을 추가하고, Knowledge Lab 재사용 기준에 홈 진입 약속과 `/add` pre-input bridge를 분리해 읽는 문장을 더했다.
+- 선호 신호: AI 성찰형 제품의 첫 세션은 더 강한 CTA보다 사용자가 결과 형태와 자기 결정권을 입력 전에 예측할 수 있는 작은 proof bridge를 먼저 필요로 한다.
+- 드리프트 점검: 사용자 원본 노트는 수정하지 않았고, 외부 링크 1개만 `integrated`로 전환했다.
+
 ## 2026-07-19 01:17 UTC | Integration/Marketing seeded proof 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md` 1개 외부 링크를 승격하고, [[mapped/Integration/Marketing]]의 빈 상태/첫 홈 방향판 기준에 통합했다.
