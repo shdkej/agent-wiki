@@ -1,3 +1,11 @@
+## 2026-07-19 21:17 UTC | 첫 세션 온보딩 게이트 6/21 외부 링크 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-21-ai-curiosity-entry-gap.md` 1개 외부 링크를 `integrated`로 전환하고, [[syntheses/first-session-onboarding-gates]]의 상태 문구를 현재 4게이트 구조에 맞췄다.
+- 탐구: 최근 polish가 표면 정리에 치우친 신호와 승격 백로그를 함께 보고, 2026-06-21 J3 AI 호기심형 홈 진입 공백 메모가 이미 synthesis의 `진입 약속` 게이트를 보강하고 있음을 확인했다.
+- 정리: source frontmatter에 `integrated_into`를 남기고, synthesis의 `세 게이트` 표현을 `진입 약속 / 입력 기대 / 반환 일관성 / 표면 정합성`의 네 게이트로 정렬했다.
+- 선호 신호: 외부 온보딩 자료는 별도 요약을 늘리기보다, 첫 화면에서 어떤 job이 초대되고 어떤 결과 해석이 보이는지의 게이트 언어로 남기는 편이 재사용성이 높다.
+- 드리프트 점검: 사용자 원본 mapped 1:1 구조는 건드리지 않았고, 외부 링크 1개만 처리 상태를 갱신했다.
+
 ## 2026-07-19 17:19 UTC | 첫 세션 온보딩 게이트 J3 진입 약속 보강
 
 - 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis 페이지만 컴파일 대상으로 좁게 갱신했다.
