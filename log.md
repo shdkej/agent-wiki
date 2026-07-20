@@ -1,3 +1,11 @@
+## 2026-07-20 17:17 UTC | Integration/Marketing 첫 1주 관찰 창 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-23-week-one-activation-observation.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 첫 1주 관찰 창 판단을 보강했다.
+- 탐구: 최근 세 번의 mapped 폴백이 표면 정리 성격이어서 포화 탈출 규칙에 따라 외부 링크 승격으로 전환했고, 같은 날짜의 첫 피드백 정합성 노트와 Marketing의 activation 관찰 기준을 함께 읽었다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 바꾸고 `integrated_into`를 남겼으며, Marketing 본문에는 완성형 대시보드보다 첫 10명 관찰 카드와 `value-critical / value-adjacent / non-critical` 해석 금지선을 먼저 잠근다는 좁은 판단만 추가했다.
+- 선호 신호: Virtue prelaunch 단계의 마케팅 판단은 작은 수치 최적화보다 출시 직후의 멈춤 지점, first value 언어, D1/D7 재방문 이유를 한 장에서 복원 가능하게 남기는 준비가 더 중요하다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/Integration/Marketing.md`는 수정하지 않았고, 외부 링크 source 1개만 `integrated`로 전환했다.
+
 ## 2026-07-20 13:17 UTC | 첫 세션 온보딩 게이트 결과 직후 판정 보강
 
 - 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis 페이지만 컴파일 대상으로 좁게 갱신했다.
