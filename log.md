@@ -1,3 +1,11 @@
+## 2026-07-20 21:17 UTC | 첫 세션 온보딩 게이트 피드백 정합성 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-23-first-week-feedback-consistency.md` 1개 외부 링크를 승격 대상으로 처리하고, [[syntheses/first-session-onboarding-gates]]의 첫 1주 관찰 창에 상태 문장 정합성 기준을 보강했다.
+- 탐구: 30일 이상 `summarized` 상태로 남은 가장 이른 마케팅 외부 링크를 골라, 이미 Marketing mapped와 첫 세션 synthesis에 걸린 반환 일관성 판단을 확인했다.
+- 정리: 외부 링크 frontmatter를 `integrated`로 전환하고 `integrated_into`를 남겼으며, synthesis에는 빠른 피드백보다 홈 요약·최근 기록·저장 직후 결과가 같은 현실을 말하는지 함께 보라는 좁은 판단만 추가했다.
+- 선호 신호: Virtue prelaunch 단계의 activation 학습은 day-7 숫자보다 사용자가 방금 만든 가치가 실제로 남았다고 믿을 수 있는 반환 표면의 정합성을 먼저 확인하는 편이 재사용 가능하다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/Integration/Marketing.md`는 수정하지 않았고, 외부 링크 source 1개만 `integrated`로 전환했다.
+
 ## 2026-07-20 17:17 UTC | Integration/Marketing 첫 1주 관찰 창 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-23-week-one-activation-observation.md` 1개 외부 링크를 승격 대상으로 처리하고, [[mapped/Integration/Marketing]]의 외부/실행 산출물 연결에 첫 1주 관찰 창 판단을 보강했다.
