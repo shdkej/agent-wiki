@@ -1,11 +1,11 @@
 ---
 title: "첫 세션 온보딩 게이트"
-updated: 2026-07-19
+updated: 2026-07-20
 ---
 
 # 첫 세션 온보딩 게이트
 
-- 출처: `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md`, `source/external-links/marketing/2026-06-21-ai-curiosity-entry-gap.md`, `source/external-links/marketing/2026-06-21-add-preinput-proof-bridge.md`, `source/external-links/marketing/2026-06-22-empty-state-triad-onboarding.md`, `source/external-links/marketing/2026-06-23-week-one-activation-observation.md`, `source/external-links/marketing/2026-06-24-secondary-onboarding-return-path.md`, `source/external-links/marketing/2026-06-27-contextual-onboarding-drift.md`, `source/external-links/marketing/2026-06-28-first-session-three-gates.md`, `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`
+- 출처: `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md`, `source/external-links/marketing/2026-06-21-ai-curiosity-entry-gap.md`, `source/external-links/marketing/2026-06-21-add-preinput-proof-bridge.md`, `source/external-links/marketing/2026-06-22-empty-state-triad-onboarding.md`, `source/external-links/marketing/2026-06-23-week-one-activation-observation.md`, `source/external-links/marketing/2026-06-24-secondary-onboarding-return-path.md`, `source/external-links/marketing/2026-06-27-contextual-onboarding-drift.md`, `source/external-links/marketing/2026-06-28-first-session-three-gates.md`, `source/external-links/marketing/2026-07-18-activation-milestone-selection-with-low-data.md`, `source/external-links/marketing/2026-07-19-product-adoption-infra.md`, `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`
 - 역할: 외부 온보딩 학습과 Marketing mapped 노트의 `첫 가치`, `빈 상태`, `첫 홈 방향판`, `다음 행동` 판단을 한 장으로 압축하는 synthesis
 - 상태: 초안 안정화 · 프리런치 AI 제품의 첫 세션을 카피 실험이 아니라 진입 약속, 입력 기대, 반환 일관성, 표면 정합성의 네 게이트로 판정
 
@@ -53,6 +53,14 @@ updated: 2026-07-19
 - 입력 직전 사용자가 무엇을 넣어야 할지 자기 말로 설명할 수 있었는가?
 - 결과 직후 사용자가 저장, 재시도, 홈 복귀, 정상 종료 중 어느 다음 행동을 자연스럽게 골랐는가?
 
+## 작은 표본 활성화 판정
+
+최근 activation/PLG 자료는 `deed_saved`, `deed_judged`, `returned` 같은 이벤트를 바로 최종 activation metric으로 고정하지 말라고 경고한다. 작은 표본에서는 이벤트 완료 여부보다 그 이벤트가 어느 종류의 증거인지 먼저 나눠야 한다. `setup`은 사용자가 가치를 받을 준비가 됐다는 신호이고, `aha`는 사용자가 핵심 가치를 알아본 순간이며, `habit`은 같은 이유로 다시 올 단서다.
+
+따라서 첫 10명 관찰표는 성공률 계산표가 아니라 증거 분류표에 가깝다. J1/J2/J4의 `deed_saved`와 J3의 `deed_judged`는 계속 first value 후보로 두되, 이 행동만으로 채택을 선언하지 않는다. 결과 직후 다시 열 이유, 다른 사람에게 설명할 한 줄, 다음 행동의 자연스러움이 함께 남을 때에만 adoption evidence로 올린다.
+
+이 구분은 마케팅 실행 순서를 늦추려는 장치가 아니라 과잉 해석을 막는 장치다. 가입, pageview, tour completion처럼 앞단 숫자가 늘어도 setup/aha/habit 증거가 비어 있으면 아직 채택을 배운 것이 아니다. 반대로 숫자가 작아도 특정 job에서 같은 aha 언어와 재방문 이유가 반복되면, 다음 홈 카피나 관찰 owner route를 좁힐 충분한 신호가 된다.
+
 ## 다음 적용
 
-다음 실행 산출물은 새 대시보드나 카피 묶음이 아니라, 현재 표면을 네 게이트 중 어디에서 먼저 깨지는지 표시하는 작은 관찰표여야 한다. 관찰표에는 `현재 표면`, `사용자 질문`, `깨진 증상`, `다음 owner route`, `해석 금지선`만 남기면 충분하다.
+다음 실행 산출물은 새 대시보드나 카피 묶음이 아니라, 현재 표면을 네 게이트 중 어디에서 먼저 깨지는지 표시하는 작은 관찰표여야 한다. 관찰표에는 `현재 표면`, `사용자 질문`, `깨진 증상`, `setup/aha/habit 증거`, `다음 owner route`, `해석 금지선`만 남기면 충분하다.
