@@ -1,3 +1,11 @@
+## 2026-07-21 01:17 UTC | Integration/Marketing secondary onboarding 승격
+
+- 갱신 범위: `source/external-links/marketing/2026-06-24-secondary-onboarding-return-path.md` 1개 외부 링크를 `integrated`로 전환하고, [[mapped/Integration/Marketing]]의 `다음 행동` 판정에 흡수했다.
+- 탐구: 최근 로그가 상태 줄·링크 표면·운영 메타 회수 중심으로 이어져 포화 탈출 규칙에 따라 mapped cosmetic polish 대신 외부 링크 승격/컴파일 대상으로 전환했다.
+- 정리: 첫 가치 뒤 복귀 사용자를 다시 신규 사용자처럼 설명하지 않고, 직전 결과와 이어지는 잡별 second step을 보여야 한다는 판단을 `다음 행동`, `재방문 연속성`, `첫 홈 방향판` 기준에 연결했다.
+- 선호 신호: Virtue식 activation 판단에서는 첫 저장·첫 판단 이벤트보다 그 결과가 홈 복귀 뒤 다음 행동과 남는 표면으로 이어지는지가 더 강한 유지 신호다.
+- 드리프트 점검: 사용자 원본 `source/shdkej-content/Integration/Marketing.md`는 직접 수정하지 않았고, 외부 링크 1개만 출처 경계를 유지한 채 agent-wiki에 컴파일했다.
+
 ## 2026-07-20 21:17 UTC | 첫 세션 온보딩 게이트 피드백 정합성 승격
 
 - 갱신 범위: `source/external-links/marketing/2026-06-23-first-week-feedback-consistency.md` 1개 외부 링크를 승격 대상으로 처리하고, [[syntheses/first-session-onboarding-gates]]의 첫 1주 관찰 창에 상태 문장 정합성 기준을 보강했다.
