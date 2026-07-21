@@ -5,7 +5,7 @@ updated: 2026-07-21
 
 # 첫 세션 온보딩 게이트
 
-- 출처: `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md`, `source/external-links/marketing/2026-06-21-ai-curiosity-entry-gap.md`, `source/external-links/marketing/2026-06-21-add-preinput-proof-bridge.md`, `source/external-links/marketing/2026-06-22-empty-state-triad-onboarding.md`, `source/external-links/marketing/2026-06-23-week-one-activation-observation.md`, `source/external-links/marketing/2026-06-23-first-week-feedback-consistency.md`, `source/external-links/marketing/2026-06-24-secondary-onboarding-return-path.md`, `source/external-links/marketing/2026-06-25-time-to-next-value-bridge.md`, `source/external-links/marketing/2026-06-26-post-first-value-next-action-helper.md`, `source/external-links/marketing/2026-06-27-contextual-onboarding-drift.md`, `source/external-links/marketing/2026-06-28-first-session-three-gates.md`, `source/external-links/marketing/2026-07-18-activation-milestone-selection-with-low-data.md`, `source/external-links/marketing/2026-07-19-product-adoption-infra.md`, `infinity/MARKETING_LEARNINGS.md`, `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`
+- 출처: `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md`, `source/external-links/marketing/2026-06-21-ai-curiosity-entry-gap.md`, `source/external-links/marketing/2026-06-21-add-preinput-proof-bridge.md`, `source/external-links/marketing/2026-06-22-empty-state-triad-onboarding.md`, `source/external-links/marketing/2026-06-23-week-one-activation-observation.md`, `source/external-links/marketing/2026-06-23-first-week-feedback-consistency.md`, `source/external-links/marketing/2026-06-24-secondary-onboarding-return-path.md`, `source/external-links/marketing/2026-06-25-time-to-next-value-bridge.md`, `source/external-links/marketing/2026-06-26-post-first-value-next-action-helper.md`, `source/external-links/marketing/2026-06-27-contextual-onboarding-drift.md`, `source/external-links/marketing/2026-06-28-first-session-three-gates.md`, `source/external-links/marketing/2026-06-30-pass-vs-hold-replay-contrast.md`, `source/external-links/marketing/2026-07-18-activation-milestone-selection-with-low-data.md`, `source/external-links/marketing/2026-07-19-product-adoption-infra.md`, `infinity/MARKETING_LEARNINGS.md`, `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`
 - 역할: 외부 온보딩 학습과 Marketing mapped 노트의 `첫 가치`, `빈 상태`, `첫 홈 방향판`, `다음 행동` 판단을 한 장으로 압축하는 synthesis
 - 상태: 초안 안정화 · 프리런치 AI 제품의 첫 세션을 카피 실험이 아니라 진입 약속, 입력 기대, 반환 일관성, 표면 정합성의 네 게이트로 판정
 
@@ -64,6 +64,8 @@ Infinity의 최근 마케팅 학습은 첫 세션을 이벤트 수나 빠른 응
 
 첫 주 미방문도 같은 원칙으로 읽는다. D1/D3/D7 non-return은 곧 실패가 아니라, first value 뒤 second value 없이 멈춘 warm 후보인지, first value 전 B-LOST인지, J3 정상 종료인지, 가용성 문제인지 먼저 분류해야 한다. 재초대의 기본값은 발송이 아니라 보류이며, 메시지 후보가 필요해도 할인이나 과장이 아니라 `전에 하려던 일`, `도달한 결과`, `놓친 다음 가치`를 되살리는 value recall이어야 한다.
 
+`2026-06-30-pass-vs-hold-replay-contrast`는 이 판정을 세션 비교 방식으로 보정한다. 보류 세션만 보면 모든 망설임이 수정 후보처럼 보이고, 통과 세션만 보면 반복 마찰이 작아 보인다. 그래서 첫 세션 관찰은 `보류 5세션 + 통과 5세션`처럼 작은 쌍으로 읽고, 같은 마찰을 통과 세션이 어떻게 넘겼는지까지 함께 적어야 한다. 수정 후보는 보류에서만 크게 보이는 불만이 아니라, 통과 세션에서도 불필요한 소모로 반복되는 지점일 때 다음 작업으로 올린다.
+
 ## 작은 표본 활성화 판정
 
 최근 activation/PLG 자료는 `deed_saved`, `deed_judged`, `returned` 같은 이벤트를 바로 최종 activation metric으로 고정하지 말라고 경고한다. 작은 표본에서는 이벤트 완료 여부보다 그 이벤트가 어느 종류의 증거인지 먼저 나눠야 한다. `setup`은 사용자가 가치를 받을 준비가 됐다는 신호이고, `aha`는 사용자가 핵심 가치를 알아본 순간이며, `habit`은 같은 이유로 다시 올 단서다.
@@ -74,4 +76,4 @@ Infinity의 최근 마케팅 학습은 첫 세션을 이벤트 수나 빠른 응
 
 ## 다음 적용
 
-다음 실행 산출물은 새 대시보드나 카피 묶음이 아니라, 현재 표면을 네 게이트 중 어디에서 먼저 깨지는지 표시하는 작은 관찰표여야 한다. 관찰표에는 `현재 표면`, `사용자 질문`, `깨진 증상`, `setup/aha/habit 증거`, `다음 owner route`, `해석 금지선`만 남기면 충분하다.
+다음 실행 산출물은 새 대시보드나 카피 묶음이 아니라, 현재 표면을 네 게이트 중 어디에서 먼저 깨지는지 표시하는 작은 관찰표여야 한다. 관찰표에는 `현재 표면`, `사용자 질문`, `깨진 증상`, `통과 세션 대조 메모`, `setup/aha/habit 증거`, `다음 owner route`, `해석 금지선`만 남기면 충분하다.

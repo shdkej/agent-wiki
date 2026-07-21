@@ -1,3 +1,11 @@
+## 2026-07-21 09:19 UTC | 첫 세션 게이트 통과/보류 대조 기준 보강
+
+- 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis 페이지만 좁게 갱신했다.
+- 탐구: `source/external-links/marketing/2026-06-30-pass-vs-hold-replay-contrast.md`를 기존 첫 세션 온보딩 게이트 묶음과 대조해, 온보딩 마찰을 보류 세션만으로 과대해석하지 않는 관찰 기준으로 읽었다.
+- 정리: 출처 목록에 해당 외부 링크를 추가하고, `결과 직후 30초` 아래에 보류/통과 세션을 작은 쌍으로 읽는 기준과 `통과 세션 대조 메모` 관찰 칸을 보강했다.
+- 선호 신호: 프리런치 온보딩 판단은 실패처럼 보이는 세션만 모으기보다, 같은 마찰을 통과한 세션과 나란히 봐야 과잉 수정과 과소 수정을 함께 줄일 수 있다.
+- 드리프트 점검: mapped 노트 폴백 대신 우선순위 4 컴파일을 선택했고, 외부 링크 원문은 아직 30일 백로그 대상이 아니어서 source status는 바꾸지 않았다.
+
 ## 2026-07-21 05:20 UTC | 첫 세션 온보딩 next-action helper 승격
 
 - 갱신 범위: [[syntheses/first-session-onboarding-gates]]에 `source/external-links/marketing/2026-06-26-post-first-value-next-action-helper.md`의 반복 판단을 통합하고, 해당 external-link source 상태를 `integrated`로 전환했다.
