@@ -1,3 +1,11 @@
+## 2026-07-21 13:19 UTC | 첫 세션 온보딩 상태 언어 보강
+
+- 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis 페이지만 좁게 갱신했다.
+- 탐구: `source/external-links/marketing/2026-06-28-onboarding-state-language.md`를 기존 첫 세션 게이트, 결과 직후 30초, 작은 표본 활성화 판정과 대조해, 프리런치 온보딩을 신규 이벤트보다 상태 언어로 먼저 고정하는 판단으로 읽었다.
+- 정리: 출처 목록에 해당 외부 링크를 추가하고, `결과 직후 30초` 아래에 `정상 진행 / 자연 종료 / 마찰 / 상태 모순` 상태 라벨과 잡별 판정 차이를 보강했다.
+- 선호 신호: 작은 표본의 activation 판단은 같은 이벤트를 한 숫자로 합치기보다, 잡 맥락과 반환 상태에 따라 정상 종료와 상태 모순을 먼저 분리해야 이후 handoff가 덜 흔들린다.
+- 드리프트 점검: mapped 노트 폴백 대신 우선순위 4 컴파일을 선택했고, 외부 링크 원문은 아직 30일 백로그 대상이 아니어서 source status는 바꾸지 않았다.
+
 ## 2026-07-21 09:19 UTC | 첫 세션 게이트 통과/보류 대조 기준 보강
 
 - 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis 페이지만 좁게 갱신했다.
