@@ -1,3 +1,11 @@
+## 2026-07-22 01:17 UTC | 첫 세션 온보딩 게이트 반환 상태 계약 보강
+
+- 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis만 priority 4 컴파일 대상으로 좁게 갱신했다.
+- 탐구: 최근 mapped polish가 표면 정리에 가까웠고 30일 이상 묵은 external-link 승격 대상은 없어, `2026-06-29-return-state-gating-over-copy`를 기존 첫 세션 온보딩 게이트 묶음에 보강했다.
+- 정리: 출처 목록에 해당 외부 링크를 추가하고, 반환 화면의 retained proof와 empty-state 동시 노출을 카피 문제가 아니라 state gating 계약 문제로 먼저 판정하는 기준을 `Knowledge Lab 재사용 기준`과 `결과 직후 30초`에 압축했다.
+- 선호 신호: Virtue prelaunch의 반환 상태 문제는 문장 실험보다 데이터 조건별 표시 금지 조건을 먼저 고정해야 구현 handoff와 마케팅 판단이 같은 상태 언어를 쓴다.
+- 드리프트 점검: mapped 노트는 수정하지 않았고, 외부 링크 원문을 복사하지 않고 synthesis의 반복 판단으로만 흡수했다.
+
 ## 2026-07-21 21:17 UTC | 첫 세션 온보딩 게이트 이탈 판독 보강
 
 - 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis만 priority 4 컴파일 대상으로 좁게 갱신했다.
