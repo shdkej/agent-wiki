@@ -1,3 +1,11 @@
+## 2026-07-23 01:17 UTC | 첫 가치 다음 행동 브리지 외부 링크 통합
+
+- 갱신 범위: `source/external-links/marketing/2026-06-25-time-to-next-value-bridge.md` 상태를 `integrated`로 전환하고, [[syntheses/first-session-onboarding-gates]] 1개 synthesis에만 reusable judgment를 보강했다.
+- 탐구: 오래된 cosmetic polish가 반복된 상태라 mapped 폴백 대신 외부 링크 승격 경로를 선택했고, 이미 synthesis 출처 목록에 들어 있던 time-to-next-value 자료를 상태 계약 문장으로 압축했다.
+- 정리: 첫 가치 뒤 다음 행동 브리지를 새 안내 UI가 아니라 `무엇이 남았는가`와 `다음에 무엇을 하면 좋은가`가 같은 반환 표면에서 3초 안에 읽히는지의 기준으로 고정했다.
+- 선호 신호: activation 자료는 단일 이벤트나 카피 후보보다 첫 가치 이후 second value가 보이는 반환 상태 계약으로 축적할 때 재사용성이 높다.
+- 드리프트 점검: 이번 런은 외부 링크 1개만 명시적으로 승격했고, mapped 1:1 노트는 수정하지 않았다.
+
 ## 2026-07-22 21:17 UTC | 충분함 경계 synthesis 승격
 
 - 갱신 범위: `agent-wiki/README.md`의 주장 12 묶음을 `agent-wiki/content/docs/syntheses/sufficient-boundary-for-next-action.mdx` 1개 synthesis로 승격했다.
