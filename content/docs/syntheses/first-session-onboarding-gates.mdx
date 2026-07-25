@@ -1,13 +1,13 @@
 ---
 title: "첫 세션 온보딩 게이트"
-updated: 2026-07-23
+updated: 2026-07-25
 ---
 
 # 첫 세션 온보딩 게이트
 
 - 출처: `source/external-links/marketing/2026-06-20-prelaunch-seeded-proof-onboarding.md`, `source/external-links/marketing/2026-06-21-ai-curiosity-entry-gap.md`, `source/external-links/marketing/2026-06-21-add-preinput-proof-bridge.md`, `source/external-links/marketing/2026-06-22-empty-state-triad-onboarding.md`, `source/external-links/marketing/2026-06-23-week-one-activation-observation.md`, `source/external-links/marketing/2026-06-23-first-week-feedback-consistency.md`, `source/external-links/marketing/2026-06-24-secondary-onboarding-return-path.md`, `source/external-links/marketing/2026-06-25-time-to-next-value-bridge.md`, `source/external-links/marketing/2026-06-26-onboarding-dropoff-context-vs-friction.md`, `source/external-links/marketing/2026-06-26-post-first-value-next-action-helper.md`, `source/external-links/marketing/2026-06-27-contextual-onboarding-drift.md`, `source/external-links/marketing/2026-06-28-first-session-three-gates.md`, `source/external-links/marketing/2026-06-28-onboarding-state-language.md`, `source/external-links/marketing/2026-06-29-return-state-gating-over-copy.md`, `source/external-links/marketing/2026-06-30-pass-vs-hold-replay-contrast.md`, `source/external-links/marketing/2026-07-16-first-value-retention-gate.md`, `source/external-links/marketing/2026-07-16-early-activation-retention-benchmark.md`, `source/external-links/marketing/2026-07-17-activation-milestone-retention-signal.md`, `source/external-links/marketing/2026-07-18-activation-milestone-selection-with-low-data.md`, `source/external-links/marketing/2026-07-19-product-adoption-infra.md`, `infinity/MARKETING_LEARNINGS.md`, `agent-wiki/content/docs/mapped/Integration/Marketing.mdx`
 - 역할: 외부 온보딩 학습과 Marketing mapped 노트의 `첫 가치`, `빈 상태`, `첫 홈 방향판`, `다음 행동` 판단을 한 장으로 압축하는 synthesis
-- 상태: 초안 안정화 · 프리런치 AI 제품의 첫 세션을 카피 실험이 아니라 진입 약속, 입력 기대, 반환 일관성, 표면 정합성, 채택 증거의 흐름으로 판정
+- 상태: 초안 안정화 · 프리런치 AI 제품의 첫 세션을 카피 실험이 아니라 진입 약속, 입력 기대, 반환 일관성, 표면 정합성, 상태 언어, 채택 증거의 흐름으로 판정
 
 ## 한 줄 요약
 
@@ -74,6 +74,15 @@ Infinity의 최근 마케팅 학습은 첫 세션을 이벤트 수나 빠른 응
 첫 주 미방문도 같은 원칙으로 읽는다. D1/D3/D7 non-return은 곧 실패가 아니라, first value 뒤 second value 없이 멈춘 warm 후보인지, first value 전 B-LOST인지, J3 정상 종료인지, 가용성 문제인지 먼저 분류해야 한다. 재초대의 기본값은 발송이 아니라 보류이며, 메시지 후보가 필요해도 할인이나 과장이 아니라 `전에 하려던 일`, `도달한 결과`, `놓친 다음 가치`를 되살리는 value recall이어야 한다.
 
 `2026-06-30-pass-vs-hold-replay-contrast`는 이 판정을 세션 비교 방식으로 보정한다. 보류 세션만 보면 모든 망설임이 수정 후보처럼 보이고, 통과 세션만 보면 반복 마찰이 작아 보인다. 그래서 첫 세션 관찰은 `보류 5세션 + 통과 5세션`처럼 작은 쌍으로 읽고, 같은 마찰을 통과 세션이 어떻게 넘겼는지까지 함께 적어야 한다. 수정 후보는 보류에서만 크게 보이는 불만이 아니라, 통과 세션에서도 불필요한 소모로 반복되는 지점일 때 다음 작업으로 올린다.
+
+상태 언어는 아래처럼 작게 고정한다.
+
+| 상태 이름 | 대표 신호 | 해석 금지선 |
+| --- | --- | --- |
+| 정상 진행 | job에 맞는 입력 뒤 결과 이해, 저장, 재시도, 홈 복귀 중 하나를 자연스럽게 고른다. | 빠른 클릭을 곧바로 채택으로 부르지 않는다. |
+| 자연 종료 | J3 사용자가 `deed_judged` 뒤 저장하지 않고도 해석을 자기 말로 회수하고 닫는다. | 모든 미저장을 이탈이나 저장 CTA 부족으로 부르지 않는다. |
+| 마찰 | 같은 망설임이 보류 세션과 통과 세션 양쪽에서 반복되고, 통과 사용자도 불필요한 소모를 겪는다. | 보류 세션 1개의 불만을 전체 UI 수정 근거로 삼지 않는다. |
+| 상태 모순 | retained proof와 empty-state처럼 서로 다른 상태 약속이 한 화면에 함께 보인다. | 더 강한 카피로 해결하려 하지 않고 gating 조건부터 본다. |
 
 ## 작은 표본 활성화 판정
 
