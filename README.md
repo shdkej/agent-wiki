@@ -28,9 +28,12 @@
 기본 원본인 `source/shdkej-content/`의 1차 mapped 사이클은 상당히 안정된 상태로 본다. 이후 agent-wiki 작업은 같은 기본 원본을 반복 확장하기보다 다음 입력을 더 많이 본다.
 
 - `source/external-links/` — 외부 기사, Hada/GeekNews, 마케팅·AI·제품 운영 자료, 사용자가 새로 던진 링크
+- `source/openclaw-system/` — SAM/OpenClaw 운영 문서, daily-tracking, 회고, 운영 데이터. 이 경로에 들어온 문서·데이터는 Knowledge Lab ingest 입력이며, 중요한 daily-tracking은 diary/log/index에 연결한다.
 - `infinity/` — 완료된 intent, archive 코멘트, reports, `MARKETING_LEARNINGS.md`, Waiting/Active에서 드러난 운영 판단
 
 외부 링크와 Infinity 산출물은 그대로 복사하지 않고, 반복 가능한 판단·개념·비교·운영 원칙으로 정제해 concepts/syntheses/diary/mapped 페이지에 승격한다.
+
+OpenClaw daily-tracking은 원문을 `source/openclaw-system/data/daily-tracking/`에 남기고, 재사용 가치가 있는 날만 diary/log에서 색인한다. 색인은 원문을 대체하지 않고, 나중에 "어떤 장면이 어떤 판단으로 이어졌는가"를 찾게 하는 얇은 연결층이다.
 
 ---
 
@@ -47,6 +50,7 @@ mapped 아래 ~80개 문서를 **각 문서가 주장하는 핵심 메시지** �
 - Communication/Feedback
 - Idea/Journal
 - blog/Note_Management
+- source/openclaw-system/data/daily-tracking
 
 **패턴**: 숫자와 기록은 자기기만을 피하는 도구고, 피드백 루프는 단순 수집이 아니라 행동 교정의 회로다.
 

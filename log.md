@@ -1,3 +1,10 @@
+## 2026-08-09 21:20 UTC | OpenClaw system source 이동과 daily-tracking 색인
+
+- 갱신 범위: `source/openclaw-system/`을 Knowledge Lab source layer로 등록하고, `source/openclaw-system/data/daily-tracking/2026-08-09.md`를 같은 날짜 diary에 색인했다.
+- 탐구: 사용자가 "KL에 들어가는 것은 ingest"라고 새 경계를 정했으므로, OpenClaw 운영 문서와 생활/여행 캡처를 workspace 내부 `system/`이 아니라 Knowledge Lab source로 이동했다.
+- 정리: daily-tracking 원문은 raw source로 유지하고, agent-wiki는 오늘의 재사용 포인트만 얇게 색인한다. 오늘 색인 주제는 카이로/Airbnb 장면에서 나온 `정돈된 결과물에 대한 두려움`과 `고상한 온실에 갇히지 않는 정돈감`이다.
+- 드리프트 점검: cache/trash/tmp/run dump는 KL 안에 있어도 ingest 대상에서 제외하고, daily-tracking과 운영 docs만 재사용 source로 본다.
+
 ## 2026-07-25 09:19 UTC | 첫 세션 온보딩 상태 언어 컴파일
 
 - 갱신 범위: [[syntheses/first-session-onboarding-gates]] 1개 synthesis만 priority 4 컴파일 대상으로 갱신했다.
