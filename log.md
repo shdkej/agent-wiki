@@ -1032,7 +1032,7 @@
 - 정리: 지식 판정은 필드 기록이 아니라 실제 페이지 변경과 원격 반영 가능한 커밋을 확인해야 닫히는 완료 조건으로 고정했다.
 ## 2026-08-22 12:40 UTC | 이번 주 Infinity Archive 지식 승격
 
-- 갱신 범위: 8월 17~22일 Archive 6건을 검토하고 재사용 가능한 운영 판단 3개를 `content/docs/concepts/`로 컴파일했다.
+- 갱신 범위: 8월 17~22일 Archive 7건을 검토하고, 원천 ingest 문서 1개와 재사용 가능한 운영 판단 3개를 `content/docs/concepts/`로 컴파일했다.
 - 승격: `research-28`의 경계가 있는 반복 개선 루프, `ops-26`의 산출물 지표 질문 계약, `marketing-128`의 근거 제한 콘텐츠 실험 규칙.
 - 보존 경계: `marketing-124/125/126`은 단일 디자인 재작업·대체 이력, `marketing-127`은 특정 계정 분석으로 Infinity 원장에 남겼다. `marketing-128` 문서는 내부 규칙만 승격했고 공개 실행·성과 확정은 하지 않았다.
-- 출처: 각 페이지에 Infinity Archive·Artifact·Report 경로를 남겼다. `marketing-128`은 Red가 `FOLLOW_UP_REQUIRED`인 상태를 명시해 새 상품 식별·재검증 전 보류 경계를 보존했다.
+- 출처: `source/openclaw-system/docs/INFINITY_ARCHIVE_KNOWLEDGE_2026-08.md`를 ingest 원천으로 남기고 각 페이지에 Archive·Artifact·Report 경로를 연결했다. `marketing-128`은 Red가 `FOLLOW_UP_REQUIRED`인 상태를 명시해 새 상품 식별·재검증 전 보류 경계를 보존했다.

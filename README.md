@@ -31,11 +31,6 @@
 - `source/openclaw-system/` — SAM/OpenClaw 운영 문서, daily-tracking, 회고, 운영 데이터. 이 경로에 들어온 문서·데이터는 Knowledge Lab ingest 입력이며, 중요한 daily-tracking은 diary/log/index에 연결한다.
 - `infinity/` — 완료된 intent, archive 코멘트, reports, `MARKETING_LEARNINGS.md`, Waiting/Active에서 드러난 운영 판단
 
-이번 주 Infinity 승격 페이지:
-
-- [[concepts/bounded-experiment-loop]] — 고정 평가면과 좁은 변경면을 둔 반복 개선 루프
-- [[concepts/metric-question-contract]] — 산출물 Intent의 지표 질문·신호·판정 계약
-- [[concepts/evidence-bounded-content-experiment]] — 구매 근거와 상품 후보를 분리하는 콘텐츠 실험 규칙
 
 외부 링크와 Infinity 산출물은 그대로 복사하지 않고, 반복 가능한 판단·개념·비교·운영 원칙으로 정제해 concepts/syntheses/diary/mapped 페이지에 승격한다.
 
