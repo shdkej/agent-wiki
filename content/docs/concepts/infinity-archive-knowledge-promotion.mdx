@@ -1,0 +1,27 @@
+---
+title: "실행 원장에서 지식으로 승격하기"
+---
+
+# 실행 원장에서 지식으로 승격하기
+
+Infinity Archive와 Knowledge Lab은 같은 내용을 복제하는 두 원장이 아니다. Infinity는 무엇을 실행했고 어떤 결과·커밋·리포트가 나왔는지 보존하는 실행 원장이고, Knowledge Lab은 그 결과에서 다시 쓸 수 있는 원칙·발견·판단 기준·실패 교훈을 정제하는 기억 레이어다.
+
+## 승격 규칙
+
+Archive를 닫을 때 모든 Intent는 지식 판정을 남긴다.
+
+- `promote`: 반복 가능한 지식이면 실제 `agent-wiki/content/docs/` 페이지를 같은 흐름에서 갱신한다.
+- `retain_in_infinity`: 실행 로그·중간 초안·단일 작업 세부처럼 재사용성이 낮으면 Infinity에만 보존하고 그 근거를 적는다.
+- `supersede`: 기존 지식을 대체하면 새 페이지와 대체 이유를 연결한다.
+
+`candidate` 상태로 멈추는 것은 완료가 아니다. 승격 판정이 났다면 대상 페이지의 실제 변경과 `knowledge_targets` 경로 검증까지 끝나야 Archive할 수 있다. 그래서 지식 판정은 메모를 추가하는 절차가 아니라, 실행 결과를 장기 판단으로 바꾸는 완료 조건이다.
+
+## 출처 경계
+
+Knowledge Lab 페이지에는 Archive 원장과 필요한 Artifact/Report 경로를 출처로 남긴다. 원문 실행 로그를 길게 복사하지 않고, 다음 작업의 선택을 바꾸는 최소 판단만 컴파일한다.
+
+## 관련 문서
+
+- [[../sources/knowledge-lab-readme]]
+- [[../syntheses/Knowledge Lab Operating Thesis]]
+- `infinity/workflows/heartbeat.md`

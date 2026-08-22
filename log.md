@@ -1019,3 +1019,9 @@
 - 정리: 상단의 작업 이력성 `이번 상태` 문구를 독자용 `상태` 문장으로 바꾸고, 말미의 `이번 패스` 표현을 제거해 후속 압축 기준만 남겼다.
 - 선호 신호: 안정된 Information 노트에서는 새 사례를 더 붙이기보다, 정보 생애주기와 허가면/책임면을 어떤 체크리스트로 다시 읽을지 선명하게 남기는 편이 적합하다.
 - 드리프트 점검: 대응 원본을 기준으로 읽었고, 외부 링크 소스와 `human-reviews/` 복사는 사용하지 않았다.
+## 2026-08-22 12:20 UTC | Infinity Archive 지식 승격 게이트 반영
+
+- 갱신 범위: [[concepts/infinity-archive-knowledge-promotion]] 1개 concept를 새로 만들고, Infinity Archive 완료 규칙에 지식 판정·실제 반영·대상 검증 게이트를 연결했다.
+- 탐구: Infinity는 실행 원장, Knowledge Lab은 재사용 가능한 판단의 기억 레이어라는 역할 분리를 확인했다. `promote` 판정 뒤 페이지 반영 없이 `candidate`로 남는 흐름은 완료로 닫지 않도록 정리했다.
+- 정리: `knowledge_status`, `knowledge_decision`, `knowledge_targets`, `knowledge_reflection`을 Archive 필드로 고정하고, 실제 대상 경로가 존재하는지 검증 스크립트가 확인하도록 했다.
+- 드리프트 점검: Infinity 원장·리포트 전체를 복사하지 않았고, 이번 운영 규칙 자체에서 재사용 가능한 경계만 concept로 승격했다.
