@@ -28,3 +28,10 @@ title: "경계가 있는 반복 개선 루프"
 - Artifact: `infinity/artifacts/research-28/autoresearch-infinity-strategy.md`
 - Report: `infinity/reports/research-28/20260820T2118Z.html`
 - Ingest source: `source/openclaw-system/docs/INFINITY_ARCHIVE_KNOWLEDGE_2026-08.md`
+
+## Archive 품질 평가면 적용
+
+research-29는 위 루프를 Archive 후속 품질에 적용했다. 고정 표본에서는 `metric_question+metric_result+metric_next_decision`, `follow_up_intent_ids` 또는 미생성 사유, Knowledge Lab 승격 3종 필드, Red 네 문장과 원장/report 상태 일치를 함께 판정한다. 이 네 차원을 완료 직전 프롬프트 블록으로 강제한 후보는 keep하되, 실제 후속 Intent fixture가 없는 연결 프롬프트는 blocked, rubric 없는 승격 점수는 discard한다. keep은 다음 baseline 후보일 뿐 자동 merge/release가 아니다.
+
+- Infinity Archive: `intents/archive/research-29.md`
+- Artifact: `infinity/artifacts/research-29/experiment-log.md`
