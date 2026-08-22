@@ -1,0 +1,30 @@
+---
+title: "경계가 있는 반복 개선 루프"
+---
+
+# 경계가 있는 반복 개선 루프
+
+자동화된 개선은 무제한 자율 실행이 아니라, 평가 기준과 변경 범위를 먼저 잠근 작은 실험이어야 한다. Infinity에 적용할 핵심은 고정 평가면, 좁은 변경면, bounded 반복, keep/discard/crash 기록, 되돌릴 수 있는 원장이다.
+
+## 운영 규칙
+
+- 하나의 Intent에서 하나의 지표와 하나의 변경 축만 반복한다.
+- baseline과 evaluator를 실험 전에 고정하고, 실험 중에는 바꾸지 않는다.
+- 기본 상한은 최대 3회·고정 시간·일일 비용/재시도 제한으로 둔다.
+- 결과는 `keep`, `discard`, `crash`, `timeout`, `blocked` 중 하나로 기록한다. `keep`은 다음 baseline 후보일 뿐 자동 배포가 아니다.
+- 후보 변경은 전용 branch/worktree와 rollback reference를 남기며, 자동 merge·release·외부 실행은 별도 승인 없이는 하지 않는다.
+
+## 중단 기준
+
+평가 데이터나 evaluator 변경, 반복 오류, budget 초과, 허용 범위 이탈, secret·외부 시스템·공개 화면 접근이 발생하면 즉시 중단한다. 로그는 삭제하지 않고 후보를 discard 또는 superseded로 표시한다.
+
+## 왜 남기는가
+
+작은 실험은 결과보다 비교 가능성이 중요하다. 같은 기준으로 baseline과 후보를 재고, 개선·비용·부작용을 함께 남겨야 다음 세션이 직감이 아니라 누적된 판단에서 출발한다.
+
+## 출처
+
+- Infinity Archive: `intents/archive/research-28.md`
+- Artifact: `infinity/artifacts/research-28/autoresearch-infinity-strategy.md`
+- Report: `infinity/reports/research-28/20260820T2118Z.html`
+

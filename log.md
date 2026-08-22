@@ -1030,3 +1030,9 @@
 
 - 갱신 범위: Archive 검증이 `agent-wiki/content/docs/` 대상과 실제 agent-wiki 커밋까지 확인하도록 보강하고, `candidate`·존재만 하는 빈 대상·미등록 커밋을 통과시키지 않는 회귀 테스트를 추가했다.
 - 정리: 지식 판정은 필드 기록이 아니라 실제 페이지 변경과 원격 반영 가능한 커밋을 확인해야 닫히는 완료 조건으로 고정했다.
+## 2026-08-22 12:40 UTC | 이번 주 Infinity Archive 지식 승격
+
+- 갱신 범위: 8월 17~22일 Archive 6건을 검토하고 재사용 가능한 운영 판단 3개를 `content/docs/concepts/`로 컴파일했다.
+- 승격: `research-28`의 경계가 있는 반복 개선 루프, `ops-26`의 산출물 지표 질문 계약, `marketing-128`의 근거 제한 콘텐츠 실험 규칙.
+- 보존 경계: `marketing-124/125/126`은 단일 디자인 재작업·대체 이력, `marketing-127`은 특정 계정 분석으로 Infinity 원장에 남겼다. `marketing-128` 문서는 내부 규칙만 승격했고 공개 실행·성과 확정은 하지 않았다.
+- 출처: 각 페이지에 Infinity Archive·Artifact·Report 경로를 남겼다. `marketing-128`은 Red가 `FOLLOW_UP_REQUIRED`인 상태를 명시해 새 상품 식별·재검증 전 보류 경계를 보존했다.

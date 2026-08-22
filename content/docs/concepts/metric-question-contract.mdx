@@ -1,0 +1,26 @@
+---
+title: "산출물 Intent의 지표 질문 계약"
+---
+
+# 산출물 Intent의 지표 질문 계약
+
+비단순 산출물은 완료 여부만으로 다음 결정을 알 수 없다. 무엇이 바뀌면 다음 행동이 달라지는지를 먼저 질문하고, 관찰 신호와 판정 규칙을 함께 고정해야 한다.
+
+## 최소 계약
+
+- `metric_question`: 무엇이 바뀌면 다음 결정이 바뀌는가?
+- `metric_signal`: 그 변화를 어디서 관찰하는가?
+- `metric_decision_rule`: 신호가 `continue`, `change`, `hold` 중 어떤 결정으로 이어지는가?
+
+완료 report와 Archive에는 실제 결과(`metric_result`)와 다음 결정(`metric_next_decision`)을 남긴다. 아직 신호가 없으면 억지로 성공을 만들지 말고 `null` 또는 `hold`로 기록한다.
+
+## 적용 범위
+
+단순 조회·상태 확인은 제외하되, 조사·설계·콘텐츠·제품·운영처럼 결과물이 다음 선택을 바꾸는 Intent에는 기본 적용한다. 지표는 숫자일 필요가 없지만, 관찰 가능한 신호와 행동 전환이 있어야 한다.
+
+## 출처
+
+- Infinity Archive: `intents/archive/ops-26.md`
+- Artifact: `infinity/artifacts/ops-26/metric-contract.md`
+- 반영된 운영 파일: `source/openclaw-system/docs/INFINITY_OPERATING_RULES.md`, `infinity/workflows/heartbeat.md`
+
