@@ -28,7 +28,7 @@
 10. `source/external-links/`는 사용자 원본 노트와 섞지 않는 별도 외부 소스 레이어로 유지하되, 2026-06-08 이후에는 제한적 참고 자료가 아니라 적극적인 위키 입력 후보로 본다. 단순 요약에 그치지 말고 관련 source/concept/synthesis/mapped/diary 페이지 중 어디에 축적할지 판단한다.
 11. Infinity 산출물(`INTENTS.md`, archive 코멘트, intent 상세 파일, reports, `MARKETING_LEARNINGS.md`)은 실행 결과와 판단 기준이 응축된 보조 원천으로 본다. 완료된 산출물이 반복 가능한 원칙, 제품/마케팅 판단, 운영 교훈을 담고 있으면 agent-wiki의 syntheses/concepts/diary 또는 관련 mapped 노트에 반영한다.
 12. 외부 링크나 Infinity 산출물이 존재한다고 해서 무조건 agent-wiki 본문에 넣지는 않는다. 관련성, 반복 가능성, 사용자 판단에 미치는 영향이 분명할 때만 승격하고, 원문/실행 로그의 경계와 출처를 명시한다.
-12-a. Infinity Archive의 지식 판정이 `promote`이면 판정만 기록하지 않는다. 실제 `content/docs/` 페이지(또는 기존 관련 페이지)를 갱신하고, Archive의 `knowledge_targets`에 경로를 남긴 뒤 반영 결과를 검증한다. `retain_in_infinity`인 경우에만 Infinity에 보존하고 승격하지 않을 수 있으며, 그 근거를 Archive의 `knowledge_reflection`에 적는다.
+12-a. Infinity Archive의 지식 판정이 `promote`이면 판정만 기록하지 않는다. 실제 `content/docs/` 페이지(또는 기존 관련 페이지)를 갱신하고, Archive의 `knowledge_targets`와 agent-wiki 커밋을 남긴 뒤 반영 결과를 검증한다. `retain_in_infinity`인 경우에만 Infinity에 보존하고 승격하지 않을 수 있으며, 그 근거를 Archive의 `knowledge_reflection`에 적는다.
 13. 매일 사용자 요약에는 아래를 포함한다.
    - 어떤 카테고리를 탐구했는지
    - 어떤 페이지를 갱신했는지

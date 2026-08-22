@@ -1025,3 +1025,8 @@
 - 탐구: Infinity는 실행 원장, Knowledge Lab은 재사용 가능한 판단의 기억 레이어라는 역할 분리를 확인했다. `promote` 판정 뒤 페이지 반영 없이 `candidate`로 남는 흐름은 완료로 닫지 않도록 정리했다.
 - 정리: `knowledge_status`, `knowledge_decision`, `knowledge_targets`, `knowledge_reflection`을 Archive 필드로 고정하고, 실제 대상 경로가 존재하는지 검증 스크립트가 확인하도록 했다.
 - 드리프트 점검: Infinity 원장·리포트 전체를 복사하지 않았고, 이번 운영 규칙 자체에서 재사용 가능한 경계만 concept로 승격했다.
+
+## 2026-08-22 12:32 UTC | 승격 대상·커밋 검증 강화
+
+- 갱신 범위: Archive 검증이 `agent-wiki/content/docs/` 대상과 실제 agent-wiki 커밋까지 확인하도록 보강하고, `candidate`·존재만 하는 빈 대상·미등록 커밋을 통과시키지 않는 회귀 테스트를 추가했다.
+- 정리: 지식 판정은 필드 기록이 아니라 실제 페이지 변경과 원격 반영 가능한 커밋을 확인해야 닫히는 완료 조건으로 고정했다.
