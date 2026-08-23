@@ -1,0 +1,34 @@
+---
+title: "여행 맥락은 현재성과 위치 안전성을 같이 지킨다"
+---
+
+# 여행 맥락은 현재성과 위치 안전성을 같이 지킨다
+
+여행 관련 출력은 오늘의 확인된 위치를 기준으로만 갱신하고, 공개용 표현은 위치 정보를 노출하지 않도록 낮춰야 한다. 위치가 불확실하거나 공개 범위를 넘으면 locationless-safe 형태로 렌더한다.
+
+## 판단 순서
+
+1. 오늘 기준의 현재 도시나 장소가 확인됐는지 먼저 본다.
+2. 출력이 공개용인지 내부용인지 나눈다.
+3. 공개용이면 도시명, 숙소, 이동, 진행도, 실시간 위치를 빼고 locationless-safe로 바꾼다.
+4. 오래된 도시나 장면은 사용자가 다시 꺼냈을 때만 재사용한다.
+5. 현재성이 필요한 문장은 오늘의 실제 장면을 넘지 않게 유지한다.
+
+## 왜 필요한가
+
+- 여행 출력은 새로움보다 현재성이 중요하다.
+- 위치를 숨기는 것은 정보 손실이 아니라 노출 경계 설정이다.
+- 오래된 장소를 자동으로 되살리면 실제 흐름과 어긋난다.
+- 안전한 버전이 있으면 검토와 발행을 멈추지 않고 진행할 수 있다.
+
+## 관련 source
+
+- `source/openclaw-system/docs/LOCAL_REVIEW_AUTOMATION.md`
+- `source/openclaw-system/data/travel-content-feedback/2026-08-23-locationless-context.json`
+- `source/openclaw-system/data/travel-content-feedback/2026-08-23-send-log.json`
+- `source/openclaw-system/data/daily-reviews/2026-08-23-review.md`
+
+## 관련 문서
+
+- [[../concepts/확장 전에 구조를 본다]]
+- [[../concepts/실행 원장에서 지식으로 승격하기]]
