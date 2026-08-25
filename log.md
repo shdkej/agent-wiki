@@ -1,3 +1,10 @@
+## 2026-08-25 19:30 UTC | openclaw-system 감도 타임라인 + X API 운영 기준 승격
+
+- 갱신 범위: `source/openclaw-system/data/daily-reviews/2026-08-25-review.md`의 `믿게 되는 감도` 판단을 `[[concepts/updatable-taste-timeline]]`에 보강하고, `source/openclaw-system/docs/X_API_TIMELINE_OPERATING.md`의 토큰/크레딧/HTML fallback 판정을 `[[maintenance/x-api-timeline-operating]]`으로 정리했다.
+- 탐구: 지속 업데이트 주제는 완성도보다 신뢰가 쌓이는 감도, 허술함, 재치, 친근함의 조합이 핵심이었다. X API 타임라인은 Bearer Token 주입과 크레딧 상태, `x_api_v2` 소스 검증을 분리해 봐야 한다.
+- 정리: 기존 concept에는 감도와 구매 신뢰 문장을 보강했고, API 운영 노트는 maintenance로 분리해 source 원문은 그대로 둔다.
+- 드리프트 점검: source 원문과 runtime report는 복사하지 않았다.
+
 ## 2026-08-23 19:54 UTC | openclaw-system 한 권 사이클/문제-장면-루프 압축 승격
 
 - 갱신 범위: `source/openclaw-system/data/daily-reviews/2026-08-24-review.md`의 재사용 판단을 `[[concepts/structure-before-scale]]`에 최소 변경으로 흡수했다.

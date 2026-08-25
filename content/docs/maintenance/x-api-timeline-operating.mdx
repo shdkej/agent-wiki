@@ -1,0 +1,31 @@
+---
+title: "X API 타임라인 운영 기준"
+---
+
+# X API 타임라인 운영 기준
+
+X 기반 타임라인 수집은 토큰 주입, 크레딧 상태, 실제 응답 소스를 분리해서 봐야 한다. 로컬 환경변수가 있다고 해서 배포 Lambda가 같은 자격증명을 쓰는 것은 아니다.
+
+## 판단 순서
+
+1. Lambda가 실제로 읽는 변수는 `X_BEARER_TOKEN`인지 먼저 본다.
+2. 로컬 `.env`에 있는 `X_API_KEY`, `X_API_KEY_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET`은 배포 반영 여부와 분리해서 본다.
+3. API가 `402 credits depleted`를 반환한 이력이 있으면 수집 실패를 자격증명 문제와 혼동하지 않는다.
+4. HTML fallback이 내려와도 `x_api_v2` 소스인지 확인하기 전에는 전체 타임라인 성공으로 표시하지 않는다.
+5. 사용자 조회 후 `max_results=100`과 `pagination_token`으로 페이지를 반복한다.
+
+## 왜 필요한가
+
+- 토큰이 없는데도 HTML이 보이면, 겉으로는 동작한 것처럼 착시가 생긴다.
+- 크레딧 고갈은 구현 버그와 다른 실패다.
+- 실제 소스 판별이 없으면 폴백 페이지를 API 결과로 잘못 기록할 수 있다.
+- 페이지네이션과 소스 판별을 함께 확인해야 게시물 수와 가장 오래된 날짜를 믿을 수 있다.
+
+## 관련 source
+
+- `source/openclaw-system/docs/X_API_TIMELINE_OPERATING.md`
+
+## 관련 문서
+
+- [[../syntheses/observable-feedback-systems]]
+- [[../mapped/Integration/Work]]
