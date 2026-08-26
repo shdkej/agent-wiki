@@ -1,3 +1,10 @@
+## 2026-08-26 19:30 UTC | openclaw-system 결제 레일 선택 + 알던 것을 일주일 안에 실행하기 승격
+
+- 갱신 범위: `source/infinity/archive/research-35.md`의 결제 레일 판단을 `[[mapped/Integration/Business]]`에 보강하고, `source/openclaw-system/data/daily-reviews/2026-08-26-review.md`와 `source/openclaw-system/reports/daily-archive/2026-08-26-known-play-execution/index.html`의 재사용 판단을 `[[concepts/known-play-execution]]`과 `[[diary/2026-08-26]]`에 최소 변경으로 흡수했다.
+- 탐구: iOS IAP, 웹 PG, Paddle MoR, storefront, 사업자 국가, 정산/세무 책임은 도구 비교보다 먼저 고정해야 하는 사업 조건이었다. 이미 아는 기본기와 확인된 사례는 더 길게 분석하기보다 `경쟁 앱 / 부족한 리뷰 / 인플루언서 연결고리 / 7일 첫 고객 테스트`처럼 한 장의 실행 지도로 닫는 편이 재사용성이 높았다.
+- 정리: Business mapped 페이지에 결제 레일 판단을 한 줄 보강하고, 새 concept는 실행 압축과 짧은 검증 시한을 남겼다.
+- 드리프트 점검: source 원문과 card-news/런타임 산출물은 복사하지 않았다.
+
 ## 2026-08-25 19:30 UTC | openclaw-system 감도 타임라인 + X API 운영 기준 승격
 
 - 갱신 범위: `source/openclaw-system/data/daily-reviews/2026-08-25-review.md`의 `믿게 되는 감도` 판단을 `[[concepts/updatable-taste-timeline]]`에 보강하고, `source/openclaw-system/docs/X_API_TIMELINE_OPERATING.md`의 토큰/크레딧/HTML fallback 판정을 `[[maintenance/x-api-timeline-operating]]`으로 정리했다.
