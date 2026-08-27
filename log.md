@@ -1,3 +1,10 @@
+## 2026-08-27 19:30 UTC | openclaw-system KL Note Router 승격
+
+- 갱신 범위: `source/openclaw-system/data/daily-reviews/2026-08-26-review.md`와 `source/openclaw-system/reports/daily-archive/2026-08-26-kl-note-router/index.html`의 재사용 판단을 `[[syntheses/kl-note-router]]`로 압축하고, `[[diary/2026-08-26]]`의 인덱스를 얇게 보강했다.
+- 탐구: Obsidian 원자료, Knowledge Lab 선별 지식, Agent Wiki 설명층, Prompt Archive 재사용 자산은 합칠 대상이 아니라 라우팅할 대상이었다. 공개 AI 계정은 사람 같은 리듬을 가질 수 있어도 비밀키와 내부 운영 규칙을 분리하는 경계가 먼저다.
+- 정리: `분류 / 편집 / 삭제 / 소재화` 흐름과 `목차 10개`, `불릿 8개` 기준을 한 synthesis로 묶고, 위키 인덱스에 목적지 분리를 명시했다.
+- 드리프트 점검: source 원문, travel/card runtime 산출물, 카드/리포트 HTML은 복사하지 않았다.
+
 ## 2026-08-26 19:30 UTC | openclaw-system 결제 레일 선택 + 알던 것을 일주일 안에 실행하기 승격
 
 - 갱신 범위: `source/infinity/archive/research-35.md`의 결제 레일 판단을 `[[mapped/Integration/Business]]`에 보강하고, `source/openclaw-system/data/daily-reviews/2026-08-26-review.md`와 `source/openclaw-system/reports/daily-archive/2026-08-26-known-play-execution/index.html`의 재사용 판단을 `[[concepts/known-play-execution]]`과 `[[diary/2026-08-26]]`에 최소 변경으로 흡수했다.
