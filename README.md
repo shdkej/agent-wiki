@@ -34,6 +34,7 @@
 - `content/docs/concepts/structure-before-scale.mdx` — 여러 갈래 잡상을 `문제 / 장면 / 루프 / 첫 결과물`로 압축해 트랙을 고르는 규칙
 - `content/docs/concepts/updatable-taste-timeline.mdx` — 반복 업데이트 가능한 주제에서 타임라인형 신뢰와 감도 판정을 읽는 규칙
 - `content/docs/concepts/known-play-execution.mdx` — 이미 아는 기본기를 짧은 실행 루프로 닫는 규칙
+- `content/docs/concepts/human-agent-fit.mdx` — 권한 경계와 credential-safe 실행 표면을 분리하는 규칙
 - `content/docs/syntheses/kl-note-router.mdx` — Obsidian/KL/Wiki/Prompt Archive 사이의 원자료 라우팅 규칙
 - `content/docs/concepts/confirmed-choice-before-follow-up.mdx` — 전송 성공과 실제 선택 확정을 분리하는 callback 게이트
 - `content/docs/maintenance/x-api-timeline-operating.mdx` — X 타임라인 수집에서 토큰·크레딧·응답 소스를 분리해 확인하는 운영 기준
