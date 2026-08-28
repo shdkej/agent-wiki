@@ -1,7 +1,7 @@
-## 2026-08-28 19:34 UTC | openclaw-system 여행 회수 구조 + credential-safe agent 실행 반영
+## 2026-08-28 19:34 UTC | openclaw-system 여행 회수 구조 + login-agent 기본값 반영
 
-- 갱신 범위: `source/openclaw-system/data/daily-reviews/2026-08-27-review.md`의 여행 회수 구조와 라우팅 판단을 `[[syntheses/kl-note-router]]`와 `[[diary/2026-08-27]]`에 얇게 흡수하고, `source/openclaw-system/data/ai-news/2026-08-27-ai-news.md`와 `source/openclaw-system/data/ai-news/2026-08-28-ai-news.md`의 credential/라우팅 판단을 `[[concepts/human-agent-fit]]`에 반영했다.
-- 탐구: 여행은 소비가 아니라 회수 구조였고, AI 뉴스는 모델 헤드라인보다 라우팅, 장기 실행, 비밀값 비노출이 더 오래 남는 운영 판단이었다.
+- 갱신 범위: `source/openclaw-system/data/daily-reviews/2026-08-27-review.md`와 `source/openclaw-system/data/daily-reviews/2026-08-28-review.md`의 여행 회수 구조와 라우팅 판단을 `[[syntheses/kl-note-router]]`와 `[[diary/2026-08-27]]`, `[[diary/2026-08-28]]`에 얇게 흡수하고, `source/openclaw-system/data/ai-news/2026-08-27-ai-news.md`와 `source/openclaw-system/data/ai-news/2026-08-28-ai-news.md`의 credential/라우팅 판단을 `[[concepts/human-agent-fit]]`에 반영했다.
+- 탐구: 여행은 소비가 아니라 회수 구조였고, AI 뉴스와 28일 리뷰는 모델 헤드라인보다 라우팅, 로그인형 에이전트, 장기 실행, 비밀값 비노출이 더 오래 남는 운영 판단이었다.
 - 정리: KL Note Router에는 여행/AI 뉴스의 재사용 판단을 덧붙이고, human-agent-fit에는 로그인·비밀번호·세션을 모델 프롬프트와 분리하는 경계를 보강했다.
 - 드리프트 점검: source 원문은 그대로 두고, 위키에는 반복 가능한 판단만 압축했다.
 
