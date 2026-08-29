@@ -30,6 +30,7 @@
 - `source/external-links/` — 외부 기사, Hada/GeekNews, 마케팅·AI·제품 운영 자료, 사용자가 새로 던진 링크
 - `source/openclaw-system/` — SAM/OpenClaw 운영 문서, daily-tracking, 회고, 운영 데이터. 이 경로에 들어온 문서·데이터는 Knowledge Lab ingest 입력이며, 중요한 daily-tracking은 diary/log/index에 연결한다.
 - `infinity/` — 완료된 intent, archive 코멘트, reports, `MARKETING_LEARNINGS.md`, Waiting/Active에서 드러난 운영 판단
+- `content/docs/concepts/context-over-inventory.mdx` — 아카이브를 고정 목록이 아니라 다시 펼쳐 쓰는 작업대로 다루는 규칙
 - `content/docs/concepts/currentness-safe-travel-context.mdx` — 여행 출력의 현재성·위치 안전성 규칙
 - `content/docs/concepts/structure-before-scale.mdx` — 여러 갈래 잡상을 `문제 / 장면 / 루프 / 첫 결과물`로 압축해 트랙을 고르는 규칙
 - `content/docs/concepts/updatable-taste-timeline.mdx` — 반복 업데이트 가능한 주제에서 타임라인형 신뢰와 감도 판정을 읽는 규칙
@@ -38,6 +39,7 @@
 - `content/docs/syntheses/kl-note-router.mdx` — Obsidian/KL/Wiki/Prompt Archive 사이의 원자료 라우팅 규칙
 - `content/docs/concepts/confirmed-choice-before-follow-up.mdx` — 전송 성공과 실제 선택 확정을 분리하는 callback 게이트
 - `content/docs/maintenance/x-api-timeline-operating.mdx` — X 타임라인 수집에서 토큰·크레딧·응답 소스를 분리해 확인하는 운영 기준
+- `content/docs/maintenance/version-tracker-refresh.mdx` — 버전 표의 최신값과 검토 필요 항목을 분리하는 갱신 원칙
 
 
 외부 링크와 Infinity 산출물은 그대로 복사하지 않고, 반복 가능한 판단·개념·비교·운영 원칙으로 정제해 concepts/syntheses/diary/mapped 페이지에 승격한다.
