@@ -45,7 +45,7 @@
 정기 사이클(현재 4시간 간격) 실행은 아래 순서로 대상을 고른다. 상위 항목에 실행 가능한 대상이 있으면 아래로 내려가지 않는다.
 
 1. 누락 매핑과 명시적 피드백: 대응 mapped 노트가 없는 원본, 평가가 직접 지목한 노트, `logs/QUERY_GAPS.md`의 미해소 공백을 처리한다.
-2. 승격 백로그: `source/external-links/`에서 `status: summarized` 또는 `queued` 상태로 30일 넘게 머문 문서를 오래된 것부터 하나 골라, agent-wiki 반영(승격) 또는 명시적 기각을 결정한다. 어느 쪽이든 frontmatter `status`를 갱신하고 판단 근거를 `agent-wiki/log.md`에 남긴다.
+2. 승격 백로그: `source/external-links/`에서 `status: summarized` 또는 `queued` 상태로 30일 넘게 머문 문서를 오래된 것부터 하나 골라, agent-wiki 반영(승격) 또는 명시적 기각을 결정한다. 어느 쪽이든 frontmatter `status`를 갱신하고 판단 근거를 `agent-wiki/content/docs/log.mdx`에 남긴다.
 3. 컴파일: 관련 소스가 3개 이상 모인 주제의 concept/synthesis 페이지를 만들거나 갱신한다. `agent-wiki/README.md` 인덱스의 주장 묶음 중 아직 synthesis로 승격되지 않은 것도 후보다.
 4. mapped 다듬기: 위 세 가지가 모두 없을 때만 mapped 노트 1개를 다듬는다.
 

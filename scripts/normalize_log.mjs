@@ -3,8 +3,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = process.cwd();
-const LOG_PATH = path.join(ROOT, 'log.md');
-const ARCHIVE_DIR = path.join(ROOT, 'logs');
+const DOCS_DIR = path.join(ROOT, 'content', 'docs');
+const LOG_PATH = path.join(DOCS_DIR, 'log.mdx');
+const ARCHIVE_DIR = path.join(DOCS_DIR, 'logs');
+const FRONTMATTER = '---\ntitle: "log"\n---\n\n';
 const LOG_PREAMBLE = `# 운영 로그
 
 이 파일은 Karpathy LLM Wiki의 append-only \`log.md\` 역할을 합니다. 시간순으로 **ingest · query · lint**만 기록합니다. 현재 지식의 위치는 [[index|중앙 목차]]에서 찾습니다.
@@ -75,7 +77,7 @@ const currentMonth = sorted[0].month;
 const currentEntries = sorted.filter((entry) => entry.month === currentMonth);
 const archiveEntries = sorted.filter((entry) => entry.month !== currentMonth);
 
-fs.writeFileSync(LOG_PATH, `${LOG_PREAMBLE}\n\n${currentEntries.map((entry) => entry.block).join('\n\n')}\n`);
+fs.writeFileSync(LOG_PATH, `${FRONTMATTER}${LOG_PREAMBLE}\n\n${currentEntries.map((entry) => entry.block).join('\n\n')}\n`);
 
 if (archiveEntries.length > 0) {
   fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
@@ -87,7 +89,7 @@ if (archiveEntries.length > 0) {
   }
 
   for (const [month, monthEntries] of byMonth.entries()) {
-    const archivePath = path.join(ARCHIVE_DIR, `${month}.md`);
+    const archivePath = path.join(ARCHIVE_DIR, `${month}.mdx`);
     const existing = readEntries(archivePath, sorted.length);
     const merged = sortNewestFirst(uniqueEntries([...monthEntries, ...existing]));
     fs.writeFileSync(archivePath, `${merged.map((entry) => entry.block).join('\n\n')}\n`);
