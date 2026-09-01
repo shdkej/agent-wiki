@@ -16,6 +16,10 @@
 - `content/docs/maintenance/` — 감사, 드리프트, 재생성 메모
 - `content/docs/mapped/` — 원본 노트와 1:1 대응하는 핵심 관리 노트
 
+## Context Pack에서의 역할
+
+Agent Wiki는 Knowledge Lab의 raw source나 ingest 원장이 아니라, 검증·정제된 LLM-wiki 읽기 레이어다. 요청 처리 전에는 Knowledge Lab의 `context-routes.json`이 선택한 필수 문서와 함께 이 인덱스 및 관련 페이지를 읽는다. Wiki 페이지는 원문 근거를 대체하지 않으며, task-specific 사실이 필요한 경우 KL source 경로와 ingest 상태를 다시 확인한다.
+
 ## 제약
 
 - 원본 노트의 핵심 주제와 대략적인 구조를 유지한다
