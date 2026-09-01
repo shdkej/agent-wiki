@@ -15,6 +15,14 @@ title: "log"
 
 각 query 기록에는 질문, 검색어, 읽은 Agent Wiki 페이지, raw KL을 사용했다면 경로와 ingest 상태, 결과 페이지 또는 결정만 짧게 남깁니다.
 
+## 2026-09-01 17:26 UTC | 구조 통합 후 참조 정리
+
+- query: Agent Wiki와 Knowledge Lab에 남은 중복·죽은 참조를 정리해 달라는 요청.
+- 검색어: `concepts`, `syntheses`, `sources`, `AGENT_RULES`, `KNOWLEDGE_LAB_README`.
+- 읽은 문서: [[index|중앙 목차]], [[mapped/README|원본 카테고리 지도]], [[log|운영 로그]], `context-routes.json`, `ingest/INDEX.md`.
+- raw KL: 외부 링크와 Infinity archive의 `integrated_into`·`knowledge_targets` 메타데이터를 확인했으며 모두 `integrated` 상태의 참조였다.
+- 결과: 현재 경로는 `insights/`·`mapped/`·`content/docs/`로 통일하고, 공개 URL 호환용 legacy redirect와 과거 월별 로그는 보존하기로 했다.
+
 ## 2026-09-01 14:40 UTC | 중앙 목차 우선 탐색 구조
 
 - 갱신 범위: 첫 화면을 27개 논지의 긴 나열에서 `중앙 목차 → 개념/종합 → 원본 대응 → 원문 확인` 흐름으로 재구성했다.
