@@ -1,62 +1,34 @@
 # 에이전트 위키
 
-이 위키는 `../source/shdkej-content/`를 안정 기준으로 삼고, `../source/external-links/`와 `../infinity/` 산출물을 적극 입력으로 삼아 에이전트가 유지하는 지식 레이어다.
+원본 노트·외부 입력·실행 결과에서 **다시 쓸 수 있는 판단**을 찾는 중앙 목차입니다. 처음에는 아래 목적 중 하나만 고르세요.
 
-## 구조
+## 중앙 목차
 
-이 위키는 Fumadocs(Next.js) 사이트로 publish된다. 지식 페이지 본문은 `content/docs/` 아래 `.mdx` 파일에 직접 작성하고, 루트의 `README.md`와 `log.md`는 publish 시 `content/docs/index.mdx`, `content/docs/log.mdx`로 자동 변환된다.
+### 지금 무엇을 찾고 있나요?
 
-- `README.md` — 이 파일. 전체 탐색 인덱스이며 인덱스 수정은 여기서 한다
-- `log.md` — 현재 월 유지보수 로그. 최신 항목이 위에 온다
-- `logs/YYYY-MM.md` — 지난 월 로그 보관
-- `content/docs/sources/` — 원본 카테고리 개요 페이지
-- `content/docs/concepts/` — 반복되는 개념, 원칙, 패턴
-- `content/docs/syntheses/` — 여러 노트를 묶는 종합 페이지
-- `content/docs/diary/` — 날짜별 세션 노트
-- `content/docs/maintenance/` — 감사, 드리프트, 재생성 메모
-- `content/docs/mapped/` — 원본 노트와 1:1 대응하는 핵심 관리 노트
+1. **반복해서 쓸 판단을 찾는다** → [[concepts/structure-before-scale|구조를 먼저 보는 법]], [[concepts/context-over-inventory|맥락을 우선하는 법]], [[concepts/known-play-execution|알던 것을 실행으로 닫는 법]]
+2. **여러 기록을 한 흐름으로 이해한다** → [[syntheses/observable-feedback-systems|관측과 피드백]], [[syntheses/change-friendly-operating-structure|변경 친화적 구조]], [[syntheses/kl-note-router|노트 라우팅]]
+3. **원본 주제에서 출발한다** → [[syntheses/source-category-map|원본 카테고리 지도]] → [[sources/Fundamental|기술]], [[sources/Communication|소통]], [[sources/Human|사람]], [[sources/Idea|아이디어]], [[sources/Integration|통합]], [[sources/Meta|메타]], [[sources/blog|블로그]]
+4. **최근 맥락을 확인한다** → [[diary/2026-08-30|최근 일일 인덱스]] · [[log|유지보수 로그]]
+5. **위키를 운영·검증한다** → [[maintenance/source-mapping|소스 매핑]], [[maintenance/review-routing-currentness|현재성 점검]], [[agent_rules|운영 규칙]]
 
-## Context Pack에서의 역할
+### 이 위키의 읽는 순서
 
-Agent Wiki는 Knowledge Lab의 raw source나 ingest 원장이 아니라, 검증·정제된 LLM-wiki 읽기 레이어다. 요청 처리 전에는 Knowledge Lab의 `context-routes.json`이 선택한 필수 문서와 함께 이 인덱스 및 관련 페이지를 읽는다. Wiki 페이지는 원문 근거를 대체하지 않으며, task-specific 사실이 필요한 경우 KL source 경로와 ingest 상태를 다시 확인한다.
+`중앙 목차` → `개념 또는 종합` → `필요한 원본 대응 문서` → `원문·실행 기록 확인`
 
-## 제약
+- **Concepts**는 반복 가능한 원칙입니다.
+- **Syntheses**는 여러 기록을 연결한 결론입니다.
+- **Sources / Mapped**는 원본 카테고리와 1:1 대응 문서입니다.
+- **Diary / Log**는 최근 맥락과 변경 이력입니다.
+- **Maintenance**는 운영자용 점검 문서입니다.
 
-- 원본 노트의 핵심 주제와 대략적인 구조를 유지한다
-- 각 페이지는 500줄 이하를 유지한다
-- 탐구와 정리를 통해 명확성, 연결성, 일관성을 높인다
-- 드리프트와 재생성 판단은 `log.md`에 남긴다
+## 이용 경계
 
-## 현재 운영 전환
-
-기본 원본인 `source/shdkej-content/`의 1차 mapped 사이클은 상당히 안정된 상태로 본다. 이후 agent-wiki 작업은 같은 기본 원본을 반복 확장하기보다 다음 입력을 더 많이 본다.
-
-- `source/external-links/` — 외부 기사, Hada/GeekNews, 마케팅·AI·제품 운영 자료, 사용자가 새로 던진 링크
-- `source/openclaw-system/` — SAM/OpenClaw 운영 문서, daily-tracking, 회고, 운영 데이터. 이 경로에 들어온 문서·데이터는 Knowledge Lab ingest 입력이며, 중요한 daily-tracking은 diary/log/index에 연결한다.
-- `infinity/` — 완료된 intent, archive 코멘트, reports, `MARKETING_LEARNINGS.md`, Waiting/Active에서 드러난 운영 판단
-- `content/docs/concepts/context-over-inventory.mdx` — 아카이브를 고정 목록이 아니라 다시 펼쳐 쓰는 작업대로 다루는 규칙
-- `content/docs/concepts/currentness-safe-travel-context.mdx` — 여행 출력의 현재성·위치 안전성 규칙
-- `content/docs/concepts/structure-before-scale.mdx` — 여러 갈래 잡상을 `문제 / 장면 / 루프 / 첫 결과물`로 압축해 트랙을 고르는 규칙
-- `content/docs/concepts/updatable-taste-timeline.mdx` — 반복 업데이트 가능한 주제에서 타임라인형 신뢰와 감도 판정을 읽는 규칙
-- `content/docs/concepts/known-play-execution.mdx` — 이미 아는 기본기를 짧은 실행 루프로 닫는 규칙
-- `content/docs/concepts/title-selection-pressure.mdx` — 여행/라이프스타일 제목은 장소명이 아니라 비용·변화·불편·삶의 선택·관계 사건 같은 선택 압력을 팔아야 한다는 규칙
-- `content/docs/concepts/human-agent-fit.mdx` — 권한 경계와 credential-safe 실행 표면을 분리하는 규칙
-- `content/docs/maintenance/review-routing-currentness.mdx` — 데일리 리뷰의 소스 라우팅, 현재성 게이트, 사용자/SAM 분리 규칙
-- `content/docs/sources/research-37-channel-title-lessons.mdx` — research-37 채널별 상위/하위 제목 분석의 출처 요약
-- `content/docs/syntheses/kl-note-router.mdx` — Obsidian/KL/Wiki/Prompt Archive 사이의 원자료 라우팅 규칙
-- `content/docs/concepts/confirmed-choice-before-follow-up.mdx` — 전송 성공과 실제 선택 확정을 분리하는 callback 게이트
-- `content/docs/maintenance/x-api-timeline-operating.mdx` — X 타임라인 수집에서 토큰·크레딧·응답 소스를 분리해 확인하는 운영 기준
-- `content/docs/maintenance/version-tracker-refresh.mdx` — 버전 표의 최신값과 검토 필요 항목을 분리하는 갱신 원칙
-- `content/docs/diary/2026-08-30.mdx` — 2026-08-30 일일 리뷰 인덱스
-
-
-외부 링크와 Infinity 산출물은 그대로 복사하지 않고, 반복 가능한 판단·개념·비교·운영 원칙으로 정제해 concepts/syntheses/diary/mapped 페이지에 승격한다.
-
-OpenClaw daily-tracking은 원문을 `source/openclaw-system/data/daily-tracking/`에 남기고, 재사용 가치가 있는 날만 diary/log에서 색인한다. 색인은 원문을 대체하지 않고, 나중에 "어떤 장면이 어떤 판단으로 이어졌는가"를 찾게 하는 얇은 연결층이다.
+Agent Wiki는 Knowledge Lab의 raw source나 ingest 원장이 아니라, 검증·정제된 읽기 레이어입니다. 현재 사실이나 원문 근거가 필요하면 해당 source 경로와 ingest 상태를 다시 확인합니다. 외부 링크와 Infinity 실행 결과는 그대로 복사하지 않고, 반복 가능한 판단으로 정제해 이 위키에 승격합니다.
 
 ---
 
-# 문서별 핵심 논지 분류 — 메시지 기반 묶음
+# 논지 아카이브 — 메시지 기반 묶음
 
 mapped 아래 ~80개 문서를 **각 문서가 주장하는 핵심 메시지** 기준으로 27개 묶음으로 정리. 주제(AI, DevOps...)가 아니라 **문서가 무엇을 말하는가** 중심.
 
