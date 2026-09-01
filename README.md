@@ -10,7 +10,7 @@
 2. **여러 기록을 한 흐름으로 이해한다** → [[insights/observable-feedback-systems|관측과 피드백]], [[insights/change-friendly-operating-structure|변경 친화적 구조]], [[insights/kl-note-router|노트 라우팅]]
 3. **원본 8×8 주제에서 출발한다** → [[mapped/source-category-map|원본 카테고리 지도]]
    - 이전의 개별 논지는 원본 카테고리 지도에서 찾아보세요.
-4. **최근 맥락을 확인한다** → [[diary/2026-08-30|최근 일일 인덱스]] · [[log|유지보수 로그]]
+4. **최근 맥락과 탐색 이력을 확인한다** → [[diary/2026-08-30|최근 일일 인덱스]] · [[log|ingest·query·lint 로그]]
 5. **위키를 운영·검증한다** → [[maintenance/source-mapping|소스 매핑]], [[maintenance/review-routing-currentness|현재성 점검]], [[agent_rules|운영 규칙]]
 
 ### 이 위키의 읽는 순서
@@ -19,7 +19,7 @@
 
 - **Insights**는 반복 가능한 원칙과 여러 기록을 연결한 결론입니다.
 - **Mapped**는 원본 8×8과 1:1 대응하는 해석 문서입니다.
-- **Diary / Log**는 최근 맥락과 변경 이력입니다.
+- **Diary / Log**는 최근 맥락과 ingest·query·lint 이력입니다.
 - **Maintenance**는 운영자용 점검 문서입니다.
 
 ## 이용 경계
