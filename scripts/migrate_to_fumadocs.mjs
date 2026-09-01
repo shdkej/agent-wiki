@@ -5,7 +5,7 @@ import path from 'node:path';
 const ROOT = process.cwd();
 const DOCS = path.join(ROOT, 'content', 'docs');
 
-const TOP_LEVEL_DIRS = ['concepts', 'diary', 'logs', 'mapped', 'sources', 'syntheses', 'maintenance'];
+const TOP_LEVEL_DIRS = ['insights', 'diary', 'logs', 'mapped', 'maintenance'];
 const ROOT_FILES = ['README.md', 'index.md', 'KNOWLEDGE_LAB_README.md', 'AGENT_RULES.md', 'log.md'];
 const SKIP_FILES = new Set(['_sidebar.md', '_navbar.md']);
 
@@ -88,7 +88,7 @@ for (const f of ROOT_FILES) {
 // generate meta.json for top-level ordering
 const meta = {
   title: 'Agent Wiki',
-  pages: ['index', '---Concepts---', 'concepts', '---Sources---', 'sources', '---Diary---', 'diary', '---Logs---', 'log', 'logs', '---Mapped---', 'mapped', '---Syntheses---', 'syntheses', '---Maintenance---', 'maintenance', '---Reference---', 'agent_rules', 'knowledge_lab_readme'],
+  pages: ['index', '---Insights---', 'insights', '---Diary---', 'diary', '---Logs---', 'log', 'logs', '---Mapped---', 'mapped', '---Maintenance---', 'maintenance', '---Reference---', 'agent_rules', 'knowledge_lab_readme'],
 };
 fs.writeFileSync(path.join(DOCS, 'meta.json'), JSON.stringify(meta, null, 2));
 
