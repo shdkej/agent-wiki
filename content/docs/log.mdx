@@ -15,6 +15,14 @@ title: "log"
 
 각 query 기록에는 질문, 검색어, 읽은 Agent Wiki 페이지, raw KL을 사용했다면 경로와 ingest 상태, 결과 페이지 또는 결정만 짧게 남깁니다.
 
+## 2026-09-01 20:20 UTC | 태스크 지식 흔적과 전체 승격 흐름 분리
+
+- query: 태스크 상세에 재검증 상태를 강하게 결합하지 않고, 요청·조회 경로·남긴 로그만 남기며 전체 지식 흐름에서 별도 추적해 달라는 요청.
+- 검색어: `origin_loop_id`, `source_context_pack`, `ingest manifest`, `source_file`, `knowledge promotion`.
+- 읽은 문서: [[log|운영 로그]], `DOCUMENT_SEARCH_PIPELINE.md`, `INFINITY_OPERATING_RULES.md`, `ingest/INDEX.md`, `ingest/manifest.jsonl`, [[insights/bounded-experiment-loop|경계가 있는 반복 개선 루프]].
+- raw KL: `ingest/INDEX.md`와 `manifest.jsonl`을 확인했다. `selected`·`integrated` 상태와 Wiki 출처/target이 명시된 연결만 사용했고, 상태나 문장 유사도로 승격을 추정하지 않았다.
+- 결과: Infinity 태스크 상세은 `요청 쿼리 → 조회한 경로(Context Map) → 남긴 로그`로 구성하고, 기존 재검증 상태는 전체 `지식 흐름` 화면으로 이동한다. 별도 승격 목록은 `소스 → Ingest → Wiki 승격`을 상태·원본·명시 Wiki 링크 기준으로 표시한다.
+
 ## 2026-09-01 19:30 UTC | OpenClaw source ingest와 버전 트래커 원칙 갱신
 
 - ingest: `source/openclaw-system`의 최근 변경분을 점검했고, `version_trackers.yaml`의 최신 버전 판단과 `LOCAL_REVIEW_AUTOMATION.md`의 현재성 게이트가 재사용 가치가 있는지 확인했다.
