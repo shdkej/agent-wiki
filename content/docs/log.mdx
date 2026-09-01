@@ -15,6 +15,14 @@ title: "log"
 
 각 query 기록에는 질문, 검색어, 읽은 Agent Wiki 페이지, raw KL을 사용했다면 경로와 ingest 상태, 결과 페이지 또는 결정만 짧게 남깁니다.
 
+## 2026-09-01 17:37 UTC | 지식 피드백 루프 가시성 점검
+
+- query: ingest·query·lint 로그를 바탕으로 재검색·재판단이 실제로 이어지는지 점검하고, 사용자 가시성을 Infinity에 둘지 검토.
+- 검색어: `ingest`, `query log`, `feedback loop`, `knowledge promotion`, `agent-wiki`.
+- 읽은 문서: [[log|운영 로그]], `DOCUMENT_SEARCH_PIPELINE.md`, `schema/agent-rules.md`, `INFINITY_OPERATING_RULES.md`, `infinity/INTENTS.md`, Infinity 대시보드 렌더 경로.
+- raw KL: 사용하지 않음. 현재 판단은 컴파일 로그와 Infinity 운영 원장·대시보드 코드의 연결 상태에 근거함.
+- 결과: 로그 기록·지식 승격은 규칙으로 존재하지만, query 로그가 후속 재검색 후보로 다시 집계·실행되는 트리거는 없다. Agent Wiki는 근거 원장으로 두고, Infinity에 `지식 루프` 운영 보드를 추가해 최근 ingest/query/lint, 미해결 query, 재검색 대기, 승격 결과를 보여주는 방향이 적합하다.
+
 ## 2026-09-01 17:26 UTC | 구조 통합 후 참조 정리
 
 - query: Agent Wiki와 Knowledge Lab에 남은 중복·죽은 참조를 정리해 달라는 요청.
