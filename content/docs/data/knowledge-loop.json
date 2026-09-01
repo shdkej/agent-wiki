@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-09-01T17:48:14.468Z",
+  "events": [
+    {
+      "id": "kl-loop-20260901-visibility",
+      "at": "2026-09-01T17:37:00Z",
+      "type": "query",
+      "summary": "Agent Wiki 로그를 재검색·재판단으로 되돌리는 운영 루프를 점검했다.",
+      "loop_state": "open",
+      "recheck": "research",
+      "wiki_pages": [
+        "log"
+      ],
+      "next_action": "Infinity Inbox에 재검색 Intent를 등록하고 근거·결과를 같은 loop_id로 연결한다.",
+      "source_url": "https://shdkej.com/agent-wiki/docs/log",
+      "source_log": "log.mdx"
+    }
+  ],
+  "metrics": {
+    "ingest": 0,
+    "query": 1,
+    "lint": 0,
+    "open": 1,
+    "resolved": 0
+  }
+}

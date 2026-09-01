@@ -5,7 +5,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "sync:docs": "node scripts/normalize_log.mjs && node scripts/migrate_to_fumadocs.mjs",
+    "sync:docs": "node scripts/normalize_log.mjs && node scripts/build_knowledge_loop.mjs && node scripts/migrate_to_fumadocs.mjs",
+    "build:knowledge-loop": "node scripts/build_knowledge_loop.mjs",
     "start": "serve out",
     "types:check": "fumadocs-mdx && next typegen && tsc --noEmit",
     "postinstall": "fumadocs-mdx",
