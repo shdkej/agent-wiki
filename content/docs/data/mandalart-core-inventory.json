@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "source/shdkej-content core Mandalart axes",
+  "axes": [
+    {
+      "label": "Fundamental",
+      "sourceDir": "Fundamental",
+      "mappedDir": "Fundamental",
+      "hub": "fundamental",
+      "nodes": [
+        "Architecture",
+        "Coding",
+        "Computer_Architecture",
+        "Data_Structure",
+        "Infra",
+        "Math",
+        "Network",
+        "Software"
+      ]
+    },
+    {
+      "label": "Deep Knowledge",
+      "sourceDir": "Deep Knowledge",
+      "mappedDir": "deep-knowledge",
+      "hub": "deep-knowledge",
+      "nodes": [
+        "AI",
+        "Container",
+        "Data",
+        "Devops",
+        "Monitoring",
+        "Operation",
+        "Product",
+        "Web"
+      ]
+    },
+    {
+      "label": "Integration",
+      "sourceDir": "Integration",
+      "mappedDir": "Integration",
+      "hub": "integration",
+      "nodes": [
+        "Business",
+        "Creator",
+        "Design",
+        "Economics",
+        "Exploration",
+        "Marketing",
+        "Tool",
+        "Work"
+      ]
+    },
+    {
+      "label": "Communication",
+      "sourceDir": "Communication",
+      "mappedDir": "Communication",
+      "hub": "communication",
+      "nodes": [
+        "Blogging",
+        "Document",
+        "Feedback",
+        "Foreign_language",
+        "Logical_Thinking",
+        "Open_Source",
+        "Talk",
+        "Teamwork"
+      ]
+    },
+    {
+      "label": "Health",
+      "sourceDir": "Health",
+      "mappedDir": "Health",
+      "hub": "health",
+      "nodes": [
+        "Curiosity",
+        "Decision",
+        "Food",
+        "Investment",
+        "Music",
+        "Physical",
+        "Routine"
+      ]
+    },
+    {
+      "label": "Human",
+      "sourceDir": "Human",
+      "mappedDir": "Human",
+      "hub": "human",
+      "nodes": [
+        "Balance",
+        "Evolve",
+        "Future",
+        "Love",
+        "Principle",
+        "Readability",
+        "Reality",
+        "Standard"
+      ]
+    },
+    {
+      "label": "Idea",
+      "sourceDir": "Idea",
+      "mappedDir": "Idea",
+      "hub": "idea",
+      "nodes": [
+        "Article",
+        "History",
+        "Information",
+        "Journal",
+        "Movie",
+        "Reading",
+        "Travel"
+      ]
+    },
+    {
+      "label": "Meta",
+      "sourceDir": "Meta",
+      "mappedDir": "Meta",
+      "hub": "meta",
+      "nodes": [
+        "About_Architecture",
+        "About_Development",
+        "AGENTS",
+        "Collection",
+        "Developer",
+        "Fail_experience",
+        "My_space",
+        "Troubleshooting"
+      ]
+    }
+  ]
+}
