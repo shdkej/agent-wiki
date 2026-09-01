@@ -24,6 +24,7 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - run: npm run verify:mandalart-nav
       - run: npm run build
         env:
           NODE_ENV: production
