@@ -15,6 +15,14 @@ title: "log"
 
 각 query 기록에는 질문, 검색어, 읽은 Agent Wiki 페이지, raw KL을 사용했다면 경로와 ingest 상태, 결과 페이지 또는 결정만 짧게 남깁니다.
 
+## 2026-09-02 09:20 UTC | 사용자 정본 노트 2026-09 동기화
+
+- ingest: `shdkej.github.io/content`의 최신 커밋 `ccaa743`를 받아 `source/shdkej-content/`에 동기화했다. 변경 원본 30개와 새 `2026-09.md`, `Meta/BRANDING.md`를 ingest manifest에 반영했다.
+- query: `AI`, `Travel`, `BRANDING`, `source↔mapped`, `8×8`을 기준으로 새 원본이 기존 Agent Wiki의 탐색 계약을 깨는지 확인했다.
+- 읽은 문서: [[index|중앙 목차]], [[mapped/deep-knowledge/ai|AI]], [[mapped/Idea/Travel|Travel]], [[mapped/Integration/Marketing|Marketing]], [[mapped/source-category-map|원본 카테고리 지도]].
+- raw KL: `source/shdkej-content/Deep Knowledge/AI.md`, `Idea/Travel.md`, `Meta/BRANDING.md`, `2026-09.md`를 사용했다. 모두 이번 동기화 뒤 ingest manifest에 등록된 원본이며, 장기 판단은 이 페이지에만 압축했다.
+- 결과: [[insights/2026-09-source-refresh|2026-09 정본 노트 갱신]]을 추가했다. `BRANDING`은 8×8 핵심 노드로 바로 편입하지 않고, 반복 재사용 신호가 확인될 때까지 insight 경로에서 연결한다.
+
 ## 2026-09-02 08:10 UTC | 20문항 Agent Wiki 회수성 검증
 
 - query: AI/기술·아키텍처/MSA·미니멀 라이프·보안/비즈니스의 20개 질문에 대해, Agent Wiki만으로 답·정확 locator·첫 도달 경로를 재현할 수 있는지 검증.
