@@ -15,6 +15,14 @@ title: "log"
 
 각 query 기록에는 질문, 검색어, 읽은 Agent Wiki 페이지, raw KL을 사용했다면 경로와 ingest 상태, 결과 페이지 또는 결정만 짧게 남깁니다.
 
+## 2026-09-02 08:10 UTC | 20문항 Agent Wiki 회수성 검증
+
+- query: AI/기술·아키텍처/MSA·미니멀 라이프·보안/비즈니스의 20개 질문에 대해, Agent Wiki만으로 답·정확 locator·첫 도달 경로를 재현할 수 있는지 검증.
+- 검색어: `어시스턴트`, `GPT-5`, `G.S.T.A.R`, `back propagation`, `PyPy`, `policy/detail`, `CQRS`, `Netflix junk food`, `Kubernetes abstraction`, `심플/휑`, `만다라트`, `Work Log`, `HTTPS`, `GitHub SSH`, `GS그룹`, `도서정가제`, `Carrying Capacity`.
+- 읽은 문서: [[mapped/deep-knowledge/ai|AI]], [[mapped/Fundamental/Architecture|Architecture]], [[mapped/deep-knowledge/data|Data]], [[mapped/deep-knowledge/container|Container]], [[mapped/Human/Balance|Balance]], [[mapped/Communication/Blogging|Blogging]], [[mapped/Integration/Work|Work]], [[mapped/Integration/Business|Business]], [[mapped/deep-knowledge/product|Product]], [[insights/structure-before-scale|구조를 먼저 만드는 법]].
+- raw KL: 사용하지 않음. `agent-wiki/content/docs/`만 검색·근거로 사용.
+- 결과: Found 6/20, Partial 5/20, Not found 9/20. 8×8 축 구조보다 고유명사·수치·정형 목록 질의를 위한 alias/FAQ/evidence locator 부족이 병목이었다. 상세 매트릭스와 개선 우선순위는 Infinity `wiki-retrieval-test-20q-01` artifact에 남겼다.
+
 ## 2026-09-01 20:20 UTC | 태스크 지식 흔적과 전체 승격 흐름 분리
 
 - query: 태스크 상세에 재검증 상태를 강하게 결합하지 않고, 요청·조회 경로·남긴 로그만 남기며 전체 지식 흐름에서 별도 추적해 달라는 요청.
