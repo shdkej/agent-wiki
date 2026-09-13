@@ -1,0 +1,26 @@
+{
+  "manifestVersion": 1,
+  "id": "377581cf-b9d8-456a-99b1-6a798c0265b9",
+  "name": "agent-wiki",
+  "path": "/home/ubuntu/workspace/knowledge-lab/agent-wiki/.zvec-grep",
+  "rootPaths": [
+    {
+      "absolutePath": "/home/ubuntu/workspace/knowledge-lab/agent-wiki",
+      "recursive": true,
+      "maxFileSizeBytes": 2097152
+    }
+  ],
+  "indexPolicy": "enabled",
+  "embedding": {
+    "provider": "local",
+    "model": "potion-code-16m-v2",
+    "dimension": 256,
+    "metric": "cosine"
+  },
+  "indexVersion": 1,
+  "createdTime": 1789225184640,
+  "updatedTime": 1789225192637,
+  "embeddingRuntime": {
+    "device": "cpu"
+  }
+}
