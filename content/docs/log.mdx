@@ -15,6 +15,14 @@ title: "log"
 
 각 query 기록에는 질문, 검색어, 읽은 Agent Wiki 페이지, raw KL을 사용했다면 경로와 ingest 상태, 결과 페이지 또는 결정만 짧게 남깁니다.
 
+## 2026-09-14 06:35 UTC | Red 검증의 증거·반례 평가면 조사
+
+- query: Red가 결과 문장만 점수화하지 않고, 요청별 증거를 수집하고 반례를 찾는 검증자로 작동하도록 어떤 연구 원칙을 적용할지 조사했다.
+- 검색어: `agent validation evaluation verification quality evidence rubric red team`, `LLM judge rubric agent evaluation`, `Agent-as-a-Judge`, `RubricEval`, `RuVerBench`.
+- 읽은 문서: [[index|중앙 목차]], [[insights/bounded-experiment-loop|경계가 있는 반복 개선 루프]], [[mapped/deep-knowledge/ai|AI]], [[mapped/deep-knowledge/devops|Devops]].
+- raw KL: 사용하지 않음. 외부 원문은 Agent-as-a-Judge, RubricEval, RuVerBench, DEVIL'S ADVOCATE를 직접 열람했다.
+- 결과: Red의 다음 개선은 요구사항별 `pass/fail/불명`과 직접 증거를 강제하고, 산출물·실행 증거·반례 탐색을 분리하며, 고위험 또는 불명 판정만 2차 심사로 보내는 것이다. 단일 LLM 점수는 완료 판정의 근거가 될 수 없으며, 고정 표본으로 사람 판정과의 일치도를 주기적으로 측정해야 한다.
+
 ## 2026-09-13 19:30 UTC | Infinity 최종 리서치 원문 경계 승격
 
 - ingest: 최근 source 중 `INFINITY_OPERATING_RULES.md`, `version_trackers.yaml`, `weekly_review.md`, Infinity archive upstream 후보를 점검했다.
