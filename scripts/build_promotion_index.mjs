@@ -11,7 +11,7 @@ const root = process.cwd();
 const docs = path.join(root, 'content', 'docs');
 const manifestPath = path.resolve(root, '..', 'ingest', 'manifest.jsonl');
 const ingestIndexPath = path.resolve(root, '..', 'ingest', 'INDEX.md');
-const outputPath = path.join(root, 'content', 'data', 'promotion-index.json');
+const outputPath = path.join(docs, 'promotion-index.json');
 
 function files(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {

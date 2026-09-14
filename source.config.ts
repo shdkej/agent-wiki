@@ -56,12 +56,8 @@ function resolveWikiTarget(target: string, filePath: string | undefined): string
   const joined = target.startsWith('/') ? target.slice(1) : (relBase ? `${relBase}/${target}` : target);
   const normalized = path.posix.normalize(joined);
   const canonical = normalized
-    .replace(/^insights\//, 'concepts/insights/')
-    .replace(/^mapped\//, 'concepts/mapped/')
-    .replace(/^diary\//, 'outputs/diary/')
-    .replace(/^logs\//, 'outputs/logs/')
-    .replace(/^maintenance\//, 'outputs/maintenance/')
-    .replace(/^log$/, 'outputs/log');
+    .replace(/^mapped\//, 'outputs/')
+    .replace(/^maintenance\//, 'concepts/');
   const route = docRouteByLookupKey.get(toLookupKey(canonical)) ?? toRoutePath(canonical);
   return '/docs/' + route.split('/').filter(Boolean).map(encodeURIComponent).join('/');
 }

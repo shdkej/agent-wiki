@@ -14,7 +14,7 @@ function routes(dir: string, prefix: string[] = []): string[][] {
 
 export default async function LegacyMappedPage(props: PageProps<'/docs/mapped/[...slug]'>) {
   const { slug } = await props.params;
-  redirect(`/docs/concepts/mapped/${slug.join('/')}`);
+  redirect(`/docs/outputs/${slug.join('/')}`);
 }
 
 export function generateStaticParams() {
