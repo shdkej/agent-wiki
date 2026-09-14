@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { redirect } from 'next/navigation';
 
-const mappedRoot = path.join(process.cwd(), 'content', 'docs', 'concepts', 'mapped');
+const mappedRoot = path.join(process.cwd(), 'content', 'docs', 'outputs');
 
 function routes(dir: string, prefix: string[] = []): string[][] {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
