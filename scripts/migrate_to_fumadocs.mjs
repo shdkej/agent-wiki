@@ -12,7 +12,7 @@ if (!fs.existsSync(DOCS)) {
 // generate meta.json for top-level ordering
 const meta = {
   title: 'Agent Wiki',
-  pages: ['index', '---Concepts---', 'concepts', '---Outputs---', 'outputs'],
+  pages: ['index', '---Outputs---', 'outputs'],
 };
 fs.writeFileSync(path.join(DOCS, 'meta.json'), JSON.stringify(meta, null, 2));
 
