@@ -4,9 +4,9 @@ import { fileURLToPath } from 'node:url';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const docsRoot = path.join(repoRoot, 'content/docs');
-const mappedRoot = path.join(docsRoot, 'mapped');
+const mappedRoot = path.join(docsRoot, 'concepts', 'mapped');
 const sourceRoot = process.env.MANDALART_SOURCE_ROOT ?? path.resolve(repoRoot, '../source/shdkej-content');
-const manifestPath = path.join(docsRoot, 'data/mandalart-core-inventory.json');
+const manifestPath = path.join(repoRoot, 'content', 'data', 'mandalart-core-inventory.json');
 
 // The axes are stable names; node inventories are always read from the source and
 // mapped trees so a future eighth Health/Idea node is never masked by a "64" constant.
@@ -167,7 +167,7 @@ export function verify() {
 
   const mapLinks = new Set(linkedTargets(actualMap));
   const index = fs.readFileSync(path.join(docsRoot, 'index.mdx'), 'utf8');
-  if (!linkedTargets(index).includes('mapped/source-category-map')) throw new Error('index.mdx must link to mapped/source-category-map');
+  if (!linkedTargets(index).includes('concepts/mapped/source-category-map')) throw new Error('index.mdx must link to concepts/mapped/source-category-map');
 
   for (const axis of items) {
     const hubTarget = `axes/${axis.hub}`;

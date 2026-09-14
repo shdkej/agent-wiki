@@ -2,7 +2,7 @@ import { redirect } from 'next/navigation';
 
 export default async function LegacyConceptPage(props: PageProps<'/docs/concepts/[slug]'>) {
   const { slug } = await props.params;
-  redirect(`/docs/insights/${slug}`);
+  redirect(`/docs/concepts/insights/${slug}`);
 }
 
 export function generateStaticParams() {

@@ -4,8 +4,8 @@ import path from 'node:path';
 
 const ROOT = process.cwd();
 const DOCS_DIR = path.join(ROOT, 'content', 'docs');
-const LOG_PATH = path.join(DOCS_DIR, 'log.mdx');
-const ARCHIVE_DIR = path.join(DOCS_DIR, 'logs');
+const LOG_PATH = path.join(DOCS_DIR, 'outputs', 'log.mdx');
+const ARCHIVE_DIR = path.join(DOCS_DIR, 'outputs', 'logs');
 const FRONTMATTER = '---\ntitle: "log"\n---\n\n';
 const LOG_PREAMBLE = `# 운영 로그
 

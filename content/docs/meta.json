@@ -2,16 +2,9 @@
   "title": "Agent Wiki",
   "pages": [
     "index",
-    "---Insights---",
-    "insights",
-    "---Diary---",
-    "diary",
-    "---Logs---",
-    "log",
-    "logs",
-    "---Mapped---",
-    "mapped",
-    "---Maintenance---",
-    "maintenance"
+    "---Concepts---",
+    "concepts",
+    "---Outputs---",
+    "outputs"
   ]
 }

@@ -2,7 +2,7 @@ import { redirect } from 'next/navigation';
 
 export default async function LegacySynthesisPage(props: PageProps<'/docs/syntheses/[slug]'>) {
   const { slug } = await props.params;
-  const target = slug === 'source-category-map' ? 'mapped/source-category-map' : `insights/${slug}`;
+  const target = slug === 'source-category-map' ? 'concepts/mapped/source-category-map' : `concepts/insights/${slug}`;
   redirect(`/docs/${target}`);
 }
 

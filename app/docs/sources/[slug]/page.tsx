@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation';
 
 export default function LegacySourcePage() {
-  redirect('/docs/mapped/source-category-map');
+  redirect('/docs/concepts/mapped/source-category-map');
 }
 
 export function generateStaticParams() {

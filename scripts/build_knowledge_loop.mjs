@@ -5,7 +5,7 @@ import path from 'node:path';
 
 const root = process.cwd();
 const docs = path.join(root, 'content', 'docs');
-const sources = [path.join(docs, 'log.mdx'), ...fs.readdirSync(path.join(docs, 'logs'), { withFileTypes: true })
+const sources = [path.join(docs, 'outputs', 'log.mdx'), ...fs.readdirSync(path.join(docs, 'outputs', 'logs'), { withFileTypes: true })
   .filter((entry) => entry.isFile() && entry.name.endsWith('.mdx'))
   .map((entry) => path.join(docs, 'logs', entry.name))];
 const marker = /<!--\s*knowledge-loop:\s*({[\s\S]*?})\s*-->/g;
@@ -34,6 +34,7 @@ const output = {
   events,
   metrics: { ingest: recent.filter((e) => e.type === 'ingest').length, query: recent.filter((e) => e.type === 'query').length, lint: recent.filter((e) => e.type === 'lint').length, open: events.filter((e) => ['open', 'queued', 'active'].includes(e.loop_state)).length, resolved: recent.filter((e) => e.loop_state === 'resolved').length },
 };
-fs.mkdirSync(path.join(docs, 'data'), { recursive: true });
-fs.writeFileSync(path.join(docs, 'data', 'knowledge-loop.json'), `${JSON.stringify(output, null, 2)}\n`);
+const dataDir = path.join(root, 'content', 'data');
+fs.mkdirSync(dataDir, { recursive: true });
+fs.writeFileSync(path.join(dataDir, 'knowledge-loop.json'), `${JSON.stringify(output, null, 2)}\n`);
 console.log(`Knowledge loop built: ${events.length} events.`);
