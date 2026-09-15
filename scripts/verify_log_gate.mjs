@@ -5,11 +5,11 @@ const changed = execFileSync('git', ['diff', '--cached', '--name-only'], { encod
   .split('\n').filter(Boolean);
 
 const knowledgeChange = changed.some((file) => /^(content\/docs\/(concepts|outputs\/maintenance)\/|README\.md$)/.test(file));
-const logChange = changed.some((file) => /^(content\/docs\/outputs\/log\.mdx|content\/docs\/outputs\/logs\/)/.test(file));
+const legacyLogChange = changed.some((file) => /^(content\/docs\/outputs\/log\.mdx|content\/docs\/outputs\/logs\/)/.test(file));
 
-if (knowledgeChange && !logChange) {
-  console.error('Log gate failed: a knowledge-page change needs a log entry, or an explicit --no-verify exception for a simple edit.');
+if (knowledgeChange && legacyLogChange) {
+  console.error('Log gate failed: Agent Wiki no longer owns operational logs. Record the decision in Knowledge Lab logs/agent-wiki-query.md instead.');
   process.exit(1);
 }
 
-console.log('Log gate passed.');
+console.log('Log gate passed: Knowledge Lab owns the operational-log receipt.');
