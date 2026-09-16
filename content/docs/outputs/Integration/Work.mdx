@@ -31,7 +31,7 @@ language: ko
 
 ## 만다라트 위치
 
-`Integration/Work`는 삭제된 `Meta/일`처럼 일의 가치관 전체를 다루는 칸도 아니고, [팀워크](/docs/mapped/Communication/Teamwork)처럼 팀 구조와 handoff를 설계하는 칸도 아니다. Integration 아래의 이 노드는 목표, 요구사항, 코드, 문서, 도구, 보고를 한 실행 단위로 통합하는 자리다.
+`Integration/Work`는 삭제된 `Meta/일`처럼 일의 가치관 전체를 다루는 칸도 아니고, [팀워크](/docs/outputs/Communication/Teamwork)처럼 팀 구조와 handoff를 설계하는 칸도 아니다. Integration 아래의 이 노드는 목표, 요구사항, 코드, 문서, 도구, 보고를 한 실행 단위로 통합하는 자리다.
 
 그래서 원문의 `더 열심히`, `프로답게`, `일잘러` 같은 표현은 자기계발 문장으로 평평하게 읽으면 약하다. 이 노드의 관심은 실제로는 더 구체적이다.
 
@@ -92,7 +92,7 @@ language: ko
 - 정확히 어떤 부분에 도움이 필요한지 말한다.
 - 일정이나 품질에 미칠 영향을 함께 드러낸다.
 
-이 축은 [팀워크](/docs/mapped/Communication/Teamwork)의 handoff와 이어지지만, 이 페이지에서는 팀 문화 일반론보다 개인 업무가 신뢰 가능한 상태로 전달되는 형식에 집중한다.
+이 축은 [팀워크](/docs/outputs/Communication/Teamwork)의 handoff와 이어지지만, 이 페이지에서는 팀 문화 일반론보다 개인 업무가 신뢰 가능한 상태로 전달되는 형식에 집중한다.
 
 ### 5. 프로페셔널과 전문성
 
@@ -118,7 +118,7 @@ language: ko
 - CI 결과는 개발 절차 부록이 아니라 `이번 변경을 믿고 넘겨도 되는가`를 보여 주는 상태 신호다.
 - 검사하기 좋은 아키텍처는 취향이 아니라 변경 단위를 신뢰할 수 있게 만드는 조건이다.
 
-이 축은 [문서화](/docs/mapped/Communication/Document)의 문서화, [DevOps](/docs/mapped/deep-knowledge/devops)의 CI 상태 전달, [도구](/docs/mapped/Integration/Tool)의 변경 신호 라우팅과 맞닿아 있다.
+이 축은 [문서화](/docs/outputs/Communication/Document)의 문서화, [DevOps](/docs/outputs/deep-knowledge/devops)의 CI 상태 전달, [도구](/docs/outputs/Integration/Tool)의 변경 신호 라우팅과 맞닿아 있다.
 
 ### 7. Work Log
 
@@ -169,13 +169,13 @@ LLM 메모도 도구 목록보다 이 루프가 핵심이다. 여러 입력을 �
 ## 인접 노드 연결
 
 - 삭제된 `Meta/일`: 일에 대한 가치관, 사람 판단, 신뢰의 큰 프레임을 다루던 기준 노드였다.
-- [팀워크](/docs/mapped/Communication/Teamwork): 상태 공유와 handoff 비용을 팀 구조의 문제로 확장한다.
-- [문서화](/docs/mapped/Communication/Document): 업무일지와 문서화가 재진입 표면이 되는 이유를 함께 볼 수 있다.
-- [피드백](/docs/mapped/Communication/Feedback): 검토, 회고, 피드백 루프가 맞닿아 있다.
-- [탐구](/docs/mapped/Integration/Exploration): 레퍼런스 수집, 질문 확장, 검증 중심 탐구 습관과 연결된다.
-- [제품 경험](/docs/mapped/deep-knowledge/product): KPI, 전환율, 실험 설계, 사용자 관점 검증과 이어진다.
-- [DevOps](/docs/mapped/deep-knowledge/devops): CI, PR, 배포 상태가 업무 신뢰 신호가 되는 지점을 연결한다.
-- [도구](/docs/mapped/Integration/Tool): 업무일지, 도구 연결, 작업 환경, LLM 정리 루프를 함께 읽기 좋다.
+- [팀워크](/docs/outputs/Communication/Teamwork): 상태 공유와 handoff 비용을 팀 구조의 문제로 확장한다.
+- [문서화](/docs/outputs/Communication/Document): 업무일지와 문서화가 재진입 표면이 되는 이유를 함께 볼 수 있다.
+- [피드백](/docs/outputs/Communication/Feedback): 검토, 회고, 피드백 루프가 맞닿아 있다.
+- [탐구](/docs/outputs/Integration/Exploration): 레퍼런스 수집, 질문 확장, 검증 중심 탐구 습관과 연결된다.
+- [제품 경험](/docs/outputs/deep-knowledge/product): KPI, 전환율, 실험 설계, 사용자 관점 검증과 이어진다.
+- [DevOps](/docs/outputs/deep-knowledge/devops): CI, PR, 배포 상태가 업무 신뢰 신호가 되는 지점을 연결한다.
+- [도구](/docs/outputs/Integration/Tool): 업무일지, 도구 연결, 작업 환경, LLM 정리 루프를 함께 읽기 좋다.
 
 ## 후속 흡수 기준
 
@@ -189,65 +189,3 @@ LLM 메모도 도구 목록보다 이 루프가 핵심이다. 여러 입력을 �
 | 커밋·테스트·PR·CI | `코드 변경 단위` | 변경을 믿고 넘길 수 있는 완료 신호를 더 구체화할 때 |
 | 프로페셔널·전문가·경력 메모 | `프로페셔널과 전문성` | `더 열심히`가 아니라 신뢰 회수와 판단 사례 축적으로 구분될 때 |
 | 불가피한 선택·범위 제한·후속 처리 | `검토와 예외` 또는 `Work Log` | 이번에 닫은 범위와 나중에 반드시 처리할 위험을 구분하게 할 때 |
-
-## 통합된 판단: 선택은 확인된 callback으로 확정한다
-
-버튼이 전송되고 메시지가 보였다고 해서 선택이 끝난 것은 아니다. 실제 후속 작업은 복합 키와 callback을 확인해, 같은 선택이 맞는지 검증한 뒤에만 시작한다.
-
-## 판단 순서
-
-1. 전송 성공과 선택 확정을 분리한다.
-2. `channel`, `thread`, `message`, `value`, `intent`가 모두 맞는지 본다.
-3. 버튼 label이나 보이는 텍스트를 분기 키로 쓰지 않는다.
-4. 같은 callback의 중복 수신은 한 번만 처리한다.
-5. 선택 확정 전에 후속 작업을 시작하지 않는다.
-6. callback이 오지 않으면 만료나 fallback 절차를 먼저 적용한다.
-
-## 왜 필요한가
-
-- 전송 완료는 도달 신호일 뿐, 사용자 결정의 증거가 아니다.
-- 선택 확정이 느슨하면 잘못된 채널이나 다른 실행의 입력으로 후속 작업이 흘러간다.
-- dedup과 first-wins가 없으면 재전송이나 재시작 뒤에 같은 작업을 여러 번 실행할 수 있다.
-- 운영 절차를 선택 확정과 분리하면 질문, 승인, 실행, 기록을 더 안전하게 나눌 수 있다.
-
-## 관련 source
-
-- `source/openclaw-system/docs/GRILL_ME_AND_CALLBACK_RUNBOOK.md`
-- `source/openclaw-system/docs/LOCAL_REVIEW_AUTOMATION.md`
-
-## 관련 문서
-
-- [[../mapped/Integration/Work]]
-- [[../mapped/Integration/Design]]
-- [[../insights/human-agent-fit]]
-
-## 통합된 판단: 알던 것을 짧은 실행으로 닫는다
-
-이미 알고 있는 기본기와 확인된 사례는 더 오래 분석하기보다 짧은 실행 루프로 옮긴다. 새 아이디어를 찾는 날에도 핵심은 경쟁 앱, 부족한 리뷰, 연결고리, 첫 테스트처럼 한 장으로 닫는 데 있다.
-
-## 판단 순서
-
-1. 문제를 새로 발명하기보다 이미 아는 패턴인지 먼저 본다.
-2. 한 아이디어를 경쟁 앱 / 부족한 리뷰 / 인플루언서 연결고리 / 7일 첫 고객 테스트의 네 칸으로 압축한다.
-3. 실행 단위를 일주일 안에 검증 가능한 크기로 줄인다.
-4. 실행 뒤에는 다시 읽고 다음 행동을 정한다.
-5. 감상보다 실제로 닫힌 결과를 남긴다.
-
-## 왜 필요한가
-
-- 이미 아는 것을 빨리 실행하면 정보 수집이 자기합리화로 길어지지 않는다.
-- 작은 실행은 시장, 취향, 운영의 현실을 빨리 드러낸다.
-- 큰 전략보다 첫 고객, 첫 결과물, 첫 반응이 다음 판단을 만든다.
-- 실행 가능한 압축이 있어야 혼란스러운 아이디어도 다룰 수 있다.
-
-## 관련 source
-
-- `source/openclaw-system/data/daily-reviews/2026-08-26-review.md`
-- `source/openclaw-system/reports/daily-archive/2026-08-26-known-play-execution/index.html`
-
-## 관련 문서
-
-- [[../insights/structure-before-scale]]
-- [[../insights/bounded-experiment-loop]]
-- [[../insights/evidence-bounded-content-experiment]]
-- [[../insights/metric-question-contract]]

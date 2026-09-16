@@ -19,7 +19,7 @@ language: ko
 ## 핵심 해석
 `Fail_experience`는 자책 메모나 사고 목록이 아니다. 복붙 확인 누락, 테스트 후 원복 실패, 코드 수정 후 미확인, 드라이브 포맷, OneTab/OneNote 유실, NVMe 호환성 오판, 음식물·벽지 같은 생활 사건이 한 파일에 붙어 있지만, 반복되는 질문은 하나다. `어떤 전제를 확인하지 않았고, 그 결과 실패가 얼마나 커졌으며, 다음에는 어떤 장치로 덜 크게 만들 것인가?`
 
-`Meta` 아래에 놓인 이 노트는 개별 기술 지식보다 일하는 방식의 실패 조건을 다룬다. [Troubleshooting](/docs/mapped/Meta/Troubleshooting)이 이미 터진 문제를 되짚는 복구 루프라면, 이 페이지는 그 루프가 왜 필요해졌는지 보여 주는 실패 전조 지도다. [About_Development](/docs/mapped/Meta/About_Development)의 좋은 개발 기준은 여기에서 실제 손실 사례로 검증된다.
+`Meta` 아래에 놓인 이 노트는 개별 기술 지식보다 일하는 방식의 실패 조건을 다룬다. [Troubleshooting](/docs/outputs/Meta/Troubleshooting)이 이미 터진 문제를 되짚는 복구 루프라면, 이 페이지는 그 루프가 왜 필요해졌는지 보여 주는 실패 전조 지도다. [About_Development](/docs/outputs/Meta/About_Development)의 좋은 개발 기준은 여기에서 실제 손실 사례로 검증된다.
 
 ## 원문 발췌 구조
 - `Before setting check state`: 시간 부족, 백업 부재, 병행 작업, 복붙, 데이터 무시, 원복 실패, 수정 후 미확인처럼 실패를 키우는 조건이 먼저 나온다.
@@ -59,7 +59,7 @@ language: ko
 
 생활 사건도 같은 구조다. 음식물쓰레기 봉투, 벽지, 유통기한, 방울토마토는 기술 사건보다 작아 보이지만, 공통 전조는 `내가 챙겨야 할 부분인데 그냥 넘긴 상태`다. 질문, 찜찜함, 불편한 예감은 작을 때 확인하면 검증 게이트지만, 넘기면 실패 기록이 된다.
 
-이 관점은 [Work](/docs/mapped/Integration/Work)의 검토 게이트와 [Teamwork](/docs/mapped/Communication/Teamwork)의 진행상황 공유로 이어진다. 좋은 답변은 자신감 있는 즉답이 아니라, 지금 무엇을 확인했고 무엇은 아직 추정인지 나누어 말하는 것이다.
+이 관점은 [Work](/docs/outputs/Integration/Work)의 검토 게이트와 [Teamwork](/docs/outputs/Communication/Teamwork)의 진행상황 공유로 이어진다. 좋은 답변은 자신감 있는 즉답이 아니라, 지금 무엇을 확인했고 무엇은 아직 추정인지 나누어 말하는 것이다.
 
 ## 2025년 메모의 역할
 후반의 2025년 메모는 주제가 흩어진 잡기장처럼 보이지만, 앞쪽 실패 조건을 줄이려는 구조적 대응으로 읽을 수 있다.
@@ -69,7 +69,7 @@ language: ko
 - workflow 실패 알림, pre-commit, 빠른 테스트는 `수정 후 확인 안 함`을 사람의 기억에만 맡기지 않으려는 자동 검증이다.
 - 문서를 최신으로 유지하는 방법, 연동 누락 확인, Redis 메모리 문제 발견 질문은 숨어 있는 상태를 빨리 드러내려는 가시화 장치다.
 
-다만 이 구간을 전부 이 페이지에 영구 귀속하면 주제가 흐려진다. `Uncategorized`의 `1년 이상 보관하지 말자`는 문장은 이 노트가 임시 검역 대기열도 함께 품고 있음을 보여 준다. 여기서는 항목을 모두 설명하기보다 실패 예방 압력만 읽고, 관련성이 뚜렷해지면 [Product](/docs/mapped/deep-knowledge/product), [Business](/docs/mapped/Integration/Business), [Document](/docs/mapped/Communication/Document), [Devops](/docs/mapped/deep-knowledge/devops), [Work](/docs/mapped/Integration/Work)로 보낼 수 있는 씨앗으로 둔다.
+다만 이 구간을 전부 이 페이지에 영구 귀속하면 주제가 흐려진다. `Uncategorized`의 `1년 이상 보관하지 말자`는 문장은 이 노트가 임시 검역 대기열도 함께 품고 있음을 보여 준다. 여기서는 항목을 모두 설명하기보다 실패 예방 압력만 읽고, 관련성이 뚜렷해지면 [Product](/docs/outputs/deep-knowledge/product), [Business](/docs/outputs/Integration/Business), [Document](/docs/outputs/Communication/Document), [Devops](/docs/outputs/deep-knowledge/devops), [Work](/docs/outputs/Integration/Work)로 보낼 수 있는 씨앗으로 둔다.
 
 ## 바로 꺼낼 운영 규칙
 - 수정 전에는 백업, 원복, 롤백 지점을 먼저 확보한다.
@@ -81,11 +81,11 @@ language: ko
 - 생활 메모도 책임 범위와 마감 태도의 신호로 함께 읽는다.
 
 ## 인접 노드 연결
-- [Troubleshooting](/docs/mapped/Meta/Troubleshooting): 실패 이후의 복구 루프와 상태 확인 절차를 더 구체적으로 다룬다.
-- [About_Development](/docs/mapped/Meta/About_Development): 설명 가능성, 테스트, 문서화, 재진입 가능한 개발 루프와 이어진다.
-- [My_space](/docs/mapped/Meta/My_space): 개인 인프라와 생활 환경을 복원 가능하게 유지하려는 태도와 연결된다.
-- [Decision](/docs/mapped/Health/Decision): 조건을 세우고 감각적 낙관을 줄여 판단 품질을 높이는 습관과 맞닿아 있다.
-- [Work](/docs/mapped/Integration/Work): 질문, 검토, 보고를 실제 확인 게이트로 바꾸는 업무 운영 루프와 이어진다.
+- [Troubleshooting](/docs/outputs/Meta/Troubleshooting): 실패 이후의 복구 루프와 상태 확인 절차를 더 구체적으로 다룬다.
+- [About_Development](/docs/outputs/Meta/About_Development): 설명 가능성, 테스트, 문서화, 재진입 가능한 개발 루프와 이어진다.
+- [My_space](/docs/outputs/Meta/My_space): 개인 인프라와 생활 환경을 복원 가능하게 유지하려는 태도와 연결된다.
+- [Decision](/docs/outputs/Health/Decision): 조건을 세우고 감각적 낙관을 줄여 판단 품질을 높이는 습관과 맞닿아 있다.
+- [Work](/docs/outputs/Integration/Work): 질문, 검토, 보고를 실제 확인 게이트로 바꾸는 업무 운영 루프와 이어진다.
 
 ## 후속 정리 기준
 - 새 실패 사례가 들어오면 사건 설명보다 빠진 전제, 실패 증폭 경로, 되돌릴 손잡이, 다음 자동 장치를 먼저 채운다.

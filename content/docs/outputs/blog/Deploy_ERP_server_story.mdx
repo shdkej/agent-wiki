@@ -138,7 +138,7 @@ DB는 MySQL, MSSQL, PostgreSQL 중에서 PostgreSQL을 골랐다.
 - 데이터가 보존되는가?
 - 다른 컴퓨터로 옮길 수 있는가?
 
-이 흐름은 [Deep Knowledge/Container](/docs/mapped/deep-knowledge/container)의 `개발은 볼륨, 배포는 이미지` 감각과 직접 연결된다. 여기서는 그 일반론이 실제 ERP 사례 안에서 먼저 몸으로 등장한다.
+이 흐름은 [Deep Knowledge/Container](/docs/outputs/deep-knowledge/container)의 `개발은 볼륨, 배포는 이미지` 감각과 직접 연결된다. 여기서는 그 일반론이 실제 ERP 사례 안에서 먼저 몸으로 등장한다.
 
 ## 상태 소유권 지도로 다시 읽기
 원문이 흥미로운 이유는 `파일 다섯 개로 ERP 서버를 구동한다`는 결론이 단순한 파일 목록이 아니라, 서비스 상태를 어디에 고정할지 나눈 작은 소유권 지도처럼 보인다는 점이다.
@@ -151,7 +151,7 @@ DB는 MySQL, MSSQL, PostgreSQL 중에서 PostgreSQL을 골랐다.
 | `erp-data/` | 웹 내부 데이터와 Odoo 상태 | 애플리케이션이 계속 품고 가야 하는 상태 |
 | `db-data/` | PostgreSQL 데이터 | 업무 기록의 최종 보존면 |
 
-이렇게 읽으면 원문의 볼륨 복사 절차도 `백업 팁`을 넘어선다. 작성자는 어떤 파일은 Git으로 설명하고, 어떤 상태는 이미지로 고정하며, 어떤 데이터는 볼륨으로 옮겨야 하는지를 구분하려고 한다. 이는 [Fundamental/Infra](/docs/mapped/Fundamental/Infra)에서 반복되는 `현재 상태를 누가 소유하는가`라는 질문의 초기 버전이다.
+이렇게 읽으면 원문의 볼륨 복사 절차도 `백업 팁`을 넘어선다. 작성자는 어떤 파일은 Git으로 설명하고, 어떤 상태는 이미지로 고정하며, 어떤 데이터는 볼륨으로 옮겨야 하는지를 구분하려고 한다. 이는 [Fundamental/Infra](/docs/outputs/Fundamental/Infra)에서 반복되는 `현재 상태를 누가 소유하는가`라는 질문의 초기 버전이다.
 
 특히 이 노드에서는 다음 세 층을 섞지 않는 것이 중요하다.
 
@@ -212,11 +212,11 @@ DB는 MySQL, MSSQL, PostgreSQL 중에서 PostgreSQL을 골랐다.
 그래서 이 노드는 특정 ERP 제품 메모라기보다, **업무 시스템을 처음 서비스화할 때 생기는 운영 설계 감각의 사례 노드**로 읽는 편이 더 정확하다.
 
 ## 인접 노드와의 연결
-- [Deep Knowledge/Container](/docs/mapped/deep-knowledge/container): 컨테이너 격리, 이미지, 볼륨, Dockerfile, 쿠버네티스로 이어지는 일반 원리가 이 사례의 배경이 된다.
-- [Meta/Troubleshooting](/docs/mapped/Meta/Troubleshooting): 컨테이너 안 직접 수정 후 재실행에서 상태가 사라지는 경험은 전형적인 상태 확인-수정-재검증 루프 사례다.
-- [Fundamental/Infra](/docs/mapped/Fundamental/Infra): ERP 서버를 실제 업무 시스템으로 다루면서 데이터 저장, 외부 진입, 감시 구성이 인프라 판단으로 확장된다.
-- [Deep Knowledge/Monitoring](/docs/mapped/deep-knowledge/monitoring): Nagios를 붙이는 짧은 메모는 서비스가 동작하는지 지속적으로 보려는 운영 감각의 시작점이다.
-- [Decision_Monitor_Size](/docs/mapped/blog/Decision_Monitor_Size): 둘 다 다른 주제지만, 실제 사용성 기준으로 판단한다는 점에서는 닮아 있다. 스펙보다 `관리 가능한 상태`를 더 우선한다.
+- [Deep Knowledge/Container](/docs/outputs/deep-knowledge/container): 컨테이너 격리, 이미지, 볼륨, Dockerfile, 쿠버네티스로 이어지는 일반 원리가 이 사례의 배경이 된다.
+- [Meta/Troubleshooting](/docs/outputs/Meta/Troubleshooting): 컨테이너 안 직접 수정 후 재실행에서 상태가 사라지는 경험은 전형적인 상태 확인-수정-재검증 루프 사례다.
+- [Fundamental/Infra](/docs/outputs/Fundamental/Infra): ERP 서버를 실제 업무 시스템으로 다루면서 데이터 저장, 외부 진입, 감시 구성이 인프라 판단으로 확장된다.
+- [Deep Knowledge/Monitoring](/docs/outputs/deep-knowledge/monitoring): Nagios를 붙이는 짧은 메모는 서비스가 동작하는지 지속적으로 보려는 운영 감각의 시작점이다.
+- [Decision_Monitor_Size](/docs/outputs/blog/Decision_Monitor_Size): 둘 다 다른 주제지만, 실제 사용성 기준으로 판단한다는 점에서는 닮아 있다. 스펙보다 `관리 가능한 상태`를 더 우선한다.
 
 
 ## 마지막 아쉬운 점을 운영 성숙도 사다리로 읽기

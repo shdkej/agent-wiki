@@ -28,7 +28,7 @@ language: ko
 - 이후 다른 노드를 읽을 때도, "무엇이 더 강력한가"보다 "무엇이 더 늦게 결정 가능하고, 더 쉽게 바꿀 수 있고, 더 일관되게 유지되는가"라는 판단 기준을 제공한다.
 
 ## 만다라트 위치에서 읽기
-이 페이지는 `Fundamental` 안에서도 개별 기술이나 제품보다, 다른 기술 노드를 읽는 공통 판단 문법에 가까운 자리다. [Fundamental/Coding](/docs/mapped/Fundamental/Coding)이 코드 변경 반경을, [Fundamental/Software](/docs/mapped/Fundamental/Software)가 소프트웨어 일반 원칙을, [Fundamental/Network](/docs/mapped/Fundamental/Network)가 전달 경계와 병목을 다룬다면, `Architecture`는 그 모든 하위 판단에 앞서 **무엇을 먼저 고정하고 무엇을 나중에 바꿀 수 있게 남겨둘지**를 정하는 상위 기준면이다. 그래서 이 노드는 아키텍처 패턴 사전보다 `변화 관리의 기준 노드`로 읽어야 드리프트가 적다.
+이 페이지는 `Fundamental` 안에서도 개별 기술이나 제품보다, 다른 기술 노드를 읽는 공통 판단 문법에 가까운 자리다. [Fundamental/Coding](/docs/outputs/Fundamental/Coding)이 코드 변경 반경을, [Fundamental/Software](/docs/outputs/Fundamental/Software)가 소프트웨어 일반 원칙을, [Fundamental/Network](/docs/outputs/Fundamental/Network)가 전달 경계와 병목을 다룬다면, `Architecture`는 그 모든 하위 판단에 앞서 **무엇을 먼저 고정하고 무엇을 나중에 바꿀 수 있게 남겨둘지**를 정하는 상위 기준면이다. 그래서 이 노드는 아키텍처 패턴 사전보다 `변화 관리의 기준 노드`로 읽어야 드리프트가 적다.
 
 ## 원본에서 먼저 잡히는 구조
 
@@ -169,7 +169,7 @@ language: ko
 - CoC는 설정을 없애는 방식이 아니라, 대부분의 경우 건드리지 않아도 되는 기본값을 제공하는 방식으로 읽힌다.
 - vim, zsh, Nagios, Odoo 사례는 모두 `핵심을 직접 수정하지 않고도 자기 상황을 반영하는 방법`을 찾는 흔적이다.
 
-따라서 이 노드의 자율성은 무제한 선택지가 아니라 **안전한 기본값 위에서 벗어날 수 있는 출구**에 가깝다. 강제성은 사용자를 묶는 장치가 아니라, 다수가 같은 시스템을 다룰 때 기준선이 무너지지 않게 하는 안정 장치다. 이 관점은 [Integration/Tool](/docs/mapped/Integration/Tool)의 도구 조합 감각과도 이어지고, [Communication/Document](/docs/mapped/Communication/Document)의 문서화 기준에서는 기본 행동과 예외 처리 절차를 어떻게 함께 남길지로 번역된다.
+따라서 이 노드의 자율성은 무제한 선택지가 아니라 **안전한 기본값 위에서 벗어날 수 있는 출구**에 가깝다. 강제성은 사용자를 묶는 장치가 아니라, 다수가 같은 시스템을 다룰 때 기준선이 무너지지 않게 하는 안정 장치다. 이 관점은 [Integration/Tool](/docs/outputs/Integration/Tool)의 도구 조합 감각과도 이어지고, [Communication/Document](/docs/outputs/Communication/Document)의 문서화 기준에서는 기본 행동과 예외 처리 절차를 어떻게 함께 남길지로 번역된다.
 
 ### 구조 이름 목록을 읽는 법
 원본에는 3-layer, MVC, 12 Factor App, MSA, DDD, Clean Architecture, SOA, 육각형 아키텍처처럼 이름이 길게 붙어 있다. 하지만 이 노트를 그 이름들의 비교표로 읽으면 핵심을 놓치기 쉽다. 실제 관심사는 `어떤 이름이 더 우월한가`보다 다음에 가깝다.
@@ -235,7 +235,7 @@ language: ko
 - OAuth에서는 브라우저, 서비스 서버, 외부 제공자 사이에서 코드와 토큰이 이동하는 경로를 그리며 책임 경계를 확인한다.
 - 세션 관리에서는 sticky, clustering, 별도 세션 서버가 각각 어떤 SPOF와 동기화 비용을 만드는지 본다.
 
-따라서 이 보안 파트는 `암호 기술을 안다`보다 `운영 중 신뢰 상태를 어디에 저장하고 어떻게 되찾을 것인가`에 가깝다. [Fundamental/Infra](/docs/mapped/Fundamental/Infra)와 [Deep Knowledge/Devops](/docs/mapped/deep-knowledge/devops)를 읽을 때도 이 축을 함께 가져가면, 인증·비밀·세션이 기능 부록이 아니라 배포 가능한 구조의 조건임이 더 잘 보인다.
+따라서 이 보안 파트는 `암호 기술을 안다`보다 `운영 중 신뢰 상태를 어디에 저장하고 어떻게 되찾을 것인가`에 가깝다. [Fundamental/Infra](/docs/outputs/Fundamental/Infra)와 [Deep Knowledge/Devops](/docs/outputs/deep-knowledge/devops)를 읽을 때도 이 축을 함께 가져가면, 인증·비밀·세션이 기능 부록이 아니라 배포 가능한 구조의 조건임이 더 잘 보인다.
 
 ### 분산 후 다시 묶는 장치를 함께 본다
 MSA 구간에서 중요한 점은 서비스를 쪼개는 열망보다, 쪼갠 뒤 다시 연결해야 하는 비용을 계속 본다는 데 있다. 원본은 API Gateway, 서비스 메시, 서비스 디스커버리, 메시지 큐, SAGA, CQRS, 섀시를 따로 적지만, 이들은 모두 `분리된 서비스가 다시 운영 가능한 전체로 보이게 하는 장치`다.
@@ -255,7 +255,7 @@ MSA 구간에서 중요한 점은 서비스를 쪼개는 열망보다, 쪼갠 �
 - API Gateway, 서비스 메시, 디스커버리, 문서화, 커뮤니티형 정보 공유는 모두 분리된 조각을 다시 찾고 부를 수 있게 만드는 재연결 표면이다.
 - 한 사람이 모든 서비스를 관리할 수 없다는 인식은 무한 분할의 명분이 아니라, 한 팀이 감당할 단위와 탈출 지점을 정해야 한다는 제약으로 이어진다.
 
-따라서 이 페이지의 아키텍처 감각은 `기술을 얼마나 잘 나누는가`보다 `나눈 뒤 사람이 다시 이해하고 협력하고 복구할 수 있는가`에 더 가깝다. 이 관점은 [Communication/Teamwork](/docs/mapped/Communication/Teamwork)의 맥락 전달 감각과도 이어지며, [Meta/About_Architecture](/docs/mapped/Meta/About_Architecture)의 교체 반경·재진입 비용 문제를 Fundamental 층에서 다시 설명한다.
+따라서 이 페이지의 아키텍처 감각은 `기술을 얼마나 잘 나누는가`보다 `나눈 뒤 사람이 다시 이해하고 협력하고 복구할 수 있는가`에 더 가깝다. 이 관점은 [Communication/Teamwork](/docs/outputs/Communication/Teamwork)의 맥락 전달 감각과도 이어지며, [Meta/About_Architecture](/docs/outputs/Meta/About_Architecture)의 교체 반경·재진입 비용 문제를 Fundamental 층에서 다시 설명한다.
 
 ### 최소 기반과 증설층을 분리한다
 원문은 기본 컴포넌트와 추가 컴포넌트를 따로 적는다. 이 구분은 단순 스택 목록이 아니라, 처음부터 모든 운영 도구를 갖추려는 욕심을 경계하는 장치다.
@@ -291,15 +291,15 @@ MSA 구간에서 중요한 점은 서비스를 쪼개는 열망보다, 쪼갠 �
 헬스체크, 피드백 루프, 로그, 테스트, 에러 처리, 실패 상황 고려, 버퍼, 백업 전략이 모두 같은 방향을 가리킨다.
 
 ## 인접 노드 연결
-- [Fundamental/Infra](/docs/mapped/Fundamental/Infra)
-- [Deep Knowledge/Devops](/docs/mapped/deep-knowledge/devops)
-- [Deep Knowledge/Container](/docs/mapped/deep-knowledge/container)
-- [Fundamental/Coding](/docs/mapped/Fundamental/Coding)
-- [Fundamental/Software](/docs/mapped/Fundamental/Software)
-- [Fundamental/Network](/docs/mapped/Fundamental/Network)
-- [Health/Decision](/docs/mapped/Health/Decision)
-- [Human/Standard](/docs/mapped/Human/Standard)
-- [Meta/About_Architecture](/docs/mapped/Meta/About_Architecture)
+- [Fundamental/Infra](/docs/outputs/Fundamental/Infra)
+- [Deep Knowledge/Devops](/docs/outputs/deep-knowledge/devops)
+- [Deep Knowledge/Container](/docs/outputs/deep-knowledge/container)
+- [Fundamental/Coding](/docs/outputs/Fundamental/Coding)
+- [Fundamental/Software](/docs/outputs/Fundamental/Software)
+- [Fundamental/Network](/docs/outputs/Fundamental/Network)
+- [Health/Decision](/docs/outputs/Health/Decision)
+- [Human/Standard](/docs/outputs/Human/Standard)
+- [Meta/About_Architecture](/docs/outputs/Meta/About_Architecture)
 
 ## 다음에 더 볼 질문
 - 이 노드에서 말하는 "일관성"은 코드 스타일의 일관성보다 운영 모델의 일관성에 더 가까운가?
@@ -310,7 +310,7 @@ MSA 구간에서 중요한 점은 서비스를 쪼개는 열망보다, 쪼갠 �
 
 ## 통합된 판단: 변경 친화적 운영 구조
 
-- 출처: `agent-wiki/content/docs/index.mdx`의 이용 경계, `agent-wiki/content/docs/mapped/Fundamental/Architecture.mdx`, `agent-wiki/content/docs/mapped/Fundamental/Software.mdx`, `agent-wiki/content/docs/mapped/Fundamental/Coding.mdx`, `agent-wiki/content/docs/mapped/blog/Deploy_ERP_server_story.mdx`
+- 출처: `agent-wiki/content/docs/index.mdx`의 이용 경계, `agent-wiki/content/docs/outputs/Fundamental/Architecture.mdx`, `agent-wiki/content/docs/outputs/Fundamental/Software.mdx`, `agent-wiki/content/docs/outputs/Fundamental/Coding.mdx`, `agent-wiki/content/docs/outputs/blog/Deploy_ERP_server_story.mdx`
 - 역할: "변경 가능성과 느슨한 결합이 장기 안정성을 만든다"는 README 논지 묶음을 운영 가능한 synthesis로 승격
 - 상태: 초안 · 완벽한 첫 구조보다 변경 반경, 상태 소유권, 검증 리듬을 먼저 고정하는 판단 모델
 
@@ -384,5 +384,3 @@ Deploy ERP 노트에서 컨테이너 안 직접 수정이 `down/up` 뒤 사라�
 외부 링크 `source/external-links/ai-agents/2026-05-01-musinsa-techblog-growth-story.md`는 무신사 무진장 이벤트 시스템 사례를 통해 이 패턴을 잘 보여준다. 분당 수백만 조회와 주문 피크를 하나의 성능 문제로 보지 않고, CQRS/Redis로 조회를 격리하고, 쿠폰 계산을 사전 인덱싱으로 옮기고, AIOps와 feature flag를 탐지-제어 쌍으로 묶었다. 여기서 배울 점은 특정 기술명이 아니라, 성장 압력이 커질수록 먼저 책임 경계를 쪼개고 각 경계마다 실패 흡수 방식을 정해야 한다는 점이다.
 
 ## 관련 문서
-- [[../insights/Context over inventory]]
-- [[../insights/Knowledge Lab Operating Thesis]]

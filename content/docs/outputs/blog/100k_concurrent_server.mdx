@@ -78,7 +78,7 @@ language: ko
 | 앞단 구조 | Go 서버 직접 / nginx / Kubernetes ingress / traefik replica | 애플리케이션 pod가 멀쩡해도 앞단 controller가 먼저 막힐 수 있다 |
 | 관측 기준 | `watch ss -s`, `/proc/net/tcp`, CPU, 메모리, 대역폭, ingress 지표 | 숫자만 남기면 어떤 층이 먼저 고갈됐는지 재현하기 어렵다 |
 
-이 표는 원문을 새 결론으로 덮는 것이 아니라, 원문의 의식 흐름을 다음 실험자가 다시 들어갈 수 있는 계약서로 접는 장치다. 특히 [Fundamental/Network](/docs/mapped/Fundamental/Network)가 요청 경로와 프로토콜 계층을 설명한다면, 이 노드는 그 지식을 실제 부하 실험에서 **어떤 성공 조건과 관측 표면으로 고정할지** 보여 주는 사례가 된다.
+이 표는 원문을 새 결론으로 덮는 것이 아니라, 원문의 의식 흐름을 다음 실험자가 다시 들어갈 수 있는 계약서로 접는 장치다. 특히 [Fundamental/Network](/docs/outputs/Fundamental/Network)가 요청 경로와 프로토콜 계층을 설명한다면, 이 노드는 그 지식을 실제 부하 실험에서 **어떤 성공 조건과 관측 표면으로 고정할지** 보여 주는 사례가 된다.
 
 ## 핵심 논지
 
@@ -173,7 +173,7 @@ language: ko
 | `connection reset by peer` | 서버 측 연결 종료·앞단 프록시·재사용 충돌 | 서버 로그, TIME_WAIT, nginx/ingress 로그 | 앱 서버와 앞단 계층 중 누가 끊는지 분리 |
 | ingress에서 조기 거부 | Kubernetes 앞단 구조 | traefik/nginx ingress pod 자원, replica, service endpoint | 애플리케이션 pod보다 controller 병목을 먼저 확인 |
 
-이 루프는 [Meta/Troubleshooting](/docs/mapped/Meta/Troubleshooting)의 `증상 → 상태 확인 → 수정 → 재검증` 문법을 대규모 부하테스트 맥락으로 구체화한다. 동시에 [Fundamental/Infra](/docs/mapped/Fundamental/Infra)의 상태 소유권 관점과도 연결된다. 같은 에러라도 상태를 소유한 주체가 애플리케이션 프로세스인지, 클라이언트 테스트기인지, 커널인지, ingress controller인지에 따라 수정 위치가 달라지기 때문이다.
+이 루프는 [Meta/Troubleshooting](/docs/outputs/Meta/Troubleshooting)의 `증상 → 상태 확인 → 수정 → 재검증` 문법을 대규모 부하테스트 맥락으로 구체화한다. 동시에 [Fundamental/Infra](/docs/outputs/Fundamental/Infra)의 상태 소유권 관점과도 연결된다. 같은 에러라도 상태를 소유한 주체가 애플리케이션 프로세스인지, 클라이언트 테스트기인지, 커널인지, ingress controller인지에 따라 수정 위치가 달라지기 때문이다.
 
 ## 원문이 남기는 구조적 교훈
 
@@ -184,13 +184,13 @@ language: ko
 - `i/o timeout`: 과부하·대기·네트워크 지연이 섞인 문제
 - `network is unreachable`: 경로/가상화/네트워크 계층 문제
 
-원문은 이 오류들을 하나로 뭉개지 않고, **다음에 어느 층을 먼저 의심할지** 배우는 과정으로 읽힌다. 이 점은 [Meta/Troubleshooting](/docs/mapped/Meta/Troubleshooting)의 `증상 → 상태 확인 → 수정 → 재검증` 루프와 정확히 맞닿아 있다.
+원문은 이 오류들을 하나로 뭉개지 않고, **다음에 어느 층을 먼저 의심할지** 배우는 과정으로 읽힌다. 이 점은 [Meta/Troubleshooting](/docs/outputs/Meta/Troubleshooting)의 `증상 → 상태 확인 → 수정 → 재검증` 루프와 정확히 맞닿아 있다.
 
 ### 관측 명령이 있어야 경험담이 운영 자산으로 바뀐다
-이 노트에서 가치 있는 것은 `몇 만 성공`보다 `무엇을 보며 판단했는가`다. `ss -s`, `/proc/net/tcp`, `netstat`, `iperf`, CPU/메모리 확인 메모는 모두 `느낌상 느리다`를 넘어서 **병목을 상태로 만들기 위한 관측 인터페이스**다. 이 감각은 [Deep Knowledge/Monitoring](/docs/mapped/deep-knowledge/monitoring)과도 연결된다.
+이 노트에서 가치 있는 것은 `몇 만 성공`보다 `무엇을 보며 판단했는가`다. `ss -s`, `/proc/net/tcp`, `netstat`, `iperf`, CPU/메모리 확인 메모는 모두 `느낌상 느리다`를 넘어서 **병목을 상태로 만들기 위한 관측 인터페이스**다. 이 감각은 [Deep Knowledge/Monitoring](/docs/outputs/deep-knowledge/monitoring)과도 연결된다.
 
 ### 네트워크 개념 학습과 운영 실험은 분리되지 않는다
-초반의 TCP·포트·keep-alive·window scaling 질문과 후반의 실험 실패는 따로 놀지 않는다. 원문은 개념을 외운 뒤 실험하는 구조가 아니라, **실험에 막혀서 개념 모델을 다시 보강하는 구조**로 움직인다. 그래서 [Fundamental/Network](/docs/mapped/Fundamental/Network)는 이 노드의 배경지식이면서 동시에 계속 되묻는 해설 층이다.
+초반의 TCP·포트·keep-alive·window scaling 질문과 후반의 실험 실패는 따로 놀지 않는다. 원문은 개념을 외운 뒤 실험하는 구조가 아니라, **실험에 막혀서 개념 모델을 다시 보강하는 구조**로 움직인다. 그래서 [Fundamental/Network](/docs/outputs/Fundamental/Network)는 이 노드의 배경지식이면서 동시에 계속 되묻는 해설 층이다.
 
 ### 최고 기록보다 안정 운영 숫자가 따로 있다
 원문은 이론적으로 더 가능해 보여도, 실제 서비스에서는 `5만 정도만 안정적으로` 같은 판단으로 돌아온다. 이는 최고치보다 **CPU·메모리·네트워크·운영 여유를 함께 고려한 현실적 상한**을 더 중요하게 본다는 뜻이다.
@@ -212,12 +212,12 @@ language: ko
 - 성능 최적화를 서버 코드 단독 문제가 아니라 프록시·ingress·멀티프로세스·관측 체계까지 포함한 운영 구조 문제로 본다.
 
 ## 인접 노드 연결
-- [Fundamental/Network](/docs/mapped/Fundamental/Network)
-- [Meta/Troubleshooting](/docs/mapped/Meta/Troubleshooting)
-- [Deep Knowledge/Monitoring](/docs/mapped/deep-knowledge/monitoring)
-- [Fundamental/Infra](/docs/mapped/Fundamental/Infra)
-- [Deep Knowledge/Web](/docs/mapped/deep-knowledge/web)
-- [blog/EKS_with_terraform](/docs/mapped/blog/EKS_with_terraform)
+- [Fundamental/Network](/docs/outputs/Fundamental/Network)
+- [Meta/Troubleshooting](/docs/outputs/Meta/Troubleshooting)
+- [Deep Knowledge/Monitoring](/docs/outputs/deep-knowledge/monitoring)
+- [Fundamental/Infra](/docs/outputs/Fundamental/Infra)
+- [Deep Knowledge/Web](/docs/outputs/deep-knowledge/web)
+- [blog/EKS_with_terraform](/docs/outputs/blog/EKS_with_terraform)
 
 ## 아직 풀리지 않은 긴장
 
