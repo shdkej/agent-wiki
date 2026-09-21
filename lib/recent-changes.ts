@@ -6,6 +6,7 @@ const repoRoot = process.cwd();
 const docsRoot = path.join(repoRoot, 'content/docs');
 const maxCommits = 20;
 const maxFiles = 30;
+const maxDeletedFiles = 5;
 
 export type RecentChange = {
   path: string;
@@ -63,11 +64,16 @@ export function getRecentChanges(): RecentChange[] {
           subject,
           url: fs.existsSync(absolutePath) ? toDocumentUrl(relativePath.replace(/^content\/docs\//, '')) : undefined,
         });
-        if (changes.size >= maxFiles) return [...changes.values()];
       }
     }
 
-    return [...changes.values()];
+    const allChanges = [...changes.values()];
+    const recentChanges = allChanges.slice(0, maxFiles);
+    const recentDeleted = allChanges
+      .filter((change) => change.status === 'deleted')
+      .slice(0, maxDeletedFiles);
+
+    return [...recentChanges, ...recentDeleted.filter((change) => !recentChanges.includes(change))];
   } catch {
     return [];
   }
