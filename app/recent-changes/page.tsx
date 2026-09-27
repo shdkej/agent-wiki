@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import { getRecentChanges } from '@/lib/recent-changes';
 
-export const dynamic = 'force-static';
-
 const statusLabel = {
   added: '추가',
   modified: '수정',
