@@ -8,7 +8,7 @@ export default function Layout({ children }: LayoutProps<'/recent-changes'>) {
       tree={source.getPageTree()}
       {...baseOptions()}
     >
-      <div className="max-md:layout:[--fd-header-height:--spacing(14)]">{children}</div>
+      {children}
     </DocsLayout>
   );
 }
