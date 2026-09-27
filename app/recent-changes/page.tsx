@@ -12,7 +12,7 @@ export default function RecentChangesPage() {
   const changes = getRecentChanges();
 
   return (
-    <main className="mx-auto w-full max-w-4xl px-6 py-16 sm:py-24">
+    <main className="[grid-area:main] mx-auto w-full max-w-4xl px-6 py-16 sm:py-24">
       <p className="text-sm font-medium text-fd-muted-foreground">Git 변경 이력</p>
       <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">최근 변경된 파일</h1>
       <p className="mt-5 max-w-2xl text-base leading-7 text-fd-muted-foreground">
