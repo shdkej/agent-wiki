@@ -7,7 +7,7 @@ export default function Layout({ children }: LayoutProps<'/recent-changes'>) {
     <DocsLayout
       tree={source.getPageTree()}
       {...baseOptions()}
-      containerProps={{ className: 'max-md:[--fd-header-height:--spacing(14)]' }}
+      containerProps={{ className: 'max-md:layout:[--fd-header-height:--spacing(14)]' }}
     >
       {children}
     </DocsLayout>
