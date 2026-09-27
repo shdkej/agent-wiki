@@ -4,7 +4,11 @@ import { baseOptions } from '@/lib/layout.shared';
 
 export default function Layout({ children }: LayoutProps<'/recent-changes'>) {
   return (
-    <DocsLayout tree={source.getPageTree()} {...baseOptions()}>
+    <DocsLayout
+      tree={source.getPageTree()}
+      {...baseOptions()}
+      containerProps={{ className: 'max-md:[--fd-header-height:--spacing(14)]' }}
+    >
       {children}
     </DocsLayout>
   );
