@@ -115,6 +115,10 @@ function mapDocument(items) {
     '',
     '원본 만다라트의 8개 축에서 현재 대응되는 노트를 탐색합니다. 노드 수는 source와 mapped를 함께 검사해 생성하며, 이 페이지는 `npm run generate:mandalart-nav`로 갱신합니다.',
     '',
+    '이 지도는 Knowledge Lab의 사용자 원본 노트를 따릅니다. 외부 출처와 운영 문서는 노트별로 근거가 될 때 연결합니다.',
+    '',
+    '- 원본: `source/README.md`',
+    '',
     `현재 검증 인벤토리: **8개 축 · ${total}개 노드**.`,
     '',
   ];
