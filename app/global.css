@@ -16,3 +16,106 @@ html > body[data-scroll-locked] {
     --fd-header-height: calc(var(--spacing) * 14) !important;
   }
 }
+
+.reader-directory {
+  display: grid;
+  gap: 1rem;
+  margin-block: 1.25rem 1.75rem;
+}
+
+.reader-directory-chapter {
+  min-width: 0;
+  scroll-margin-top: calc(var(--fd-header-height, 0px) + 1rem);
+  padding: 1.125rem 1.25rem;
+  border: 1px solid var(--color-fd-border);
+  border-radius: 0.75rem;
+  background: var(--color-fd-card);
+}
+
+.reader-directory-chapter h2 {
+  margin-block: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.2rem;
+}
+
+.reader-directory-chapter p {
+  margin-block: 0.375rem 0.5rem;
+  color: var(--color-fd-muted-foreground);
+}
+
+.reader-directory-chapter ul {
+  margin-block: 0.25rem 0.625rem;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.reader-directory-chapter li {
+  margin: 0;
+}
+
+.reader-directory-chapter li a,
+.reader-directory-chapter summary {
+  min-height: 2.75rem;
+  overflow-wrap: anywhere;
+}
+
+.reader-directory-chapter li a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  text-underline-offset: 0.17em;
+}
+
+.reader-directory-chapter summary {
+  display: list-item;
+  width: fit-content;
+  padding-block: 0.625rem;
+  cursor: pointer;
+}
+
+.reader-directory-chapter :is(a, summary):focus-visible {
+  outline: 2px solid var(--color-fd-ring);
+  outline-offset: 2px;
+  border-radius: 0.125rem;
+}
+
+@media (min-width: 70rem) {
+  .reader-directory {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+
+  .reader-directory-chapter li a {
+    min-height: 2rem;
+  }
+}
+
+.reader-directory-jump {
+  display: none;
+}
+
+@media (max-width: 47.999rem) {
+  .reader-directory-jump {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.375rem;
+    margin-block: 1rem;
+  }
+
+  .reader-directory-jump a {
+    display: flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding-inline: 0.625rem;
+    border: 1px solid var(--color-fd-border);
+    border-radius: 0.375rem;
+    color: var(--color-fd-foreground);
+    text-decoration: none;
+  }
+
+  .reader-directory-jump a:focus-visible {
+    outline: 2px solid var(--color-fd-ring);
+    outline-offset: 2px;
+  }
+}

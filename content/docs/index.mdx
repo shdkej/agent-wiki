@@ -1,24 +1,149 @@
 ---
 title: "에이전트 위키"
-description: "건강, 공부, 일상에 관해 쓴 노트와 여러 노트를 함께 읽고 정리한 글을 모았습니다."
+description: "생활, 공부, 개발, 사업에서 쌓은 노트입니다."
+full: true
 ---
 
-## 어디서부터 읽을까요?
+{/* Generated from content/reader-navigation.json by npm run generate:reader-nav. */}
 
-[[outputs/source-category-map|원본 주제 지도]]에서 관심 있는 주제를 골라 보세요. 건강에 관해 쓴 노트는 Health에, 글쓰기와 대화에 관한 노트는 Communication에 있습니다.
+<nav className="reader-directory-jump" aria-label="주제로 바로 이동">
+<a href="#reader-life">삶과 사람</a>
+<a href="#reader-thinking">생각과 표현</a>
+<a href="#reader-technology">기술과 운영</a>
+<a href="#reader-business">제품과 사업</a>
+</nav>
 
-노트 몇 편을 바로 열어 볼 수도 있습니다.
+<div className="reader-directory">
+<section className="reader-directory-chapter" id="reader-life">
 
-- [[outputs/Portfolio|포트폴리오]]
-- [[outputs/Meta/Collection|더 알아보고 싶은 질문]]
+## 삶과 사람
+
+건강, 관계, 생활을 어떻게 돌볼까?
+
+- [[outputs/Health/Physical|몸 관리]]
+- [[outputs/Health/Routine|생활 루틴]]
+- [[outputs/Idea/Travel|여행에서 관찰하는 법]]
+
+<details>
+<summary>전체 목차 (12편)</summary>
+
+- [[outputs/Health/Food|먹는 습관]]
+- [[outputs/Human/Balance|생활의 균형]]
+- [[outputs/Human/Love|사랑과 관계]]
+- [[outputs/Human/Future|미래를 준비하는 법]]
+- [[outputs/Human/Reality|현실에서 이상을 키우기]]
+- [[outputs/Human/Evolve|점진적으로 개선하기]]
+- [[outputs/Health/Investment|개인 투자와 주거]]
+- [[outputs/blog/Life_Tracking|생활을 기록하는 실험]]
+- [[outputs/syntheses/reading-the-user-from-the-wiki|위키의 기록으로 사람을 읽을 때]]
+
+</details>
+
+</section>
+<section className="reader-directory-chapter" id="reader-thinking">
+
+## 생각과 표현
+
+어떻게 배우고, 판단하고, 전달할까?
+
+- [[outputs/Idea/Reading|독서와 학습]]
 - [[outputs/Communication/Document|문서 쓰기]]
+- [[outputs/blog/Note_Management|노트를 정리하고 다시 쓰는 법]]
 
-한 편부터 읽고 싶다면 [[outputs/syntheses/reading-the-user-from-the-wiki|위키의 기록으로 사람을 읽을 때]]를 권합니다. 자주 기록한 일과 실제 생활에서 중요하게 여기는 일이 어떻게 다를 수 있는지 짚어 봅니다.
+<details>
+<summary>전체 목차 (22편)</summary>
 
-## 문서를 고칠 때
+- [[outputs/Communication/Blogging|블로그 글과 제목]]
+- [[outputs/Communication/Feedback|피드백]]
+- [[outputs/Communication/Foreign_language|외국어 학습]]
+- [[outputs/Communication/Logical_Thinking|논리적 사고]]
+- [[outputs/Communication/Talk|대화]]
+- [[outputs/Health/Curiosity|호기심을 질문으로 남기기]]
+- [[outputs/Health/Decision|결정하는 법]]
+- [[outputs/Health/Music|베이스 연습]]
+- [[outputs/Human/Principle|나의 원칙]]
+- [[outputs/Human/Readability|읽기 쉽게 만드는 법]]
+- [[outputs/Human/Standard|기준과 형식]]
+- [[outputs/Idea/Article|웹에서 읽은 글을 모으는 법]]
+- [[outputs/Idea/History|역사를 읽는 법]]
+- [[outputs/Idea/Information|정보를 발견하고 판단하는 법]]
+- [[outputs/Idea/Journal|일기를 다시 쓰는 재료로 만들기]]
+- [[outputs/Idea/Movie|영화에서 관찰하기]]
+- [[outputs/Integration/Exploration|연구와 조사]]
+- [[outputs/Meta/Collection|수집한 것을 생각에 쓰는 법]]
+- [[outputs/blog/picasso|피카소와 ChatGPT]]
 
-1. Knowledge Lab의 `source/shdkej-content/`에서 해당 원본을 끝까지 읽고, 위키에서 그 노트에 대응하는 문서도 읽습니다. 예전 기록을 지금도 유효한 판단으로 인용할 때는 원문 날짜와 최근 작업 기록을 확인합니다.
-2. 원본의 폴더와 파일, 빈칸과 반복은 그대로 둡니다. 사용자가 원문을 바꿨다면 `human-reviews/`에 비교본을 남길지 먼저 확인합니다. 외부 자료는 원본 노트의 주제를 설명할 때 참고합니다.
-3. 새 문서와 폴더는 `content/docs/outputs/`에 만듭니다. 원본 노트 한 편에는 위키 문서 한 편을 대응시키고, 여러 노트에 걸친 이야기는 종합 문서에 씁니다. 정기 편집에서는 대응 문서를 한 번에 하나씩 고칩니다.
+</details>
 
-원본을 다루는 세부 규칙은 Knowledge Lab의 `schema/source.md`에 있습니다. 수집 상태는 `ingest/`에서, 편집 이력은 `logs/agent-wiki-query.md`에서 확인할 수 있습니다.
+</section>
+<section className="reader-directory-chapter" id="reader-technology">
+
+## 기술과 운영
+
+시스템을 어떻게 만들고 운영할까?
+
+- [[outputs/Fundamental/Architecture|소프트웨어 아키텍처]]
+- [[outputs/deep-knowledge/ai|AI와 에이전트]]
+- [[outputs/deep-knowledge/monitoring|모니터링]]
+
+<details>
+<summary>전체 목차 (28편)</summary>
+
+- [[outputs/Fundamental/Coding|코딩]]
+- [[outputs/Fundamental/Computer_Architecture|컴퓨터 구조]]
+- [[outputs/Fundamental/Data_Structure|자료구조]]
+- [[outputs/Fundamental/Infra|인프라]]
+- [[outputs/Fundamental/Math|수학]]
+- [[outputs/Fundamental/Network|네트워크]]
+- [[outputs/Fundamental/Software|소프트웨어의 기본]]
+- [[outputs/deep-knowledge/container|컨테이너]]
+- [[outputs/deep-knowledge/data|데이터]]
+- [[outputs/deep-knowledge/devops|DevOps]]
+- [[outputs/deep-knowledge/operation|서비스 운영]]
+- [[outputs/deep-knowledge/web|웹]]
+- [[outputs/Integration/Tool|작업 도구]]
+- [[outputs/Meta/AGENTS|에이전트와 함께 일하는 규칙]]
+- [[outputs/Meta/About_Architecture|아키텍처를 판단하는 법]]
+- [[outputs/Meta/About_Development|개발의 기본기]]
+- [[outputs/Meta/Developer|개발자로 성장하기]]
+- [[outputs/Meta/My_space|개인 운영 환경 설계]]
+- [[outputs/Meta/Troubleshooting|트러블슈팅]]
+- [[outputs/Communication/Open_Source|오픈소스]]
+- [[outputs/blog/100k_concurrent_server|동시 접속 10만 서버 사례]]
+- [[outputs/blog/Decision_Monitor_Size|모니터 크기를 고른 기준]]
+- [[outputs/blog/Deploy_ERP_server_story|ERP 서버 배포 사례]]
+- [[outputs/blog/EKS_with_terraform|Terraform으로 EKS 구축]]
+- [[outputs/blog/My_space|홈랩 구축 사례]]
+
+</details>
+
+</section>
+<section className="reader-directory-chapter" id="reader-business">
+
+## 제품과 사업
+
+어떤 가치를 만들고 고객에게 전달할까?
+
+- [[outputs/deep-knowledge/product|제품과 첫 가치]]
+- [[outputs/Integration/Business|사업 가설과 조직]]
+- [[outputs/Integration/Marketing|마케팅]]
+
+<details>
+<summary>전체 목차 (12편)</summary>
+
+- [[outputs/Integration/Creator|창작자]]
+- [[outputs/Integration/Design|디자인]]
+- [[outputs/Integration/Economics|경제와 의사결정]]
+- [[outputs/Integration/Work|일을 실행하는 법]]
+- [[outputs/Communication/Teamwork|팀워크]]
+- [[outputs/Meta/BRANDING|브랜딩]]
+- [[outputs/Meta/Fail_experience|실패를 다음 실행에 반영하기]]
+- [[outputs/Meta/MinimalCollection|미니멀 모음의 초기 구상]]
+- [[outputs/blog/Digital_Content|디지털 콘텐츠]]
+
+</details>
+
+</section>
+</div>
+
+[[outputs/Portfolio|포트폴리오]] · [[outputs/source-category-map|원본 주제 지도]]
