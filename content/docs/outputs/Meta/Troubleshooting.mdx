@@ -16,14 +16,14 @@ language: ko
 - 상태: 안정 디벨롭
 - 역할: 원본 만다라트 노드와 1:1 대응하는 메타 트러블슈팅 페이지
 
-## 핵심 해석
+## 장애 기록의 범위와 원문 [#핵심-해석]
 `Troubleshooting`은 도구별 오류 FAQ가 아니라, 실패한 작업 환경으로 다시 들어가기 위한 개인 복구 인덱스다. 원문 첫머리의 `조건을 단순하고 명확하게 정리`, `조건과 관련된 정보를 찾아 연결`, `근거없는 무엇이 개입되지 않아야 함`이 전체 노드의 기준이다.
 
 원문은 Jupyter, Wi-Fi, Vagrant, GitHub Pages, Docker, WSL, Go, AWS, Grafana, Kubernetes, k3s, Odoo, Linux 복구까지 아주 넓다. 하지만 넓은 범위의 중심은 같다. 증상을 먼저 남기고, 확인한 상태를 좁히고, 설정·권한·버전·네트워크·자원을 바꿔 본 뒤, 다시 접속하거나 재실행해 닫힌 조건을 확인한다.
 
 `Meta > Troubleshooting`이라는 위치에서 보면 이 노드는 지식 사전보다 문제 해결 태도의 운영 기록이다. [Document](/docs/outputs/Communication/Document)의 문서화 감각, [About_Development](/docs/outputs/Meta/About_Development)의 설명 가능한 개발 태도, [Developer](/docs/outputs/Meta/Developer)의 문제 해결 경험 증명과 함께 읽을 때 가치가 커진다.
 
-## 원문 발췌 구조
+### 원문 발췌 구조
 - `Disclaimer`: 특정 문제는 `Ctrl+F`로 찾으라는 전제가 먼저 나온다. 이 노드는 서사형 글보다 검색 가능한 장애 표면을 중시한다.
 - `문제해결법`: 조건 단순화, 관련 정보 연결, 근거 없는 개입 배제가 핵심 원칙으로 제시된다.
 - `처리 완료`: Jupyter, Wi-Fi, Vagrant, GitHub Pages, Terraform, Ansible, Jenkins, API Gateway, Prometheus, Gatsby, WSL, Lambda 한글 깨짐처럼 닫힌 사례가 누적된다.
@@ -32,7 +32,9 @@ language: ko
 - Odoo·PostgreSQL·볼륨 메모: 실행 단위와 저장 단위를 섞으면 위험해지는 stateful 복구 질문이 드러난다.
 - Linux 복구와 Ubuntu 업데이트 메모: 애플리케이션 바깥의 작업 환경 자체를 다시 살리는 층위다.
 
-## 판단 모델 1. 기록 단위는 `증상 → 상태 → 개입 → 닫힘`이다
+## 증상 분류부터 복구까지
+
+### 판단 모델 1. 기록 단위는 `증상 → 상태 → 개입 → 닫힘`이다
 원문은 거칠고 짧지만, 재사용 가능한 트러블슈팅 기록은 네 칸으로 읽을 수 있다.
 
 | 칸 | 원문에서 보이는 형태 | 보존 이유 |
@@ -44,7 +46,7 @@ language: ko
 
 이 관점에서 원문의 짧은 에러 문자열은 지저분한 잡음이 아니다. 너무 매끈한 한국어 설명으로 모두 바꾸면 다음 실패 때 검색 입구가 사라진다. 본문은 판단 축을 제공하되 대표 증상, 명령어, 상태값은 실제 장애 표면으로 남겨야 한다.
 
-## 판단 모델 2. 대부분의 장애는 다섯 축으로 좁혀진다
+### 판단 모델 2. 대부분의 장애는 다섯 축으로 좁혀진다
 서로 다른 도구가 계속 나오지만 반복되는 원인 후보는 제한적이다.
 
 - 권한: `sudo`, npm global permission, `runAsUser`, 파일 소유권, SSH 접근.
@@ -55,7 +57,7 @@ language: ko
 
 Kubernetes 구간이 긴 이유도 이 다섯 축이 한꺼번에 드러나기 때문이다. API 서버 접속 불가, node 상태, coredns, flannel/weave, selector/label, OOM, volume, swap 문제가 서로 얽힌다. 그래서 이 노드에서 Kubernetes는 특정 기술 부록이 아니라, 관측과 복구 순서를 훈련하는 가장 압축된 운영 사례다.
 
-## 판단 모델 3. 초기화는 빠르지만 stateful 경계는 먼저 가른다
+### 판단 모델 3. 초기화는 빠르지만 stateful 경계는 먼저 가른다
 원문에는 `reset`, `delete`, `reinstall`, `prune`, `terraform init -reconfigure`, `kubeadm reset`, `minikube delete`, `k3s-killall.sh` 같은 초기화 명령이 자주 나온다. 이는 원인 분석 포기가 아니라, 꼬인 상태를 관측 가능한 상태로 되돌리는 실무적 복구 전략에 가깝다.
 
 다만 후반의 Odoo, PostgreSQL, filestore, session, volume, 권한 메모는 초기화의 위험도 함께 보여 준다. pod, process, container는 다시 만들 수 있지만 database, filestore, session, volume은 지우면 의미가 달라진다. 그래서 reset 전에 다음 경계를 먼저 나눠야 한다.
@@ -70,7 +72,9 @@ Kubernetes 구간이 긴 이유도 이 다섯 축이 한꺼번에 드러나기 �
 
 이 구분이 없으면 초기화는 복구가 아니라 데이터 손상이나 원인 은폐가 될 수 있다. 반대로 이 구분이 있으면 재설치는 빠른 복구와 근본 원인 추적 사이를 이어 주는 안전한 중간 단계가 된다.
 
-## 특히 보존할 원문 앵커
+## 사례 근거와 후속 검토
+
+### 특히 보존할 원문 앵커
 - 첫 세 원칙: 조건 단순화, 관련 정보 연결, 근거 없는 개입 배제.
 - `Ctrl+F` 전제: 트러블슈팅 문서는 이해 가능한 글이면서 검색 가능한 인덱스여야 한다.
 - 대표 증상 문자열: `not working`, `cannot access`, `connection refused`, `pending`, `NotReady`, `fatal`, `404`, `broken`.
@@ -79,7 +83,7 @@ Kubernetes 구간이 긴 이유도 이 다섯 축이 한꺼번에 드러나기 �
 - stateful 복구 질문: Odoo, PostgreSQL, filestore, session, volume, 권한 메모는 저장 상태의 소유자를 먼저 가르라는 신호다.
 - 시스템 복구 메모: Wi-Fi hard block, Hypervisor, Linux 부팅, Ubuntu 업데이트 문제는 작업 환경 전체를 복구 대상으로 본다는 증거다.
 
-## 인접 노드 연결
+### 인접 노드 연결
 - [Document](/docs/outputs/Communication/Document): 같은 문제를 다시 덜 겪게 만드는 히스토리 문서와 운영 기억이라는 점에서 직접 연결된다.
 - [About_Development](/docs/outputs/Meta/About_Development): 개발자의 기본을 설명 가능성과 재진입 가능성으로 본다는 점에서 이어진다.
 - [Developer](/docs/outputs/Meta/Developer): 문제 해결 경험을 설명 가능한 경력 서사로 바꾸는 표면과 연결된다.
@@ -89,7 +93,7 @@ Kubernetes 구간이 긴 이유도 이 다섯 축이 한꺼번에 드러나기 �
 - [Data](/docs/outputs/deep-knowledge/data): 데이터와 저장소가 실행 단위 바깥에서 어떻게 보존되고 다시 붙는지 확인하는 축과 이어진다.
 - [My_space](/docs/outputs/Meta/My_space): 개인 서버와 운영 공간을 직접 관리할 때 필요한 복구 감각과 연결된다.
 
-## 후속 정리 기준
+### 후속 정리 기준
 - 새 오류 사례를 추가할 때는 도구 이름보다 `증상`, `확인한 상태`, `바꾼 것`, `닫힌 조건`을 먼저 남긴다.
 - 대표 에러 문자열은 검색 표면으로 보존하되, 본문 해석은 권한·경로·버전·네트워크·자원 중 어디에 속하는지 연결한다.
 - Kubernetes나 k3s 사례를 더 늘릴 때는 reset 명령만 남기지 말고, 관측한 상태와 보존해야 할 저장 상태를 함께 남긴다.

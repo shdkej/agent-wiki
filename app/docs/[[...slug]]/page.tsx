@@ -19,12 +19,15 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
   if (!page) notFound();
 
   const isDirectory = page.slugs.length === 0;
+  const toc = page.slugs[0] === 'outputs'
+    ? page.data.toc.filter(({ depth }) => depth === 2 || depth === 3)
+    : page.data.toc;
   const MDX = page.data.body;
   const markdownUrl = getPageMarkdownUrl(page).url;
 
   return (
     <DocsPage
-      toc={page.data.toc}
+      toc={toc}
       full={page.data.full}
       breadcrumb={{ enabled: !isDirectory }}
       footer={{ enabled: !isDirectory }}
